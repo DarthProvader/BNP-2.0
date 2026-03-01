@@ -61,12 +61,6 @@ export default function ConcreteMonolith() {
         <header className="border-b-[6px] border-[#1a1a1a]">
           {/* Navigation bar */}
           <nav className="flex items-center justify-between border-b-[3px] border-[#1a1a1a] px-4 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] sm:px-8">
-            <Link
-              href="/"
-              className="text-[#e8e4e0]/60 transition-colors hover:text-[#0055ff]"
-            >
-              &larr; Zpět
-            </Link>
             <div className="flex items-center gap-4 sm:gap-8">
               <span className="hidden text-[#e8e4e0]/40 sm:inline">
                 Variace 01

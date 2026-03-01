@@ -279,16 +279,7 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         <header className="pt-6 pb-8 border-b border-cyan-900/30">
           {/* Top bar: back + lang */}
-          <div className="flex items-center justify-between mb-6">
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-sm tracking-wide transition-colors hover:text-[#00f0ff]"
-              style={{ fontFamily: "var(--font-chakra)", color: "#00f0ff" }}
-            >
-              <span className="text-lg">←</span>
-              <span>zpět</span>
-            </Link>
-
+          <div className="flex items-center justify-end mb-6">
             <button
               onClick={() => setLang(lang === "cs" ? "en" : "cs")}
               className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border"

@@ -1,8 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Exo_2, Inconsolata } from "next/font/google";
-import { articles, allTags } from "@/lib/mockData";
+import Link from "next/link";
+import { articles } from "@/lib/mockData";
+import { notFound } from "next/navigation";
 
 const exo2 = Exo_2({
   weight: ["400", "600", "700", "800"],
@@ -16,7 +18,10 @@ const inconsolata = Inconsolata({
   variable: "--font-inconsolata",
 });
 
-/* ─── helpers ─── */
+/* ------------------------------------------------------------------ */
+/*  Reusable HUD components                                           */
+/* ------------------------------------------------------------------ */
+
 function SignalBars({ strength }: { strength: number }) {
   return (
     <span className="inline-flex items-end gap-[2px]">
@@ -35,22 +40,22 @@ function SignalBars({ strength }: { strength: number }) {
 
 function CircularProgress({ value, max }: { value: number; max: number }) {
   const pct = (value / max) * 100;
-  const r = 12;
+  const r = 14;
   const circ = 2 * Math.PI * r;
   const offset = circ - (pct / 100) * circ;
   return (
-    <svg width="30" height="30" className="inline-block -mt-0.5">
+    <svg width="36" height="36" className="inline-block -mt-0.5">
       <circle
-        cx="15"
-        cy="15"
+        cx="18"
+        cy="18"
         r={r}
         fill="none"
         stroke="#00e5ff20"
         strokeWidth="2"
       />
       <circle
-        cx="15"
-        cy="15"
+        cx="18"
+        cy="18"
         r={r}
         fill="none"
         stroke="#00e5ff"
@@ -58,14 +63,14 @@ function CircularProgress({ value, max }: { value: number; max: number }) {
         strokeDasharray={circ}
         strokeDashoffset={offset}
         strokeLinecap="round"
-        transform="rotate(-90 15 15)"
+        transform="rotate(-90 18 18)"
       />
       <text
-        x="15"
-        y="15"
+        x="18"
+        y="18"
         textAnchor="middle"
         dominantBaseline="central"
-        className="fill-[#00e5ff] text-[7px] font-[family-name:var(--font-inconsolata)]"
+        className="fill-[#00e5ff] text-[8px] font-[family-name:var(--font-inconsolata)]"
       >
         {value}m
       </text>
@@ -82,10 +87,8 @@ function CornerBrackets({
   className?: string;
   color?: string;
 }) {
-  const brk = `border-[${color}]/40`;
   return (
     <div className={`relative ${className}`}>
-      {/* TL */}
       <span
         className="pointer-events-none absolute -left-1 -top-1 h-3 w-3"
         style={{
@@ -94,7 +97,6 @@ function CornerBrackets({
           opacity: 0.6,
         }}
       />
-      {/* TR */}
       <span
         className="pointer-events-none absolute -right-1 -top-1 h-3 w-3"
         style={{
@@ -103,7 +105,6 @@ function CornerBrackets({
           opacity: 0.6,
         }}
       />
-      {/* BL */}
       <span
         className="pointer-events-none absolute -bottom-1 -left-1 h-3 w-3"
         style={{
@@ -112,7 +113,6 @@ function CornerBrackets({
           opacity: 0.6,
         }}
       />
-      {/* BR */}
       <span
         className="pointer-events-none absolute -bottom-1 -right-1 h-3 w-3"
         style={{
@@ -152,12 +152,23 @@ function DiamondRule() {
   );
 }
 
-/* ─── main component ─── */
-export default function HolographicHUD() {
+/* ------------------------------------------------------------------ */
+/*  Main Article Detail Page                                          */
+/* ------------------------------------------------------------------ */
+
+export default function ArticleDetail({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = React.use(params);
+
+  const article = articles.find((a) => a.slug === slug);
+
   const [scanLine, setScanLine] = useState(0);
-  const [activeTag, setActiveTag] = useState<string | null>(null);
   const [hudTime, setHudTime] = useState("00:00:00");
   const [locked, setLocked] = useState(false);
+  const [lang, setLang] = useState<"cz" | "en">("cz");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -173,26 +184,27 @@ export default function HolographicHUD() {
     const anim = setInterval(() => {
       setScanLine((p) => (p >= 100 ? 0 : p + 0.5));
     }, 30);
-    const lockTimer = setTimeout(() => setLocked(true), 3000);
+    const lockTimer = setTimeout(() => setLocked(true), 2000);
     return () => {
       clearInterval(anim);
       clearTimeout(lockTimer);
     };
   }, []);
 
-  const featured = articles[0];
-  const rest = articles.slice(1);
-  const filtered = activeTag
-    ? rest.filter((a) => a.tags.includes(activeTag))
-    : rest;
+  if (!article) {
+    notFound();
+  }
 
-  const statusLabels = ["NEW", "ANALYZED", "ANALYZED", "ARCHIVED"];
+  const title = lang === "cz" ? article.title : article.titleEn;
+  const content = lang === "cz" ? article.content : article.contentEn;
+  const excerpt = lang === "cz" ? article.excerpt : article.excerptEn;
+  const paragraphs = content.split("\n\n").filter((p) => p.trim());
 
   return (
     <div
       className={`${exo2.variable} ${inconsolata.variable} relative min-h-screen bg-[#030308] text-[#00e5ff] selection:bg-[#00e5ff] selection:text-[#030308]`}
     >
-      {/* ─── Global Styles ─── */}
+      {/* ── Global Styles ── */}
       <style jsx global>{`
         @keyframes hud-scan {
           0% {
@@ -247,7 +259,7 @@ export default function HolographicHUD() {
         }
       `}</style>
 
-      {/* ─── Dotted Grid BG ─── */}
+      {/* ── Dotted Grid BG ── */}
       <div
         className="pointer-events-none fixed inset-0 z-0 opacity-[0.07]"
         style={{
@@ -257,7 +269,7 @@ export default function HolographicHUD() {
         }}
       />
 
-      {/* ─── Edge data readouts ─── */}
+      {/* ── Edge data readouts ── */}
       <div className="pointer-events-none fixed left-2 top-1/2 z-40 -translate-y-1/2 font-[family-name:var(--font-inconsolata)] text-[9px] text-[#00e5ff]/30 [writing-mode:vertical-lr]">
         SYS.LOAD: 42% | MEM: 2.4GB | NET: 128ms | FPS: 60
       </div>
@@ -265,58 +277,83 @@ export default function HolographicHUD() {
         FREQ: 2.4GHz | UPLINK: STABLE | LAT: 12ms | BAND: 5G-NR
       </div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-3 pb-8 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto max-w-4xl px-3 pb-8 sm:px-6 lg:px-8">
         {/* ================================================================
-            HEADER HUD
+            SYSTEM BAR
+        ================================================================ */}
+        <div className="flex items-center justify-between border-b border-[#00e5ff]/15 py-2 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.2em] text-[#00e5ff]/40">
+          <span className="flex items-center gap-2">
+            <span
+              className="inline-block h-1.5 w-1.5 rounded-full bg-[#00e5ff]/60"
+              style={{ animation: "hud-pulse 2s infinite" }}
+            />
+            SYS.STATUS: NOMINAL
+          </span>
+          <span className="hidden sm:inline">
+            50.0755N, 14.4378E PRAHA
+          </span>
+          <span className="flex items-center gap-2">
+            {hudTime}
+            <SignalBars strength={4} />
+          </span>
+        </div>
+
+        {/* ================================================================
+            HEADER
         ================================================================ */}
         <header className="relative border-b border-[#00e5ff]/20 pb-3 pt-4">
-          {/* Top system bar */}
-          <div className="mb-3 flex items-center justify-between font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.2em] text-[#00e5ff]/40">
-            <span>SYS.STATUS: NOMINAL</span>
-            <span className="hidden sm:inline">
-              50.0755°N, 14.4378°E PRAHA
-            </span>
-            <span className="flex items-center gap-2">
-              {hudTime}
-              <SignalBars strength={4} />
-            </span>
-          </div>
-
-          {/* Main title row */}
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <CornerBrackets className="inline-block px-3 py-1">
-                <h1 className="font-[family-name:var(--font-exo2)] text-2xl font-800 tracking-wider text-[#00e5ff] sm:text-3xl lg:text-4xl hud-flicker">
-                  BEROU NAM PRACI
+                <h1 className="font-[family-name:var(--font-exo2)] text-lg font-800 tracking-wider text-[#00e5ff] sm:text-xl hud-flicker">
+                  DATA READOUT
                 </h1>
               </CornerBrackets>
               <p className="mt-1 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.3em] text-[#00e5ff]/40">
-                AI Intelligence Feed v2.0 // Holographic HUD Interface
+                Article Intelligence // Detailed Analysis View
               </p>
             </div>
 
-            {/* Nav */}
             <nav className="flex items-center gap-2 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.15em]">
+              <Link
+                href="/7"
+                className="group flex items-center gap-1 border border-[#00e5ff]/20 px-2 py-1 text-[#00e5ff]/50 transition-all hover:border-[#00e5ff]/60 hover:text-[#00e5ff]"
+              >
+                <span className="text-[#ffc400]/60">&larr;</span> EXIT HUD
+              </Link>
               <span className="border border-[#00e5ff]/20 px-2 py-1 text-[#00e5ff]/50">
                 VAR.07
               </span>
               <div className="flex border border-[#00e5ff]/20">
-                <button className="bg-[#00e5ff]/15 px-2 py-1 text-[#00e5ff]">
+                <button
+                  onClick={() => setLang("cz")}
+                  className={`px-2 py-1 transition-colors ${
+                    lang === "cz"
+                      ? "bg-[#00e5ff]/15 text-[#00e5ff]"
+                      : "text-[#00e5ff]/30 hover:text-[#00e5ff]"
+                  }`}
+                >
                   CZ
                 </button>
-                <button className="px-2 py-1 text-[#00e5ff]/30 transition-colors hover:text-[#00e5ff]">
+                <button
+                  onClick={() => setLang("en")}
+                  className={`px-2 py-1 transition-colors ${
+                    lang === "en"
+                      ? "bg-[#00e5ff]/15 text-[#00e5ff]"
+                      : "text-[#00e5ff]/30 hover:text-[#00e5ff]"
+                  }`}
+                >
                   EN
                 </button>
               </div>
             </nav>
           </div>
 
-          {/* Thin connecting line from header */}
           <div className="absolute -bottom-px left-1/2 h-4 w-px bg-linear-to-b from-[#00e5ff]/40 to-transparent" />
         </header>
 
         {/* ================================================================
-            FEATURED — TARGET ACQUIRED
+            TARGET PANEL
         ================================================================ */}
         <section className="relative mt-8">
           {/* Scan line */}
@@ -335,29 +372,26 @@ export default function HolographicHUD() {
                     animation: locked ? "none" : "hud-pulse 1.5s infinite",
                   }}
                 />
-                <span className={locked ? "text-[#ffc400]" : "text-[#00e5ff]/60"}>
+                <span
+                  className={locked ? "text-[#ffc400]" : "text-[#00e5ff]/60"}
+                >
                   {locked ? "TARGET LOCKED" : "SCANNING..."}
                 </span>
               </span>
               <span className="text-[#00e5ff]/40">
-                ID: TGT-001 | PRI: HIGH |{" "}
-                <SignalBars strength={4} />
+                ID: TGT-
+                {String(articles.indexOf(article) + 1).padStart(3, "0")} |
+                PRI: HIGH | <SignalBars strength={4} />
               </span>
             </div>
 
-            {/* Targeting reticle — centered */}
+            {/* Targeting reticle */}
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
-              {/* Outer ring */}
-              <div className="h-32 w-32 rounded-full border border-[#00e5ff]/10 sm:h-48 sm:w-48" />
-              {/* Mid ring */}
-              <div className="absolute left-1/2 top-1/2 h-20 w-20 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#00e5ff]/15 sm:h-28 sm:w-28" />
-              {/* Inner ring */}
-              <div className="absolute left-1/2 top-1/2 h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#00e5ff]/20 sm:h-12 sm:w-12" />
-              {/* Crosshair H */}
+              <div className="h-40 w-40 rounded-full border border-[#00e5ff]/10 sm:h-56 sm:w-56" />
+              <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#00e5ff]/15 sm:h-36 sm:w-36" />
+              <div className="absolute left-1/2 top-1/2 h-10 w-10 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#00e5ff]/20 sm:h-16 sm:w-16" />
               <div className="absolute left-0 top-1/2 h-px w-full bg-[#00e5ff]/10" />
-              {/* Crosshair V */}
               <div className="absolute left-1/2 top-0 h-full w-px bg-[#00e5ff]/10" />
-              {/* Ping */}
               {locked && (
                 <div
                   className="absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#ffc400]/40"
@@ -369,237 +403,131 @@ export default function HolographicHUD() {
             {/* Content */}
             <div className="relative z-20">
               <p className="mb-2 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.3em] text-[#ffc400]/70">
-                Target Acquired
+                Target Acquired // Full Analysis
               </p>
-              <h2 className="mb-3 font-[family-name:var(--font-exo2)] text-xl font-700 leading-tight text-[#00e5ff] sm:text-2xl lg:text-3xl">
-                {featured.title}
+
+              {/* ── Article Title ── */}
+              <h2 className="mb-4 font-[family-name:var(--font-exo2)] text-xl font-700 leading-tight text-[#00e5ff] sm:text-2xl lg:text-3xl">
+                {title}
               </h2>
 
-              {/* Meta data readout */}
-              <div className="mb-4 flex flex-wrap items-center gap-3 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.15em] text-[#00e5ff]/50">
-                <span>DATE: {featured.date}</span>
+              {/* ── Meta Data Readout ── */}
+              <div className="mb-4 flex flex-wrap items-center gap-4 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.15em] text-[#00e5ff]/50">
+                <span>DATE: {article.date}</span>
                 <span className="hidden sm:inline">|</span>
                 <span className="flex items-center gap-1">
-                  READ: <CircularProgress value={featured.readTime} max={10} />
+                  READ: <CircularProgress value={article.readTime} max={10} />
                 </span>
                 <span className="hidden sm:inline">|</span>
                 <span className="flex items-center gap-1">
-                  SRC: {featured.sources.length} VERIFIED{" "}
-                  <SignalBars strength={4} />
+                  SRC: {article.sources.length} VERIFIED{" "}
+                  <SignalBars strength={article.sources.length} />
                 </span>
               </div>
 
-              {/* Tags */}
+              {/* ── Tags as HexBadges ── */}
               <div className="mb-4 flex flex-wrap gap-2">
-                {featured.tags.map((t) => (
+                {article.tags.map((t) => (
                   <HexBadge key={t} label={t} />
                 ))}
               </div>
 
-              {/* Excerpt in translucent panel */}
+              {/* ── Excerpt Panel ── */}
               <CornerBrackets className="border border-[#00e5ff]/15 bg-[#00e5ff]/[0.04] p-3 sm:p-4">
                 <p className="font-[family-name:var(--font-inconsolata)] text-xs leading-relaxed text-[#00e5ff]/70 sm:text-sm">
-                  {featured.excerpt}
+                  {excerpt}
                 </p>
               </CornerBrackets>
-
-              {/* Sources */}
-              <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                {featured.sources.map((s, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-2 border border-[#00e5ff]/10 bg-[#00e5ff]/[0.02] px-2 py-1 font-[family-name:var(--font-inconsolata)] text-[10px] text-[#00e5ff]/40"
-                  >
-                    <span className="text-[#ffc400]/50">
-                      {s.type === "youtube"
-                        ? "YT"
-                        : s.type === "twitter"
-                          ? "TW"
-                          : s.type === "podcast"
-                            ? "POD"
-                            : "WEB"}
-                    </span>
-                    <span className="truncate">{s.title}</span>
-                  </div>
-                ))}
-              </div>
             </div>
           </CornerBrackets>
 
-          {/* Connecting line to next section */}
           <div className="mx-auto h-8 w-px bg-linear-to-b from-[#00e5ff]/30 to-transparent" />
         </section>
 
         {/* ================================================================
-            TAG FILTER BAR
+            BODY TEXT
         ================================================================ */}
-        <section className="relative mb-6">
-          <CornerBrackets className="border border-[#00e5ff]/15 bg-[#00e5ff]/[0.02] p-3">
-            <div className="mb-2 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.3em] text-[#00e5ff]/40">
-              Filter // Signal Classification
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setActiveTag(null)}
-                className={`flex items-center gap-1.5 border px-2 py-1 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-wider transition-all ${
-                  activeTag === null
-                    ? "border-[#00e5ff]/50 bg-[#00e5ff]/10 text-[#00e5ff]"
-                    : "border-[#00e5ff]/15 text-[#00e5ff]/30 hover:border-[#00e5ff]/30 hover:text-[#00e5ff]/60"
-                }`}
-              >
-                <span
-                  className={`inline-block h-1.5 w-1.5 rounded-full ${
-                    activeTag === null ? "bg-[#00e5ff]" : "bg-[#00e5ff]/20"
-                  }`}
-                />
-                ALL
-              </button>
-              {allTags.map((tag) => (
-                <button
-                  key={tag}
-                  onClick={() =>
-                    setActiveTag(activeTag === tag ? null : tag)
-                  }
-                  className={`flex items-center gap-1.5 border px-2 py-1 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-wider transition-all ${
-                    activeTag === tag
-                      ? "border-[#ffc400]/50 bg-[#ffc400]/10 text-[#ffc400]"
-                      : "border-[#00e5ff]/15 text-[#00e5ff]/30 hover:border-[#00e5ff]/30 hover:text-[#00e5ff]/60"
-                  }`}
-                >
-                  <span
-                    className={`inline-block h-1.5 w-1.5 rounded-full ${
-                      activeTag === tag ? "bg-[#ffc400]" : "bg-[#00e5ff]/20"
-                    }`}
-                  />
-                  {tag}
-                </button>
+        <section className="mb-6">
+          <div className="mb-3 flex items-center gap-3 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.3em] text-[#00e5ff]/40">
+            <span>Data Stream // Full Content</span>
+            <div className="h-px flex-1 bg-linear-to-r from-[#00e5ff]/20 to-transparent" />
+          </div>
+
+          <CornerBrackets className="border border-[#00e5ff]/15 bg-[#00e5ff]/[0.02] p-4 sm:p-6">
+            <div className="space-y-4">
+              {paragraphs.map((para, idx) => (
+                <div key={idx} className="relative">
+                  {/* Paragraph number marker */}
+                  <span className="absolute -left-1 top-0 font-[family-name:var(--font-inconsolata)] text-[8px] text-[#00e5ff]/20 sm:-left-4">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <p className="font-[family-name:var(--font-inconsolata)] text-xs leading-relaxed text-[#00e5ff]/70 sm:pl-4 sm:text-sm">
+                    {para}
+                  </p>
+                  {idx < paragraphs.length - 1 && (
+                    <div className="mt-4 h-px w-full bg-linear-to-r from-[#00e5ff]/10 via-[#00e5ff]/5 to-transparent" />
+                  )}
+                </div>
               ))}
             </div>
           </CornerBrackets>
         </section>
 
+        <DiamondRule />
+
         {/* ================================================================
-            ARTICLE GRID — FLOATING HUD WINDOWS
+            SOURCES
         ================================================================ */}
-        <section className="mb-8">
-          <div className="mb-3 flex items-center justify-between font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.3em] text-[#00e5ff]/40">
-            <span>Targets // {filtered.length + 1} Tracked</span>
-            <span>
-              GRID VIEW |{" "}
-              <span className="text-[#ffc400]/40">UPLINK ACTIVE</span>
+        <section className="mb-6 mt-4">
+          <div className="mb-4 flex items-center gap-3">
+            <span className="font-[family-name:var(--font-exo2)] text-sm font-700 uppercase tracking-[0.3em] text-[#00e5ff]/70">
+              Sources
+            </span>
+            <div className="h-px flex-1 bg-linear-to-r from-[#00e5ff]/20 to-transparent" />
+            <span className="font-[family-name:var(--font-inconsolata)] text-[9px] uppercase tracking-[0.2em] text-[#00e5ff]/30">
+              {article.sources.length} Verified
             </span>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2 lg:gap-5">
-            {filtered.map((article, idx) => {
-              const status = statusLabels[idx % statusLabels.length];
-              const signalStrength = 4 - (idx % 2);
-
+          <div className="grid gap-3 sm:grid-cols-2">
+            {article.sources.map((s, i) => {
+              const typeAbbr =
+                s.type === "youtube"
+                  ? "YT"
+                  : s.type === "twitter"
+                    ? "TW"
+                    : s.type === "podcast"
+                      ? "POD"
+                      : "WEB";
               return (
                 <CornerBrackets
-                  key={article.slug}
-                  className="group relative border border-[#00e5ff]/15 bg-[#00e5ff]/[0.03] p-4 transition-all hover:border-[#00e5ff]/40 hover:bg-[#00e5ff]/[0.06]"
+                  key={i}
+                  className="flex items-center gap-3 border border-[#00e5ff]/10 bg-[#00e5ff]/[0.02] px-3 py-2"
                 >
-                  {/* Scan line per card */}
-                  <div
-                    className="pointer-events-none absolute left-0 z-10 h-px w-full opacity-0 transition-opacity group-hover:opacity-100"
-                    style={{
-                      top: `${scanLine}%`,
-                      background:
-                        "linear-gradient(to right, transparent, rgba(0,229,255,0.3), transparent)",
-                    }}
-                  />
-
-                  {/* Status row */}
-                  <div className="mb-2 flex items-center justify-between font-[family-name:var(--font-inconsolata)] text-[9px] uppercase tracking-[0.2em]">
-                    <span
-                      className={`flex items-center gap-1.5 ${
-                        status === "NEW"
-                          ? "text-[#ffc400]"
-                          : status === "ARCHIVED"
-                            ? "text-[#00e5ff]/30"
-                            : "text-[#00e5ff]/50"
-                      }`}
-                    >
-                      <span
-                        className={`inline-block h-1.5 w-1.5 rounded-full ${
-                          status === "NEW"
-                            ? "bg-[#ffc400]"
-                            : status === "ARCHIVED"
-                              ? "bg-[#00e5ff]/20"
-                              : "bg-[#00e5ff]/40"
-                        }`}
-                        style={
-                          status === "NEW"
-                            ? { animation: "hud-pulse 1.5s infinite" }
-                            : undefined
-                        }
-                      />
-                      {status}
-                    </span>
-                    <span className="flex items-center gap-2 text-[#00e5ff]/30">
-                      TGT-{String(idx + 2).padStart(3, "0")}
-                      <SignalBars strength={signalStrength} />
-                    </span>
+                  <span className="flex h-8 w-10 shrink-0 items-center justify-center border border-[#ffc400]/20 bg-[#ffc400]/[0.08] font-[family-name:var(--font-exo2)] text-xs font-700 text-[#ffc400]/80">
+                    {typeAbbr}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-[family-name:var(--font-inconsolata)] text-[11px] text-[#00e5ff]/60">
+                      {s.title}
+                    </p>
+                    <p className="truncate font-[family-name:var(--font-inconsolata)] text-[9px] text-[#00e5ff]/25">
+                      {s.url}
+                    </p>
                   </div>
-
-                  {/* Title */}
-                  <h3 className="mb-2 font-[family-name:var(--font-exo2)] text-sm font-600 leading-snug text-[#00e5ff]/90 sm:text-base">
-                    {article.title}
-                  </h3>
-
-                  {/* Meta */}
-                  <div className="mb-3 flex items-center gap-3 font-[family-name:var(--font-inconsolata)] text-[9px] uppercase tracking-wider text-[#00e5ff]/35">
-                    <span>{article.date}</span>
-                    <span>
-                      <CircularProgress
-                        value={article.readTime}
-                        max={10}
-                      />
-                    </span>
-                    <span>SRC: {article.sources.length}</span>
-                  </div>
-
-                  {/* Tags */}
-                  <div className="mb-3 flex flex-wrap gap-1.5">
-                    {article.tags.map((t) => (
-                      <span
-                        key={t}
-                        className="border border-[#00e5ff]/15 px-1.5 py-0.5 font-[family-name:var(--font-inconsolata)] text-[9px] uppercase tracking-wider text-[#00e5ff]/40"
-                      >
-                        [{t}]
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* Excerpt */}
-                  <p className="font-[family-name:var(--font-inconsolata)] text-[11px] leading-relaxed text-[#00e5ff]/45">
-                    {article.excerpt}
-                  </p>
-
-                  {/* Pulse ping on NEW articles */}
-                  {status === "NEW" && (
-                    <div className="pointer-events-none absolute -right-1 -top-1">
-                      <span
-                        className="absolute inline-block h-4 w-4 rounded-full border border-[#ffc400]/30"
-                        style={{ animation: "hud-ping 2.5s infinite" }}
-                      />
-                      <span className="absolute left-1.5 top-1.5 inline-block h-1 w-1 rounded-full bg-[#ffc400]" />
-                    </div>
-                  )}
+                  <span className="font-[family-name:var(--font-inconsolata)] text-[9px] text-[#00e5ff]/20">
+                    SRC-{String(i + 1).padStart(2, "0")}
+                  </span>
                 </CornerBrackets>
               );
             })}
           </div>
-
-          {/* Connecting lines between grid */}
-          <div className="mx-auto mt-4 h-px w-2/3 bg-linear-to-r from-transparent via-[#00e5ff]/15 to-transparent" />
         </section>
 
         <DiamondRule />
 
         {/* ================================================================
-            AI COMMENTS — ANALYST FEED
+            AI COMMENTS -- ANALYST FEED
         ================================================================ */}
         <section className="mb-8 mt-4">
           <div className="mb-4 flex items-center gap-3">
@@ -608,12 +536,12 @@ export default function HolographicHUD() {
             </span>
             <div className="h-px flex-1 bg-linear-to-r from-[#00e5ff]/20 to-transparent" />
             <span className="font-[family-name:var(--font-inconsolata)] text-[9px] uppercase tracking-[0.2em] text-[#00e5ff]/30">
-              {featured.aiComments.length} Channels Active
+              {article.aiComments.length} Channels Active
             </span>
           </div>
 
           <div className="grid gap-4 md:grid-cols-3">
-            {featured.aiComments.map((ai, idx) => (
+            {article.aiComments.map((ai, idx) => (
               <CornerBrackets
                 key={ai.model}
                 className="border border-[#00e5ff]/15 bg-[#00e5ff]/[0.03] p-4"
@@ -638,7 +566,7 @@ export default function HolographicHUD() {
                   </span>
                 </div>
 
-                {/* Data readout border */}
+                {/* Comment body */}
                 <div className="border-t border-[#00e5ff]/10 pt-3">
                   <p className="font-[family-name:var(--font-inconsolata)] text-[11px] leading-relaxed text-[#00e5ff]/55">
                     {ai.comment}
@@ -660,7 +588,7 @@ export default function HolographicHUD() {
         <DiamondRule />
 
         {/* ================================================================
-            FOOTER — SYSTEM STATUS BAR
+            FOOTER -- SYSTEM STATUS BAR
         ================================================================ */}
         <footer className="mt-6 border-t border-[#00e5ff]/15 pt-4 pb-6">
           <div className="flex flex-col items-center gap-2 sm:flex-row sm:justify-between">
@@ -671,7 +599,7 @@ export default function HolographicHUD() {
               />
               All Systems Nominal
               <span className="text-[#00e5ff]/15">|</span>
-              {articles.length} Targets Tracked
+              Data Stream Complete
               <span className="text-[#00e5ff]/15">|</span>
               Uplink Active
             </div>

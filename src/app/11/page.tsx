@@ -136,10 +136,10 @@ export default function Page() {
           color: var(--brutal-black);
         }
 
-        .rotate-1 { transform: rotate(0.7deg); }
-        .rotate-2 { transform: rotate(-1.2deg); }
-        .rotate-3 { transform: rotate(1.5deg); }
-        .rotate-neg { transform: rotate(-0.8deg); }
+        .rotate-1 { transform: rotate(0); }
+        .rotate-2 { transform: rotate(0); }
+        .rotate-3 { transform: rotate(0); }
+        .rotate-neg { transform: rotate(0); }
 
         .vertical-text {
           writing-mode: vertical-rl;
@@ -185,16 +185,6 @@ export default function Page() {
       `}</style>
 
       <div className="brutal-page min-h-screen">
-        {/* BACK LINK */}
-        <div className="px-4 pt-4 sm:px-8">
-          <Link
-            href="/"
-            className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
-          >
-            &larr; Zp&#283;t na v&yacute;b&#283;r
-          </Link>
-        </div>
-
         {/* MARQUEE TICKER */}
         <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2 mt-4">
           <div className="flex whitespace-nowrap marquee-track">
@@ -335,7 +325,7 @@ export default function Page() {
               {featured.aiComments.map((comment, idx) => (
                 <div
                   key={idx}
-                  className={`ai-annotation ${idx === 1 ? "rotate-neg" : idx === 2 ? "rotate-1" : ""}`}
+                  className="ai-annotation"
                 >
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-lg">{comment.avatar}</span>
@@ -365,7 +355,7 @@ export default function Page() {
         <section className="px-4 sm:px-8 py-10">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6">
             {/* Article 2 - Wide */}
-            <div className="md:col-span-7 noise-border p-5 sm:p-6 rotate-1 hover:rotate-0 transition-transform relative group">
+            <div className="md:col-span-7 noise-border p-5 sm:p-6 relative group">
               <div className="flex flex-wrap gap-2 mb-4">
                 {rest[0].tags.map((tag) => (
                   <span key={tag} className="tag-sticker tag-sticker-red">
@@ -393,7 +383,7 @@ export default function Page() {
             </div>
 
             {/* Article 3 - Narrow tall */}
-            <div className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 rotate-2 hover:rotate-0 transition-transform relative group bg-[#ff2222]/5">
+            <div className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 relative group bg-[#ff2222]/5">
               <div className="absolute -top-3 -right-3 bg-[#ff2222] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
                 Regulace
               </div>
@@ -421,7 +411,7 @@ export default function Page() {
             </div>
 
             {/* Article 4 - Medium, offset */}
-            <div className="md:col-span-5 md:col-start-1 noise-border p-5 sm:p-6 rotate-neg hover:rotate-0 transition-transform relative group md:-mt-8">
+            <div className="md:col-span-5 md:col-start-1 noise-border p-5 sm:p-6 relative group">
               <div className="flex flex-wrap gap-2 mb-4">
                 {rest[2].tags.map((tag) => (
                   <span key={tag} className="tag-sticker tag-sticker-red">
@@ -449,7 +439,7 @@ export default function Page() {
             </div>
 
             {/* Article 5 - Wide, contrasting */}
-            <div className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group md:-mt-4">
+            <div className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group">
               {/* Decorative vertical text */}
               <div className="hidden lg:block absolute -right-8 top-0 vertical-text font-mono text-[10px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
                 Hardware

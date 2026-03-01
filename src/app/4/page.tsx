@@ -367,17 +367,6 @@ export default function Page() {
         {/* ===== HEADER ===== */}
         <header className="relative border-b border-neutral-800">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
-            {/* Return to index */}
-            <div className="mb-4">
-              <Link
-                href="/"
-                className="text-neutral-500 hover:text-neutral-300 text-xs tracking-[0.2em] uppercase transition-colors"
-                style={{ fontFamily: "var(--font-courier), monospace" }}
-              >
-                &larr; RETURN TO INDEX
-              </Link>
-            </div>
-
             {/* Manila strip with title */}
             <div className="bg-[#d4c5a9] px-6 py-4 relative inline-block">
               <div className="absolute top-0 left-0 w-full h-[2px] bg-[#b8a88a]" />
