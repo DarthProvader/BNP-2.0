@@ -1,347 +1,342 @@
+import { Bebas_Neue, IBM_Plex_Mono } from "next/font/google";
 import { articles, allTags } from "@/lib/mockData";
-import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
-import Link from "next/link";
 
-const instrumentSerif = Instrument_Serif({
+const bebas = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-instrument",
+  variable: "--font-bebas",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const ibmMono = IBM_Plex_Mono({
+  weight: ["400", "500", "700"],
   subsets: ["latin"],
-  variable: "--font-jetbrains",
+  variable: "--font-ibm-mono",
 });
 
 export const metadata = {
-  title: "BEROU NÁM PRÁCI — AI žere svět",
-  description: "AI žere svět. My o tom píšeme.",
+  title: "BEROU NÁM PRÁCI — Concrete Monolith",
+  description: "AI blog v brutalistickém stylu. Generováno AI. Každý den.",
 };
 
-export default function Page() {
+export default function ConcreteMonolith() {
   const featured = articles[0];
   const rest = articles.slice(1);
 
   return (
     <div
-      className={`${instrumentSerif.variable} ${jetbrainsMono.variable} min-h-screen relative`}
+      className={`${bebas.variable} ${ibmMono.variable} relative min-h-screen bg-[#2a2a2a] text-[#e8e4e0] selection:bg-[#ff6600] selection:text-[#1a1a1a]`}
     >
-      <style>{`
-        :root {
-          --brutal-red: #ff2222;
-          --brutal-black: #0a0a0a;
-          --brutal-white: #f0f0f0;
-        }
+      {/* ====== CONCRETE TEXTURE OVERLAY (SVG noise) ====== */}
+      <div
+        className="pointer-events-none fixed inset-0 z-50 opacity-[0.035]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
+          backgroundRepeat: "repeat",
+          backgroundSize: "512px 512px",
+        }}
+      />
 
-        .brutal-page {
-          background-color: var(--brutal-black);
-          color: var(--brutal-white);
-          font-family: var(--font-jetbrains), monospace;
-        }
+      {/* ====== BLUEPRINT GRID LINES ====== */}
+      <div
+        className="pointer-events-none fixed inset-0 z-0 opacity-[0.02]"
+        style={{
+          backgroundImage: `
+            linear-gradient(to right, #e8e4e0 1px, transparent 1px),
+            linear-gradient(to bottom, #e8e4e0 1px, transparent 1px)
+          `,
+          backgroundSize: "80px 80px",
+        }}
+      />
 
-        .brutal-page::before {
-          content: '';
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-          pointer-events: none;
-          z-index: 0;
-        }
+      {/* ====== BRUTALIST PILLARS — thick vertical lines ====== */}
+      <div className="pointer-events-none fixed left-[5%] top-0 z-0 h-full w-[6px] bg-[#1a1a1a] opacity-30" />
+      <div className="pointer-events-none fixed right-[8%] top-0 z-0 h-full w-[4px] bg-[#1a1a1a] opacity-20" />
+      <div className="pointer-events-none fixed left-[62%] top-0 z-0 hidden h-full w-[3px] bg-[#1a1a1a] opacity-15 lg:block" />
 
-        .brutal-page > * {
-          position: relative;
-          z-index: 1;
-        }
-
-        .font-headline {
-          font-family: var(--font-instrument), Georgia, serif;
-        }
-
-        .font-mono {
-          font-family: var(--font-jetbrains), monospace;
-        }
-
-        .glitch-text {
-          text-shadow:
-            2px 2px 0 #ff2222,
-            -1px -1px 0 #00ffff;
-        }
-
-        .glitch-hover:hover {
-          text-shadow:
-            3px 3px 0 #ff2222,
-            -2px -2px 0 #00ffff,
-            5px 0px 0 #ff222244;
-          transition: text-shadow 0.1s ease;
-        }
-
-        .noise-border {
-          border: 2px solid var(--brutal-white);
-          box-shadow:
-            4px 4px 0 var(--brutal-red),
-            -1px -1px 0 var(--brutal-white);
-        }
-
-        .cut-out {
-          border: 2px solid var(--brutal-white);
-          background: var(--brutal-black);
-          box-shadow:
-            6px 6px 0 var(--brutal-red);
-        }
-
-        .tag-sticker {
-          border: 1px solid var(--brutal-white);
-          padding: 2px 8px;
-          font-size: 10px;
-          text-transform: uppercase;
-          letter-spacing: 0.1em;
-          font-family: var(--font-jetbrains), monospace;
-          display: inline-block;
-          background: var(--brutal-black);
-        }
-
-        .tag-sticker-red {
-          border-color: var(--brutal-red);
-          color: var(--brutal-red);
-        }
-
-        .scanline::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: repeating-linear-gradient(
-            0deg,
-            transparent,
-            transparent 2px,
-            rgba(255,255,255,0.01) 2px,
-            rgba(255,255,255,0.01) 4px
-          );
-          pointer-events: none;
-        }
-
-        .harsh-underline {
-          text-decoration: none;
-          border-bottom: 3px solid var(--brutal-red);
-          padding-bottom: 1px;
-        }
-
-        .harsh-underline:hover {
-          background: var(--brutal-red);
-          color: var(--brutal-black);
-        }
-
-        .rotate-1 { transform: rotate(0.7deg); }
-        .rotate-2 { transform: rotate(-1.2deg); }
-        .rotate-3 { transform: rotate(1.5deg); }
-        .rotate-neg { transform: rotate(-0.8deg); }
-
-        .vertical-text {
-          writing-mode: vertical-rl;
-          text-orientation: mixed;
-        }
-
-        .ai-annotation {
-          border-left: 3px solid var(--brutal-red);
-          padding-left: 12px;
-          position: relative;
-        }
-
-        .ai-annotation::before {
-          content: '//';
-          position: absolute;
-          left: -2px;
-          top: -14px;
-          font-size: 10px;
-          color: var(--brutal-red);
-          font-family: var(--font-jetbrains), monospace;
-        }
-
-        @keyframes blink {
-          0%, 50% { opacity: 1; }
-          51%, 100% { opacity: 0; }
-        }
-
-        .cursor-blink::after {
-          content: '█';
-          animation: blink 1s infinite;
-          color: var(--brutal-red);
-          margin-left: 2px;
-        }
-
-        @keyframes marquee {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-
-        .marquee-track {
-          animation: marquee 30s linear infinite;
-        }
-      `}</style>
-
-      <div className="brutal-page min-h-screen">
-        {/* BACK LINK */}
-        <div className="px-4 pt-4 sm:px-8">
-          <Link
-            href="/"
-            className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
-          >
-            &larr; Zp&#283;t na v&yacute;b&#283;r
-          </Link>
-        </div>
-
-        {/* MARQUEE TICKER */}
-        <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2 mt-4">
-          <div className="flex whitespace-nowrap marquee-track">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <span key={i} className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#f0f0f0]/30 mx-8">
-                AI NAHRAZUJE PROGRAMATORY /// AUTOMATIZACE SMAZALA 10K POZIC /// MODELY JSOU CHYTREJSI NEZ LIDE /// BUDOUCNOST JE TED /// AI NAHRAZUJE PROGRAMATORY /// AUTOMATIZACE SMAZALA 10K POZIC ///&nbsp;
+      <div className="relative z-10">
+        {/* ================================================================
+            HEADER — MASSIVE CONCRETE SLAB
+        ================================================================ */}
+        <header className="border-b-[6px] border-[#1a1a1a]">
+          {/* Navigation bar */}
+          <nav className="flex items-center justify-between border-b-[3px] border-[#1a1a1a] px-4 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] sm:px-8">
+            <a
+              href="/"
+              className="text-[#e8e4e0]/60 transition-colors hover:text-[#ff6600]"
+            >
+              &larr; Zpět
+            </a>
+            <div className="flex items-center gap-4 sm:gap-8">
+              <span className="hidden text-[#e8e4e0]/40 sm:inline">
+                Variace 01
               </span>
-            ))}
-          </div>
-        </div>
-
-        {/* HEADER */}
-        <header className="px-4 sm:px-8 pt-12 pb-8 relative">
-          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
-            <div className="relative">
-              {/* Decorative red block */}
-              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
-
-              <h1 className="font-headline text-5xl sm:text-7xl md:text-8xl lg:text-[120px] leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text pl-4 sm:pl-6">
-                BEROU
-                <br />
-                <span className="text-[#ff2222]">NÁM</span>
-                <br />
-                PRÁCI
-              </h1>
-
-              <p className="font-mono text-xs sm:text-sm mt-6 pl-4 sm:pl-6 text-[#f0f0f0]/70 max-w-md leading-relaxed">
-                AI žere svět. My o tom píšeme.
-              </p>
-            </div>
-
-            {/* NAV */}
-            <nav className="flex flex-col gap-3 lg:items-end pl-4 sm:pl-0">
-              <div className="flex gap-4 font-mono text-xs sm:text-sm uppercase tracking-widest">
-                <a href="#clanky" className="harsh-underline text-[#f0f0f0]">
-                  Články
-                </a>
-                <a href="#" className="harsh-underline text-[#f0f0f0]">
-                  Resources
-                </a>
-                <a href="#" className="harsh-underline text-[#f0f0f0]">
-                  O&nbsp;projektu
-                </a>
-              </div>
-              <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest mt-2">
-                <span className="px-2 py-1 border border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold">
+              <span className="hidden text-[#e8e4e0]/40 md:inline">
+                Concrete Monolith
+              </span>
+              <div className="flex border-[2px] border-[#e8e4e0]/30">
+                <button className="bg-[#e8e4e0] px-2 py-0.5 text-[10px] font-bold text-[#1a1a1a]">
                   CZ
-                </span>
-                <span className="px-2 py-1 border border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer transition-colors">
+                </button>
+                <button className="px-2 py-0.5 text-[10px] text-[#e8e4e0]/50 transition-colors hover:text-[#ff6600]">
                   EN
-                </span>
+                </button>
               </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
 
-          {/* Horizontal rule with label */}
-          <div className="mt-10 flex items-center gap-4">
-            <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
-              v.01 // {new Date().getFullYear()}
-            </span>
-            <div className="h-[2px] w-16 bg-[#ff2222]" />
+          {/* Main title block */}
+          <div className="overflow-hidden px-4 pb-6 pt-8 sm:px-8 sm:pb-10 sm:pt-12 md:pb-14 md:pt-16">
+            <h1
+              className="font-[family-name:var(--font-bebas)] text-[clamp(4rem,15vw,12rem)] leading-[0.85] tracking-tight text-[#e8e4e0]"
+              style={{
+                textShadow:
+                  "6px 6px 0px #1a1a1a, 8px 8px 20px rgba(0,0,0,0.5)",
+              }}
+            >
+              BEROU
+              <br />
+              NÁM PRÁCI
+            </h1>
+            <div className="mt-4 flex flex-col gap-2 sm:mt-6 sm:flex-row sm:items-end sm:justify-between">
+              <p className="max-w-xl font-[family-name:var(--font-ibm-mono)] text-sm leading-relaxed text-[#e8e4e0]/50 sm:text-base">
+                Denní přehled AI novinek. Generováno umělou inteligencí.
+                <br />
+                <span className="text-[#ff6600]">
+                  Každý den. Bez emocí. Bez cenzury.
+                </span>
+              </p>
+              <span className="font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.3em] text-[#e8e4e0]/20">
+                Est. 2026
+              </span>
+            </div>
           </div>
         </header>
 
-        {/* TAG BAR */}
-        <section className="px-4 sm:px-8 py-6 border-y border-[#f0f0f0]/10">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest mr-4">
-              Filtry //
+        {/* ================================================================
+            FEATURED ARTICLE — FULL-WIDTH CONCRETE SLAB
+        ================================================================ */}
+        <section className="border-b-[6px] border-[#1a1a1a]">
+          {/* Section label bar */}
+          <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+              Hlavni clanek
             </span>
-            {allTags.map((tag) => (
-              <span
-                key={tag}
-                className="tag-sticker hover:bg-[#f0f0f0] hover:text-[#0a0a0a] cursor-pointer transition-colors"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        </section>
-
-        {/* FEATURED ARTICLE */}
-        <section id="clanky" className="px-4 sm:px-8 py-10 relative">
-          <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
-              Hlavní zpráva
-            </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
-            <span className="font-mono text-[10px] text-[#f0f0f0]/30">
+            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
               {featured.date}
             </span>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-0">
-            {/* Main featured content */}
-            <div className="lg:col-span-8 cut-out p-6 sm:p-8 relative scanline">
-              <div className="flex flex-wrap gap-2 mb-6">
-                {featured.tags.map((tag) => (
-                  <span key={tag} className="tag-sticker tag-sticker-red">
-                    {tag}
-                  </span>
-                ))}
-                <span className="tag-sticker text-[#f0f0f0]/50">
-                  {featured.readTime} min čtení
-                </span>
-                <span className="tag-sticker text-[#f0f0f0]/50">
-                  {featured.sources.length} zdrojů
-                </span>
-              </div>
+          <div className="grid gap-0 lg:grid-cols-[1fr_auto]">
+            <div className="px-4 py-8 sm:px-8 sm:py-12 lg:py-16">
+              {/* Construction number */}
+              <span
+                className="block font-[family-name:var(--font-bebas)] text-[8rem] leading-none text-[#2a2a2a] sm:text-[10rem]"
+                style={{
+                  WebkitTextStroke: "2px #e8e4e0",
+                  textShadow: "4px 4px 0 rgba(0,0,0,0.4)",
+                }}
+              >
+                01
+              </span>
 
-              <h2 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-[#f0f0f0] mb-6 glitch-hover cursor-pointer">
+              {/* Title */}
+              <h2 className="-mt-8 mb-6 max-w-3xl font-[family-name:var(--font-bebas)] text-[clamp(2.5rem,6vw,5rem)] leading-[0.95] tracking-tight sm:-mt-12">
                 {featured.title}
               </h2>
 
-              <p className="font-mono text-sm sm:text-base leading-relaxed text-[#f0f0f0]/70 max-w-2xl mb-8">
+              {/* Meta row */}
+              <div className="mb-6 flex flex-wrap items-center gap-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-wider text-[#e8e4e0]/40">
+                <span className="border-[2px] border-[#e8e4e0]/20 px-2 py-0.5">
+                  {featured.readTime} min cteni
+                </span>
+                {featured.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="border-[2px] border-[#ff6600]/40 px-2 py-0.5 text-[#ff6600]/70"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
+              {/* Excerpt */}
+              <p className="max-w-2xl font-[family-name:var(--font-ibm-mono)] text-sm leading-relaxed text-[#e8e4e0]/70 sm:text-base">
                 {featured.excerpt}
               </p>
 
-              <div className="flex items-center gap-4">
-                <span className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline cursor-pointer">
-                  Číst článek &rarr;
-                </span>
+              {/* Read more CTA */}
+              <div className="mt-8">
+                <a
+                  href={`/clanky/${featured.slug}`}
+                  className="group inline-flex items-center gap-3 border-[3px] border-[#e8e4e0] px-6 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] transition-all hover:border-[#ff6600] hover:bg-[#ff6600] hover:text-[#1a1a1a]"
+                >
+                  Cist cely clanek
+                  <span className="transition-transform group-hover:translate-x-1">
+                    &rarr;
+                  </span>
+                </a>
               </div>
-
-              {/* Decorative corner marks */}
-              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
             </div>
 
-            {/* Side annotation - AI Comments for featured */}
-            <div className="lg:col-span-4 lg:pl-8 flex flex-col gap-4 lg:-mt-4">
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff2222] mb-2">
-                // AI modely komentují
+            {/* Side stripe — decorative concrete overhang */}
+            <div className="hidden w-24 border-l-[4px] border-[#1a1a1a] bg-[#252525] lg:block">
+              <div className="flex h-full flex-col items-center justify-center gap-4">
+                {[...Array(8)].map((_, i) => (
+                  <div key={i} className="h-[3px] w-8 bg-[#e8e4e0]/10" />
+                ))}
               </div>
-              {featured.aiComments.map((comment, idx) => (
-                <div
-                  key={idx}
-                  className={`ai-annotation ${idx === 1 ? "rotate-neg" : idx === 2 ? "rotate-1" : ""}`}
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            ARTICLE GRID — ASYMMETRIC CONCRETE BLOCKS
+        ================================================================ */}
+        <section className="border-b-[6px] border-[#1a1a1a]">
+          {/* Section label bar */}
+          <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+              Dalsi clanky
+            </span>
+            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
+              {rest.length} clanku
+            </span>
+          </div>
+
+          {/* Asymmetric grid — alternating wide/narrow blocks */}
+          <div className="grid grid-cols-1 lg:grid-cols-12">
+            {rest.map((article, i) => {
+              const patterns = [
+                "lg:col-span-7",
+                "lg:col-span-5",
+                "lg:col-span-5",
+                "lg:col-span-7",
+              ];
+              const colSpan = patterns[i % 4];
+
+              return (
+                <article
+                  key={article.slug}
+                  className={`group border-b-[4px] border-[#1a1a1a] p-6 transition-colors hover:bg-[#2e2e2e] sm:p-8 lg:border-r-[4px] ${colSpan}`}
                 >
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-lg">{comment.avatar}</span>
-                    <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
-                      {comment.model}
-                    </span>
+                  {/* Construction number */}
+                  <span
+                    className="block font-[family-name:var(--font-bebas)] text-[5rem] leading-none text-[#2a2a2a] sm:text-[6rem]"
+                    style={{
+                      WebkitTextStroke: "1.5px #e8e4e0",
+                    }}
+                  >
+                    {String(i + 2).padStart(2, "0")}
+                  </span>
+
+                  {/* Title */}
+                  <h3 className="-mt-4 mb-4 font-[family-name:var(--font-bebas)] text-[clamp(1.8rem,4vw,3rem)] leading-[0.95] tracking-tight transition-colors group-hover:text-[#ff6600]">
+                    <a href={`/clanky/${article.slug}`}>{article.title}</a>
+                  </h3>
+
+                  {/* Date and read time */}
+                  <div className="mb-3 flex items-center gap-3 font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-wider text-[#e8e4e0]/30">
+                    <span>{article.date}</span>
+                    <span className="text-[#e8e4e0]/15">|</span>
+                    <span>{article.readTime} min</span>
                   </div>
-                  <p className="font-mono text-[11px] leading-relaxed text-[#f0f0f0]/60">
+
+                  {/* Excerpt */}
+                  <p className="mb-4 line-clamp-3 font-[family-name:var(--font-ibm-mono)] text-xs leading-relaxed text-[#e8e4e0]/50 sm:text-sm">
+                    {article.excerpt}
+                  </p>
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-2">
+                    {article.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="border-[2px] border-[#e8e4e0]/15 px-2 py-0.5 font-[family-name:var(--font-ibm-mono)] text-[9px] uppercase tracking-wider text-[#e8e4e0]/30 transition-colors group-hover:border-[#ff6600]/30 group-hover:text-[#ff6600]/50"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ================================================================
+            TAGS SECTION — HEAVY BORDERED PILLS
+        ================================================================ */}
+        <section className="border-b-[6px] border-[#1a1a1a]">
+          <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+              Kategorie
+            </span>
+            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+          </div>
+
+          <div className="px-4 py-8 sm:px-8 sm:py-12">
+            <div className="flex flex-wrap gap-3">
+              {allTags.map((tag, i) => (
+                <span
+                  key={tag}
+                  className={`inline-block cursor-pointer border-[3px] px-4 py-2 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.15em] transition-all hover:bg-[#ff6600] hover:text-[#1a1a1a] ${
+                    i === 0
+                      ? "border-[#ff6600] text-[#ff6600]"
+                      : "border-[#e8e4e0]/25 text-[#e8e4e0]/50 hover:border-[#ff6600]"
+                  }`}
+                  style={{
+                    boxShadow:
+                      i === 0 ? "4px 4px 0 #1a1a1a" : "3px 3px 0 #1a1a1a",
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            AI COMMENTS — BUILDING PLAQUES
+        ================================================================ */}
+        <section className="border-b-[6px] border-[#1a1a1a]">
+          <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+              AI komentare
+            </span>
+            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
+              K clanku 01
+            </span>
+          </div>
+
+          <div className="px-4 py-8 sm:px-8 sm:py-12">
+            <div className="grid gap-6 md:grid-cols-3">
+              {featured.aiComments.map((comment) => (
+                <div
+                  key={comment.model}
+                  className="border-[4px] border-[#1a1a1a] bg-[#252525] p-6 transition-colors hover:border-[#ff6600]/50"
+                  style={{
+                    boxShadow: "6px 6px 0 #1a1a1a",
+                  }}
+                >
+                  {/* Plaque header */}
+                  <div className="mb-4 flex items-center gap-3 border-b-[2px] border-[#e8e4e0]/10 pb-3">
+                    <span className="text-xl">{comment.avatar}</span>
+                    <div>
+                      <span className="font-[family-name:var(--font-bebas)] text-xl tracking-wide text-[#e8e4e0]">
+                        {comment.model}
+                      </span>
+                      <div className="font-[family-name:var(--font-ibm-mono)] text-[9px] uppercase tracking-[0.2em] text-[#e8e4e0]/25">
+                        AI Model &middot; Komentar
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Comment body */}
+                  <p className="font-[family-name:var(--font-ibm-mono)] text-xs leading-relaxed text-[#e8e4e0]/60">
                     &ldquo;{comment.comment}&rdquo;
                   </p>
                 </div>
@@ -350,192 +345,35 @@ export default function Page() {
           </div>
         </section>
 
-        {/* DIVIDER */}
-        <div className="px-4 sm:px-8">
-          <div className="border-t border-[#f0f0f0]/10 relative">
-            <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-[#0a0a0a] px-4 font-mono text-[10px] text-[#f0f0f0]/20 uppercase tracking-[0.5em]">
-              Další zprávy
-            </span>
-          </div>
-        </div>
-
-        {/* ARTICLE GRID - Asymmetric brutalist layout */}
-        <section className="px-4 sm:px-8 py-10">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6">
-            {/* Article 2 - Wide */}
-            <div className="md:col-span-7 noise-border p-5 sm:p-6 rotate-1 hover:rotate-0 transition-transform relative group">
-              <div className="flex flex-wrap gap-2 mb-4">
-                {rest[0].tags.map((tag) => (
-                  <span key={tag} className="tag-sticker tag-sticker-red">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
-                {rest[0].date} // {rest[0].readTime} min
+        {/* ================================================================
+            FOOTER — HEAVY MINIMAL SLAB
+        ================================================================ */}
+        <footer className="px-4 py-8 sm:px-8 sm:py-12">
+          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+            <div>
+              <span
+                className="font-[family-name:var(--font-bebas)] text-4xl tracking-tight text-[#e8e4e0]/20 sm:text-5xl"
+                style={{
+                  textShadow: "3px 3px 0 #1a1a1a",
+                }}
+              >
+                BEROU NAM PRACI
               </span>
-              <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer">
-                {rest[0].title}
-              </h3>
-              <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50 max-w-lg">
-                {rest[0].excerpt}
+              <p className="mt-2 font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.2em] text-[#e8e4e0]/20">
+                Generovano AI. Kazdy den.
               </p>
-              <div className="mt-4 flex items-center justify-between">
-                <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
-                  Číst &rarr;
-                </span>
-                <span className="font-mono text-[10px] text-[#f0f0f0]/30">
-                  {rest[0].sources.length} zdrojů
-                </span>
-              </div>
             </div>
-
-            {/* Article 3 - Narrow tall */}
-            <div className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 rotate-2 hover:rotate-0 transition-transform relative group bg-[#ff2222]/5">
-              <div className="absolute -top-3 -right-3 bg-[#ff2222] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
-                Regulace
-              </div>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {rest[1].tags.map((tag) => (
-                  <span key={tag} className="tag-sticker">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
-                {rest[1].date} // {rest[1].readTime} min
-              </span>
-              <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer">
-                {rest[1].title}
-              </h3>
-              <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50">
-                {rest[1].excerpt}
-              </p>
-              <div className="mt-4">
-                <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
-                  Číst &rarr;
-                </span>
-              </div>
-            </div>
-
-            {/* Article 4 - Medium, offset */}
-            <div className="md:col-span-5 md:col-start-1 noise-border p-5 sm:p-6 rotate-neg hover:rotate-0 transition-transform relative group md:-mt-8">
-              <div className="flex flex-wrap gap-2 mb-4">
-                {rest[2].tags.map((tag) => (
-                  <span key={tag} className="tag-sticker tag-sticker-red">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
-                {rest[2].date} // {rest[2].readTime} min
-              </span>
-              <h3 className="font-headline text-xl sm:text-2xl leading-tight text-[#f0f0f0] mb-3 group-hover:text-[#ff2222] transition-colors cursor-pointer">
-                {rest[2].title}
-              </h3>
-              <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50">
-                {rest[2].excerpt}
-              </p>
-              <div className="mt-4 flex items-center justify-between">
-                <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
-                  Číst &rarr;
-                </span>
-                <span className="font-mono text-[10px] text-[#f0f0f0]/30">
-                  {rest[2].sources.length} zdrojů
-                </span>
-              </div>
-            </div>
-
-            {/* Article 5 - Wide, contrasting */}
-            <div className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group md:-mt-4">
-              {/* Decorative vertical text */}
-              <div className="hidden lg:block absolute -right-8 top-0 vertical-text font-mono text-[10px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
-                Hardware
-              </div>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {rest[3].tags.map((tag) => (
-                  <span key={tag} className="tag-sticker">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
-                {rest[3].date} // {rest[3].readTime} min
-              </span>
-              <h3 className="font-headline text-2xl sm:text-3xl md:text-4xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer glitch-hover">
-                {rest[3].title}
-              </h3>
-              <p className="font-mono text-xs sm:text-sm leading-relaxed text-[#f0f0f0]/50 max-w-xl">
-                {rest[3].excerpt}
-              </p>
-              <div className="mt-6 flex items-center gap-6">
-                <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
-                  Číst článek &rarr;
-                </span>
-                <span className="font-mono text-[10px] text-[#f0f0f0]/30">
-                  {rest[3].sources.length} zdrojů
-                </span>
-              </div>
-              {/* Bottom decorative bar */}
-              <div className="absolute bottom-0 left-0 h-1 w-1/3 bg-[#ff2222]" />
+            <div className="text-right font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.15em] text-[#e8e4e0]/15">
+              <p>Variace 01 &mdash; Concrete Monolith</p>
+              <p className="mt-1">Brutalist Architecture Series</p>
+              <p className="mt-1">&copy; 2026</p>
             </div>
           </div>
-        </section>
 
-        {/* STATS STRIP */}
-        <section className="border-y border-[#f0f0f0]/10 py-6 px-4 sm:px-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff2222]">5</div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                Článků dnes
-              </div>
-            </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#f0f0f0]">
-                {allTags.length}
-              </div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                Témat
-              </div>
-            </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#f0f0f0]">3</div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                AI komentátoři
-              </div>
-            </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff2222] cursor-blink">
-                24
-              </div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                Hodin non-stop
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FOOTER */}
-        <footer className="px-4 sm:px-8 py-12 relative">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
-            <div>
-              <div className="font-headline text-2xl sm:text-3xl text-[#f0f0f0]/20 mb-2">
-                BEROU NÁM PRÁCI
-              </div>
-              <p className="font-mono text-xs text-[#f0f0f0]/30 max-w-sm leading-relaxed">
-                Generováno umělou inteligencí. Každý den.
-              </p>
-            </div>
-            <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
-              <div>verze 01 / 05</div>
-              <div>brutalist dark editorial</div>
-              <div className="text-[#ff2222]/40">&copy; {new Date().getFullYear()}</div>
-            </div>
-          </div>
-          <div className="mt-8 h-[1px] bg-[#f0f0f0]/5" />
-          <div className="mt-4 font-mono text-[9px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
-            Žádná práce není v bezpečí. Žádná profese není posvátná. Budoucnost je teď.
+          {/* Bottom decorative line — orange accent strip */}
+          <div className="mt-8 flex items-center gap-2">
+            <div className="h-[4px] w-16 bg-[#ff6600]" />
+            <div className="h-[4px] flex-1 bg-[#1a1a1a]" />
           </div>
         </footer>
       </div>

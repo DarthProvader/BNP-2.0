@@ -1,678 +1,337 @@
-import { articles, allTags } from "@/lib/mockData";
-import { VT323, Share_Tech_Mono } from "next/font/google";
+import { Archivo_Black, Space_Mono } from "next/font/google";
 import Link from "next/link";
+import { articles, allTags } from "@/lib/mockData";
 
-const vt323 = VT323({
-  subsets: ["latin"],
-  variable: "--font-vt323",
+const archivoBlack = Archivo_Black({
   weight: "400",
+  subsets: ["latin"],
+  variable: "--font-archivo",
 });
 
-const shareTechMono = Share_Tech_Mono({
+const spaceMono = Space_Mono({
+  weight: ["400", "700"],
   subsets: ["latin"],
-  variable: "--font-share-tech",
-  weight: "400",
+  variable: "--font-space",
 });
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d
+    .toLocaleDateString("cs-CZ", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    })
+    .replace(/\s/g, "");
+}
+
+function padIndex(i: number): string {
+  return String(i + 1).padStart(2, "0");
+}
 
 export const metadata = {
-  title: "BEROU_NAM_PRACI // Terminal v2.0.0",
-  description: "AI news feed — retro terminal interface. Initializing...",
+  title: "BEROU NAM PRACI — Swiss Brutalist Grid",
+  description: "AI news v brutalistickém Swiss designu",
 };
 
-function formatTerminalDate(dateStr: string): string {
-  const d = new Date(dateStr);
-  const y = d.getFullYear();
-  const m = String(d.getMonth() + 1).padStart(2, "0");
-  const day = String(d.getDate()).padStart(2, "0");
-  const h = String(d.getHours()).padStart(2, "0");
-  const min = String(d.getMinutes()).padStart(2, "0");
-  return `${y}-${m}-${day} ${h}:${min}`;
-}
-
-function severityFromTags(tags: string[]): string {
-  if (tags.includes("release") || tags.includes("hardware")) return "CRIT";
-  if (tags.includes("regulace") || tags.includes("policy")) return "WARN";
-  if (tags.includes("agents") || tags.includes("coding")) return "INFO";
-  return "LOG ";
-}
-
-function severityColor(sev: string): string {
-  if (sev === "CRIT") return "text-[#ff4444]";
-  if (sev === "WARN") return "text-[#ffb000]";
-  return "text-[#00ff41]";
-}
-
-function sourceIcon(type: string): string {
-  switch (type) {
-    case "youtube":
-      return "[YT]";
-    case "twitter":
-      return "[TW]";
-    case "podcast":
-      return "[POD]";
-    default:
-      return "[WEB]";
-  }
-}
-
-export default function TerminalPage() {
-  const now = new Date();
-  const currentDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
-  const currentTime = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}:${String(now.getSeconds()).padStart(2, "0")}`;
+export default function SwissBrutalistGrid() {
   const featured = articles[0];
   const rest = articles.slice(1);
 
   return (
     <div
-      className={`${vt323.variable} ${shareTechMono.variable} relative min-h-screen bg-black overflow-hidden`}
+      className={`${archivoBlack.variable} ${spaceMono.variable} relative min-h-screen bg-black text-white selection:bg-[#ff0000] selection:text-white`}
     >
-      {/* Global styles for CRT effects */}
-      <style>{`
-        /* CRT Scanlines overlay */
-        .crt-scanlines::before {
-          content: "";
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: repeating-linear-gradient(
-            to bottom,
-            transparent,
-            transparent 2px,
-            rgba(0, 0, 0, 0.15) 2px,
-            rgba(0, 0, 0, 0.15) 4px
-          );
-          pointer-events: none;
-          z-index: 100;
-        }
+      {/* VISIBLE GRID LINES */}
+      <div className="pointer-events-none fixed inset-0 z-0">
+        <div className="mx-auto h-full max-w-[1440px] px-6">
+          <div className="grid h-full grid-cols-12 gap-0">
+            {Array.from({ length: 12 }).map((_, i) => (
+              <div
+                key={i}
+                className="h-full border-l border-white/[0.04] last:border-r"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
 
-        /* CRT screen glow */
-        .crt-scanlines::after {
-          content: "";
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: radial-gradient(
-            ellipse at center,
-            transparent 50%,
-            rgba(0, 0, 0, 0.6) 100%
-          );
-          pointer-events: none;
-          z-index: 99;
-        }
-
-        /* Screen curvature */
-        .crt-screen {
-          border-radius: 18px;
-          box-shadow:
-            inset 0 0 120px rgba(0, 255, 65, 0.05),
-            0 0 60px rgba(0, 255, 65, 0.08),
-            0 0 120px rgba(0, 255, 65, 0.03);
-        }
-
-        /* CRT flicker */
-        @keyframes crt-flicker {
-          0% { opacity: 0.97; }
-          5% { opacity: 1; }
-          10% { opacity: 0.98; }
-          15% { opacity: 1; }
-          50% { opacity: 0.99; }
-          80% { opacity: 1; }
-          95% { opacity: 0.97; }
-          100% { opacity: 1; }
-        }
-
-        .crt-flicker {
-          animation: crt-flicker 4s infinite;
-        }
-
-        /* Cursor blink */
-        @keyframes cursor-blink {
-          0%, 49% { opacity: 1; }
-          50%, 100% { opacity: 0; }
-        }
-
-        .cursor-blink {
-          animation: cursor-blink 1s step-end infinite;
-        }
-
-        /* Text typing effect */
-        @keyframes type-in {
-          from { width: 0; }
-          to { width: 100%; }
-        }
-
-        .type-effect {
-          overflow: hidden;
-          white-space: nowrap;
-          animation: type-in 1.5s steps(40) forwards;
-        }
-
-        /* Glitch on hover */
-        @keyframes glitch {
-          0% { transform: translate(0); }
-          20% { transform: translate(-2px, 1px); }
-          40% { transform: translate(2px, -1px); }
-          60% { transform: translate(-1px, -1px); }
-          80% { transform: translate(1px, 2px); }
-          100% { transform: translate(0); }
-        }
-
-        .glitch-hover:hover {
-          animation: glitch 0.3s ease;
-          text-shadow: 2px 0 #ff0000, -2px 0 #00ffff;
-        }
-
-        /* Glow text */
-        .glow-text {
-          text-shadow: 0 0 8px rgba(0, 255, 65, 0.6), 0 0 16px rgba(0, 255, 65, 0.3);
-        }
-
-        .glow-amber {
-          text-shadow: 0 0 8px rgba(255, 176, 0, 0.6), 0 0 16px rgba(255, 176, 0, 0.3);
-        }
-
-        /* Link styles */
-        .term-link {
-          color: #00ff41;
-          text-decoration: none;
-          transition: text-shadow 0.2s;
-        }
-        .term-link:hover {
-          text-shadow: 0 0 12px rgba(0, 255, 65, 0.8), 0 0 24px rgba(0, 255, 65, 0.4);
-        }
-
-        /* Subtle text jitter for featured */
-        @keyframes text-jitter {
-          0% { transform: translate(0, 0); }
-          25% { transform: translate(0.5px, 0); }
-          50% { transform: translate(-0.5px, 0); }
-          75% { transform: translate(0.5px, 0); }
-          100% { transform: translate(0, 0); }
-        }
-
-        .text-jitter:hover {
-          animation: text-jitter 0.1s infinite;
-        }
-
-        /* All text monospace */
-        * {
-          font-family: var(--font-vt323), var(--font-share-tech), monospace !important;
-        }
-      `}</style>
-
-      {/* CRT Monitor Frame */}
-      <div className="crt-scanlines crt-flicker">
-        <div className="crt-screen min-h-screen">
-          <main className="max-w-[960px] mx-auto px-4 py-6 text-[#00ff41]">
-            {/* ═══════════════════════ NAVIGATION COMMAND ═══════════════════════ */}
-            <div className="mb-2">
-              <Link href="/" className="term-link glitch-hover text-lg tracking-wide">
-                <span className="text-[#006b1d]">user@bnp:~$</span> cd ..
-              </Link>
-            </div>
-
-            <div className="text-[#006b1d] text-sm mb-6">
-              ────────────────────────────────────────────────────────────────────
-            </div>
-
-            {/* ═══════════════════════ BOOT SEQUENCE ═══════════════════════ */}
-            <section className="mb-8">
-              <div className="text-[#006b1d] text-base leading-relaxed space-y-0.5">
-                <p>BIOS v4.2.1 ... OK</p>
-                <p>Memory test: 65536K ... <span className="text-[#00ff41]">PASS</span></p>
-                <p>Loading kernel modules ......... <span className="text-[#00ff41]">DONE</span></p>
-                <p>&nbsp;</p>
-              </div>
-
-              <pre className="text-[#00ff41] glow-text text-2xl sm:text-3xl leading-tight mb-4">{`
- ██████╗ ███████╗██████╗  ██████╗ ██╗   ██╗
- ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██║   ██║
- ██████╔╝█████╗  ██████╔╝██║   ██║██║   ██║
- ██╔══██╗██╔══╝  ██╔══██╗██║   ██║██║   ██║
- ██████╔╝███████╗██║  ██║╚██████╔╝╚██████╔╝
- ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝
-   N A M   P R A C I    v 2 . 0 . 0`}</pre>
-
-              <div className="text-[#006b1d] text-base leading-relaxed space-y-0.5">
-                <p>
-                  Initializing AI news feed...{" "}
-                  <span className="text-[#00ff41]">[OK]</span>
-                </p>
-                <p>
-                  Connecting to data source...{" "}
-                  <span className="text-[#00ff41]">[ESTABLISHED]</span>
-                </p>
-                <p>
-                  Decrypting article archive...{" "}
-                  <span className="text-[#00ff41]">[DECRYPTED]</span>
-                </p>
-                <p>&nbsp;</p>
-              </div>
-
-              <div className="text-[#00ff41] text-base space-y-0.5">
-                <p>
-                  <span className="text-[#006b1d]">system.date</span> ={" "}
-                  {currentDate}
-                </p>
-                <p>
-                  <span className="text-[#006b1d]">system.time</span> ={" "}
-                  {currentTime}
-                </p>
-                <p>
-                  <span className="text-[#006b1d]">articles.count</span> ={" "}
-                  {articles.length}
-                </p>
-                <p>
-                  <span className="text-[#006b1d]">tags.loaded</span> ={" "}
-                  {allTags.length}
-                </p>
-                <p>
-                  <span className="text-[#006b1d]">session.status</span> ={" "}
-                  <span className="text-[#00ff41] glow-text">ACTIVE</span>
-                </p>
-              </div>
-
-              <div className="text-[#006b1d] text-sm mt-4 mb-2">
-                ────────────────────────────────────────────────────────────────────
-              </div>
-
-              {/* Terminal Navigation */}
-              <div className="text-base space-y-1">
-                <p className="text-[#ffb000] glow-amber">
-                  COMMAND REFERENCE:
-                </p>
-                <div className="flex flex-wrap gap-x-6 gap-y-1 text-[#00ff41]">
-                  <Link href="#articles" className="term-link glitch-hover">
-                    [1] cat articles.log
-                  </Link>
-                  <Link href="#tags" className="term-link glitch-hover">
-                    [2] ls -la /tags/
-                  </Link>
-                  <Link href="#comments" className="term-link glitch-hover">
-                    [3] tail -f irc.log
-                  </Link>
-                  <span className="text-[#006b1d]">
-                    [4] lang:cs/en <span className="text-[#ffb000]">[N/A]</span>
-                  </span>
-                </div>
-              </div>
-            </section>
-
-            {/* ═══════════════════════ TAG FILTER ═══════════════════════ */}
-            <section id="tags" className="mb-8">
-              <div className="text-[#006b1d] text-sm mb-2">
-                <span className="text-[#ffb000]">user@bnp:~$</span> ls -la /tags/
-              </div>
-              <div className="text-base mb-1 text-[#006b1d]">
-                total {allTags.length} &nbsp;&nbsp; drwxr-xr-x
-              </div>
-              <div className="flex flex-wrap gap-x-4 gap-y-1">
-                {allTags.map((tag) => {
-                  const count = articles.filter((a) =>
-                    a.tags.includes(tag)
-                  ).length;
-                  return (
-                    <span
-                      key={tag}
-                      className="text-[#00ff41] glitch-hover cursor-pointer text-base"
-                    >
-                      <span className="text-[#006b1d]">-rw-r--r-- </span>
-                      <span className="text-[#ffb000]">{count}</span>
-                      {" "}
-                      <span className="text-[#00ff41]">[{tag.toUpperCase()}]</span>
-                    </span>
-                  );
+      <div className="relative z-10 mx-auto max-w-[1440px] px-6">
+        {/* ═══════════════════════════════════════════════
+            HEADER
+        ═══════════════════════════════════════════════ */}
+        <header className="pb-0 pt-6">
+          {/* Top row: back + date + language */}
+          <div className="flex items-baseline justify-between font-[family-name:var(--font-space)] text-[0.7rem] uppercase tracking-[0.3em]">
+            <Link
+              href="/"
+              className="text-white/50 transition-colors hover:text-[#ff0000]"
+            >
+              &larr; ZPET
+            </Link>
+            <div className="flex items-center gap-8">
+              <span className="text-white/40">
+                {new Date().toLocaleDateString("cs-CZ", {
+                  day: "2-digit",
+                  month: "2-digit",
+                  year: "numeric",
                 })}
-              </div>
-              <div className="mt-2 text-[#006b1d] text-sm">
-                &gt; grep -t [TAG_NAME] articles.db &nbsp;
-                <span className="text-[#ffb000]">// click to filter</span>
-              </div>
+              </span>
+              <span className="text-white/40">
+                <span className="text-white">CZ</span>
+                {" / "}
+                <span className="text-white/30">EN</span>
+              </span>
+            </div>
+          </div>
 
-              <div className="text-[#006b1d] text-sm mt-4">
-                ────────────────────────────────────────────────────────────────────
-              </div>
-            </section>
+          {/* Masthead */}
+          <h1 className="mt-8 font-[family-name:var(--font-archivo)] text-[clamp(3rem,10vw,10rem)] leading-[0.85] tracking-[-0.03em] text-white">
+            BEROU
+            <br />
+            NAM PRACI
+          </h1>
 
-            {/* ═══════════════════════ FEATURED ARTICLE ═══════════════════════ */}
-            <section id="articles" className="mb-8">
-              <div className="text-[#006b1d] text-sm mb-3">
-                <span className="text-[#ffb000]">user@bnp:~$</span> cat articles.log
-              </div>
+          {/* Red line */}
+          <div className="mt-6 h-[6px] w-full bg-[#ff0000]" />
 
-              {/* Featured — ASCII bordered window */}
-              <div className="mb-8">
-                <pre className="text-[#00ff41] text-sm sm:text-base leading-tight">
-{`┌──────────────────────────────────────────────────────────────────┐
-│  *** FEATURED ARTICLE ***  PRIORITY: CRITICAL                    │
-│  PID: 001  STATUS: UNREAD  CLASSIFICATION: TOP SECRET            │
-├──────────────────────────────────────────────────────────────────┤`}
-                </pre>
-                <div className="border-l-2 border-r-2 border-[#00ff41] px-3 sm:px-4 py-4">
-                  <div className="flex items-start gap-2 mb-3">
-                    <span className={`${severityColor(severityFromTags(featured.tags))} text-sm`}>
-                      [{severityFromTags(featured.tags)}]
+          {/* Navigation */}
+          <nav className="mt-5 flex flex-wrap gap-x-10 gap-y-2 font-[family-name:var(--font-space)] text-[0.7rem] uppercase tracking-[0.35em] text-white/50">
+            <span className="text-white">CLANKY</span>
+            <span className="cursor-pointer transition-colors hover:text-white">
+              TAGY
+            </span>
+            <span className="cursor-pointer transition-colors hover:text-white">
+              AI KOMENTARE
+            </span>
+            <span className="cursor-pointer transition-colors hover:text-white">
+              O PROJEKTU
+            </span>
+          </nav>
+
+          {/* Section divider */}
+          <div className="mt-8 h-[4px] bg-white" />
+        </header>
+
+        {/* ═══════════════════════════════════════════════
+            FEATURED ARTICLE — 01
+        ═══════════════════════════════════════════════ */}
+        <section className="relative py-16">
+          {/* Background number */}
+          <div
+            className="pointer-events-none absolute -top-4 left-0 font-[family-name:var(--font-archivo)] text-[clamp(10rem,30vw,22rem)] leading-none text-white/[0.04]"
+            aria-hidden="true"
+          >
+            01
+          </div>
+
+          <div className="grid grid-cols-12 gap-0">
+            {/* Left: metadata column */}
+            <div className="col-span-12 md:col-span-3">
+              <div className="font-[family-name:var(--font-space)] text-[0.75rem] uppercase tracking-[0.2em]">
+                <div className="mb-4 text-white/30">DATUM</div>
+                <div className="mb-8 text-white/70">
+                  {formatDate(featured.date)}
+                </div>
+
+                <div className="mb-4 text-white/30">CTENI</div>
+                <div className="mb-8 text-white/70">
+                  {featured.readTime} MIN
+                </div>
+
+                <div className="mb-4 text-white/30">TAGY</div>
+                <div className="mb-8 flex flex-wrap gap-2">
+                  {featured.tags.map((tag, i) => (
+                    <span key={tag} className="text-white/70">
+                      {tag.toUpperCase()}
+                      {i < featured.tags.length - 1 && (
+                        <span className="ml-2 text-white/20">/</span>
+                      )}
                     </span>
-                    <span className="text-[#006b1d] text-sm">
-                      {formatTerminalDate(featured.date)}
-                    </span>
-                  </div>
+                  ))}
+                </div>
 
-                  <h2 className="text-[#00ff41] glow-text text-xl sm:text-2xl mb-4 text-jitter leading-tight">
-                    &gt; {featured.title}
-                  </h2>
-
-                  <div className="text-[#006b1d] text-sm space-y-1 mb-4">
-                    <p>
-                      <span className="text-[#ffb000]">slug</span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= {featured.slug}
-                    </p>
-                    <p>
-                      <span className="text-[#ffb000]">date</span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= {featured.date}
-                    </p>
-                    <p>
-                      <span className="text-[#ffb000]">readTime</span>
-                      &nbsp;= {featured.readTime} min
-                    </p>
-                    <p>
-                      <span className="text-[#ffb000]">tags</span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;={" "}
-                      {featured.tags
-                        .map((t) => `[${t.toUpperCase()}]`)
-                        .join(" ")}
-                    </p>
-                    <p>
-                      <span className="text-[#ffb000]">sources</span>
-                      &nbsp;&nbsp;= {featured.sources.length} attached
-                    </p>
-                  </div>
-
-                  <div className="text-[#00ff41] text-base leading-relaxed mb-4 whitespace-pre-wrap">
-                    {featured.content}
-                  </div>
-
-                  {/* Sources */}
-                  <div className="text-[#006b1d] text-sm mt-4 mb-2">
-                    --- ATTACHED SOURCES ---
-                  </div>
-                  {featured.sources.map((src, i) => (
-                    <div key={i} className="text-sm mb-1">
-                      <span className="text-[#ffb000]">
-                        {sourceIcon(src.type)}
-                      </span>{" "}
-                      <a
-                        href={src.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="term-link glitch-hover"
-                      >
-                        {src.title}
-                      </a>
+                <div className="mb-4 text-white/30">ZDROJE</div>
+                <div className="space-y-1">
+                  {featured.sources.map((s) => (
+                    <div key={s.url} className="text-white/70">
+                      [{s.type.toUpperCase()}]
                     </div>
                   ))}
                 </div>
-                <pre className="text-[#00ff41] text-sm sm:text-base leading-tight">
-{`├──────────────────────────────────────────────────────────────────┤
-│  EOF — article #001                                              │
-└──────────────────────────────────────────────────────────────────┘`}
-                </pre>
+              </div>
+            </div>
+
+            {/* Right: title + excerpt */}
+            <div className="col-span-12 mt-8 md:col-span-9 md:mt-0 md:pl-8">
+              {/* Red accent: small label */}
+              <div className="mb-6 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.5em] text-[#ff0000]">
+                HLAVNI CLANEK
               </div>
 
-              {/* ═══════════════════════ REMAINING ARTICLES ═══════════════════════ */}
-              <div className="text-[#006b1d] text-sm mb-4">
-                --- BEGIN LOG TAIL: remaining {rest.length} entries ---
+              <h2 className="font-[family-name:var(--font-archivo)] text-[clamp(2.5rem,6vw,7rem)] leading-[0.9] tracking-[-0.02em]">
+                {featured.title.toUpperCase()}
+              </h2>
+
+              <p className="mt-10 max-w-[55ch] font-[family-name:var(--font-space)] text-[0.85rem] leading-[1.7] text-white/60">
+                {featured.excerpt}
+              </p>
+
+              {/* Read more */}
+              <div className="mt-10 font-[family-name:var(--font-space)] text-[0.75rem] uppercase tracking-[0.3em] text-white/40 transition-colors hover:text-white">
+                CIST DALE &rarr;
               </div>
+            </div>
+          </div>
 
-              {rest.map((article, index) => {
-                const lineNum = String(index + 2).padStart(3, "0");
-                const sev = severityFromTags(article.tags);
-                return (
-                  <div
-                    key={article.slug}
-                    className="mb-6 glitch-hover"
-                  >
-                    <div className="text-[#006b1d] text-xs mb-1">
-                      ╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶
-                    </div>
+          {/* Section divider */}
+          <div className="mt-16 h-[6px] bg-white" />
+        </section>
 
-                    {/* Log line header */}
-                    <div className="flex flex-wrap items-start gap-2 text-sm mb-1">
-                      <span className="text-[#006b1d]">{lineNum}</span>
-                      <span className="text-[#006b1d]">
-                        {formatTerminalDate(article.date)}
-                      </span>
-                      <span className={severityColor(sev)}>[{sev}]</span>
-                      <span className="text-[#00ff41]">
-                        PID:{lineNum}
-                      </span>
-                    </div>
+        {/* ═══════════════════════════════════════════════
+            ARTICLE LIST — TABLE LAYOUT
+        ═══════════════════════════════════════════════ */}
+        <section className="py-8">
+          <div className="mb-8 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.5em] text-white/30">
+            DALSI CLANKY
+          </div>
 
-                    {/* Title */}
-                    <h3 className="text-[#00ff41] text-lg sm:text-xl leading-tight mb-2">
-                      <span className="text-[#006b1d]">&gt; </span>
-                      {article.title}
-                    </h3>
+          {/* Table header */}
+          <div className="mb-4 hidden grid-cols-12 gap-0 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.3em] text-white/25 md:grid">
+            <div className="col-span-1">NO.</div>
+            <div className="col-span-2">DATUM</div>
+            <div className="col-span-6">TITULEK</div>
+            <div className="col-span-3">TAGY</div>
+          </div>
+          <div className="mb-6 h-px bg-white/10" />
 
-                    {/* Metadata block */}
-                    <div className="text-[#006b1d] text-sm space-y-0.5 mb-2 ml-4">
-                      <p>
-                        <span className="text-[#ffb000]">readTime</span>={article.readTime}min
-                        &nbsp;&nbsp;
-                        <span className="text-[#ffb000]">tags</span>=
-                        {article.tags
-                          .map((t) => `[${t.toUpperCase()}]`)
-                          .join("")}
-                        &nbsp;&nbsp;
-                        <span className="text-[#ffb000]">src</span>={article.sources.length}
-                      </p>
-                    </div>
-
-                    {/* Excerpt */}
-                    <div className="text-[#006b1d] text-base ml-4 leading-relaxed">
-                      <span className="text-[#00ff41]">|</span> {article.excerpt}
-                    </div>
-
-                    {/* Sources inline */}
-                    <div className="ml-4 mt-2 text-sm">
-                      {article.sources.map((src, i) => (
-                        <span key={i} className="mr-3">
-                          <span className="text-[#ffb000]">
-                            {sourceIcon(src.type)}
-                          </span>{" "}
-                          <a
-                            href={src.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="term-link text-[#006b1d] hover:text-[#00ff41]"
-                          >
-                            {src.title.length > 35
-                              ? src.title.slice(0, 35) + "..."
-                              : src.title}
-                          </a>
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                );
-              })}
-
-              <div className="text-[#006b1d] text-sm mt-4">
-                --- END LOG TAIL ---
-              </div>
-              <div className="text-[#006b1d] text-sm">
-                ────────────────────────────────────────────────────────────────────
-              </div>
-            </section>
-
-            {/* ═══════════════════════ AI MODEL COMMENTS (IRC STYLE) ═══════════════════════ */}
-            <section id="comments" className="mb-8 mt-8">
-              <div className="text-[#006b1d] text-sm mb-1">
-                <span className="text-[#ffb000]">user@bnp:~$</span> tail -f irc.log
-              </div>
-              <div className="text-[#006b1d] text-sm mb-4">
-                --- #berou-nam-praci IRC channel log ---
-              </div>
-
-              <pre className="text-[#00ff41] text-sm sm:text-base leading-tight mb-4">
-{`┌──────────────────────────────────────────────────────────────────┐
-│  IRC: #berou-nam-praci @ irc.ai-net.org                          │
-│  Topic: "${featured.title.slice(0, 50)}..."                      │
-│  Users: 3  Ops: 0  Voice: 3                                     │
-├──────────────────────────────────────────────────────────────────┤`}
-              </pre>
-
-              <div className="border-l-2 border-r-2 border-[#00ff41] px-3 sm:px-4 py-4 space-y-4">
-                <div className="text-[#006b1d] text-sm">
-                  * Now talking in #berou-nam-praci
-                </div>
-                <div className="text-[#006b1d] text-sm">
-                  * Topic is: AI model reactions to latest news
-                </div>
-                <div className="text-[#006b1d] text-sm mb-4">
-                  * Set by ChanServ on {featured.date}
-                </div>
-
-                {featured.aiComments.map((comment, i) => {
-                  const prompts = ["$", "#", "%"];
-                  const colors = [
-                    "text-[#00ff41]",
-                    "text-[#4488ff]",
-                    "text-[#cc66ff]",
-                  ];
-                  const nickColors = [
-                    "text-[#00ff41]",
-                    "text-[#ffb000]",
-                    "text-[#ff6644]",
-                  ];
-                  const timestamp = `${String(12 + i).padStart(2, "0")}:${String(i * 17 + 3).padStart(2, "0")}`;
-
-                  return (
-                    <div key={i} className="text-base">
-                      <div className="flex items-start gap-0 flex-wrap">
-                        <span className="text-[#006b1d] text-sm mr-2">
-                          [{timestamp}]
-                        </span>
-                        <span className={`${nickColors[i]} font-bold`}>
-                          &lt;{comment.model}&gt;
-                        </span>
-                        <span className="text-[#00ff41] ml-2 leading-relaxed">
-                          {comment.comment}
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
-
-                <div className="text-[#006b1d] text-sm mt-4">
-                  * {featured.aiComments.length} messages displayed from log
-                </div>
-              </div>
-
-              <pre className="text-[#00ff41] text-sm sm:text-base leading-tight">
-{`└──────────────────────────────────────────────────────────────────┘`}
-              </pre>
-
-              <div className="text-[#006b1d] text-sm mt-2">
-                ────────────────────────────────────────────────────────────────────
-              </div>
-            </section>
-
-            {/* ═══════════════════════ SYSTEM STATUS PANEL ═══════════════════════ */}
-            <section className="mb-8">
-              <div className="text-[#006b1d] text-sm mb-1">
-                <span className="text-[#ffb000]">user@bnp:~$</span> neofetch
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 text-sm mt-2">
-                <div className="space-y-0.5">
-                  <p>
-                    <span className="text-[#ffb000]">OS</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: BNP-Linux 2.0.0 x86_64
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Kernel</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 6.1.0-ai-news
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Shell</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: bnp-sh 4.2
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Runtime</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Bun 1.2+
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Framework</span>
-                    &nbsp;&nbsp;&nbsp;: Next.js 16
-                  </p>
-                </div>
-                <div className="space-y-0.5">
-                  <p>
-                    <span className="text-[#ffb000]">Articles</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;: {articles.length} loaded
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Tags</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {allTags.length} indexed
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">AI Models</span>
-                    &nbsp;&nbsp;&nbsp;: 3 online
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Uptime</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {Math.floor(Math.random() * 99) + 1}d {Math.floor(Math.random() * 23)}h
-                  </p>
-                  <p>
-                    <span className="text-[#ffb000]">Memory</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 42069K / 65536K
-                  </p>
-                </div>
-              </div>
-
-              <div className="text-[#006b1d] text-sm mt-4">
-                ────────────────────────────────────────────────────────────────────
-              </div>
-            </section>
-
-            {/* ═══════════════════════ FOOTER ═══════════════════════ */}
-            <footer className="mb-12">
-              <div className="text-[#006b1d] text-sm mb-2">
-                <span className="text-[#ffb000]">user@bnp:~$</span> exit
-              </div>
-
-              <pre className="text-[#006b1d] text-xs sm:text-sm leading-tight mb-4">
-{`
-  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  ░                                                                ░
-  ░    Session terminated.                                         ░
-  ░    ${articles.length} articles processed. 0 errors. 0 warnings.              ░
-  ░    ${allTags.length} tags indexed. ${featured.aiComments.length} AI models consulted.                   ░
-  ░                                                                ░
-  ░    "Berou nam praci" (c) 2026                                  ░
-  ░    They're taking our jobs — so we're tracking theirs.         ░
-  ░                                                                ░
-  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-`}
-              </pre>
-
-              <div className="text-[#006b1d] text-sm">
-                <p>logout</p>
-                <p>Connection to bnp-server closed.</p>
-                <p className="mt-2">
-                  <span className="text-[#00ff41]">
-                    &gt; _<span className="cursor-blink">█</span>
+          {/* Rows */}
+          {rest.map((article, i) => (
+            <div key={article.slug}>
+              <div className="group grid grid-cols-12 gap-0 py-5 transition-colors hover:bg-white/[0.02]">
+                {/* Number */}
+                <div className="col-span-2 flex items-baseline gap-2 md:col-span-1">
+                  <span className="font-[family-name:var(--font-archivo)] text-2xl text-white/20 transition-colors group-hover:text-[#ff0000]/60">
+                    {padIndex(i + 1)}
                   </span>
+                </div>
+
+                {/* Date */}
+                <div className="col-span-10 md:col-span-2">
+                  <span className="font-[family-name:var(--font-space)] text-[0.75rem] text-white/30">
+                    {formatDate(article.date)}
+                  </span>
+                </div>
+
+                {/* Title */}
+                <div className="col-span-12 mt-2 md:col-span-6 md:mt-0">
+                  <h3 className="font-[family-name:var(--font-archivo)] text-lg leading-tight tracking-[-0.01em] transition-colors group-hover:text-white/90">
+                    {article.title.toUpperCase()}
+                  </h3>
+                  <p className="mt-2 font-[family-name:var(--font-space)] text-[0.75rem] leading-relaxed text-white/35 md:hidden">
+                    {article.excerpt.slice(0, 100)}...
+                  </p>
+                </div>
+
+                {/* Tags */}
+                <div className="col-span-12 mt-2 md:col-span-3 md:mt-0 md:text-right">
+                  <span className="font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.15em] text-white/30">
+                    {article.tags.join(" / ")}
+                  </span>
+                </div>
+              </div>
+              <div className="h-px bg-white/[0.06]" />
+            </div>
+          ))}
+
+          <div className="mt-12 h-[4px] bg-white" />
+        </section>
+
+        {/* ═══════════════════════════════════════════════
+            TAGS
+        ═══════════════════════════════════════════════ */}
+        <section className="py-12">
+          <div className="mb-8 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.5em] text-white/30">
+            TAGY
+          </div>
+
+          <div className="flex flex-wrap items-center gap-x-1 font-[family-name:var(--font-space)] text-[0.8rem] uppercase tracking-[0.2em]">
+            {allTags.map((tag, i) => (
+              <span key={tag} className="flex items-center">
+                <span
+                  className={`cursor-pointer transition-colors hover:text-[#ff0000] ${
+                    i === 0 ? "text-[#ff0000]" : "text-white/40"
+                  }`}
+                >
+                  {tag}
+                </span>
+                {i < allTags.length - 1 && (
+                  <span className="mx-3 text-white/15">/</span>
+                )}
+              </span>
+            ))}
+          </div>
+
+          <div className="mt-12 h-[4px] bg-white" />
+        </section>
+
+        {/* ═══════════════════════════════════════════════
+            AI COMMENTS — THREE COLUMNS
+        ═══════════════════════════════════════════════ */}
+        <section className="py-12">
+          <div className="mb-10 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.5em] text-white/30">
+            AI KOMENTARE
+          </div>
+
+          <div className="grid grid-cols-1 gap-0 md:grid-cols-3">
+            {featured.aiComments.map((comment, i) => (
+              <div
+                key={comment.model}
+                className={`p-6 ${
+                  i < featured.aiComments.length - 1
+                    ? "border-b border-white/[0.06] md:border-b-0 md:border-r"
+                    : ""
+                }`}
+              >
+                {/* Model name */}
+                <div className="mb-6 font-[family-name:var(--font-archivo)] text-xl uppercase tracking-[0.05em]">
+                  {comment.model}
+                </div>
+
+                {/* Comment with red initial cap */}
+                <p className="font-[family-name:var(--font-space)] text-[0.8rem] leading-[1.8] text-white/50">
+                  <span className="font-[family-name:var(--font-archivo)] text-2xl leading-none text-[#ff0000]">
+                    {comment.comment.charAt(0)}
+                  </span>
+                  <span>{comment.comment.slice(1)}</span>
                 </p>
               </div>
-            </footer>
-          </main>
-        </div>
+            ))}
+          </div>
+
+          <div className="mt-12 h-[6px] bg-[#ff0000]" />
+        </section>
+
+        {/* ═══════════════════════════════════════════════
+            FOOTER
+        ═══════════════════════════════════════════════ */}
+        <footer className="pb-16 pt-8">
+          <div className="flex items-end justify-between">
+            <div>
+              <div className="font-[family-name:var(--font-archivo)] text-[clamp(2rem,5vw,5rem)] leading-none tracking-[-0.02em]">
+                GENEROVANO AI
+              </div>
+              <div className="mt-4 font-[family-name:var(--font-space)] text-[0.65rem] uppercase tracking-[0.3em] text-white/25">
+                V3.0 — SWISS BRUTALIST GRID — 2026
+              </div>
+            </div>
+
+            {/* Grid intentionally broken: element bleeds right */}
+            <div className="hidden font-[family-name:var(--font-archivo)] text-[8rem] leading-none text-white/[0.03] md:block">
+              03
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
