@@ -1,4 +1,5 @@
 import { Bebas_Neue, IBM_Plex_Mono } from "next/font/google";
+import Link from "next/link";
 import { articles, allTags } from "@/lib/mockData";
 
 const bebas = Bebas_Neue({
@@ -24,7 +25,7 @@ export default function ConcreteMonolith() {
 
   return (
     <div
-      className={`${bebas.variable} ${ibmMono.variable} relative min-h-screen bg-[#2a2a2a] text-[#e8e4e0] selection:bg-[#ff6600] selection:text-[#1a1a1a]`}
+      className={`${bebas.variable} ${ibmMono.variable} relative min-h-screen bg-[#2a2a2a] text-[#e8e4e0] selection:bg-[#0055ff] selection:text-[#e8e4e0]`}
     >
       {/* ====== CONCRETE TEXTURE OVERLAY (SVG noise) ====== */}
       <div
@@ -60,12 +61,12 @@ export default function ConcreteMonolith() {
         <header className="border-b-[6px] border-[#1a1a1a]">
           {/* Navigation bar */}
           <nav className="flex items-center justify-between border-b-[3px] border-[#1a1a1a] px-4 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] sm:px-8">
-            <a
+            <Link
               href="/"
-              className="text-[#e8e4e0]/60 transition-colors hover:text-[#ff6600]"
+              className="text-[#e8e4e0]/60 transition-colors hover:text-[#0055ff]"
             >
               &larr; Zpět
-            </a>
+            </Link>
             <div className="flex items-center gap-4 sm:gap-8">
               <span className="hidden text-[#e8e4e0]/40 sm:inline">
                 Variace 01
@@ -77,7 +78,7 @@ export default function ConcreteMonolith() {
                 <button className="bg-[#e8e4e0] px-2 py-0.5 text-[10px] font-bold text-[#1a1a1a]">
                   CZ
                 </button>
-                <button className="px-2 py-0.5 text-[10px] text-[#e8e4e0]/50 transition-colors hover:text-[#ff6600]">
+                <button className="px-2 py-0.5 text-[10px] text-[#e8e4e0]/50 transition-colors hover:text-[#0055ff]">
                   EN
                 </button>
               </div>
@@ -101,7 +102,7 @@ export default function ConcreteMonolith() {
               <p className="max-w-xl font-[family-name:var(--font-ibm-mono)] text-sm leading-relaxed text-[#e8e4e0]/50 sm:text-base">
                 Denní přehled AI novinek. Generováno umělou inteligencí.
                 <br />
-                <span className="text-[#ff6600]">
+                <span className="text-[#0055ff]">
                   Každý den. Bez emocí. Bez cenzury.
                 </span>
               </p>
@@ -118,10 +119,10 @@ export default function ConcreteMonolith() {
         <section className="border-b-[6px] border-[#1a1a1a]">
           {/* Section label bar */}
           <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
-            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#0055ff]">
               Hlavni clanek
             </span>
-            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <div className="h-[2px] flex-1 bg-[#0055ff]/20" />
             <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
               {featured.date}
             </span>
@@ -129,20 +130,14 @@ export default function ConcreteMonolith() {
 
           <div className="grid gap-0 lg:grid-cols-[1fr_auto]">
             <div className="px-4 py-8 sm:px-8 sm:py-12 lg:py-16">
-              {/* Construction number */}
-              <span
-                className="block font-[family-name:var(--font-bebas)] text-[8rem] leading-none text-[#2a2a2a] sm:text-[10rem]"
-                style={{
-                  WebkitTextStroke: "2px #e8e4e0",
-                  textShadow: "4px 4px 0 rgba(0,0,0,0.4)",
-                }}
-              >
-                01
-              </span>
-
               {/* Title */}
-              <h2 className="-mt-8 mb-6 max-w-3xl font-[family-name:var(--font-bebas)] text-[clamp(2.5rem,6vw,5rem)] leading-[0.95] tracking-tight sm:-mt-12">
-                {featured.title}
+              <h2 className="mb-6 max-w-3xl font-[family-name:var(--font-bebas)] text-[clamp(2.5rem,6vw,5rem)] leading-[0.95] tracking-tight">
+                <Link
+                  href="/1/claude-4-opus-revolution"
+                  className="transition-colors hover:text-[#0055ff]"
+                >
+                  {featured.title}
+                </Link>
               </h2>
 
               {/* Meta row */}
@@ -153,7 +148,7 @@ export default function ConcreteMonolith() {
                 {featured.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="border-[2px] border-[#ff6600]/40 px-2 py-0.5 text-[#ff6600]/70"
+                    className="border-[2px] border-[#0055ff]/40 px-2 py-0.5 text-[#0055ff]/70"
                   >
                     {tag}
                   </span>
@@ -167,15 +162,15 @@ export default function ConcreteMonolith() {
 
               {/* Read more CTA */}
               <div className="mt-8">
-                <a
-                  href={`/clanky/${featured.slug}`}
-                  className="group inline-flex items-center gap-3 border-[3px] border-[#e8e4e0] px-6 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] transition-all hover:border-[#ff6600] hover:bg-[#ff6600] hover:text-[#1a1a1a]"
+                <Link
+                  href={`/1/${featured.slug}`}
+                  className="group inline-flex items-center gap-3 border-[3px] border-[#e8e4e0] px-6 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] transition-all hover:border-[#0055ff] hover:bg-[#0055ff] hover:text-[#e8e4e0]"
                 >
                   Cist cely clanek
                   <span className="transition-transform group-hover:translate-x-1">
                     &rarr;
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -196,10 +191,10 @@ export default function ConcreteMonolith() {
         <section className="border-b-[6px] border-[#1a1a1a]">
           {/* Section label bar */}
           <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
-            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#0055ff]">
               Dalsi clanky
             </span>
-            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <div className="h-[2px] flex-1 bg-[#0055ff]/20" />
             <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
               {rest.length} clanku
             </span>
@@ -221,19 +216,9 @@ export default function ConcreteMonolith() {
                   key={article.slug}
                   className={`group border-b-[4px] border-[#1a1a1a] p-6 transition-colors hover:bg-[#2e2e2e] sm:p-8 lg:border-r-[4px] ${colSpan}`}
                 >
-                  {/* Construction number */}
-                  <span
-                    className="block font-[family-name:var(--font-bebas)] text-[5rem] leading-none text-[#2a2a2a] sm:text-[6rem]"
-                    style={{
-                      WebkitTextStroke: "1.5px #e8e4e0",
-                    }}
-                  >
-                    {String(i + 2).padStart(2, "0")}
-                  </span>
-
                   {/* Title */}
-                  <h3 className="-mt-4 mb-4 font-[family-name:var(--font-bebas)] text-[clamp(1.8rem,4vw,3rem)] leading-[0.95] tracking-tight transition-colors group-hover:text-[#ff6600]">
-                    <a href={`/clanky/${article.slug}`}>{article.title}</a>
+                  <h3 className="mb-4 font-[family-name:var(--font-bebas)] text-[clamp(1.8rem,4vw,3rem)] leading-[0.95] tracking-tight transition-colors group-hover:text-[#0055ff]">
+                    <Link href={`/1/${article.slug}`}>{article.title}</Link>
                   </h3>
 
                   {/* Date and read time */}
@@ -253,7 +238,7 @@ export default function ConcreteMonolith() {
                     {article.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="border-[2px] border-[#e8e4e0]/15 px-2 py-0.5 font-[family-name:var(--font-ibm-mono)] text-[9px] uppercase tracking-wider text-[#e8e4e0]/30 transition-colors group-hover:border-[#ff6600]/30 group-hover:text-[#ff6600]/50"
+                        className="border-[2px] border-[#e8e4e0]/15 px-2 py-0.5 font-[family-name:var(--font-ibm-mono)] text-[9px] uppercase tracking-wider text-[#e8e4e0]/30 transition-colors group-hover:border-[#0055ff]/30 group-hover:text-[#0055ff]/50"
                       >
                         {tag}
                       </span>
@@ -270,10 +255,10 @@ export default function ConcreteMonolith() {
         ================================================================ */}
         <section className="border-b-[6px] border-[#1a1a1a]">
           <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
-            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#0055ff]">
               Kategorie
             </span>
-            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <div className="h-[2px] flex-1 bg-[#0055ff]/20" />
           </div>
 
           <div className="px-4 py-8 sm:px-8 sm:py-12">
@@ -281,10 +266,10 @@ export default function ConcreteMonolith() {
               {allTags.map((tag, i) => (
                 <span
                   key={tag}
-                  className={`inline-block cursor-pointer border-[3px] px-4 py-2 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.15em] transition-all hover:bg-[#ff6600] hover:text-[#1a1a1a] ${
+                  className={`inline-block cursor-pointer border-[3px] px-4 py-2 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.15em] transition-all hover:bg-[#0055ff] hover:text-[#e8e4e0] ${
                     i === 0
-                      ? "border-[#ff6600] text-[#ff6600]"
-                      : "border-[#e8e4e0]/25 text-[#e8e4e0]/50 hover:border-[#ff6600]"
+                      ? "border-[#ffaa00] text-[#ffaa00]"
+                      : "border-[#e8e4e0]/25 text-[#e8e4e0]/50 hover:border-[#0055ff]"
                   }`}
                   style={{
                     boxShadow:
@@ -303,10 +288,10 @@ export default function ConcreteMonolith() {
         ================================================================ */}
         <section className="border-b-[6px] border-[#1a1a1a]">
           <div className="flex items-center gap-3 border-b-[3px] border-[#1a1a1a] px-4 py-2 sm:px-8">
-            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ff6600]">
+            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] uppercase tracking-[0.3em] text-[#ffaa00]">
               AI komentare
             </span>
-            <div className="h-[2px] flex-1 bg-[#ff6600]/20" />
+            <div className="h-[2px] flex-1 bg-[#ffaa00]/20" />
             <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
               K clanku 01
             </span>
@@ -317,7 +302,7 @@ export default function ConcreteMonolith() {
               {featured.aiComments.map((comment) => (
                 <div
                   key={comment.model}
-                  className="border-[4px] border-[#1a1a1a] bg-[#252525] p-6 transition-colors hover:border-[#ff6600]/50"
+                  className="border-[4px] border-[#1a1a1a] bg-[#252525] p-6 transition-colors hover:border-[#0055ff]/50"
                   style={{
                     boxShadow: "6px 6px 0 #1a1a1a",
                   }}
@@ -370,9 +355,10 @@ export default function ConcreteMonolith() {
             </div>
           </div>
 
-          {/* Bottom decorative line — orange accent strip */}
+          {/* Bottom decorative line — blue accent strip with amber dot */}
           <div className="mt-8 flex items-center gap-2">
-            <div className="h-[4px] w-16 bg-[#ff6600]" />
+            <div className="h-[4px] w-16 bg-[#0055ff]" />
+            <div className="h-[4px] w-4 bg-[#ffaa00]" />
             <div className="h-[4px] flex-1 bg-[#1a1a1a]" />
           </div>
         </footer>

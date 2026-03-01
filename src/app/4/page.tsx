@@ -458,12 +458,13 @@ export default function Page() {
               >
                 FILE NO. {getFileNumber(0)}
               </div>
-              <div
-                className="text-[1.6rem] sm:text-[2rem] leading-tight text-[#1a1a1a] tracking-[0.04em]"
+              <Link
+                href="/4/claude-4-opus-revolution"
+                className="text-[1.6rem] sm:text-[2rem] leading-tight text-[#1a1a1a] tracking-[0.04em] hover:text-[#3a3a3a] transition-colors block"
                 style={{ fontFamily: "var(--font-staatliches), sans-serif" }}
               >
                 {featured.title.toUpperCase()}
-              </div>
+              </Link>
             </div>
 
             {/* File metadata table */}
@@ -497,28 +498,11 @@ export default function Page() {
 
             <div className="w-full h-[1px] bg-[#1a1a1a] mb-6" />
 
-            {/* Document body with redactions */}
+            {/* Document body */}
             <div className="typewriter-text text-sm text-[#1a1a1a] relative z-[4]">
-              {featured.content.split("\n\n").map((paragraph, i) => {
-                // Add redaction bars to some words
-                const words = paragraph.split(" ");
-                const redactedContent = words.map((word, j) => {
-                  if (
-                    (i === 0 && j === 8) ||
-                    (i === 1 && j === 5) ||
-                    (i === 2 && j === 12) ||
-                    (i === 3 && j === 3)
-                  ) {
-                    return (
-                      <span key={j}>
-                        <span className="redacted">{word}</span>{" "}
-                      </span>
-                    );
-                  }
-                  return <span key={j}>{word} </span>;
-                });
-                return <p key={i}>{redactedContent}</p>;
-              })}
+              {featured.content.split("\n\n").map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
             </div>
 
             {/* Sources */}
@@ -701,23 +685,14 @@ export default function Page() {
                       {article.title.toUpperCase()}
                     </h3>
 
-                    {/* Excerpt with some redaction */}
+                    {/* Excerpt */}
                     <p
                       className="text-[0.8rem] text-[#3a3a3a] leading-relaxed tracking-wide mb-4 relative z-[4]"
                       style={{
                         fontFamily: "var(--font-courier), monospace",
                       }}
                     >
-                      {article.excerpt.split(" ").map((word, j) => {
-                        if (j === 6 || j === 15) {
-                          return (
-                            <span key={j}>
-                              <span className="redacted">{word}</span>{" "}
-                            </span>
-                          );
-                        }
-                        return <span key={j}>{word} </span>;
-                      })}
+                      {article.excerpt}
                     </p>
 
                     {/* Tags as departments */}
@@ -887,11 +862,7 @@ export default function Page() {
                 className="text-[0.5rem] tracking-[0.15em] text-neutral-800 uppercase"
                 style={{ fontFamily: "var(--font-courier), monospace" }}
               >
-                UNAUTHORIZED REPRODUCTION IS SUBJECT TO{" "}
-                <span className="redacted text-neutral-800 bg-neutral-800">
-                  REDACTED
-                </span>{" "}
-                PENALTIES
+                UNAUTHORIZED REPRODUCTION IS SUBJECT TO PENALTIES
               </p>
               <div className="w-16 h-[1px] bg-neutral-700 mx-auto" />
             </div>

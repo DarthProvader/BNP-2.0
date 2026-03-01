@@ -33,10 +33,16 @@
       "Bash(bunx --bun tsc --noEmit --pretty)",
       "Bash(npx tsc --noEmit src/app/5/page.tsx)",
       "Bash(node node_modules/typescript/bin/tsc --noEmit)",
-      "Bash(bun run build)"
+      "Bash(bun run build)",
+      "Read(//tmp/**)",
+      "Read(//c/tmp/**)",
+      "Bash(ls -la src/app/[version]/[slug]/)",
+      "Bash(npx tsc --noEmit --pretty)",
+      "Bash(npx -p typescript tsc --noEmit --pretty)"
     ],
     "additionalDirectories": [
-      "C:\\PV\\BerouNamPraci\\BNP 2.0\\$HOME\\.claude"
+      "C:\\PV\\BerouNamPraci\\BNP 2.0\\$HOME\\.claude",
+      "C:\\PV\\BerouNamPraci\\BNP 2.0\\src\\app\\[version]"
     ]
   }
 }

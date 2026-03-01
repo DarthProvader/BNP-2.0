@@ -1,72 +1,54 @@
 import Link from "next/link";
 
-const brutalistVersions = [
+const versions = [
   {
     id: 1,
     name: "Concrete Monolith",
-    description: "Brutalistní architektura. Betonové textury, monolitické bloky, industriální typografie, construction orange.",
-    accent: "#ff6600",
-  },
-  {
-    id: 2,
-    name: "Punk Zine Collage",
-    description: "Cut-and-paste punk zine. Trhané papíry, ransom-note typo, samolepky, razítka, neonová růžová.",
-    accent: "#ff1493",
-  },
-  {
-    id: 3,
-    name: "Swiss Brutalist Grid",
-    description: "Mezinárodní typografický styl rozbitý na kusy. Extrémní hierarchie, pouze černá + bílá + červená.",
-    accent: "#ff0000",
+    description: "Brutalistní architektura. Betonové textury, monolitické bloky, industriální typografie. Modrá + amber.",
+    accent: "#0055ff",
+    category: "brutalist",
   },
   {
     id: 4,
     name: "Classified / Redacted",
     description: "Utajené dokumenty, CLASSIFIED razítka, psací stroj, manila složky. Jako byste našli tajný spis o AI.",
     accent: "#cc0000",
+    category: "brutalist",
   },
   {
-    id: 5,
-    name: "Deconstructed Newspaper",
-    description: "Roztrhané noviny na tmavé zdi. Fragmenty sloupců, připínáčky, červené poznámky, novinový papír.",
-    accent: "#cc2222",
+    id: 11,
+    name: "Brutalist Dark Editorial",
+    description: "Původní brutalistní tmavý design. Instrument Serif, glitch efekty, asymetrický grid, electric red.",
+    accent: "#ff2222",
+    category: "brutalist",
   },
-];
-
-const neoTokyoVersions = [
   {
     id: 6,
     name: "Akira Neon Streets",
-    description: "Ulice Neo-Tokia o 2. ráno. Rudý neon, graffiti, déšť, stopy po motorkách. Akira meets Blade Runner.",
-    accent: "#ff1744",
+    description: "Ulice Neo-Tokia o 2. ráno. Cyan neon, déšť, stopy po motorkách. Akira meets Blade Runner.",
+    accent: "#00f0ff",
+    category: "neo-tokyo",
   },
   {
     id: 7,
     name: "Holographic HUD",
     description: "Vojenský heads-up display. Wireframe panely, zaměřovací kříže, skenování, cyan + amber.",
     accent: "#00e5ff",
-  },
-  {
-    id: 8,
-    name: "Vaporwave Tokyo",
-    description: "80s retro-futurismus. Sunset gradienty, chrome text, perspektivní grid, synthwave nostalgie.",
-    accent: "#ff6ec7",
-  },
-  {
-    id: 9,
-    name: "Cyberpunk Data Terminal",
-    description: "Bloomberg Terminal meets Ghost in the Shell. Ultra-dense data dashboard, sparklines, stock-ticker.",
-    accent: "#39ff14",
+    category: "neo-tokyo",
   },
   {
     id: 10,
     name: "Manga Panel Layout",
-    description: "Stránka JE manga. Šikmé panely, speed lines, screentone, bubliny. Černobílá + červená.",
+    description: "Stránka JE manga. Šikmé panely, speed lines, screentone, bubliny. Dark mode + červená.",
     accent: "#e60012",
+    category: "neo-tokyo",
   },
 ];
 
-function VersionCard({ v, category }: { v: (typeof brutalistVersions)[number]; category: string }) {
+const brutalist = versions.filter((v) => v.category === "brutalist");
+const neoTokyo = versions.filter((v) => v.category === "neo-tokyo");
+
+function VersionCard({ v }: { v: (typeof versions)[number] }) {
   return (
     <Link
       href={`/${v.id}`}
@@ -76,7 +58,7 @@ function VersionCard({ v, category }: { v: (typeof brutalistVersions)[number]; c
         <div className="flex items-center gap-3 mb-3">
           <span
             className="text-xs font-mono font-bold px-2.5 py-1 rounded-md"
-            style={{ backgroundColor: v.accent, color: "#000" }}
+            style={{ backgroundColor: v.accent, color: v.accent === "#0055ff" || v.accent === "#00f0ff" || v.accent === "#00e5ff" ? "#000" : "#fff" }}
           >
             /{v.id}
           </span>
@@ -101,7 +83,7 @@ export default function Home() {
             Berou nám práci
           </h1>
           <p className="text-neutral-500 text-lg">
-            10 designových variací AI news blogu — 2 styly × 5 verzí
+            6 designových variací AI news blogu — 2 styly × 3 verze
           </p>
         </div>
 
@@ -110,13 +92,13 @@ export default function Home() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-neutral-800" />
             <h2 className="text-sm font-mono text-neutral-500 uppercase tracking-widest">
-              Brutalist Dark — 5 variací
+              Brutalist Dark — 3 variace
             </h2>
             <div className="h-px flex-1 bg-neutral-800" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {brutalistVersions.map((v) => (
-              <VersionCard key={v.id} v={v} category="brutalist" />
+            {brutalist.map((v) => (
+              <VersionCard key={v.id} v={v} />
             ))}
           </div>
         </section>
@@ -126,13 +108,13 @@ export default function Home() {
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-neutral-800" />
             <h2 className="text-sm font-mono text-neutral-500 uppercase tracking-widest">
-              Neo-Tokyo — 5 variací
+              Neo-Tokyo — 3 variace
             </h2>
             <div className="h-px flex-1 bg-neutral-800" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {neoTokyoVersions.map((v) => (
-              <VersionCard key={v.id} v={v} category="neo-tokyo" />
+            {neoTokyo.map((v) => (
+              <VersionCard key={v.id} v={v} />
             ))}
           </div>
         </section>

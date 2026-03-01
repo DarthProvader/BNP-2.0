@@ -59,31 +59,31 @@ function sourceIcon(type: string) {
 }
 
 const TAG_COLORS: Record<string, string> = {
-  anthropic: "#ff1744",
-  llm: "#2979ff",
-  release: "#ffab00",
-  openai: "#ff1744",
-  video: "#2979ff",
-  "generative-ai": "#ffab00",
-  regulace: "#ff1744",
-  eu: "#2979ff",
-  policy: "#ffab00",
-  github: "#ff1744",
-  coding: "#2979ff",
-  agents: "#ffab00",
-  nvidia: "#ff1744",
-  hardware: "#2979ff",
-  gpu: "#ffab00",
+  anthropic: "#00f0ff",
+  llm: "#ff2d7b",
+  release: "#ffd000",
+  openai: "#00f0ff",
+  video: "#ff2d7b",
+  "generative-ai": "#ffd000",
+  regulace: "#00f0ff",
+  eu: "#ff2d7b",
+  policy: "#ffd000",
+  github: "#00f0ff",
+  coding: "#ff2d7b",
+  agents: "#ffd000",
+  nvidia: "#00f0ff",
+  hardware: "#ff2d7b",
+  gpu: "#ffd000",
 };
 
 function tagColor(tag: string) {
-  return TAG_COLORS[tag] || "#ff1744";
+  return TAG_COLORS[tag] || "#00f0ff";
 }
 
 const MODEL_NEON: Record<string, string> = {
-  "GPT-4o": "#ff1744",
-  Gemini: "#2979ff",
-  Llama: "#ffab00",
+  "GPT-4o": "#00f0ff",
+  Gemini: "#ff2d7b",
+  Llama: "#ffd000",
 };
 
 /* ------------------------------------------------------------------ */
@@ -117,7 +117,7 @@ function RainEffect() {
 function NeonText({
   children,
   className = "",
-  color = "#ff1744",
+  color = "#00f0ff",
   flicker = false,
 }: {
   children: React.ReactNode;
@@ -167,7 +167,7 @@ function WetReflection({ children, className = "" }: { children: React.ReactNode
 /* ------------------------------------------------------------------ */
 /*  Speed lines background                                             */
 /* ------------------------------------------------------------------ */
-function SpeedLines({ color = "#ff1744", opacity = 0.06 }: { color?: string; opacity?: number }) {
+function SpeedLines({ color = "#00f0ff", opacity = 0.06 }: { color?: string; opacity?: number }) {
   return (
     <div
       className="absolute inset-0 pointer-events-none"
@@ -250,52 +250,12 @@ export default function AkiraNeonStreetsPage() {
         }}
       />
 
-      {/* --- Background Japanese watermarks --- */}
-      <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden select-none" aria-hidden="true">
-        <span
-          className="absolute text-[20vw] font-bold leading-none"
-          style={{
-            fontFamily: "var(--font-righteous)",
-            color: "rgba(255,23,68,0.03)",
-            top: "10%",
-            right: "-5%",
-            transform: "rotate(-15deg)",
-          }}
-        >
-          革命
-        </span>
-        <span
-          className="absolute text-[15vw] font-bold leading-none"
-          style={{
-            fontFamily: "var(--font-righteous)",
-            color: "rgba(41,121,255,0.03)",
-            top: "45%",
-            left: "-3%",
-            transform: "rotate(10deg)",
-          }}
-        >
-          人工知能
-        </span>
-        <span
-          className="absolute text-[18vw] font-bold leading-none"
-          style={{
-            fontFamily: "var(--font-righteous)",
-            color: "rgba(255,171,0,0.025)",
-            bottom: "5%",
-            right: "5%",
-            transform: "rotate(-8deg)",
-          }}
-        >
-          ニュース
-        </span>
-      </div>
-
       {/* --- Wet street gradient at bottom --- */}
       <div
         className="pointer-events-none fixed bottom-0 left-0 right-0 h-40 z-30"
         style={{
           background:
-            "linear-gradient(to top, rgba(255,23,68,0.05) 0%, rgba(41,121,255,0.02) 40%, transparent 100%)",
+            "linear-gradient(to top, rgba(0,240,255,0.05) 0%, rgba(255,45,123,0.02) 40%, transparent 100%)",
         }}
       />
 
@@ -304,7 +264,7 @@ export default function AkiraNeonStreetsPage() {
         <div
           className="h-full w-1/3"
           style={{
-            background: "linear-gradient(to right, transparent, #ff1744, #ff1744, transparent)",
+            background: "linear-gradient(to right, transparent, #00f0ff, #00f0ff, transparent)",
             animationName: "motoTrail",
             animationDuration: "4s",
             animationIterationCount: "infinite",
@@ -317,17 +277,16 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         {/*  HEADER                                                       */}
         {/* ============================================================ */}
-        <header className="pt-6 pb-8 border-b border-red-900/30">
+        <header className="pt-6 pb-8 border-b border-cyan-900/30">
           {/* Top bar: back + lang */}
           <div className="flex items-center justify-between mb-6">
             <Link
               href="/"
-              className="flex items-center gap-2 text-sm tracking-wide transition-colors hover:text-[#ff1744]"
-              style={{ fontFamily: "var(--font-chakra)", color: "#ff1744" }}
+              className="flex items-center gap-2 text-sm tracking-wide transition-colors hover:text-[#00f0ff]"
+              style={{ fontFamily: "var(--font-chakra)", color: "#00f0ff" }}
             >
               <span className="text-lg">←</span>
-              <span>戻る</span>
-              <span className="text-[#e0e0e0]/40 ml-1">/ zpět</span>
+              <span>zpět</span>
             </Link>
 
             <button
@@ -335,16 +294,16 @@ export default function AkiraNeonStreetsPage() {
               className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border"
               style={{
                 fontFamily: "var(--font-fira)",
-                borderColor: "#ff1744",
-                color: "#ff1744",
-                textShadow: "0 0 8px rgba(255,23,68,0.5)",
+                borderColor: "#00f0ff",
+                color: "#00f0ff",
+                textShadow: "0 0 8px rgba(0,240,255,0.5)",
               }}
             >
               <span>{lang === "cs" ? "EN" : "CZ"}</span>
               <div
                 className="absolute inset-0 opacity-20"
                 style={{
-                  background: "linear-gradient(135deg, rgba(255,23,68,0.2), transparent)",
+                  background: "linear-gradient(135deg, rgba(0,240,255,0.2), transparent)",
                 }}
               />
             </button>
@@ -356,34 +315,23 @@ export default function AkiraNeonStreetsPage() {
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.9] animate-[neonFlicker_4s_infinite]"
               style={{
                 fontFamily: "var(--font-righteous)",
-                color: "#ff1744",
+                color: "#00f0ff",
                 textShadow:
-                  "0 0 7px #ff1744, 0 0 10px #ff1744, 0 0 21px #ff1744, 0 0 42px #ff1744, 0 0 82px #ff174480, 0 0 92px #ff174440",
+                  "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80, 0 0 92px #00f0ff40",
               }}
             >
               BEROU NÁM PRÁCI
             </h1>
           </WetReflection>
 
-          {/* Japanese subtitle */}
+          {/* Subtitle */}
           <div className="mt-3 flex items-center gap-3 flex-wrap">
-            <span
-              className="text-sm tracking-[0.3em]"
-              style={{
-                fontFamily: "var(--font-chakra)",
-                color: "#2979ff",
-                textShadow: "0 0 10px rgba(41,121,255,0.5)",
-              }}
-            >
-              仕事を奪われる
-            </span>
-            <span className="text-[#ff1744]/40">•</span>
             <span
               className="text-xs tracking-[0.25em] uppercase"
               style={{
                 fontFamily: "var(--font-fira)",
-                color: "#ffab00",
-                textShadow: "0 0 8px rgba(255,171,0,0.4)",
+                color: "#ffd000",
+                textShadow: "0 0 8px rgba(255,208,0,0.4)",
               }}
             >
               AI NEWS TERMINAL
@@ -395,12 +343,12 @@ export default function AkiraNeonStreetsPage() {
             {["ALL", "LLM", "VIDEO", "CODING", "HW"].map((item, i) => (
               <span
                 key={item}
-                className="px-3 py-1 text-[10px] font-bold tracking-[0.2em] uppercase border transition-all duration-200 cursor-pointer hover:bg-[#ff1744]/10"
+                className="px-3 py-1 text-[10px] font-bold tracking-[0.2em] uppercase border transition-all duration-200 cursor-pointer hover:bg-[#00f0ff]/10"
                 style={{
                   fontFamily: "var(--font-fira)",
-                  borderColor: i === 0 ? "#ff1744" : "#ffffff10",
-                  color: i === 0 ? "#ff1744" : "#e0e0e080",
-                  backgroundColor: i === 0 ? "rgba(255,23,68,0.08)" : "transparent",
+                  borderColor: i === 0 ? "#00f0ff" : "#ffffff10",
+                  color: i === 0 ? "#00f0ff" : "#e0e0e080",
+                  backgroundColor: i === 0 ? "rgba(0,240,255,0.08)" : "transparent",
                 }}
               >
                 {item}
@@ -410,7 +358,7 @@ export default function AkiraNeonStreetsPage() {
               className="ml-auto text-[10px] tracking-wider"
               style={{ fontFamily: "var(--font-fira)", color: "#e0e0e030" }}
             >
-              NEO-TOKYO // SEC.06
+              SEC.06
             </span>
           </nav>
         </header>
@@ -422,18 +370,18 @@ export default function AkiraNeonStreetsPage() {
           <div
             className="relative overflow-hidden border"
             style={{
-              borderColor: "#ff174440",
-              background: "linear-gradient(135deg, rgba(255,23,68,0.04) 0%, rgba(5,5,10,0.9) 50%, rgba(41,121,255,0.03) 100%)",
+              borderColor: "#00f0ff40",
+              background: "linear-gradient(135deg, rgba(0,240,255,0.04) 0%, rgba(5,5,10,0.9) 50%, rgba(255,45,123,0.03) 100%)",
             }}
           >
             {/* Speed lines background */}
-            <SpeedLines color="#ff1744" opacity={0.04} />
+            <SpeedLines color="#00f0ff" opacity={0.04} />
 
             {/* Manga frame corners */}
-            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#ff1744]" />
-            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-[#ff1744]" />
-            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-[#ff1744]" />
-            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-[#ff1744]" />
+            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#00f0ff]" />
+            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-[#00f0ff]" />
+            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-[#00f0ff]" />
+            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-[#00f0ff]" />
 
             <div className="relative p-6 sm:p-8 md:p-10">
               {/* HUD overlay metadata */}
@@ -442,12 +390,12 @@ export default function AkiraNeonStreetsPage() {
                   className="text-[10px] tracking-[0.3em] uppercase px-2 py-0.5 border animate-[pulseGlow_2s_infinite]"
                   style={{
                     fontFamily: "var(--font-fira)",
-                    color: "#ff1744",
-                    borderColor: "#ff1744",
-                    textShadow: "0 0 8px rgba(255,23,68,0.6)",
+                    color: "#00f0ff",
+                    borderColor: "#00f0ff",
+                    textShadow: "0 0 8px rgba(0,240,255,0.6)",
                   }}
                 >
-                  FEATURED // 注目
+                  FEATURED
                 </span>
                 <span
                   className="text-[10px] tracking-wider"
@@ -457,32 +405,34 @@ export default function AkiraNeonStreetsPage() {
                 </span>
                 <span
                   className="text-[10px] tracking-wider"
-                  style={{ fontFamily: "var(--font-fira)", color: "#ffab00" }}
+                  style={{ fontFamily: "var(--font-fira)", color: "#ffd000" }}
                 >
                   {featured.readTime} MIN READ
                 </span>
               </div>
 
-              {/* Japanese category */}
+              {/* Category */}
               <div
                 className="text-xs tracking-[0.5em] mb-3"
-                style={{ fontFamily: "var(--font-chakra)", color: "#2979ff80" }}
+                style={{ fontFamily: "var(--font-chakra)", color: "#ff2d7b80" }}
               >
-                人工知能 // ARTIFICIAL INTELLIGENCE
+                ARTIFICIAL INTELLIGENCE
               </div>
 
               {/* Title with neon glow */}
               <WetReflection>
-                <h2
-                  className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4"
-                  style={{
-                    fontFamily: "var(--font-righteous)",
-                    color: "#ff1744",
-                    textShadow: "0 0 10px rgba(255,23,68,0.6), 0 0 30px rgba(255,23,68,0.3)",
-                  }}
-                >
-                  {lang === "cs" ? featured.title : featured.titleEn}
-                </h2>
+                <Link href="/6/claude-4-opus-revolution">
+                  <h2
+                    className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4 transition-colors duration-200 hover:brightness-125"
+                    style={{
+                      fontFamily: "var(--font-righteous)",
+                      color: "#00f0ff",
+                      textShadow: "0 0 10px rgba(0,240,255,0.6), 0 0 30px rgba(0,240,255,0.3)",
+                    }}
+                  >
+                    {lang === "cs" ? featured.title : featured.titleEn}
+                  </h2>
+                </Link>
               </WetReflection>
 
               {/* Excerpt */}
@@ -523,7 +473,7 @@ export default function AkiraNeonStreetsPage() {
                     href={src.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-[10px] tracking-wider transition-colors duration-200 hover:text-[#ff1744]"
+                    className="flex items-center gap-1.5 text-[10px] tracking-wider transition-colors duration-200 hover:text-[#00f0ff]"
                     style={{
                       fontFamily: "var(--font-fira)",
                       color: "#e0e0e050",
@@ -541,7 +491,7 @@ export default function AkiraNeonStreetsPage() {
               className="h-1.5"
               style={{
                 backgroundImage:
-                  "repeating-linear-gradient(135deg, #ff1744 0px, #ff1744 10px, transparent 10px, transparent 20px, #ff1744 20px)",
+                  "repeating-linear-gradient(135deg, #00f0ff 0px, #00f0ff 10px, transparent 10px, transparent 20px, #00f0ff 20px)",
                 opacity: 0.3,
               }}
             />
@@ -553,20 +503,20 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <NeonText color="#ff1744" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
-              <span style={{ fontFamily: "var(--font-fira)" }}>FEED // フィード</span>
+            <NeonText color="#00f0ff" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
+              <span style={{ fontFamily: "var(--font-fira)" }}>FEED</span>
             </NeonText>
-            <div className="flex-1 h-px bg-linear-to-r from-[#ff1744]/30 to-transparent" />
+            <div className="flex-1 h-px bg-linear-to-r from-[#00f0ff]/30 to-transparent" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {rest.map((article, i) => (
               <article
                 key={article.slug}
-                className="group relative overflow-hidden border transition-all duration-300 hover:border-[#ff1744]/60"
+                className="group relative overflow-hidden border transition-all duration-300 hover:border-[#00f0ff]/60"
                 style={{
                   borderColor: "#ffffff08",
-                  background: `linear-gradient(${135 + i * 20}deg, rgba(255,23,68,0.02) 0%, rgba(5,5,10,0.95) 60%, rgba(41,121,255,0.02) 100%)`,
+                  background: `linear-gradient(${135 + i * 20}deg, rgba(0,240,255,0.02) 0%, rgba(5,5,10,0.95) 60%, rgba(255,45,123,0.02) 100%)`,
                   animationName: mounted ? "slideUp" : "none",
                   animationDuration: "0.5s",
                   animationDelay: `${i * 0.1}s`,
@@ -577,14 +527,14 @@ export default function AkiraNeonStreetsPage() {
               >
                 {/* Speed lines on hover */}
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <SpeedLines color="#ff1744" opacity={0.06} />
+                  <SpeedLines color="#00f0ff" opacity={0.06} />
                 </div>
 
                 {/* Diagonal corner accent */}
                 <div
                   className="absolute top-0 right-0 w-16 h-16"
                   style={{
-                    background: "linear-gradient(225deg, rgba(255,23,68,0.15) 0%, transparent 60%)",
+                    background: "linear-gradient(225deg, rgba(0,240,255,0.15) 0%, transparent 60%)",
                   }}
                 />
 
@@ -600,7 +550,7 @@ export default function AkiraNeonStreetsPage() {
                     </span>
                     <span
                       className="text-[9px] tracking-wider"
-                      style={{ fontFamily: "var(--font-fira)", color: "#ffab00a0" }}
+                      style={{ fontFamily: "var(--font-fira)", color: "#ffd000a0" }}
                     >
                       {article.readTime}m
                     </span>
@@ -608,13 +558,13 @@ export default function AkiraNeonStreetsPage() {
 
                   {/* Title */}
                   <h3
-                    className="text-lg sm:text-xl font-bold leading-tight mb-3 transition-all duration-300 group-hover:text-[#ff1744]"
+                    className="text-lg sm:text-xl font-bold leading-tight mb-3 transition-all duration-300 group-hover:text-[#00f0ff]"
                     style={{
                       fontFamily: "var(--font-righteous)",
                       color: "#e0e0e0e0",
                     }}
                   >
-                    <span className="group-hover:drop-shadow-[0_0_8px_rgba(255,23,68,0.5)]">
+                    <span className="group-hover:drop-shadow-[0_0_8px_rgba(0,240,255,0.5)]">
                       {lang === "cs" ? article.title : article.titleEn}
                     </span>
                   </h3>
@@ -656,7 +606,7 @@ export default function AkiraNeonStreetsPage() {
                         href={src.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="transition-colors duration-200 hover:text-[#ff1744]"
+                        className="transition-colors duration-200 hover:text-[#00f0ff]"
                         style={{ color: "#e0e0e030" }}
                         title={src.title}
                       >
@@ -670,8 +620,8 @@ export default function AkiraNeonStreetsPage() {
                 <div
                   className="h-px opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                   style={{
-                    background: "linear-gradient(to right, transparent, #ff1744, transparent)",
-                    boxShadow: "0 0 8px #ff1744",
+                    background: "linear-gradient(to right, transparent, #00f0ff, transparent)",
+                    boxShadow: "0 0 8px #00f0ff",
                   }}
                 />
               </article>
@@ -684,10 +634,10 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <NeonText color="#2979ff" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
-              <span style={{ fontFamily: "var(--font-fira)" }}>TAGS // タグ</span>
+            <NeonText color="#ff2d7b" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
+              <span style={{ fontFamily: "var(--font-fira)" }}>TAGS</span>
             </NeonText>
-            <div className="flex-1 h-px bg-linear-to-r from-[#2979ff]/30 to-transparent" />
+            <div className="flex-1 h-px bg-linear-to-r from-[#ff2d7b]/30 to-transparent" />
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -725,10 +675,10 @@ export default function AkiraNeonStreetsPage() {
         <section className="mb-12">
           {/* Section header */}
           <div className="flex items-center gap-3 mb-2">
-            <NeonText color="#ffab00" className="text-xs tracking-[0.3em] uppercase" flicker>
-              <span style={{ fontFamily: "var(--font-fira)" }}>TRANSMISSION LOG // 通信記録</span>
+            <NeonText color="#ffd000" className="text-xs tracking-[0.3em] uppercase" flicker>
+              <span style={{ fontFamily: "var(--font-fira)" }}>TRANSMISSION LOG</span>
             </NeonText>
-            <div className="flex-1 h-px bg-linear-to-r from-[#ffab00]/30 to-transparent" />
+            <div className="flex-1 h-px bg-linear-to-r from-[#ffd000]/30 to-transparent" />
           </div>
 
           <p
@@ -743,14 +693,14 @@ export default function AkiraNeonStreetsPage() {
             className="h-1 mb-4"
             style={{
               backgroundImage:
-                "repeating-linear-gradient(135deg, #ff1744 0px, #ff1744 8px, #05050a 8px, #05050a 16px)",
+                "repeating-linear-gradient(135deg, #00f0ff 0px, #00f0ff 8px, #05050a 8px, #05050a 16px)",
               opacity: 0.25,
             }}
           />
 
           <div className="space-y-4">
             {featured.aiComments.map((comment, i) => {
-              const neonClr = MODEL_NEON[comment.model] || "#ff1744";
+              const neonClr = MODEL_NEON[comment.model] || "#00f0ff";
               return (
                 <div
                   key={i}
@@ -804,7 +754,7 @@ export default function AkiraNeonStreetsPage() {
             className="h-1 mt-4"
             style={{
               backgroundImage:
-                "repeating-linear-gradient(135deg, #ff1744 0px, #ff1744 8px, #05050a 8px, #05050a 16px)",
+                "repeating-linear-gradient(135deg, #00f0ff 0px, #00f0ff 8px, #05050a 8px, #05050a 16px)",
               opacity: 0.25,
             }}
           />
@@ -815,10 +765,10 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <NeonText color="#ff1744" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
-              <span style={{ fontFamily: "var(--font-fira)" }}>ALL TRANSMISSIONS // 全通信</span>
+            <NeonText color="#00f0ff" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
+              <span style={{ fontFamily: "var(--font-fira)" }}>ALL TRANSMISSIONS</span>
             </NeonText>
-            <div className="flex-1 h-px bg-linear-to-r from-[#ff1744]/20 to-transparent" />
+            <div className="flex-1 h-px bg-linear-to-r from-[#00f0ff]/20 to-transparent" />
           </div>
 
           <div className="space-y-8">
@@ -835,7 +785,7 @@ export default function AkiraNeonStreetsPage() {
                 </h4>
                 <div className="space-y-3">
                   {article.aiComments.map((comment, ci) => {
-                    const neonClr = MODEL_NEON[comment.model] || "#ff1744";
+                    const neonClr = MODEL_NEON[comment.model] || "#00f0ff";
                     return (
                       <div key={ci} className="flex items-start gap-3">
                         <div className="flex items-center gap-1.5 shrink-0 mt-0.5">
@@ -872,13 +822,13 @@ export default function AkiraNeonStreetsPage() {
         {/* ============================================================ */}
         {/*  FOOTER                                                        */}
         {/* ============================================================ */}
-        <footer className="border-t border-[#ff1744]/20 py-8">
-          {/* Red neon line */}
+        <footer className="border-t border-[#00f0ff]/20 py-8">
+          {/* Neon line */}
           <div
             className="h-px mb-6"
             style={{
-              background: "linear-gradient(to right, transparent, #ff1744, transparent)",
-              boxShadow: "0 0 10px #ff174450, 0 -2px 15px #ff174420",
+              background: "linear-gradient(to right, transparent, #00f0ff, transparent)",
+              boxShadow: "0 0 10px #00f0ff50, 0 -2px 15px #00f0ff20",
             }}
           />
 
@@ -889,8 +839,8 @@ export default function AkiraNeonStreetsPage() {
                   className="text-sm font-bold tracking-wider"
                   style={{
                     fontFamily: "var(--font-righteous)",
-                    color: "#ff1744",
-                    textShadow: "0 0 8px rgba(255,23,68,0.5)",
+                    color: "#00f0ff",
+                    textShadow: "0 0 8px rgba(0,240,255,0.5)",
                   }}
                 >
                   BEROU NÁM PRÁCI
@@ -900,7 +850,7 @@ export default function AkiraNeonStreetsPage() {
                 className="text-[10px] tracking-[0.3em] mt-1"
                 style={{ fontFamily: "var(--font-fira)", color: "#e0e0e030" }}
               >
-                ネオ東京 2026 // NEO-TOKYO SECTOR 06
+                NEO-TOKYO SECTOR 06
               </div>
             </div>
 
@@ -909,7 +859,7 @@ export default function AkiraNeonStreetsPage() {
                 className="text-[10px] tracking-wider"
                 style={{ fontFamily: "var(--font-fira)", color: "#e0e0e025" }}
               >
-                AI NEWS // 仕事を奪われる
+                AI NEWS TERMINAL
               </div>
               <div
                 className="text-[9px] tracking-wider mt-1"
@@ -918,21 +868,6 @@ export default function AkiraNeonStreetsPage() {
                 {lang === "cs" ? "Data z veřejných zdrojů" : "Data from public sources"} • {new Date().getFullYear()}
               </div>
             </div>
-          </div>
-
-          {/* Graffiti tag */}
-          <div
-            className="mt-6 text-center"
-            style={{
-              fontFamily: "var(--font-righteous)",
-              color: "#ff174412",
-              fontSize: "2rem",
-              letterSpacing: "0.1em",
-              transform: "rotate(-2deg)",
-            }}
-            aria-hidden="true"
-          >
-            革命は止められない
           </div>
         </footer>
       </div>
