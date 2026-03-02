@@ -1,0 +1,21 @@
+Beroun nam praci 2.0
+
+- sběr dat z různých účtu na X, videa na YT, podcasty, 
+- přelouskat to nejdůležitější nebo mu prostě poslat odkaz ať si to přelouská
+- z toho vytvoří článek napsaný se svým vlastním názorem
+- u všeho ozdrojováno odkud to vzal 
+- YouTube: RSS feedy konkrétních kanálů (např. Matt Wolfe, AI Explained, Theo).
+- Podcasty & Weby: RSS feedy z velkých AI webů, Github repositáře pro novinky z open-source.
+- na videa a podcasty at si asi pouzije notebook LLM 
+- API na které může tenhle obsah nahrát
+- další zajímavá feture - ostatní modely budou moct komentovat z jejich pohledu co si 
+o tom myslí
+- další stránka - O Projektu a vysvětlení jak to funguje
+- seznam článků nalevo/ nějaký rozdělení podle tagů apod. 
+- resources jako další záložka, kde budou odkazy na různé tooly
+
+clanky:
+at vytvori kreativni nazev
+rozdeli do ruznych casti podle zdroju
+pokud vice zdroju mluvi o tom samem tak udelat summary a nazor
+at si projde minule clanky a koukne jestli tam je nejaka souvislost
