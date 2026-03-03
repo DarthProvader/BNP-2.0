@@ -1,0 +1,109 @@
+# BNP 2.0 — Data Collection Configuration
+# ==========================================
+
+# Output directory for raw collected data
+output_dir: "../content/raw"
+
+# Default cutoff for first run (hours) — only fetch items newer than this
+first_run_cutoff_hours: 48
+
+# ---- RSS Sources ----
+
+youtube:
+  - name: "Matt Wolfe"
+    slug: "matt-wolfe"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g"
+    tags: ["ai-tools", "news"]
+
+  - name: "AI Explained"
+    slug: "ai-explained"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"
+    tags: ["ai-research", "explainer"]
+
+  - name: "Theo - t3.gg"
+    slug: "theo-t3gg"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA"
+    tags: ["dev", "typescript", "ai"]
+
+  - name: "Fireship"
+    slug: "fireship"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+    tags: ["dev", "tutorials"]
+
+  - name: "AI Code King"
+    slug: "ai-code-king"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw"
+    tags: ["ai-coding", "tutorials"]
+
+podcasts:
+  - name: "Lex Fridman Podcast"
+    slug: "lex-fridman"
+    feed_url: "https://lexfridman.com/feed/podcast/"
+    tags: ["interview", "ai-research"]
+
+  - name: "Latent Space"
+    slug: "latent-space"
+    feed_url: "https://api.substack.com/feed/podcast/1084089.rss"
+    tags: ["ai-engineering", "deep-dive"]
+
+blogs:
+  - name: "OpenAI Blog"
+    slug: "openai-blog"
+    feed_url: "https://openai.com/blog/rss.xml"
+    tags: ["openai", "releases"]
+
+  # Anthropic Blog — no official RSS, moved to Playwright scraping
+  # Meta AI Blog — no official RSS, moved to Playwright scraping
+
+  - name: "Google AI Blog"
+    slug: "google-ai-blog"
+    feed_url: "https://blog.google/technology/ai/rss/"
+    tags: ["google", "ai-research"]
+
+  - name: "TechCrunch AI"
+    slug: "techcrunch-ai"
+    feed_url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    tags: ["news", "startups"]
+
+  - name: "The Verge AI"
+    slug: "the-verge-ai"
+    feed_url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    tags: ["news", "consumer"]
+
+  - name: "Ars Technica AI"
+    slug: "ars-technica-ai"
+    feed_url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+    tags: ["news", "deep-dive"]
+
+  - name: "MIT Technology Review AI"
+    slug: "mit-tech-review"
+    feed_url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+    tags: ["research", "analysis"]
+
+  - name: "Wired AI"
+    slug: "wired-ai"
+    feed_url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    tags: ["news", "culture"]
+
+# ---- Future: Twitter/X (Claude Code + Playwright MCP) ----
+# twitter:
+#   accounts:
+#     - handle: "elonmusk"
+#     - handle: "sama"
+#     - handle: "DarioAmodei"
+#     - handle: "kaborloff"
+#     - handle: "DrJimFan"
+#     - handle: "ylecun"
+#     - handle: "demaboris"
+#     - handle: "AndrewYNg"
+#     - handle: "MattWolfe"
+#     - handle: "aiaborje"
+
+# ---- Future: Reddit (Claude Code + Playwright MCP) ----
+# reddit:
+#   subreddits:
+#     - "singularity"
+#     - "ChatGPT"
+#     - "ClaudeAI"
+#     - "Bard"
+#     - "technology"

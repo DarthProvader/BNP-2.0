@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-03-02T22:37:04.385585+00:00",
+  "items": [
+    {
+      "title": "Sam Altman Compares Training AI To Raising Kids",
+      "url": "https://www.youtube.com/shorts/M14ArIseaR8",
+      "published": "2026-03-01T13:11:45+00:00",
+      "summary": "Sam Altman once again coming out with the weirdest takes…\n\n#AI #ainews #samaltman #openai",
+      "author": "Matt Wolfe",
+      "transcript": "This video has been circulating this week from Sam Alman where he compares training an AI model to raising a human in one of the more dystopian takes I've heard. One of the things that is always unfair in this comparison is people talk about how much energy it takes to train an AI model relative to how much it costs a human to do one inference query. But it also takes a lot of energy to train a human. It takes like 20 years of life and all of the food you eat during that time before you get smart. And not only that, it took like the very widespread evolution of the hundred billion people that have ever lived and learned not to get eaten by predators and learned how to like figure out science and whatever to produce you. So the fair comparison is if you ask ChachiT a question, how much energy does it take once its model is trained to answer that question versus a human? And probably AI has already caught up on an energy efficiency basis measured that way. So yeah, that's his take on that is that AIs are more efficient than humans because humans you have to raise and feed and learn from their mistakes and AI doesn't have to go through as much I Yes.",
+      "transcript_lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+2026-03-03 00:44:18,350 [INFO] run_rss: Starting RSS collection...
+2026-03-03 00:44:18,374 [INFO] collectors.rss_collector: === Collecting youtube (5 sources) ===
+2026-03-03 00:44:18,374 [INFO] collectors.rss_collector: Fetching: Matt Wolfe (https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g)
+2026-03-03 00:44:18,541 [INFO] collectors.rss_collector:   -> 0 new items from Matt Wolfe
+2026-03-03 00:44:18,541 [INFO] collectors.rss_collector:   -> No new items for Matt Wolfe, skipping file write
+2026-03-03 00:44:18,541 [INFO] collectors.rss_collector: Fetching: AI Explained (https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw)
+2026-03-03 00:44:18,623 [INFO] collectors.rss_collector:   -> 0 new items from AI Explained
+2026-03-03 00:44:18,623 [INFO] collectors.rss_collector:   -> No new items for AI Explained, skipping file write
+2026-03-03 00:44:18,623 [INFO] collectors.rss_collector: Fetching: Theo - t3.gg (https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA)
+2026-03-03 00:44:18,712 [INFO] collectors.rss_collector:   -> 0 new items from Theo - t3.gg
+2026-03-03 00:44:18,712 [INFO] collectors.rss_collector:   -> No new items for Theo - t3.gg, skipping file write
+2026-03-03 00:44:18,712 [INFO] collectors.rss_collector: Fetching: Fireship (https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA)
+2026-03-03 00:44:18,811 [INFO] collectors.rss_collector:   -> 0 new items from Fireship
+2026-03-03 00:44:18,811 [INFO] collectors.rss_collector:   -> No new items for Fireship, skipping file write
+2026-03-03 00:44:18,811 [INFO] collectors.rss_collector: Fetching: AI Code King (https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw)
+2026-03-03 00:44:19,031 [INFO] collectors.rss_collector:   -> 0 new items from AI Code King
+2026-03-03 00:44:19,031 [INFO] collectors.rss_collector:   -> No new items for AI Code King, skipping file write
+2026-03-03 00:44:19,031 [INFO] collectors.rss_collector: === Collecting podcasts (2 sources) ===
+2026-03-03 00:44:19,031 [INFO] collectors.rss_collector: Fetching: Lex Fridman Podcast (https://lexfridman.com/feed/podcast/)
+2026-03-03 00:44:21,438 [INFO] collectors.rss_collector:   -> 0 new items from Lex Fridman Podcast
+2026-03-03 00:44:21,440 [INFO] collectors.rss_collector:   -> No new items for Lex Fridman Podcast, skipping file write
+2026-03-03 00:44:21,440 [INFO] collectors.rss_collector: Fetching: Latent Space (https://api.substack.com/feed/podcast/1084089.rss)
+2026-03-03 00:44:25,861 [INFO] collectors.rss_collector:   -> 0 new items from Latent Space
+2026-03-03 00:44:25,863 [INFO] collectors.rss_collector:   -> No new items for Latent Space, skipping file write
+2026-03-03 00:44:25,863 [INFO] collectors.rss_collector: === Collecting blogs (7 sources) ===
+2026-03-03 00:44:25,864 [INFO] collectors.rss_collector: Fetching: OpenAI Blog (https://openai.com/blog/rss.xml)
+2026-03-03 00:44:26,317 [INFO] collectors.rss_collector:   -> 0 new items from OpenAI Blog
+2026-03-03 00:44:26,318 [INFO] collectors.rss_collector:   -> No new items for OpenAI Blog, skipping file write
+2026-03-03 00:44:26,318 [INFO] collectors.rss_collector: Fetching: Google AI Blog (https://blog.google/technology/ai/rss/)
+2026-03-03 00:44:26,788 [INFO] collectors.rss_collector:   -> 0 new items from Google AI Blog
+2026-03-03 00:44:26,788 [INFO] collectors.rss_collector:   -> No new items for Google AI Blog, skipping file write
+2026-03-03 00:44:26,788 [INFO] collectors.rss_collector: Fetching: TechCrunch AI (https://techcrunch.com/category/artificial-intelligence/feed/)
+2026-03-03 00:44:26,887 [INFO] collectors.rss_collector:   -> 0 new items from TechCrunch AI
+2026-03-03 00:44:26,887 [INFO] collectors.rss_collector:   -> No new items for TechCrunch AI, skipping file write
+2026-03-03 00:44:26,887 [INFO] collectors.rss_collector: Fetching: The Verge AI (https://www.theverge.com/rss/ai-artificial-intelligence/index.xml)
+2026-03-03 00:44:26,996 [INFO] collectors.rss_collector:   -> 0 new items from The Verge AI
+2026-03-03 00:44:26,997 [INFO] collectors.rss_collector:   -> No new items for The Verge AI, skipping file write
+2026-03-03 00:44:26,997 [INFO] collectors.rss_collector: Fetching: Ars Technica AI (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2026-03-03 00:44:27,137 [INFO] collectors.rss_collector:   -> 0 new items from Ars Technica AI
+2026-03-03 00:44:27,137 [INFO] collectors.rss_collector:   -> No new items for Ars Technica AI, skipping file write
+2026-03-03 00:44:27,137 [INFO] collectors.rss_collector: Fetching: MIT Technology Review AI (https://www.technologyreview.com/topic/artificial-intelligence/feed)
+2026-03-03 00:44:27,282 [INFO] collectors.rss_collector:   -> 0 new items from MIT Technology Review AI
+2026-03-03 00:44:27,282 [INFO] collectors.rss_collector:   -> No new items for MIT Technology Review AI, skipping file write
+2026-03-03 00:44:27,282 [INFO] collectors.rss_collector: Fetching: Wired AI (https://www.wired.com/feed/tag/ai/latest/rss)
+2026-03-03 00:44:27,395 [INFO] collectors.rss_collector:   -> 0 new items from Wired AI
+2026-03-03 00:44:27,395 [INFO] collectors.rss_collector:   -> No new items for Wired AI, skipping file write
+2026-03-03 00:44:27,396 [INFO] collectors.rss_collector: Checkpoint saved. Done.
+2026-03-03 00:44:27,396 [INFO] run_rss: Done. Processed 14 sources across 3 categories.
+2026-03-03 00:44:27,396 [INFO] run_rss:   youtube: 5 sources
+2026-03-03 00:44:27,396 [INFO] run_rss:   podcasts: 2 sources
+2026-03-03 00:44:27,397 [INFO] run_rss:   blogs: 7 sources

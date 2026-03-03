@@ -1,0 +1,11 @@
+2026-03-03 00:44:32,917 [INFO] run_transcripts: Starting YouTube transcript collection...
+2026-03-03 00:44:32,918 [INFO] collectors.yt_transcript_collector: Processing: 2026-03-02_ai-code-king.json
+2026-03-03 00:44:32,928 [INFO] collectors.yt_transcript_collector:   Skipping Claude Code Computer: Anthropic just launched Comp (already processed)
+2026-03-03 00:44:32,928 [INFO] collectors.yt_transcript_collector:   Skipping Claude Code (New Updates): New SIMPLIFY & BATCH Sk (already processed)
+2026-03-03 00:44:32,928 [INFO] collectors.yt_transcript_collector: Processing: 2026-03-02_fireship.json
+2026-03-03 00:44:32,929 [INFO] collectors.yt_transcript_collector:   Skipping Cloudflare just slop forked Next.js… (already processed)
+2026-03-03 00:44:32,929 [INFO] collectors.yt_transcript_collector: Processing: 2026-03-02_matt-wolfe.json
+2026-03-03 00:44:32,937 [INFO] collectors.yt_transcript_collector:   Skipping Sam Altman Compares Training AI To Raising Kids (already processed)
+2026-03-03 00:44:32,938 [INFO] collectors.yt_transcript_collector: Processing: 2026-03-02_theo-t3gg.json
+2026-03-03 00:44:32,947 [INFO] collectors.yt_transcript_collector:   Skipping Cursor, Claude Code and Codex all have a BIG probl (already processed)
+2026-03-03 00:44:32,947 [INFO] run_transcripts: Done. Processed 4 files, added 0 transcripts.

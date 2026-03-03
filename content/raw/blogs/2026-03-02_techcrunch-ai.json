@@ -1,0 +1,83 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-03-02T22:37:14.765221+00:00",
+  "items": [
+    {
+      "title": "Users are ditching ChatGPT for Claude — here’s how to make the switch",
+      "url": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
+      "published": "2026-03-02T17:42:11+00:00",
+      "summary": "Following controversies surrounding ChatGPT, many users are ditching the AI chatbot for Claude instead. Here's how to make the switch.",
+      "author": "Lauren Forristal"
+    },
+    {
+      "title": "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk",
+      "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
+      "published": "2026-03-02T16:18:34+00:00",
+      "summary": "Tech workers have signed an open letter urging the Department of Defense to withdraw its designation of Anthropic as a \"supply chain risk\" and instead to settle the matter quietly.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "A married founder duo’s company, 14.ai, is replacing customer support teams at startups",
+      "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+      "published": "2026-03-02T14:14:36+00:00",
+      "summary": "14.ai also launched a consumer brand to understand how much AI can handle customer support tasks.",
+      "author": "Ivan Mehta"
+    },
+    {
+      "title": "Anthropic’s Claude reports widespread outage",
+      "url": "https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/",
+      "published": "2026-03-02T12:31:49+00:00",
+      "summary": "Anthropic's AI chatbot Claude experienced widespread service disruptions on Monday morning, with thousands of users reporting issues accessing the bot.",
+      "author": "Ram Iyer"
+    },
+    {
+      "title": "Google looks to tackle longstanding RCS spam in India — but not alone",
+      "url": "https://techcrunch.com/2026/03/01/google-looks-to-tackle-longstanding-rcs-spam-in-india-but-not-alone/",
+      "published": "2026-03-01T16:30:00+00:00",
+      "summary": "Google is integrating carrier-level filtering into RCS in India through a partnership with Airtel to strengthen protections against spam.",
+      "author": "Jagmeet Singh"
+    },
+    {
+      "title": "Investors spill what they aren’t looking for anymore in AI SaaS companies",
+      "url": "https://techcrunch.com/2026/03/01/investors-spill-what-they-arent-looking-for-anymore-in-ai-saas-companies/",
+      "published": "2026-03-01T16:00:00+00:00",
+      "summary": "TechCrunch spoke with VCs to learn what investors aren't looking for in AI SaaS startups anymore.",
+      "author": "Dominic-Madori Davis"
+    },
+    {
+      "title": "OpenAI reveals more details about its agreement with the Pentagon",
+      "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
+      "published": "2026-03-01T15:30:10+00:00",
+      "summary": "By CEO Sam Altman’s own admission, OpenAI’s deal with the Department of Defense was “definitely rushed,” and “the optics don’t look good.”",
+      "author": "Anthony Ha"
+    },
+    {
+      "title": "Anthropic’s Claude rises to No. 1 in the App Store following Pentagon dispute",
+      "url": "https://techcrunch.com/2026/03/01/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+      "published": "2026-03-01T13:48:58+00:00",
+      "summary": "Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.",
+      "author": "Anthony Ha"
+    },
+    {
+      "title": "SaaS in, SaaS out: Here’s what’s driving the SaaSpocalypse",
+      "url": "https://techcrunch.com/2026/03/01/saas-in-saas-out-heres-whats-driving-the-saaspocalypse/",
+      "published": "2026-03-01T13:00:00+00:00",
+      "summary": "What's behind the SaaSpocalypse? It simply seems a new supreme has risen.",
+      "author": "Dominic-Madori Davis"
+    },
+    {
+      "title": "The trap Anthropic built for itself",
+      "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
+      "published": "2026-02-28T23:08:58+00:00",
+      "summary": "Anthropic, OpenAI, Google DeepMind, and others have long promised to govern themselves responsibly. Now, in the absence of rules, there's not a lot to protect them.",
+      "author": "Connie Loizos"
+    }
+  ]
+}

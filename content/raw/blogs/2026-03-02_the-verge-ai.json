@@ -1,0 +1,48 @@
+{
+  "source_type": "blogs",
+  "source_name": "The Verge AI",
+  "source_slug": "the-verge-ai",
+  "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "tags": [
+    "news",
+    "consumer"
+  ],
+  "fetched_at": "2026-03-02T22:37:14.879894+00:00",
+  "items": [
+    {
+      "title": "Apple might use Google servers to store data for its upgraded AI Siri",
+      "url": "https://www.theverge.com/tech/887802/apple-ai-siri-google-servers",
+      "published": "2026-03-02T19:22:33+00:00",
+      "summary": "Apple has asked Google to look into \"setting up servers\" for a new version of Siri that's Gemini-powered and meets Apple's privacy requirements, The Information reports. Apple had already announced in January that Google's Gemini AI models would help power the upgraded version of Siri it delayed last year, but The Information's report indicates Apple [&#8230;]",
+      "author": "Jay Peters"
+    },
+    {
+      "title": "AI-generated art can&#8217;t be copyrighted after Supreme Court declines to review the rule",
+      "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright",
+      "published": "2026-03-02T16:58:05+00:00",
+      "summary": "The US Supreme Court has declined to hear a case over whether AI-generated art can obtain a copyright, as reported earlier by Reuters. The Monday decision comes after Stephen Thaler, a computer scientist from Missouri, appealed a court's decision to uphold a ruling that found AI-generated art can't be copyrighted. In 2019, the US Copyright [&#8230;]",
+      "author": "Emma Roth"
+    },
+    {
+      "title": "Nvidia&#8217;s spending $4 billion on photonics to stay ahead of the curve in AI",
+      "url": "https://www.theverge.com/tech/887635/nvidia-ai-photonics-lumentum-coherent",
+      "published": "2026-03-02T15:56:49+00:00",
+      "summary": "Nvidia announced on Monday that it's investing $2 billion each into Lumentum and Coherent, which are both developing photonics technology for data centers, like optical transceivers, circuit switches, and lasers, which are used to move data at high speeds over long distances. Their tech could improve energy efficiency, data transfer speeds, and bandwidth in future [&#8230;]",
+      "author": "Stevie Bonifield"
+    },
+    {
+      "title": "How OpenAI caved to the Pentagon on AI surveillance",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth",
+      "published": "2026-03-02T13:22:18+00:00",
+      "summary": "On Friday evening, amidst fallout from a standoff between the Department of Defense and Anthropic, OpenAI CEO Sam Altman announced that his own company had successfully negotiated new terms with the Pentagon. The US government had just moved to blacklist Anthropic for standing firm on two red lines for military use: no mass surveillance of [&#8230;]",
+      "author": "Hayden Field"
+    },
+    {
+      "title": "A robot arm with puppy dog eyes is just one of Lenovo&#8217;s new desktop AI concepts",
+      "url": "https://www.theverge.com/tech/885228/lenovo-ai-workmate-companion-work-concept-robot-arm-desktop-clock-hub",
+      "published": "2026-03-01T22:01:00+00:00",
+      "summary": "Alongside a handful of new laptop concepts (and a range of real products too), Lenovo used MWC to announce a pair of AI-based productivity companion concepts. Both are standalone desk devices designed to boost productivity while providing office workers with a bit of artificial dystopic companionship. Lenovo describes its AI Workmate Concept as an \"always-on [&#8230;]",
+      "author": "Andrew Liszewski"
+    }
+  ]
+}
