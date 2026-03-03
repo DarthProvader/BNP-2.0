@@ -85,19 +85,62 @@ blogs:
     feed_url: "https://www.wired.com/feed/tag/ai/latest/rss"
     tags: ["news", "culture"]
 
-# ---- Future: Twitter/X (Claude Code + Playwright MCP) ----
-# twitter:
-#   accounts:
-#     - handle: "elonmusk"
-#     - handle: "sama"
-#     - handle: "DarioAmodei"
-#     - handle: "kaborloff"
-#     - handle: "DrJimFan"
-#     - handle: "ylecun"
-#     - handle: "demaboris"
-#     - handle: "AndrewYNg"
-#     - handle: "MattWolfe"
-#     - handle: "aiaborje"
+# ---- Twitter/X (Claude Code + Playwright MCP) ----
+twitter:
+  - name: "Elon Musk"
+    handle: "elonmusk"
+    slug: "elon-musk"
+    tags: ["ai", "tesla", "xai"]
+
+  - name: "Sam Altman"
+    handle: "sama"
+    slug: "sam-altman"
+    tags: ["openai", "ai-policy"]
+
+  - name: "Dario Amodei"
+    handle: "DarioAmodei"
+    slug: "dario-amodei"
+    tags: ["anthropic", "ai-safety"]
+
+  - name: "Andrej Karpathy"
+    handle: "karpathy"
+    slug: "andrej-karpathy"
+    tags: ["ai-research", "education"]
+
+  - name: "Jim Fan"
+    handle: "DrJimFan"
+    slug: "jim-fan"
+    tags: ["nvidia", "ai-research"]
+
+  - name: "Yann LeCun"
+    handle: "ylecun"
+    slug: "yann-lecun"
+    tags: ["meta", "ai-research"]
+
+  - name: "Andrew Ng"
+    handle: "AndrewYNg"
+    slug: "andrew-ng"
+    tags: ["ai-education", "deeplearning"]
+
+  - name: "Demis Hassabis"
+    handle: "demishassabis"
+    slug: "demis-hassabis"
+    tags: ["deepmind", "ai-research"]
+
+  - name: "Matt Wolfe"
+    handle: "mreflow"
+    slug: "matt-wolfe"
+    tags: ["ai-tools", "news"]
+
+  - name: "Fireship"
+    handle: "fireship_dev"
+    slug: "fireship"
+    tags: ["dev", "tutorials"]
+
+  - name: "Theo"
+    handle: "theo"
+    slug: "theo-t3gg"
+    tags: ["dev", "typescript", "ai"]
 
 # ---- Future: Reddit (Claude Code + Playwright MCP) ----
 # reddit:
