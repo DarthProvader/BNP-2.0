@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Courier_Prime, Staatliches } from "next/font/google";
 import Link from "next/link";
+import ArticleContent from "@/components/ArticleContent";
 import type { Article } from "@/lib/mockData";
 
 const courierPrime = Courier_Prime({
@@ -309,9 +310,14 @@ export default function PageClient({ article }: { article: Article }) {
               FULL INTELLIGENCE REPORT:
             </div>
             <div className="typewriter-text text-sm text-[#1a1a1a] relative z-[4]">
-              {content.split("\n\n").map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
+              <ArticleContent
+                content={content}
+                headingClassName="mt-8 mb-3 text-lg font-bold uppercase tracking-wider text-[#1a1a1a] first:mt-0"
+                paragraphClassName="mb-4"
+                strongClassName="font-bold"
+                emClassName="italic"
+                linkClassName="text-[#1a1a1a] underline"
+              />
             </div>
 
             {/* Sources section */}

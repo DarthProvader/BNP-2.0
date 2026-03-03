@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Bebas_Neue, IBM_Plex_Mono } from "next/font/google";
 import Link from "next/link";
+import ArticleContent from "@/components/ArticleContent";
 import type { Article } from "@/lib/mockData";
 
 const bebas = Bebas_Neue({
@@ -29,7 +30,6 @@ export default function PageClient({ article }: { article: Article }) {
 
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
-  const paragraphs = content.split("\n\n");
 
   return (
     <div
@@ -163,29 +163,19 @@ export default function PageClient({ article }: { article: Article }) {
               {lang === "cs" ? "Obsah" : "Content"}
             </span>
             <div className="h-[2px] flex-1 bg-[#0055ff]/20" />
-            <span className="font-[family-name:var(--font-ibm-mono)] text-[10px] text-[#e8e4e0]/30">
-              {paragraphs.length} {lang === "cs" ? "odstavcu" : "paragraphs"}
-            </span>
           </div>
 
           <div className="grid gap-0 lg:grid-cols-[1fr_auto]">
             <div className="px-4 py-8 sm:px-8 sm:py-12 lg:py-16">
-              <div className="max-w-3xl space-y-6">
-                {paragraphs.map((paragraph, i) => (
-                  <p
-                    key={i}
-                    className={`font-[family-name:var(--font-ibm-mono)] text-sm leading-[1.9] text-[#e8e4e0]/75 sm:text-base ${
-                      i === 0 ? "text-[#e8e4e0]/90" : ""
-                    }`}
-                  >
-                    {i === 0 && (
-                      <span className="mr-2 inline-block font-[family-name:var(--font-bebas)] text-4xl leading-none text-[#0055ff] align-top">
-                        {paragraph.charAt(0)}
-                      </span>
-                    )}
-                    {i === 0 ? paragraph.slice(1) : paragraph}
-                  </p>
-                ))}
+              <div className="max-w-3xl">
+                <ArticleContent
+                  content={content}
+                  headingClassName="mb-4 mt-10 font-[family-name:var(--font-bebas)] text-3xl tracking-tight text-[#0055ff] first:mt-0 sm:text-4xl"
+                  paragraphClassName="mb-6 font-[family-name:var(--font-ibm-mono)] text-sm leading-[1.9] text-[#e8e4e0]/75 sm:text-base"
+                  strongClassName="font-bold text-[#e8e4e0]/90"
+                  emClassName="text-[#e8e4e0]/60"
+                  linkClassName="text-[#0055ff] underline decoration-[#0055ff]/30 transition-colors hover:text-[#0055ff]/80"
+                />
               </div>
             </div>
 

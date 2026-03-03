@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
+import ArticleContent from "@/components/ArticleContent";
 import type { Article } from "@/lib/mockData";
 
 const instrumentSerif = Instrument_Serif({
@@ -32,7 +33,6 @@ export default function PageClient({ article }: PageClientProps) {
 
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
-  const paragraphs = content.split("\n\n").filter(Boolean);
 
   return (
     <div
@@ -156,16 +156,14 @@ export default function PageClient({ article }: PageClientProps) {
               </h2>
 
               {/* Article body */}
-              <div className="space-y-6">
-                {paragraphs.map((paragraph, idx) => (
-                  <p
-                    key={idx}
-                    className="font-mono text-sm sm:text-base leading-relaxed text-[#f0f0f0]/80"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
+              <ArticleContent
+                content={content}
+                headingClassName="mt-8 mb-4 font-headline text-xl sm:text-2xl text-[#ff2222] first:mt-0"
+                paragraphClassName="mb-6 font-mono text-sm sm:text-base leading-relaxed text-[#f0f0f0]/80"
+                strongClassName="font-bold text-[#f0f0f0]"
+                emClassName="text-[#f0f0f0]/50 italic"
+                linkClassName="text-[#ff2222] border-b-2 border-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors"
+              />
 
               {/* Corner marks */}
               <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />

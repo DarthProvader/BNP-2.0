@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Bangers, DM_Sans } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
+import ArticleContent from "@/components/ArticleContent";
 
 const bangers = Bangers({
   weight: "400",
@@ -41,7 +42,7 @@ export default function PageClient({ article }: { article: Article }) {
 
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
-  const paragraphs = content.split("\n\n").filter((p) => p.trim());
+  // paragraphs split removed — using ArticleContent with react-markdown
 
   return (
     <div
@@ -217,60 +218,16 @@ export default function PageClient({ article }: { article: Article }) {
               </span>
             </div>
 
-            {/* Article paragraphs as sub-panels */}
-            <div className="space-y-4">
-              {paragraphs.map((paragraph, i) => {
-                const isEven = i % 2 === 0;
-                const hasBorderLeft = i % 3 === 0;
-                const hasBorderRight = i % 3 === 1;
-
-                return (
-                  <div
-                    key={i}
-                    className={`relative border-[3px] border-[#2a2a2a] bg-[#111] p-5 md:p-6 ${
-                      hasBorderLeft
-                        ? "border-l-[5px] border-l-[#e60012]"
-                        : hasBorderRight
-                          ? "border-r-[5px] border-r-[#e60012]"
-                          : ""
-                    }`}
-                  >
-                    {/* Sub-panel number */}
-                    <span className="absolute right-3 top-2 text-sm font-black opacity-10">
-                      {panelNumber(i)}
-                    </span>
-
-                    {/* Subtle screentone on alternating panels */}
-                    {isEven && (
-                      <div
-                        className="pointer-events-none absolute inset-0 opacity-[0.03]"
-                        style={{
-                          backgroundImage:
-                            "radial-gradient(circle, #fff 0.6px, transparent 0.6px)",
-                          backgroundSize: "4px 4px",
-                        }}
-                      />
-                    )}
-
-                    {/* SFX watermark on some panels */}
-                    {i < sfx.length && (
-                      <span
-                        className="absolute bottom-2 right-4 text-2xl font-black opacity-[0.03] md:text-3xl"
-                        style={{ fontFamily: "var(--font-bangers)" }}
-                      >
-                        {sfx[i % sfx.length]}
-                      </span>
-                    )}
-
-                    <p
-                      className="relative text-sm leading-relaxed md:text-base opacity-85"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {paragraph}
-                    </p>
-                  </div>
-                );
-              })}
+            {/* Article body */}
+            <div className="relative border-[3px] border-[#2a2a2a] bg-[#111] p-5 md:p-6">
+              <ArticleContent
+                content={content}
+                headingClassName="mt-8 mb-4 text-xl font-black text-[#e60012] uppercase first:mt-0"
+                paragraphClassName="mb-5 text-sm leading-relaxed md:text-base opacity-85"
+                strongClassName="font-bold text-[#e8e4e0]"
+                emClassName="italic opacity-70"
+                linkClassName="text-[#e60012] underline"
+              />
             </div>
           </div>
         </section>

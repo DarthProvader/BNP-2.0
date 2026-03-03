@@ -1,6 +1,7 @@
 "use client";
 
 import type { Article } from "@/lib/mockData";
+import ArticleContent from "@/components/ArticleContent";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Righteous, Chakra_Petch, Fira_Code } from "next/font/google";
@@ -158,7 +159,6 @@ export default function ArticleDetailPage({
 
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
-  const paragraphs = content.split("\n\n").filter(Boolean);
 
   return (
     <div
@@ -341,20 +341,14 @@ export default function ArticleDetailPage({
 
             {/* Article body */}
             <div className="relative p-6 sm:p-8 md:p-10 lg:p-12">
-              <div className="space-y-5">
-                {paragraphs.map((p, i) => (
-                  <p
-                    key={i}
-                    className="text-sm sm:text-base leading-relaxed"
-                    style={{
-                      fontFamily: "var(--font-chakra)",
-                      color: "#e0e0e0b0",
-                    }}
-                  >
-                    {p}
-                  </p>
-                ))}
-              </div>
+              <ArticleContent
+                content={content}
+                headingClassName="mt-8 mb-4 text-xl sm:text-2xl font-bold text-[#00f0ff] first:mt-0"
+                paragraphClassName="mb-5 text-sm sm:text-base leading-relaxed text-[#e0e0e0]/70"
+                strongClassName="font-bold text-[#e0e0e0]"
+                emClassName="italic text-[#e0e0e0]/50"
+                linkClassName="text-[#00f0ff] underline"
+              />
             </div>
 
             {/* Warning stripe at bottom of content */}

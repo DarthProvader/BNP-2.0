@@ -1,6 +1,7 @@
 "use client";
 
 import type { Article } from "@/lib/mockData";
+import ArticleContent from "@/components/ArticleContent";
 import { useState, useEffect } from "react";
 import { Exo_2, Inconsolata } from "next/font/google";
 import Link from "next/link";
@@ -189,7 +190,7 @@ export default function ArticleDetail({
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
   const excerpt = lang === "cs" ? article.excerpt : article.excerptEn;
-  const paragraphs = content.split("\n\n").filter((p) => p.trim());
+  // paragraphs split removed — using ArticleContent with react-markdown
 
   return (
     <div
@@ -444,22 +445,14 @@ export default function ArticleDetail({
           </div>
 
           <CornerBrackets className="border border-[#00e5ff]/15 bg-[#00e5ff]/[0.02] p-4 sm:p-6">
-            <div className="space-y-4">
-              {paragraphs.map((para, idx) => (
-                <div key={idx} className="relative">
-                  {/* Paragraph number marker */}
-                  <span className="absolute -left-1 top-0 font-[family-name:var(--font-inconsolata)] text-[8px] text-[#00e5ff]/20 sm:-left-4">
-                    {String(idx + 1).padStart(2, "0")}
-                  </span>
-                  <p className="font-[family-name:var(--font-inconsolata)] text-xs leading-relaxed text-[#00e5ff]/70 sm:pl-4 sm:text-sm">
-                    {para}
-                  </p>
-                  {idx < paragraphs.length - 1 && (
-                    <div className="mt-4 h-px w-full bg-linear-to-r from-[#00e5ff]/10 via-[#00e5ff]/5 to-transparent" />
-                  )}
-                </div>
-              ))}
-            </div>
+            <ArticleContent
+              content={content}
+              headingClassName="mt-6 mb-3 font-[family-name:var(--font-exo2)] text-base sm:text-lg font-bold text-[#00e5ff] uppercase tracking-wider first:mt-0"
+              paragraphClassName="mb-4 font-[family-name:var(--font-inconsolata)] text-xs leading-relaxed text-[#00e5ff]/70 sm:text-sm"
+              strongClassName="font-bold text-[#00e5ff]/90"
+              emClassName="italic text-[#00e5ff]/50"
+              linkClassName="text-[#00e5ff] underline"
+            />
           </CornerBrackets>
         </section>
 
