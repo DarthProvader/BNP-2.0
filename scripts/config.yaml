@@ -142,11 +142,24 @@ twitter:
     slug: "theo-t3gg"
     tags: ["dev", "typescript", "ai"]
 
-# ---- Future: Reddit (Claude Code + Playwright MCP) ----
-# reddit:
-#   subreddits:
-#     - "singularity"
-#     - "ChatGPT"
-#     - "ClaudeAI"
-#     - "Bard"
-#     - "technology"
+# ---- Reddit (Claude Code + Playwright MCP) ----
+reddit:
+  - name: "singularity"
+    slug: "singularity"
+    tags: ["ai", "agi", "future"]
+
+  - name: "ChatGPT"
+    slug: "chatgpt"
+    tags: ["openai", "chatgpt"]
+
+  - name: "ClaudeAI"
+    slug: "claudeai"
+    tags: ["anthropic", "claude"]
+
+  - name: "artificial"
+    slug: "artificial"
+    tags: ["ai", "news"]
+
+  - name: "technology"
+    slug: "technology"
+    tags: ["tech", "news"]
