@@ -427,7 +427,7 @@ export default function AkiraNeonStreetsPage({
 
               {/* Title with neon glow */}
               <WetReflection>
-                <Link href={`/6/${featured.slug}`}>
+                <Link href={`/cyberpunk/${featured.slug}`}>
                   <h2
                     className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4 transition-colors duration-200 hover:brightness-125"
                     style={{

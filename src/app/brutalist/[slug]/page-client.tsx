@@ -68,7 +68,7 @@ export default function PageClient({ article }: { article: Article }) {
         ================================================================ */}
         <nav className="flex items-center justify-between border-b-[6px] border-[#1a1a1a] px-4 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] sm:px-8">
           <Link
-            href="/1"
+            href="/brutalist"
             className="text-[#e8e4e0]/60 transition-colors hover:text-[#0055ff]"
           >
             &larr; Zpet

@@ -26,9 +26,10 @@ const sourceTypeIcon: Record<string, string> = {
 
 interface PageClientProps {
   article: Article;
+  basePath?: string;
 }
 
-export default function PageClient({ article }: PageClientProps) {
+export default function PageClient({ article, basePath = "/11" }: PageClientProps) {
   const [lang, setLang] = React.useState<"cs" | "en">("cs");
 
   const title = lang === "cs" ? article.title : article.titleEn;
@@ -63,7 +64,7 @@ export default function PageClient({ article }: PageClientProps) {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div className="flex items-center gap-6">
               <Link
-                href="/11"
+                href={basePath}
                 className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
               >
                 &larr; Zp&#283;t na v&yacute;b&#283;r
@@ -101,7 +102,7 @@ export default function PageClient({ article }: PageClientProps) {
           <div className="relative mt-10">
             <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
             <div className="pl-4 sm:pl-6">
-              <Link href="/11">
+              <Link href={basePath}>
                 <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
                   BEROU
                   <br />
@@ -244,7 +245,7 @@ export default function PageClient({ article }: PageClientProps) {
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <Link
-              href="/11"
+              href={basePath}
               className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline"
             >
               &larr; {lang === "cs" ? "Vsechny clanky" : "All articles"}

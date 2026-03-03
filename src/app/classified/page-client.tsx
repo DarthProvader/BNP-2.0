@@ -471,7 +471,7 @@ export default function PageClient({
                 FILE NO. {getFileNumber(0)}
               </div>
               <Link
-                href={`/4/${featured.slug}`}
+                href={`/classified/${featured.slug}`}
                 className="text-[1.6rem] sm:text-[2rem] leading-tight text-[#1a1a1a] tracking-[0.04em] hover:text-[#3a3a3a] transition-colors block"
                 style={{ fontFamily: "var(--font-staatliches), sans-serif" }}
               >

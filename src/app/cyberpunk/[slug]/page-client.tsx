@@ -224,7 +224,7 @@ export default function ArticleDetailPage({
         <header className="pt-6 pb-6 border-b border-cyan-900/30">
           <div className="flex items-center justify-between mb-6">
             <Link
-              href="/6"
+              href="/cyberpunk"
               className="flex items-center gap-2 text-sm tracking-wide transition-colors hover:text-[#00f0ff] hover:drop-shadow-[0_0_8px_rgba(0,240,255,0.5)]"
               style={{ fontFamily: "var(--font-chakra)", color: "#00f0ff" }}
             >

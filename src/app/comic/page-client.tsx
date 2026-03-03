@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Bangers, DM_Sans } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
-import ArticleContent from "@/components/ArticleContent";
 
 const bangers = Bangers({
   weight: "400",
@@ -23,26 +22,24 @@ const sfx = ["BOOM!", "CRACK!", "WHOOSH!", "BAM!", "RUMBLE!", "ZAP!"];
 const panelNumber = (n: number) =>
   ["\u2460", "\u2461", "\u2462", "\u2463", "\u2464", "\u2465", "\u2466", "\u2467", "\u2468", "\u2469"][n] ?? `(${n + 1})`;
 
-const sourceIcon: Record<string, string> = {
-  web: "\uD83C\uDF10",
-  youtube: "\u25B6\uFE0F",
-  twitter: "\uD83D\uDCAC",
-  podcast: "\uD83C\uDFA7",
-};
-
-const sourceBadgeColor: Record<string, string> = {
-  web: "bg-[#e60012] text-white",
-  youtube: "bg-[#ff0000] text-white",
-  twitter: "bg-[#1d9bf0] text-white",
-  podcast: "bg-[#9b59b6] text-white",
-};
-
-export default function PageClient({ article }: { article: Article }) {
+export default function PageClient({
+  articles,
+  allTags,
+}: {
+  articles: Article[];
+  allTags: string[];
+}) {
   const [lang, setLang] = useState<"cs" | "en">("cs");
+  const [activeTag, setActiveTag] = useState<string | null>(null);
 
-  const title = lang === "cs" ? article.title : article.titleEn;
-  const content = lang === "cs" ? article.content : article.contentEn;
-  // paragraphs split removed — using ArticleContent with react-markdown
+  const filtered = activeTag
+    ? articles.filter((a) => a.tags.includes(activeTag))
+    : articles;
+
+  const displayArticles = filtered.length > 0 ? filtered : articles;
+
+  const featured = displayArticles[0];
+  const rest = displayArticles.slice(1);
 
   return (
     <div
@@ -68,7 +65,7 @@ export default function PageClient({ article }: { article: Article }) {
         }}
       />
 
-      <div className="relative z-10 mx-auto max-w-[900px] px-3 py-4 md:px-6 md:py-8">
+      <div className="relative z-10 mx-auto max-w-[1200px] px-3 py-4 md:px-6 md:py-8">
         {/* ================================================================
             PANEL 1 — TITLE (full-width hero)
         ================================================================ */}
@@ -92,22 +89,13 @@ export default function PageClient({ article }: { article: Article }) {
             }}
           />
 
-          <div className="relative flex flex-col items-center px-4 py-10 md:py-16 text-center">
+          <div className="relative flex flex-col items-center px-4 py-12 md:py-20 text-center">
             {/* Corner panels -- nav + lang */}
-            <div className="absolute left-3 top-3 flex gap-2">
-              <Link
-                href="/10"
-                className="border-[3px] border-[#333] bg-[#151515] px-3 py-1 text-sm font-bold tracking-wide transition-colors hover:bg-[#e60012] hover:text-white hover:border-[#e60012]"
-                style={{ fontFamily: "var(--font-bangers)" }}
-              >
-                &larr; Zpet
-              </Link>
-            </div>
             <div className="absolute right-3 top-3">
               <div className="flex border-[3px] border-[#333]">
                 <button
                   onClick={() => setLang("cs")}
-                  className={`px-2 py-1 text-xs font-bold transition-colors cursor-pointer ${
+                  className={`px-2 py-1 text-xs font-bold cursor-pointer transition-colors ${
                     lang === "cs"
                       ? "bg-[#e8e4e0] text-[#0a0a0a]"
                       : "bg-[#151515] text-[#e8e4e0] hover:bg-[#222]"
@@ -117,7 +105,7 @@ export default function PageClient({ article }: { article: Article }) {
                 </button>
                 <button
                   onClick={() => setLang("en")}
-                  className={`px-2 py-1 text-xs font-bold transition-colors cursor-pointer ${
+                  className={`px-2 py-1 text-xs font-bold cursor-pointer transition-colors ${
                     lang === "en"
                       ? "bg-[#e8e4e0] text-[#0a0a0a]"
                       : "bg-[#151515] text-[#e8e4e0] hover:bg-[#222]"
@@ -130,38 +118,20 @@ export default function PageClient({ article }: { article: Article }) {
 
             {/* SFX decoration */}
             <span
-              className="absolute left-6 top-14 -rotate-12 text-4xl font-black opacity-[0.07] md:text-6xl"
+              className="absolute left-6 top-16 -rotate-12 text-4xl font-black opacity-[0.07] md:text-6xl"
               style={{ fontFamily: "var(--font-bangers)" }}
             >
               BOOM!
             </span>
             <span
-              className="absolute bottom-6 right-8 rotate-6 text-3xl font-black opacity-[0.07] md:text-5xl"
+              className="absolute bottom-8 right-8 rotate-6 text-3xl font-black opacity-[0.07] md:text-5xl"
               style={{ fontFamily: "var(--font-bangers)" }}
             >
-              CRACK!
+              RUMBLE!
             </span>
 
-            {/* Date + meta */}
-            <div className="mb-4 flex flex-wrap items-center justify-center gap-3">
-              <span className="border-[2px] border-[#e60012] bg-[#e60012] px-3 py-1 text-xs font-bold text-white">
-                {article.date}
-              </span>
-              <span className="text-xs font-bold opacity-50">
-                {article.readTime} min read
-              </span>
-              {article.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="border-[2px] border-[#444] px-2 py-0.5 text-xs font-bold uppercase text-[#e8e4e0]"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-
             {/* Main title with impact */}
-            <div className="relative max-w-3xl">
+            <div className="relative">
               {/* Red impact flash */}
               <div
                 className="absolute left-1/2 top-1/2 h-[120%] w-[110%] -translate-x-1/2 -translate-y-1/2"
@@ -173,28 +143,38 @@ export default function PageClient({ article }: { article: Article }) {
                 }}
               />
               <h1
-                className="relative text-3xl leading-tight tracking-wider md:text-5xl lg:text-6xl"
+                className="relative text-5xl tracking-wider md:text-8xl lg:text-9xl"
                 style={{
                   fontFamily: "var(--font-bangers)",
-                  textShadow: "2px 2px 0 #e60012, -1px -1px 0 #000",
+                  textShadow: "3px 3px 0 #e60012, -1px -1px 0 #000",
                 }}
               >
-                {title}
+                BEROU NAM PRACI
               </h1>
             </div>
+
+            <p
+              className="mt-3 text-lg tracking-[0.3em] opacity-60 md:text-xl"
+              style={{ fontFamily: "var(--font-bangers)" }}
+            >
+              THEY&apos;RE TAKING OUR JOBS!
+            </p>
+            <p className="mt-2 text-xs font-bold uppercase tracking-[0.5em] opacity-40">
+              AI News &middot; Daily &middot; Generated by AI
+            </p>
           </div>
 
-          {/* Bottom red accent bar */}
+          {/* Bottom angled border accent */}
           <div className="absolute bottom-0 left-0 right-0 h-2 bg-[#e60012]" />
         </section>
 
         {/* ================================================================
-            PANEL 2 — ARTICLE CONTENT
+            PANEL 2 — FEATURED ARTICLE (large dramatic panel)
         ================================================================ */}
         <section className="relative mb-1 overflow-hidden border-[4px] border-[#333] bg-[#151515]">
-          {/* Screentone on right side */}
+          {/* Diagonal screentone fill on one side */}
           <div
-            className="pointer-events-none absolute right-0 top-0 h-full w-1/4 opacity-[0.05]"
+            className="pointer-events-none absolute right-0 top-0 h-full w-1/3 opacity-[0.06]"
             style={{
               backgroundImage:
                 "radial-gradient(circle, #fff 1px, transparent 1px)",
@@ -202,109 +182,266 @@ export default function PageClient({ article }: { article: Article }) {
             }}
           />
 
-          {/* Panel number */}
-          <span className="absolute right-4 top-3 text-2xl font-black opacity-20">
-            {panelNumber(0)}
-          </span>
-
-          <div className="relative px-5 py-8 md:px-10 md:py-12">
-            {/* Narration box header */}
-            <div className="mb-8 inline-block border-[2px] border-[#333] bg-[#e8e4e0] px-5 py-2 text-[#0a0a0a]">
-              <span
-                className="text-xs tracking-[0.3em] uppercase md:text-sm"
-                style={{ fontFamily: "var(--font-bangers)" }}
-              >
-                THE STORY SO FAR...
-              </span>
-            </div>
-
-            {/* Article body */}
-            <div className="relative border-[3px] border-[#2a2a2a] bg-[#111] p-5 md:p-6">
-              <ArticleContent
-                content={content}
-                headingClassName="mt-8 mb-4 text-xl font-black text-[#e60012] uppercase first:mt-0"
-                paragraphClassName="mb-5 text-sm leading-relaxed md:text-base opacity-85"
-                strongClassName="font-bold text-[#e8e4e0]"
-                emClassName="italic opacity-70"
-                linkClassName="text-[#e60012] underline"
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* ================================================================
-            PANEL 3 — SOURCES (narration strip)
-        ================================================================ */}
-        <section className="relative mb-1 overflow-hidden border-[4px] border-[#333] bg-[#151515]">
-          {/* Panel number */}
-          <span className="absolute right-4 top-3 text-2xl font-black opacity-20">
-            {panelNumber(1)}
-          </span>
-
-          {/* Narration box header */}
-          <div className="border-b-[3px] border-[#333] bg-[#e8e4e0] px-5 py-3 text-[#0a0a0a]">
-            <span
-              className="text-sm tracking-[0.2em] uppercase md:text-base"
-              style={{ fontFamily: "var(--font-bangers)" }}
-            >
-              SOURCES &amp; REFERENCES
-            </span>
-          </div>
-
-          {/* Speed lines from right */}
+          {/* Speed lines from left */}
           <div
-            className="pointer-events-none absolute -right-[150px] top-1/2 h-[400px] w-[400px] -translate-y-1/2 opacity-[0.04]"
+            className="pointer-events-none absolute -left-[200px] top-1/2 h-[600px] w-[600px] -translate-y-1/2 opacity-[0.05]"
             style={{
               backgroundImage:
-                "conic-gradient(from 180deg at 0% 50%, #fff 0deg, transparent 1.5deg, transparent 8deg, #fff 8deg, transparent 9.5deg, transparent 16deg, #fff 16deg, transparent 17.5deg, transparent 24deg, #fff 24deg, transparent 25.5deg, transparent 32deg, #fff 32deg, transparent 33.5deg, transparent 40deg, #fff 40deg, transparent 41.5deg, transparent 48deg, #fff 48deg, transparent 49.5deg, transparent 360deg)",
+                "conic-gradient(from 0deg at 100% 50%, #fff 0deg, transparent 1deg, transparent 4deg, #fff 4deg, transparent 5deg, transparent 8deg, #fff 8deg, transparent 9deg, transparent 12deg, #fff 12deg, transparent 13deg, transparent 16deg, #fff 16deg, transparent 17deg, transparent 20deg, #fff 20deg, transparent 21deg, transparent 24deg, #fff 24deg, transparent 25deg, transparent 28deg, #fff 28deg, transparent 29deg, transparent 32deg, #fff 32deg, transparent 33deg, transparent 36deg, #fff 36deg, transparent 37deg, transparent 40deg, #fff 40deg, transparent 41deg, transparent 44deg, #fff 44deg, transparent 45deg, transparent 48deg, #fff 48deg, transparent 49deg, transparent 360deg)",
             }}
           />
 
-          <div className="relative px-5 py-6 md:px-8">
-            <div className="space-y-3">
-              {article.sources.map((source, i) => (
-                <div
-                  key={i}
-                  className="flex items-start gap-3 border-[2px] border-[#2a2a2a] bg-[#111] px-4 py-3 transition-colors hover:border-[#444]"
-                >
-                  {/* Type badge */}
-                  <span
-                    className={`shrink-0 border-[2px] border-[#333] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider ${sourceBadgeColor[source.type]}`}
-                  >
-                    {sourceIcon[source.type]} {source.type}
-                  </span>
+          <div className="relative px-5 py-8 md:px-10 md:py-14">
+            {/* Panel number */}
+            <span className="absolute right-4 top-3 text-2xl font-black opacity-20">
+              {panelNumber(0)}
+            </span>
 
-                  {/* Source title + url */}
-                  <div className="min-w-0 flex-1">
-                    <a
-                      href={source.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-bold leading-snug transition-colors hover:text-[#e60012]"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {source.title}
-                    </a>
-                    <p className="mt-0.5 truncate text-xs opacity-30">
-                      {source.url}
-                    </p>
-                  </div>
-                </div>
+            {/* Narration box */}
+            <div className="mb-6 inline-block border-[2px] border-[#333] bg-[#e8e4e0] px-4 py-2 text-[#0a0a0a]">
+              <span
+                className="text-xs tracking-[0.3em] uppercase"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                {lang === "cs" ? "V tomto vydani..." : "In this issue..."}
+              </span>
+            </div>
+
+            {/* Title with impact effect */}
+            <div className="relative mb-4">
+              <div
+                className="absolute -left-2 -top-2 h-[calc(100%+16px)] w-[calc(100%+16px)] opacity-[0.04]"
+                style={{
+                  clipPath:
+                    "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
+                  background: "#e60012",
+                }}
+              />
+              <Link href={`/comic/${featured.slug}`}>
+                <h2
+                  className="relative text-3xl leading-tight md:text-5xl lg:text-6xl hover:text-[#e60012] transition-colors"
+                  style={{
+                    fontFamily: "var(--font-bangers)",
+                    textShadow: "2px 2px 0 rgba(230,0,18,0.15)",
+                  }}
+                >
+                  {lang === "cs" ? featured.title : featured.titleEn}
+                </h2>
+              </Link>
+            </div>
+
+            {/* Excerpt in narration box */}
+            <div className="mb-6 max-w-2xl border-l-[4px] border-[#333] bg-[#1a1a1a] px-4 py-3">
+              <p
+                className="text-sm leading-relaxed md:text-base opacity-80"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                {lang === "cs" ? featured.excerpt : featured.excerptEn}
+              </p>
+            </div>
+
+            {/* Meta row */}
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="border-[2px] border-[#e60012] bg-[#e60012] px-3 py-1 text-xs font-bold text-white">
+                {featured.date}
+              </span>
+              <span className="text-xs font-bold opacity-50">
+                {featured.readTime} min {lang === "cs" ? "cteni" : "read"}
+              </span>
+              {featured.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="border-[2px] border-[#444] px-2 py-0.5 text-xs font-bold uppercase text-[#e8e4e0]"
+                >
+                  {tag}
+                </span>
               ))}
             </div>
-          </div>
 
-          {/* SFX */}
-          <span
-            className="absolute bottom-3 right-6 text-4xl font-black opacity-[0.04] md:text-5xl"
-            style={{ fontFamily: "var(--font-bangers)" }}
-          >
-            WHOOSH!
-          </span>
+            {/* SFX */}
+            <span
+              className="absolute bottom-4 right-6 text-5xl font-black opacity-[0.05] md:text-7xl"
+              style={{ fontFamily: "var(--font-bangers)" }}
+            >
+              CRACK!
+            </span>
+          </div>
         </section>
 
         {/* ================================================================
-            PANEL 4 — AI COMMENTS (speech bubbles)
+            PANELS 3-6 — ARTICLE PANELS (manga grid)
+        ================================================================ */}
+        <div className="mb-1 grid grid-cols-1 gap-1 md:grid-cols-12">
+          {rest.map((article, i) => {
+            /* Vary panel sizes for manga feel */
+            const colSpans = [
+              "md:col-span-7",
+              "md:col-span-5",
+              "md:col-span-5",
+              "md:col-span-7",
+            ];
+            const colSpan = colSpans[i % colSpans.length];
+
+            /* Alternate panel styles */
+            const hasScreentone = i % 2 === 0;
+            const hasSpeedLines = i % 3 === 0;
+            const isSkewed = i === 1;
+
+            return (
+              <article
+                key={article.slug}
+                className={`group relative overflow-hidden border-[4px] border-[#333] bg-[#151515] transition-all ${colSpan}`}
+                style={
+                  isSkewed
+                    ? { transform: "skewY(-1deg)" }
+                    : undefined
+                }
+              >
+                {/* Screentone bg */}
+                {hasScreentone && (
+                  <div
+                    className="pointer-events-none absolute inset-0 opacity-[0.04]"
+                    style={{
+                      backgroundImage:
+                        "radial-gradient(circle, #fff 0.8px, transparent 0.8px)",
+                      backgroundSize: "4px 4px",
+                    }}
+                  />
+                )}
+
+                {/* Speed lines */}
+                {hasSpeedLines && (
+                  <div
+                    className="pointer-events-none absolute -right-[100px] top-1/2 h-[400px] w-[400px] -translate-y-1/2 opacity-[0.04]"
+                    style={{
+                      backgroundImage:
+                        "conic-gradient(from 180deg at 0% 50%, #fff 0deg, transparent 1.5deg, transparent 8deg, #fff 8deg, transparent 9.5deg, transparent 16deg, #fff 16deg, transparent 17.5deg, transparent 24deg, #fff 24deg, transparent 25.5deg, transparent 32deg, #fff 32deg, transparent 33.5deg, transparent 40deg, #fff 40deg, transparent 41.5deg, transparent 48deg, #fff 48deg, transparent 49.5deg, transparent 360deg)",
+                    }}
+                  />
+                )}
+
+                {/* Cross-hatching effect for one panel */}
+                {i === 2 && (
+                  <div
+                    className="pointer-events-none absolute inset-0 opacity-[0.025]"
+                    style={{
+                      backgroundImage: `
+                        repeating-linear-gradient(45deg, #fff 0px, #fff 1px, transparent 1px, transparent 8px),
+                        repeating-linear-gradient(-45deg, #fff 0px, #fff 1px, transparent 1px, transparent 8px)
+                      `,
+                    }}
+                  />
+                )}
+
+                <div
+                  className="relative flex flex-col justify-between p-5 md:p-6"
+                  style={
+                    isSkewed
+                      ? { transform: "skewY(1deg)" }
+                      : undefined
+                  }
+                >
+                  {/* Panel number */}
+                  <span className="absolute right-3 top-2 text-xl font-black opacity-15">
+                    {panelNumber(i + 1)}
+                  </span>
+
+                  {/* SFX decoration */}
+                  <span
+                    className="absolute bottom-3 right-4 text-3xl font-black opacity-[0.05] md:text-4xl"
+                    style={{ fontFamily: "var(--font-bangers)" }}
+                  >
+                    {sfx[i % sfx.length]}
+                  </span>
+
+                  {/* Date label */}
+                  <div className="mb-3">
+                    <span className="border-[2px] border-[#e60012] bg-[#e60012] px-2 py-0.5 text-[10px] font-bold text-white">
+                      {article.date}
+                    </span>
+                  </div>
+
+                  {/* Title */}
+                  <h3
+                    className="mb-3 text-xl leading-tight md:text-2xl"
+                    style={{
+                      fontFamily: "var(--font-bangers)",
+                      textShadow:
+                        i === 0
+                          ? "1px 1px 0 rgba(230,0,18,0.2)"
+                          : "none",
+                    }}
+                  >
+                    {lang === "cs" ? article.title : article.titleEn}
+                  </h3>
+
+                  {/* Excerpt */}
+                  <p
+                    className="mb-4 text-xs leading-relaxed opacity-60 md:text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    {lang === "cs" ? article.excerpt : article.excerptEn}
+                  </p>
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-1.5">
+                    {article.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="border-[2px] border-[#444] px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-[#e8e4e0]"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                    <span className="ml-auto text-[10px] font-bold opacity-40">
+                      {article.readTime} min
+                    </span>
+                  </div>
+                </div>
+
+                {/* Hover: red border flash */}
+                <div className="absolute inset-0 border-[4px] border-[#e60012] opacity-0 transition-opacity group-hover:opacity-100" />
+              </article>
+            );
+          })}
+        </div>
+
+        {/* ================================================================
+            TAGS — Mini panels strip
+        ================================================================ */}
+        <section className="mb-1 border-[4px] border-[#333] bg-[#151515] p-4 md:p-6">
+          <div className="mb-3 flex items-center gap-2">
+            <span
+              className="text-lg md:text-xl"
+              style={{ fontFamily: "var(--font-bangers)" }}
+            >
+              TAGS
+            </span>
+            <div className="ml-2 h-[3px] flex-1 bg-[#e8e4e0] opacity-10" />
+          </div>
+
+          <div className="flex flex-wrap gap-1.5">
+            {allTags.map((tag) => (
+              <span
+                key={tag}
+                onClick={() =>
+                  setActiveTag(activeTag === tag ? null : tag)
+                }
+                className={`border-[3px] px-3 py-1 text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors ${
+                  activeTag === tag
+                    ? "border-[#e60012] bg-[#e60012] text-white"
+                    : "border-[#444] text-[#e8e4e0] hover:bg-[#e60012] hover:text-white hover:border-[#e60012]"
+                }`}
+                style={{ fontFamily: "var(--font-bangers)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </section>
+
+        {/* ================================================================
+            AI COMMENTS — Speech bubbles panel
         ================================================================ */}
         <section className="mb-1 border-[4px] border-[#333] bg-[#151515]">
           {/* Panel header -- narration box */}
@@ -317,34 +454,26 @@ export default function PageClient({ article }: { article: Article }) {
             </span>
           </div>
 
-          {/* Panel number */}
-          <div className="relative">
-            <span className="absolute right-4 top-3 text-2xl font-black opacity-20">
-              {panelNumber(2)}
-            </span>
-          </div>
-
           <div className="grid grid-cols-1 gap-0 md:grid-cols-3">
-            {article.aiComments.map((comment, i) => {
+            {featured.aiComments.map((comment, i) => {
+              /* Different bubble styles per model */
               const bubbleStyles = [
                 /* Normal speech bubble */
                 "rounded-2xl rounded-bl-sm",
                 /* Spiky / emphasis bubble */
                 "",
                 /* Thought bubble */
-                "rounded-[40%]",
+                "rounded-[50%]",
               ];
               const bubbleClass = bubbleStyles[i % 3];
-              const isSpiky = i % 3 === 1;
-              const isThought = i % 3 === 2;
+              const isSpiky = i === 1;
+              const isThought = i === 2;
 
               return (
                 <div
                   key={comment.model}
                   className={`relative flex flex-col items-center px-5 py-8 md:py-10 ${
-                    i < article.aiComments.length - 1
-                      ? "border-b-[3px] border-[#333] md:border-b-0 md:border-r-[3px]"
-                      : ""
+                    i < 2 ? "border-b-[3px] border-[#333] md:border-b-0 md:border-r-[3px]" : ""
                   }`}
                 >
                   {/* SFX behind avatar */}

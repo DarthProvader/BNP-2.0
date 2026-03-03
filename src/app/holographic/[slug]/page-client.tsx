@@ -308,7 +308,7 @@ export default function ArticleDetail({
 
             <nav className="flex items-center gap-2 font-[family-name:var(--font-inconsolata)] text-[10px] uppercase tracking-[0.15em]">
               <Link
-                href="/7"
+                href="/holographic"
                 className="group flex items-center gap-1 border border-[#00e5ff]/20 px-2 py-1 text-[#00e5ff]/50 transition-all hover:border-[#00e5ff]/60 hover:text-[#00e5ff]"
               >
                 <span className="text-[#ffc400]/60">&larr;</span> EXIT HUD

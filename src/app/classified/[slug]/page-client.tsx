@@ -97,7 +97,7 @@ export default function PageClient({ article }: { article: Article }) {
             {/* Return to index */}
             <div className="mb-4">
               <Link
-                href="/4"
+                href="/classified"
                 className="text-neutral-500 hover:text-neutral-300 text-xs tracking-[0.2em] uppercase transition-colors"
                 style={{ fontFamily: "var(--font-courier), monospace" }}
               >

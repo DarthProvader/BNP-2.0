@@ -19,9 +19,10 @@ const jetbrainsMono = JetBrains_Mono({
 interface PageClientProps {
   articles: Article[];
   allTags: string[];
+  basePath?: string;
 }
 
-export default function PageClient({ articles, allTags }: PageClientProps) {
+export default function PageClient({ articles, allTags, basePath = "/11" }: PageClientProps) {
   const [lang, setLang] = useState<"cs" | "en">("cs");
   const [activeTag, setActiveTag] = useState<string | null>(null);
 
@@ -331,7 +332,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
                 </span>
               </div>
 
-              <Link href={`/11/${featured.slug}`}>
+              <Link href={`${basePath}/${featured.slug}`}>
                 <h2 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-[#f0f0f0] mb-6 glitch-hover cursor-pointer">
                   {lang === "cs" ? featured.title : featured.titleEn}
                 </h2>
@@ -342,7 +343,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
               </p>
 
               <div className="flex items-center gap-4">
-                <Link href={`/11/${featured.slug}`} className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline cursor-pointer">
+                <Link href={`${basePath}/${featured.slug}`} className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline cursor-pointer">
                   {t("Číst článek", "Read article")} &rarr;
                 </Link>
               </div>
@@ -391,7 +392,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6">
             {/* Article 2 - Wide */}
             {rest[0] && (
-              <Link href={`/11/${rest[0].slug}`} className="md:col-span-7 noise-border p-5 sm:p-6 relative group">
+              <Link href={`${basePath}/${rest[0].slug}`} className="md:col-span-7 noise-border p-5 sm:p-6 relative group">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {rest[0].tags.map((tag) => (
                     <span key={tag} className="tag-sticker tag-sticker-red">
@@ -421,7 +422,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
 
             {/* Article 3 - Narrow tall */}
             {rest[1] && (
-              <Link href={`/11/${rest[1].slug}`} className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 relative group bg-[#ff2222]/5">
+              <Link href={`${basePath}/${rest[1].slug}`} className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 relative group bg-[#ff2222]/5">
                 <div className="absolute -top-3 -right-3 bg-[#ff2222] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
                   {t("Regulace", "Regulation")}
                 </div>
@@ -451,7 +452,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
 
             {/* Article 4 - Medium, offset */}
             {rest[2] && (
-              <Link href={`/11/${rest[2].slug}`} className="md:col-span-5 md:col-start-1 noise-border p-5 sm:p-6 relative group">
+              <Link href={`${basePath}/${rest[2].slug}`} className="md:col-span-5 md:col-start-1 noise-border p-5 sm:p-6 relative group">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {rest[2].tags.map((tag) => (
                     <span key={tag} className="tag-sticker tag-sticker-red">
@@ -481,7 +482,7 @@ export default function PageClient({ articles, allTags }: PageClientProps) {
 
             {/* Article 5 - Wide, contrasting */}
             {rest[3] && (
-              <Link href={`/11/${rest[3].slug}`} className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group">
+              <Link href={`${basePath}/${rest[3].slug}`} className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group">
                 {/* Decorative vertical text */}
                 <div className="hidden lg:block absolute -right-8 top-0 vertical-text font-mono text-[10px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
                   Hardware
