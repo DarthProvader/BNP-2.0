@@ -158,7 +158,7 @@ export default function PageClient({
               {/* Title */}
               <h2 className="mb-6 max-w-3xl font-[family-name:var(--font-bebas)] text-[clamp(2.5rem,6vw,5rem)] leading-[0.95] tracking-tight">
                 <Link
-                  href={`/brutalist/${featured.slug}`}
+                  href={`/concrete/${featured.slug}`}
                   className="transition-colors hover:text-[#0055ff]"
                 >
                   {lang === "cs" ? featured.title : featured.titleEn}
@@ -188,7 +188,7 @@ export default function PageClient({
               {/* Read more CTA */}
               <div className="mt-8">
                 <Link
-                  href={`/brutalist/${featured.slug}`}
+                  href={`/concrete/${featured.slug}`}
                   className="group inline-flex items-center gap-3 border-[3px] border-[#e8e4e0] px-6 py-3 font-[family-name:var(--font-ibm-mono)] text-xs uppercase tracking-[0.2em] transition-all hover:border-[#0055ff] hover:bg-[#0055ff] hover:text-[#e8e4e0]"
                 >
                   {lang === "cs" ? "Cist cely clanek" : "Read full article"}
@@ -243,7 +243,7 @@ export default function PageClient({
                 >
                   {/* Title */}
                   <h3 className="mb-4 font-[family-name:var(--font-bebas)] text-[clamp(1.8rem,4vw,3rem)] leading-[0.95] tracking-tight transition-colors group-hover:text-[#0055ff]">
-                    <Link href={`/brutalist/${article.slug}`}>
+                    <Link href={`/concrete/${article.slug}`}>
                       {lang === "cs" ? article.title : article.titleEn}
                     </Link>
                   </h3>
