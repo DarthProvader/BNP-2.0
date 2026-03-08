@@ -112,10 +112,10 @@ twitter:
     slug: "jim-fan"
     tags: ["nvidia", "ai-research"]
 
-  - name: "Yann LeCun"
-    handle: "ylecun"
-    slug: "yann-lecun"
-    tags: ["meta", "ai-research"]
+  - name: "Matt Shumer"
+    handle: "mattshumer_"
+    slug: "matt-shumer"
+    tags: ["ai", "startups", "agents"]
 
   - name: "Andrew Ng"
     handle: "AndrewYNg"

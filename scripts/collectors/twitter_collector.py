@@ -1,7 +1,7 @@
 """Twitter/X collector for BNP 2.0.
 
-Uses ClaudeBridge (Claude CLI + Playwright MCP) to scrape tweets
-from X.com profiles — one Claude call per account.
+Uses Apify actor (iron-crawler/twitter-user-tweets) to fetch recent tweets
+per account. No login or browser needed.
 """
 
 from __future__ import annotations
@@ -10,11 +10,10 @@ import json
 import logging
 import time
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import yaml
-
-from bridge.claude_bridge import ClaudeBridge, parse_json_response
 
 try:
     from dotenv import load_dotenv
@@ -27,65 +26,45 @@ import os
 logger = logging.getLogger(__name__)
 
 CHECKPOINT_FILE = ".last_fetch.json"
+APIFY_ACTOR = "iron-crawler/twitter-user-tweets"
 
 
-def _build_prompt_single(
-    username: str,
-    password: str,
-    handle: str,
-    since_dt: str,
-    max_tweets: int = 5,
-    max_replies: int = 5,
-) -> str:
-    """Build a prompt to scrape a single Twitter account with replies."""
-    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+def _parse_twitter_date(date_str: str) -> datetime | None:
+    """Parse Twitter date format like 'Sun Mar 08 21:21:17 +0000 2026'."""
+    try:
+        return parsedate_to_datetime(date_str)
+    except (ValueError, TypeError):
+        return None
 
-    return f"""\
-You are a Twitter data collector. Complete ALL steps below in order.
 
-## Step 1: Login
-1. Navigate to https://x.com/i/flow/login
-2. Use browser_snapshot to see the login form
-3. Enter username "{username}" and click Next
-4. Use browser_snapshot, enter password "{password}" and click "Log in"
-5. Use browser_snapshot to confirm you see the home timeline
-6. If login fails or needs 2FA, return: {{"error": "LOGIN_FAILED", "details": "reason"}}
+def _fetch_tweets(api_token: str, handle: str, max_tweets: int = 5) -> list[dict] | None:
+    """Fetch recent tweets for a handle via Apify. Returns list of tweet dicts or None on error."""
+    try:
+        from apify_client import ApifyClient
+    except ImportError:
+        logger.error("apify-client not installed. Run: pip install apify-client")
+        return None
 
-## Step 2: Scrape @{handle}
-1. Navigate to https://x.com/{handle}
-2. Use browser_snapshot to read the profile
-3. Extract up to {max_tweets} tweets that are newer than {since_dt}
-4. Convert relative times (e.g. "2h") to ISO datetime using current time: {now_str}
-5. If the profile is private/suspended/empty, return an empty array []
+    client = ApifyClient(api_token)
 
-## Step 3: Collect replies for each tweet
-For each extracted tweet:
-1. Click into the tweet (navigate to its URL)
-2. Use browser_snapshot to read the replies
-3. Extract the top {max_replies} replies by likes (skip bot/spam replies)
-4. Navigate back to the profile and continue with the next tweet
+    run_input = {
+        "handles": [handle],
+        "tweetsDesired": max_tweets,
+    }
 
-## Step 4: Return results
-Return a JSON array with this exact structure:
-[
-  {{
-    "text": "tweet text",
-    "date": "YYYY-MM-DDTHH:MM:SS",
-    "url": "https://x.com/{handle}/status/ID",
-    "is_retweet": false,
-    "top_replies": [
-      {{"author": "replier1", "text": "Reply text", "likes": 50}},
-      {{"author": "replier2", "text": "Another reply", "likes": 23}}
-    ]
-  }}
-]
+    try:
+        run = client.actor(APIFY_ACTOR).call(run_input=run_input)
+    except Exception as e:
+        logger.error("  Apify actor failed for @%s: %s", handle, e)
+        return None
 
-Rules:
-- Return ONLY valid JSON, no markdown, no explanation
-- Return an empty array [] if there are no new tweets
-- top_replies should have at most {max_replies} entries per tweet
-- If you cannot load replies for a tweet, use an empty array for top_replies
-"""
+    items = []
+    for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+        if item.get("noResults"):
+            continue
+        items.append(item)
+
+    return items
 
 
 def load_config(config_path: Path) -> dict:
@@ -108,13 +87,12 @@ def save_checkpoint(scripts_dir: Path, checkpoint: dict) -> None:
 
 
 def _collect_single_account(
-    bridge: ClaudeBridge,
-    username: str,
-    password: str,
+    api_token: str,
     account: dict,
-    since_dt: str,
+    since_dt: datetime,
     output_dir: Path,
     today_str: str,
+    max_tweets: int = 5,
 ) -> tuple[bool, int]:
     """Collect tweets from a single account. Returns (success, item_count)."""
     handle = account["handle"]
@@ -122,54 +100,51 @@ def _collect_single_account(
     name = account["name"]
     tags = account.get("tags", [])
 
-    prompt = _build_prompt_single(username, password, handle, since_dt)
-    result = bridge.send(prompt)
-
-    if not result.success:
-        logger.error("  Claude CLI failed for @%s: %s", handle, result.stderr[:300])
+    raw_tweets = _fetch_tweets(api_token, handle, max_tweets)
+    if raw_tweets is None:
         return False, 0
 
-    response_text = result.response_text
-    data = parse_json_response(response_text)
-
-    if data is None:
-        logger.error("  Could not parse JSON for @%s", handle)
-        logger.info("  Raw response: %s", response_text[:500])
-        return False, 0
-
-    if isinstance(data, dict) and "error" in data:
-        logger.error("  Agent returned error for @%s: %s", handle, data)
-        return False, 0
-
-    # Accept both list (expected) and dict with handle key (legacy)
-    if isinstance(data, dict):
-        tweets = data.get(f"@{handle}", data.get(handle, []))
-    elif isinstance(data, list):
-        tweets = data
-    else:
-        logger.error("  Unexpected response type for @%s: %s", handle, type(data).__name__)
-        return False, 0
-
-    if not tweets:
-        logger.info("  No new tweets for @%s", handle)
+    if not raw_tweets:
+        logger.info("  No tweets found for @%s", handle)
         return True, 0
 
-    # Convert to standard item format
+    # Filter by date and convert to standard format
     items = []
-    for tw in tweets:
-        if not isinstance(tw, dict):
+    for tw in raw_tweets:
+        created = _parse_twitter_date(tw.get("created_at", ""))
+        if not created:
             continue
+        if created.tzinfo is None:
+            created = created.replace(tzinfo=timezone.utc)
+        if created <= since_dt:
+            continue
+
+        # Detect retweet from text
+        text = tw.get("text", "")
+        is_retweet = text.startswith("RT @")
+
+        # Get author info
+        author_data = tw.get("author", {})
+        tweet_author = author_data.get("screen_name", handle)
+
+        tweet_id = tw.get("tweet_id", "")
         item = {
             "title": f"{name} (@{handle})",
-            "url": tw.get("url", f"https://x.com/{handle}"),
-            "published": tw.get("date", ""),
-            "summary": tw.get("text", ""),
+            "url": f"https://x.com/{tweet_author}/status/{tweet_id}" if tweet_id else f"https://x.com/{handle}",
+            "published": created.isoformat(),
+            "summary": text,
             "author": handle,
-            "is_retweet": tw.get("is_retweet", False),
+            "is_retweet": is_retweet,
+            "favorites": tw.get("favorites", 0),
+            "retweets": tw.get("retweets", 0),
+            "replies": tw.get("replies", 0),
+            "views": tw.get("views", "0"),
         }
-        if tw.get("top_replies"):
-            item["top_replies"] = tw["top_replies"]
         items.append(item)
+
+    if not items:
+        logger.info("  No new tweets for @%s since cutoff", handle)
+        return True, 0
 
     now_iso = datetime.now(timezone.utc).isoformat()
     output_data = {
@@ -216,15 +191,11 @@ def run(config_path: Path | None = None, single_handle: str | None = None) -> di
             logger.error("Handle @%s not found in config.yaml", single_handle)
             return {"twitter": 0}
 
-    # Get credentials
-    username = os.environ.get("X_USERNAME", "")
-    password = os.environ.get("X_PASSWORD", "")
-    if not username or not password:
-        logger.error("X_USERNAME or X_PASSWORD not set in .env")
+    # Get Apify token
+    api_token = os.environ.get("APIFY_API_TOKEN", "")
+    if not api_token:
+        logger.error("APIFY_API_TOKEN not set in .env")
         return {"twitter": 0}
-
-    agent_dir = scripts_dir / "twitter_agent"
-    bridge = ClaudeBridge(agent_dir=agent_dir, model="sonnet")
 
     total = len(accounts)
     ok_count = 0
@@ -238,17 +209,17 @@ def run(config_path: Path | None = None, single_handle: str | None = None) -> di
         # Determine cutoff date
         if checkpoint_key in checkpoint:
             since_dt = datetime.fromisoformat(checkpoint[checkpoint_key])
+            if since_dt.tzinfo is None:
+                since_dt = since_dt.replace(tzinfo=timezone.utc)
         else:
             since_dt = datetime.now(timezone.utc) - timedelta(hours=first_run_cutoff)
-        since_str = since_dt.strftime("%Y-%m-%dT%H:%M:%S")
 
-        logger.info("[%d/%d] @%s (tweets after %s)...", idx, total, handle, since_str)
+        logger.info("[%d/%d] @%s (tweets after %s)...", idx, total, handle, since_dt.strftime("%Y-%m-%dT%H:%M:%S"))
         t0 = time.time()
 
         success, count = _collect_single_account(
-            bridge, username, password, account, since_str, output_dir, today_str,
+            api_token, account, since_dt, output_dir, today_str,
         )
-
         elapsed = time.time() - t0
 
         if success:

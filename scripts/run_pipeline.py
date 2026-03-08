@@ -151,10 +151,9 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
         from collectors.rss_collector import run as rss_run
         results.append(run_step(1, total_steps, "RSS collector", rss_run, logger))
 
-        # Krok 2: Twitter (DISABLED — přepisujeme na nové API)
-        # from collectors.twitter_collector import run as twitter_run
-        # results.append(run_step(2, total_steps, "Twitter collector", twitter_run, logger))
-        results.append(StepResult(name="Twitter collector", status="SKIPPED", detail="disabled — probíhá přepis"))
+        # Krok 2: Twitter (Apify)
+        from collectors.twitter_collector import run as twitter_run
+        results.append(run_step(2, total_steps, "Twitter collector", twitter_run, logger))
 
         # Krok 3: Reddit
         from collectors.reddit_collector import run as reddit_run
