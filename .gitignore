@@ -56,3 +56,13 @@ content/raw/
 
 # collector state
 scripts/.last_fetch.json
+
+# agent runtime artifacts (keep CLAUDE.md, ignore the rest)
+scripts/reddit_agent/*
+!scripts/reddit_agent/CLAUDE.md
+scripts/twitter_agent/*
+!scripts/twitter_agent/CLAUDE.md
+scripts/*_agent/.mcp.json
+
+# personal notes
+ideas.txt

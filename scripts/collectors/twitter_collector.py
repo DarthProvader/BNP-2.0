@@ -1,13 +1,14 @@
 """Twitter/X collector for BNP 2.0.
 
 Uses ClaudeBridge (Claude CLI + Playwright MCP) to scrape tweets
-from X.com profiles in a single Claude call: login → visit each profile → extract tweets.
+from X.com profiles — one Claude call per account.
 """
 
 from __future__ import annotations
 
 import json
 import logging
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -28,15 +29,15 @@ logger = logging.getLogger(__name__)
 CHECKPOINT_FILE = ".last_fetch.json"
 
 
-def _build_prompt(username: str, password: str, accounts: list[dict]) -> str:
-    """Build a single prompt that logs in and scrapes all accounts."""
-    account_lines = []
-    for acc in accounts:
-        account_lines.append(
-            f'  - handle: "@{acc["handle"]}", collect tweets after: {acc["since_dt"]}'
-        )
-    accounts_block = "\n".join(account_lines)
-
+def _build_prompt_single(
+    username: str,
+    password: str,
+    handle: str,
+    since_dt: str,
+    max_tweets: int = 5,
+    max_replies: int = 5,
+) -> str:
+    """Build a prompt to scrape a single Twitter account with replies."""
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
 
     return f"""\
@@ -50,34 +51,40 @@ You are a Twitter data collector. Complete ALL steps below in order.
 5. Use browser_snapshot to confirm you see the home timeline
 6. If login fails or needs 2FA, return: {{"error": "LOGIN_FAILED", "details": "reason"}}
 
-## Step 2: Scrape each account
-For each account below, navigate to their profile, use browser_snapshot, and extract their recent tweets.
-
-Accounts to scrape:
-{accounts_block}
-
-For each account:
-1. Navigate to https://x.com/{{handle}}
+## Step 2: Scrape @{handle}
+1. Navigate to https://x.com/{handle}
 2. Use browser_snapshot to read the profile
-3. Extract tweets that are newer than the "collect tweets after" datetime
+3. Extract up to {max_tweets} tweets that are newer than {since_dt}
 4. Convert relative times (e.g. "2h") to ISO datetime using current time: {now_str}
-5. If the profile is private/suspended/empty, skip it with an empty array
+5. If the profile is private/suspended/empty, return an empty array []
 
-## Step 3: Return results
-Return a single JSON object with this exact structure:
-{{
-  "@handle1": [
-    {{"text": "tweet text", "date": "YYYY-MM-DDTHH:MM:SS", "url": "https://x.com/handle/status/ID", "is_retweet": false}},
-    ...
-  ],
-  "@handle2": [...],
-  ...
-}}
+## Step 3: Collect replies for each tweet
+For each extracted tweet:
+1. Click into the tweet (navigate to its URL)
+2. Use browser_snapshot to read the replies
+3. Extract the top {max_replies} replies by likes (skip bot/spam replies)
+4. Navigate back to the profile and continue with the next tweet
+
+## Step 4: Return results
+Return a JSON array with this exact structure:
+[
+  {{
+    "text": "tweet text",
+    "date": "YYYY-MM-DDTHH:MM:SS",
+    "url": "https://x.com/{handle}/status/ID",
+    "is_retweet": false,
+    "top_replies": [
+      {{"author": "replier1", "text": "Reply text", "likes": 50}},
+      {{"author": "replier2", "text": "Another reply", "likes": 23}}
+    ]
+  }}
+]
 
 Rules:
 - Return ONLY valid JSON, no markdown, no explanation
-- Use empty array [] for accounts with no new tweets
-- Include the @ prefix in handle keys
+- Return an empty array [] if there are no new tweets
+- top_replies should have at most {max_replies} entries per tweet
+- If you cannot load replies for a tweet, use an empty array for top_replies
 """
 
 
@@ -98,6 +105,88 @@ def save_checkpoint(scripts_dir: Path, checkpoint: dict) -> None:
     cp_path = scripts_dir / CHECKPOINT_FILE
     with open(cp_path, "w", encoding="utf-8") as f:
         json.dump(checkpoint, f, indent=2)
+
+
+def _collect_single_account(
+    bridge: ClaudeBridge,
+    username: str,
+    password: str,
+    account: dict,
+    since_dt: str,
+    output_dir: Path,
+    today_str: str,
+) -> tuple[bool, int]:
+    """Collect tweets from a single account. Returns (success, item_count)."""
+    handle = account["handle"]
+    slug = account["slug"]
+    name = account["name"]
+    tags = account.get("tags", [])
+
+    prompt = _build_prompt_single(username, password, handle, since_dt)
+    result = bridge.send(prompt)
+
+    if not result.success:
+        logger.error("  Claude CLI failed for @%s: %s", handle, result.stderr[:300])
+        return False, 0
+
+    response_text = result.response_text
+    data = parse_json_response(response_text)
+
+    if data is None:
+        logger.error("  Could not parse JSON for @%s", handle)
+        logger.info("  Raw response: %s", response_text[:500])
+        return False, 0
+
+    if isinstance(data, dict) and "error" in data:
+        logger.error("  Agent returned error for @%s: %s", handle, data)
+        return False, 0
+
+    # Accept both list (expected) and dict with handle key (legacy)
+    if isinstance(data, dict):
+        tweets = data.get(f"@{handle}", data.get(handle, []))
+    elif isinstance(data, list):
+        tweets = data
+    else:
+        logger.error("  Unexpected response type for @%s: %s", handle, type(data).__name__)
+        return False, 0
+
+    if not tweets:
+        logger.info("  No new tweets for @%s", handle)
+        return True, 0
+
+    # Convert to standard item format
+    items = []
+    for tw in tweets:
+        if not isinstance(tw, dict):
+            continue
+        item = {
+            "title": f"{name} (@{handle})",
+            "url": tw.get("url", f"https://x.com/{handle}"),
+            "published": tw.get("date", ""),
+            "summary": tw.get("text", ""),
+            "author": handle,
+            "is_retweet": tw.get("is_retweet", False),
+        }
+        if tw.get("top_replies"):
+            item["top_replies"] = tw["top_replies"]
+        items.append(item)
+
+    now_iso = datetime.now(timezone.utc).isoformat()
+    output_data = {
+        "source_type": "twitter",
+        "source_name": name,
+        "source_slug": slug,
+        "handle": handle,
+        "tags": tags,
+        "fetched_at": now_iso,
+        "items": items,
+    }
+
+    output_file = output_dir / f"{today_str}_{slug}.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+
+    return True, len(items)
 
 
 def run(config_path: Path | None = None, single_handle: str | None = None) -> dict:
@@ -127,20 +216,6 @@ def run(config_path: Path | None = None, single_handle: str | None = None) -> di
             logger.error("Handle @%s not found in config.yaml", single_handle)
             return {"twitter": 0}
 
-    # Prepare accounts with their cutoff dates
-    accounts_with_dates = []
-    for account in accounts:
-        slug = account["slug"]
-        checkpoint_key = f"twitter/{slug}"
-        if checkpoint_key in checkpoint:
-            since_dt = datetime.fromisoformat(checkpoint[checkpoint_key])
-        else:
-            since_dt = datetime.now(timezone.utc) - timedelta(hours=first_run_cutoff)
-        accounts_with_dates.append({
-            **account,
-            "since_dt": since_dt.strftime("%Y-%m-%dT%H:%M:%S"),
-        })
-
     # Get credentials
     username = os.environ.get("X_USERNAME", "")
     password = os.environ.get("X_PASSWORD", "")
@@ -148,88 +223,43 @@ def run(config_path: Path | None = None, single_handle: str | None = None) -> di
         logger.error("X_USERNAME or X_PASSWORD not set in .env")
         return {"twitter": 0}
 
-    # Build single prompt for login + all scrapes
-    prompt = _build_prompt(username, password, accounts_with_dates)
-
     agent_dir = scripts_dir / "twitter_agent"
     bridge = ClaudeBridge(agent_dir=agent_dir, model="sonnet")
 
-    logger.info("Sending single prompt to scrape %d accounts...", len(accounts_with_dates))
-    result = bridge.send(prompt)
+    total = len(accounts)
+    ok_count = 0
+    fail_count = 0
 
-    if not result.success:
-        logger.error("Claude CLI failed: %s", result.stderr[:300])
-        return {"twitter": 0}
-
-    # Parse response — expect {"@handle": [tweets...], ...}
-    response_text = result.response_text
-    data = parse_json_response(response_text)
-
-    if data is None:
-        logger.error("Could not parse JSON response")
-        logger.info("Raw response: %s", response_text[:500])
-        return {"twitter": 0}
-
-    if isinstance(data, dict) and "error" in data:
-        logger.error("Agent returned error: %s", data)
-        return {"twitter": 0}
-
-    if not isinstance(data, dict):
-        logger.error("Expected dict, got %s", type(data).__name__)
-        return {"twitter": 0}
-
-    # Process results and save per-account JSON files
-    now_iso = datetime.now(timezone.utc).isoformat()
-    collected = 0
-
-    for account in accounts:
+    for idx, account in enumerate(accounts, 1):
         handle = account["handle"]
         slug = account["slug"]
-        name = account["name"]
-        tags = account.get("tags", [])
         checkpoint_key = f"twitter/{slug}"
 
-        # Try both "@handle" and "handle" keys
-        tweets = data.get(f"@{handle}", data.get(handle, []))
+        # Determine cutoff date
+        if checkpoint_key in checkpoint:
+            since_dt = datetime.fromisoformat(checkpoint[checkpoint_key])
+        else:
+            since_dt = datetime.now(timezone.utc) - timedelta(hours=first_run_cutoff)
+        since_str = since_dt.strftime("%Y-%m-%dT%H:%M:%S")
 
-        if not isinstance(tweets, list) or not tweets:
-            logger.info("  -> No new tweets for @%s", handle)
-            checkpoint[checkpoint_key] = now_iso
-            continue
+        logger.info("[%d/%d] @%s (tweets after %s)...", idx, total, handle, since_str)
+        t0 = time.time()
 
-        # Convert to standard item format
-        items = []
-        for tw in tweets:
-            if not isinstance(tw, dict):
-                continue
-            items.append({
-                "title": f"{name} (@{handle})",
-                "url": tw.get("url", f"https://x.com/{handle}"),
-                "published": tw.get("date", ""),
-                "summary": tw.get("text", ""),
-                "author": handle,
-                "is_retweet": tw.get("is_retweet", False),
-            })
+        success, count = _collect_single_account(
+            bridge, username, password, account, since_str, output_dir, today_str,
+        )
 
-        output_data = {
-            "source_type": "twitter",
-            "source_name": name,
-            "source_slug": slug,
-            "handle": handle,
-            "tags": tags,
-            "fetched_at": now_iso,
-            "items": items,
-        }
+        elapsed = time.time() - t0
 
-        output_file = output_dir / f"{today_str}_{slug}.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
+        if success:
+            ok_count += 1
+            checkpoint[checkpoint_key] = datetime.now(timezone.utc).isoformat()
+            save_checkpoint(scripts_dir, checkpoint)
+            logger.info("[%d/%d] @%s: %d tweets (%.0fs)", idx, total, handle, count, elapsed)
+        else:
+            fail_count += 1
+            logger.warning("[%d/%d] @%s: FAILED (%.0fs)", idx, total, handle, elapsed)
 
-        logger.info("  -> Saved %d items to %s", len(items), output_file.name)
-        checkpoint[checkpoint_key] = now_iso
-        collected += 1
+    logger.info("Twitter collection done. %d/%d accounts OK.", ok_count, total)
 
-    save_checkpoint(scripts_dir, checkpoint)
-    logger.info("Twitter collection done. %d/%d accounts had new tweets.", collected, len(accounts))
-
-    return {"twitter": len(accounts)}
+    return {"twitter": total, "twitter_ok": ok_count, "twitter_fail": fail_count}

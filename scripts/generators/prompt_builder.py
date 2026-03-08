@@ -71,6 +71,11 @@ def load_raw_data(target_date: str) -> list[dict]:
             # Include retweet flag
             if item.get("is_retweet") is not None:
                 normalized["is_retweet"] = item["is_retweet"]
+            # Include community reactions
+            if item.get("top_comments"):
+                normalized["top_comments"] = item["top_comments"]
+            if item.get("top_replies"):
+                normalized["top_replies"] = item["top_replies"]
 
             all_items.append(normalized)
 
@@ -96,6 +101,7 @@ Below is raw data collected today ({target_date}) from various sources: YouTube 
 1. **Select** the 5-8 most important, interesting, or impactful AI news stories from the data below.
 2. **Write** a cohesive daily digest article that covers these stories with your own editorial opinion and analysis.
 3. **Attribute** sources inline — mention who reported/said what, link back to originals.
+   - Community reactions (comments/replies) are included where available — use them to gauge public sentiment and mention notable community takes.
 4. **Generate** the article in BOTH Czech and English:
    - Czech (cs): Write naturally in Czech — this is the PRIMARY version, not a translation.
    - English (en): Write a parallel English version — NOT a direct translation of the Czech text.

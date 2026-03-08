@@ -5,58 +5,57 @@ import { usePathname, useRouter } from "next/navigation";
 
 const themes = [
   {
-    id: "11",
+    id: "brutalist-dark",
     route: "/",
     name: "Brutalist Dark",
     accent: "#ff2222",
     bg: "#0a0a0a",
   },
   {
-    id: "1",
-    route: "/1",
+    id: "concrete",
+    route: "/concrete",
     name: "Concrete Monolith",
     accent: "#0055ff",
     bg: "#1a1a18",
   },
   {
-    id: "4",
-    route: "/4",
+    id: "classified",
+    route: "/classified",
     name: "Classified",
     accent: "#cc0000",
     bg: "#2c2416",
   },
   {
-    id: "6",
-    route: "/6",
+    id: "cyberpunk",
+    route: "/cyberpunk",
     name: "Akira Neon",
     accent: "#00f0ff",
     bg: "#0a0014",
   },
   {
-    id: "7",
-    route: "/7",
+    id: "holographic",
+    route: "/holographic",
     name: "Holographic HUD",
     accent: "#00e5ff",
     bg: "#030a0f",
   },
   {
-    id: "10",
-    route: "/10",
+    id: "comic",
+    route: "/comic",
     name: "Manga Panel",
     accent: "#e60012",
     bg: "#0a0a0a",
   },
 ];
 
-function getActiveTheme(pathname: string): string {
-  // Check if we're on a detail page like /6/some-slug
-  const segments = pathname.split("/").filter(Boolean);
-  const firstSegment = segments[0] || "";
+const THEME_ROUTES = themes.map((t) => t.id).filter((id) => id !== "brutalist-dark");
 
-  if (pathname === "/") return "11";
-  if (["1", "4", "6", "7", "10", "11"].includes(firstSegment))
-    return firstSegment;
-  return "11";
+function getActiveTheme(pathname: string): string {
+  const firstSegment = pathname.split("/").filter(Boolean)[0] || "";
+  if (pathname === "/") return "brutalist-dark";
+  if (THEME_ROUTES.includes(firstSegment)) return firstSegment;
+  // Root-level slug (e.g. /some-article) = brutalist-dark
+  return "brutalist-dark";
 }
 
 export default function ThemePicker() {
@@ -83,15 +82,17 @@ export default function ThemePicker() {
   }, [pathname]);
 
   function handleThemeClick(theme: (typeof themes)[number]) {
-    // If we're on a listing page, go to the theme's listing
-    // If we're on an article detail, swap the version prefix
     const segments = pathname.split("/").filter(Boolean);
+    const isArticlePage = segments.length >= 2 || (segments.length === 1 && !THEME_ROUTES.includes(segments[0]));
 
-    if (segments.length >= 2 && segments[0] !== theme.id) {
-      // Article detail page - swap version prefix
-      const slug = segments.slice(1).join("/");
-      const targetPrefix = theme.id === "11" ? "11" : theme.id;
-      router.push(`/${targetPrefix}/${slug}`);
+    if (isArticlePage) {
+      // Article detail page - swap prefix, keep slug
+      const slug = THEME_ROUTES.includes(segments[0]) ? segments.slice(1).join("/") : segments[0];
+      if (theme.id === "brutalist-dark") {
+        router.push(`/${slug}`);
+      } else {
+        router.push(`/${theme.id}/${slug}`);
+      }
     } else {
       // Listing page
       router.push(theme.route);
