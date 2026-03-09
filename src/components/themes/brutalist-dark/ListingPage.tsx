@@ -7,7 +7,7 @@ import type { Article } from "@/lib/mockData";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-instrument",
 });
 

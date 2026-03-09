@@ -8,7 +8,7 @@ import type { Article } from "@/lib/mockData";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-instrument",
 });
 
@@ -106,9 +106,9 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
                 <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
                   BEROU
                   <br />
-                  <span className="text-[#ff2222]">NAM</span>
+                  <span className="text-[#ff2222]">NÁM</span>
                   <br />
-                  PRACI
+                  PRÁCI
                 </h1>
               </Link>
             </div>
@@ -138,11 +138,11 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
                 ))}
                 <span className="tag-sticker text-[#f0f0f0]/50">
                   {article.readTime} min{" "}
-                  {lang === "cs" ? "cteni" : "read"}
+                  {lang === "cs" ? "čtení" : "read"}
                 </span>
                 <span className="tag-sticker text-[#f0f0f0]/50">
                   {article.sources.length}{" "}
-                  {lang === "cs" ? "zdroju" : "sources"}
+                  {lang === "cs" ? "zdrojů" : "sources"}
                 </span>
               </div>
 
@@ -181,13 +181,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
               {article.aiComments.map((comment, idx) => (
                 <div
                   key={idx}
-                  className={`ai-annotation ${
-                    idx === 1
-                      ? "rotate-neg"
-                      : idx === 2
-                        ? "rotate-1"
-                        : ""
-                  }`}
+                  className="ai-annotation"
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-lg">{comment.avatar}</span>
@@ -248,7 +242,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
               href={basePath}
               className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline"
             >
-              &larr; {lang === "cs" ? "Vsechny clanky" : "All articles"}
+              &larr; {lang === "cs" ? "Všechny články" : "All articles"}
             </Link>
             <div className="font-mono text-[10px] text-[#f0f0f0]/30 uppercase tracking-widest">
               {article.slug} // {article.readTime} min
@@ -261,10 +255,10 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
             <div>
               <div className="font-headline text-2xl sm:text-3xl text-[#f0f0f0]/20 mb-2">
-                BEROU NAM PRACI
+                BEROU NÁM PRÁCI
               </div>
               <p className="font-mono text-xs text-[#f0f0f0]/30 max-w-sm leading-relaxed">
-                Generovano umelou inteligenci. Kazdy den.
+                Generováno umělou inteligencí. Každý den.
               </p>
             </div>
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
@@ -277,8 +271,8 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
           </div>
           <div className="mt-8 h-[1px] bg-[#f0f0f0]/5" />
           <div className="mt-4 font-mono text-[9px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
-            Zadna prace neni v bezpeci. Zadna profese neni posvatna. Budoucnost
-            je ted.
+            Žádná práce není v bezpečí. Žádná profese není posvátná. Budoucnost
+            je teď.
           </div>
         </footer>
       </div>
