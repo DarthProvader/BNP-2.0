@@ -187,7 +187,7 @@ export default function ResourcesPageClient() {
           <div className="mt-8 flex items-center gap-4">
             <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
-              v.01 // RESOURCES
+              v.01 // {lang === "cs" ? "ZDROJE" : "RESOURCES"}
             </span>
             <div className="h-[2px] w-16 bg-[#ff2222]" />
           </div>
@@ -196,7 +196,7 @@ export default function ResourcesPageClient() {
         {/* ═══ HERO ═══ */}
         <section className="px-4 sm:px-8 py-12 sm:py-16">
           <h2 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#f0f0f0] glitch-text leading-[0.9] mb-6">
-            RESOURCES
+            {lang === "cs" ? "ZDROJE" : "RESOURCES"}
           </h2>
           <p className="font-mono text-sm sm:text-base text-[#f0f0f0]/60 max-w-xl leading-relaxed">
             {lang === "cs"

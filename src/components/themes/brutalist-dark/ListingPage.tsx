@@ -240,7 +240,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                   {t("Články", "Articles")}
                 </a>
                 <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
-                  Resources
+                  {t("Zdroje", "Resources")}
                 </Link>
                 <Link href="/about" className="harsh-underline text-[#f0f0f0]">
                   {t("O\u00a0projektu", "About")}

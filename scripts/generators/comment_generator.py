@@ -173,7 +173,7 @@ def generate_comments(article_content: str, lang: str = "cs") -> list[dict]:
     logger.info("  Generating Claude comment (%s)...", lang)
     try:
         claude_comment = _call_claude(article_content, lang)
-        comments.append({"model": "Claude", "avatar": "🟣", "comment": claude_comment})
+        comments.append({"model": "Claude Sonnet", "avatar": "🟣", "comment": claude_comment})
         logger.info("  Claude: %d chars", len(claude_comment))
     except Exception as e:
         logger.error("  Claude failed: %s", e)
