@@ -1,0 +1,523 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
+
+const instrumentSerif = Instrument_Serif({
+  weight: "400",
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-instrument",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+});
+
+/* ─── Data Types ─── */
+
+interface Resource {
+  name: string;
+  url: string;
+  descriptionCs: string;
+  descriptionEn: string;
+  category: "llm" | "code" | "image" | "productivity" | "search";
+}
+
+interface Company {
+  name: string;
+  url: string;
+  focus: string;
+}
+
+interface MediaResource {
+  name: string;
+  url: string;
+  type: "newsletter" | "podcast" | "youtube";
+  descriptionCs: string;
+  descriptionEn: string;
+}
+
+/* ─── Data ─── */
+
+const aiTools: Resource[] = [
+  { name: "ChatGPT", url: "https://chat.openai.com", category: "llm", descriptionCs: "Nejrozšířenější LLM chatbot", descriptionEn: "Most popular LLM chatbot" },
+  { name: "Claude", url: "https://claude.ai", category: "llm", descriptionCs: "AI asistent od Anthropic", descriptionEn: "AI assistant by Anthropic" },
+  { name: "Gemini", url: "https://gemini.google.com", category: "llm", descriptionCs: "Google AI s přístupem k Search", descriptionEn: "Google AI with Search access" },
+  { name: "Perplexity", url: "https://perplexity.ai", category: "search", descriptionCs: "AI-powered vyhledávač", descriptionEn: "AI-powered search engine" },
+  { name: "GitHub Copilot", url: "https://github.com/features/copilot", category: "code", descriptionCs: "AI pair programmer v editoru", descriptionEn: "AI pair programmer in your editor" },
+  { name: "Cursor", url: "https://cursor.com", category: "code", descriptionCs: "AI-first code editor", descriptionEn: "AI-first code editor" },
+  { name: "Claude Code", url: "https://docs.anthropic.com/en/docs/claude-code", category: "code", descriptionCs: "CLI nástroj pro kódování s AI", descriptionEn: "CLI tool for AI-powered coding" },
+  { name: "Midjourney", url: "https://midjourney.com", category: "image", descriptionCs: "Generování obrázků pomocí AI", descriptionEn: "AI image generation" },
+  { name: "Sora", url: "https://sora.com", category: "image", descriptionCs: "Generování videa od OpenAI", descriptionEn: "Video generation by OpenAI" },
+  { name: "NotebookLM", url: "https://notebooklm.google.com", category: "productivity", descriptionCs: "AI notebook od Google", descriptionEn: "AI notebook by Google" },
+  { name: "Bolt", url: "https://bolt.new", category: "code", descriptionCs: "AI full-stack app builder", descriptionEn: "AI full-stack app builder" },
+  { name: "v0", url: "https://v0.dev", category: "code", descriptionCs: "AI UI generátor od Vercel", descriptionEn: "AI UI generator by Vercel" },
+];
+
+const companies: Company[] = [
+  { name: "OpenAI", url: "https://openai.com", focus: "GPT, ChatGPT, Sora, DALL-E" },
+  { name: "Anthropic", url: "https://anthropic.com", focus: "Claude, Constitutional AI" },
+  { name: "Google DeepMind", url: "https://deepmind.google", focus: "Gemini, AlphaFold" },
+  { name: "Meta AI", url: "https://ai.meta.com", focus: "Llama, Open Source AI" },
+  { name: "NVIDIA", url: "https://nvidia.com", focus: "GPU, CUDA, AI hardware" },
+  { name: "Mistral AI", url: "https://mistral.ai", focus: "Open-weight European LLMs" },
+  { name: "xAI", url: "https://x.ai", focus: "Grok" },
+  { name: "Stability AI", url: "https://stability.ai", focus: "Stable Diffusion" },
+];
+
+const media: MediaResource[] = [
+  { name: "The Batch", url: "https://www.deeplearning.ai/the-batch/", type: "newsletter", descriptionCs: "Týdenník od Andrew Ng", descriptionEn: "Weekly by Andrew Ng" },
+  { name: "TLDR AI", url: "https://tldr.tech/ai", type: "newsletter", descriptionCs: "Denní AI newsletter", descriptionEn: "Daily AI newsletter" },
+  { name: "Import AI", url: "https://importai.net", type: "newsletter", descriptionCs: "Hloubkové analýzy AI výzkumu", descriptionEn: "Deep AI research analysis" },
+  { name: "Lex Fridman Podcast", url: "https://lexfridman.com/podcast", type: "podcast", descriptionCs: "Rozhovory s lídry AI", descriptionEn: "Conversations with AI leaders" },
+  { name: "All-In Podcast", url: "https://www.allinpodcast.co", type: "podcast", descriptionCs: "Tech, AI a investice", descriptionEn: "Tech, AI and investments" },
+  { name: "Latent Space", url: "https://www.latent.space", type: "podcast", descriptionCs: "Podcast pro AI inženýry", descriptionEn: "Podcast for AI engineers" },
+  { name: "Fireship", url: "https://www.youtube.com/@Fireship", type: "youtube", descriptionCs: "Rychlé tech explainery", descriptionEn: "Fast tech explainers" },
+  { name: "AI Explained", url: "https://www.youtube.com/@aiexplained-official", type: "youtube", descriptionCs: "Hloubkové rozbory AI novinek", descriptionEn: "In-depth AI news analysis" },
+  { name: "Matt Wolfe", url: "https://www.youtube.com/@maboroshi", type: "youtube", descriptionCs: "AI nástroje a novinky", descriptionEn: "AI tools and news" },
+  { name: "Two Minute Papers", url: "https://www.youtube.com/@TwoMinutePapers", type: "youtube", descriptionCs: "Krátké shrnutí AI výzkumu", descriptionEn: "Short AI research summaries" },
+];
+
+/* ─── Helpers ─── */
+
+const categoryLabel: Record<Resource["category"], string> = {
+  llm: "LLM",
+  code: "CODE",
+  image: "IMAGE",
+  productivity: "PRODUCTIVITY",
+  search: "SEARCH",
+};
+
+const mediaIcon: Record<MediaResource["type"], string> = {
+  newsletter: "\u{1F4E7}",
+  podcast: "\u{1F399}\uFE0F",
+  youtube: "\u25B6\uFE0F",
+};
+
+/* ─── Component ─── */
+
+export default function ResourcesPageClient() {
+  const [lang, setLang] = React.useState<"cs" | "en">("cs");
+
+  const newsletters = media.filter((m) => m.type === "newsletter");
+  const podcastsAndYoutube = media.filter((m) => m.type === "podcast" || m.type === "youtube");
+
+  return (
+    <div
+      className={`${instrumentSerif.variable} ${jetbrainsMono.variable} min-h-screen relative`}
+    >
+      <style>{brutalStyles}</style>
+
+      <div className="brutal-page min-h-screen">
+        {/* MARQUEE TICKER */}
+        <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2">
+          <div className="flex whitespace-nowrap marquee-track">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <span
+                key={i}
+                className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#f0f0f0]/30 mx-8"
+              >
+                AI NAHRAZUJE PROGRAMATORY /// AUTOMATIZACE SMAZALA 10K POZIC
+                /// MODELY JSOU CHYTREJSI NEZ LIDE /// BUDOUCNOST JE TED /// AI
+                NAHRAZUJE PROGRAMATORY /// AUTOMATIZACE SMAZALA 10K POZIC
+                ///&nbsp;
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* HEADER */}
+        <header className="px-4 sm:px-8 pt-8 pb-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div className="flex items-center gap-6">
+              <Link
+                href="/"
+                className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
+              >
+                {lang === "cs" ? "\u2190 Zp\u011Bt na v\u00FDb\u011Br" : "\u2190 Back"}
+              </Link>
+            </div>
+
+            <div className="flex items-center gap-4">
+              {/* CZ/EN toggle */}
+              <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest">
+                <button
+                  onClick={() => setLang("cs")}
+                  className={`px-2 py-1 border transition-colors ${
+                    lang === "cs"
+                      ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                      : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0]"
+                  }`}
+                >
+                  CZ
+                </button>
+                <button
+                  onClick={() => setLang("en")}
+                  className={`px-2 py-1 border transition-colors ${
+                    lang === "en"
+                      ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                      : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0]"
+                  }`}
+                >
+                  EN
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Title with red vertical bar */}
+          <div className="relative mt-10">
+            <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+            <div className="pl-4 sm:pl-6">
+              <Link href="/">
+                <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
+                  BEROU
+                  <br />
+                  <span className="text-[#ff2222]">N&Aacute;M</span>
+                  <br />
+                  PR&Aacute;CI
+                </h1>
+              </Link>
+            </div>
+          </div>
+
+          {/* Horizontal rule */}
+          <div className="mt-8 flex items-center gap-4">
+            <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
+            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
+              v.01 // RESOURCES
+            </span>
+            <div className="h-[2px] w-16 bg-[#ff2222]" />
+          </div>
+        </header>
+
+        {/* ═══ HERO ═══ */}
+        <section className="px-4 sm:px-8 py-12 sm:py-16">
+          <h2 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#f0f0f0] glitch-text leading-[0.9] mb-6">
+            RESOURCES
+          </h2>
+          <p className="font-mono text-sm sm:text-base text-[#f0f0f0]/60 max-w-xl leading-relaxed">
+            {lang === "cs"
+              ? "N\u00E1stroje, newslettery a zdroje ze sv\u011Bta AI"
+              : "Tools, newsletters and resources from the AI world"}
+          </p>
+        </section>
+
+        {/* ═══ AI TOOLS ═══ */}
+        <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+          <div className="flex items-center gap-3 mb-8">
+            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+              // {lang === "cs" ? "N\u00C1STROJE" : "TOOLS"}
+            </span>
+            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {aiTools.map((tool) => (
+              <div key={tool.name} className="noise-border p-4 relative group">
+                <div className="mb-3">
+                  <span className="tag-sticker tag-sticker-red">
+                    {categoryLabel[tool.category]}
+                  </span>
+                </div>
+                <div className="font-mono text-sm font-bold text-[#f0f0f0] mb-1">
+                  {tool.name}
+                </div>
+                <p className="font-mono text-[11px] text-[#f0f0f0]/60 mb-3">
+                  {lang === "cs" ? tool.descriptionCs : tool.descriptionEn}
+                </p>
+                <a
+                  href={tool.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-mono text-[11px] text-[#ff2222] harsh-underline"
+                >
+                  {lang === "cs" ? "Otev\u0159\u00EDt" : "Open"} &rarr;
+                </a>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ═══ COMPANIES ═══ */}
+        <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+          <div className="flex items-center gap-3 mb-8">
+            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+              // {lang === "cs" ? "FIRMY" : "COMPANIES"}
+            </span>
+            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+          </div>
+
+          <div className="flex flex-wrap gap-3">
+            {companies.map((company) => (
+              <a
+                key={company.name}
+                href={company.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tag-sticker hover:bg-[#f0f0f0] hover:text-[#0a0a0a] transition-colors group px-4 py-2"
+              >
+                <span className="font-mono text-xs font-bold text-[#f0f0f0] group-hover:text-[#0a0a0a]">
+                  {company.name}
+                </span>
+                <span className="font-mono text-[10px] text-[#f0f0f0]/40 group-hover:text-[#0a0a0a]/60 ml-2">
+                  {company.focus}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        {/* ═══ MEDIA ═══ */}
+        <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+          <div className="flex items-center gap-3 mb-8">
+            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+              // {lang === "cs" ? "M\u00C9DIA" : "MEDIA"}
+            </span>
+            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left column — Newsletters */}
+            <div>
+              <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#f0f0f0]/40 mb-4">
+                {mediaIcon.newsletter} {lang === "cs" ? "Newslettery" : "Newsletters"}
+              </div>
+              <div className="flex flex-col gap-4">
+                {newsletters.map((item) => (
+                  <div key={item.name} className="ai-annotation">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
+                        {item.name}
+                      </span>
+                    </div>
+                    <p className="font-mono text-[11px] leading-relaxed text-[#f0f0f0]/60 mb-2">
+                      {lang === "cs" ? item.descriptionCs : item.descriptionEn}
+                    </p>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-[10px] text-[#ff2222] harsh-underline"
+                    >
+                      {lang === "cs" ? "P\u0159ej\u00EDt" : "Visit"} &rarr;
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right column — Podcasts & YouTube */}
+            <div>
+              <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#f0f0f0]/40 mb-4">
+                {mediaIcon.podcast} / {mediaIcon.youtube} {lang === "cs" ? "Podcasty & YouTube" : "Podcasts & YouTube"}
+              </div>
+              <div className="flex flex-col gap-4">
+                {podcastsAndYoutube.map((item) => (
+                  <div key={item.name} className="ai-annotation">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs">{mediaIcon[item.type]}</span>
+                      <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
+                        {item.name}
+                      </span>
+                    </div>
+                    <p className="font-mono text-[11px] leading-relaxed text-[#f0f0f0]/60 mb-2">
+                      {lang === "cs" ? item.descriptionCs : item.descriptionEn}
+                    </p>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-[10px] text-[#ff2222] harsh-underline"
+                    >
+                      {lang === "cs" ? "P\u0159ej\u00EDt" : "Visit"} &rarr;
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FOOTER */}
+        <footer className="px-4 sm:px-8 py-12 relative">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
+            <div>
+              <div className="font-headline text-2xl sm:text-3xl text-[#f0f0f0]/20 mb-2">
+                BEROU N&Aacute;M PR&Aacute;CI
+              </div>
+              <p className="font-mono text-xs text-[#f0f0f0]/30 max-w-sm leading-relaxed">
+                Generov&aacute;no um&#283;lou inteligenc&iacute;. Ka&zcaron;d&yacute; den.
+              </p>
+            </div>
+            <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
+              <div>verze 01 / 05</div>
+              <div>brutalist dark editorial</div>
+              <div className="text-[#ff2222]/40">
+                &copy; {new Date().getFullYear()}
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 h-[1px] bg-[#f0f0f0]/5" />
+          <div className="mt-4 font-mono text-[9px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
+            &#381;&#225;dn&#225; pr&#225;ce nen&#237; v bezpe&#269;&#237;. &#381;&#225;dn&#225; profese nen&#237; posv&#225;tn&#225;. Budoucnost
+            je te&#271;.
+          </div>
+        </footer>
+      </div>
+    </div>
+  );
+}
+
+const brutalStyles = `
+  :root {
+    --brutal-red: #ff2222;
+    --brutal-black: #0a0a0a;
+    --brutal-white: #f0f0f0;
+  }
+
+  .brutal-page {
+    background-color: var(--brutal-black);
+    color: var(--brutal-white);
+    font-family: var(--font-jetbrains), monospace;
+  }
+
+  .brutal-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .brutal-page > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .font-headline {
+    font-family: var(--font-instrument), Georgia, serif;
+  }
+
+  .font-mono {
+    font-family: var(--font-jetbrains), monospace;
+  }
+
+  .glitch-text {
+    text-shadow:
+      2px 2px 0 #ff2222,
+      -1px -1px 0 #00ffff;
+  }
+
+  .glitch-hover:hover {
+    text-shadow:
+      3px 3px 0 #ff2222,
+      -2px -2px 0 #00ffff,
+      5px 0px 0 #ff222244;
+    transition: text-shadow 0.1s ease;
+  }
+
+  .noise-border {
+    border: 2px solid var(--brutal-white);
+    box-shadow:
+      4px 4px 0 var(--brutal-red),
+      -1px -1px 0 var(--brutal-white);
+  }
+
+  .cut-out {
+    border: 2px solid var(--brutal-white);
+    background: var(--brutal-black);
+    box-shadow:
+      6px 6px 0 var(--brutal-red);
+  }
+
+  .tag-sticker {
+    border: 1px solid var(--brutal-white);
+    padding: 2px 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: var(--font-jetbrains), monospace;
+    display: inline-block;
+    background: var(--brutal-black);
+  }
+
+  .tag-sticker-red {
+    border-color: var(--brutal-red);
+    color: var(--brutal-red);
+  }
+
+  .scanline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255,255,255,0.01) 2px,
+      rgba(255,255,255,0.01) 4px
+    );
+    pointer-events: none;
+  }
+
+  .harsh-underline {
+    text-decoration: none;
+    border-bottom: 3px solid var(--brutal-red);
+    padding-bottom: 1px;
+  }
+
+  .harsh-underline:hover {
+    background: var(--brutal-red);
+    color: var(--brutal-black);
+  }
+
+  .rotate-1 { transform: rotate(0.7deg); }
+  .rotate-neg { transform: rotate(-0.8deg); }
+
+  .ai-annotation {
+    border-left: 3px solid var(--brutal-red);
+    padding-left: 12px;
+    position: relative;
+  }
+
+  .ai-annotation::before {
+    content: '//';
+    position: absolute;
+    left: -2px;
+    top: -14px;
+    font-size: 10px;
+    color: var(--brutal-red);
+    font-family: var(--font-jetbrains), monospace;
+  }
+
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+
+  .cursor-blink::after {
+    content: '\u2588';
+    animation: blink 1s infinite;
+    color: var(--brutal-red);
+    margin-left: 2px;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .marquee-track {
+    animation: marquee 30s linear infinite;
+  }
+`;

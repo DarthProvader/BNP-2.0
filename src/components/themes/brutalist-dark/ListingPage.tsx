@@ -239,12 +239,12 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <a href="#clanky" className="harsh-underline text-[#f0f0f0]">
                   {t("Články", "Articles")}
                 </a>
-                <a href="#" className="harsh-underline text-[#f0f0f0]">
+                <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
                   Resources
-                </a>
-                <a href="#" className="harsh-underline text-[#f0f0f0]">
+                </Link>
+                <Link href="/about" className="harsh-underline text-[#f0f0f0]">
                   {t("O\u00a0projektu", "About")}
-                </a>
+                </Link>
               </div>
               <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest mt-2">
                 <button
