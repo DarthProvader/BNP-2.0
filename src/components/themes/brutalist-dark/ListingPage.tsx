@@ -424,7 +424,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             {rest[1] && (
               <Link href={`${basePath}/${rest[1].slug}`} className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 relative group bg-[#ff2222]/5">
                 <div className="absolute -top-3 -right-3 bg-[#ff2222] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
-                  {t("Regulace", "Regulation")}
+                  {rest[1].tags[0] ?? ""}
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {rest[1].tags.map((tag) => (
@@ -485,7 +485,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
               <Link href={`${basePath}/${rest[3].slug}`} className="md:col-span-7 border-2 border-[#f0f0f0] p-5 sm:p-6 relative group">
                 {/* Decorative vertical text */}
                 <div className="hidden lg:block absolute -right-8 top-0 vertical-text font-mono text-[10px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
-                  Hardware
+                  {rest[3].tags[0] ?? ""}
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {rest[3].tags.map((tag) => (
