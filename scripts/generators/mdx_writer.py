@@ -72,3 +72,33 @@ def write_mdx(article_data: dict, lang: str) -> Path:
 
     logger.info("Wrote %s (%d chars)", out_path.relative_to(CONTENT_DIR.parent), len(mdx_content))
     return out_path
+
+
+def update_mdx_comments(mdx_path: Path, comments: list[dict]) -> None:
+    """Update the aiComments field in an existing MDX file's frontmatter."""
+    raw = mdx_path.read_text(encoding="utf-8")
+
+    if not raw.startswith("---"):
+        raise ValueError(f"MDX file does not start with frontmatter: {mdx_path}")
+
+    parts = raw.split("---", 2)
+    if len(parts) < 3:
+        raise ValueError(f"Could not parse frontmatter in: {mdx_path}")
+
+    frontmatter = yaml.safe_load(parts[1])
+    content_body = parts[2]
+
+    frontmatter["aiComments"] = comments
+
+    yaml_str = yaml.dump(
+        frontmatter,
+        default_flow_style=False,
+        allow_unicode=True,
+        sort_keys=False,
+        width=1000,
+    )
+
+    updated = f"---\n{yaml_str}---{content_body}"
+    mdx_path.write_text(updated, encoding="utf-8")
+
+    logger.info("Updated aiComments in %s (%d comments)", mdx_path.name, len(comments))

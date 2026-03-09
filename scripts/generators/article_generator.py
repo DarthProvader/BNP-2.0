@@ -9,7 +9,8 @@ from datetime import date
 from pathlib import Path
 
 from bridge.claude_bridge import ClaudeBridge
-from generators.mdx_writer import validate_article_data, write_mdx
+from generators.mdx_writer import validate_article_data, write_mdx, update_mdx_comments
+from generators.comment_generator import generate_comments
 
 logger = logging.getLogger(__name__)
 
@@ -195,5 +196,15 @@ def generate_articles(target_date: str | None = None) -> dict:
     # 6. Write MDX files
     cs_path = write_mdx(article_data, lang="cs")
     en_path = write_mdx(article_data, lang="en")
+
+    # 7. Generate AI comments (cascading: Claude → ChatGPT → Gemini)
+    logger.info("Generating AI comments...")
+    for lang, mdx_path in [("cs", cs_path), ("en", en_path)]:
+        try:
+            comments = generate_comments(article_data[lang]["content"], lang)
+            if comments:
+                update_mdx_comments(mdx_path, comments)
+        except Exception as e:
+            logger.warning("AI comments failed for %s: %s", lang, e)
 
     return {"cs": str(cs_path), "en": str(en_path), "slug": article_data["slug"]}

@@ -64,5 +64,9 @@ scripts/twitter_agent/*
 !scripts/twitter_agent/CLAUDE.md
 scripts/*_agent/.mcp.json
 
+# Google Vertex AI credentials
+vertexai.json
+**/vertexai.json
+
 # personal notes
 ideas.txt
