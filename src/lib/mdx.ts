@@ -14,6 +14,7 @@ interface MDXFrontmatter {
   excerpt: string;
   sources: Source[];
   aiComments: AIComment[];
+  opusOpinion?: string;
 }
 
 function readMDXFile(filePath: string): { frontmatter: MDXFrontmatter; content: string } {
@@ -56,6 +57,8 @@ function buildArticle(slug: string): Article | null {
     sources: cs.frontmatter.sources ?? [],
     aiComments: cs.frontmatter.aiComments ?? [],
     readTime: cs.frontmatter.readTime,
+    opusOpinion: cs.frontmatter.opusOpinion ?? "",
+    opusOpinionEn: en?.frontmatter.opusOpinion ?? cs.frontmatter.opusOpinion ?? "",
   };
 }
 

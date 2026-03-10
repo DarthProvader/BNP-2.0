@@ -23,6 +23,8 @@ export interface Article {
   sources: Source[];
   aiComments: AIComment[];
   readTime: number;
+  opusOpinion?: string;
+  opusOpinionEn?: string;
 }
 
 export const articles: Article[] = [

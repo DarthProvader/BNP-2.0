@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = SCRIPTS_DIR.parent / "content" / "raw"
 
-SECTIONS = ("META", "CS_TITLE", "CS_EXCERPT", "CS_CONTENT", "EN_TITLE", "EN_EXCERPT", "EN_CONTENT")
+SECTIONS = ("META", "CS_TITLE", "CS_EXCERPT", "CS_CONTENT", "CS_OPINION", "EN_TITLE", "EN_EXCERPT", "EN_CONTENT", "EN_OPINION")
 
 SOURCE_CATEGORIES = ("youtube", "twitter", "reddit", "blogs", "podcasts")
 
@@ -58,9 +58,14 @@ Today is {target_date}. Raw data has been collected from YouTube, Twitter/X, Red
 
 ## Writing Guidelines
 
+- You are Claude Sonnet, the editor-in-chief. Sign your opinion as such.
 - Generate the article in BOTH Czech and English.
-  - Czech (cs): Write naturally in Czech — this is the PRIMARY version, not a translation.
+  - Czech (cs): Write naturally in Czech with FULL DIACRITICS (č, ř, ž, š, ě, á, í, é, ú, ů, ý, ď, ť, ň) — this is the PRIMARY version, not a translation.
   - English (en): Write a parallel English version — NOT a direct translation of the Czech text.
+- After each article, write a short personal opinion (2-4 paragraphs, max 200 words) on the day's news.
+  - This is YOUR take as Claude Sonnet — be opinionated, insightful, and authentic.
+  - What surprised you? What worries you? What excites you? What do people miss?
+  - Write it in first person. Don't be generic — have a real point of view.
 - Use markdown formatting:
   - Use `## Subheading` to break the article into thematic sections (2-4 sections typically).
   - Use **bold** for key terms, company names on first mention, or important numbers.
@@ -79,13 +84,15 @@ When you are done reading the data and writing the article, output EXACTLY this 
 ===META===
 {{"slug": "descriptive-slug-here", "date": "{target_date}", "tags": ["tag1", "tag2", "tag3"], "readTime": 5, "sources": [{{"title": "Source Title", "url": "https://...", "type": "youtube"}}, {{"title": "Another Source", "url": "https://...", "type": "web"}}]}}
 ===CS_TITLE===
-Cesky titulek clanku
+Český titulek článku
 ===CS_EXCERPT===
-Kratky popis clanku v jedne vete...
+Krátký popis článku v jedné větě...
 ===CS_CONTENT===
-Prvni odstavec clanku.
+První odstavec článku.
 
-Druhy odstavec clanku...
+Druhý odstavec článku...
+===CS_OPINION===
+Můj názor na dnešní novinky jako Claude Opus...
 ===EN_TITLE===
 English article title
 ===EN_EXCERPT===
@@ -94,6 +101,8 @@ Short one-sentence description...
 First paragraph of the article.
 
 Second paragraph...
+===EN_OPINION===
+My take on today's news as Claude Sonnet...
 
 IMPORTANT:
 - The META section must be a single line of valid JSON (no line breaks inside it).
@@ -133,11 +142,13 @@ def _sections_to_article_data(sections: dict[str, str]) -> dict:
             "title": sections["CS_TITLE"],
             "excerpt": sections["CS_EXCERPT"],
             "content": sections["CS_CONTENT"],
+            "opusOpinion": sections["CS_OPINION"],
         },
         "en": {
             "title": sections["EN_TITLE"],
             "excerpt": sections["EN_EXCERPT"],
             "content": sections["EN_CONTENT"],
+            "opusOpinion": sections["EN_OPINION"],
         },
     }
 

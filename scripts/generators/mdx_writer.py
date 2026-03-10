@@ -60,6 +60,7 @@ def write_mdx(article_data: dict, lang: str) -> Path:
         "readTime": article_data["readTime"],
         "excerpt": lang_data["excerpt"],
         "sources": article_data["sources"],
+        "opusOpinion": lang_data.get("opusOpinion", ""),
         "aiComments": [],
     }
 

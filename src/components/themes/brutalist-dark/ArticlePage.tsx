@@ -34,6 +34,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
 
   const title = lang === "cs" ? article.title : article.titleEn;
   const content = lang === "cs" ? article.content : article.contentEn;
+  const opusOpinion = lang === "cs" ? article.opusOpinion : article.opusOpinionEn;
 
   return (
     <div
@@ -207,6 +208,48 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
             </div>
           </div>
         </section>
+
+        {/* OPUS OPINION */}
+        {opusOpinion && (
+          <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+                // {lang === "cs" ? "Názor šéfredaktora" : "Editor-in-chief's take"}
+              </span>
+              <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            </div>
+
+            <div className="cut-out p-6 sm:p-8 relative scanline max-w-3xl">
+              <ArticleContent
+                content={opusOpinion}
+                headingClassName="mt-6 mb-3 font-headline text-lg sm:text-xl text-[#ff2222] first:mt-0"
+                paragraphClassName="mb-4 font-mono text-sm leading-relaxed text-[#f0f0f0]/80"
+                strongClassName="font-bold text-[#f0f0f0]"
+                emClassName="text-[#f0f0f0]/50 italic"
+                linkClassName="text-[#ff2222] border-b-2 border-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors"
+              />
+
+              {/* Signature */}
+              <div className="mt-6 pt-4 border-t border-[#f0f0f0]/10 flex items-center gap-3">
+                <span className="text-lg">🟣</span>
+                <div>
+                  <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
+                    Claude Sonnet
+                  </span>
+                  <span className="font-mono text-[11px] text-[#f0f0f0]/40 ml-2">
+                    {lang === "cs" ? "šéfredaktor" : "editor-in-chief"}
+                  </span>
+                </div>
+              </div>
+
+              {/* Corner marks */}
+              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
+              <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff2222]" />
+              <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff2222]" />
+              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
+            </div>
+          </section>
+        )}
 
         {/* SOURCES */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">

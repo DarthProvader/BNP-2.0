@@ -46,6 +46,11 @@ podcasts:
     feed_url: "https://api.substack.com/feed/podcast/1084089.rss"
     tags: ["ai-engineering", "deep-dive"]
 
+  - name: "Fantastic Future"
+    slug: "fantastic-future"
+    feed_url: "https://feeds.simplecast.com/6Jw_LIsB"
+    tags: ["ai", "czech", "podcast"]
+
 blogs:
   - name: "OpenAI Blog"
     slug: "openai-blog"
@@ -163,3 +168,7 @@ reddit:
   - name: "technology"
     slug: "technology"
     tags: ["tech", "news"]
+
+  - name: "Bard"
+    slug: "bard"
+    tags: ["google", "gemini"]
