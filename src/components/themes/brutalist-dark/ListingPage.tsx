@@ -25,6 +25,7 @@ interface PageClientProps {
 export default function PageClient({ articles, allTags, basePath = "/11" }: PageClientProps) {
   const [lang, setLang] = useState<"cs" | "en">("cs");
   const [activeTag, setActiveTag] = useState<string | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   const filtered = activeTag
     ? articles.filter((a) => a.tags.includes(activeTag))
@@ -201,7 +202,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         }
       `}</style>
 
-      <div className="brutal-page min-h-screen">
+      <div className="brutal-page min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
         {/* MARQUEE TICKER */}
         <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2 mt-4">
           <div className="flex whitespace-nowrap marquee-track">
@@ -283,10 +284,23 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
 
         {/* TAG BAR */}
         <section className="px-4 sm:px-8 py-6 border-y border-[#f0f0f0]/10">
-          <div className="flex flex-wrap items-center gap-2">
+          <div
+            className="flex items-center gap-2 cursor-pointer lg:cursor-default"
+            onClick={() => setFiltersOpen(!filtersOpen)}
+          >
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest mr-4">
               {t("Filtry //", "Filters //")}
             </span>
+            {activeTag && (
+              <span className="tag-sticker bg-[#f0f0f0] text-[#0a0a0a] lg:hidden">
+                {activeTag}
+              </span>
+            )}
+            <span className="lg:hidden font-mono text-[10px] text-[#f0f0f0]/40 ml-auto">
+              {filtersOpen ? "▲" : "▼"}
+            </span>
+          </div>
+          <div className={`flex-wrap items-center gap-2 mt-3 ${filtersOpen ? "flex" : "hidden lg:flex"}`}>
             {allTags.map((tag) => (
               <span
                 key={tag}
@@ -317,7 +331,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-0">
             {/* Main featured content */}
-            <div className="lg:col-span-8 cut-out p-6 sm:p-8 relative scanline">
+            <div className="lg:col-span-8 cut-out p-6 sm:p-8 relative scanline self-start">
               <div className="flex flex-wrap gap-2 mb-6">
                 {featured.tags.map((tag) => (
                   <span key={tag} className="tag-sticker tag-sticker-red">
@@ -354,7 +368,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             </div>
 
             {/* Side annotation - AI Comments for featured */}
-            <div className="lg:col-span-4 lg:pl-8 flex flex-col gap-4 lg:-mt-4">
+            <div className="lg:col-span-4 lg:pl-8 hidden lg:flex flex-col gap-4 lg:-mt-4 relative lg:overflow-hidden lg:max-h-[450px]">
               <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff2222] mb-2">
                 // {t("AI modely komentují", "AI models comment")}
               </div>
@@ -374,6 +388,11 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                   </p>
                 </div>
               ))}
+              {/* Fade overlay */}
+              <div className="hidden lg:block absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent pointer-events-none" />
+              <Link href={`${basePath}/${featured.slug}`} className="hidden lg:block absolute bottom-2 left-8 font-mono text-[10px] uppercase tracking-widest text-[#ff2222] harsh-underline z-10">
+                {t("Celá diskuse", "Full discussion")} &rarr;
+              </Link>
             </div>
           </div>
         </section>

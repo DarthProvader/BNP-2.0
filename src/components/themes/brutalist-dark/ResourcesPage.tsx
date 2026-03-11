@@ -110,7 +110,7 @@ export default function ResourcesPageClient() {
     >
       <style>{brutalStyles}</style>
 
-      <div className="brutal-page min-h-screen">
+      <div className="brutal-page min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
         {/* MARQUEE TICKER */}
         <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2">
           <div className="flex whitespace-nowrap marquee-track">
