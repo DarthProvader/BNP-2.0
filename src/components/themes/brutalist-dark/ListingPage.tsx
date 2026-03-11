@@ -202,6 +202,30 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         }
       `}</style>
 
+      {/* Language switcher - fixed top right */}
+      <div className="fixed top-20 right-4 z-50 flex gap-1 font-mono text-[10px] uppercase tracking-widest">
+        <button
+          onClick={() => setLang("cs")}
+          className={`px-2 py-1 border transition-colors ${
+            lang === "cs"
+              ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+              : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+          }`}
+        >
+          CZ
+        </button>
+        <button
+          onClick={() => setLang("en")}
+          className={`px-2 py-1 border transition-colors ${
+            lang === "en"
+              ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+              : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+          }`}
+        >
+          EN
+        </button>
+      </div>
+
       <div className="brutal-page min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
         {/* MARQUEE TICKER */}
         <div className="overflow-hidden border-b border-[#f0f0f0]/20 py-2 mt-4">
@@ -246,28 +270,6 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <Link href="/about" className="harsh-underline text-[#f0f0f0]">
                   {t("O\u00a0projektu", "About")}
                 </Link>
-              </div>
-              <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest mt-2">
-                <button
-                  onClick={() => setLang("cs")}
-                  className={`px-2 py-1 border transition-colors ${
-                    lang === "cs"
-                      ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                      : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer"
-                  }`}
-                >
-                  CZ
-                </button>
-                <button
-                  onClick={() => setLang("en")}
-                  className={`px-2 py-1 border transition-colors ${
-                    lang === "en"
-                      ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                      : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer"
-                  }`}
-                >
-                  EN
-                </button>
               </div>
             </nav>
           </div>
