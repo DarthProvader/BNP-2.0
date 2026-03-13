@@ -82,13 +82,15 @@ const media: MediaResource[] = [
 
 /* ─── Helpers ─── */
 
-const categoryLabel: Record<Resource["category"], string> = {
-  llm: "LLM",
-  code: "CODE",
-  image: "IMAGE",
-  productivity: "PRODUCTIVITY",
-  search: "SEARCH",
+const categoryLabel: Record<Resource["category"], { cs: string; en: string }> = {
+  llm: { cs: "Chatboti & LLM", en: "Chatbots & LLM" },
+  code: { cs: "Kódování", en: "Coding" },
+  image: { cs: "Kreativa", en: "Creative" },
+  productivity: { cs: "Produktivita", en: "Productivity" },
+  search: { cs: "Vyhledávání", en: "Search" },
 };
+
+const categoryKeys: Resource["category"][] = ["llm", "code", "image", "productivity", "search"];
 
 const mediaIcon: Record<MediaResource["type"], string> = {
   newsletter: "\u{1F4E7}",
@@ -100,9 +102,11 @@ const mediaIcon: Record<MediaResource["type"], string> = {
 
 export default function ResourcesPageClient() {
   const [lang, setLang] = React.useState<"cs" | "en">("cs");
+  const [activeCategory, setActiveCategory] = React.useState<Resource["category"] | null>(null);
 
   const newsletters = media.filter((m) => m.type === "newsletter");
   const podcastsAndYoutube = media.filter((m) => m.type === "podcast" || m.type === "youtube");
+  const filteredTools = activeCategory ? aiTools.filter((t) => t.category === activeCategory) : aiTools;
 
   return (
     <div
@@ -194,11 +198,11 @@ export default function ResourcesPageClient() {
         </header>
 
         {/* ═══ HERO ═══ */}
-        <section className="px-4 sm:px-8 py-12 sm:py-16">
-          <h2 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#f0f0f0] glitch-text leading-[0.9] mb-6">
+        <section className="px-4 sm:px-8 py-6 sm:py-8">
+          <h2 className="font-headline text-4xl sm:text-5xl md:text-6xl text-[#f0f0f0] glitch-text leading-[0.9] mb-3">
             {lang === "cs" ? "ZDROJE" : "RESOURCES"}
           </h2>
-          <p className="font-mono text-sm sm:text-base text-[#f0f0f0]/60 max-w-xl leading-relaxed">
+          <p className="font-mono text-sm text-[#f0f0f0]/60 max-w-xl leading-relaxed">
             {lang === "cs"
               ? "N\u00E1stroje, newslettery a zdroje ze sv\u011Bta AI"
               : "Tools, newsletters and resources from the AI world"}
@@ -207,19 +211,46 @@ export default function ResourcesPageClient() {
 
         {/* ═══ AI TOOLS ═══ */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 mb-6">
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "N\u00C1STROJE" : "TOOLS"}
             </span>
             <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
           </div>
 
+          {/* Category tabs */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            <button
+              onClick={() => setActiveCategory(null)}
+              className={`tag-sticker cursor-pointer transition-colors ${
+                activeCategory === null
+                  ? "bg-[#f0f0f0] text-[#0a0a0a]"
+                  : "hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+              }`}
+            >
+              {lang === "cs" ? "Vše" : "All"}
+            </button>
+            {categoryKeys.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
+                className={`tag-sticker cursor-pointer transition-colors ${
+                  activeCategory === cat
+                    ? "bg-[#ff2222] text-[#0a0a0a] border-[#ff2222]"
+                    : "hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+                }`}
+              >
+                {lang === "cs" ? categoryLabel[cat].cs : categoryLabel[cat].en}
+              </button>
+            ))}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {aiTools.map((tool) => (
+            {filteredTools.map((tool) => (
               <div key={tool.name} className="noise-border p-4 relative group">
                 <div className="mb-3">
                   <span className="tag-sticker tag-sticker-red">
-                    {categoryLabel[tool.category]}
+                    {lang === "cs" ? categoryLabel[tool.category].cs : categoryLabel[tool.category].en}
                   </span>
                 </div>
                 <div className="font-mono text-sm font-bold text-[#f0f0f0] mb-1">
