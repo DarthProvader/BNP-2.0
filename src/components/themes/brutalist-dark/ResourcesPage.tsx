@@ -34,7 +34,7 @@ interface Company {
 interface MediaResource {
   name: string;
   url: string;
-  type: "newsletter" | "podcast" | "youtube";
+  type: "newsletter" | "podcast" | "youtube" | "blog";
   descriptionCs: string;
   descriptionEn: string;
 }
@@ -78,9 +78,18 @@ const media: MediaResource[] = [
   { name: "AI Explained", url: "https://www.youtube.com/@aiexplained-official", type: "youtube", descriptionCs: "Hloubkové rozbory AI novinek", descriptionEn: "In-depth AI news analysis" },
   { name: "Matt Wolfe", url: "https://www.youtube.com/@maboroshi", type: "youtube", descriptionCs: "AI nástroje a novinky", descriptionEn: "AI tools and news" },
   { name: "Two Minute Papers", url: "https://www.youtube.com/@TwoMinutePapers", type: "youtube", descriptionCs: "Krátké shrnutí AI výzkumu", descriptionEn: "Short AI research summaries" },
+  { name: "FutureTools.io", url: "https://futuretools.io", type: "blog", descriptionCs: "Databáze AI nástrojů a novinky", descriptionEn: "AI tools database and news" },
+  { name: "The Verge AI", url: "https://theverge.com/ai-artificial-intelligence", type: "blog", descriptionCs: "AI zpravodajství od The Verge", descriptionEn: "AI coverage by The Verge" },
+  { name: "Ars Technica AI", url: "https://arstechnica.com/ai/", type: "blog", descriptionCs: "Technické AI analýzy", descriptionEn: "Technical AI analysis" },
+  { name: "Ben's Bites", url: "https://bensbites.com", type: "blog", descriptionCs: "Denní přehled AI novinek", descriptionEn: "Daily AI news roundup" },
 ];
 
 /* ─── Helpers ─── */
+
+function faviconUrl(siteUrl: string, size = 32): string {
+  const domain = new URL(siteUrl).hostname;
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=${size}`;
+}
 
 const categoryLabel: Record<Resource["category"], { cs: string; en: string }> = {
   llm: { cs: "Chatboti & LLM", en: "Chatbots & LLM" },
@@ -96,6 +105,7 @@ const mediaIcon: Record<MediaResource["type"], string> = {
   newsletter: "\u{1F4E7}",
   podcast: "\u{1F399}\uFE0F",
   youtube: "\u25B6\uFE0F",
+  blog: "\u{1F4DD}",
 };
 
 /* ─── Component ─── */
@@ -103,10 +113,18 @@ const mediaIcon: Record<MediaResource["type"], string> = {
 export default function ResourcesPageClient() {
   const [lang, setLang] = React.useState<"cs" | "en">("cs");
   const [activeCategory, setActiveCategory] = React.useState<Resource["category"] | null>(null);
+  const [activeMediaType, setActiveMediaType] = React.useState<MediaResource["type"] | null>(null);
 
-  const newsletters = media.filter((m) => m.type === "newsletter");
-  const podcastsAndYoutube = media.filter((m) => m.type === "podcast" || m.type === "youtube");
   const filteredTools = activeCategory ? aiTools.filter((t) => t.category === activeCategory) : aiTools;
+  const filteredMedia = activeMediaType ? media.filter((m) => m.type === activeMediaType) : media;
+
+  const mediaTypeKeys: MediaResource["type"][] = ["newsletter", "podcast", "youtube", "blog"];
+  const mediaTypeLabel: Record<MediaResource["type"], { cs: string; en: string }> = {
+    newsletter: { cs: "Newslettery", en: "Newsletters" },
+    podcast: { cs: "Podcasty", en: "Podcasts" },
+    youtube: { cs: "YouTube", en: "YouTube" },
+    blog: { cs: "Blogy", en: "Blogs" },
+  };
 
   return (
     <div
@@ -224,8 +242,8 @@ export default function ResourcesPageClient() {
               onClick={() => setActiveCategory(null)}
               className={`tag-sticker cursor-pointer transition-colors ${
                 activeCategory === null
-                  ? "bg-[#f0f0f0] text-[#0a0a0a]"
-                  : "hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+                  ? "bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                  : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
               }`}
             >
               {lang === "cs" ? "Vše" : "All"}
@@ -236,8 +254,8 @@ export default function ResourcesPageClient() {
                 onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
                 className={`tag-sticker cursor-pointer transition-colors ${
                   activeCategory === cat
-                    ? "bg-[#ff2222] text-[#0a0a0a] border-[#ff2222]"
-                    : "hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+                    ? "bg-[#ff2222] text-[#f0f0f0] border-[#ff2222] font-bold"
+                    : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
                 }`}
               >
                 {lang === "cs" ? categoryLabel[cat].cs : categoryLabel[cat].en}
@@ -247,27 +265,36 @@ export default function ResourcesPageClient() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {filteredTools.map((tool) => (
-              <div key={tool.name} className="noise-border p-4 relative group">
+              <a
+                key={tool.name}
+                href={tool.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="noise-border p-4 relative group hover:border-[#ff2222] transition-colors"
+              >
                 <div className="mb-3">
                   <span className="tag-sticker tag-sticker-red">
                     {lang === "cs" ? categoryLabel[tool.category].cs : categoryLabel[tool.category].en}
                   </span>
                 </div>
-                <div className="font-mono text-sm font-bold text-[#f0f0f0] mb-1">
-                  {tool.name}
+                <div className="flex items-center gap-3">
+                  <img
+                    src={faviconUrl(tool.url, 64)}
+                    alt=""
+                    width={36}
+                    height={36}
+                    className="rounded opacity-70 group-hover:opacity-100 transition-opacity shrink-0"
+                  />
+                  <div>
+                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff2222] transition-colors">
+                      {tool.name}
+                    </div>
+                    <p className="font-mono text-[11px] text-[#f0f0f0]/60">
+                      {lang === "cs" ? tool.descriptionCs : tool.descriptionEn}
+                    </p>
+                  </div>
                 </div>
-                <p className="font-mono text-[11px] text-[#f0f0f0]/60 mb-3">
-                  {lang === "cs" ? tool.descriptionCs : tool.descriptionEn}
-                </p>
-                <a
-                  href={tool.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono text-[11px] text-[#ff2222] harsh-underline"
-                >
-                  {lang === "cs" ? "Otev\u0159\u00EDt" : "Open"} &rarr;
-                </a>
-              </div>
+              </a>
             ))}
           </div>
         </section>
@@ -303,72 +330,75 @@ export default function ResourcesPageClient() {
 
         {/* ═══ MEDIA ═══ */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 mb-6">
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "M\u00C9DIA" : "MEDIA"}
             </span>
             <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Left column — Newsletters */}
-            <div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#f0f0f0]/40 mb-4">
-                {mediaIcon.newsletter} {lang === "cs" ? "Newslettery" : "Newsletters"}
-              </div>
-              <div className="flex flex-col gap-4">
-                {newsletters.map((item) => (
-                  <div key={item.name} className="ai-annotation">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
-                        {item.name}
-                      </span>
-                    </div>
-                    <p className="font-mono text-[11px] leading-relaxed text-[#f0f0f0]/60 mb-2">
-                      {lang === "cs" ? item.descriptionCs : item.descriptionEn}
-                    </p>
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-mono text-[10px] text-[#ff2222] harsh-underline"
-                    >
-                      {lang === "cs" ? "P\u0159ej\u00EDt" : "Visit"} &rarr;
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
+          {/* Media type tabs */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            <button
+              onClick={() => setActiveMediaType(null)}
+              className={`tag-sticker cursor-pointer transition-colors ${
+                activeMediaType === null
+                  ? "bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                  : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+              }`}
+            >
+              {lang === "cs" ? "Vše" : "All"}
+            </button>
+            {mediaTypeKeys.map((type) => (
+              <button
+                key={type}
+                onClick={() => setActiveMediaType(activeMediaType === type ? null : type)}
+                className={`tag-sticker cursor-pointer transition-colors ${
+                  activeMediaType === type
+                    ? "bg-[#ff2222] text-[#f0f0f0] border-[#ff2222] font-bold"
+                    : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+                }`}
+              >
+                <span className="mr-1">{mediaIcon[type]}</span>
+                {lang === "cs" ? mediaTypeLabel[type].cs : mediaTypeLabel[type].en}
+              </button>
+            ))}
+          </div>
 
-            {/* Right column — Podcasts & YouTube */}
-            <div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#f0f0f0]/40 mb-4">
-                {mediaIcon.podcast} / {mediaIcon.youtube} {lang === "cs" ? "Podcasty & YouTube" : "Podcasts & YouTube"}
-              </div>
-              <div className="flex flex-col gap-4">
-                {podcastsAndYoutube.map((item) => (
-                  <div key={item.name} className="ai-annotation">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-xs">{mediaIcon[item.type]}</span>
-                      <span className="font-mono text-[11px] font-bold text-[#f0f0f0] uppercase tracking-wider">
-                        {item.name}
-                      </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filteredMedia.map((item) => (
+              <a
+                key={item.name}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group border border-[#f0f0f0]/20 p-4 hover:border-[#ff2222] transition-colors relative"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-sm">{mediaIcon[item.type]}</span>
+                  <span className="tag-sticker tag-sticker-red text-[9px]">
+                    {lang === "cs" ? mediaTypeLabel[item.type].cs : mediaTypeLabel[item.type].en}
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 mb-3">
+                  <img
+                    src={faviconUrl(item.url, 64)}
+                    alt=""
+                    width={36}
+                    height={36}
+                    className="rounded opacity-70 group-hover:opacity-100 transition-opacity shrink-0"
+                  />
+                  <div>
+                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff2222] transition-colors">
+                      {item.name}
                     </div>
-                    <p className="font-mono text-[11px] leading-relaxed text-[#f0f0f0]/60 mb-2">
+                    <p className="font-mono text-[11px] text-[#f0f0f0]/60">
                       {lang === "cs" ? item.descriptionCs : item.descriptionEn}
                     </p>
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-mono text-[10px] text-[#ff2222] harsh-underline"
-                    >
-                      {lang === "cs" ? "P\u0159ej\u00EDt" : "Visit"} &rarr;
-                    </a>
                   </div>
-                ))}
-              </div>
-            </div>
+                </div>
+              </a>
+            ))}
           </div>
         </section>
 
@@ -476,7 +506,6 @@ const brutalStyles = `
     letter-spacing: 0.1em;
     font-family: var(--font-jetbrains), monospace;
     display: inline-block;
-    background: var(--brutal-black);
   }
 
   .tag-sticker-red {
