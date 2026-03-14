@@ -142,10 +142,10 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
     # ------- FÁZE 1: Sběr dat -------
     if skip_collect:
         logger.info("Přeskakuji sběr dat (--skip-collect)")
-        for name in ("RSS collector", "Twitter collector", "Reddit collector", "Transcripts"):
+        for name in ("RSS collector", "Twitter collector", "Reddit collector", "Transcripts", "FutureTools"):
             results.append(StepResult(name=name, status="SKIPPED", detail="přeskočeno"))
     else:
-        total_steps = 4 if collect_only else 5
+        total_steps = 5 if collect_only else 6
 
         # Krok 1: RSS
         from collectors.rss_collector import run as rss_run
@@ -163,13 +163,17 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
         from collectors.yt_transcript_collector import run as transcripts_run
         results.append(run_step(4, total_steps, "Transcripts", transcripts_run, logger))
 
+        # Krok 5: FutureTools.io
+        from collectors.futuretools_collector import run as futuretools_run
+        results.append(run_step(5, total_steps, "FutureTools", futuretools_run, logger))
+
     # ------- FÁZE 2: Generování -------
     if collect_only:
         logger.info("Přeskakuji generování (--collect-only)")
         results.append(StepResult(name="Article generator", status="SKIPPED", detail="přeskočeno"))
     else:
-        total_steps = 5 if not skip_collect else 1
-        step_num = 5 if not skip_collect else 1
+        total_steps = 6 if not skip_collect else 1
+        step_num = 6 if not skip_collect else 1
 
         from generators.article_generator import generate_articles
         results.append(run_step(

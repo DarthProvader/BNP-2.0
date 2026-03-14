@@ -152,18 +152,25 @@ export default function ResourcesPageClient() {
 
         {/* HEADER */}
         <header className="px-4 sm:px-8 pt-8 pb-6">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div className="flex items-center gap-6">
-              <Link
-                href="/"
-                className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
-              >
-                {lang === "cs" ? "\u2190 Zp\u011Bt na v\u00FDb\u011Br" : "\u2190 Back"}
-              </Link>
+          <div className="flex justify-between">
+            {/* Logo — left */}
+            <div className="relative">
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+              <div className="pl-4 sm:pl-6">
+                <Link href="/">
+                  <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
+                    BEROU
+                    <br />
+                    <span className="text-[#ff2222]">N&Aacute;M</span>
+                    <br />
+                    PR&Aacute;CI
+                  </h1>
+                </Link>
+              </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              {/* CZ/EN toggle */}
+            {/* Right side — CZ/EN top, nav bottom */}
+            <div className="flex flex-col justify-between items-end">
               <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest">
                 <button
                   onClick={() => setLang("cs")}
@@ -186,32 +193,27 @@ export default function ResourcesPageClient() {
                   EN
                 </button>
               </div>
-            </div>
-          </div>
-
-          {/* Title with red vertical bar */}
-          <div className="relative mt-10">
-            <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
-            <div className="pl-4 sm:pl-6">
-              <Link href="/">
-                <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
-                  BEROU
-                  <br />
-                  <span className="text-[#ff2222]">N&Aacute;M</span>
-                  <br />
-                  PR&Aacute;CI
-                </h1>
-              </Link>
+              <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest">
+                <Link href="/" className="harsh-underline text-[#f0f0f0]">
+                  {lang === "cs" ? "Články" : "Articles"}
+                </Link>
+                <span className="text-[#ff2222] font-bold">
+                  {lang === "cs" ? "Zdroje" : "Resources"}
+                </span>
+                <Link href="/about" className="harsh-underline text-[#f0f0f0]">
+                  {lang === "cs" ? "O\u00a0projektu" : "About"}
+                </Link>
+              </div>
             </div>
           </div>
 
           {/* Horizontal rule */}
           <div className="mt-8 flex items-center gap-4">
-            <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
+            <div className="h-0.5 flex-1 bg-[#f0f0f0]/20" />
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
               v.01 // {lang === "cs" ? "ZDROJE" : "RESOURCES"}
             </span>
-            <div className="h-[2px] w-16 bg-[#ff2222]" />
+            <div className="h-0.5 w-16 bg-[#ff2222]" />
           </div>
         </header>
 
@@ -228,7 +230,7 @@ export default function ResourcesPageClient() {
         </section>
 
         {/* ═══ AI TOOLS ═══ */}
-        <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+        <section className="px-4 sm:px-8 py-8">
           <div className="flex items-center gap-3 mb-6">
             <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "N\u00C1STROJE" : "TOOLS"}
@@ -410,7 +412,7 @@ export default function ResourcesPageClient() {
                 BEROU N&Aacute;M PR&Aacute;CI
               </div>
               <p className="font-mono text-xs text-[#f0f0f0]/30 max-w-sm leading-relaxed">
-                Generov&aacute;no um&#283;lou inteligenc&iacute;. Ka&zcaron;d&yacute; den.
+                Generováno umělou inteligencí. Každý den.
               </p>
             </div>
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
@@ -423,8 +425,7 @@ export default function ResourcesPageClient() {
           </div>
           <div className="mt-8 h-[1px] bg-[#f0f0f0]/5" />
           <div className="mt-4 font-mono text-[9px] text-[#f0f0f0]/10 uppercase tracking-[0.5em]">
-            &#381;&#225;dn&#225; pr&#225;ce nen&#237; v bezpe&#269;&#237;. &#381;&#225;dn&#225; profese nen&#237; posv&#225;tn&#225;. Budoucnost
-            je te&#271;.
+            Žádná práce není v bezpečí. Žádná profese není posvátná. Budoucnost je teď.
           </div>
         </footer>
       </div>

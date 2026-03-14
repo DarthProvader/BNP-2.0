@@ -152,18 +152,25 @@ export default function AboutPageClient() {
 
         {/* HEADER */}
         <header className="px-4 sm:px-8 pt-8 pb-6">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div className="flex items-center gap-6">
-              <Link
-                href="/"
-                className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
-              >
-                &larr; Zp&#283;t na v&yacute;b&#283;r
-              </Link>
+          <div className="flex justify-between">
+            {/* Logo — left */}
+            <div className="relative">
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+              <div className="pl-4 sm:pl-6">
+                <Link href="/">
+                  <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
+                    BEROU
+                    <br />
+                    <span className="text-[#ff2222]">N&Aacute;M</span>
+                    <br />
+                    PR&Aacute;CI
+                  </h1>
+                </Link>
+              </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              {/* CZ/EN toggle */}
+            {/* Right side — CZ/EN top, nav bottom */}
+            <div className="flex flex-col justify-between items-end">
               <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest">
                 <button
                   onClick={() => setLang("cs")}
@@ -186,22 +193,17 @@ export default function AboutPageClient() {
                   EN
                 </button>
               </div>
-            </div>
-          </div>
-
-          {/* Title with red vertical bar */}
-          <div className="relative mt-10">
-            <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
-            <div className="pl-4 sm:pl-6">
-              <Link href="/">
-                <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
-                  BEROU
-                  <br />
-                  <span className="text-[#ff2222]">N&Aacute;M</span>
-                  <br />
-                  PR&Aacute;CI
-                </h1>
-              </Link>
+              <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest">
+                <Link href="/" className="harsh-underline text-[#f0f0f0]">
+                  {t("Články", "Articles")}
+                </Link>
+                <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
+                  {t("Zdroje", "Resources")}
+                </Link>
+                <span className="text-[#ff2222] font-bold">
+                  {t("O\u00a0projektu", "About")}
+                </span>
+              </div>
             </div>
           </div>
 

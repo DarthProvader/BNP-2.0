@@ -46,11 +46,13 @@ Today is {target_date}. Raw data has been collected from YouTube, Twitter/X, Red
 
 ## Your Task
 
-1. **Read** the raw data files listed below. Use the Read tool to open each file and understand what news came in today.
-2. **Select** the 5-8 most important, interesting, or impactful AI news stories.
-3. **Write** a cohesive daily digest article covering these stories with editorial opinion and analysis.
-4. **Attribute** sources inline — mention who reported/said what, link back to originals.
+1. **Check previous articles** first. Look in `content/articles/cs/` — read the most recent article (by date in frontmatter) to see what topics you already covered. AVOID repeating the same stories. If there's a follow-up to a previous story, reference it briefly ("jak jsme psali včera...") instead of retelling it.
+2. **Read** the raw data files listed below. Use the Read tool to open each file and understand what news came in today.
+3. **Select** the 5-8 most important, interesting, or impactful AI news stories that are NEW or have significant updates.
+4. **Write** a cohesive daily digest article covering these stories with editorial opinion and analysis.
+5. **Attribute** sources inline — mention who reported/said what, link back to originals.
    - Community reactions (Reddit comments, Twitter replies) are included in the data — use them to gauge public sentiment and mention notable community takes.
+6. **Make the headline unique and creative** — vary your title style. Don't start every headline the same way. Use wordplay, questions, metaphors, or unexpected angles.
 
 ## Raw Data Files
 
