@@ -36,7 +36,7 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Install Claude Code
+      - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Write Vertex AI credentials
@@ -45,23 +45,14 @@ jobs:
           GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
         run: echo "$GCP_CREDENTIALS_JSON" > scripts/vertexai.json
 
-      - name: Generate daily article
+      - name: Run daily pipeline
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
           AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
           AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           AZURE_DEPLOYMENT_NAME: ${{ secrets.AZURE_DEPLOYMENT_NAME }}
-          GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
-        run: |
-          claude -p "Run the full daily pipeline:
-          1. cd scripts
-          2. Run all collectors: python -m collectors.reddit_collector, python -m collectors.twitter_collector, python -m collectors.youtube_collector, python -m collectors.futuretools_collector
-          3. Run article generation: python -m pipeline.run_pipeline --step generate
-          4. Run comment generation: python -m pipeline.run_pipeline --step comments
-          Activate the venv first if needed. Report what article was generated." \
-            --allowedTools Bash,Read,Write,Edit \
-            --max-turns 25
+        run: cd scripts && python run_pipeline.py
 
       - name: Commit and push
         run: |
