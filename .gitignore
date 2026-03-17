@@ -68,5 +68,8 @@ scripts/*_agent/.mcp.json
 vertexai.json
 **/vertexai.json
 
+# internal docs
+/docs/
+
 # personal notes
 ideas.txt
