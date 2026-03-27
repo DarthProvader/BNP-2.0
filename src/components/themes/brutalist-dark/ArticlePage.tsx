@@ -66,7 +66,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
             <div className="flex items-center gap-6">
               <Link
                 href={basePath}
-                className="font-mono text-xs uppercase tracking-widest text-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff2222]"
+                className="font-mono text-xs uppercase tracking-widest text-[#ff6600] hover:bg-[#ff6600] hover:text-[#0a0a0a] transition-colors px-2 py-1 border border-[#ff6600]"
               >
                 &larr; Zp&#283;t na v&yacute;b&#283;r
               </Link>
@@ -101,13 +101,13 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
 
           {/* Title with red vertical bar */}
           <div className="relative mt-10">
-            <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+            <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff6600]" />
             <div className="pl-4 sm:pl-6">
               <Link href={basePath}>
                 <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
                   BEROU
                   <br />
-                  <span className="text-[#ff2222]">NÁM</span>
+                  <span className="text-[#ff6600]">NÁM</span>
                   <br />
                   PRÁCI
                 </h1>
@@ -118,10 +118,10 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
           {/* Horizontal rule */}
           <div className="mt-8 flex items-center gap-4">
             <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.5em]">
               v.01 // {article.date}
             </span>
-            <div className="h-[2px] w-16 bg-[#ff2222]" />
+            <div className="h-[2px] w-16 bg-[#ff6600]" />
           </div>
         </header>
 
@@ -160,23 +160,23 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
               {/* Article body */}
               <ArticleContent
                 content={content}
-                headingClassName="mt-8 mb-4 font-headline text-xl sm:text-2xl text-[#ff2222] first:mt-0"
+                headingClassName="mt-8 mb-4 font-headline text-xl sm:text-2xl text-[#ff6600] first:mt-0"
                 paragraphClassName="mb-6 font-mono text-sm sm:text-base leading-relaxed text-[#f0f0f0]/80"
                 strongClassName="font-bold text-[#f0f0f0]"
                 emClassName="text-[#f0f0f0]/50 italic"
-                linkClassName="text-[#ff2222] border-b-2 border-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors"
+                linkClassName="text-[#ff6600] border-b-2 border-[#ff6600] hover:bg-[#ff6600] hover:text-[#0a0a0a] transition-colors"
               />
 
               {/* Corner marks */}
-              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
+              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff6600]" />
+              <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff6600]" />
+              <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff6600]" />
+              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff6600]" />
             </div>
 
             {/* Side AI annotations */}
             <div className="lg:col-span-4 lg:pl-8 flex flex-col gap-6 lg:-mt-4">
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff2222] mb-2">
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff6600] mb-2">
                 // AI modely komentují
               </div>
               {article.aiComments.map((comment, idx) => (
@@ -213,20 +213,20 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
         {opusOpinion && (
           <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
             <div className="flex items-center gap-3 mb-6">
-              <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+              <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
                 // {lang === "cs" ? "Názor šéfredaktora" : "Editor-in-chief's take"}
               </span>
-              <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+              <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
             </div>
 
             <div className="cut-out p-6 sm:p-8 relative scanline max-w-3xl">
               <ArticleContent
                 content={opusOpinion}
-                headingClassName="mt-6 mb-3 font-headline text-lg sm:text-xl text-[#ff2222] first:mt-0"
+                headingClassName="mt-6 mb-3 font-headline text-lg sm:text-xl text-[#ff6600] first:mt-0"
                 paragraphClassName="mb-4 font-mono text-sm leading-relaxed text-[#f0f0f0]/80"
                 strongClassName="font-bold text-[#f0f0f0]"
                 emClassName="text-[#f0f0f0]/50 italic"
-                linkClassName="text-[#ff2222] border-b-2 border-[#ff2222] hover:bg-[#ff2222] hover:text-[#0a0a0a] transition-colors"
+                linkClassName="text-[#ff6600] border-b-2 border-[#ff6600] hover:bg-[#ff6600] hover:text-[#0a0a0a] transition-colors"
               />
 
               {/* Signature */}
@@ -243,10 +243,10 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
               </div>
 
               {/* Corner marks */}
-              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
+              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff6600]" />
+              <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff6600]" />
+              <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff6600]" />
+              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff6600]" />
             </div>
           </section>
         )}
@@ -254,10 +254,10 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
         {/* SOURCES */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
           <div className="flex items-center gap-3 mb-6">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "Zdroje" : "Sources"}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           <div className="flex flex-wrap gap-3">
@@ -269,7 +269,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
                 rel="noopener noreferrer"
                 className="tag-sticker hover:bg-[#f0f0f0] hover:text-[#0a0a0a] transition-colors group"
               >
-                <span className="text-[#ff2222] mr-2 font-bold">
+                <span className="text-[#ff6600] mr-2 font-bold">
                   [{sourceTypeIcon[source.type]}]
                 </span>
                 <span className="harsh-underline">{source.title}</span>
@@ -283,7 +283,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <Link
               href={basePath}
-              className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline"
+              className="font-mono text-xs uppercase tracking-widest text-[#ff6600] harsh-underline"
             >
               &larr; {lang === "cs" ? "Všechny články" : "All articles"}
             </Link>
@@ -307,7 +307,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
               <div>verze 01 / 05</div>
               <div>brutalist dark editorial</div>
-              <div className="text-[#ff2222]/40">
+              <div className="text-[#ff6600]/40">
                 &copy; {new Date().getFullYear()}
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
 
 const brutalStyles = `
   :root {
-    --brutal-red: #ff2222;
+    --brutal-blue: #ff6600;
     --brutal-black: #0a0a0a;
     --brutal-white: #f0f0f0;
   }
@@ -363,22 +363,22 @@ const brutalStyles = `
 
   .glitch-text {
     text-shadow:
-      2px 2px 0 #ff2222,
+      2px 2px 0 #ff6600,
       -1px -1px 0 #00ffff;
   }
 
   .glitch-hover:hover {
     text-shadow:
-      3px 3px 0 #ff2222,
+      3px 3px 0 #ff6600,
       -2px -2px 0 #00ffff,
-      5px 0px 0 #ff222244;
+      5px 0px 0 #ff660044;
     transition: text-shadow 0.1s ease;
   }
 
   .noise-border {
     border: 2px solid var(--brutal-white);
     box-shadow:
-      4px 4px 0 var(--brutal-red),
+      4px 4px 0 var(--brutal-blue),
       -1px -1px 0 var(--brutal-white);
   }
 
@@ -386,7 +386,7 @@ const brutalStyles = `
     border: 2px solid var(--brutal-white);
     background: var(--brutal-black);
     box-shadow:
-      6px 6px 0 var(--brutal-red);
+      6px 6px 0 var(--brutal-blue);
   }
 
   .tag-sticker {
@@ -401,8 +401,8 @@ const brutalStyles = `
   }
 
   .tag-sticker-red {
-    border-color: var(--brutal-red);
-    color: var(--brutal-red);
+    border-color: var(--brutal-blue);
+    color: var(--brutal-blue);
   }
 
   .scanline::after {
@@ -424,12 +424,12 @@ const brutalStyles = `
 
   .harsh-underline {
     text-decoration: none;
-    border-bottom: 3px solid var(--brutal-red);
+    border-bottom: 3px solid var(--brutal-blue);
     padding-bottom: 1px;
   }
 
   .harsh-underline:hover {
-    background: var(--brutal-red);
+    background: var(--brutal-blue);
     color: var(--brutal-black);
   }
 
@@ -437,7 +437,7 @@ const brutalStyles = `
   .rotate-neg { transform: rotate(-0.8deg); }
 
   .ai-annotation {
-    border-left: 3px solid var(--brutal-red);
+    border-left: 3px solid var(--brutal-blue);
     padding-left: 12px;
     position: relative;
   }
@@ -448,7 +448,7 @@ const brutalStyles = `
     left: -2px;
     top: -14px;
     font-size: 10px;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     font-family: var(--font-jetbrains), monospace;
   }
 
@@ -460,7 +460,7 @@ const brutalStyles = `
   .cursor-blink::after {
     content: '\u2588';
     animation: blink 1s infinite;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     margin-left: 2px;
   }
 

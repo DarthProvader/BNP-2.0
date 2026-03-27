@@ -46,7 +46,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
     >
       <style>{`
         :root {
-          --brutal-red: #ff2222;
+          --brutal-blue: #ff6600;
           --brutal-black: #0a0a0a;
           --brutal-white: #f0f0f0;
         }
@@ -84,22 +84,22 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
 
         .glitch-text {
           text-shadow:
-            2px 2px 0 #ff2222,
+            2px 2px 0 #ff6600,
             -1px -1px 0 #00ffff;
         }
 
         .glitch-hover:hover {
           text-shadow:
-            3px 3px 0 #ff2222,
+            3px 3px 0 #ff6600,
             -2px -2px 0 #00ffff,
-            5px 0px 0 #ff222244;
+            5px 0px 0 #ff660044;
           transition: text-shadow 0.1s ease;
         }
 
         .noise-border {
           border: 2px solid var(--brutal-white);
           box-shadow:
-            4px 4px 0 var(--brutal-red),
+            4px 4px 0 var(--brutal-blue),
             -1px -1px 0 var(--brutal-white);
         }
 
@@ -107,7 +107,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
           border: 2px solid var(--brutal-white);
           background: var(--brutal-black);
           box-shadow:
-            6px 6px 0 var(--brutal-red);
+            6px 6px 0 var(--brutal-blue);
         }
 
         .tag-sticker {
@@ -118,12 +118,11 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
           letter-spacing: 0.1em;
           font-family: var(--font-jetbrains), monospace;
           display: inline-block;
-          background: var(--brutal-black);
         }
 
         .tag-sticker-red {
-          border-color: var(--brutal-red);
-          color: var(--brutal-red);
+          border-color: var(--brutal-blue);
+          color: var(--brutal-blue);
         }
 
         .scanline::after {
@@ -145,12 +144,12 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
 
         .harsh-underline {
           text-decoration: none;
-          border-bottom: 3px solid var(--brutal-red);
+          border-bottom: 3px solid var(--brutal-blue);
           padding-bottom: 1px;
         }
 
         .harsh-underline:hover {
-          background: var(--brutal-red);
+          background: var(--brutal-blue);
           color: var(--brutal-black);
         }
 
@@ -165,7 +164,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         }
 
         .ai-annotation {
-          border-left: 3px solid var(--brutal-red);
+          border-left: 3px solid var(--brutal-blue);
           padding-left: 12px;
           position: relative;
         }
@@ -176,7 +175,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
           left: -2px;
           top: -14px;
           font-size: 10px;
-          color: var(--brutal-red);
+          color: var(--brutal-blue);
           font-family: var(--font-jetbrains), monospace;
         }
 
@@ -188,7 +187,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         .cursor-blink::after {
           content: '█';
           animation: blink 1s infinite;
-          color: var(--brutal-red);
+          color: var(--brutal-blue);
           margin-left: 2px;
         }
 
@@ -243,12 +242,12 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
             <div className="relative">
               {/* Decorative red block */}
-              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff6600]" />
 
               <h1 className="font-headline text-5xl sm:text-7xl md:text-8xl lg:text-[120px] leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text pl-4 sm:pl-6">
                 BEROU
                 <br />
-                <span className="text-[#ff2222]">NÁM</span>
+                <span className="text-[#ff6600]">NÁM</span>
                 <br />
                 PRÁCI
               </h1>
@@ -277,10 +276,10 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
           {/* Horizontal rule with label */}
           <div className="mt-10 flex items-center gap-4">
             <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.5em]">
               v.01 // {new Date().getFullYear()}
             </span>
-            <div className="h-[2px] w-16 bg-[#ff2222]" />
+            <div className="h-[2px] w-16 bg-[#ff6600]" />
           </div>
         </header>
 
@@ -290,7 +289,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             className="flex items-center gap-2 cursor-pointer lg:cursor-default"
             onClick={() => setFiltersOpen(!filtersOpen)}
           >
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest mr-4">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest mr-4">
               {t("Filtry //", "Filters //")}
             </span>
             {activeTag && (
@@ -309,8 +308,8 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 onClick={() => setActiveTag(activeTag === tag ? null : tag)}
                 className={`tag-sticker cursor-pointer transition-colors ${
                   activeTag === tag
-                    ? "bg-[#f0f0f0] text-[#0a0a0a]"
-                    : "hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
+                    ? "bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                    : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
                 }`}
               >
                 {tag}
@@ -322,10 +321,10 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         {/* FEATURED ARTICLE */}
         <section id="clanky" className="px-4 sm:px-8 py-10 relative">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               {t("Hlavní zpráva", "Top story")}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
             <span className="font-mono text-[10px] text-[#f0f0f0]/30">
               {featured.date}
             </span>
@@ -359,19 +358,19 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
               </p>
 
               <div className="flex items-center gap-4">
-                <Link href={`${basePath}/${featured.slug}`} className="font-mono text-xs uppercase tracking-widest text-[#ff2222] harsh-underline cursor-pointer">
+                <Link href={`${basePath}/${featured.slug}`} className="font-mono text-xs uppercase tracking-widest text-[#ff6600] harsh-underline cursor-pointer">
                   {t("Číst článek", "Read article")} &rarr;
                 </Link>
               </div>
 
               {/* Decorative corner marks */}
-              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
-              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
+              <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff6600]" />
+              <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff6600]" />
             </div>
 
             {/* Side annotation - AI Comments for featured */}
             <div className="lg:col-span-4 lg:pl-8 hidden lg:flex flex-col gap-4 lg:-mt-4 relative lg:overflow-hidden lg:max-h-[450px]">
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff2222] mb-2">
+              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#ff6600] mb-2">
                 // {t("AI modely komentují", "AI models comment")}
               </div>
               {featured.aiComments.map((comment, idx) => (
@@ -392,7 +391,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
               ))}
               {/* Fade overlay */}
               <div className="hidden lg:block absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent pointer-events-none" />
-              <Link href={`${basePath}/${featured.slug}`} className="hidden lg:block absolute bottom-2 left-8 font-mono text-[10px] uppercase tracking-widest text-[#ff2222] harsh-underline z-10">
+              <Link href={`${basePath}/${featured.slug}`} className="hidden lg:block absolute bottom-2 left-8 font-mono text-[10px] uppercase tracking-widest text-[#ff6600] harsh-underline z-10">
                 {t("Celá diskuse", "Full discussion")} &rarr;
               </Link>
             </div>
@@ -424,14 +423,14 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
                   {rest[0].date} // {rest[0].readTime} min
                 </span>
-                <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer">
+                <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff6600] transition-colors cursor-pointer">
                   {lang === "cs" ? rest[0].title : rest[0].titleEn}
                 </h3>
                 <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50 max-w-lg">
                   {lang === "cs" ? rest[0].excerpt : rest[0].excerptEn}
                 </p>
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
+                  <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest cursor-pointer harsh-underline">
                     {t("Číst", "Read")} &rarr;
                   </span>
                   <span className="font-mono text-[10px] text-[#f0f0f0]/30">
@@ -443,8 +442,8 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
 
             {/* Article 3 - Narrow tall */}
             {rest[1] && (
-              <Link href={`${basePath}/${rest[1].slug}`} className="md:col-span-5 border-2 border-[#ff2222] p-5 sm:p-6 relative group bg-[#ff2222]/5">
-                <div className="absolute -top-3 -right-3 bg-[#ff2222] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
+              <Link href={`${basePath}/${rest[1].slug}`} className="md:col-span-5 border-2 border-[#ff6600] p-5 sm:p-6 relative group bg-[#ff6600]/5">
+                <div className="absolute -top-3 -right-3 bg-[#ff6600] text-[#0a0a0a] font-mono text-[10px] font-bold px-3 py-1 uppercase tracking-widest">
                   {rest[1].tags[0] ?? ""}
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -457,14 +456,14 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
                   {rest[1].date} // {rest[1].readTime} min
                 </span>
-                <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer">
+                <h3 className="font-headline text-2xl sm:text-3xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff6600] transition-colors cursor-pointer">
                   {lang === "cs" ? rest[1].title : rest[1].titleEn}
                 </h3>
                 <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50">
                   {lang === "cs" ? rest[1].excerpt : rest[1].excerptEn}
                 </p>
                 <div className="mt-4">
-                  <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
+                  <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest cursor-pointer harsh-underline">
                     {t("Číst", "Read")} &rarr;
                   </span>
                 </div>
@@ -484,14 +483,14 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
                   {rest[2].date} // {rest[2].readTime} min
                 </span>
-                <h3 className="font-headline text-xl sm:text-2xl leading-tight text-[#f0f0f0] mb-3 group-hover:text-[#ff2222] transition-colors cursor-pointer">
+                <h3 className="font-headline text-xl sm:text-2xl leading-tight text-[#f0f0f0] mb-3 group-hover:text-[#ff6600] transition-colors cursor-pointer">
                   {lang === "cs" ? rest[2].title : rest[2].titleEn}
                 </h3>
                 <p className="font-mono text-xs leading-relaxed text-[#f0f0f0]/50">
                   {lang === "cs" ? rest[2].excerpt : rest[2].excerptEn}
                 </p>
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
+                  <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest cursor-pointer harsh-underline">
                     {t("Číst", "Read")} &rarr;
                   </span>
                   <span className="font-mono text-[10px] text-[#f0f0f0]/30">
@@ -518,14 +517,14 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                 <span className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest block mb-3">
                   {rest[3].date} // {rest[3].readTime} min
                 </span>
-                <h3 className="font-headline text-2xl sm:text-3xl md:text-4xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff2222] transition-colors cursor-pointer glitch-hover">
+                <h3 className="font-headline text-2xl sm:text-3xl md:text-4xl leading-tight text-[#f0f0f0] mb-4 group-hover:text-[#ff6600] transition-colors cursor-pointer glitch-hover">
                   {lang === "cs" ? rest[3].title : rest[3].titleEn}
                 </h3>
                 <p className="font-mono text-xs sm:text-sm leading-relaxed text-[#f0f0f0]/50 max-w-xl">
                   {lang === "cs" ? rest[3].excerpt : rest[3].excerptEn}
                 </p>
                 <div className="mt-6 flex items-center gap-6">
-                  <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest cursor-pointer harsh-underline">
+                  <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest cursor-pointer harsh-underline">
                     {t("Číst článek", "Read article")} &rarr;
                   </span>
                   <span className="font-mono text-[10px] text-[#f0f0f0]/30">
@@ -533,7 +532,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
                   </span>
                 </div>
                 {/* Bottom decorative bar */}
-                <div className="absolute bottom-0 left-0 h-1 w-1/3 bg-[#ff2222]" />
+                <div className="absolute bottom-0 left-0 h-1 w-1/3 bg-[#ff6600]" />
               </Link>
             )}
           </div>
@@ -543,7 +542,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         <section className="border-y border-[#f0f0f0]/10 py-6 px-4 sm:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff2222]">{articles.length}</div>
+              <div className="font-headline text-4xl sm:text-5xl text-[#ff6600]">{articles.length}</div>
               <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
                 {t("Článků dnes", "Articles today")}
               </div>
@@ -563,7 +562,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
               </div>
             </div>
             <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff2222] cursor-blink">
+              <div className="font-headline text-4xl sm:text-5xl text-[#ff6600] cursor-blink">
                 24
               </div>
               <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
@@ -587,7 +586,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
               <div>verze 01 / 05</div>
               <div>brutalist dark editorial</div>
-              <div className="text-[#ff2222]/40">&copy; {new Date().getFullYear()}</div>
+              <div className="text-[#ff6600]/40">&copy; {new Date().getFullYear()}</div>
             </div>
           </div>
           <div className="mt-8 h-[1px] bg-[#f0f0f0]/5" />

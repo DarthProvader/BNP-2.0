@@ -155,13 +155,13 @@ export default function ResourcesPageClient() {
           <div className="flex justify-between">
             {/* Logo — left */}
             <div className="relative">
-              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff6600]" />
               <div className="pl-4 sm:pl-6">
                 <Link href="/">
                   <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
                     BEROU
                     <br />
-                    <span className="text-[#ff2222]">N&Aacute;M</span>
+                    <span className="text-[#ff6600]">N&Aacute;M</span>
                     <br />
                     PR&Aacute;CI
                   </h1>
@@ -197,7 +197,7 @@ export default function ResourcesPageClient() {
                 <Link href="/" className="harsh-underline text-[#f0f0f0]">
                   {lang === "cs" ? "Články" : "Articles"}
                 </Link>
-                <span className="text-[#ff2222] font-bold">
+                <span className="text-[#ff6600] font-bold">
                   {lang === "cs" ? "Zdroje" : "Resources"}
                 </span>
                 <Link href="/about" className="harsh-underline text-[#f0f0f0]">
@@ -210,10 +210,10 @@ export default function ResourcesPageClient() {
           {/* Horizontal rule */}
           <div className="mt-8 flex items-center gap-4">
             <div className="h-0.5 flex-1 bg-[#f0f0f0]/20" />
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.5em]">
               v.01 // {lang === "cs" ? "ZDROJE" : "RESOURCES"}
             </span>
-            <div className="h-0.5 w-16 bg-[#ff2222]" />
+            <div className="h-0.5 w-16 bg-[#ff6600]" />
           </div>
         </header>
 
@@ -232,10 +232,10 @@ export default function ResourcesPageClient() {
         {/* ═══ AI TOOLS ═══ */}
         <section className="px-4 sm:px-8 py-8">
           <div className="flex items-center gap-3 mb-6">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "N\u00C1STROJE" : "TOOLS"}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           {/* Category tabs */}
@@ -256,7 +256,7 @@ export default function ResourcesPageClient() {
                 onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
                 className={`tag-sticker cursor-pointer transition-colors ${
                   activeCategory === cat
-                    ? "bg-[#ff2222] text-[#f0f0f0] border-[#ff2222] font-bold"
+                    ? "bg-[#ff6600] text-[#f0f0f0] border-[#ff6600] font-bold"
                     : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
                 }`}
               >
@@ -272,7 +272,7 @@ export default function ResourcesPageClient() {
                 href={tool.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="noise-border p-4 relative group hover:border-[#ff2222] transition-colors"
+                className="noise-border p-4 relative group hover:border-[#ff6600] transition-colors"
               >
                 <div className="mb-3">
                   <span className="tag-sticker tag-sticker-red">
@@ -288,7 +288,7 @@ export default function ResourcesPageClient() {
                     className="rounded opacity-70 group-hover:opacity-100 transition-opacity shrink-0"
                   />
                   <div>
-                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff2222] transition-colors">
+                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff6600] transition-colors">
                       {tool.name}
                     </div>
                     <p className="font-mono text-[11px] text-[#f0f0f0]/60">
@@ -304,10 +304,10 @@ export default function ResourcesPageClient() {
         {/* ═══ COMPANIES ═══ */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "FIRMY" : "COMPANIES"}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           <div className="flex flex-wrap gap-3">
@@ -333,10 +333,10 @@ export default function ResourcesPageClient() {
         {/* ═══ MEDIA ═══ */}
         <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
           <div className="flex items-center gap-3 mb-6">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {lang === "cs" ? "M\u00C9DIA" : "MEDIA"}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           {/* Media type tabs */}
@@ -357,7 +357,7 @@ export default function ResourcesPageClient() {
                 onClick={() => setActiveMediaType(activeMediaType === type ? null : type)}
                 className={`tag-sticker cursor-pointer transition-colors ${
                   activeMediaType === type
-                    ? "bg-[#ff2222] text-[#f0f0f0] border-[#ff2222] font-bold"
+                    ? "bg-[#ff6600] text-[#f0f0f0] border-[#ff6600] font-bold"
                     : "text-[#f0f0f0] hover:bg-[#f0f0f0] hover:text-[#0a0a0a]"
                 }`}
               >
@@ -374,7 +374,7 @@ export default function ResourcesPageClient() {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group border border-[#f0f0f0]/20 p-4 hover:border-[#ff2222] transition-colors relative"
+                className="group border border-[#f0f0f0]/20 p-4 hover:border-[#ff6600] transition-colors relative"
               >
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-sm">{mediaIcon[item.type]}</span>
@@ -391,7 +391,7 @@ export default function ResourcesPageClient() {
                     className="rounded opacity-70 group-hover:opacity-100 transition-opacity shrink-0"
                   />
                   <div>
-                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff2222] transition-colors">
+                    <div className="font-mono text-sm font-bold text-[#f0f0f0] group-hover:text-[#ff6600] transition-colors">
                       {item.name}
                     </div>
                     <p className="font-mono text-[11px] text-[#f0f0f0]/60">
@@ -418,7 +418,7 @@ export default function ResourcesPageClient() {
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
               <div>verze 01 / 05</div>
               <div>brutalist dark editorial</div>
-              <div className="text-[#ff2222]/40">
+              <div className="text-[#ff6600]/40">
                 &copy; {new Date().getFullYear()}
               </div>
             </div>
@@ -435,7 +435,7 @@ export default function ResourcesPageClient() {
 
 const brutalStyles = `
   :root {
-    --brutal-red: #ff2222;
+    --brutal-blue: #ff6600;
     --brutal-black: #0a0a0a;
     --brutal-white: #f0f0f0;
   }
@@ -473,22 +473,22 @@ const brutalStyles = `
 
   .glitch-text {
     text-shadow:
-      2px 2px 0 #ff2222,
+      2px 2px 0 #ff6600,
       -1px -1px 0 #00ffff;
   }
 
   .glitch-hover:hover {
     text-shadow:
-      3px 3px 0 #ff2222,
+      3px 3px 0 #ff6600,
       -2px -2px 0 #00ffff,
-      5px 0px 0 #ff222244;
+      5px 0px 0 #ff660044;
     transition: text-shadow 0.1s ease;
   }
 
   .noise-border {
     border: 2px solid var(--brutal-white);
     box-shadow:
-      4px 4px 0 var(--brutal-red),
+      4px 4px 0 var(--brutal-blue),
       -1px -1px 0 var(--brutal-white);
   }
 
@@ -496,7 +496,7 @@ const brutalStyles = `
     border: 2px solid var(--brutal-white);
     background: var(--brutal-black);
     box-shadow:
-      6px 6px 0 var(--brutal-red);
+      6px 6px 0 var(--brutal-blue);
   }
 
   .tag-sticker {
@@ -510,8 +510,8 @@ const brutalStyles = `
   }
 
   .tag-sticker-red {
-    border-color: var(--brutal-red);
-    color: var(--brutal-red);
+    border-color: var(--brutal-blue);
+    color: var(--brutal-blue);
   }
 
   .scanline::after {
@@ -533,12 +533,12 @@ const brutalStyles = `
 
   .harsh-underline {
     text-decoration: none;
-    border-bottom: 3px solid var(--brutal-red);
+    border-bottom: 3px solid var(--brutal-blue);
     padding-bottom: 1px;
   }
 
   .harsh-underline:hover {
-    background: var(--brutal-red);
+    background: var(--brutal-blue);
     color: var(--brutal-black);
   }
 
@@ -546,7 +546,7 @@ const brutalStyles = `
   .rotate-neg { transform: rotate(-0.8deg); }
 
   .ai-annotation {
-    border-left: 3px solid var(--brutal-red);
+    border-left: 3px solid var(--brutal-blue);
     padding-left: 12px;
     position: relative;
   }
@@ -557,7 +557,7 @@ const brutalStyles = `
     left: -2px;
     top: -14px;
     font-size: 10px;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     font-family: var(--font-jetbrains), monospace;
   }
 
@@ -569,7 +569,7 @@ const brutalStyles = `
   .cursor-blink::after {
     content: '\u2588';
     animation: blink 1s infinite;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     margin-left: 2px;
   }
 

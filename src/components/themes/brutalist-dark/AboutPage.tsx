@@ -155,13 +155,13 @@ export default function AboutPageClient() {
           <div className="flex justify-between">
             {/* Logo — left */}
             <div className="relative">
-              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff2222]" />
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff6600]" />
               <div className="pl-4 sm:pl-6">
                 <Link href="/">
                   <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl leading-[0.85] font-normal tracking-tight text-[#f0f0f0] glitch-text">
                     BEROU
                     <br />
-                    <span className="text-[#ff2222]">N&Aacute;M</span>
+                    <span className="text-[#ff6600]">N&Aacute;M</span>
                     <br />
                     PR&Aacute;CI
                   </h1>
@@ -200,7 +200,7 @@ export default function AboutPageClient() {
                 <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
                   {t("Zdroje", "Resources")}
                 </Link>
-                <span className="text-[#ff2222] font-bold">
+                <span className="text-[#ff6600] font-bold">
                   {t("O\u00a0projektu", "About")}
                 </span>
               </div>
@@ -210,10 +210,10 @@ export default function AboutPageClient() {
           {/* Horizontal rule */}
           <div className="mt-8 flex items-center gap-4">
             <div className="h-[2px] flex-1 bg-[#f0f0f0]/20" />
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.5em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.5em]">
               v.01 // {t("O projektu", "About")}
             </span>
-            <div className="h-[2px] w-16 bg-[#ff2222]" />
+            <div className="h-[2px] w-16 bg-[#ff6600]" />
           </div>
         </header>
 
@@ -237,10 +237,10 @@ export default function AboutPageClient() {
         {/* ============================================ */}
         <section className="px-4 sm:px-8 py-8">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {t("\u0160\u00E9fredaktor", "Editor-in-chief")}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           <div className="cut-out p-6 sm:p-8 md:p-10 relative scanline max-w-4xl">
@@ -279,10 +279,10 @@ export default function AboutPageClient() {
             </div>
 
             {/* Corner marks */}
-            <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff2222]" />
-            <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff2222]" />
-            <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff2222]" />
-            <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff2222]" />
+            <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#ff6600]" />
+            <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#ff6600]" />
+            <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#ff6600]" />
+            <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#ff6600]" />
           </div>
         </section>
 
@@ -291,10 +291,10 @@ export default function AboutPageClient() {
         {/* ============================================ */}
         <section className="px-4 sm:px-8 py-12">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // PIPELINE
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           {/* Desktop: 4 columns with arrows */}
@@ -303,7 +303,7 @@ export default function AboutPageClient() {
               <React.Fragment key={idx}>
                 <div className="noise-border p-5 flex-1 flex flex-col items-center text-center">
                   <div className="text-3xl mb-3">{step.icon}</div>
-                  <div className="font-mono text-xs font-bold text-[#ff2222] uppercase tracking-widest mb-2">
+                  <div className="font-mono text-xs font-bold text-[#ff6600] uppercase tracking-widest mb-2">
                     {t(step.titleCs, step.titleEn)}
                   </div>
                   <div className="font-mono text-[11px] text-[#f0f0f0]/60 leading-relaxed">
@@ -312,7 +312,7 @@ export default function AboutPageClient() {
                 </div>
                 {idx < pipelineSteps.length - 1 && (
                   <div className="flex items-center px-3">
-                    <span className="font-mono text-lg text-[#ff2222] font-bold">
+                    <span className="font-mono text-lg text-[#ff6600] font-bold">
                       &gt;&gt;&gt;
                     </span>
                   </div>
@@ -327,7 +327,7 @@ export default function AboutPageClient() {
               <React.Fragment key={idx}>
                 <div className="noise-border p-5 flex flex-col items-center text-center">
                   <div className="text-3xl mb-3">{step.icon}</div>
-                  <div className="font-mono text-xs font-bold text-[#ff2222] uppercase tracking-widest mb-2">
+                  <div className="font-mono text-xs font-bold text-[#ff6600] uppercase tracking-widest mb-2">
                     {t(step.titleCs, step.titleEn)}
                   </div>
                   <div className="font-mono text-[11px] text-[#f0f0f0]/60 leading-relaxed">
@@ -336,7 +336,7 @@ export default function AboutPageClient() {
                 </div>
                 {idx === 1 && (
                   <div className="col-span-2 flex justify-center py-1">
-                    <span className="font-mono text-lg text-[#ff2222] font-bold">
+                    <span className="font-mono text-lg text-[#ff6600] font-bold">
                       &#9660;
                     </span>
                   </div>
@@ -351,7 +351,7 @@ export default function AboutPageClient() {
               <React.Fragment key={idx}>
                 <div className="noise-border p-5 flex flex-col items-center text-center">
                   <div className="text-3xl mb-3">{step.icon}</div>
-                  <div className="font-mono text-xs font-bold text-[#ff2222] uppercase tracking-widest mb-2">
+                  <div className="font-mono text-xs font-bold text-[#ff6600] uppercase tracking-widest mb-2">
                     {t(step.titleCs, step.titleEn)}
                   </div>
                   <div className="font-mono text-[11px] text-[#f0f0f0]/60 leading-relaxed">
@@ -360,7 +360,7 @@ export default function AboutPageClient() {
                 </div>
                 {idx < pipelineSteps.length - 1 && (
                   <div className="flex justify-center py-2">
-                    <span className="font-mono text-lg text-[#ff2222] font-bold">
+                    <span className="font-mono text-lg text-[#ff6600] font-bold">
                       &#9660;
                     </span>
                   </div>
@@ -375,10 +375,10 @@ export default function AboutPageClient() {
         {/* ============================================ */}
         <section className="px-4 sm:px-8 py-12">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {t("AI KOMENT\u00C1TO\u0158I", "AI COMMENTATORS")}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -390,7 +390,7 @@ export default function AboutPageClient() {
                     <div className="font-mono text-sm font-bold text-[#f0f0f0] uppercase tracking-wider">
                       {ai.name}
                     </div>
-                    <div className="font-mono text-[10px] text-[#ff2222] uppercase tracking-widest">
+                    <div className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest">
                       {t(ai.roleCs, ai.roleEn)}
                     </div>
                   </div>
@@ -400,10 +400,10 @@ export default function AboutPageClient() {
                 </p>
 
                 {/* Corner marks */}
-                <div className="absolute top-2 left-2 w-3 h-3 border-t-2 border-l-2 border-[#ff2222]" />
-                <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#ff2222]" />
-                <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-[#ff2222]" />
-                <div className="absolute bottom-2 right-2 w-3 h-3 border-b-2 border-r-2 border-[#ff2222]" />
+                <div className="absolute top-2 left-2 w-3 h-3 border-t-2 border-l-2 border-[#ff6600]" />
+                <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#ff6600]" />
+                <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-[#ff6600]" />
+                <div className="absolute bottom-2 right-2 w-3 h-3 border-b-2 border-r-2 border-[#ff6600]" />
               </div>
             ))}
           </div>
@@ -414,17 +414,17 @@ export default function AboutPageClient() {
         {/* ============================================ */}
         <section className="px-4 sm:px-8 py-12">
           <div className="flex items-center gap-3 mb-8">
-            <span className="font-mono text-[10px] text-[#ff2222] uppercase tracking-[0.3em]">
+            <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
               // {t("JAK TO FUNGUJE", "HOW IT WORKS")}
             </span>
-            <div className="h-[1px] flex-1 bg-[#ff2222]/40" />
+            <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
           </div>
 
           <div className="flex flex-col gap-8 max-w-3xl">
             {howItWorks.map((step, idx) => (
               <div key={idx} className="ai-annotation">
                 <div className="font-mono text-xs font-bold text-[#f0f0f0] uppercase tracking-wider mb-2">
-                  <span className="text-[#ff2222] mr-2">{idx + 1}.</span>
+                  <span className="text-[#ff6600] mr-2">{idx + 1}.</span>
                   {t(step.titleCs, step.titleEn)}
                 </div>
                 <p className="font-mono text-sm leading-relaxed text-[#f0f0f0]/70">
@@ -442,7 +442,7 @@ export default function AboutPageClient() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {techStack.map((item) => (
               <div key={item.label}>
-                <div className="font-headline text-3xl sm:text-4xl text-[#ff2222]">
+                <div className="font-headline text-3xl sm:text-4xl text-[#ff6600]">
                   {item.label}
                 </div>
                 <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
@@ -470,7 +470,7 @@ export default function AboutPageClient() {
             <div className="font-mono text-[10px] text-[#f0f0f0]/20 text-right leading-loose">
               <div>verze 01 / 05</div>
               <div>brutalist dark editorial</div>
-              <div className="text-[#ff2222]/40">
+              <div className="text-[#ff6600]/40">
                 &copy; {new Date().getFullYear()}
               </div>
             </div>
@@ -490,7 +490,7 @@ export default function AboutPageClient() {
 
 const brutalStyles = `
   :root {
-    --brutal-red: #ff2222;
+    --brutal-blue: #ff6600;
     --brutal-black: #0a0a0a;
     --brutal-white: #f0f0f0;
   }
@@ -528,22 +528,22 @@ const brutalStyles = `
 
   .glitch-text {
     text-shadow:
-      2px 2px 0 #ff2222,
+      2px 2px 0 #ff6600,
       -1px -1px 0 #00ffff;
   }
 
   .glitch-hover:hover {
     text-shadow:
-      3px 3px 0 #ff2222,
+      3px 3px 0 #ff6600,
       -2px -2px 0 #00ffff,
-      5px 0px 0 #ff222244;
+      5px 0px 0 #ff660044;
     transition: text-shadow 0.1s ease;
   }
 
   .noise-border {
     border: 2px solid var(--brutal-white);
     box-shadow:
-      4px 4px 0 var(--brutal-red),
+      4px 4px 0 var(--brutal-blue),
       -1px -1px 0 var(--brutal-white);
   }
 
@@ -551,7 +551,7 @@ const brutalStyles = `
     border: 2px solid var(--brutal-white);
     background: var(--brutal-black);
     box-shadow:
-      6px 6px 0 var(--brutal-red);
+      6px 6px 0 var(--brutal-blue);
   }
 
   .tag-sticker {
@@ -566,8 +566,8 @@ const brutalStyles = `
   }
 
   .tag-sticker-red {
-    border-color: var(--brutal-red);
-    color: var(--brutal-red);
+    border-color: var(--brutal-blue);
+    color: var(--brutal-blue);
   }
 
   .scanline::after {
@@ -589,12 +589,12 @@ const brutalStyles = `
 
   .harsh-underline {
     text-decoration: none;
-    border-bottom: 3px solid var(--brutal-red);
+    border-bottom: 3px solid var(--brutal-blue);
     padding-bottom: 1px;
   }
 
   .harsh-underline:hover {
-    background: var(--brutal-red);
+    background: var(--brutal-blue);
     color: var(--brutal-black);
   }
 
@@ -602,7 +602,7 @@ const brutalStyles = `
   .rotate-neg { transform: rotate(-0.8deg); }
 
   .ai-annotation {
-    border-left: 3px solid var(--brutal-red);
+    border-left: 3px solid var(--brutal-blue);
     padding-left: 12px;
     position: relative;
   }
@@ -613,7 +613,7 @@ const brutalStyles = `
     left: -2px;
     top: -14px;
     font-size: 10px;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     font-family: var(--font-jetbrains), monospace;
   }
 
@@ -625,7 +625,7 @@ const brutalStyles = `
   .cursor-blink::after {
     content: '\u2588';
     animation: blink 1s infinite;
-    color: var(--brutal-red);
+    color: var(--brutal-blue);
     margin-left: 2px;
   }
 

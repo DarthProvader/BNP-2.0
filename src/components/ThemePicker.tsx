@@ -8,22 +8,8 @@ const themes = [
     id: "brutalist-dark",
     route: "/",
     name: "Brutalist Dark",
-    accent: "#ff2222",
+    accent: "#ff6600",
     bg: "#0a0a0a",
-  },
-  {
-    id: "concrete",
-    route: "/concrete",
-    name: "Concrete Monolith",
-    accent: "#0055ff",
-    bg: "#1a1a18",
-  },
-  {
-    id: "classified",
-    route: "/classified",
-    name: "Classified",
-    accent: "#cc0000",
-    bg: "#2c2416",
   },
   {
     id: "cyberpunk",
@@ -31,20 +17,6 @@ const themes = [
     name: "Akira Neon",
     accent: "#00f0ff",
     bg: "#0a0014",
-  },
-  {
-    id: "holographic",
-    route: "/holographic",
-    name: "Holographic HUD",
-    accent: "#00e5ff",
-    bg: "#030a0f",
-  },
-  {
-    id: "comic",
-    route: "/comic",
-    name: "Manga Panel",
-    accent: "#e60012",
-    bg: "#0a0a0a",
   },
 ];
 
