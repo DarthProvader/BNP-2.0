@@ -1,9 +1,9 @@
 name: Daily Article Generation
 
 on:
-  schedule:
-    - cron: '0 4 * * *' # 4:00 UTC = 6:00 CZ (letni cas) / 5:00 CZ (zimni cas)
-  workflow_dispatch: # rucni spusteni
+  # schedule:
+  #   - cron: '0 4 * * *' # 4:00 UTC = 6:00 CZ (letni cas) / 5:00 CZ (zimni cas)
+  workflow_dispatch: # rucni spusteni (cron deaktivovan - pipeline bezi na lokalnim serveru)
 
 permissions:
   contents: write
