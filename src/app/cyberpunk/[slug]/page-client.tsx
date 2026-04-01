@@ -5,6 +5,7 @@ import ArticleContent from "@/components/ArticleContent";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Righteous, Chakra_Petch, Fira_Code } from "next/font/google";
+import ThemePicker from "@/components/ThemePicker";
 
 /* ------------------------------------------------------------------ */
 /*  Fonts                                                              */
@@ -232,25 +233,28 @@ export default function ArticleDetailPage({
               <span>zpet</span>
             </Link>
 
-            <button
-              onClick={() => setLang(lang === "cs" ? "en" : "cs")}
-              className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border cursor-pointer"
-              style={{
-                fontFamily: "var(--font-fira)",
-                borderColor: "#00f0ff",
-                color: "#00f0ff",
-                textShadow: "0 0 8px rgba(0,240,255,0.5)",
-              }}
-            >
-              <span>{lang === "cs" ? "EN" : "CZ"}</span>
-              <div
-                className="absolute inset-0 opacity-20"
+            <div className="flex items-center gap-3">
+              <ThemePicker variant="cyberpunk" />
+              <button
+                onClick={() => setLang(lang === "cs" ? "en" : "cs")}
+                className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border cursor-pointer"
                 style={{
-                  background:
-                    "linear-gradient(135deg, rgba(0,240,255,0.2), transparent)",
+                  fontFamily: "var(--font-fira)",
+                  borderColor: "#00f0ff",
+                  color: "#00f0ff",
+                  textShadow: "0 0 8px rgba(0,240,255,0.5)",
                 }}
-              />
-            </button>
+              >
+                <span>{lang === "cs" ? "EN" : "CZ"}</span>
+                <div
+                  className="absolute inset-0 opacity-20"
+                  style={{
+                    background:
+                      "linear-gradient(135deg, rgba(0,240,255,0.2), transparent)",
+                  }}
+                />
+              </button>
+            </div>
           </div>
 
           {/* Neon title glow */}
@@ -344,7 +348,7 @@ export default function ArticleDetailPage({
               <ArticleContent
                 content={content}
                 headingClassName="mt-8 mb-4 text-xl sm:text-2xl font-bold text-[#00f0ff] first:mt-0"
-                paragraphClassName="mb-5 text-sm sm:text-base leading-relaxed text-[#e0e0e0]/70"
+                paragraphClassName="mb-5 text-sm sm:text-base leading-relaxed text-[#f0f0f0]/80"
                 strongClassName="font-bold text-[#e0e0e0]"
                 emClassName="italic text-[#e0e0e0]/50"
                 linkClassName="text-[#00f0ff] underline"

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import ArticleContent from "@/components/ArticleContent";
 import type { Article } from "@/lib/mockData";
+import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -72,9 +73,11 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
               </Link>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-widest">
+              <ThemePicker variant="brutalist" />
+              <div className="w-px h-4 bg-[#f0f0f0]/20" />
               {/* CZ/EN toggle */}
-              <div className="flex gap-2 font-mono text-[10px] uppercase tracking-widest">
+              <div className="flex gap-2">
                 <button
                   onClick={() => setLang("cs")}
                   className={`px-2 py-1 border transition-colors ${
@@ -267,12 +270,12 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
                 href={source.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="tag-sticker hover:bg-[#f0f0f0] hover:text-[#0a0a0a] transition-colors group"
+                className="tag-sticker text-[#f0f0f0] text-xs hover:bg-[#f0f0f0] hover:text-[#0a0a0a] transition-colors group"
               >
                 <span className="text-[#ff6600] mr-2 font-bold">
                   [{sourceTypeIcon[source.type]}]
                 </span>
-                <span className="harsh-underline">{source.title}</span>
+                <span className="harsh-underline text-[#f0f0f0] group-hover:text-[#0a0a0a]">{source.title}</span>
               </a>
             ))}
           </div>

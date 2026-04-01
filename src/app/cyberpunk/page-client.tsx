@@ -4,6 +4,7 @@ import type { Article } from "@/lib/mockData";
 import Link from "next/link";
 import { Righteous, Chakra_Petch, Fira_Code } from "next/font/google";
 import { useState, useEffect } from "react";
+import ThemePicker from "@/components/ThemePicker";
 
 /* ------------------------------------------------------------------ */
 /*  Fonts                                                              */
@@ -198,8 +199,11 @@ export default function AkiraNeonStreetsPage({
   const [lang, setLang] = useState<"cs" | "en">("cs");
   const [mounted, setMounted] = useState(false);
   const [activeTag, setActiveTag] = useState<string | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(6);
   const featured = articles[0];
   const rest = articles.slice(1);
+  const resetPagination = () => setVisibleCount(6);
   const filtered = activeTag
     ? rest.filter((a) => a.tags.includes(activeTag))
     : rest;
@@ -288,8 +292,9 @@ export default function AkiraNeonStreetsPage({
         {/*  HEADER                                                       */}
         {/* ============================================================ */}
         <header className="pt-6 pb-8 border-b border-cyan-900/30">
-          {/* Top bar: back + lang */}
-          <div className="flex items-center justify-end mb-6">
+          {/* Top bar: theme + lang */}
+          <div className="flex items-center justify-end gap-3 mb-6">
+            <ThemePicker variant="cyberpunk" />
             <button
               onClick={() => setLang(lang === "cs" ? "en" : "cs")}
               className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border"
@@ -339,15 +344,35 @@ export default function AkiraNeonStreetsPage({
             </span>
           </div>
 
+          {/* Filters toggle */}
+          <div className="mt-6">
+            <button
+              onClick={() => setFiltersOpen(!filtersOpen)}
+              className="flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold tracking-[0.25em] uppercase border transition-all duration-200 cursor-pointer hover:bg-[#00f0ff]/10"
+              style={{
+                fontFamily: "var(--font-fira)",
+                borderColor: filtersOpen ? "#00f0ff" : "#ffffff20",
+                color: filtersOpen ? "#00f0ff" : "#e0e0e080",
+                textShadow: filtersOpen ? "0 0 6px rgba(0,240,255,0.4)" : "none",
+              }}
+            >
+              TAGS ({allTags.length})
+              <span style={{ fontSize: "8px" }}>{filtersOpen ? "▲" : "▼"}</span>
+              {activeTag && (
+                <span style={{ color: "#00f0ff", marginLeft: "4px" }}>● {activeTag}</span>
+              )}
+            </button>
+          </div>
+
           {/* Street-sign navigation */}
-          <nav className="mt-6 flex items-center gap-1 flex-wrap">
+          <nav className={`mt-3 items-center gap-1 flex-wrap ${filtersOpen ? "flex" : "hidden"}`}>
             {["ALL", ...allTags].map((item, i) => {
               const isAll = item === "ALL";
               const isActive = isAll ? activeTag === null : activeTag === item.toLowerCase();
               return (
                 <span
                   key={item}
-                  onClick={() => setActiveTag(isAll ? null : item.toLowerCase())}
+                  onClick={() => { setActiveTag(isAll ? null : item.toLowerCase()); resetPagination(); }}
                   className="px-3 py-1 text-[10px] font-bold tracking-[0.2em] uppercase border transition-all duration-200 cursor-pointer hover:bg-[#00f0ff]/10"
                   style={{
                     fontFamily: "var(--font-fira)",
@@ -360,12 +385,6 @@ export default function AkiraNeonStreetsPage({
                 </span>
               );
             })}
-            <span
-              className="ml-auto text-[10px] tracking-wider"
-              style={{ fontFamily: "var(--font-fira)", color: "#e0e0e030" }}
-            >
-              SEC.06
-            </span>
           </nav>
         </header>
 
@@ -384,10 +403,10 @@ export default function AkiraNeonStreetsPage({
             <SpeedLines color="#00f0ff" opacity={0.04} />
 
             {/* Manga frame corners */}
-            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#00f0ff]" />
-            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-[#00f0ff]" />
-            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-[#00f0ff]" />
-            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-[#00f0ff]" />
+            <div className="absolute top-0 left-0 w-12 h-12 border-t-3 border-l-3 border-[#00f0ff]" />
+            <div className="absolute top-0 right-0 w-12 h-12 border-t-3 border-r-3 border-[#00f0ff]" />
+            <div className="absolute bottom-0 left-0 w-12 h-12 border-b-3 border-l-3 border-[#ff2d7b]" />
+            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-3 border-r-3 border-[#ff2d7b]" />
 
             <div className="relative p-6 sm:p-8 md:p-10">
               {/* HUD overlay metadata */}
@@ -429,11 +448,11 @@ export default function AkiraNeonStreetsPage({
               <WetReflection>
                 <Link href={`/cyberpunk/${featured.slug}`}>
                   <h2
-                    className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4 transition-colors duration-200 hover:brightness-125"
+                    className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 transition-colors duration-200 hover:brightness-125"
                     style={{
                       fontFamily: "var(--font-righteous)",
                       color: "#00f0ff",
-                      textShadow: "0 0 10px rgba(0,240,255,0.6), 0 0 30px rgba(0,240,255,0.3)",
+                      textShadow: "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80",
                     }}
                   >
                     {lang === "cs" ? featured.title : featured.titleEn}
@@ -443,10 +462,10 @@ export default function AkiraNeonStreetsPage({
 
               {/* Excerpt */}
               <p
-                className="text-sm sm:text-base leading-relaxed max-w-3xl mb-6"
+                className="text-base sm:text-lg leading-relaxed max-w-3xl mb-6"
                 style={{
                   fontFamily: "var(--font-chakra)",
-                  color: "#e0e0e0b0",
+                  color: "#e0e0e0d0",
                 }}
               >
                 {lang === "cs" ? featured.excerpt : featured.excerptEn}
@@ -516,7 +535,7 @@ export default function AkiraNeonStreetsPage({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {filtered.map((article, i) => (
+            {filtered.slice(0, visibleCount).map((article, i) => (
               <article
                 key={article.slug}
                 className="group relative overflow-hidden border transition-all duration-300 hover:border-[#00f0ff]/60"
@@ -549,13 +568,13 @@ export default function AkiraNeonStreetsPage({
                   {/* Meta bar */}
                   <div className="flex items-center justify-between mb-3">
                     <span
-                      className="text-[9px] tracking-[0.2em] uppercase"
+                      className="text-[11px] sm:text-xs tracking-[0.2em] uppercase"
                       style={{ fontFamily: "var(--font-fira)", color: "#e0e0e040" }}
                     >
                       {article.date}
                     </span>
                     <span
-                      className="text-[9px] tracking-wider"
+                      className="text-[11px] sm:text-xs tracking-wider"
                       style={{ fontFamily: "var(--font-fira)", color: "#ffd000a0" }}
                     >
                       {article.readTime}m
@@ -564,10 +583,10 @@ export default function AkiraNeonStreetsPage({
 
                   {/* Title */}
                   <h3
-                    className="text-lg sm:text-xl font-bold leading-tight mb-3 transition-all duration-300 group-hover:text-[#00f0ff]"
+                    className="text-xl sm:text-2xl font-bold leading-tight mb-3 transition-all duration-300 group-hover:text-[#00f0ff]"
                     style={{
                       fontFamily: "var(--font-righteous)",
-                      color: "#e0e0e0e0",
+                      color: "#e0e0e0",
                     }}
                   >
                     <span className="group-hover:drop-shadow-[0_0_8px_rgba(0,240,255,0.5)]">
@@ -577,10 +596,10 @@ export default function AkiraNeonStreetsPage({
 
                   {/* Excerpt */}
                   <p
-                    className="text-xs leading-relaxed mb-4 line-clamp-3"
+                    className="text-sm sm:text-base leading-relaxed mb-4 line-clamp-3"
                     style={{
                       fontFamily: "var(--font-chakra)",
-                      color: "#e0e0e070",
+                      color: "#e0e0e0a0",
                     }}
                   >
                     {lang === "cs" ? article.excerpt : article.excerptEn}
@@ -591,7 +610,7 @@ export default function AkiraNeonStreetsPage({
                     {article.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="text-[9px] font-bold tracking-wider uppercase px-1.5 py-0.5"
+                        className="text-[10px] sm:text-[11px] font-bold tracking-wider uppercase px-1.5 py-0.5"
                         style={{
                           fontFamily: "var(--font-fira)",
                           color: tagColor(tag),
@@ -633,6 +652,24 @@ export default function AkiraNeonStreetsPage({
               </article>
             ))}
           </div>
+
+          {/* Load more */}
+          {visibleCount < filtered.length && (
+            <div className="mt-8 text-center">
+              <button
+                onClick={() => setVisibleCount((c) => c + 6)}
+                className="px-6 py-3 text-xs font-bold tracking-[0.2em] uppercase border transition-all duration-300 cursor-pointer hover:bg-[#00f0ff]/10"
+                style={{
+                  fontFamily: "var(--font-fira)",
+                  borderColor: "#00f0ff",
+                  color: "#00f0ff",
+                  textShadow: "0 0 6px rgba(0,240,255,0.4)",
+                }}
+              >
+                LOAD MORE ({filtered.length - visibleCount})
+              </button>
+            </div>
+          )}
         </section>
 
         {/* ============================================================ */}
@@ -653,7 +690,7 @@ export default function AkiraNeonStreetsPage({
               return (
                 <span
                   key={tag}
-                  onClick={() => setActiveTag(activeTag === tag ? null : tag)}
+                  onClick={() => { setActiveTag(activeTag === tag ? null : tag); resetPagination(); }}
                   className="relative text-xs font-bold tracking-wider uppercase px-3 py-1.5 cursor-pointer transition-all duration-200 hover:scale-110"
                   style={{
                     fontFamily: "var(--font-righteous)",
@@ -679,7 +716,7 @@ export default function AkiraNeonStreetsPage({
         {/* ============================================================ */}
         {/*  AI COMMENTS — Transmission Log                                */}
         {/* ============================================================ */}
-        <section className="mb-12">
+        <section className="hidden lg:block mb-12">
           {/* Section header */}
           <div className="flex items-center gap-3 mb-2">
             <NeonText color="#ffd000" className="text-xs tracking-[0.3em] uppercase" flicker>
@@ -770,7 +807,7 @@ export default function AkiraNeonStreetsPage({
         {/* ============================================================ */}
         {/*  ALL ARTICLES — AI COMMENTS                                    */}
         {/* ============================================================ */}
-        <section className="mb-16">
+        <section className="hidden lg:block mb-16">
           <div className="flex items-center gap-3 mb-6">
             <NeonText color="#00f0ff" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
               <span style={{ fontFamily: "var(--font-fira)" }}>ALL TRANSMISSIONS</span>
