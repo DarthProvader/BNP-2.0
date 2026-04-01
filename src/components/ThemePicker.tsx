@@ -111,31 +111,28 @@ export default function ThemePicker({
       )}
 
       {/* Toggle button */}
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 px-2 py-1 border transition-colors cursor-pointer"
-        style={{
-          borderColor: variant === "cyberpunk"
-            ? "#ffffff20"
-            : variant === "brutalist"
-            ? "#f0f0f030"
-            : "#555",
-          backgroundColor: "transparent",
-        }}
-      >
-        <span
-          className="w-2 h-2 rounded-full shrink-0"
-          style={{ backgroundColor: otherTheme.accent }}
-        />
-        <span
-          className="text-[10px] font-mono uppercase tracking-wider"
+      {variant === "cyberpunk" ? (
+        <button
+          onClick={() => setOpen(!open)}
+          className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold tracking-[0.2em] border transition-colors cursor-pointer"
           style={{
-            color: variant === "cyberpunk" ? "#e0e0e080" : variant === "brutalist" ? "#f0f0f050" : "#aaa",
+            borderColor: "#00f0ff",
+            color: "#00f0ff",
+            textShadow: "0 0 8px rgba(0,240,255,0.5)",
           }}
         >
-          {otherTheme.name}
-        </span>
-      </button>
+          <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: activeTheme.accent }} />
+          <span className="font-mono uppercase">{activeTheme.name}</span>
+        </button>
+      ) : (
+        <button
+          onClick={() => setOpen(!open)}
+          className="flex items-center gap-2 px-4 py-1.5 border border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80 transition-colors"
+        >
+          <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: activeTheme.accent }} />
+          <span className="font-mono text-[10px] uppercase tracking-widest">{activeTheme.name}</span>
+        </button>
+      )}
     </div>
   );
 }

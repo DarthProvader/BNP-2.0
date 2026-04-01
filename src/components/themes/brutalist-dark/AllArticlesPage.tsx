@@ -60,19 +60,41 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
 
   return (
     <div
-      className={`${instrumentSerif.variable} ${jetbrainsMono.variable}`}
-      style={{ fontFamily: "var(--font-jetbrains), monospace" }}
+      className={`${instrumentSerif.variable} ${jetbrainsMono.variable} min-h-screen relative`}
     >
       <style>{`
-        .brutal-all {
+        :root {
+          --brutal-blue: #ff6600;
           --brutal-black: #0a0a0a;
           --brutal-white: #f0f0f0;
-          --brutal-blue: #ff6600;
-          background: var(--brutal-black);
-          color: var(--brutal-white);
         }
-        .font-headline { font-family: var(--font-instrument), serif; }
+
+        .brutal-page {
+          background-color: var(--brutal-black);
+          color: var(--brutal-white);
+          font-family: var(--font-jetbrains), monospace;
+        }
+
+        .brutal-page::before {
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+          pointer-events: none;
+          z-index: 0;
+        }
+
+        .brutal-page > * {
+          position: relative;
+          z-index: 1;
+        }
+
+        .font-headline { font-family: var(--font-instrument), Georgia, serif; }
         .font-mono { font-family: var(--font-jetbrains), monospace; }
+
         .tag-sticker {
           border: 1px solid var(--brutal-white);
           padding: 2px 8px;
@@ -83,49 +105,79 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
           display: inline-block;
           background: var(--brutal-black);
         }
+
+        .harsh-underline {
+          text-decoration: none;
+          border-bottom: 3px solid var(--brutal-blue);
+          padding-bottom: 1px;
+        }
+
+        .harsh-underline:hover {
+          background: var(--brutal-blue);
+          color: var(--brutal-black);
+        }
       `}</style>
 
-      <div className="brutal-all min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
-        {/* Language + theme switcher */}
-        <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
-          <ThemePicker variant="brutalist" />
-          <div className="w-px h-4 bg-[#f0f0f0]/20" />
-          <div className="flex gap-1">
-            <button
-              onClick={() => setLang("cs")}
-              className={`px-2 py-1 border transition-colors ${
-                lang === "cs"
-                  ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                  : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-              }`}
-            >
-              CZ
-            </button>
-            <button
-              onClick={() => setLang("en")}
-              className={`px-2 py-1 border transition-colors ${
-                lang === "en"
-                  ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                  : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-              }`}
-            >
-              EN
-            </button>
-          </div>
+      {/* Language + theme switcher */}
+      <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
+        <ThemePicker variant="brutalist" />
+        <div className="w-px h-4 bg-[#f0f0f0]/20" />
+        <div className="flex gap-1">
+          <button
+            onClick={() => setLang("cs")}
+            className={`px-2 py-1 border transition-colors ${
+              lang === "cs"
+                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+            }`}
+          >
+            CZ
+          </button>
+          <button
+            onClick={() => setLang("en")}
+            className={`px-2 py-1 border transition-colors ${
+              lang === "en"
+                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+            }`}
+          >
+            EN
+          </button>
         </div>
+      </div>
 
+      <div className="brutal-page min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
         {/* Header */}
-        <header className="px-4 sm:px-8 pt-8 pb-6 border-b border-[#f0f0f0]/10">
-          <Link href="/" className="font-headline text-2xl sm:text-3xl text-[#ff6600] hover:underline">
-            BEROU NÁM PRÁCI
-          </Link>
-          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl text-[#f0f0f0] mt-4">
-            {t("Všechny články", "All articles")}
-          </h1>
+        <header className="px-4 sm:px-8 pt-12 pb-8 relative">
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+            <div className="relative">
+              <div className="absolute -left-2 sm:-left-4 top-0 w-2 sm:w-3 h-full bg-[#ff6600]" />
+              <Link href="/" className="font-headline text-3xl sm:text-4xl md:text-5xl text-[#f0f0f0] glitch-text pl-4 sm:pl-6 hover:text-[#ff6600] transition-colors">
+                BEROU NÁM PRÁCI
+              </Link>
+              <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl text-[#ff6600] mt-4 pl-4 sm:pl-6">
+                {t("Všechny články", "All articles")}
+              </h1>
+            </div>
+
+            <nav className="flex flex-col gap-3 lg:items-end pl-4 sm:pl-0">
+              <div className="flex gap-4 font-mono text-xs sm:text-sm uppercase tracking-widest">
+                <Link href="/" className="harsh-underline text-[#f0f0f0]">
+                  {t("Domů", "Home")}
+                </Link>
+                <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
+                  {t("Zdroje", "Resources")}
+                </Link>
+                <Link href="/about" className="harsh-underline text-[#f0f0f0]">
+                  {t("O\u00a0projektu", "About")}
+                </Link>
+              </div>
+            </nav>
+          </div>
         </header>
 
-        {/* Search */}
-        <section className="px-4 sm:px-8 py-6 border-b border-[#f0f0f0]/10">
+        {/* Search + Filters */}
+        <section className="px-4 sm:px-8 py-6 border-y border-[#f0f0f0]/10">
           <input
             type="text"
             value={search}
@@ -137,7 +189,6 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
             className="w-full max-w-xl bg-transparent border-2 border-[#ff6600] text-[#f0f0f0] font-mono text-sm px-4 py-3 outline-none placeholder:text-[#f0f0f0]/30 focus:border-[#f0f0f0] transition-colors"
           />
 
-          {/* Filters toggle */}
           <div
             className="flex items-center gap-2 cursor-pointer mt-4"
             onClick={() => setFiltersOpen(!filtersOpen)}
@@ -207,7 +258,6 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
             ))}
           </div>
 
-          {/* Load more */}
           {hasMore && (
             <div className="mt-8 text-center">
               <button
@@ -230,7 +280,7 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
         <footer className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
           <Link
             href="/"
-            className="font-mono text-xs uppercase tracking-widest text-[#ff6600] hover:underline"
+            className="font-mono text-xs uppercase tracking-widest text-[#ff6600] harsh-underline"
           >
             &larr; {t("Zpět na hlavní stránku", "Back to homepage")}
           </Link>

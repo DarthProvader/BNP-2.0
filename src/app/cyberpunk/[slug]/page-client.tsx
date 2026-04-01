@@ -259,12 +259,12 @@ export default function ArticleDetailPage({
 
           {/* Neon title glow */}
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight animate-[neonFlicker_4s_infinite]"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
             style={{
               fontFamily: "var(--font-righteous)",
-              color: "#00f0ff",
+              color: "#e0f8ff",
               textShadow:
-                "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80, 0 0 92px #00f0ff40",
+                "0 0 10px rgba(0,240,255,0.5), 0 0 30px rgba(0,240,255,0.2)",
             }}
           >
             {title}
@@ -293,7 +293,7 @@ export default function ArticleDetailPage({
               textShadow: "0 0 6px rgba(255,208,0,0.4)",
             }}
           >
-            {article.readTime} MIN READ
+            {article.readTime} {lang === "cs" ? "MIN ČTENÍ" : "MIN READ"}
           </span>
           <div className="flex items-center gap-2 flex-wrap ml-auto">
             {article.tags.map((tag) => (

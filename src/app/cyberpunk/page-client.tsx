@@ -208,6 +208,8 @@ export default function AkiraNeonStreetsPage({
     ? rest.filter((a) => a.tags.includes(activeTag))
     : rest;
 
+  const t = (cs: string, en: string) => (lang === "cs" ? cs : en);
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -318,12 +320,12 @@ export default function AkiraNeonStreetsPage({
           {/* Main title neon sign */}
           <WetReflection>
             <h1
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.9] animate-[neonFlicker_4s_infinite]"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.9]"
               style={{
                 fontFamily: "var(--font-righteous)",
-                color: "#00f0ff",
+                color: "#e0f8ff",
                 textShadow:
-                  "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80, 0 0 92px #00f0ff40",
+                  "0 0 15px rgba(0,240,255,0.6), 0 0 40px rgba(0,240,255,0.3), 0 0 80px rgba(0,240,255,0.15)",
               }}
             >
               BEROU NÁM PRÁCI
@@ -356,7 +358,7 @@ export default function AkiraNeonStreetsPage({
                 textShadow: filtersOpen ? "0 0 6px rgba(0,240,255,0.4)" : "none",
               }}
             >
-              TAGS ({allTags.length})
+              {t("TAGY", "TAGS")} ({allTags.length})
               <span style={{ fontSize: "8px" }}>{filtersOpen ? "▲" : "▼"}</span>
               {activeTag && (
                 <span style={{ color: "#00f0ff", marginLeft: "4px" }}>● {activeTag}</span>
@@ -420,7 +422,7 @@ export default function AkiraNeonStreetsPage({
                     textShadow: "0 0 8px rgba(0,240,255,0.6)",
                   }}
                 >
-                  FEATURED
+                  {t("HLAVNÍ", "FEATURED")}
                 </span>
                 <span
                   className="text-[10px] tracking-wider"
@@ -432,7 +434,7 @@ export default function AkiraNeonStreetsPage({
                   className="text-[10px] tracking-wider"
                   style={{ fontFamily: "var(--font-fira)", color: "#ffd000" }}
                 >
-                  {featured.readTime} MIN READ
+                  {featured.readTime} {t("MIN ČTENÍ", "MIN READ")}
                 </span>
               </div>
 
@@ -451,8 +453,8 @@ export default function AkiraNeonStreetsPage({
                     className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 transition-colors duration-200 hover:brightness-125"
                     style={{
                       fontFamily: "var(--font-righteous)",
-                      color: "#00f0ff",
-                      textShadow: "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80",
+                      color: "#e0f8ff",
+                      textShadow: "0 0 10px rgba(0,240,255,0.5), 0 0 30px rgba(0,240,255,0.2)",
                     }}
                   >
                     {lang === "cs" ? featured.title : featured.titleEn}
@@ -529,16 +531,17 @@ export default function AkiraNeonStreetsPage({
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <NeonText color="#00f0ff" className="text-xs tracking-[0.3em] uppercase" flicker={false}>
-              <span style={{ fontFamily: "var(--font-fira)" }}>FEED</span>
+              <span style={{ fontFamily: "var(--font-fira)" }}>{t("PŘEHLED", "FEED")}</span>
             </NeonText>
             <div className="flex-1 h-px bg-linear-to-r from-[#00f0ff]/30 to-transparent" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {filtered.slice(0, visibleCount).map((article, i) => (
-              <article
+              <Link
+                href={`/cyberpunk/${article.slug}`}
                 key={article.slug}
-                className="group relative overflow-hidden border transition-all duration-300 hover:border-[#00f0ff]/60"
+                className="group relative overflow-hidden border transition-all duration-300 hover:border-[#00f0ff]/60 block"
                 style={{
                   borderColor: "#ffffff08",
                   background: `linear-gradient(${135 + i * 20}deg, rgba(0,240,255,0.02) 0%, rgba(5,5,10,0.95) 60%, rgba(255,45,123,0.02) 100%)`,
@@ -577,7 +580,7 @@ export default function AkiraNeonStreetsPage({
                       className="text-[11px] sm:text-xs tracking-wider"
                       style={{ fontFamily: "var(--font-fira)", color: "#ffd000a0" }}
                     >
-                      {article.readTime}m
+                      {article.readTime} {t("min", "m")}
                     </span>
                   </div>
 
@@ -623,21 +626,14 @@ export default function AkiraNeonStreetsPage({
                     ))}
                   </div>
 
-                  {/* Sources bar */}
-                  <div className="flex items-center gap-2">
-                    {article.sources.map((src, si) => (
-                      <a
-                        key={si}
-                        href={src.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transition-colors duration-200 hover:text-[#00f0ff]"
-                        style={{ color: "#e0e0e030" }}
-                        title={src.title}
-                      >
-                        {sourceIcon(src.type)}
-                      </a>
-                    ))}
+                  {/* Sources count */}
+                  <div className="flex items-center gap-1" style={{ color: "#e0e0e030" }}>
+                    <span style={{ fontFamily: "var(--font-fira)" }} className="text-[10px]">
+                      {article.sources.length} {t(
+                        article.sources.length === 1 ? "zdroj" : article.sources.length >= 2 && article.sources.length <= 4 ? "zdroje" : "zdrojů",
+                        article.sources.length === 1 ? "source" : "sources"
+                      )}
+                    </span>
                   </div>
                 </div>
 
@@ -649,7 +645,7 @@ export default function AkiraNeonStreetsPage({
                     boxShadow: "0 0 8px #00f0ff",
                   }}
                 />
-              </article>
+              </Link>
             ))}
           </div>
 
@@ -666,7 +662,7 @@ export default function AkiraNeonStreetsPage({
                   textShadow: "0 0 6px rgba(0,240,255,0.4)",
                 }}
               >
-                LOAD MORE ({filtered.length - visibleCount})
+                {t("NAČÍST DALŠÍ", "LOAD MORE")} ({filtered.length - visibleCount})
               </button>
             </div>
           )}
