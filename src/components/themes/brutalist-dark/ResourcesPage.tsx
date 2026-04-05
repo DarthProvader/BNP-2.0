@@ -50,7 +50,6 @@ const aiTools: Resource[] = [
   { name: "Cursor", url: "https://cursor.com", category: "code", descriptionCs: "AI-first code editor", descriptionEn: "AI-first code editor" },
   { name: "Claude Code", url: "https://docs.anthropic.com/en/docs/claude-code", category: "code", descriptionCs: "CLI nástroj pro kódování s AI", descriptionEn: "CLI tool for AI-powered coding" },
   { name: "Midjourney", url: "https://midjourney.com", category: "image", descriptionCs: "Generování obrázků pomocí AI", descriptionEn: "AI image generation" },
-  { name: "Sora", url: "https://sora.com", category: "image", descriptionCs: "Generování videa od OpenAI", descriptionEn: "Video generation by OpenAI" },
   { name: "NotebookLM", url: "https://notebooklm.google.com", category: "productivity", descriptionCs: "AI notebook od Google", descriptionEn: "AI notebook by Google" },
   { name: "Bolt", url: "https://bolt.new", category: "code", descriptionCs: "AI full-stack app builder", descriptionEn: "AI full-stack app builder" },
   { name: "v0", url: "https://v0.dev", category: "code", descriptionCs: "AI UI generátor od Vercel", descriptionEn: "AI UI generator by Vercel" },
@@ -74,6 +73,7 @@ const media: MediaResource[] = [
   { name: "Lex Fridman Podcast", url: "https://lexfridman.com/podcast", type: "podcast", descriptionCs: "Rozhovory s lídry AI", descriptionEn: "Conversations with AI leaders" },
   { name: "All-In Podcast", url: "https://www.allinpodcast.co", type: "podcast", descriptionCs: "Tech, AI a investice", descriptionEn: "Tech, AI and investments" },
   { name: "Latent Space", url: "https://www.latent.space", type: "podcast", descriptionCs: "Podcast pro AI inženýry", descriptionEn: "Podcast for AI engineers" },
+  { name: "Fantastic Future", url: "https://fantasticfuture.com", type: "podcast", descriptionCs: "Podcast o budoucnosti a technologiích", descriptionEn: "Podcast about the future and technology" },
   { name: "Fireship", url: "https://www.youtube.com/@Fireship", type: "youtube", descriptionCs: "Rychlé tech explainery", descriptionEn: "Fast tech explainers" },
   { name: "AI Explained", url: "https://www.youtube.com/@aiexplained-official", type: "youtube", descriptionCs: "Hloubkové rozbory AI novinek", descriptionEn: "In-depth AI news analysis" },
   { name: "Matt Wolfe", url: "https://www.youtube.com/@maboroshi", type: "youtube", descriptionCs: "AI nástroje a novinky", descriptionEn: "AI tools and news" },
@@ -195,6 +195,9 @@ export default function ResourcesPageClient() {
               </div>
               <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest">
                 <Link href="/" className="harsh-underline text-[#f0f0f0]">
+                  {lang === "cs" ? "Domů" : "Home"}
+                </Link>
+                <Link href="/clanky" className="harsh-underline text-[#f0f0f0]">
                   {lang === "cs" ? "Články" : "Articles"}
                 </Link>
                 <span className="text-[#ff6600] font-bold">
@@ -272,7 +275,7 @@ export default function ResourcesPageClient() {
                 href={tool.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="noise-border p-4 relative group hover:border-[#ff6600] transition-colors"
+                className="group border border-[#f0f0f0]/20 p-4 hover:border-[#ff6600] transition-colors relative"
               >
                 <div className="mb-3">
                   <span className="tag-sticker tag-sticker-red">

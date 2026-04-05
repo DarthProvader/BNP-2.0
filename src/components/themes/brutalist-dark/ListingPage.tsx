@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
+import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -26,6 +27,7 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
   const [lang, setLang] = useState<"cs" | "en">("cs");
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [extraVisible, setExtraVisible] = useState(0);
 
   const filtered = activeTag
     ? articles.filter((a) => a.tags.includes(activeTag))
@@ -201,28 +203,32 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         }
       `}</style>
 
-      {/* Language switcher - fixed top right */}
-      <div className="fixed top-20 right-4 z-50 flex gap-1 font-mono text-[10px] uppercase tracking-widest">
-        <button
-          onClick={() => setLang("cs")}
-          className={`px-2 py-1 border transition-colors ${
-            lang === "cs"
-              ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-              : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-          }`}
-        >
-          CZ
-        </button>
-        <button
-          onClick={() => setLang("en")}
-          className={`px-2 py-1 border transition-colors ${
-            lang === "en"
-              ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-              : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-          }`}
-        >
-          EN
-        </button>
+      {/* Language switcher + Theme picker - fixed top right */}
+      <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
+        <ThemePicker variant="brutalist" />
+        <div className="w-[1px] h-4 bg-[#f0f0f0]/20" />
+        <div className="flex gap-1">
+          <button
+            onClick={() => setLang("cs")}
+            className={`px-2 py-1 border transition-colors ${
+              lang === "cs"
+                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+            }`}
+          >
+            CZ
+          </button>
+          <button
+            onClick={() => setLang("en")}
+            className={`px-2 py-1 border transition-colors ${
+              lang === "en"
+                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+            }`}
+          >
+            EN
+          </button>
+        </div>
       </div>
 
       <div className="brutal-page min-h-screen max-w-full min-[1920px]:max-w-[60%] mx-auto">
@@ -260,9 +266,9 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             {/* NAV */}
             <nav className="flex flex-col gap-3 lg:items-end pl-4 sm:pl-0">
               <div className="flex gap-4 font-mono text-xs sm:text-sm uppercase tracking-widest">
-                <a href="#clanky" className="harsh-underline text-[#f0f0f0]">
+                <Link href="/clanky" className="harsh-underline text-[#f0f0f0]">
                   {t("Články", "Articles")}
-                </a>
+                </Link>
                 <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
                   {t("Zdroje", "Resources")}
                 </Link>
@@ -286,22 +292,22 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
         {/* TAG BAR */}
         <section className="px-4 sm:px-8 py-6 border-y border-[#f0f0f0]/10">
           <div
-            className="flex items-center gap-2 cursor-pointer lg:cursor-default"
+            className="flex items-center gap-2 cursor-pointer"
             onClick={() => setFiltersOpen(!filtersOpen)}
           >
             <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-widest mr-4">
-              {t("Filtry //", "Filters //")}
+              {t(`Filtry (${allTags.length}) //`, `Filters (${allTags.length}) //`)}
             </span>
             {activeTag && (
-              <span className="tag-sticker bg-[#f0f0f0] text-[#0a0a0a] lg:hidden">
+              <span className="tag-sticker bg-[#f0f0f0] text-[#0a0a0a]">
                 {activeTag}
               </span>
             )}
-            <span className="lg:hidden font-mono text-[10px] text-[#f0f0f0]/40 ml-auto">
+            <span className="font-mono text-[10px] text-[#f0f0f0]/40 ml-auto">
               {filtersOpen ? "▲" : "▼"}
             </span>
           </div>
-          <div className={`flex-wrap items-center gap-2 mt-3 ${filtersOpen ? "flex" : "hidden lg:flex"}`}>
+          <div className={`flex-wrap items-center gap-2 mt-3 ${filtersOpen ? "flex" : "hidden"}`}>
             {allTags.map((tag) => (
               <span
                 key={tag}
@@ -536,40 +542,47 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
               </Link>
             )}
           </div>
-        </section>
 
-        {/* STATS STRIP */}
-        <section className="border-y border-[#f0f0f0]/10 py-6 px-4 sm:px-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff6600]">{articles.length}</div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                {t("Článků dnes", "Articles today")}
-              </div>
+          {/* Load more articles */}
+          {extraVisible > 0 && rest.length > 4 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+              {rest.slice(4, 4 + extraVisible).map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`${basePath}/${article.slug}`}
+                  className="noise-border p-5 relative group hover:bg-[#f0f0f0]/5 transition-colors"
+                >
+                  <div className="font-mono text-[10px] text-[#f0f0f0]/30 mb-2">
+                    {article.date} // {article.readTime} min
+                  </div>
+                  <h3 className="font-headline text-lg text-[#f0f0f0] group-hover:text-[#ff6600] transition-colors mb-2">
+                    {lang === "cs" ? article.title : article.titleEn}
+                  </h3>
+                  <p className="font-mono text-[11px] text-[#f0f0f0]/40 line-clamp-2 leading-relaxed">
+                    {lang === "cs" ? article.excerpt : article.excerptEn}
+                  </p>
+                  <div className="flex gap-1 flex-wrap mt-3">
+                    {article.tags.slice(0, 3).map((tag) => (
+                      <span key={tag} className="tag-sticker text-[#f0f0f0]/40" style={{ fontSize: "8px" }}>
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </Link>
+              ))}
             </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#f0f0f0]">
-                {allTags.length}
-              </div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                {t("Témat", "Topics")}
-              </div>
+          )}
+
+          {rest.length > 4 + extraVisible && (
+            <div className="mt-8 text-center">
+              <button
+                onClick={() => setExtraVisible((c) => c + 6)}
+                className="font-mono text-xs uppercase tracking-widest text-[#ff6600] border border-[#ff6600] px-6 py-3 hover:bg-[#ff6600] hover:text-[#0a0a0a] transition-colors cursor-pointer"
+              >
+                {t("Další články", "More articles")} ({rest.length - 4 - extraVisible})
+              </button>
             </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#f0f0f0]">3</div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                {t("AI komentátoři", "AI commentators")}
-              </div>
-            </div>
-            <div>
-              <div className="font-headline text-4xl sm:text-5xl text-[#ff6600] cursor-blink">
-                24
-              </div>
-              <div className="font-mono text-[10px] text-[#f0f0f0]/40 uppercase tracking-widest mt-1">
-                {t("Hodin non-stop", "Hours non-stop")}
-              </div>
-            </div>
-          </div>
+          )}
         </section>
 
         {/* FOOTER */}

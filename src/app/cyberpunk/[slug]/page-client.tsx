@@ -5,6 +5,7 @@ import ArticleContent from "@/components/ArticleContent";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Righteous, Chakra_Petch, Fira_Code } from "next/font/google";
+import ThemePicker from "@/components/ThemePicker";
 
 /* ------------------------------------------------------------------ */
 /*  Fonts                                                              */
@@ -232,35 +233,38 @@ export default function ArticleDetailPage({
               <span>zpet</span>
             </Link>
 
-            <button
-              onClick={() => setLang(lang === "cs" ? "en" : "cs")}
-              className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border cursor-pointer"
-              style={{
-                fontFamily: "var(--font-fira)",
-                borderColor: "#00f0ff",
-                color: "#00f0ff",
-                textShadow: "0 0 8px rgba(0,240,255,0.5)",
-              }}
-            >
-              <span>{lang === "cs" ? "EN" : "CZ"}</span>
-              <div
-                className="absolute inset-0 opacity-20"
+            <div className="flex items-center gap-3">
+              <ThemePicker variant="cyberpunk" />
+              <button
+                onClick={() => setLang(lang === "cs" ? "en" : "cs")}
+                className="relative px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase transition-all duration-300 border cursor-pointer"
                 style={{
-                  background:
-                    "linear-gradient(135deg, rgba(0,240,255,0.2), transparent)",
+                  fontFamily: "var(--font-fira)",
+                  borderColor: "#00f0ff",
+                  color: "#00f0ff",
+                  textShadow: "0 0 8px rgba(0,240,255,0.5)",
                 }}
-              />
-            </button>
+              >
+                <span>{lang === "cs" ? "EN" : "CZ"}</span>
+                <div
+                  className="absolute inset-0 opacity-20"
+                  style={{
+                    background:
+                      "linear-gradient(135deg, rgba(0,240,255,0.2), transparent)",
+                  }}
+                />
+              </button>
+            </div>
           </div>
 
           {/* Neon title glow */}
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight animate-[neonFlicker_4s_infinite]"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
             style={{
               fontFamily: "var(--font-righteous)",
-              color: "#00f0ff",
+              color: "#e0f8ff",
               textShadow:
-                "0 0 7px #00f0ff, 0 0 10px #00f0ff, 0 0 21px #00f0ff, 0 0 42px #00f0ff, 0 0 82px #00f0ff80, 0 0 92px #00f0ff40",
+                "0 0 10px rgba(0,240,255,0.5), 0 0 30px rgba(0,240,255,0.2)",
             }}
           >
             {title}
@@ -289,7 +293,7 @@ export default function ArticleDetailPage({
               textShadow: "0 0 6px rgba(255,208,0,0.4)",
             }}
           >
-            {article.readTime} MIN READ
+            {article.readTime} {lang === "cs" ? "MIN ČTENÍ" : "MIN READ"}
           </span>
           <div className="flex items-center gap-2 flex-wrap ml-auto">
             {article.tags.map((tag) => (
@@ -344,7 +348,7 @@ export default function ArticleDetailPage({
               <ArticleContent
                 content={content}
                 headingClassName="mt-8 mb-4 text-xl sm:text-2xl font-bold text-[#00f0ff] first:mt-0"
-                paragraphClassName="mb-5 text-sm sm:text-base leading-relaxed text-[#e0e0e0]/70"
+                paragraphClassName="mb-5 text-sm sm:text-base leading-relaxed text-[#f0f0f0]/80"
                 strongClassName="font-bold text-[#e0e0e0]"
                 emClassName="italic text-[#e0e0e0]/50"
                 linkClassName="text-[#00f0ff] underline"

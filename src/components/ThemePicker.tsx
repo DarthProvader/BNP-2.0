@@ -26,17 +26,21 @@ function getActiveTheme(pathname: string): string {
   const firstSegment = pathname.split("/").filter(Boolean)[0] || "";
   if (pathname === "/") return "brutalist-dark";
   if (THEME_ROUTES.includes(firstSegment)) return firstSegment;
-  // Root-level slug (e.g. /some-article) = brutalist-dark
   return "brutalist-dark";
 }
 
-export default function ThemePicker() {
+export default function ThemePicker({
+  variant = "neutral",
+}: {
+  variant?: "brutalist" | "cyberpunk" | "neutral";
+}) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
   const panelRef = useRef<HTMLDivElement>(null);
   const activeId = getActiveTheme(pathname);
   const activeTheme = themes.find((t) => t.id === activeId) ?? themes[0];
+  const otherTheme = themes.find((t) => t.id !== activeId) ?? themes[1];
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -48,7 +52,6 @@ export default function ThemePicker() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open]);
 
-  // Close panel on route change
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
@@ -58,7 +61,6 @@ export default function ThemePicker() {
     const isArticlePage = segments.length >= 2 || (segments.length === 1 && !THEME_ROUTES.includes(segments[0]));
 
     if (isArticlePage) {
-      // Article detail page - swap prefix, keep slug
       const slug = THEME_ROUTES.includes(segments[0]) ? segments.slice(1).join("/") : segments[0];
       if (theme.id === "brutalist-dark") {
         router.push(`/${slug}`);
@@ -66,24 +68,21 @@ export default function ThemePicker() {
         router.push(`/${theme.id}/${slug}`);
       }
     } else {
-      // Listing page
       router.push(theme.route);
     }
   }
 
   return (
-    <div ref={panelRef} className="fixed bottom-5 right-5 z-[9999]">
-      {/* Panel */}
+    <div ref={panelRef} className="relative">
+      {/* Panel dropdown */}
       {open && (
         <div
-          className="absolute bottom-12 right-0 w-56 border border-neutral-700 rounded-lg overflow-hidden shadow-2xl"
-          style={{ backgroundColor: "#111" }}
+          className="absolute top-full right-0 mt-1 w-48 border rounded-md overflow-hidden shadow-2xl z-[9999]"
+          style={{
+            backgroundColor: "#111",
+            borderColor: variant === "cyberpunk" ? "#00f0ff30" : variant === "brutalist" ? "#f0f0f030" : "#333",
+          }}
         >
-          <div className="px-3 py-2 border-b border-neutral-800">
-            <span className="text-[10px] font-mono uppercase tracking-widest text-neutral-500">
-              Theme
-            </span>
-          </div>
           <div className="p-1.5 flex flex-col gap-0.5">
             {themes.map((theme) => (
               <button
@@ -96,16 +95,14 @@ export default function ThemePicker() {
                 }`}
               >
                 <span
-                  className="w-3 h-3 rounded-full shrink-0 border border-neutral-600"
+                  className="w-2.5 h-2.5 rounded-full shrink-0"
                   style={{ backgroundColor: theme.accent }}
                 />
-                <span className="text-xs font-mono text-neutral-300 truncate">
+                <span className="text-[10px] font-mono text-neutral-300 tracking-wider uppercase">
                   {theme.name}
                 </span>
                 {theme.id === activeId && (
-                  <span className="ml-auto text-[10px] text-neutral-500">
-                    ●
-                  </span>
+                  <span className="ml-auto text-[10px] text-neutral-500">●</span>
                 )}
               </button>
             ))}
@@ -114,19 +111,28 @@ export default function ThemePicker() {
       )}
 
       {/* Toggle button */}
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex items-center gap-2.5 px-4 py-2.5 rounded-lg border border-neutral-700 shadow-lg transition-all hover:border-neutral-500 hover:shadow-xl"
-        style={{ backgroundColor: "#111" }}
-      >
-        <span
-          className="w-3 h-3 rounded-full shrink-0"
-          style={{ backgroundColor: activeTheme.accent }}
-        />
-        <span className="text-xs font-mono text-neutral-300 uppercase tracking-wider whitespace-nowrap">
-          Změnit vzhled
-        </span>
-      </button>
+      {variant === "cyberpunk" ? (
+        <button
+          onClick={() => setOpen(!open)}
+          className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold tracking-[0.2em] border transition-colors cursor-pointer"
+          style={{
+            borderColor: "#00f0ff",
+            color: "#00f0ff",
+            textShadow: "0 0 8px rgba(0,240,255,0.5)",
+          }}
+        >
+          <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: activeTheme.accent }} />
+          <span className="font-mono uppercase">{activeTheme.name}</span>
+        </button>
+      ) : (
+        <button
+          onClick={() => setOpen(!open)}
+          className="flex items-center gap-2 px-4 py-1.5 border border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80 transition-colors"
+        >
+          <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: activeTheme.accent }} />
+          <span className="font-mono text-[10px] uppercase tracking-widest">{activeTheme.name}</span>
+        </button>
+      )}
     </div>
   );
 }

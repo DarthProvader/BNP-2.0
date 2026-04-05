@@ -195,6 +195,9 @@ export default function AboutPageClient() {
               </div>
               <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest">
                 <Link href="/" className="harsh-underline text-[#f0f0f0]">
+                  {t("Domů", "Home")}
+                </Link>
+                <Link href="/clanky" className="harsh-underline text-[#f0f0f0]">
                   {t("Články", "Articles")}
                 </Link>
                 <Link href="/resources" className="harsh-underline text-[#f0f0f0]">
