@@ -14,16 +14,34 @@ youtube:
     slug: "matt-wolfe"
     feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g"
     tags: ["ai-tools", "news"]
+    show_on_homepage: true
 
   - name: "AI Explained"
     slug: "ai-explained"
     feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"
     tags: ["ai-research", "explainer"]
+    show_on_homepage: true
+
+  - name: "Fantastic Future"
+    slug: "fantastic-future-yt"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA"
+    tags: ["ai", "czech"]
+    show_on_homepage: true
 
   - name: "Theo - t3.gg"
     slug: "theo-t3gg"
     feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA"
     tags: ["dev", "typescript", "ai"]
+
+  - name: "AI Advantage"
+    slug: "ai-advantage"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ"
+    tags: ["ai-tools", "productivity"]
+
+  - name: "NetworkChuck"
+    slug: "networkchuck"
+    feed_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ"
+    tags: ["networking", "ai", "tutorials"]
 
   - name: "Fireship"
     slug: "fireship"
