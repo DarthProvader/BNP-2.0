@@ -96,5 +96,66 @@ export function getArticleSlugs(): string[] {
   return loadArticles().map((a) => a.slug);
 }
 
+// ── YouTube videos (fetched live from RSS) ──
+
+export interface YouTubeVideo {
+  title: string;
+  url: string;
+  published: string;
+  author: string;
+  thumbnail: string;
+}
+
+export interface YouTubeChannel {
+  name: string;
+  slug: string;
+  feedUrl: string;
+}
+
+export async function fetchLatestVideos(channels: YouTubeChannel[], count = 1): Promise<YouTubeVideo[]> {
+  const videos: YouTubeVideo[] = [];
+
+  const results = await Promise.allSettled(
+    channels.map(async (ch) => {
+      const res = await fetch(ch.feedUrl, { next: { revalidate: 3600 } });
+      if (!res.ok) return null;
+      const xml = await res.text();
+      return { xml, channel: ch };
+    })
+  );
+
+  for (const result of results) {
+    if (result.status !== "fulfilled" || !result.value) continue;
+    const { xml, channel } = result.value;
+
+    // Parse more entries than needed so we can skip shorts
+    const entries = xml.split("<entry>").slice(1, 1 + count + 5);
+    let added = 0;
+    for (const entry of entries) {
+      if (added >= count) break;
+      const title = entry.match(/<title>([^<]+)<\/title>/)?.[1] || "";
+      const videoId = entry.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1] || "";
+      const published = entry.match(/<published>([^<]+)<\/published>/)?.[1] || "";
+      const author = entry.match(/<name>([^<]+)<\/name>/)?.[1] || channel.name;
+      const link = entry.match(/<link[^>]+href="([^"]+)"/)?.[1] || "";
+
+      if (!videoId) continue;
+      // Skip YouTube Shorts
+      if (link.includes("/shorts/")) continue;
+
+      videos.push({
+        title,
+        url: `https://www.youtube.com/watch?v=${videoId}`,
+        published,
+        author,
+        thumbnail: `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`,
+      });
+      added++;
+    }
+  }
+
+  return videos.sort((a, b) => (b.published || "").localeCompare(a.published || ""));
+}
+
 // Re-export types for convenience
 export type { Article, Source, AIComment } from "./mockData";

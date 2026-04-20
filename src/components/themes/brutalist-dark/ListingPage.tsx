@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
+import type { YouTubeVideo } from "@/lib/mdx";
 import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
@@ -21,9 +22,11 @@ interface PageClientProps {
   articles: Article[];
   allTags: string[];
   basePath?: string;
+  videos?: YouTubeVideo[];
+  pinnedVideos?: YouTubeVideo[];
 }
 
-export default function PageClient({ articles, allTags, basePath = "/11" }: PageClientProps) {
+export default function PageClient({ articles, allTags, basePath = "/11", videos = [], pinnedVideos = [] }: PageClientProps) {
   const [lang, setLang] = useState<"cs" | "en">("cs");
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -584,6 +587,94 @@ export default function PageClient({ articles, allTags, basePath = "/11" }: Page
             </div>
           )}
         </section>
+
+        {/* LATEST VIDEOS */}
+        {videos.length > 0 && (
+          <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
+                // {t("Nová videa", "New videos")}
+              </span>
+              <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {videos.map((video) => (
+                <a
+                  key={video.url}
+                  href={video.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group border border-[#f0f0f0]/10 hover:border-[#ff6600] transition-colors overflow-hidden"
+                >
+                  {video.thumbnail && (
+                    <div className="relative aspect-video overflow-hidden bg-[#0a0a0a]">
+                      <img
+                        src={video.thumbnail}
+                        alt={video.title}
+                        className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                      />
+                      <div className="absolute bottom-2 right-2 bg-[#0a0a0a]/80 px-2 py-0.5 font-mono text-[9px] text-[#ff6600] uppercase">
+                        ▶ YouTube
+                      </div>
+                    </div>
+                  )}
+                  <div className="p-4">
+                    <div className="font-mono text-[10px] text-[#f0f0f0]/30 mb-1">
+                      {video.author} • {video.published?.slice(0, 10)}
+                    </div>
+                    <h3 className="font-headline text-sm sm:text-base text-[#f0f0f0] group-hover:text-[#ff6600] transition-colors leading-tight line-clamp-2">
+                      {video.title}
+                    </h3>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* PINNED VIDEOS */}
+        {pinnedVideos.length > 0 && (
+          <section className="px-4 sm:px-8 py-8 border-t border-[#f0f0f0]/10">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="font-mono text-[10px] text-[#ff6600] uppercase tracking-[0.3em]">
+                // {t("Vybraná videa", "Picks")}
+              </span>
+              <div className="h-[1px] flex-1 bg-[#ff6600]/40" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {pinnedVideos.map((video) => (
+                <a
+                  key={video.url}
+                  href={video.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group border border-[#f0f0f0]/10 hover:border-[#ff6600] transition-colors overflow-hidden"
+                >
+                  {video.thumbnail && (
+                    <div className="relative aspect-video overflow-hidden bg-[#0a0a0a]">
+                      <img
+                        src={video.thumbnail}
+                        alt={video.title}
+                        className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                      />
+                      <div className="absolute bottom-2 right-2 bg-[#0a0a0a]/80 px-2 py-0.5 font-mono text-[9px] text-[#ff6600] uppercase">
+                        ▶ YouTube
+                      </div>
+                    </div>
+                  )}
+                  <div className="p-4">
+                    <div className="font-mono text-[10px] text-[#f0f0f0]/30 mb-1">
+                      {video.author}{video.published ? ` • ${video.published.slice(0, 10)}` : ""}
+                    </div>
+                    <h3 className="font-headline text-sm sm:text-base text-[#f0f0f0] group-hover:text-[#ff6600] transition-colors leading-tight line-clamp-2">
+                      {video.title}
+                    </h3>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* FOOTER */}
         <footer className="px-4 sm:px-8 py-12 relative">
