@@ -22,6 +22,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from utils import setup_logging
 
+SCRIPTS_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPTS_DIR.parent
+
 # ---------------------------------------------------------------------------
 # Step result
 # ---------------------------------------------------------------------------
@@ -172,7 +175,7 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
         logger.info("Přeskakuji generování (--collect-only)")
         results.append(StepResult(name="Article generator", status="SKIPPED", detail="přeskočeno"))
     else:
-        total_steps = 6 if not skip_collect else 1
+        total_steps = 7 if not skip_collect else 2
         step_num = 6 if not skip_collect else 1
 
         from generators.article_generator import generate_articles
@@ -181,6 +184,21 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
             generate_articles, logger, critical=True,
             target_date=target_date,
         ))
+
+        # ------- FÁZE 3: Social autopilot -------
+        gen_result = results[-1]
+        if gen_result.status == "OK":
+            step_num += 1
+            results.append(run_step(
+                step_num, total_steps, "Social autopilot",
+                _run_social, logger,
+                target_date=target_date,
+            ))
+        else:
+            results.append(StepResult(
+                name="Social autopilot", status="SKIPPED",
+                detail="článek selhal, spouštět nemá smysl",
+            ))
 
     # ------- Souhrn -------
     total_time = time.time() - t0
@@ -191,6 +209,30 @@ def run_pipeline(target_date: str, skip_collect: bool, collect_only: bool) -> in
     if gen_result and gen_result.status == "FAILED":
         return 1
     return 0
+
+
+# ---------------------------------------------------------------------------
+# Social autopilot (sync)
+# ---------------------------------------------------------------------------
+
+def _run_social(target_date: str) -> dict[str, str]:
+    """Generate drafts via ClaudeBridge and publish to X + LinkedIn.
+
+    Runs synchronously within the pipeline — Claude generates drafts (30-60s)
+    and the publisher helpers post immediately. No approval, no Discord,
+    no interactive session.
+    """
+    from run_social import run as run_social
+
+    exit_code = run_social(
+        target_date=target_date,
+        dry_run=False,
+        skip_twitter=False,
+        skip_linkedin=False,
+    )
+    if exit_code != 0:
+        raise RuntimeError(f"run_social vrátil exit {exit_code}")
+    return {"status": "published"}
 
 
 # ---------------------------------------------------------------------------

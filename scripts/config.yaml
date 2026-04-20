@@ -7,6 +7,17 @@ output_dir: "../content/raw"
 # Default cutoff for first run (hours) — only fetch items newer than this
 first_run_cutoff_hours: 48
 
+# ---- Social media automation (autopilot) ----
+social:
+  enabled: true
+  platforms:
+    twitter:
+      enabled: true
+      account: "@martin_kovac404"  # TODO: dedicated BNP account až půjde založit
+    linkedin:
+      enabled: true
+      account: "berou-nam-praci"
+
 # ---- RSS Sources ----
 
 youtube:
