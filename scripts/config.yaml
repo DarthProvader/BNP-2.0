@@ -197,7 +197,3 @@ reddit:
   - name: "technology"
     slug: "technology"
     tags: ["tech", "news"]
-
-  - name: "Bard"
-    slug: "bard"
-    tags: ["google", "gemini"]
