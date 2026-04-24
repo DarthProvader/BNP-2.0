@@ -128,8 +128,8 @@ export async function fetchLatestVideos(channels: YouTubeChannel[], count = 1): 
     if (result.status !== "fulfilled" || !result.value) continue;
     const { xml, channel } = result.value;
 
-    // Parse more entries than needed so we can skip shorts
-    const entries = xml.split("<entry>").slice(1, 1 + count + 5);
+    // Scan all entries so shorts never block reaching `count` non-short videos
+    const entries = xml.split("<entry>").slice(1);
     let added = 0;
     for (const entry of entries) {
       if (added >= count) break;
