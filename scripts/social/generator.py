@@ -58,16 +58,18 @@ def _build_prompt(article_text: str) -> str:
 - Hlavní tweet (první) = hook. **Nesmí obsahovat externí link.**
 - Tweety 2-N: jedna myšlenka na tweet, rozbaluje klíčové body článku.
 - Poslední tweet = hashtagy (max 3, relevantní: #AI, #AINews, #LLM apod.). Žádný link.
-- Tón: jako článek — ironický, ale věcný. Žádné buzzwordy typu "game-changer".
-- Oddělovač mezi tweety je samostatný řádek `---`.
+- Tón: jako článek, ironický ale věcný. Žádné buzzwordy typu "game-changer".
+- **Nepoužívej em-dash „—" ani en-dash „–"** (typický AI tell). Místo nich použij čárku, tečku, dvojtečku, závorky nebo spojku („a", „ale", „protože").
+- Oddělovač mezi tweety je samostatný řádek `---` (to je markdown separator, ne součást tweetu).
 
 ## Pravidla pro LinkedIn
 - 1500-2500 znaků.
 - Hook v prvním odstavci (3 věty max, musí přežít „see more" cutoff).
-- Struktura: úvod → 3 konkrétní takeaways (✓, →, 📌 nebo podobné) → závěrečná otázka.
+- Struktura: úvod → 3 konkrétní takeaways (✓, →, 📌 nebo podobné) → krátké shrnutí nebo pointa na závěr. **Žádná výzva k interakci, žádné otázky čtenáři typu „Co si o tom myslíte?", „Co vás zaujalo?" apod.**
 - NE**dávej** link na článek do textu. Publisher ho automaticky připojí na konec.
 - 5-10 hashtagů na konci (#AI #MachineLearning #TechNews apod.).
 - Čeština s diakritikou.
+- **Nepoužívej em-dash „—" ani en-dash „–"** (typický AI tell). Místo nich použij čárku, tečku, dvojtečku, závorky nebo spojku („a", „ale", „protože"). Běžnou spojovací pomlčku ve složeninách („AI-driven") můžeš.
 
 ## Article (MDX)
 
