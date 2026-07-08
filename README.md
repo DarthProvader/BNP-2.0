@@ -1,56 +1,57 @@
 # Berou nám práci 2.0
 
-> **AI žere svět. My o tom píšeme.**
+> **AI is eating the world. We write about it.**
+> *("Berou nám práci" is Czech for "They're taking our jobs.")*
 
-Plně automatizovaný dvojjazyčný news blog o umělé inteligenci. Každý den bez lidského zásahu nasbírá novinky ze světa AI z desítek zdrojů, zpracuje je pomocí LLM, napíše článek s vlastním názorem a ozdrojováním, publikuje ho na webu a rozešle na sociální sítě.
+A fully automated, bilingual news blog about artificial intelligence. Every day, with no human intervention, it collects AI news from dozens of sources, processes them with LLMs, writes an opinionated and fully sourced article, publishes it to the web, and distributes it to social media.
 
-Projekt je zároveň experiment: **kolik novinářské práce dokáže dnes obstarat AI pipeline sama od sebe** — od sběru dat přes redakční výběr až po publikaci a distribuci.
-
----
-
-## Co to umí
-
-- 🗞️ **Zero-touch denní pipeline** — jeden příkaz (nebo Windows Task Scheduler) nasbírá data, vygeneruje článek a publikuje ho
-- 🌍 **Dvojjazyčnost** — každý článek vzniká v české i anglické verzi (aktuálně 126 + 126 článků)
-- 🔎 **Sběr z více zdrojů** — RSS (YouTube, podcasty, AI blogy), Twitter/X, Reddit, FutureTools, YouTube přepisy
-- ✍️ **LLM redakce** — filtrování důležitých novinek, psaní článku s názorem, generování komentářů z pohledu různých AI modelů
-- 📎 **Ozdrojování** — každé tvrzení má odkaz na originální zdroj
-- 📣 **Social autopilot** — po publikaci automatické příspěvky na X a LinkedIn
-- ⚡ **Statický web** — Next.js SSG, MDX jako zdroj článků, rychlé a SEO friendly
+The project is also an experiment: **how much editorial work can an AI pipeline handle on its own today** — from data collection through editorial curation to publishing and distribution.
 
 ---
 
-## Architektura
+## What it does
 
-Projekt má dvě oddělené části: **Python pipeline** (běží lokálně / v CI, generuje obsah) a **Next.js web** (renderuje MDX články).
+- 🗞️ **Zero-touch daily pipeline** — a single command (or Windows Task Scheduler) collects data, generates an article, and publishes it
+- 🌍 **Bilingual** — every article is produced in both Czech and English (currently 126 + 126 articles)
+- 🔎 **Multi-source collection** — RSS (YouTube, podcasts, AI blogs), Twitter/X, Reddit, FutureTools, YouTube transcripts
+- ✍️ **LLM newsroom** — filters the important news, writes an opinionated article, generates commentary from the perspective of different AI models
+- 📎 **Sourcing** — every claim links back to its original source
+- 📣 **Social autopilot** — automatic posts to X and LinkedIn after publishing
+- ⚡ **Static site** — Next.js SSG, MDX as the article source, fast and SEO friendly
+
+---
+
+## Architecture
+
+The project has two separate parts: a **Python pipeline** (runs locally / in CI, generates content) and a **Next.js site** (renders the MDX articles).
 
 ```
-┌─────────────────────── DENNÍ PIPELINE (Python) ───────────────────────┐
+┌─────────────────────── DAILY PIPELINE (Python) ───────────────────────┐
 │                                                                        │
-│  1. SBĚR DAT                                                           │
-│     ├── RSS collector      → YouTube, podcasty, AI blogy               │
-│     ├── Twitter collector  → X účty (přes Apify)                       │
-│     ├── Reddit collector   → AI subreddity                             │
-│     ├── YT transcripts     → přepisy videí                             │
-│     └── FutureTools        → nové AI nástroje (Playwright)             │
+│  1. DATA COLLECTION                                                    │
+│     ├── RSS collector      → YouTube, podcasts, AI blogs               │
+│     ├── Twitter collector  → X accounts (via Apify)                    │
+│     ├── Reddit collector   → AI subreddits                             │
+│     ├── YT transcripts     → video transcripts                        │
+│     └── FutureTools        → new AI tools (Playwright)                 │
 │                    │                                                    │
 │                    ▼                                                    │
-│  2. GENEROVÁNÍ (LLM)                                                    │
-│     ├── výběr a prioritizace novinek                                   │
-│     ├── článek s vlastním názorem + zdroje                             │
-│     ├── komentáře z pohledu různých AI modelů                          │
-│     └── výstup: MDX (CZ + EN) s frontmatter metadaty                   │
+│  2. GENERATION (LLM)                                                    │
+│     ├── news selection & prioritization                               │
+│     ├── opinionated article + sources                                 │
+│     ├── commentary from different AI models                           │
+│     └── output: MDX (CS + EN) with frontmatter metadata               │
 │                    │                                                    │
 │                    ▼                                                    │
-│  3. PUBLIKACE                                                          │
-│     ├── git commit + push  → web se přebuilduje                        │
-│     └── social autopilot   → X + LinkedIn                              │
+│  3. PUBLISHING                                                         │
+│     ├── git commit + push  → site rebuilds                            │
+│     └── social autopilot   → X + LinkedIn                             │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
                      │
                      ▼
-┌─────────────────────────── WEB (Next.js) ─────────────────────────────┐
-│  MDX soubory → SSG → statické stránky (listing, detail, resources)     │
+┌─────────────────────────── SITE (Next.js) ────────────────────────────┐
+│  MDX files → SSG → static pages (listing, detail, resources)           │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -58,102 +59,102 @@ Projekt má dvě oddělené části: **Python pipeline** (běží lokálně / v 
 
 ## Tech stack
 
-| Vrstva            | Technologie                                              |
-| ----------------- | -------------------------------------------------------- |
-| **Web**           | Next.js 16 (App Router), React 19, TypeScript, Tailwind 4 |
-| **Runtime (web)** | Bun                                                      |
-| **Obsah**         | MDX soubory v git repu (`gray-matter`, `react-markdown`) |
-| **Pipeline**      | Python 3.12                                              |
-| **Sběr dat**      | `feedparser`, Apify, Playwright, `youtube-transcript-api` |
-| **LLM**           | Claude Code (orchestrace), Azure OpenAI, Google Vertex AI |
-| **Social**        | `tweepy` (X), LinkedIn API                               |
-| **Scheduling**    | Windows Task Scheduler / GitHub Actions                  |
-| **Hosting**       | Vercel (auto-deploy z gitu)                              |
+| Layer              | Technology                                               |
+| ------------------ | -------------------------------------------------------- |
+| **Web**            | Next.js 16 (App Router), React 19, TypeScript, Tailwind 4 |
+| **Runtime (web)**  | Bun                                                      |
+| **Content**        | MDX files in the git repo (`gray-matter`, `react-markdown`) |
+| **Pipeline**       | Python 3.12                                              |
+| **Data collection**| `feedparser`, Apify, Playwright, `youtube-transcript-api` |
+| **LLM**            | Claude Code (orchestration), Azure OpenAI, Google Vertex AI |
+| **Social**         | `tweepy` (X), LinkedIn API                               |
+| **Scheduling**     | Windows Task Scheduler / GitHub Actions                  |
+| **Hosting**        | Vercel (auto-deploy from git)                            |
 
 ---
 
-## Struktura repozitáře
+## Repository structure
 
 ```
 BNP 2.0/
 ├── src/
 │   ├── app/                    # Next.js App Router (listing, detail, about, resources)
 │   ├── components/
-│   │   └── themes/             # vizuální témata (brutalist-dark)
-│   └── lib/                    # načítání MDX, config, metadata
+│   │   └── themes/             # visual themes (brutalist-dark)
+│   └── lib/                    # MDX loading, config, metadata
 ├── content/
 │   └── articles/
-│       ├── cs/                 # české články (MDX)
-│       └── en/                 # anglické články (MDX)
+│       ├── cs/                 # Czech articles (MDX)
+│       └── en/                 # English articles (MDX)
 ├── scripts/                    # Python pipeline
 │   ├── collectors/             # RSS, Twitter, Reddit, YT transcripts, FutureTools
-│   ├── generators/             # výběr novinek, psaní článku, komentáře, MDX zápis
-│   ├── social/                 # publikace na X + LinkedIn
-│   ├── bridge/                 # most k Claude Code
-│   ├── config.yaml             # zdroje dat (RSS feedy, X účty, subreddity)
-│   └── run_pipeline.py         # orchestrátor celé pipeline
-└── PRD.md                      # původní produktové zadání
+│   ├── generators/             # news selection, article writing, commentary, MDX writer
+│   ├── social/                 # publishing to X + LinkedIn
+│   ├── bridge/                 # bridge to Claude Code
+│   ├── config.yaml             # data sources (RSS feeds, X accounts, subreddits)
+│   └── run_pipeline.py         # orchestrator for the whole pipeline
+└── PRD.md                      # original product requirements document
 ```
 
 ---
 
-## Struktura článku (MDX)
+## Article structure (MDX)
 
-Každý článek je MDX soubor s frontmatter metadaty:
+Each article is an MDX file with frontmatter metadata:
 
 ```mdx
 ---
-title: "Název článku"
+title: "Article title"
 date: "2026-07-08"
-lang: "cs"
+lang: "en"
 tags: ["openai", "anthropic", "release"]
 sources:
-  - title: "Originální video"
+  - title: "Original video"
     url: "https://youtube.com/..."
     type: "youtube"
 aiComments:
   - model: "Gemini"
-    comment: "Zajímavé je, že..."
+    comment: "What's interesting is..."
 ---
 
-Obsah článku…
+Article content…
 ```
 
 ---
 
-## Spuštění
+## Running the project
 
 ### Web
 
 ```bash
 bun install
 bun dev            # http://localhost:3001
-bun run build      # produkční build
+bun run build      # production build
 ```
 
 ### Pipeline
 
 ```bash
 cd scripts
-python -m venv venv && source venv/bin/activate    # na Windows: venv\Scripts\activate
+python -m venv venv && source venv/bin/activate    # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-python run_pipeline.py                  # celá pipeline pro dnešek
+python run_pipeline.py                  # full pipeline for today
 python run_pipeline.py --date 2026-07-08
-python run_pipeline.py --collect-only   # jen sběr dat
-python run_pipeline.py --skip-collect   # jen generování
+python run_pipeline.py --collect-only   # collect data only
+python run_pipeline.py --skip-collect   # generate only
 ```
 
-Pipeline vyžaduje credentials předané přes proměnné prostředí (viz `.env`):
+The pipeline requires credentials passed via environment variables (see `.env`):
 `CLAUDE_CODE_OAUTH_TOKEN`, `APIFY_API_TOKEN`, `AZURE_OPENAI_KEY`, `AZURE_OPENAI_ENDPOINT`,
-`AZURE_DEPLOYMENT_NAME`, případně Vertex AI service account (`vertexai.json`).
+`AZURE_DEPLOYMENT_NAME`, and optionally a Vertex AI service account (`vertexai.json`).
 
-Konfigurace zdrojů dat (RSS feedy, X účty, subreddity) je v [scripts/config.yaml](scripts/config.yaml).
+Data source configuration (RSS feeds, X accounts, subreddits) lives in [scripts/config.yaml](scripts/config.yaml).
 
 ---
 
-## Poznámka k obsahu
+## A note on content
 
-Články jsou generované AI a slouží jako demonstrace automatizované content pipeline.
-Web je záměrně transparentní v tom, že jde o AI-generovaný obsah. Původní produktové
-zadání a rozvahu najdeš v [PRD.md](PRD.md).
+The articles are AI-generated and serve as a demonstration of an automated content pipeline.
+The site is intentionally transparent about the fact that the content is AI-generated. The
+original product requirements and rationale are in [PRD.md](PRD.md).
