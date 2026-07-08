@@ -3,6 +3,8 @@
 > **AI is eating the world. We write about it.**
 > *("Berou nám práci" is Czech for "They're taking our jobs.")*
 
+**🌐 Live at [berounampraci.cz](https://berounampraci.cz)**
+
 A fully automated, bilingual news blog about artificial intelligence. Every day, with no human intervention, it collects AI news from dozens of sources, processes them with LLMs, writes an opinionated and fully sourced article, publishes it to the web, and distributes it to social media.
 
 The project is also an experiment: **how much editorial work can an AI pipeline handle on its own today** — from data collection through editorial curation to publishing and distribution.
