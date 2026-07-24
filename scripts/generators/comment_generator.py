@@ -1,7 +1,9 @@
-"""AI comment generator — cascading calls to Claude, ChatGPT, and Gemini.
+"""AI comment generator — LEGACY (Azure + Vertex + Claude CLI).
 
-Each model has a distinct personality and reacts to previous comments,
-creating an entertaining discussion under each article.
+Daily comments now run via Cursor Automations (Opus 4.8 → GPT-5.6 Terra →
+Grok 4.5). See scripts/automations/ and scripts/run_cursor_daily.py.
+
+This module is kept only as a manual fallback while Azure/Vertex were available.
 """
 
 from __future__ import annotations

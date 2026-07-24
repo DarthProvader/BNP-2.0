@@ -1,0 +1,86 @@
+"""Package today's raw collector output into a git-tracked daily inbox.
+
+Cloud Automations only see files that are in git. content/raw/ is gitignored,
+so we copy today's JSONs into content/daily-inbox/{date}/ before triggering
+the article Automation.
+"""
+
+from __future__ import annotations
+
+import json
+import logging
+import shutil
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+RAW_DIR = PROJECT_ROOT / "content" / "raw"
+INBOX_DIR = PROJECT_ROOT / "content" / "daily-inbox"
+SOURCE_CATEGORIES = ("youtube", "twitter", "reddit", "blogs", "podcasts", "futuretools")
+
+
+def inbox_path(target_date: str) -> Path:
+    return INBOX_DIR / target_date
+
+
+def package_inbox(target_date: str) -> Path:
+    """Copy today's raw JSON files into content/daily-inbox/{date}/.
+
+    Returns the inbox directory path. Raises if no raw files exist.
+    """
+    dest_root = inbox_path(target_date)
+    if dest_root.exists():
+        shutil.rmtree(dest_root)
+    dest_root.mkdir(parents=True, exist_ok=True)
+
+    copied: list[str] = []
+    for category in SOURCE_CATEGORIES:
+        src_dir = RAW_DIR / category
+        if not src_dir.exists():
+            continue
+        files = sorted(src_dir.glob(f"{target_date}_*.json"))
+        if not files:
+            continue
+        dest_cat = dest_root / category
+        dest_cat.mkdir(parents=True, exist_ok=True)
+        for src in files:
+            dest = dest_cat / src.name
+            shutil.copy2(src, dest)
+            rel = f"{category}/{src.name}"
+            copied.append(rel)
+            logger.info("  inbox: %s", rel)
+
+    if not copied:
+        raise FileNotFoundError(
+            f"No raw files for {target_date} under {RAW_DIR}. "
+            "Run collectors first."
+        )
+
+    manifest = {
+        "date": target_date,
+        "files": copied,
+        "status": "ready_for_article",
+        "pipeline": {
+            "article_model": "claude-sonnet-5",
+            "comments": [
+                {"step": "opus", "model": "claude-opus-4.8", "label": "Claude Opus"},
+                {"step": "gpt", "model": "gpt-5.6-terra", "label": "ChatGPT"},
+                {"step": "grok", "model": "grok-4.5", "label": "Grok 4.5"},
+            ],
+        },
+    }
+    (dest_root / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    logger.info("Packaged %d files into %s", len(copied), dest_root)
+    return dest_root
+
+
+def clear_inbox(target_date: str) -> None:
+    """Remove today's inbox after a successful pipeline (optional cleanup)."""
+    path = inbox_path(target_date)
+    if path.exists():
+        shutil.rmtree(path)
+        logger.info("Cleared inbox %s", path)
