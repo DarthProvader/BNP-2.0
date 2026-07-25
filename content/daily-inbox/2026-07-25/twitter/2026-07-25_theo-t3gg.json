@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-25T04:00:41.509389+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080840325493657903",
+      "published": "2026-07-25T01:19:28+00:00",
+      "summary": "Uncle Bob is the hero we need in this era of change Uncle Bob Martin (@unclebobmartin) Ive been the technical lead on many different projects. I’ve spent quite a few years on call. Probably more years than you’ve been alive. — https://nitter.net/unclebobmartin/status/2080809374679724350#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/ggsimm/status/2080780472943022441",
+      "published": "2026-07-24T21:21:38+00:00",
+      "summary": "Currently the best overall horizontal agentic IDE and it’s not even close. Also open source meaning I can just change what I don’t like, we live in 2026 Theo - t3.gg (@theo) We've merged 76 PRs in T3 Code since Monday. - Added Auto mode for approvals in Claude Code and Codex - Added Sidebar v2 beta, a flat thread list with threads that settle when they're done - Added thread snoozing to sidebar v2 - Added t3.json shared project config - Added remote server updates from the app - Added Opus 5 support - Added light/dark mode preview - Added project grouping to new thread pickers, sidebar filters, and mobile thread lists - Added Claude Code skills to the composer $ picker - Added right click to copy a branch name - Added a glass opacity slider - Improved chat readability by folding big git diffs by default - Improved Claude defaults (1m context) - Improved worktree defaults (they branch from latest origin/main now) - Improved Codex defaults (gpt-5.4 is no longer the default model (lol)) -",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080793421472776627",
+      "published": "2026-07-24T22:13:05+00:00",
+      "summary": "I got so used to the limits with Fable that Opus feels practically unlimited",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080789645424767068",
+      "published": "2026-07-24T21:58:05+00:00",
+      "summary": "So far, Opus 5 feels like a strange but useful in-between of gpt-5.6-sol and Fable 5 It has a lot of Fable's taste, but also comes with gpt-5.6's thoroughness and, well, \"autism\" (it takes things super literally). It writes code that is slightly worse to look at than Fable, but more likely to be correct. It regularly is catching things that Fable missed. So far, feels like a good compromise compared to 5.6's messy code and Fable's habit of being too clever to be correct. I think I'm gonna like this model a lot.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080778486416101835",
+      "published": "2026-07-24T21:13:44+00:00",
+      "summary": "T3 CODE WORKS GREAT WITH YOUR CLAUDE CODE AND CODEX SUBSCRIPTIONS Shouting this because there's a LOT of confusion (esp. around Claude Code due to the policy changes that got indefinitely delayed) There's no way to pay us to use T3 Code. You bring your own sub. If you have Claude Code or Codex on your machine already, T3 Code is ready to go with a single command. `npx t3@nightly` to try it out :) Luis Morales (@lacion) can we now use CC with t3 code without paying with the blood of my firstborn? — https://nitter.net/lacion/status/2080777713447494116#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

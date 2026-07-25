@@ -1,0 +1,201 @@
+{
+  "source_type": "blogs",
+  "source_name": "FutureTools.io",
+  "source_slug": "futuretools",
+  "source_url": "https://futuretools.io/news",
+  "fetched_at": "2026-07-25T04:11:30.474550+00:00",
+  "items": [
+    {
+      "title": "Grok Launches Free Add-On for Google Workspace: Sheets, Slides, and Docs Support",
+      "url": "https://x.ai/news/introducing-google-workspace-addon?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Grok Launches Free Add-On for Google Workspace: Sheets, Slides, and Docs Support\n\nx.ai"
+    },
+    {
+      "title": "Midjourney Acquires Astrology App Co-Star, Names Founder as Chief Design Officer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Midjourney Acquires Astrology App Co-Star, Names Founder as Chief Design Officer\n\ntheverge.com"
+    },
+    {
+      "title": "Anthropic Launches Claude Opus 5: Near-Fable Intelligence at Half the Cost",
+      "url": "https://www.anthropic.com/news/claude-opus-5?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Anthropic Launches Claude Opus 5: Near-Fable Intelligence at Half the Cost\n\nanthropic.com"
+    },
+    {
+      "title": "All The AI News You Missed From The Past Week (Full Breakdown)",
+      "url": "https://youtu.be/Ww3EYbuHSfo?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "All The AI News You Missed From The Past Week (Full Breakdown)\n\nMatt Wolfe on YouTube"
+    },
+    {
+      "title": "Anthropic's Drone-Bench Tests AI Models on Autonomous Drone Surveillance Tasks",
+      "url": "https://www.anthropic.com/research/project-pilot?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "NVIDIA's Jensen Huang Backs Open AI Models in Letter on Safety and Innovation",
+      "url": "https://x.com/JensenHuang/status/2080643682408321103?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Grok Build Launches Workflows: Parallel Agent Orchestration for Complex Tasks",
+      "url": "https://x.ai/news/workflows?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Amazon Alexa+ Adds AI Smart Home Toolkit, MCP Support, and Amazon Wallet for Developers",
+      "url": "https://developer.amazon.com/alexaplus/blogs/2026/07/alexa-plus-new-ways-to-build-experiences?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "AMD EPYC 9006 \"Venice\" CPUs Deliver 256 Cores and 174% AI Performance Gain Over Intel",
+      "url": "https://www.amd.com/en/blogs/2026/agentic-ai-amd-epyc-9005-cpus-wins-today-epyc-9006.html?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "AMD Launches Helios Rack-Scale AI Platform with 72 MI455X GPUs, Rivals NVIDIA NVL72",
+      "url": "https://www.amd.com/en/blogs/2026/amd-launches-helios-the-highest-performing-rackscale-ai-infrastructure-solution.html?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "AMD and Cerebras Partner on Ultra-Low-Latency AI Inference Using Helios & Wafer-Scale Engine",
+      "url": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Claude Voice Mode Upgraded: Opus & Sonnet Models, Tool Integration & More Languages",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "ChatGPT Voice Comes to Desktop App for Mac and Windows, Enabling AI Agent Control",
+      "url": "https://x.com/OpenAI/status/2080378182469857576?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Experts Doubt Kimi K3 Success Stems From Distilling Anthropic's Fable LLM",
+      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Nvidia Jetson GPUs Headed to the Moon Aboard Lunar Outpost Rover",
+      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Runway Launches Agent 2.0: AI Tool That Turns Prompts Into Full Marketing Campaigns",
+      "url": "https://x.com/runwayml?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "ElevenLabs Launches References: Upload Tracks to Guide Music v2 Style Generation",
+      "url": "https://elevenlabs.io/blog/introducing-references-sound-control-for-music-v2?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Google Adds Selfie Video Sign-In Option for Locked-Out Account Recovery",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Microsoft MAI Models Boost GitHub Copilot and Excel, Matching GPT-5.6 Efficiency",
+      "url": "https://microsoft.ai/news/hill-climbing-mai-models-for-github-copilot-and-excel/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Black Forest Labs' FLUX 3 Powers FLUX-mimic Robot AI, Deployed at Audi Factories",
+      "url": "https://bfl.ai/blog/flux-3-mimic?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "FLUX 3 Multimodal AI Model Learns from Images, Video & Audio in Early Access",
+      "url": "https://bfl.ai/blog/flux-3?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Microsoft Launches MAI-Image-2.5-Pro and MAI-Voice-2-Flash in Public Preview",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "OpenAI Launches ChatGPT Health Feature Connecting Medical Records & Apple Health for U.S. Users",
+      "url": "https://openai.com/index/health-in-chatgpt/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Andrew Ng Launches OpenWorker: Open-Source AI Agent for Mac That Delivers Finished Work",
+      "url": "https://x.com/AndrewYNg/status/2080333504446108104?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-23",
+      "paywalled": false,
+      "summary": ""
+    }
+  ]
+}

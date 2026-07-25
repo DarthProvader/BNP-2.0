@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-25T04:00:29.739136+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2080849124379799606",
+      "published": "2026-07-25T01:54:26+00:00",
+      "summary": "Sorry I'm so excited... but, if you thought my Fable demos were cool, this one is just like 10 steps above I don't think I'm sleeping tonight (and I've been sick all week so this is wonderful timing) Matt Shumer (@mattshumer_) Okay I may have been extremely wrong about Opus 5... Holy fuck, this demo is going to blow the entirety of AI Twitter's minds tomorrow — https://nitter.net/mattshumer_/status/2080847874628145325#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2080847874628145325",
+      "published": "2026-07-25T01:49:28+00:00",
+      "summary": "Okay I may have been extremely wrong about Opus 5... Holy fuck, this demo is going to blow the entirety of AI Twitter's minds tomorrow",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2080848409209000192",
+      "published": "2026-07-25T01:51:35+00:00",
+      "summary": "If you want to see it first: shumer.dev/newsletter Link newsletter — matt shumer Get early access to AI reviews, builds, and notes from Matt Shumer. shumer.dev",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2080798119684387187",
+      "published": "2026-07-24T22:31:45+00:00",
+      "summary": "Claude Opus 5 really disappointed me with this result. I had it attempt to create the same type of educational 3D video I had Fable 5 create (see the quoted post) and the result is definitely a caliber below. Watch both, you'll see what I mean. Video Matt Shumer (@mattshumer_) Claude Fable made this Pixar-quality educational video in one shot. It's a preview of what I'm doing next: I've joined Alpha School to push the limits of what AI can do for learning. We're going to transform education for 1B kids. Video — https://nitter.net/mattshumer_/status/2066577266608386293#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2080796671873564783",
+      "published": "2026-07-24T22:26:00+00:00",
+      "summary": "Kids that go to @Alphaschool are going to have such an unfair advantage. Matt Shumer (@mattshumer_) Opus 5 enables this crazy new live AI tutor concept I'm prototyping for @AlphaSchool . It powers chat + direction under the hood, while a custom trained tiny world model(ish) acts as a real-time renderer and interactivity layer. Still rough, but it's already kind of insane. Video — https://nitter.net/mattshumer_/status/2080776301573497153#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

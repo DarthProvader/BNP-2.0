@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-07-25T04:00:24.958905+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2080683363174945065",
+      "published": "2026-07-24T14:55:45+00:00",
+      "summary": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this Jensen Huang (@JensenHuang) For my first post, I’m sharing a letter @NVIDIA signed on why open models matter. AI will transform every industry, power every company, and be built by every country. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. The world needs both frontier closed models and frontier open models. images.nvidia.com/pdf/Open-W… — https://nitter.net/JensenHuang/status/2080643682408321103#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2080683119959757243",
+      "published": "2026-07-24T14:54:47+00:00",
+      "summary": "let us know what you think of pro-ultra-superhard Ethan Mollick (@emollick) Agreed: GPT-5.6 Pro (which is only available via the chatbot) is the smartest model out there. GPT-5.6 Ultra (the best model in Codex) is not near as powerful on hard tasks. For really hard problems: GPT-5.6 Sol Pro>Fable 5 Ultracode > GPT-5.6 Sol Ultra. (Yes, this is confusing) — https://nitter.net/emollick/status/2080515937803886872#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
