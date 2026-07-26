@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-07-26T04:00:13.889815+00:00",
+  "items": [
+    {
+      "title": "Čína dohnala špičkovou AI 🇨🇳 Přejezd Ameriky na kole, Fold za 50 tisíc a omlazení kůže 🧬",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/na-dohnala-pikovou-AI--Pejezd-Ameriky-na-kole--Fold-za-50-tisc-a-omlazen-ke-e3mh9vd",
+      "published": "2026-07-25T10:48:46+00:00",
+      "summary": "Lubo je zpátky a tentokrát ne z Kansasu, ale z Los Angeles. Přejel Ameriku na kole z New Yorku do LA za 22 dní, nepřerušenou trasou, se 45 stupni v poušti a 8 000 kaloriemi denně. Jarda mezitím absolvoval vlastní maraton, 80 meetingů v Silicon Valley poté, co BottleCap AI vydal Thinking Cap a svět najednou objevil, že efektivita je to, o co jde. Máme pro vás i Kimi K3, nový Samsung Fold, telefony, které vás schválně nechají na pokoji, hlasový prsten místo displeje, robotické zápasy a enzym, který v laboratoři snížil chemické poškození v kůži starých dárců pod úroveň třicátníka. 🧬🎧 YouTube: https://www.youtube.com/@fantasticfuturepodcast 📱 Instagram: https://www.instagram.com/fantasticfuturepodcast/ 🌐 Web: https://fantasticfuture.comX: https://x.com/FFuturePod00:00 Úvod01:00 5 200 km přes Ameriku na kole03:00 Co s tělem udělá 22 dní v sedle04:50 Nejtěžší momenty cesty přes USA11:38 BottleCap news a efektivita AI15:45 Čína dohání nejlepší AI modely18:45 Samsung Fold a budoucnost iPhonu24",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

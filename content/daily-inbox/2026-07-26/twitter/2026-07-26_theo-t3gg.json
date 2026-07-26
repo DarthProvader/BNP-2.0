@@ -1,0 +1,50 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-26T04:00:28.771275+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081175044022313347",
+      "published": "2026-07-25T23:29:31+00:00",
+      "summary": "Rumors going around that Karpathy has resigned from Anthropic. This was his bio yesterday am.will (@LLMJunky) Did Karpathy remove Anthropic from bio? Or was it not there. — https://nitter.net/LLMJunky/status/2081114803834376218#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080984364746440851",
+      "published": "2026-07-25T10:51:50+00:00",
+      "summary": "Opus 5 is a really good model. Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2080898994453283003",
+      "published": "2026-07-25T05:12:36+00:00",
+      "summary": "When the M1 Macbook Air came out in 2020, it was $999 and it SMOKED the $3,000+ Macbook Pro I bought a few months prior. Apple often puts the newest tech into the cheap products first. Helps them smooth out the rough edges before putting it in the top-of-the-line stuff Adam Lyttle (@adamlyttleapps) I’m confused by Anthropic’s new models So Opus is just as good as Fable? Then why Fable? What’s the point Why is there 2 frontier models at the same time? What one should I be using? — https://nitter.net/adamlyttleapps/status/2080852361627803827#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

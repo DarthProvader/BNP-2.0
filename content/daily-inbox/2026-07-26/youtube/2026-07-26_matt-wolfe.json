@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-07-26T04:00:03.275716+00:00",
+  "items": [
+    {
+      "title": "Literally everyone hated this feature",
+      "url": "https://www.youtube.com/shorts/n0JhhZyGP_w",
+      "published": "2026-07-25T12:38:23+00:00",
+      "summary": "Did Meta actually think we wouldn’t notice this? 🫣\n\nRecently, Meta rolled out a new image-generation feature called Muse Image. On paper, it was pitched as a creative new AI tool. In reality, it turned into a massive privacy and safety concern overnight.\n\nBy default, the feature automatically opted in public accounts, allowing anyone to simply @ a handle and use Meta AI to generate entirely new images using that person's likeness with NO permission required.\n\nUnsurprisingly, after immense backlash from users, privacy advocates, and talent agencies, Meta pulled the feature just three days after launch.\n\nBut this whole ordeal leaves us with a pretty big question… did Meta genuinely not anticipate this backlash, or was this a calculated move to get eyes on their new AI model?\n\nLet me know which one you think it is in the comments. 👇\n\n#AI #Ainews #genAI",
+      "author": "Matt Wolfe",
+      "transcript": "Instagram launched the most tone-deaf AI feature I've seen yet. Meta added a new feature that lets you tag any public Instagram account and generate completely new AI images of that person. No permission needed. And public accounts were apparently opted in automatically. So, a complete stranger could take a celebrity or politician or influencer's face and place them in a fake ad or a fake event. Or if your own profile is public, they can make a fake image of you doing anything they want to make you do. I mean, to be fair, if you're a public figure of any sort, people can and already kind of do this with AI. But if you're just a regular person with a public Instagram profile, that's a whole other safety and security nightmare. The backlash got so bad that Meta removed the feature just 3 days after it launched. I'm just wondering who at Meta approved this idea in the first place and didn't see that backlash coming. Or did they do it on purpose just for the attention? Let me know which one you think it is in the comments.",
+      "transcript_lang": "en"
+    }
+  ]
+}

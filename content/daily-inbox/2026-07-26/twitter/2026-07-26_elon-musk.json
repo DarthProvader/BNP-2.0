@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-07-26T04:00:15.789410+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/aijoey/status/2080925877919949097",
+      "published": "2026-07-25T06:59:25+00:00",
+      "summary": "Grok Build Web UI is live. I built a local-first dashboard for Grok sessions. Open a fresh Grok CLI and it shows up live, then inspect activity, Git changes, session history, and control agents from one place. npx --yes grok-ui github.com/joeynyc/Grok-UI Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2081219220415652110",
+      "published": "2026-07-26T02:25:03+00:00",
+      "summary": "Grok Imagine Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2081218380321714381",
+      "published": "2026-07-26T02:21:43+00:00",
+      "summary": "Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2081217444186554672",
+      "published": "2026-07-26T02:18:00+00:00",
+      "summary": "/dream Morgan (@morganlinton) I've been using Grok Build since the first 24-hours it was made available. It is still my favorite agentic coding cli, and there are so many little features I just love. So I thought I'd put together a little thread on what makes Grok Build so special, and some features you should try if you haven't yet. Let's kick it off 🧵 — https://nitter.net/morganlinton/status/2081118419039203765#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2081217033543286834",
+      "published": "2026-07-26T02:16:22+00:00",
+      "summary": "Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

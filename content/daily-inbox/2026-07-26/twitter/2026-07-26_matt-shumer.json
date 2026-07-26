@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-26T04:00:21.910625+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081223647918698715",
+      "published": "2026-07-26T02:42:39+00:00",
+      "summary": "Play it here: pages.workbench.md/p/pg_lzr8… Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/FeinsteinKen/status/2081221263239045225",
+      "published": "2026-07-26T02:33:11+00:00",
+      "summary": "Made a version where you run around a library and shoot giant book worms.",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081205788496756982",
+      "published": "2026-07-26T01:31:41+00:00",
+      "summary": "This is what good prompting looks like I don’t make the rules 🤷‍♂️ Matt Shumer (@mattshumer_) Prompt: I want you to build a first-person shooter at the level of the most recent Call of Duty games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality—from textures to physics to anything you could think of. Fan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub-agent check it visually to ensure it looks triple A. That separate sub-agent should be a really harsh critic, and if it doesn't look triple A, it should keep going. Don't stop until each sub-agent is utterly wowed with the quality when compared with the actual Call of Duty game. It should literally compare them side by side blind and say which one looks better. Do this in ThreeJS. /loop until it's utterly perfect. Fan out sub-agents and ultracode. — https://nitter.net/mattshumer_/status/2",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081054356405731740",
+      "published": "2026-07-25T15:29:57+00:00",
+      "summary": "Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081054357798178984",
+      "published": "2026-07-25T15:29:57+00:00",
+      "summary": "I'll be sharing the prompt and the code if there's enough interest... add your email here if you want to see it first: shumer.dev/newsletter Link newsletter — matt shumer Get early access to AI reviews, builds, and notes from Matt Shumer. shumer.dev",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

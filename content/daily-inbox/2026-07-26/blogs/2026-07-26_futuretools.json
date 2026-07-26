@@ -1,0 +1,57 @@
+{
+  "source_type": "blogs",
+  "source_name": "FutureTools.io",
+  "source_slug": "futuretools",
+  "source_url": "https://futuretools.io/news",
+  "fetched_at": "2026-07-26T04:01:17.626438+00:00",
+  "items": [
+    {
+      "title": "Grok Launches Free Add-On for Google Workspace: Sheets, Slides, and Docs Support",
+      "url": "https://x.ai/news/introducing-google-workspace-addon?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Grok Launches Free Add-On for Google Workspace: Sheets, Slides, and Docs Support\n\nx.ai"
+    },
+    {
+      "title": "Midjourney Acquires Astrology App Co-Star, Names Founder as Chief Design Officer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Midjourney Acquires Astrology App Co-Star, Names Founder as Chief Design Officer\n\ntheverge.com"
+    },
+    {
+      "title": "Anthropic Launches Claude Opus 5: Near-Fable Intelligence at Half the Cost",
+      "url": "https://www.anthropic.com/news/claude-opus-5?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Anthropic Launches Claude Opus 5: Near-Fable Intelligence at Half the Cost\n\nanthropic.com"
+    },
+    {
+      "title": "All The AI News You Missed From The Past Week (Full Breakdown)",
+      "url": "https://youtu.be/Ww3EYbuHSfo?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "All The AI News You Missed From The Past Week (Full Breakdown)\n\nMatt Wolfe on YouTube"
+    },
+    {
+      "title": "Anthropic's Drone-Bench Tests AI Models on Autonomous Drone Surveillance Tasks",
+      "url": "https://www.anthropic.com/research/project-pilot?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "Anthropic's Drone-Bench Tests AI Models on Autonomous Drone Surveillance Tasks\n\nanthropic.com"
+    },
+    {
+      "title": "NVIDIA's Jensen Huang Backs Open AI Models in Letter on Safety and Innovation",
+      "url": "https://x.com/JensenHuang/status/2080643682408321103?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-24",
+      "paywalled": false,
+      "summary": "NVIDIA's Jensen Huang Backs Open AI Models in Letter on Safety and Innovation\n\nJensen Huang on X"
+    }
+  ]
+}

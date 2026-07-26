@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-07-26T04:00:24.431775+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2081039623422177765",
+      "published": "2026-07-25T14:31:24+00:00",
+      "summary": "A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed heavily to open source and science from Jax to Transformers to AlphaFold to Gemma open models which have now been downloaded 300M+ times. And the standards framework we’ve proposed supports responsible deployment of both open and proprietary models. Jensen Huang (@JensenHuang) For my first post, I’m sharing a letter @NVIDIA signed on why open models matter. AI will transform every industry, power every company, and be built by every country. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. The world needs both frontier closed models and frontier open models. images.nvidia.com/pdf/Open-W… — https://nitter.net/JensenHuang/status/2080643682408321103#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2081075346208600103",
+      "published": "2026-07-25T16:53:21+00:00",
+      "summary": "just to clarify: Gemma 4 models have been downloaded 300M+ times, the Gemma open model series as a whole has been downloaded an incredible 900M+ times!! Olivier Lacombe (@o_lacombe) Gemma model family crossed the 900M downloads. What a milestone! — https://nitter.net/o_lacombe/status/2081055512481976722#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
