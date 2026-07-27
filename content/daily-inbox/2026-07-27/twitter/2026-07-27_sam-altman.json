@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-07-27T04:00:18.565060+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2081513071135346814",
+      "published": "2026-07-26T21:52:43+00:00",
+      "summary": "agreed feels big, i want a new kind of computer Alex Finn (@AlexFinn) I don’t think you understand what ChatGPT Voice unlocks I went on a 4 hour hike yesterday. Through the northern California redwoods. Got more work done in those 4 hours talking to Voice through my AirPods then I do in 8 hours at my desk Work can be done ANYWHERE now 45 minute drive back using self driving? Now 45 minutes I can talk to Voice and work on side projects 20 minutes in the cafe? I can sit and talk to Voice and when I get home I have drafts on my computer for my newsletter for the next month Being able to just use your voice to talk to a super intelligence that controls your computer is unlike anything we’ve ever experienced before I don’t even care that the voice sounds human like, or you can interrupt it, or any of the wild advancements they made to the tech It’s the fact that it can control my computer, meaning all I need to get incredible work done is talk through my AirPods anywhere in the world that i",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2081396796174282900",
+      "published": "2026-07-26T14:10:41+00:00",
+      "summary": "chatgpt work is remarkable, and \"work\" undersells it. from my phone i sent: \"use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate on what we would want to do in each place and decide where to go, and then after we get to group agreement make reservations. draft an email in my gmail i can send out to my friends when the site is ready.\" it...just worked.",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

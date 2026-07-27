@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-27T04:00:30.217145+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/unclebobmartin/status/2081402163377438750",
+      "published": "2026-07-26T14:32:00+00:00",
+      "summary": "Our participation in the syntax generation of software engineering is gone -- and good riddance. However, the rest, and most important part, of software engineering is still in full force.",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081551375985709139",
+      "published": "2026-07-27T00:24:56+00:00",
+      "summary": "Opus definitely has the gpt-5.6-sol problem of \"I noticed another issue, so I'm gonna add another 100 lines of fixes and 200 lines of tests\" Still find myself pulling in Fable often to trim down the slop",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081553279558021497",
+      "published": "2026-07-27T00:32:29+00:00",
+      "summary": "🙃",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081551129582895386",
+      "published": "2026-07-27T00:23:57+00:00",
+      "summary": "Would you guys be upset if I outright removed \"plan mode\" from T3 Code?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081549009731420566",
+      "published": "2026-07-27T00:15:31+00:00",
+      "summary": "Both Claude Code and Codex offer a \"fast mode\". Their best models both have context windows up to 1m tokens. Claude Code includes 1m token context windows in your subscription, but makes you pay for fast mode. Codex includes fast mode in your subscription, but makes you pay for higher context windows. I don't think this matters that much but I did find it interesting.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

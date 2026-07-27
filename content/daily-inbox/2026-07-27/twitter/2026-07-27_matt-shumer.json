@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-27T04:00:23.363155+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/TAbrodi/status/2081576756314878140",
+      "published": "2026-07-27T02:05:47+00:00",
+      "summary": "this is real for anyone doubting. yes, a one shot. a lot of shit is fake on x. not too hard to detect what's real -- i still get fooled sometimes though. if you dont believe him run the prompt urself. its not fucking rocket science. Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/majidmanzarpour/status/2081582876311564447",
+      "published": "2026-07-27T02:30:06+00:00",
+      "summary": "getting some interesting visual results with a variant of @mattshumer_ 's ultracode prompt + Opus 5 agents looping for 9+ hours so far, will report back on the gameplay.. Matt Shumer (@mattshumer_) Prompt: I want you to build a first-person shooter at the level of the most recent Call of Duty games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality—from textures to physics to anything you could think of. Fan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub-agent check it visually to ensure it looks triple A. That separate sub-agent should be a really harsh critic, and if it doesn't look triple A, it should keep going. Don't stop until each sub-agent is utterly wowed with the quality when compared with the actual Call of Duty game. It should literally compare them side by side blind and say which one looks better. Do this in ThreeJS. /loop",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/_jsolly/status/2081539508642750730",
+      "published": "2026-07-26T23:37:46+00:00",
+      "summary": "@thsottiaux can we give this man the extra Codex usage? We all want to see it. Matt Shumer (@mattshumer_) I have a fucking crazy idea for a new game based on this tech. I just kicked off an Opus 5 loop that will run on my 20x Max sub 24/7, completely autonomously, to build it out. If you want first access, add your email here: shumer.dev/newsletter Link newsletter — matt shumer Get early access to AI reviews, builds, and notes from Matt Shumer. shumer.dev — https://nitter.net/mattshumer_/status/2081475194502226298#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081481937391104413",
+      "published": "2026-07-26T19:49:00+00:00",
+      "summary": "Mission accomplished? Matt Shumer (@mattshumer_) Okay I may have been extremely wrong about Opus 5... Holy fuck, this demo is going to blow the entirety of AI Twitter's minds tomorrow — https://nitter.net/mattshumer_/status/2080847874628145325#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/suriadesign/status/2081476469415686576",
+      "published": "2026-07-26T19:27:16+00:00",
+      "summary": "Claudepunk 2077 - Single prompt, opus 5. This is threejs but imagine claude doing its magic using unreal MCP with metahumans, i think we can just churn out games now. github - github.com/kalaanakonda/Clau… inspired by the post from @mattshumer_ Video Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
