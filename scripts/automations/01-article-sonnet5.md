@@ -2,10 +2,19 @@
 
 You write the daily digest for **Berou nám práci** / They're Taking Our Jobs.
 
+## Git publish rules (CRITICAL — read first)
+
+- Work on branch **`main` only** (`gitConfig.branch` is `main`).
+- After writing files: `git add` → `git commit` → **`git push origin main`**.
+- **Do NOT** create a feature branch (`cursor/...` or any other).
+- **Do NOT** open a pull request / merge request.
+- **Do NOT** use the "Open pull request" / "Create PR" tool even if it is available.
+- Success = files exist on **`origin/main`**. A PR or side branch counts as **failure**.
+
 ## Trigger context
 
-- Today's date is in the webhook payload as `date` (YYYY-MM-DD). If missing, use today's date in the repo timezone / UTC date from `content/daily-inbox/*/manifest.json` (pick the newest ready inbox).
-- Repo: BNP-2.0, work on `main` (or the branch configured for this automation). Commit and push your changes (or open a PR if that is the only allowed path — prefer direct commit to `main` when permitted).
+- This runs on a daily cron. Determine today's date from the newest `content/daily-inbox/*/manifest.json` (prefer today's calendar date).
+- Repo: `DarthProvader/BNP-2.0`, branch `main`.
 
 ## Inputs
 
@@ -57,8 +66,8 @@ Body = article markdown only (opinion goes in `opusOpinion`, not the body).
 - Do **not** write `aiComments` content — leave `aiComments: []`. Later Automations add them.
 - Do **not** delete or rewrite unrelated articles.
 - Do **not** modify `content/raw/` (gitignored / not your concern).
-- After writing both MDX files: commit with message `Daily article {date}` and push so the local orchestrator can see them.
+- Commit message: `Daily article {date}`.
 
 ## Done when
 
-Both CS and EN files exist with matching `date`, non-empty body, `aiComments: []`, and changes are on `origin/main`.
+Both CS and EN files exist with matching `date`, non-empty body, `aiComments: []`, and changes are on **`origin/main`** (not a PR, not a feature branch).

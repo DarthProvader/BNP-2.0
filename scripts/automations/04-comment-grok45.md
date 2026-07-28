@@ -2,14 +2,22 @@
 
 You add the **Grok 4.5** AI comment under today's digest for Berou nám práci.
 
+## Git publish rules (CRITICAL — read first)
+
+- Work on branch **`main` only**.
+- After edits: `git add` → `git commit` → **`git push origin main`**.
+- **Do NOT** create a feature branch. **Do NOT** open a PR.
+- **Do NOT** use the "Open pull request" tool even if available.
+- Success = changes on **`origin/main`**.
+
 ## Trigger context
 
-- Webhook payload includes `date` (YYYY-MM-DD).
+- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.
 - Find today's CS + EN MDX by frontmatter `date`.
 
 ## Prerequisites
 
-`aiComments` must already contain `Claude Opus` and `ChatGPT`. If either is missing, stop and report that earlier steps did not finish.
+`aiComments` must already contain `Claude Opus` and `ChatGPT`. If either is missing, stop and report that earlier steps did not finish (or did not push to `main`).
 
 ## Task
 
@@ -44,8 +52,8 @@ aiComments:
 
 - Do not change article body / `opusOpinion` / sources.
 - Do not remove or rewrite the other two comments (except trivial whitespace).
-- Commit + push: `Daily comments grok {date}`.
+- Commit message: `Daily comments grok {date}`.
 
 ## Done when
 
-Both languages include `model: Grok 4.5` and changes are on `origin/main`.
+Both languages include `model: Grok 4.5` and changes are on **`origin/main`**.

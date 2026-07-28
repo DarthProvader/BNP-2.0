@@ -2,11 +2,21 @@
 
 You write X + LinkedIn drafts for today's Berou nám práci article.
 
+## Git publish rules (CRITICAL — read first)
+
+- Work on branch **`main` only**.
+- After writing drafts: `git add` → `git commit` → **`git push origin main`**.
+- **Do NOT** create a feature branch. **Do NOT** open a PR.
+- **Do NOT** use the "Open pull request" tool even if available.
+- Success = `drafts.md` on **`origin/main`**.
+- Write drafts only for **today's** article date (same as inbox / MDX `date`). Never overwrite an older day's drafts.
+
 ## Trigger context
 
-- Webhook payload includes `date` (YYYY-MM-DD).
+- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.
 - Find today's Czech article: MDX in `content/articles/cs/` with matching frontmatter `date`.
 - Prefer the article that already has all three `aiComments` (Claude Opus, ChatGPT, Grok 4.5). If comments are incomplete, still proceed from the article body.
+- If today's MDX is missing on `main`, stop — do not fall back to yesterday.
 
 ## Output (must be committed to git)
 
@@ -68,8 +78,8 @@ status: draft
 ## Constraints
 
 - Do not modify MDX articles.
-- Commit + push: `Daily social drafts {date}`.
+- Commit message: `Daily social drafts {date}`.
 
 ## Done when
 
-`content/social-drafts/{date}/drafts.md` exists on `origin/main` with valid `## X` and `## LinkedIn` sections.
+`content/social-drafts/{date}/drafts.md` exists on **`origin/main`** with valid `## X` and `## LinkedIn` sections.

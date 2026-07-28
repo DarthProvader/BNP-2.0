@@ -1,0 +1,29 @@
+{
+  "name": "BNP Social Drafts",
+  "description": "Daily 08:20 X+LinkedIn drafts for local publisher",
+  "workflow": {
+    "triggers": [
+      {
+        "cron": {
+          "cron": "20 8 * * *"
+        }
+      }
+    ],
+    "actions": [],
+    "prompts": [
+      {
+        "prompt": "# BNP — Social drafts (Claude Sonnet 5)\n\nYou write X + LinkedIn drafts for today's Berou nám práci article.\n\n## Git publish rules (CRITICAL — read first)\n\n- Work on branch **`main` only**.\n- After writing drafts: `git add` → `git commit` → **`git push origin main`**.\n- **Do NOT** create a feature branch. **Do NOT** open a PR.\n- **Do NOT** use the \"Open pull request\" tool even if available.\n- Success = `drafts.md` on **`origin/main`**.\n- Write drafts only for **today's** article date (same as inbox / MDX `date`). Never overwrite an older day's drafts.\n\n## Trigger context\n\n- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.\n- Find today's Czech article: MDX in `content/articles/cs/` with matching frontmatter `date`.\n- Prefer the article that already has all three `aiComments` (Claude Opus, ChatGPT, Grok 4.5). If comments are incomplete, still proceed from the article body.\n- If today's MDX is missing on `main`, stop — do not fall back to yesterday.\n\n## Output (must be committed to git)\n\nWrite exactly:\n\n`content/social-drafts/{date}/drafts.md`\n\n`content/social/` is gitignored — **do not** write there. The local publisher reads `content/social-drafts/`.\n\n### File format (strict)\n\n```markdown\n---\ndate: YYYY-MM-DD\narticle_slug: the-slug\narticle_url: https://berounampraci.cz/the-slug\nstatus: draft\n---\n\n## X\n\n<tweet 1>\n---\n<tweet 2>\n---\n<tweet 3>\n---\n<tweet 4>\n---\n<tweet 5>\n---\n<last tweet with hashtags>\n\n## LinkedIn\n\n<full LinkedIn post>\n```\n\n## X rules\n\n- 5–8 tweets, each MAX 280 characters (count carefully with diacritics/emoji).\n- First tweet = hook, **no external link**.\n- One idea per middle tweet.\n- Last tweet = max 3 hashtags (#AI #AINews #LLM etc.), no link.\n- Tone: ironic but factual, like the blog. No \"game-changer\".\n- **No em-dash — or en-dash –** (use comma/period/colon/parentheses).\n- Tweet separator is a line with only `---`.\n\n## LinkedIn rules\n\n- 1500–2500 characters, Czech with diacritics.\n- Hook in first paragraph (survives \"see more\").\n- Structure: intro → 3 concrete takeaways → short close.\n- **No** CTA questions to the reader.\n- **No** article URL in the body (publisher appends it).\n- 5–10 hashtags at the end.\n- No em-dash / en-dash.\n\n## Constraints\n\n- Do not modify MDX articles.\n- Commit message: `Daily social drafts {date}`.\n\n## Done when\n\n`content/social-drafts/{date}/drafts.md` exists on **`origin/main`** with valid `## X` and `## LinkedIn` sections.\n"
+      }
+    ],
+    "model": "claude-4.5-sonnet",
+    "gitConfig": {
+      "repo": "https://github.com/DarthProvader/BNP-2.0.git",
+      "branch": "main"
+    },
+    "agentOptions": {
+      "skipInstall": false,
+      "autoCreatePR": false
+    },
+    "memoryEnabled": false
+  }
+}
