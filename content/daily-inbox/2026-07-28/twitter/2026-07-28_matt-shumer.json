@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-28T04:00:26.401989+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081830214384886228",
+      "published": "2026-07-27T18:52:56+00:00",
+      "summary": "I’m officially calling this the Gauntlet Loop. The agent (not you!!) breaks the goal into parts, gives each part a specialist builder and a ruthless blind critic sub-agent, with a mandate to only pass if the generated artifact is better than some real-world equivalent. Matt Shumer (@mattshumer_) Prompt: I want you to build a first-person shooter at the level of the most recent Call of Duty games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality—from textures to physics to anything you could think of. Fan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub-agent check it visually to ensure it looks triple A. That separate sub-agent should be a really harsh critic, and if it doesn't look triple A, it should keep going. Don't stop until each sub-agent is utterly wowed with the quality when compared with the actual Call of Duty game. It should ",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081830525044416772",
+      "published": "2026-07-27T18:54:10+00:00",
+      "summary": "Everyone has been using Gauntlet Loops for game creation, but as I’ll show in the coming days, they can be used for almost anything else too. I use these to build almost every project I work on. So excited for you all to see how powerful they are.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081859491121758215",
+      "published": "2026-07-27T20:49:16+00:00",
+      "summary": "Guide to running Guantlet Loops: somethingbig.ai/gauntlet-loo… Link How to Run a Gauntlet Loop The prompting method behind Claude of Duty: give the agent a bar it can't talk its way around, let it split the work, and never let the builder grade itself. somethingbig.ai",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2081857631254372509",
+      "published": "2026-07-27T20:41:52+00:00",
+      "summary": "3 days ago, I posted a game Claude built from a single prompt. 3.8M views. It looked so real, folks were convinced it was fake. It's real, driven by a technique I'm calling the Gauntlet Loop. Here's how to run one. It works for far more than games: somethingbig.ai/gauntlet-loo… Link How to Run a Gauntlet Loop The prompting method behind Claude of Duty: give the agent a bar it can't talk its way around, let it split the work, and never let the builder grade itself. somethingbig.ai Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/blader/status/2081832614319833574",
+      "published": "2026-07-27T19:02:28+00:00",
+      "summary": "i've been independently using a very similar loop over the past few weeks for frontend design / development work - using gpt-image-2 to generate a concept art northstar can confirm that this \"gauntlet loop\" is extremely effective and lets you get so much more out of any model Matt Shumer (@mattshumer_) I’m officially calling this the Gauntlet Loop. The agent (not you!!) breaks the goal into parts, gives each part a specialist builder and a ruthless blind critic sub-agent, with a mandate to only pass if the generated artifact is better than some real-world equivalent. — https://nitter.net/mattshumer_/status/2081830214384886228#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

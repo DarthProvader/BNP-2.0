@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrew Ng",
+  "source_slug": "andrew-ng",
+  "handle": "AndrewYNg",
+  "tags": [
+    "ai-education",
+    "deeplearning"
+  ],
+  "fetched_at": "2026-07-28T04:00:27.703735+00:00",
+  "items": [
+    {
+      "title": "Andrew Ng (@AndrewYNg)",
+      "url": "https://x.com/AndrewYNg/status/2081787106062746002",
+      "published": "2026-07-27T16:01:38+00:00",
+      "summary": "Good move by @JensenHuang . The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. Lets stop believing the PR that closed models are safer. - that's just regulatory capture. Jensen Huang (@JensenHuang) Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. — https://nitter.net/JensenHuang/status/2081698060330250294#m",
+      "author": "AndrewYNg",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

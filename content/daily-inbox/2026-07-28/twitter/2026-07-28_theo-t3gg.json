@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-28T04:00:33.567584+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081906749507064262",
+      "published": "2026-07-27T23:57:03+00:00",
+      "summary": "⌘+S to stash, now available on T3 Code 🫡 Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081876194216309126",
+      "published": "2026-07-27T21:55:38+00:00",
+      "summary": "Drained all of my Fable limits 😭",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081905491056398820",
+      "published": "2026-07-27T23:52:03+00:00",
+      "summary": "Couldn't help but notice room for a 4th account in that grid...",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/davis7/status/2081884434253701159",
+      "published": "2026-07-27T22:28:23+00:00",
+      "summary": "Opus 5 is the first model where I've liked it less the more I've used it. Never had this before, with previous models I've liked them more as I learned to use them It has some really bizarre behaviors that I haven't really seen since GPT-5.5. I still think it's a step in the right direction for Claude models, I'd love to see a Fable 5.1 that has it's voice and feel. Pros: - writes code I actually like - asks great questions - feels great to talk to - has some of GPT-5.6's autism/\"grind the problem down\" - has some of Fable's deep understanding - feels fast + nearly unlimited after getting used to Fable limits/speed Cons: - over complicates the hell out of everything - can pretty easily miss the point of what you're asking and go down the wrong path - really likes going off and doing \"extra\" work that you didn't need or want that's completely unrelated - done some strange stuff to me like hard closing my browser repeatedly so that it could take it over for a computer use test - it's bad",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2081880182936502474",
+      "published": "2026-07-27T22:11:29+00:00",
+      "summary": "I do not like Opus 5 as much as I hoped to :( Theo - t3.gg (@theo) So far, Opus 5 feels like a strange but useful in-between of gpt-5.6-sol and Fable 5 It has a lot of Fable's taste, but also comes with gpt-5.6's thoroughness and, well, \"autism\" (it takes things super literally). It writes code that is slightly worse to look at than Fable, but more likely to be correct. It regularly is catching things that Fable missed. So far, feels like a good compromise compared to 5.6's messy code and Fable's habit of being too clever to be correct. I think I'm gonna like this model a lot. — https://nitter.net/theo/status/2080789645424767068#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

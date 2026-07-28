@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-07-28T04:00:15.584420+00:00",
+  "items": [
+    {
+      "title": "Private Claude Chats Exposed in Google and Bing Search Results",
+      "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+      "published": "2026-07-27T19:08:00+00:00",
+      "summary": "The screwup shows how tricky it can be to stop web crawlers from making ostensibly private conversations with AI chatbots entirely too public.",
+      "author": "Maddy Varner"
+    },
+    {
+      "title": "This Is Donald Trump’s AI Brain Trust",
+      "url": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust/",
+      "published": "2026-07-27T09:00:00+00:00",
+      "summary": "“It’s not an argument with two sides, it’s an argument with 10 sides,” one senior administration official tells WIRED about how US AI policy is being shaped.",
+      "author": "Hugo Lowell"
+    }
+  ]
+}

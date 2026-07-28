@@ -1,0 +1,73 @@
+{
+  "source_type": "blogs",
+  "source_name": "FutureTools.io",
+  "source_slug": "futuretools",
+  "source_url": "https://futuretools.io/news",
+  "fetched_at": "2026-07-28T04:03:50.510348+00:00",
+  "items": [
+    {
+      "title": "Anthropic CEO Dario Amodei: No Ban on Open-Weights Models, Focus on Chips & Safety Testing",
+      "url": "https://www.anthropic.com/news/position-open-weights-models?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Anthropic CEO Dario Amodei: No Ban on Open-Weights Models, Focus on Chips & Safety Testing\n\nanthropic.com"
+    },
+    {
+      "title": "Meta Ray-Ban Display Glasses Add Threads Support and Muse Spark AI Upgrade",
+      "url": "https://www.meta.com/blog/meta-ray-ban-display-glasses-v127-muse-spark-threads/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Meta Ray-Ban Display Glasses Add Threads Support and Muse Spark AI Upgrade\n\nmeta.com"
+    },
+    {
+      "title": "Cognizant Embeds Claude Across Platforms, Trains 30K+ Staff as Global Premier Partner",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Cognizant Embeds Claude Across Platforms, Trains 30K+ Staff as Global Premier Partner\n\nanthropic.com"
+    },
+    {
+      "title": "Microsoft Launches MAI-Cyber-1-Flash Security AI Model, Cuts Costs 50% via MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Nvidia Invests in Ilya Sutskever's Safe Superintelligence, Replacing Google TPUs with GPUs",
+      "url": "https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Claude Public Share Links Expose User Chats in Google Search Results",
+      "url": "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "Kimi K3 Open-Sourced: 2.8T MoE Model With Vision and 1M-Token Context",
+      "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": ""
+    },
+    {
+      "title": "NVIDIA and 40+ Partners Launch Open Secure AI Alliance for Cybersecurity Defense",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": ""
+    }
+  ]
+}
