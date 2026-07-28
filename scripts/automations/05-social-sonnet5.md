@@ -13,10 +13,19 @@ You write X + LinkedIn drafts for today's Berou nám práci article.
 
 ## Trigger context
 
-- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.
-- Find today's Czech article: MDX in `content/articles/cs/` with matching frontmatter `date`.
-- Prefer the article that already has all three `aiComments` (Claude Opus, ChatGPT, Grok 4.5). If comments are incomplete, still proceed from the article body.
-- If today's MDX is missing on `main`, stop — do not fall back to yesterday.
+- Triggers: push to `main` **and** daily cron. You run right after the Grok comment lands, so no fixed waiting is needed.
+- `{date}` = today, or the newest article date under `content/articles/cs/` if needed.
+- Find `{date}`'s Czech article: MDX in `content/articles/cs/` with matching frontmatter `date`.
+
+## Guard — exit early, do nothing (check FIRST)
+
+You may be triggered by any push to `main`, so most runs must be no-ops. Before doing work:
+
+1. No CS MDX for `{date}` → **stop**, report "article not on main yet". Never fall back to an older date.
+2. `aiComments` is missing any of `Claude Opus`, `ChatGPT`, `Grok 4.5` → **stop**, report which one you are waiting for.
+3. `content/social-drafts/{date}/drafts.md` already exists → **stop**, report "already done". Never overwrite it (it may already be published).
+
+Exiting early is a **success**, not a failure.
 
 ## Output (must be committed to git)
 

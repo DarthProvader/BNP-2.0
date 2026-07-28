@@ -19,7 +19,29 @@ Without step 1, prompt wording alone is not enough.
 
 Also check GitHub: `main` must allow the Automation identity to **push** (no "require PR" branch protection that blocks the Cursor GitHub app / your account).
 
-## Schedule (Europe/Prague local wall clock — confirm timezone in Automations UI)
+## Event-driven chain (recommended — replaces fixed cron gaps)
+
+Fixed cron times are brittle: if the article is 40 minutes late, the Opus run finds nothing, and GPT/Grok then bail on their prerequisite. Chain the steps on git events instead.
+
+For Automations **02–05**, add a second trigger in the UI:
+
+**Add trigger → On a GitHub event → New push to branch** → repo `DarthProvader/BNP-2.0`, branch `main`.
+
+Now every step wakes up as soon as the previous one pushes: article → Opus → GPT → Grok → social.
+
+Keep the cron trigger as a backstop (triggers are OR-ed, so either one fires a run).
+
+### Why this is safe
+
+Every push to `main` wakes all four Automations, so most runs must do nothing. Each prompt starts with a **Guard** section that exits early when:
+
+- today's MDX is not on `main` yet,
+- the previous model's comment is missing,
+- its own output already exists (idempotent — no duplicate comments, no overwritten drafts).
+
+No-op runs finish in seconds. Never remove the Guard section when editing a prompt.
+
+## Schedule (cron backstop — Europe/Prague local wall clock, confirm timezone in Automations UI)
 
 | Time | Automation | Model |
 |------|------------|--------|

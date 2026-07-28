@@ -13,8 +13,18 @@ You write the daily digest for **Berou nám práci** / They're Taking Our Jobs.
 
 ## Trigger context
 
-- This runs on a daily cron. Determine today's date from the newest `content/daily-inbox/*/manifest.json` (prefer today's calendar date).
+- Triggers: daily cron **and** push to `main` (the chain is event-driven — see Guard).
+- Determine `{date}` from the newest `content/daily-inbox/*/manifest.json` (prefer today's calendar date).
 - Repo: `DarthProvader/BNP-2.0`, branch `main`.
+
+## Guard — exit early, do nothing (check FIRST)
+
+You may be triggered by any push to `main`, so most runs must be no-ops. Before doing work:
+
+1. No `content/daily-inbox/{date}/manifest.json` → **stop**, report "no inbox".
+2. `content/articles/cs/` already contains an MDX with frontmatter `date: '{date}'` → **stop**, report "article already exists".
+
+Exiting early is a **success**, not a failure. Never write a second article for a date that already has one.
 
 ## Inputs
 

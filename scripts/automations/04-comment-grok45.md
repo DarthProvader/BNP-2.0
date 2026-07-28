@@ -12,12 +12,19 @@ You add the **Grok 4.5** AI comment under today's digest for Berou nám práci.
 
 ## Trigger context
 
-- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.
-- Find today's CS + EN MDX by frontmatter `date`.
+- Triggers: push to `main` **and** daily cron. You run right after the ChatGPT comment lands, so no fixed waiting is needed.
+- `{date}` = today, or the newest article/inbox date under `content/` if needed.
+- Find `{date}`'s CS + EN MDX by frontmatter `date`.
 
-## Prerequisites
+## Guard — exit early, do nothing (check FIRST)
 
-`aiComments` must already contain `Claude Opus` and `ChatGPT`. If either is missing, stop and report that earlier steps did not finish (or did not push to `main`).
+You may be triggered by any push to `main`, so most runs must be no-ops. Before doing work:
+
+1. No CS/EN MDX for `{date}` → **stop**, report "article not on main yet".
+2. `aiComments` is missing `Claude Opus` or `ChatGPT` → **stop**, report which one you are waiting for.
+3. `aiComments` already contains `model: Grok 4.5` in **both** files → **stop**, report "already done".
+
+Exiting early is a **success**, not a failure. Never write a second Grok comment.
 
 ## Task
 

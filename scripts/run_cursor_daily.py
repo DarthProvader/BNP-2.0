@@ -157,17 +157,25 @@ def run(
             interval=poll_interval,
         )
 
+    exit_code = 0
+    missing_comments: list[str] = []
+
     for step in ("opus", "gpt", "grok"):
         if use_webhooks:
             webhooks.trigger(step, target_date, dry_run=dry_run_webhooks)
         if dry_run_webhooks:
             continue
-        _wait_until(
-            f"comment:{step}",
-            lambda s=step: articles.comment_ready(target_date, s),
-            timeout=comment_timeout,
-            interval=poll_interval,
-        )
+        try:
+            _wait_until(
+                f"comment:{step}",
+                lambda s=step: articles.comment_ready(target_date, s),
+                timeout=comment_timeout,
+                interval=poll_interval,
+            )
+        except TimeoutError as exc:
+            # The article is already published; a late comment can land afterwards.
+            logger.warning("%s — continuing without it", exc)
+            missing_comments.append(step)
 
     if use_webhooks:
         webhooks.trigger("social", target_date, dry_run=dry_run_webhooks)
@@ -175,12 +183,17 @@ def run(
     if not dry_run_webhooks:
         from run_social import drafts_ready
 
-        _wait_until(
-            "social drafts",
-            lambda: drafts_ready(target_date),
-            timeout=social_timeout,
-            interval=poll_interval,
-        )
+        try:
+            _wait_until(
+                "social drafts",
+                lambda: drafts_ready(target_date),
+                timeout=social_timeout,
+                interval=poll_interval,
+            )
+        except TimeoutError as exc:
+            logger.error("%s — skipping social publish", exc)
+            skip_social = True
+            exit_code = 1
 
     if skip_social or dry_run_webhooks:
         logger.info("Skipping social publish")
@@ -202,8 +215,10 @@ def run(
             gitops.push()
 
     slug = articles.article_slug(target_date)
+    if missing_comments:
+        logger.warning("Comments never landed: %s", ", ".join(missing_comments))
     logger.info("=== Done — date=%s slug=%s ===", target_date, slug)
-    return 0
+    return exit_code
 
 
 def main() -> None:

@@ -12,9 +12,18 @@ You add the **Claude Opus** AI comment under today's digest for Berou nám prác
 
 ## Trigger context
 
-- This runs on a daily cron. Use today's date, or the newest article/inbox date under content/ if needed.
-- Find today's articles: MDX under `content/articles/cs/` and `content/articles/en/` whose frontmatter `date` equals that day.
-- If today's MDX is missing on `main`, stop and report that the article step did not land on `main`.
+- Triggers: push to `main` **and** daily cron. You run right after the article lands, so no fixed waiting is needed.
+- `{date}` = today, or the newest article/inbox date under `content/` if needed.
+- Find `{date}`'s articles: MDX under `content/articles/cs/` and `content/articles/en/` whose frontmatter `date` equals that day.
+
+## Guard — exit early, do nothing (check FIRST)
+
+You may be triggered by any push to `main`, so most runs must be no-ops. Before doing work:
+
+1. No CS/EN MDX for `{date}` → **stop**, report "article not on main yet".
+2. `aiComments` already contains `model: Claude Opus` in **both** files → **stop**, report "already done".
+
+Exiting early is a **success**, not a failure. Never write a second Claude Opus comment.
 
 ## Task
 
