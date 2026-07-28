@@ -1,5 +1,5 @@
 ---
-date: '2026-07-27'
+date: 2026-07-27
 article_slug: opus-5-probuzeny-zak-dohani-mistra-washington-krici
 article_url: https://berounampraci.cz/opus-5-probuzeny-zak-dohani-mistra-washington-krici
 status: draft
@@ -7,36 +7,43 @@ status: draft
 
 ## X
 
-Vláda obviňuje Čínu z krádeže AI modelu. Firma, co si stěžuje, zaplatila týden předtím miliardu a půl dolarů za to, že sama trénovala na ukradených knihách. Den, kdy si nikdo nezasloužil hrát na oběť.
+Anthropic vypustil Opuse 5, americká vláda obviňuje čínský Kimi K3 z krádeže tohoto modelu, a to dva dny poté, co Anthropic zaplatil 1,5 miliardy za trénink na ukradených knihách. Ironie dne.
 ---
-Ministr financí Bessent hrozí sankcemi za distilaci. Poradce Bílého domu tvrdí, že Moonshot AI kradlo výstupy Fable pomocí zakázaných čipů v Thajsku. Bez jediného důkazu.
+Distilace není krádež, je to běžná technika. Používá ji Anthropic, OpenAI i Cursor. Washington ale křičí "zloděj" na Čínu, zatímco sám právě zaplatil za stejný přečin.
 ---
-Mimochodem: distilace je běžná technika. Dělá ji Anthropic, OpenAI, i Cursor při stavbě Composeru. Problém nastává, až z ní uděláte argument jen proti tomu, kdo vás zrovna dohání.
+Dean Ball tvrdí, že otevřené váhy jsou "decelerationistické", kazí byznys frontier laboratoří a vedou k "AI komunismu". Pak ale přiznal, že bezpečnostní rizika zatím nejsou tak velká. Tak co vlastně?
 ---
-Zatímco se Washington hádal, Anthropic potichu spustil Opuse 5. Smazal 80 procent systémového promptu Claude Code a výkon neklesl ani o chlup.
+Opus 5 postavil kompletní AAA hru na jeden zátah v ThreeJS. Bez externích assetů, čistě vlastní kód. Existují už autonomní běhy, kde Opus 24/7 staví střílečku a nechává ji kritizovat sub-agentem.
 ---
-O pár hodin později Matt Shumer ukázal hru postavenou Opusem 5 na jeden zátah, čistě vlastní kód. Jiní teď nechávají model stavět AAA střílečky nonstop, 24 hodin denně, bez dohledu.
+Realita: Theo si stěžuje, že Opus má "GPT-5.6 Sol problém". Napíše 100 řádků oprav a 200 řádků testů, které nikdo nechtěl. Nejlepší modely ještě neumí, kdy přestat.
 ---
-Realita je míň růžová: Theo Browne si stěžuje, že mu Opus bez vyzvání přidá sto řádků oprav a dvě stě řádků testů. I nejlepší model světa občas neví, kdy přestat.
+Sam Altman zatím ukazuje, proč OpenAI vsadila na hlas místo velkých skoků: z telefonu nadiktoval jediný příkaz, ChatGPT naplánoval výlet pro 9 lidí, postavil web a poslal rezervace. "Prostě to fungovalo."
 ---
-Sam Altman mezitím z telefonu poslal jeden příkaz: naplánuj výlet pro devět lidí, postav web, udělej rezervace, napiš e-mail. Prý to prostě fungovalo.
+Jensen Huang z Tokia nazval Grok, Teslu i Optimuse "revoluční". Elon dostal komplimenty od Jensena i Tima Sweeneyho ve stejný den. Zatímco ostatní řeší etiku distilace, Musk sbírá chválu. 🤷
 ---
-#AI #Anthropic #KimiK3
+#AI #AINews #LLM #ClaudeAI #OpenAI
+---
 
 ## LinkedIn
 
-Den, kdy AI svět předvedl dokonalou ironii: vláda obvinila konkurenci z krádeže technologie pár dní poté, co sama firma, která si stěžuje, zaplatila miliardu a půl dolarů za to, že trénovala na ukradených knihách.
+Když vláda křičí "zloděj" na zloděje: Anthropic, Kimi K3 a pokrytectví kolem distilace
 
-Ministr financí Scott Bessent pohrozil sankcemi čínským firmám za takzvanou distilaci amerických modelů. Poradce Bílého domu Michael Kratsios obvinil Moonshot AI, že jejich model Kimi K3 vznikl kopírováním výstupů Fable 5 pomocí zakázaných čipů v Thajsku. Bez jediného předloženého důkazu. Načasování je přitom nápadné: Fable byl veřejně dostupný teprve od začátku července, Kimi K3 vyšel o dva týdny později. Natrénovat frontier model za čtrnáct dní by byl světový rekord.
+Někdy není nejzajímavější zprávou dne to, co se stalo, ale to, kdo se kvůli tomu rozeřval. Včera Anthropic po týdnech odkladů vypustil Opuse 5. Americká vláda ve stejný den obvinila čínský Kimi K3 z krádeže přesně tohoto modelu. A to dva dny poté, co sám Anthropic zaplatil miliardu a půl dolaru za vyrovnání žaloby o tom, že trénoval na ukradených knihách.
 
-Tři věci, které si z dnešního dne odnáším.
+**Co se vlastně stalo:**
 
-Za prvé, distilace není zločin, je to standardní technika, kterou používají všechny velké laboratoře včetně těch, co si dnes nejhlasitěji stěžují. Rozdíl mezi legitimním učením a krádeží je tenký a čím dál víc se řeší politicky, ne technicky.
+Washington obviňuje Moonshot AI z "kryté průmyslové distilace" amerických modelů. Ministr financí pohrozil sankcemi, technologický poradce Bílého domu Michael Kratsios obvinil čínskou firmu z kopírování výstupů Fable 5. Vtip? Distilace je legitimní technika, silnější model učí slabší napodobovat jeho chování. Dělá to Anthropic, OpenAI i Cursor při stavbě Composeru 2.5. Načasování je navíc podezřelé: Fable byl dostupný od 1. července, K3 vyšel 15. července, čtrnáct dní na natrénování frontier modelu by byl světový rekord.
 
-Za druhé, zatímco se ve Washingtonu hádali o to, kdo koho okopíroval, Anthropic potichu spustil celou generaci modelů Claude 5. Systémový prompt Claude Code zkrátili o osmdesát procent bez ztráty výkonu, a během pár hodin Matt Shumer ukázal hru postavenou Opusem 5 na jeden zátah, čistě vlastním kódem. Realita používání je ale méně dokonalá: Theo Browne si stěžuje, že model bez vyzvání přidává stovky řádků kódu a testů, které nikdo nechtěl.
+**Co umí Opus 5:**
 
-Za třetí, budoucnost agentů se neděje jen v laboratořích. Sam Altman poslal ChatGPT jediný příkaz z telefonu, naplánuj výlet pro devět lidí, postav koordinační web, udělej rezervace, napiš e-mail, a podle jeho slov to prostě fungovalo. To je mnohem konkrétnější ukázka toho, kam agentní AI směřuje, než jakákoliv debata o sankcích.
+Zatímco Washington řeší etiku, Opus 5 postavil kompletní AAA hru na jeden zátah v ThreeJS. Čistě vlastní kód, žádné externí assety. Během několika hodin vznikly autonomní běhy, kde Opus 24/7 staví střílečku a nechává ji kritizovat přísným sub-agentem, dokud vizuálně neobstojí vedle Call of Duty. Realita? Theo Browne si stěžuje, že Opus trpí "problémem GPT-5.6 Sol": sám od sebe přidá 100 řádků oprav a 200 řádků testů, které nikdo nechtěl.
 
-Nejvíc mě na dnešku bavila ta symetrie pokrytectví. Firmy i vlády rády mluví o principech, dokud jim nezačnou škodit vlastní zájmy. Technologie mezitím jede dál, ať už jí to schválí Kongres, nebo ne.
+**A co OpenAI?**
 
-#UměláInteligence #AI #Anthropic #OpenAI #Kimi #TechNews #Inovace #Technologie
+Sam Altman mezitím ukazuje, proč vsadili na hlas místo velkých skoků. Z telefonu poslal jediný příkaz: naplánuj výlet pro devět lidí, postav web, udělej rezervace a napiš mi do Gmailu. "Prostě to fungovalo," napsal. Žádné dolaďování, žádné iterace.
+
+Nejlepší na celém příběhu? Dean Ball tvrdil, že otevřené váhy jsou "decelerationistické" a vedou k "AI komunismu". V dodatečném vyjasnění pak přiznal, že bezpečnostní rizika zatím nejsou tak velká, aby ospravedlnila razantní politiku. Tak co vlastně?
+
+Distilace není zločin. Je to prostě způsob, jak se učí každý junior na světě. Zločin je, když z toho uděláš selektivní argument jen proti tomu, kdo tě zrovna dohání.
+
+#AI #AINews #ArtificialIntelligence #LLM #ClaudeAI #OpenAI #Anthropic #MachineLearning #Tech #Technology
