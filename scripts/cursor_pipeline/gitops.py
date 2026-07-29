@@ -48,6 +48,17 @@ def commit_inbox(target_date: str) -> bool:
     return True
 
 
+def commit_paths(paths: list[str], message: str) -> bool:
+    """Stage the given paths and commit. Returns True if a commit was made."""
+    _run(["add", "-A", *paths])
+    staged = _run(["diff", "--staged", "--quiet"], check=False)
+    if staged.returncode == 0:
+        logger.info("Nothing staged for: %s", message)
+        return False
+    _run(["commit", "-m", message])
+    return True
+
+
 def commit_articles_if_any(target_date: str) -> bool:
     """Commit any local article changes (usually Automations already pushed)."""
     _run(["add", "content/articles/"])

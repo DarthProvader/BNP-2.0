@@ -1,6 +1,6 @@
 @echo off
-REM Daily pipeline via Cursor Automations (collect → inbox → webhooks → social)
-REM Requires webhook URL/KEY vars in scripts\.env (see scripts\automations\README.md)
+REM Daily pipeline via Cursor SDK (collect -> inbox -> local agents -> social)
+REM Requires CURSOR_API_KEY in scripts\.env (see scripts\prompts\README.md)
 
 cd /d C:\PV\BNP-2.0
 

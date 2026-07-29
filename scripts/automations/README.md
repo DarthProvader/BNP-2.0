@@ -1,8 +1,18 @@
-# Cursor Automations — BNP daily writer chain (cron, no webhook keys required)
+# Cursor Automations — BNP daily writer chain (LEGACY FALLBACK)
+
+> **Superseded.** The daily pipeline now runs as local Cursor SDK agents; see
+> `scripts/prompts/README.md`. Cloud Automations pushed their work to
+> `cursor/...` branches, so each step could not see the previous one on `main`,
+> and a step that did nothing still reported success.
+>
+> The five Automations are **disabled** in the Cursor UI. This path is kept
+> only for the case where the SDK is unavailable: re-enable them there first,
+> then run `python scripts/run_cursor_daily.py --use-automations
+> [--use-webhooks]`.
 
 Local orchestrator: `scripts/run_cursor_daily.py` (Task Scheduler → `run_daily.bat`).
 
-Default mode: **cron Automations** + local collect/poll/publish. No `CURSOR_WEBHOOK_*` needed.
+Legacy mode: **cron Automations** + local collect/poll/publish. No `CURSOR_WEBHOOK_*` needed.
 
 ## CRITICAL: push straight to `main` (no PRs)
 

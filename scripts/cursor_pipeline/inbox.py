@@ -30,32 +30,38 @@ def package_inbox(target_date: str) -> Path:
     Returns the inbox directory path. Raises if no raw files exist.
     """
     dest_root = inbox_path(target_date)
+
+    # Collect first: never wipe an existing inbox before we know there is
+    # fresh raw data to replace it with (re-runs for older dates have none).
+    sources: list[tuple[str, Path]] = []
+    for category in SOURCE_CATEGORIES:
+        src_dir = RAW_DIR / category
+        if not src_dir.exists():
+            continue
+        for src in sorted(src_dir.glob(f"{target_date}_*.json")):
+            sources.append((category, src))
+
+    if not sources:
+        if (dest_root / "manifest.json").exists():
+            logger.info("No raw files for %s — keeping existing inbox", target_date)
+            return dest_root
+        raise FileNotFoundError(
+            f"No raw files for {target_date} under {RAW_DIR}. "
+            "Run collectors first."
+        )
+
     if dest_root.exists():
         shutil.rmtree(dest_root)
     dest_root.mkdir(parents=True, exist_ok=True)
 
     copied: list[str] = []
-    for category in SOURCE_CATEGORIES:
-        src_dir = RAW_DIR / category
-        if not src_dir.exists():
-            continue
-        files = sorted(src_dir.glob(f"{target_date}_*.json"))
-        if not files:
-            continue
+    for category, src in sources:
         dest_cat = dest_root / category
         dest_cat.mkdir(parents=True, exist_ok=True)
-        for src in files:
-            dest = dest_cat / src.name
-            shutil.copy2(src, dest)
-            rel = f"{category}/{src.name}"
-            copied.append(rel)
-            logger.info("  inbox: %s", rel)
-
-    if not copied:
-        raise FileNotFoundError(
-            f"No raw files for {target_date} under {RAW_DIR}. "
-            "Run collectors first."
-        )
+        shutil.copy2(src, dest_cat / src.name)
+        rel = f"{category}/{src.name}"
+        copied.append(rel)
+        logger.info("  inbox: %s", rel)
 
     manifest = {
         "date": target_date,
@@ -64,7 +70,7 @@ def package_inbox(target_date: str) -> Path:
         "pipeline": {
             "article_model": "claude-sonnet-5",
             "comments": [
-                {"step": "opus", "model": "claude-opus-4.8", "label": "Claude Opus"},
+                {"step": "opus", "model": "claude-opus-4-8", "label": "Claude Opus"},
                 {"step": "gpt", "model": "gpt-5.6-terra", "label": "ChatGPT"},
                 {"step": "grok", "model": "grok-4.5", "label": "Grok 4.5"},
             ],
