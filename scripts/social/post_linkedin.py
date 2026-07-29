@@ -33,6 +33,7 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 from social.drafts_parser import parse
 
 API = "https://api.linkedin.com/rest"
+USERINFO_URL = "https://api.linkedin.com/v2/userinfo"
 HEADERS_VERSION = "202510"  # LinkedIn deprecates versions ~12mo — update periodically
 
 
@@ -43,6 +44,39 @@ def _headers(token: str) -> dict[str, str]:
         "X-Restli-Protocol-Version": "2.0.0",
         "Content-Type": "application/json",
     }
+
+
+def _resolve_profile(token: str) -> dict[str, str]:
+    r = requests.get(
+        USERINFO_URL,
+        headers={"Authorization": f"Bearer {token}"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    payload = r.json()
+    sub = str(payload.get("sub", "")).strip()
+    if not sub:
+        raise RuntimeError("LinkedIn /userinfo response missing sub")
+    return {
+        "sub": sub,
+        "urn": f"urn:li:person:{sub}",
+        "name": str(payload.get("name", "")).strip(),
+    }
+
+
+def _validate_token_identity(token: str, urn: str) -> None:
+    profile = _resolve_profile(token)
+    if profile["urn"] != urn:
+        raise SystemExit(
+            "LINKEDIN_ACCESS_TOKEN patří jinému LinkedIn účtu než LINKEDIN_PERSON_URN. "
+            f"Token resolved to {profile['urn']}, env has {urn}. Spusť auth_setup.py --linkedin."
+        )
+    expected_sub = str(os.getenv("LINKEDIN_EXPECTED_SUB") or os.getenv("LINKEDIN_PROFILE_SUB") or "").strip()
+    if expected_sub and profile["sub"] != expected_sub:
+        raise SystemExit(
+            "LINKEDIN_ACCESS_TOKEN je vydaný pro jiný LinkedIn účet, než čeká BNP projekt. "
+            f"Expected sub {expected_sub}, got {profile['sub']}. Spusť auth_setup.py --linkedin."
+        )
 
 
 def _post_main(token: str, urn: str, text: str) -> str:
@@ -60,6 +94,7 @@ def _post_main(token: str, urn: str, text: str) -> str:
     }
     r = requests.post(f"{API}/posts", headers=_headers(token), json=payload, timeout=30)
     r.raise_for_status()
+
     post_urn = r.headers.get("x-restli-id") or r.headers.get("X-RestLi-Id")
     if not post_urn:
         raise RuntimeError(f"LinkedIn nedodal post URN, response: {r.text[:500]}")
@@ -94,6 +129,7 @@ def main() -> None:
 
     token = os.environ["LINKEDIN_ACCESS_TOKEN"]
     urn = os.environ["LINKEDIN_PERSON_URN"]
+    _validate_token_identity(token, urn)
 
     post_urn = _post_main(token, urn, body)
     post_url = f"https://www.linkedin.com/feed/update/{post_urn}/"
@@ -102,4 +138,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()

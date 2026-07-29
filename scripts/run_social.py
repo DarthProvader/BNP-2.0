@@ -43,14 +43,26 @@ def drafts_ready(target_date: str) -> bool:
     return "## X" in text and "## LinkedIn" in text
 
 
-def _publish(script: str, drafts_path: Path, dry_run: bool) -> str | None:
+def _publish(
+    script: str,
+    drafts_path: Path,
+    dry_run: bool,
+    *,
+    extra_args: list[str] | None = None,
+) -> str | None:
     cmd = [PYTHON, str(SCRIPTS_DIR / "social" / script), "--input", str(drafts_path)]
     if dry_run:
         cmd.append("--dry-run")
+    if extra_args:
+        cmd.extend(extra_args)
     logger.info("Spouštím %s …", script)
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+    if result.stdout.strip():
+        for line in result.stdout.strip().splitlines():
+            logger.info("%s: %s", script, line)
     if result.returncode != 0:
-        logger.error("%s selhal (exit %d): %s", script, result.returncode, result.stderr[:500])
+        err = (result.stderr or result.stdout or "").strip()
+        logger.error("%s selhal (exit %d): %s", script, result.returncode, err[-2000:])
         return None
     logger.info("%s OK", script)
     last_line = (result.stdout.strip().splitlines() or [""])[-1]
@@ -62,6 +74,7 @@ def run(
     dry_run: bool = False,
     skip_twitter: bool = False,
     skip_linkedin: bool = False,
+    force_unique_twitter: bool = False,
 ) -> int:
     """Publish existing Cursor drafts. Does not generate copy."""
     logger.info("=== Social publish — %s ===", target_date)
@@ -76,7 +89,13 @@ def run(
 
     results: dict[str, str | None] = {}
     if not skip_twitter:
-        results["twitter"] = _publish("post_twitter.py", drafts_path, dry_run=False)
+        tw_extra = ["--force-unique"] if force_unique_twitter else None
+        results["twitter"] = _publish(
+            "post_twitter.py",
+            drafts_path,
+            dry_run=False,
+            extra_args=tw_extra,
+        )
     if not skip_linkedin:
         results["linkedin"] = _publish("post_linkedin.py", drafts_path, dry_run=False)
 
@@ -112,10 +131,23 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--skip-twitter", action="store_true")
     parser.add_argument("--skip-linkedin", action="store_true")
+    parser.add_argument(
+        "--force-unique-twitter",
+        action="store_true",
+        help="Bypass X duplicate-content 403 (invisible marker on 1st tweet)",
+    )
     args = parser.parse_args()
     setup_logging("social")
     target_date = args.date or date.today().isoformat()
-    sys.exit(run(target_date, args.dry_run, args.skip_twitter, args.skip_linkedin))
+    sys.exit(
+        run(
+            target_date,
+            args.dry_run,
+            args.skip_twitter,
+            args.skip_linkedin,
+            force_unique_twitter=args.force_unique_twitter,
+        )
+    )
 
 
 if __name__ == "__main__":

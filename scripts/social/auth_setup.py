@@ -157,15 +157,25 @@ def setup_linkedin() -> None:
         timeout=30,
     )
     me.raise_for_status()
-    sub = me.json()["sub"]
+    profile = me.json()
+    sub = profile["sub"]
+    name = str(profile.get("name", "")).strip()
     urn = f"urn:li:person:{sub}"
+    expected_sub = str(os.getenv("LINKEDIN_EXPECTED_SUB", "")).strip()
+    if expected_sub and sub != expected_sub:
+        raise SystemExit(
+            f"Přihlášen byl jiný LinkedIn účet, než čeká tenhle projekt. Expected sub {expected_sub}, got {sub}."
+        )
 
     _append_env({
         "LINKEDIN_CLIENT_ID": client_id,
         "LINKEDIN_CLIENT_SECRET": client_secret,
         "LINKEDIN_ACCESS_TOKEN": token,
         "LINKEDIN_PERSON_URN": urn,
+        "LINKEDIN_PROFILE_NAME": name,
+        "LINKEDIN_PROFILE_SUB": sub,
     })
+    print(f"✓ LinkedIn účet: {name or 'unknown'} ({sub[-8:]})")
 
 
 def main() -> None:
