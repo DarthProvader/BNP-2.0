@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrew Ng",
+  "source_slug": "andrew-ng",
+  "handle": "AndrewYNg",
+  "tags": [
+    "ai-education",
+    "deeplearning"
+  ],
+  "fetched_at": "2026-07-29T04:00:24.629456+00:00",
+  "items": [
+    {
+      "title": "Andrew Ng (@AndrewYNg)",
+      "url": "https://x.com/AndrewYNg/status/2082199333920027009",
+      "published": "2026-07-28T19:19:41+00:00",
+      "summary": "Fifteen years ago, @Coursera and online courses changed education. It worked better than almost anyone expected, expanding access by opening up where you can learn. But how you learn remains largely the same as it has for centuries: it is still one-size-fits-all, taught the same way to each person who shows up. We now have an opportunity to change how learning happens. With advances in AI, we can now build a custom learning guide for each person. We will turn learning from one‑to‑many to one‑to‑one. I'm starting LearnVector to invent this next generation of learning. We are starting with a $100M investment from Coursera, and plan to collaborate closely with Coursera and Udemy. Good learning needs much more than just a chatbot. Research shows that chatbots without guardrails harm learning. They help complete tasks and enable students to do better on homework. But cognitive offloading to a chatbot results in them being less skilled. And, you cannot always trust what a chatbot tells you. ",
+      "author": "AndrewYNg",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

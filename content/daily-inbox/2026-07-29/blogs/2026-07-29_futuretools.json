@@ -1,0 +1,145 @@
+{
+  "source_type": "blogs",
+  "source_name": "FutureTools.io",
+  "source_slug": "futuretools",
+  "source_url": "https://futuretools.io/news",
+  "fetched_at": "2026-07-29T04:01:32.825401+00:00",
+  "items": [
+    {
+      "title": "xAI's Grok 4.5 Now Available in GitHub Copilot for Millions of Developers",
+      "url": "https://x.ai/news/grok-github-copilot?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "xAI's Grok 4.5 Now Available in GitHub Copilot for Millions of Developers\n\nx.ai"
+    },
+    {
+      "title": "OpenAI, Anthropic & Google Staff Urge US Gov to Regulate Automated AI Development",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "OpenAI, Anthropic & Google Staff Urge US Gov to Regulate Automated AI Development\n\ntheverge.com"
+    },
+    {
+      "title": "Perplexity AI Launches Personal Computer Agent for Windows, Targeting 1B+ Devices",
+      "url": "https://www.perplexity.ai/hub/blog/personal-computer-on-windows?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "Perplexity AI Launches Personal Computer Agent for Windows, Targeting 1B+ Devices\n\nperplexity.ai"
+    },
+    {
+      "title": "Claude Mythos Preview Finds Critical Weaknesses in HAWK Post-Quantum Crypto and AES",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "Claude Mythos Preview Finds Critical Weaknesses in HAWK Post-Quantum Crypto and AES\n\nanthropic.com"
+    },
+    {
+      "title": "xAI Launches Grok Build Mode Beta: Create Apps, Games & Websites via Chat",
+      "url": "https://x.ai/news/grok-build-mode?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "xAI Launches Grok Build Mode Beta: Create Apps, Games & Websites via Chat\n\nx.ai"
+    },
+    {
+      "title": "Ai2 Launches OlmoEarth Platform for Planetary-Scale Geospatial AI Inference",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "Ai2 Launches OlmoEarth Platform for Planetary-Scale Geospatial AI Inference\n\nhuggingface.co"
+    },
+    {
+      "title": "Gemini API Managed Agents Add 3.6 Flash Default, Environment Hooks & Free Tier",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-28",
+      "paywalled": false,
+      "summary": "Gemini API Managed Agents Add 3.6 Flash Default, Environment Hooks & Free Tier\n\nblog.google"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei: No Ban on Open-Weights Models, Focus on Chips & Safety Testing",
+      "url": "https://www.anthropic.com/news/position-open-weights-models?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Anthropic CEO Dario Amodei: No Ban on Open-Weights Models, Focus on Chips & Safety Testing\n\nanthropic.com"
+    },
+    {
+      "title": "Trump Admin Finalizes AI Framework; OpenAI, Anthropic, Google Submit Edits",
+      "url": "https://www.theinformation.com/articles/trump-administration-nears-ai-framework-open-source-questions-loom?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Trump Admin Finalizes AI Framework; OpenAI, Anthropic, Google Submit Edits\n\ntheinformation.comPaywalled"
+    },
+    {
+      "title": "Meta Ray-Ban Display Glasses Add Threads Support and Muse Spark AI Upgrade",
+      "url": "https://www.meta.com/blog/meta-ray-ban-display-glasses-v127-muse-spark-threads/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Meta Ray-Ban Display Glasses Add Threads Support and Muse Spark AI Upgrade\n\nmeta.com"
+    },
+    {
+      "title": "Cognizant Embeds Claude Across Platforms, Trains 30K+ Staff as Global Premier Partner",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Cognizant Embeds Claude Across Platforms, Trains 30K+ Staff as Global Premier Partner\n\nanthropic.com"
+    },
+    {
+      "title": "Microsoft Launches MAI-Cyber-1-Flash Security AI Model, Cuts Costs 50% via MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Microsoft Launches MAI-Cyber-1-Flash Security AI Model, Cuts Costs 50% via MDASH\n\nmicrosoft.ai"
+    },
+    {
+      "title": "Nvidia Invests in Ilya Sutskever's Safe Superintelligence, Replacing Google TPUs with GPUs",
+      "url": "https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Nvidia Invests in Ilya Sutskever's Safe Superintelligence, Replacing Google TPUs with GPUs\n\nwsj.comPaywalled"
+    },
+    {
+      "title": "Claude Public Share Links Expose User Chats in Google Search Results",
+      "url": "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Claude Public Share Links Expose User Chats in Google Search Results\n\n404media.co"
+    },
+    {
+      "title": "Kimi K3 Open-Sourced: 2.8T MoE Model With Vision and 1M-Token Context",
+      "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Kimi K3 Open-Sourced: 2.8T MoE Model With Vision and 1M-Token Context\n\nKimi.ai on X"
+    },
+    {
+      "title": "Third-Party Sites SoullessMusic, SlopTracker Fill Spotify's AI Music Labeling Gap",
+      "url": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "Third-Party Sites SoullessMusic, SlopTracker Fill Spotify's AI Music Labeling Gap\n\n404media.co"
+    },
+    {
+      "title": "NVIDIA and 40+ Partners Launch Open Secure AI Alliance for Cybersecurity Defense",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?utm_source=futuretools.io&utm_medium=newspage",
+      "source": "",
+      "date": "2026-07-27",
+      "paywalled": false,
+      "summary": "NVIDIA and 40+ Partners Launch Open Secure AI Alliance for Cybersecurity Defense\n\nblogs.nvidia.com"
+    }
+  ]
+}

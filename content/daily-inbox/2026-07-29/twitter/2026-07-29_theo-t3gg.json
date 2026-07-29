@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-29T04:00:36.230819+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/bedesqui/status/2082278791682887723",
+      "published": "2026-07-29T00:35:25+00:00",
+      "summary": "i have a fork, with a custom provider for pi t3 connect JUST WORKS been testing it this last week, and its the first time a solution for this problem is THIS GOOD Theo - t3.gg (@theo) \"npx t3 connect\" This one's been a lot of work. You can now set up remote control for T3 Code on any internet-connected box with literally one command. All for free. T3 Connect is a minimal open source tunnel layer allowing you to control T3 Code instances remotely without needing Tailscale set up. I've been daily driving it for a month and it has changed how I code. Julius and I put a lot of effort into making setup as smooth as possible. Step 1: Install Claude Code, Codex, OpenCode, or Grok Build Step 2: Run \"npx t3 connect\" Step 3: Click link and sign in Step 4: You can now control that computer on T3 Code web, desktop or mobile (dropping very soon) We are currently providing this for free (s/o CloudFlare for bumping our tunnel limits). Every user can connect up to 3 devices. We don't want to charge fo",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082279017336709379",
+      "published": "2026-07-29T00:36:19+00:00",
+      "summary": "Kind of magical that I can go to one website and kick off a prompt on any repo on any computer I own Theo - t3.gg (@theo) \"npx t3 connect\" This one's been a lot of work. You can now set up remote control for T3 Code on any internet-connected box with literally one command. All for free. T3 Connect is a minimal open source tunnel layer allowing you to control T3 Code instances remotely without needing Tailscale set up. I've been daily driving it for a month and it has changed how I code. Julius and I put a lot of effort into making setup as smooth as possible. Step 1: Install Claude Code, Codex, OpenCode, or Grok Build Step 2: Run \"npx t3 connect\" Step 3: Click link and sign in Step 4: You can now control that computer on T3 Code web, desktop or mobile (dropping very soon) We are currently providing this for free (s/o CloudFlare for bumping our tunnel limits). Every user can connect up to 3 devices. We don't want to charge for this, but if the bill gets unacceptable we may have to chang",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082277789395501263",
+      "published": "2026-07-29T00:31:26+00:00",
+      "summary": "\"npx t3 connect\" This one's been a lot of work. You can now set up remote control for T3 Code on any internet-connected box with literally one command. All for free. T3 Connect is a minimal open source tunnel layer allowing you to control T3 Code instances remotely without needing Tailscale set up. I've been daily driving it for a month and it has changed how I code. Julius and I put a lot of effort into making setup as smooth as possible. Step 1: Install Claude Code, Codex, OpenCode, or Grok Build Step 2: Run \"npx t3 connect\" Step 3: Click link and sign in Step 4: You can now control that computer on T3 Code web, desktop or mobile (dropping very soon) We are currently providing this for free (s/o CloudFlare for bumping our tunnel limits). Every user can connect up to 3 devices. We don't want to charge for this, but if the bill gets unacceptable we may have to change course. If you hit limits or have issues, you can always fork, self host, or use Tailscale. T3 Connect may seem like a s",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082278437461577734",
+      "published": "2026-07-29T00:34:01+00:00",
+      "summary": "Btw if you didn't know this - you can control all your T3 Code instances (cli or desktop) from app.t3.codes as long as they're all signed in on the same account :)",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/gnukeith/status/2082269163121225917",
+      "published": "2026-07-28T23:57:09+00:00",
+      "summary": "I don't like when people talk about things they don't understand, they hate on things for the wrong reason which hurts effectively everyone. I'll say it right now, I don't write better code than GPT 5.4, I have Kimi K3 do most of the stuff I do now. I am big on open-source but I think it is a negative to ban AI code from the platform, there have been so many instances that I've looked into very niche software that is BARELY maintained, it is so easy for me to just clone it, have an LLM look at it and update it so I can use it. I also really like Theo for saying that it's stupid to ban crypto projects even though he doesn't like crypto (that I very well know). Many scam projects out there, but many actual valuable projects as well.... ANYWAY! I also agree that it's weird if I essentially need to self-host something like Gitea or Forgejo just so I can store my 'AI slop'. I'm not as big on AI as many are, I'm a hater in many areas, but what I am, is a big supporter of FOSS, and my stance ",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

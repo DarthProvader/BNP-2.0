@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-07-29T04:00:17.250624+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/finkd/status/2082160210399948869",
+      "published": "2026-07-28T16:44:13+00:00",
+      "summary": "I wrote about why we believe the future is for everyone. More coming about a positive vision for a world with superintelligence soon.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2082244164197183805",
+      "published": "2026-07-28T22:17:49+00:00",
+      "summary": "We’re sending a ship out to recover Starship SpaceX (@SpaceX) The Starship Recovery team has continued gathering imagery of the vehicle, which is still afloat in the Indian Ocean — https://nitter.net/SpaceX/status/2082186802912207064#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2082244044261064874",
+      "published": "2026-07-28T22:17:21+00:00",
+      "summary": "Landing videos of Starship SpaceX (@SpaceX) Landing burn and splashdown of Starship on Flight 13 Video Video — https://nitter.net/SpaceX/status/2082186658162626898#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2082243900719460745",
+      "published": "2026-07-28T22:16:46+00:00",
+      "summary": "Stayin’ Alive Everyday Astronaut (@Erdayastronaut) Watch this incredible footage of @SpaceX ’s #Starship S40 softly splashing-down in the Indian Ocean on Flight 13!!! Video — https://nitter.net/Erdayastronaut/status/2082197845306700112#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2082243743013614012",
+      "published": "2026-07-28T22:16:09+00:00",
+      "summary": "Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

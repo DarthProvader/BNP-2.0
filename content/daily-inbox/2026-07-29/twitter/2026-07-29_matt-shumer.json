@@ -1,0 +1,62 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-29T04:00:23.389895+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/PieroHerrera1/status/2082243369762541713",
+      "published": "2026-07-28T22:14:40+00:00",
+      "summary": "Was very curious to see if it was just hype, but tried @mattshumer_ 's gauntlet style prompt and after 16 hours it produced this. Video",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/ericbahn/status/2082229982592680240",
+      "published": "2026-07-28T21:21:28+00:00",
+      "summary": "Huge hats off to @mattshumer_ ! I can't believe his prompt allowed me to one-shot this game on Claude Code! Video Matt Shumer (@mattshumer_) Prompt: I want you to build a first-person shooter at the level of the most recent Call of Duty games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality—from textures to physics to anything you could think of. Fan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub-agent check it visually to ensure it looks triple A. That separate sub-agent should be a really harsh critic, and if it doesn't look triple A, it should keep going. Don't stop until each sub-agent is utterly wowed with the quality when compared with the actual Call of Duty game. It should literally compare them side by side blind and say which one looks better. Do this in ThreeJS. /loop until it's utterly perfect. Fan out sub-agents and ultra",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2082187781573333419",
+      "published": "2026-07-28T18:33:46+00:00",
+      "summary": "You can use Gauntlet Loops for more than just games! Here's a LIVE run, where I have a Gauntlet Loop writing a full horror novel. You can watch it run live here: workbench.md/d/52WesXD2rM?ke… Let's see what comes out!",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/markessien/status/2082088542654578765",
+      "published": "2026-07-28T11:59:26+00:00",
+      "summary": "This prompt is actually magical @mattshumer_ Mark Essien (@markessien) After working for about two hours, this is what came out. Older screenshot attached. — https://nitter.net/markessien/status/2082065755219075128#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
