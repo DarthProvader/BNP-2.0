@@ -107,6 +107,13 @@
 - Rizika: Potenciální ban účtu, X mění DOM každé 2-4 týdny
 - Mitigace: Headed mode, domácí IP, normální pauzy, sekundární účet
 
+#### Nápad / další experiment
+
+- Prověřit, jestli nově dostupné X MCP nejde použít jako jednotnou vrstvu pro sběr i publikaci místo současné kombinace Nitter RSS pro scraping a Tweepy/API pro postování.
+- Potenciální přínosy: méně různých integrací, méně custom glue kódu, menší závislost na křehkém scrapingu a jednodušší operator workflow.
+- Co ověřit v PoC: stabilita MCP, jaké akce opravdu podporuje (read/search/post/thread), limity/rate limiting, potřeba přihlášení, auditovatelnost výstupů a fallback když MCP selže.
+- Doporučení: držet stávající collector/poster jako fallback, dokud MCP neprojde pár týdnů reálného provozu.
+
 ---
 
 ## 6. Zpracování obsahu (LLM)
