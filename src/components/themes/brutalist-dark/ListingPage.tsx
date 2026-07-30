@@ -205,29 +205,31 @@ export default function PageClient({ articles, allTags, basePath = "/11", videos
         }
       `}</style>
 
-      {/* Language switcher - fixed top right */}
-      <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
-        <div className="flex gap-1">
-          <button
-            onClick={() => setLang("cs")}
-            className={`px-2 py-1 border transition-colors ${
-              lang === "cs"
-                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-            }`}
-          >
-            CZ
-          </button>
-          <button
-            onClick={() => setLang("en")}
-            className={`px-2 py-1 border transition-colors ${
-              lang === "en"
-                ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
-                : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
-            }`}
-          >
-            EN
-          </button>
+      {/* Language switcher - fixed top, aligned with the content column */}
+      <div className="fixed top-20 inset-x-0 z-50 pointer-events-none">
+        <div className="max-w-full min-[1920px]:max-w-[60%] mx-auto px-4 sm:px-8 flex justify-end">
+          <div className="pointer-events-auto flex gap-1 font-mono text-[10px] uppercase tracking-widest">
+            <button
+              onClick={() => setLang("cs")}
+              className={`px-2 py-1 border transition-colors ${
+                lang === "cs"
+                  ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                  : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+              }`}
+            >
+              CZ
+            </button>
+            <button
+              onClick={() => setLang("en")}
+              className={`px-2 py-1 border transition-colors ${
+                lang === "en"
+                  ? "border-[#f0f0f0] bg-[#f0f0f0] text-[#0a0a0a] font-bold"
+                  : "border-[#f0f0f0]/30 text-[#f0f0f0]/30 hover:text-[#f0f0f0] hover:border-[#f0f0f0] cursor-pointer bg-[#0a0a0a]/80"
+              }`}
+            >
+              EN
+            </button>
+          </div>
         </div>
       </div>
 
