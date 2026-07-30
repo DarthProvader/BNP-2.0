@@ -35,6 +35,19 @@ def drafts_path_for(target_date: str) -> Path:
     return SOCIAL_DRAFTS_DIR / target_date / "drafts.md"
 
 
+def drafts_slug(target_date: str) -> str:
+    """Read article_slug out of the drafts frontmatter."""
+    path = drafts_path_for(target_date)
+    if not path.exists():
+        return ""
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("article_slug:"):
+            return line.split(":", 1)[1].strip().strip("'\"")
+        if line.startswith("## "):
+            break
+    return ""
+
+
 def drafts_ready(target_date: str) -> bool:
     path = drafts_path_for(target_date)
     if not path.exists():
@@ -104,11 +117,11 @@ def run(
         json.dumps(
             {
                 "date": target_date,
-                "article_slug": target_date,
+                "article_slug": drafts_slug(target_date),
                 "published": {k: v for k, v in results.items() if v},
                 "failed": [k for k, v in results.items() if not v],
                 "published_at": datetime.now(timezone.utc).isoformat(),
-                "drafts_source": "cursor-automation",
+                "drafts_source": "cursor-sdk",
             },
             indent=2,
             ensure_ascii=False,
