@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-07-30T04:00:20.280296+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2082628413769003269",
+      "published": "2026-07-29T23:44:41+00:00",
+      "summary": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves. we all deserve the benefits. OpenAI (@OpenAI) We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. ChatGPT for Academic Researchers is built to accelerate discovery across disciplines. Video — https://nitter.net/OpenAI/status/2082516370949062989#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2082627724040884667",
+      "published": "2026-07-29T23:41:57+00:00",
+      "summary": "goblin-level blog post Tibo (@thsottiaux) Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation. openai.com/index/how-two-set… — https://nitter.net/thsottiaux/status/2082609662231502932#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

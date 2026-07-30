@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-07-30T04:00:32.932091+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2082622225727783026",
+      "published": "2026-07-29T23:20:06+00:00",
+      "summary": "How much money has T3Code made? Video",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2082619059506409520",
+      "published": "2026-07-29T23:07:31+00:00",
+      "summary": "With this, we've also reset the usage limits for T3Code, go celebrate! Theo - t3.gg (@theo) We just hit 150,000 users on T3 Code 🫡 — https://nitter.net/theo/status/2082618642999677194#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082618642999677194",
+      "published": "2026-07-29T23:05:52+00:00",
+      "summary": "We just hit 150,000 users on T3 Code 🫡",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082618756988313841",
+      "published": "2026-07-29T23:06:19+00:00",
+      "summary": "30,000 weekly actives as well 🤯 I have a feeling the recent releases will help skyrocket this",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2082616786596581733",
+      "published": "2026-07-29T22:58:29+00:00",
+      "summary": "Theo - t3.gg (@theo) HEADS UP: ignore the “whitelist” text when signing in, if you click this button you’ll be good to go. If it fails, close and reopen app to get latest js bundle pulled down. Embedded js is out of date and Apple is SO FKN SLOW — https://nitter.net/theo/status/2082616724504055861#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

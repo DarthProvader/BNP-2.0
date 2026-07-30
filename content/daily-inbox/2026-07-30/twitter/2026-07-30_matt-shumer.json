@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-07-30T04:00:25.408205+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2082551414719410579",
+      "published": "2026-07-29T18:38:43+00:00",
+      "summary": "I’m hiring an exceptional operator to run my AI newsletter. The goal: make it the biggest in the world. Send proof you’ve built and grown something great and can own editorial ops, growth, and ad sales. DM me, or tag/repost to help me find them.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/JeremiahDaws/status/2082514974962839560",
+      "published": "2026-07-29T16:13:55+00:00",
+      "summary": "Built a first-person destruction sandbox. Nothing in it was downloaded. Every texture is drawn to a canvas when the page loads. There isn’t a single image file in the game. The wallpaper is arithmetic. Built with @mattshumer_ ’s gauntlet loop prompt style grandmas-house-alpha.vercel.… Link EVERYTHING MUST GO She kept it all for fifty years. She is in the next room, and she can hear you. A first-person comedy destruction sim that runs in your browser. grandmas-house-alpha.vercel.app",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2082509137024274544",
+      "published": "2026-07-29T15:50:44+00:00",
+      "summary": "This is BY FAR, the best game I've seen built with a Gauntlet Loop. Play it, along with tons of other games built with Gauntlet Loops here: somethingbig.ai/games Submit yours on the page! Or link it in a comment here and I'll add it :) Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2082509546610630694",
+      "published": "2026-07-29T15:52:21+00:00",
+      "summary": "Huge credit to @Ryancampbell for prompting this incredible game into existence.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/rahilbhansali/status/2082440987411148955",
+      "published": "2026-07-29T11:19:55+00:00",
+      "summary": "Here's a car racing version using @mattshumer_ prompt! speed-racer-ten.vercel.app - You can play the game here! You can control weather, lighting. Use 'WASD' for driving and 'C' to change the camera angles. It didn't manage to one shot it after 18+ hours using Opus 5 ultracode - but with a few tweaks it did a pretty good job! I've been using this technique for the last few weeks in my independent harnesses and the build, verify, critique loops (gauntlet loops as Matt calls it) greatly have improved final outcomes of my products. Video Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
