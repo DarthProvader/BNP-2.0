@@ -1,74 +1,103 @@
 """Reddit collector for BNP 2.0.
 
-Uses Reddit's public JSON API (append .json to any URL) to fetch
-hot posts and top comments per subreddit. No login or browser needed.
+Reads each subreddit's public Atom feed (`/r/<sub>/hot/.rss`). The older
+`.json` endpoints now answer 403 Blocked for unauthenticated clients no matter
+the User-Agent, while the feeds still serve fine to a browser UA.
+
+The feeds carry title, permalink, author, timestamp and the post body, but no
+score, comment count or comments. Restoring those means registering a Reddit
+app and calling oauth.reddit.com with client credentials.
 """
 
 from __future__ import annotations
 
+import html
 import json
 import logging
+import re
 import time
-import urllib.request
-import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from time import mktime
 
+import feedparser
 import yaml
 
 logger = logging.getLogger(__name__)
 
 CHECKPOINT_FILE = ".last_fetch.json"
-USER_AGENT = "Windows:BerouNamPraci:2.0 (by /u/martin_kovac404)"
-REQUEST_DELAY = 2  # seconds between requests
+# Reddit throttles unknown clients hard; a plain browser UA is what the feeds
+# expect. Our old custom UA got 429 on the very same feed URL.
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+)
+REQUEST_DELAY = 20  # seconds between subreddits
+RETRY_COUNT = 3
+RETRY_BACKOFF_S = 30  # 429 needs a long pause; a short one just burns quota
 
 
-def _fetch_json(url: str) -> dict | list | None:
-    """Fetch JSON from a Reddit URL. Returns parsed data or None on failure."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
-        logger.error("  Failed to fetch %s: %s", url, e)
-        return None
+def _strip_html(raw: str) -> str:
+    text = re.sub(r"(?is)<(script|style).*?</\1>", " ", raw)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
-def _fetch_hot_posts(subreddit: str, limit: int = 10) -> list[dict] | None:
-    """Fetch hot posts from a subreddit. Returns list of post dicts or None on error."""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
-    data = _fetch_json(url)
-    if data is None:
-        return None
-    if not isinstance(data, dict) or "data" not in data:
-        return None
-    return [child["data"] for child in data["data"].get("children", []) if child.get("kind") == "t3"]
+def _fetch_feed(subreddit: str) -> list | None:
+    """Fetch a subreddit's hot Atom feed. Returns entries or None on failure."""
+    url = f"https://www.reddit.com/r/{subreddit}/hot/.rss"
+    last_err: object = None
+
+    for attempt in range(1, RETRY_COUNT + 1):
+        feed = feedparser.parse(url, agent=USER_AGENT)
+        status = getattr(feed, "status", None)
+
+        if status == 429:
+            last_err = "HTTP 429 (rate limited)"
+        elif status and status >= 400:
+            last_err = f"HTTP {status}"
+        elif feed.entries:
+            return feed.entries
+        else:
+            last_err = getattr(feed, "bozo_exception", None) or "empty feed"
+
+        logger.warning(
+            "  r/%s attempt %d/%d: %s", subreddit, attempt, RETRY_COUNT, last_err
+        )
+        if attempt < RETRY_COUNT:
+            time.sleep(RETRY_BACKOFF_S * attempt)
+
+    logger.error("  Failed to fetch r/%s: %s", subreddit, last_err)
+    return None
 
 
-def _fetch_post_comments(permalink: str, max_comments: int = 5) -> list[dict]:
-    """Fetch top comments for a post by its permalink. Returns list of comment dicts."""
-    url = f"https://www.reddit.com{permalink}.json?sort=top&limit={max_comments + 5}"
-    data = _fetch_json(url)
-    if not data or not isinstance(data, list) or len(data) < 2:
-        return []
+def _entry_dt(entry) -> datetime | None:
+    for attr in ("published_parsed", "updated_parsed"):
+        parsed = getattr(entry, attr, None)
+        if parsed:
+            return datetime.fromtimestamp(mktime(parsed), tz=timezone.utc)
+    return None
 
-    comments = []
-    for child in data[1]["data"].get("children", []):
-        if child.get("kind") != "t1":
-            continue
-        c = child["data"]
-        author = c.get("author", "")
-        if author in ("AutoModerator", "[deleted]", ""):
-            continue
-        comments.append({
-            "author": author,
-            "text": c.get("body", "")[:500],
-            "score": c.get("score", 0),
-        })
-        if len(comments) >= max_comments:
-            break
 
-    return comments
+def _entry_to_post(entry) -> dict:
+    """Convert an Atom entry into the post shape the rest of the pipeline uses."""
+    body = ""
+    for candidate in (entry.get("content") or []):
+        body = candidate.get("value", "") or body
+    if not body:
+        body = entry.get("summary", "")
+
+    published = entry.get("published") or entry.get("updated") or ""
+    author = (entry.get("author") or "").lstrip("/").removeprefix("u/")
+
+    return {
+        "title": entry.get("title", ""),
+        "url": entry.get("link", ""),
+        "published": published,
+        "summary": _strip_html(body)[:1000],
+        "author": author,
+    }
 
 
 def load_config(config_path: Path) -> dict:
@@ -96,61 +125,30 @@ def _collect_single_sub(
     output_dir: Path,
     today_str: str,
     max_posts: int = 10,
-    max_comments: int = 5,
 ) -> tuple[bool, int]:
     """Collect posts from a single subreddit. Returns (success, item_count)."""
     name = sub["name"]
     slug = sub["slug"]
     tags = sub.get("tags", [])
 
-    # Fetch extra posts so we have enough after filtering
-    posts = _fetch_hot_posts(name, limit=max_posts + 5)
-    if posts is None:
+    entries = _fetch_feed(name)
+    if entries is None:
         return False, 0
 
-    if not posts:
-        logger.info("  No posts found for r/%s", name)
-        return True, 0
+    # Feeds are already in hot order, so keep that order once stale posts are out.
+    items = []
+    for entry in entries:
+        post = _entry_to_post(entry)
+        created = _entry_dt(entry)
+        if created is None or created <= since_dt:
+            continue
+        items.append(post)
+        if len(items) >= max_posts:
+            break
 
-    # Filter by date, skip stickied
-    filtered = []
-    for p in posts:
-        created = datetime.fromtimestamp(p.get("created_utc", 0), tz=timezone.utc)
-        if created > since_dt and not p.get("stickied", False):
-            filtered.append(p)
-
-    # Sort by score descending, take top max_posts
-    filtered.sort(key=lambda p: p.get("score", 0), reverse=True)
-    filtered = filtered[:max_posts]
-
-    if not filtered:
+    if not items:
         logger.info("  No new posts for r/%s since cutoff", name)
         return True, 0
-
-    # Fetch comments for each post
-    items = []
-    for i, p in enumerate(filtered):
-        item = {
-            "title": p.get("title", ""),
-            "url": f"https://www.reddit.com{p.get('permalink', '')}",
-            "published": datetime.fromtimestamp(p.get("created_utc", 0), tz=timezone.utc).isoformat(),
-            "summary": (p.get("selftext", "") or p.get("url", ""))[:1000],
-            "author": p.get("author", ""),
-            "score": p.get("score", 0),
-            "comments": p.get("num_comments", 0),
-        }
-
-        # Delay between comment requests
-        if i > 0:
-            time.sleep(REQUEST_DELAY)
-
-        permalink = p.get("permalink", "")
-        if permalink:
-            top_comments = _fetch_post_comments(permalink, max_comments)
-            if top_comments:
-                item["top_comments"] = top_comments
-
-        items.append(item)
 
     now_iso = datetime.now(timezone.utc).isoformat()
     output_data = {

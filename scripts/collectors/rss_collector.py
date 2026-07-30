@@ -10,6 +10,7 @@ import html
 import json
 import logging
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from time import mktime
@@ -20,6 +21,15 @@ import yaml
 logger = logging.getLogger(__name__)
 
 CHECKPOINT_FILE = ".last_fetch.json"
+# YouTube throttles a burst of feed requests and answers with an HTML error
+# page, so space the requests out and retry instead of losing the source.
+FEED_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+)
+FEED_RETRY_COUNT = 3
+FEED_RETRY_BACKOFF_S = 4
+INTER_FEED_DELAY_S = 1.5
 
 
 def load_config(config_path: Path) -> dict:
@@ -66,32 +76,51 @@ def entry_to_item(entry) -> dict:
     }
 
 
-def fetch_feed(source: dict, cutoff: datetime) -> list[dict]:
-    """Fetch a single RSS/Atom feed and return items newer than cutoff."""
+def fetch_feed(source: dict, cutoff: datetime) -> list[dict] | None:
+    """Fetch one feed and return items newer than cutoff, or None if it failed.
+
+    None and an empty list mean different things: a failed fetch must not
+    advance the checkpoint, otherwise the skipped window is lost for good.
+    """
     feed_url = source["feed_url"]
     name = source["name"]
 
     logger.info("Fetching: %s (%s)", name, feed_url)
+    last_err: object = None
 
-    try:
-        feed = feedparser.parse(feed_url)
-    except Exception as e:
-        logger.error("Failed to parse feed %s: %s", name, e)
-        return []
+    for attempt in range(1, FEED_RETRY_COUNT + 1):
+        try:
+            feed = feedparser.parse(feed_url, agent=FEED_USER_AGENT)
+        except Exception as e:
+            last_err = e
+        else:
+            if feed.entries:
+                items = []
+                for entry in feed.entries:
+                    pub_date = parse_entry_date(entry)
+                    if pub_date and pub_date < cutoff:
+                        continue
+                    items.append(entry_to_item(entry))
+                logger.info("  -> %d new items from %s", len(items), name)
+                return items
+            # Hosts under load answer with an HTML error page, which surfaces
+            # as a parse error rather than a status code.
+            last_err = getattr(feed, "bozo_exception", None) or (
+                f"HTTP {getattr(feed, 'status', '?')}, no entries"
+            )
 
-    if feed.bozo and not feed.entries:
-        logger.warning("Feed error for %s: %s", name, feed.bozo_exception)
-        return []
+        logger.warning(
+            "Feed error for %s (attempt %d/%d): %s",
+            name,
+            attempt,
+            FEED_RETRY_COUNT,
+            last_err,
+        )
+        if attempt < FEED_RETRY_COUNT:
+            time.sleep(FEED_RETRY_BACKOFF_S * attempt)
 
-    items = []
-    for entry in feed.entries:
-        pub_date = parse_entry_date(entry)
-        if pub_date and pub_date < cutoff:
-            continue
-        items.append(entry_to_item(entry))
-
-    logger.info("  -> %d new items from %s", len(items), name)
-    return items
+    logger.error("Giving up on feed %s: %s", name, last_err)
+    return None
 
 
 def collect_category(
@@ -110,7 +139,9 @@ def collect_category(
 
     updated_checkpoint = {}
 
-    for source in sources:
+    for idx, source in enumerate(sources):
+        if idx > 0:
+            time.sleep(INTER_FEED_DELAY_S)
         slug = source["slug"]
         checkpoint_key = f"{category}/{slug}"
 
@@ -122,6 +153,13 @@ def collect_category(
 
         items = fetch_feed(source, cutoff)
         now_iso = datetime.now(timezone.utc).isoformat()
+
+        if items is None:
+            # Keep the old checkpoint so the next run retries this window.
+            logger.warning(
+                "  -> %s unavailable, checkpoint left untouched", source["name"]
+            )
+            continue
 
         if not items:
             logger.info("  -> No new items for %s, skipping file write", source["name"])

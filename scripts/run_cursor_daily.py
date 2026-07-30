@@ -70,6 +70,7 @@ def _run_collectors() -> None:
     from collectors.yt_transcript_collector import run as transcripts_run
     from collectors.futuretools_collector import run as futuretools_run
 
+    failed: list[str] = []
     for name, fn in (
         ("RSS", rss_run),
         ("Twitter", twitter_run),
@@ -78,7 +79,15 @@ def _run_collectors() -> None:
         ("FutureTools", futuretools_run),
     ):
         logger.info("Collecting: %s", name)
-        fn()
+        try:
+            fn()
+        except Exception as exc:
+            # One broken source must not cost us the whole day's article.
+            failed.append(name)
+            logger.error("Collector %s failed: %s", name, exc, exc_info=True)
+
+    if failed:
+        logger.warning("Collectors that failed: %s", ", ".join(failed))
 
 
 def _step_verifier(target_date: str):

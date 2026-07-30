@@ -20,6 +20,10 @@ logger = logging.getLogger(__name__)
 # Reuse a single API instance across all calls
 _ytt = YouTubeTranscriptApi()
 
+# Scheduled live streams have no transcript yet but get one later, so give a
+# video a few runs before writing it off for good.
+MAX_TRANSCRIPT_ATTEMPTS = 3
+
 
 def extract_video_id(url: str) -> str | None:
     """Extract YouTube video ID from various URL formats."""
@@ -39,24 +43,59 @@ def extract_video_id(url: str) -> str | None:
     return None
 
 
+def _pick_transcript(listing):
+    """Prefer a human English track, then auto English, then anything at all."""
+    for finder in (
+        lambda: listing.find_manually_created_transcript(["en"]),
+        lambda: listing.find_generated_transcript(["en"]),
+    ):
+        try:
+            return finder()
+        except Exception:
+            continue
+
+    available = list(listing)
+    if not available:
+        return None
+
+    # Many uploads only expose an auto track in the viewer's locale; those are
+    # usually translatable back to English.
+    chosen = available[0]
+    if getattr(chosen, "is_translatable", False):
+        codes = {t.language_code for t in getattr(chosen, "translation_languages", [])}
+        if "en" in codes:
+            try:
+                return chosen.translate("en")
+            except Exception:
+                pass
+    return chosen
+
+
 def fetch_transcript(video_id: str) -> tuple[str, str] | None:
     """Fetch transcript for a video. Returns (text, lang) or None."""
     try:
-        # Try English first, then any available language
-        transcript = _ytt.fetch(video_id, languages=["en"])
-        text = " ".join(snippet.text for snippet in transcript)
-        return text, "en"
-    except Exception as en_err:
-        logger.debug("No English transcript for %s: %s", video_id, en_err)
-
-    try:
-        transcript = _ytt.fetch(video_id)
-        lang = transcript.language if hasattr(transcript, "language") else "auto"
-        text = " ".join(snippet.text for snippet in transcript)
-        return text, lang
+        listing = _ytt.list(video_id)
     except Exception as e:
-        logger.warning("No transcript for %s: %s", video_id, e)
+        logger.warning("No transcript list for %s: %s", video_id, e)
         return None
+
+    transcript = _pick_transcript(listing)
+    if transcript is None:
+        logger.warning("No transcript tracks for %s", video_id)
+        return None
+
+    lang = getattr(transcript, "language_code", "auto")
+    try:
+        fetched = transcript.fetch()
+    except Exception as e:
+        logger.warning("Transcript fetch failed for %s (%s): %s", video_id, lang, e)
+        return None
+
+    text = " ".join(snippet.text for snippet in fetched)
+    if not text.strip():
+        logger.warning("Empty transcript for %s (%s)", video_id, lang)
+        return None
+    return text, lang
 
 
 def enrich_file(json_path: Path) -> int:
@@ -66,12 +105,21 @@ def enrich_file(json_path: Path) -> int:
         data = json.load(f)
 
     added = 0
+    changed = False
     items = data.get("items", [])
 
     for item in items:
-        # Skip if already attempted (key present — even if None means "no transcript available")
-        if "transcript" in item:
+        if item.get("transcript"):
             logger.info("  Skipping %s (already processed)", item.get("title", "?")[:50])
+            continue
+
+        attempts = item.get("transcript_attempts", 0)
+        if "transcript" in item and attempts >= MAX_TRANSCRIPT_ATTEMPTS:
+            logger.info(
+                "  Skipping %s (no transcript after %d attempts)",
+                item.get("title", "?")[:50],
+                attempts,
+            )
             continue
 
         video_id = extract_video_id(item.get("url", ""))
@@ -81,18 +129,22 @@ def enrich_file(json_path: Path) -> int:
 
         logger.info("  Fetching transcript for: %s (%s)", item.get("title", "?")[:50], video_id)
         result = fetch_transcript(video_id)
+        changed = True
 
         if result:
             text, lang = result
             item["transcript"] = text
             item["transcript_lang"] = lang
+            item.pop("transcript_attempts", None)
             added += 1
             logger.info("    -> Got %d chars (%s)", len(text), lang)
         else:
             item["transcript"] = None
             item["transcript_lang"] = None
+            item["transcript_attempts"] = attempts + 1
 
-    if added > 0:
+    # Persist failures too, otherwise the same videos are retried on every run.
+    if changed:
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
