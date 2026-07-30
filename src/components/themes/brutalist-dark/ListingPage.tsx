@@ -5,7 +5,6 @@ import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
 import type { YouTubeVideo } from "@/lib/mdx";
-import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -206,10 +205,8 @@ export default function PageClient({ articles, allTags, basePath = "/11", videos
         }
       `}</style>
 
-      {/* Language switcher + Theme picker - fixed top right */}
+      {/* Language switcher - fixed top right */}
       <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
-        <ThemePicker variant="brutalist" />
-        <div className="w-[1px] h-4 bg-[#f0f0f0]/20" />
         <div className="flex gap-1">
           <button
             onClick={() => setLang("cs")}

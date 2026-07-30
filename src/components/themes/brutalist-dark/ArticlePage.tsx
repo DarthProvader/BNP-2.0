@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import ArticleContent from "@/components/ArticleContent";
 import type { Article } from "@/lib/mockData";
-import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -74,8 +73,6 @@ export default function PageClient({ article, basePath = "/11" }: PageClientProp
             </div>
 
             <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-widest">
-              <ThemePicker variant="brutalist" />
-              <div className="w-px h-4 bg-[#f0f0f0]/20" />
               {/* CZ/EN toggle */}
               <div className="flex gap-2">
                 <button

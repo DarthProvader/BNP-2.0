@@ -4,7 +4,6 @@ import { useState, useMemo } from "react";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
 import type { Article } from "@/lib/mockData";
-import ThemePicker from "@/components/ThemePicker";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -118,10 +117,8 @@ export default function AllArticlesPage({ articles, allTags }: Props) {
         }
       `}</style>
 
-      {/* Language + theme switcher */}
+      {/* Language switcher */}
       <div className="fixed top-20 right-4 z-50 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest">
-        <ThemePicker variant="brutalist" />
-        <div className="w-px h-4 bg-[#f0f0f0]/20" />
         <div className="flex gap-1">
           <button
             onClick={() => setLang("cs")}
