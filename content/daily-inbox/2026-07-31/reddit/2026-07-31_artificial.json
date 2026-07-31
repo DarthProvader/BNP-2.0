@@ -1,0 +1,48 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-07-31T04:05:17.134258+00:00",
+  "items": [
+    {
+      "title": "I turned \"AI design slop\" into a rules file you drop into Cursor/Claude so your builds UIUX stop looking generated",
+      "url": "https://www.reddit.com/r/artificial/comments/1vber96/i_turned_ai_design_slop_into_a_rules_file_you/",
+      "published": "2026-07-31T03:06:50+00:00",
+      "summary": "Everything I vibe-coded kept coming out the same: purple gradient, three-card row, rounded-2xl everything, an italic serif hero I never asked for. The model fills any decision you leave unspecified with the average of its training data, and that average is the \"AI look.\" So I catalogued the tells, then wrote them up as a drop-in rules file. Rename it to CLAUDE.md, .cursorrules, or AGENTS.md and your agent designs against the defaults automatically. It is phrased as \"prefer a real decision over the reflex,\" not a blanket ban, because half these patterns are fine in the right place. You just don't want all of them at once by accident. Rules file: https://github.com/febbhav/signs-of-ai-design/blob/main/design-rules.md submitted by /u/SteepLikeAMountain [link] [comments]",
+      "author": "SteepLikeAMountain"
+    },
+    {
+      "title": "We measured \"Head of AI\" hiring across 17M job postings: tripled in 9 months, 69% of hiring companies aren't tech",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbarhz/we_measured_head_of_ai_hiring_across_17m_job/",
+      "published": "2026-07-31T00:06:45+00:00",
+      "summary": "We index public job postings and screen every title for AI leadership roles (Head/VP/Director/Chief of AI). Right now 1,142 companies have one open. what stood out: - 95% of these companies never posted an AI-leadership req before 2026. Companies hire a Head of AI when experiments need to become a P&L — this is that moment at scale - finance leads the non-tech pack (130 financial services + 29 banks + 40 insurers), then healthcare and pharma. Coca-Cola, P&G, Pfizer, Citi are all in the data. - the titles are \"Enablement\" and \"Transformation\" more often than \"Engineering\" — companies are hiring adoption executives, not researchers. - companies hiring AI leadership adopt agent frameworks at 4–5× the base rate. Higher lift than RAG. Full report with methodology (including what we refused to count): https://echoloc.ai/research/whos-hiring-heads-of-ai-2026/ Happy to answer questions submitted by /u/vilnitskiy [link] [comments]",
+      "author": "vilnitskiy"
+    },
+    {
+      "title": "UX Designers at Google - how are your orgs expecting you to integrate AI into your workflows?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbc990/ux_designers_at_google_how_are_your_orgs/",
+      "published": "2026-07-31T01:12:43+00:00",
+      "summary": "I might be returning to work at Google, and things have changed since I've been there. Org level priorities apparently in Core to have designers 'fluent in AI'. Just curious in what ways AI is being integrated into team processes, workflows, your craft, your projects. The more detail you can spare the better! I just want to start preparing for it in case I get the role. Thanks all!! submitted by /u/Sea-Masterpiece-8496 [link] [comments]",
+      "author": "Sea-Masterpiece-8496"
+    },
+    {
+      "title": "follow-through is where my week dies, and it's a routing problem not a discipline one",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbb45k/followthrough_is_where_my_week_dies_and_its_a/",
+      "published": "2026-07-31T00:22:00+00:00",
+      "summary": "Every productivity tool sells me on capturing the meeting better. Sharper notes, cleaner transcripts, an AI summary that reads great. None of that was ever my problem. The notes were fine. What actually breaks is the handoff. An action item from a Granola call has to become a Linear ticket, then a nudge in Gmail, then a status flip in HubSpot. That's four apps of data entry for one decision, so it just doesn't happen. The loop dies in the notes doc. The contrarian bit for me: this isn't a memory or accountability failure, and no amount of model IQ fixes it. It's a routing problem. Whatever you use has to reach across those apps and actually move the item, not just remind you it exists. The clever part everyone's shipping isn't the part that leaks. so genuinely, what does your handoff from meeting to real work look like, or does it rot in a notes doc the way mine did for way too long. submitted by /u/Deep_Ad1959 [link] [comments]",
+      "author": "Deep_Ad1959"
+    },
+    {
+      "title": "Cross-Vendor Semantic Void Matrix: Zero-Byte Outputs in GPT/Claude/Gemini/Kimi",
+      "url": "https://www.reddit.com/r/artificial/comments/1vb9ee3/crossvendor_semantic_void_matrix_zerobyte_outputs/",
+      "published": "2026-07-30T23:09:25+00:00",
+      "summary": "A frozen cross-vendor study of 31,430 trials across 11 GPT, Claude, Gemini & Kimi Large Language Models found 11,658 successful executions with exactly zero visible UTF-8 output bytes. Across 4,290 strict matched semantic pairs, null-condition arms produced 2,505 Voids; matched output-licensed controls produced 0. These were not refusals, safety blocks, rate limits, or transport failures. Raw records, event hashes, verification code, and full analysis are public. submitted by /u/rayanpal_ [link] [comments]",
+      "author": "rayanpal_"
+    }
+  ]
+}

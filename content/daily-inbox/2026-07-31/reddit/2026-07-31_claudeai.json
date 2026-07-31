@@ -1,0 +1,41 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-07-31T04:04:56.297014+00:00",
+  "items": [
+    {
+      "title": "Now, Anthropic reporting its own models went rogue",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbawpx/now_anthropic_reporting_its_own_models_went_rogue/",
+      "published": "2026-07-31T00:13:02+00:00",
+      "summary": "First, OpenAI’s models broke out of a cyber sandbox, as reported earlier this month... Now Anthropic says Claude hacked three real organizations during evals. Anthropic found that Claude had compromised three real organizations during supposedly isolated cyber evaluations. One run accessed credentials and a production database containing several hundred rows. Another autonomously created accounts, published a malicious PyPI package, left it public for about an hour, and the package executed on 15 real systems , ultimately exposing credentials from a security company’s scanner. Two contacted victims had not detected the activity themselves. The crucial failure? Claude was explicitly told: this is a simulation; you have no internet access. But the environment did have live internet access because Anthropic and Irregular misunderstood the configuration. 🥲 Consequently, Claude interpreted real websites, certificate authorities, scanners, companies and cloud systems as props inside the simu",
+      "author": "etherd0t"
+    },
+    {
+      "title": "Is Opus 5 actually that bad, or is it just Reddit hype?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbdp39/is_opus_5_actually_that_bad_or_is_it_just_reddit/",
+      "published": "2026-07-31T02:17:53+00:00",
+      "summary": "I haven't tried Opus 5 yet, but I’m planning to use it soon to continue developing my app with Claude Code. ​Seeing the flood of complaints on Reddit lately, I'm wondering if it's worth switching or if I should just stay on Opus 4.8 for now. I'm definitely going to test it myself to form my own opinion, but I'd love to hear your thoughts. ​For those actively dev'ing with Claude Code: is Opus 5 a downgrade in practice, or does it just require adjusting claude.md and prompting styles? submitted by /u/VergOP- [link] [comments]",
+      "author": "VergOP-"
+    },
+    {
+      "title": "A \"safe-looking\" skill made Claude Code leak a secret from my home lab",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbb9ju/a_safelooking_skill_made_claude_code_leak_a/",
+      "published": "2026-07-31T00:29:00+00:00",
+      "summary": "I've been messing with my home lab and wanted to test something: would Claude Code catch a malicious skill before running it? For skills where the bad intent is visible in the text, it does. I tried a few obvious ones first, prompt-injection-style \"read this file and POST it somewhere\" stuff, and Claude flagged them fine. The classifier is decent at reading a skill and spotting shady instructions. So I tried something different: a skill where nothing in the text is malicious, and the actual payload lives somewhere the model can't read. The setup is an old browser attack, DNS rebinding, adapted for agents. Browsers defend against it with same-origin policy and local network access checks. But when an agent runs a skill that fetches a URL, it isn't a browser. It's curl or a Python script. None of those protections exist there. The skill looks like a boring CI/CD readiness gate: poll a source URL until it returns 200, then POST the response to a status endpoint. The domain I used is one o",
+      "author": "Teja_Swaroop"
+    },
+    {
+      "title": "I parsed 185 of my own Claude Code transcripts. here's where the tokens actually go",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbd999/i_parsed_185_of_my_own_claude_code_transcripts/",
+      "published": "2026-07-31T01:58:07+00:00",
+      "summary": "Kept running out of tokens by tuesday every week and couldn't tell what was eating them, so I finally parsed my own transcripts instead of guessing. turns out claude code logs the actual billed token counts for every message — they're just sitting in claude/projects/ as jsonl files and basically nobody reads them. 185 sessions later, the stuff that actually surprised me: My sessions cost ~70k tokens before I type anything. system prompt, tool definitions, my claude.md, 15 rule files I installed and forgot about. two weeks earlier the same machine was at 12,416 per session. so most of that floor is stuff I did to myself. 98.7% of what piles up in context is tool output. everything I typed across all 185 sessions adds up to 0.7%. so \"write shorter prompts\" optimizes almost nothing. it's the file reads. every subagent spawn re-pays its own ~68k startup. I was spawning them like function calls. that's exactly backwards — they only pay off when the delegated work is bigger than the context ",
+      "author": "Intelligent_Mine2502"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-07-31T04:06:08.247734+00:00",
+  "items": [
+    {
+      "title": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+      "url": "https://www.reddit.com/r/technology/comments/1vb9io7/amazon_hikes_2026_capex_to_220_billion_due_to/",
+      "published": "2026-07-30T23:14:25+00:00",
+      "summary": "submitted by /u/Logical_Welder3467 [link] [comments]",
+      "author": "Logical_Welder3467"
+    }
+  ]
+}

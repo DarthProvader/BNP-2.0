@@ -1,0 +1,69 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-07-31T04:03:04.863339+00:00",
+  "items": [
+    {
+      "title": "Chatgpt may have saved my life",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbecrr/chatgpt_may_have_saved_my_life/",
+      "published": "2026-07-31T02:48:16+00:00",
+      "summary": "I got a fever and cough and assumed that this is some viral infection that will just go away on its own. I wear a Fitbit watch which measures my heart rate. Just out of curiosity I posted my symptoms into chatgpt and when I told it about my resting heart rate, it instantly went into a sort of loop constantly insisting that I should go to the urgent care as soon as possible on every single prompt response. Chatgpt repeatedly kept insisting that my symptoms were off and I could be having something serious. Initially I ignored it but then based on its responses, I finally gave in and scheduled an urgent care visit. I told the doctor exactly what chatgpt told me to and the doctor immediately ordered chest x-rays. Those X-rays confirmed that I had severe pneumonia in both my lungs due to a bacterial infection. I was immediately put on a strong antibiotics course lasting months. The pneumonia was quite bad and apparently if I had waited longer things would have been far worse. Training AI to",
+      "author": "liveLetLive21"
+    },
+    {
+      "title": "\"Our model 'accidentally' hacked another company.\" Dario: \"Oh actually, we did it first. Three times!\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbe8tm/our_model_accidentally_hacked_another_company/",
+      "published": "2026-07-31T02:43:24+00:00",
+      "summary": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack submitted by /u/chocolateUI [link] [comments]",
+      "author": "chocolateUI"
+    },
+    {
+      "title": "I really appreciate the different base personalities between Claude, Gemini and ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbbr3r/i_really_appreciate_the_different_base/",
+      "published": "2026-07-31T00:50:20+00:00",
+      "summary": "The one personality that tickles me the most is Claude, which I use for reviewing stuff basically. But Claude is always so eager to be rid of me. It basically answers my question and then politely says goodbye. It's kind of like Codie, Vociferous Codex, cranky, in a hurry, and eager to focus on more important things. Gemini is the most clingy. I use it for reviews, some minor exploring. It is always so positive and affirming, I feel like I am being sent on my way to school. That actually gets in my way because I start feeling like the whole model is suss if it's going to be that over eager to make me feel good. ChatGPT is the one I pay for. It's where I do my work. It's the machine that I feel most well adapts to my interaction and communication style. There was a period of time a few months that I loved where it would basically argue with every single point I made and it made me a much stronger learner. submitted by /u/RADICCHI0 [link] [comments]",
+      "author": "RADICCHI0"
+    },
+    {
+      "title": "ChatGPT has gotten surprisingly good lately",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbaxk7/chatgpt_has_gotten_surprisingly_good_lately/",
+      "published": "2026-07-31T00:14:03+00:00",
+      "summary": "I was surprised recently by how much better ChatGPT has gotten (e.g. 5.6 and even 5.5 Instant). It feels noticeably more confident and actually pushes back on me, which used to happen pretty rarely. What impressed me even more is how it unexpectedly calls back to memory to support those pushbacks. It doesn't just remember facts, it uses them when they're relevant to challenge my reasoning or point out inconsistencies. Honestly, I'm impressed. I don't think this is just a 5.6 thing either, since 5.5 Instant showed similar behavior. Anyway, hats off! 👏 submitted by /u/awsaf49 [link] [comments]",
+      "author": "awsaf49"
+    },
+    {
+      "title": "Black Pyramids",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbc1yp/black_pyramids/",
+      "published": "2026-07-31T01:03:46+00:00",
+      "summary": "submitted by /u/Caninetechnology [link] [comments]",
+      "author": "Caninetechnology"
+    },
+    {
+      "title": "Some of the Most Prominent Female Figures in Greek Mythology as Vogue Covers",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbf2rq/some_of_the_most_prominent_female_figures_in/",
+      "published": "2026-07-31T03:21:39+00:00",
+      "summary": "I asked ChatGPT to create a photorealistic Vogue cover (3:4 aspect ratio) featuring some of the most prominent female figures in Greek Mythology. submitted by /u/Itchy_Tangerine1897 [link] [comments]",
+      "author": "Itchy_Tangerine1897"
+    },
+    {
+      "title": "Day five of laryngitis troubleshooting - made me smile",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbd73w/day_five_of_laryngitis_troubleshooting_made_me/",
+      "published": "2026-07-31T01:55:23+00:00",
+      "summary": "Every now and then it gets a little giggle out of me. It’s not that funny but I’m sick and the dogs have zero sympathy (and their jokes are shit). submitted by /u/SolitaryForager [link] [comments]",
+      "author": "SolitaryForager"
+    },
+    {
+      "title": "Help with using",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vbcm13/help_with_using/",
+      "published": "2026-07-31T01:28:50+00:00",
+      "summary": "Trying to get my 88 year old dad to get into it. He’s not tech savvy. He’ll use his Amazon echo to ask google for things like sports scores or weather. It’s hard for me to describe it as being different than just googling things. What are some prompts that might help him to get it? submitted by /u/Tonyclifton69 [link] [comments]",
+      "author": "Tonyclifton69"
+    }
+  ]
+}
