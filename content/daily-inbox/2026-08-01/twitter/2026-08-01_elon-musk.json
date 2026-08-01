@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-01T04:00:51.864622+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/SpaceX/status/2083386927521153342",
+      "published": "2026-08-01T01:58:45+00:00",
+      "summary": "Watch Falcon 9 launch 24 @Starlink satellites to orbit from California nitter.net/i/broadcasts/1AxRnnrOb… Link SpaceX Starlink Mission https://nitter.net/i/broadcasts/1AxRnnrObgzxl",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083372850505781361",
+      "published": "2026-08-01T01:02:49+00:00",
+      "summary": "Grok Build improvements X.ai/cli Link Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst... x.ai X Freeze (@XFreeze) Grok Build just got another meaningful upgrade, bringing permanent session deletion, smarter diagnostics, better keyboard guidance, and stronger reliability across session management, background tasks, and compaction Release Notes: v0.2.118 Features: • Sessions can now be permanently deleted from the dashboard by pressing Ctrl+X twice on an idle row, or from the welcome list with d then y. • Keyboard shortcuts help (Ctrl+.) now shows how to browse prompt history and search the conversation. • grok doctor now warns when tmux is reducing colors and can fix the config. Bug Fixes: • /btw now retries on temporary model overload instead of failing immediately. • Session sharing is temporarily disabled. • [stop] / Ctrl+C d",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083371052067860671",
+      "published": "2026-08-01T00:55:40+00:00",
+      "summary": "Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083369385616421314",
+      "published": "2026-08-01T00:49:03+00:00",
+      "summary": "Try @Grok Build X.ai/cli Link Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst... x.ai Jason Kneen (@jasonkneen) Honestly and this is not sponsored, @grok and @SpaceXAI grok build are just astonishing. I just paid for the promo for grok heavy. I took a screenshot of a workflow tool, asked Grok Build to make it and it got a working first pass. From there it's taken no longer than 30mins of a handful of prompts etc to turn it into a complete and polished product that can create workflows, then them, debug and supports writing custom tooling. Just astonishing. — https://nitter.net/jasonkneen/status/2083077756447818176#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083356782693380350",
+      "published": "2026-07-31T23:58:58+00:00",
+      "summary": "Imagine Video 1.5 improvements Grok (@grok) Imagine Video 1.5 launched last month as our best video model yet, with more lifelike motion and sound. Today it goes even further with text-to-video support, image and voice references, and native 1080p. grok.com/imagine Video — https://nitter.net/grok/status/2083353607370416632#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

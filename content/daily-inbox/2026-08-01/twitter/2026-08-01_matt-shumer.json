@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-01T04:01:02.505803+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083241157660659997",
+      "published": "2026-07-31T16:19:31+00:00",
+      "summary": "The newsletter is growing faster than I can keep up with, so I’ve brought on a team to handle all the inbound ad interest. Slots are going to lock in fast. If you want your brand featured, DM me asap and I’ll connect you directly with the team.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083219712796745868",
+      "published": "2026-07-31T14:54:18+00:00",
+      "summary": "Teaching Claude to use Unreal Engine... close to the point where we can run Gauntlet Loops to build real games on it! It looks silly now, but it won't soon! Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-01T04:01:09.963763+00:00",
+  "items": [
+    {
+      "title": "Sam Altman demoed OpenAI's unreleased \"Astra\" model to policymakers this week",
+      "url": "https://www.reddit.com/r/singularity/comments/1vc6o4b/sam_altman_demoed_openais_unreleased_astra_model/",
+      "published": "2026-07-31T23:20:20+00:00",
+      "summary": "Source: Exclusive: OpenAI Previews ‘Astra’ AI Model in DC — The Information submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Harvard & UIUC talent discover a 3rd pretraining axis: 6.2x sample efficiency and 250x faster GenAI generation",
+      "url": "https://www.reddit.com/r/singularity/comments/1vby7fp/harvard_uiuc_talent_discover_a_3rd_pretraining/",
+      "published": "2026-07-31T17:54:45+00:00",
+      "summary": "Source submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+      "url": "https://www.reddit.com/r/singularity/comments/1vc2eug/openai_finds_evidence_other_ai_agents_escaped/",
+      "published": "2026-07-31T20:31:13+00:00",
+      "summary": "submitted by /u/tolerablepartridge [link] [comments]",
+      "author": "tolerablepartridge"
+    },
+    {
+      "title": "In one California town, Flock misread license plates in 71% of the alerts it sent to police",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbrcki/in_one_california_town_flock_misread_license/",
+      "published": "2026-07-31T13:43:23+00:00",
+      "summary": "submitted by /u/rstevens94 [link] [comments]",
+      "author": "rstevens94"
+    },
+    {
+      "title": "Life is so hard I really hope the singularity comes as soon as possible.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcb8xn/life_is_so_hard_i_really_hope_the_singularity/",
+      "published": "2026-08-01T02:48:16+00:00",
+      "summary": "I literally cannot keep up being a slave to this monopolistic system. I hope zeitgeist happens, the singularity hits, abundance hits. Work becomes optional and not tied to survival. Cause this timeline of modern slavery suck really badly. I'm tired guys submitted by /u/LazyPotatoHead97 [link] [comments]",
+      "author": "LazyPotatoHead97"
+    },
+    {
+      "title": "Weights of Deepseek v4 flash 0731 have been released!!!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbphpz/weights_of_deepseek_v4_flash_0731_have_been/",
+      "published": "2026-07-31T12:25:26+00:00",
+      "summary": "submitted by /u/Hot_Example_4456 [link] [comments]",
+      "author": "Hot_Example_4456"
+    },
+    {
+      "title": "With release of Deepseek V4 I wanted see how the model sizes are trending over time. Open source models are constantly getting smaller and better. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops (sounds unlikely?!).",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbxuv3/with_release_of_deepseek_v4_i_wanted_see_how_the/",
+      "published": "2026-07-31T17:41:53+00:00",
+      "summary": "I was surprised to see that Deepseek V4 Flash is extremely smart and small enough to fit in setup that can be built with < $50,000. Expensive, but not a datacenter. So I wanted to see the trend over time of model sizes and their scores and created above plots using Opus/Sonnet 5. I am not an expert in LLMs and I am sure there are physical limitations to small models. But I also don't know how far we are from reaching the limits - maybe the small models have a long way to go before being saturated. I am hoping the trend continues and, if it does, then we should get Opus 4.5 level models on Macbook Air/pro (AA score 30-40) by next year! [I don't trust trend of scores above 40 that as there are very few data points] submitted by /u/No-Meringue5867 [link] [comments]",
+      "author": "No-Meringue5867"
+    },
+    {
+      "title": "DeepSeek-V4-Flash Official API is now LIVE in public beta! Massive upgrades for flash model.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbm5m8/deepseekv4flash_official_api_is_now_live_in/",
+      "published": "2026-07-31T09:35:44+00:00",
+      "summary": "\"🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the massive performance leap below! 👇 🔷 The official V4-Flash now natively supports the Responses API format and is fully adapted for Codex Check out the configuration details in our official API docs: https://api-docs.deepseek.com/quick\\_start/agent\\_integrations/codex/ \" submitted by /u/Boring_Aioli7916 [link] [comments]",
+      "author": "Boring_Aioli7916"
+    },
+    {
+      "title": "With a few prompts, you can do mathematical breakthrough",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbq62x/with_a_few_prompts_you_can_do_mathematical/",
+      "published": "2026-07-31T12:55:08+00:00",
+      "summary": "I've run this harness in GPT 5.6-Sol Pro for 679 minutes total (11 hours, 19 minutes) A few failures, and two discoveries. One was a very niche problem that had like a few papers on it (it improved the bound) Then I re-prompted it, to only consider problems that at least have a dedicated Wikipedia page. It autonomously scans, use the theorem prover it wrote in C++, reads the relevant papers, and boom. New record. Full convo: https://chatgpt.com/share/6a6c9582-2a58-83ee-8123-c9a90a7657b0 Back-story: In Ray Kurzweil's new book, there was a section about earliest theorem provers, starting in 1955 The Logic Theorist and GPS: General Problem Solver, so I thought it would be a fun experiment to ask ChatGPT Pro to reimplement it, and optimize all hot-paths... honestly, maybe it could have done it without it, basically it can do C++ on the web... bruh where are we heading? UPDATE NEW WORLD RECORD Chatgpt just breakthrough the best Ramsey number lower bound on R(4,21) (Worked for 97m 45s) Previ",
+      "author": "pxp121kr"
+    },
+    {
+      "title": "Opus 5 with this prompt is wild",
+      "url": "https://www.reddit.com/r/singularity/comments/1vbk8k8/opus_5_with_this_prompt_is_wild/",
+      "published": "2026-07-31T07:45:59+00:00",
+      "summary": "Example chat: https://claude.ai/share/887a2e86-a675-44dd-b7c3-c43211f7ee4c submitted by /u/Any-Reputation8118 [link] [comments]",
+      "author": "Any-Reputation8118"
+    }
+  ]
+}

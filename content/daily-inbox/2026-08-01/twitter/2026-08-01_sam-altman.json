@@ -1,0 +1,49 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-01T04:00:53.064748+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2083221585792762171",
+      "published": "2026-07-31T15:01:45+00:00",
+      "summary": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests. every morning for the drive to school, have it make a podcast that talks about one kid's soccer game that afternoon, one kid's upcoming birthday, some news, etc.",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2083203642975502640",
+      "published": "2026-07-31T13:50:27+00:00",
+      "summary": "i see your moore's law and i raise you 20x nic (@nicdunz) GPT-5.4 full at xhigh scored 51, exactly where Luna max sits today. GPT-5.4 costs $2.50/$15; Luna now costs $0.20/$1.20. In other words, roughly four months later, OpenAI is selling March’s full flagship intelligence at about one-thirteenth the token price. — https://nitter.net/nicdunz/status/2082884002201878824#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2083198135812383197",
+      "published": "2026-07-31T13:28:34+00:00",
+      "summary": "it could be faster Tibo (@thsottiaux) The day we develop really good models. There will be signs. Reliability increasing despite load going up and up. Sudden efficiency gains. Things getting faster. Resets. These kinds of things. — https://nitter.net/thsottiaux/status/2083053369351090254#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

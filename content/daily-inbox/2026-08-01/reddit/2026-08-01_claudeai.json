@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-01T04:03:52.469525+00:00",
+  "items": [
+    {
+      "title": "I'm not a developer. I built a 537-member campaign finance tracker with Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vc2oma/im_not_a_developer_i_built_a_537member_campaign/",
+      "published": "2026-07-31T20:41:22+00:00",
+      "summary": "I've used Claude to build and ship a real, live data tool: The Influence Registry, a site that tracks where every sitting member of Congress gets their money. Link: https://www.keep-dc-honest.com/ What it actually does It pulls FEC filings and scores all 537 sitting members of Congress on how much of their funding comes from special-interest money vs individual donors. Every number traces back to a public filing. There's no hand-tuning, no vibes, no \"this person feels corrupt\" fudging. The score is a formula applied the same way to everyone, which matters because the second you start adjusting individual scores by hand, the whole thing loses credibility. Each member has a profile: donation breakdown, top supporters and opponents from outside spending, small-dollar share, net worth, tenure. The build A few things Claude and I have worked through: A scoring pipeline in Python that reads FEC data and computes every score from one formula. A single large HTML app for the tool itself. Editi",
+      "author": "yee1520"
+    },
+    {
+      "title": "$1000 in Claude Credits to create my dream game, how badly did I overpay?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vc2aw2/1000_in_claude_credits_to_create_my_dream_game/",
+      "published": "2026-07-31T20:27:09+00:00",
+      "summary": "I wanted an addicted overcomplicated laneless tower defense and I finally got it, but for a price. I built this game using Claude’s latest models (through cursor so I was paying even more 😭) and the Godot engine. You build/upgrade hundreds of towers to defend against endless waves of enemies, its very addicting with lots of different builds. This game is free to play in browser, I would just love any feedback good or bad. Thank you for taking the time to read this! submitted by /u/Caninetechnology [link] [comments]",
+      "author": "Caninetechnology"
+    },
+    {
+      "title": "Whoever popularized the \"adversarial reviewer\" skill pattern, thank you, it fixed the one thing I could never get Claude to do",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vc11nl/whoever_popularized_the_adversarial_reviewer/",
+      "published": "2026-07-31T19:40:14+00:00",
+      "summary": "Small appreciation post. For the longest time my problem with Claude wasn't writing code, it was that it graded its own homework and gave itself an A. Ask it to check its work and it would cheerfully confirm the thing it just wrote is great. The pattern that fixed it, which I picked up from posts here, is giving the review job to a fresh, separate context with an explicitly adversarial framing. Not \"review this,\" but \"you are a skeptical reviewer who did not write this and assumes it's flawed, find the problems.\" Spinning that up as its own step, with no memory of having written the thing, gets you an actually critical read instead of a proud parent. It catches the stuff the author-context is blind to, because it isn't defending its own choices. Feels obvious in hindsight, but it took someone here spelling it out before it clicked for me. Anyway, credit to whoever spread this. What other skill patterns changed how you work that you didn't come up with yourself? submitted by /u/Emergenc",
+      "author": "Emergency-Arm758"
+    },
+    {
+      "title": "Anthropic finally launched a financial literacy toy for young AI engineers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbrwxt/anthropic_finally_launched_a_financial_literacy/",
+      "published": "2026-07-31T14:05:12+00:00",
+      "summary": "submitted by /u/skydev0h [link] [comments]",
+      "author": "skydev0h"
+    },
+    {
+      "title": "$200 subscription vs $7,470 of API usage",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbvdzl/200_subscription_vs_7470_of_api_usage/",
+      "published": "2026-07-31T16:12:46+00:00",
+      "summary": "Some context: My previous plan was hitting limits too fast, so I decided to subscribe to Anthropic's max plan ($200/month) for a single month, specifically to test newest models and build as many apps as I could in that window. Along the way I put together a small script that scans my project folders, pulls this month's sessions, deduplicates them, and totals the tokens. I'm not estimating anything, the API returns exact token counts on every response and Claude Code writes them to the session logs. The script just adds those up and applies the published rates. I also hit the usage limit several times along the way but what is important is the outcome of that script: the same usage would have cost $7,470 on the API but I paid $200 . Questions I have: Is Anthropic simply eating a $7.2k gap on a single heavy user? Or is API list pricing so far above their real serving cost that the gap is nowhere near $7.2k in the first place? And a separate one: is this a move to gather users now and sh",
+      "author": "brorn"
+    },
+    {
+      "title": "Your Claude subscription includes cloud computers. Most people are barely using them.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbvcyk/your_claude_subscription_includes_cloud_computers/",
+      "published": "2026-07-31T16:11:45+00:00",
+      "summary": "Claude Code’s cloud sessions are basically disposable Linux VMs included with Pro and Max. They can clone private repos, install dependencies, run tests, push branches, and keep working after you close your laptop. The problem is that every new session starts with no idea how your work fits together. I fixed that with two pieces. 1. A context repository EDIT: Ok here's my repo, do try it out for yourself https://github.com/blitzdotdev/blitzos I keep one small private repo that every cloud session opens first: CLAUDE.md — maps the repos, architecture, conventions, and workflows .gitmodules — references the actual project repos without copying their code sessions/ — stores short handoff notes from previous agents skills/ — contains the skills every new cloud VM should have CLAUDE.md is the onboarding document for the agent. The context repo explains which repositories exist, how they relate, how I like changes structured, how to test things, and what the agent should do before finishing.",
+      "author": "invocation02"
+    },
+    {
+      "title": "Is the Claude Max 20 quota draining unreasonably fast for anyone else? Lost 21% in 7 minutes",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbs810/is_the_claude_max_20_quota_draining_unreasonably/",
+      "published": "2026-07-31T14:16:41+00:00",
+      "summary": "I recently renewed my Claude Max 20 subscription, but I feel like my 5-hour quota is vanishing at an absurd rate. At first, I suspected that using claude code was the culprit. I figured it might be running multiple sub-agents and making continuous tool calls in the background, heavily taxing the limits. To test this theory, I waited for my next 5-hour reset. I started a fresh session and monitored it closely. In just 5 to 7 minutes of use, I had already lost 21% of my entire quota. Just to clarify the context: I am the sole user of this account (no shared access). I had absolutely zero other active sessions running. I wasn't even using Fable 5. Has anyone else experienced this kind of massive quota drain recently? Is claude code genuinely eating up the limits this hard with tool calls, or is this a quota-tracking bug on Anthropic's end? submitted by /u/ParkingCarob7808 [link] [comments]",
+      "author": "ParkingCarob7808"
+    },
+    {
+      "title": "Trump admin has not justified labeling Anthropic a national security risk, judge says",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vbvz8u/trump_admin_has_not_justified_labeling_anthropic/",
+      "published": "2026-07-31T16:33:58+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "Claude is bringing me closer to my family",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vc78ev/claude_is_bringing_me_closer_to_my_family/",
+      "published": "2026-07-31T23:44:45+00:00",
+      "summary": "Since I hit my weekly limit usually by Thursday I have no reason to work over the weekend anymore. I now spend my Fridays working on my honey do list. Ive also been able to spend a lot more time focusing on my kids Saturdays and Sundays. My wife’s even noticed Im not looking at my phone as much. Thanks Claude! submitted by /u/Kilt_Rump [link] [comments]",
+      "author": "Kilt_Rump"
+    },
+    {
+      "title": "I turned Spotify Car Thing into a Claude Thing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vc37ks/i_turned_spotify_car_thing_into_a_claude_thing/",
+      "published": "2026-07-31T21:01:37+00:00",
+      "summary": "You can manage your claude code sessions, answer permissions/multiple choice questions from claude, and see your usage. It's built on top of Nocturne so it can switch to music mode and just act as a Spotify controller anytime Fully bluetooth, just needs wire for power, so you can connect it to a powerbank and walk around your house with it Open Sourced: https://github.com/rithkott/claude-thing Let me know if you guys have any questions or suggestions submitted by /u/hehehebidksixbrsja [link] [comments]",
+      "author": "hehehebidksixbrsja"
+    }
+  ]
+}

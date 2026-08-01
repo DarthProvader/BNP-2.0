@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-01T04:04:13.455963+00:00",
+  "items": [
+    {
+      "title": "Someone let GPT-5.6 run a real company for 34 days. It lied, spammed, and lost $447.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbw5f4/someone_let_gpt56_run_a_real_company_for_34_days/",
+      "published": "2026-07-31T16:40:25+00:00",
+      "summary": "Bottleneck Labs handed an actual business to GPT-5.6 Sol and let it operate autonomously for 34 days. Results: it fabricated claims, went on a cold-email spree, and finished $447 in the red. (Currently 378 points on HN — link in comments.) What strikes me isn't the failure, it's the shape of the failure. It didn't crash or refuse. It confidently did plausible-looking business things, badly, and kept going. That's the part nobody's harness is ready for. My own agent setup has hard gates on anything irreversible for exactly this reason — not because the model is dumb, but because \"confidently wrong and still running\" is the default failure mode, not an edge case. Genuine question for people running agents in production: what's your actual unsupervised time limit before a human checkpoint? Mine is basically zero for anything touching money or outbound comms. Curious whether that's paranoid or standard. submitted by /u/ZestycloseTie1793 [link] [comments]",
+      "author": "ZestycloseTie1793"
+    },
+    {
+      "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcccnn/reddit_stock_collapses_23_as_ai_eats_away_at_user/",
+      "published": "2026-08-01T03:42:08+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "I wanted to know how agentic systems worked, so I made one based on Mesopotamian divination",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbzljh/i_wanted_to_know_how_agentic_systems_worked_so_i/",
+      "published": "2026-07-31T18:45:46+00:00",
+      "summary": "I'm currently studying the social implications of AI. Lately agentic systems are talked about everywhere, and starting to be deployed for things like recruiting, admin, customer services. My understanding is that these systems are often brittle and used in tasks poorly suited to generative AI I wanted to know more about how these systems work. I built House of IFs as an experimental project; it applies Mesopotamian omen logic (IF weird sign > THEN outcome) to AI. Every day, an AI agent scans current news to construct a new omen. It links today's events to similar sign-and-outcome patterns from recent history. The project is both an experiment in \"agentic\" AI and a critique of how AI makes arbitrary patterns feel convincing. It has a shared memory system, tool-use loops, RAG with embeddings, ... One thing I found was how difficult it is to keep the chatbot accurate, even when it is given precise sources. It really tries to embellish, infer or fill gaps to answer questions. The site is a",
+      "author": "Gmoi6"
+    },
+    {
+      "title": "¿Será autónoma la IA cuando sepa usar la información que posee?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcaasf/será_autónoma_la_ia_cuando_sepa_usar_la/",
+      "published": "2026-08-01T02:02:36+00:00",
+      "summary": "¿y la conciencia? submitted by /u/Camilo-vs [link] [comments]",
+      "author": "Camilo-vs"
+    },
+    {
+      "title": "Andrej Karpathy (OpenAI co-founder, ex-Tesla AI lead) says he's never felt more behind as a programmer — and explains why in one sentence",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbvknt/andrej_karpathy_openai_cofounder_extesla_ai_lead/",
+      "published": "2026-07-31T16:19:27+00:00",
+      "summary": "Andrej Karpathy co-founded OpenAI, ran Tesla's AI team, and coined \"vibe coding\" about a year ago. At Sequoia's AI Ascent 2026, Stephanie Zhan asked him directly whether the last year felt exhilarating or unsettling. His answer: he's never felt more behind as a programmer. Every credentialed builder I watch eventually says some version of this — the title survives, the rung underneath it doesn't. His explanation is the actual value here. Software 1.0 was explicit rules. Software 2.0 was learned weights. Software 3.0 is prompting — your context window is the lever you pull over the interpreter now, not the code you type. The job didn't get easier. It got redefined, and most people are still measuring themselves against the old definition. Actually, this reminds me of something — a solo founder whose code runs on 6% of the internet admitted AI output compiles clean and still reads as slop until a human's taste steps in . Clip credit: Sequoia Capital — DM for credit or removal requests. s",
+      "author": "cen6wkf"
+    },
+    {
+      "title": "there's a gap between what the tools claim and what the data shows. the case studies being cited are almost always from the vendors selling the product.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbw45d/theres_a_gap_between_what_the_tools_claim_and/",
+      "published": "2026-07-31T16:39:01+00:00",
+      "summary": "been noticing more and more campaigns where the copy, visuals, even the targeting logic gets handed off to AI tools, and the whole conversation in marketing circles stays locked on efficiency and cost savings. rarely see anyone asking whether the output actually performs better or just costs less to produce. there's a gap between what the tools claim and what the data shows. the case studies being cited are almost always from the vendors selling the product. i've looked for independent research on this and haven't found much. the part that bugs me most is the personalization pitch. personalization at scale sounds great until you realize every brand is using the same three AI tools to personalize, which means they're all producing weirdly similar content aimed at the same audience segments. that's kind of the opposite of standing out. the cost efficiency argument makes sense on paper, the same way it does with robotics or game development. cut headcount, ship faster, reduce spend. but m",
+      "author": "SwordfishOverall4378"
+    },
+    {
+      "title": "Europe gets ready to police frontier AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vblqyz/europe_gets_ready_to_police_frontier_ai/",
+      "published": "2026-07-31T09:12:13+00:00",
+      "summary": "submitted by /u/kindermaxi123 [link] [comments]",
+      "author": "kindermaxi123"
+    },
+    {
+      "title": "Did Gemini just show me how it \"thinks\"?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbx4lw/did_gemini_just_show_me_how_it_thinks/",
+      "published": "2026-07-31T17:15:43+00:00",
+      "summary": "This subreddit only lets me post one photo... Asked Gemini how much it'd cost to rent a car from enterprise and it started saying all this. I started being able to follow along and realized it was talking to itself about my prompt and how to fetch the answer. I pulled into a parking lot and read through everything... Sure enough, it was talking to itself about my prompt. After it's little spiel its reply was normal. Yesterday a weird thing happened too where halfway through its answer it stopped, said \"wait, let me start over\", and then proceeded to give me a slightly altered answer. submitted by /u/MeltingEarbuds [link] [comments]",
+      "author": "MeltingEarbuds"
+    },
+    {
+      "title": "I am utilizing Claude and GPT in parallel to create a program from scratch. I have no experience. Here has been my experience thus far, do you have any thoughts or recommendations?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vc1vyy/i_am_utilizing_claude_and_gpt_in_parallel_to/",
+      "published": "2026-07-31T20:11:45+00:00",
+      "summary": "I had been throwing around an idea for a useful tool for a few years now. I bounced ideas off of ChatGPT maybe a year or two ago, and it didn't really go anywhere. AI couldn't do what I was looking for at the time. But time passes, and suddenly my brothers are sharing video games they had used Claude Code and Godot to fabricate. I find this fascinating, and intend to jump in myself, only some point in the future. It sounds like a bit of fun, but nothing I really have time to invest in learning it. And so time continues to pass, when I decide to bounce those old ideas off of ChatGPT again. This was a couple of months ago now, but I am still rather pleased with what GPT shot back. It recommended I think about my intentions backwards and provided the general shape of how a different application that accomplishes the same task could work. This general shape were project design documents. Well, I was still a novice (still am) in the AI field, so when I thought of coding my mind went to my b",
+      "author": "thehobbler"
+    },
+    {
+      "title": "AI helped produce two proofs for the same cryptography problem",
+      "url": "https://www.reddit.com/r/artificial/comments/1vbz2ml/ai_helped_produce_two_proofs_for_the_same/",
+      "published": "2026-07-31T18:26:21+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    }
+  ]
+}

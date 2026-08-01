@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-08-01T04:00:50.836023+00:00",
+  "items": [
+    {
+      "title": "Chinese AI Researchers Are Finding Their Voice on X",
+      "url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+      "published": "2026-07-31T17:14:43+00:00",
+      "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
+      "author": "Zeyi Yang"
+    },
+    {
+      "title": "AI Slop Melodramas Are Taking Over X—and Their Creators Are Cashing In",
+      "url": "https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in/",
+      "published": "2026-07-31T14:00:09+00:00",
+      "summary": "Viral tales of good triumphing over evil are racking up millions of views. They’re almost entirely AI-generated clickbait.",
+      "author": "Steven Levy"
+    },
+    {
+      "title": "This AI Assistant Wants to Make Up for Your Boyfriend’s Incompetence",
+      "url": "https://www.wired.com/story/this-ai-assistants-whole-pitch-is-making-up-for-your-boyfriends-incompetence/",
+      "published": "2026-07-31T13:47:26+00:00",
+      "summary": "An ad for Orchid suggests the AI agent can fix relationship problems by simply doing everything for inconsiderate partners.",
+      "author": "Jason Parham"
+    }
+  ]
+}

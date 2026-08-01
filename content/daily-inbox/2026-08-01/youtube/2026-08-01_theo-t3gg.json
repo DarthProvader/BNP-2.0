@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Theo - t3.gg",
+  "source_slug": "theo-t3gg",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-01T04:00:07.865265+00:00",
+  "items": [
+    {
+      "title": "NVIDIA is taking on Anthropic?",
+      "url": "https://www.youtube.com/shorts/Y6Y1dZI0uY0",
+      "published": "2026-07-31T14:30:17+00:00",
+      "summary": "I think Anthropic just made a new big enemy in Jensen & NVIDIA, and the reason is WILD considering Anthropic's position in the market.\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#ai #programming #coding",
+      "author": "Theo - t3․gg",
+      "transcript": "I think Anthropic just made a new big enemy. And for once, it's not me. It's Jensen, the CEO of Nvidia, who made a Twitter account and his first ever post mostly to call out Anthropic. And I know this doesn't look like that because this is a generic letter from Nvidia. But the letter is about openweight models despite pretty much every other AI or AI adjacent company sneaking in. You might notice one company that isn't here. The one that's not is of course anthropic.",
+      "transcript_lang": "en"
+    }
+  ]
+}

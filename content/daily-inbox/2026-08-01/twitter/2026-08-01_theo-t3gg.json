@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-01T04:01:08.537584+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083351331675480438",
+      "published": "2026-07-31T23:37:18+00:00",
+      "summary": "OpenAI works in a single giant monorepo on GitHub. Seems like they’re running into git perf issues at their size and velocity. Super cool to see them upstreaming fixes to git itself Ted Nyman (@tnm) happy friday we've continued our work on git here at @openai . performance, correctness, & testing improvements are flowing from openai/git to upstream. perf improvements in codex app too; you'll see more efficient use of git in new builds. follow along: openai-git-upstream.openai.c… Link OpenAI Git · patches & notes OpenAI's Git patches for large repositories, tracked from local topic branches through seen, next, and upstream master. openai-git-upstream.openai.chatgpt.site — https://nitter.net/tnm/status/2083328099975119044#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083348488038035780",
+      "published": "2026-07-31T23:26:00+00:00",
+      "summary": "So close to hitting $50k in token spend in July 💀",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083349476606120116",
+      "published": "2026-07-31T23:29:56+00:00",
+      "summary": "Things you should know before reading into this too much: - I did not pay that price for these tokens - All done on 3 $200 Claude subs + 1 $200 Codex sub - Big spike in middle was experimenting with a long /goal before Codex resets expired - The \"work that mattered\" here is around $20k of the spend - I mostly used Fable and gpt-5.6-sol throughout Any other questions?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083332461942186004",
+      "published": "2026-07-31T22:22:20+00:00",
+      "summary": "Separately, SwiftUI is absolute garbage and I don't get why anyone chooses it. Theo - t3.gg (@theo) Xcode is legitimately one of the worst pieces of software ever made. Their entire platform is gimped by the worst developer tooling still distributed in the 2020's I cannot fathom how Apple stays ahead with such a blatant lack of care for developer tools — https://nitter.net/theo/status/2082735615737770278#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083332621090828776",
+      "published": "2026-07-31T22:22:57+00:00",
+      "summary": "Lists are so fkn bad it is insane. Even the most minimal implementation will drop you to 60fps on an iPhone 17 Pro once you have over 100 items",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
