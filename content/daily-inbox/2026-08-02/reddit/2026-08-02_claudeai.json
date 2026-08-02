@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-02T04:03:56.390708+00:00",
+  "items": [
+    {
+      "title": "Fable 5 ultracode deleted 2.2M files on my server",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcsc7m/fable_5_ultracode_deleted_22m_files_on_my_server/",
+      "published": "2026-08-01T16:50:00+00:00",
+      "summary": "I had off site backups for this data so total loss was minimal but let this be a lesson. Make backups of your sensitive data before giving AI access to your code base. I tested Fables ability to recover deleted files and it did recover 1.1M of them but not all because a cron job for another backup ran and had overwritten a lot of the files. submitted by /u/Onyoursix101 [link] [comments]",
+      "author": "Onyoursix101"
+    },
+    {
+      "title": "I built a real self-evolving operating system: Fable-os",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcv9hc/i_built_a_real_selfevolving_operating_system/",
+      "published": "2026-08-01T18:46:25+00:00",
+      "summary": "This is not a fake bullshit \"AI operating system\" that runs in your browser. This is an agentic operating system that runs on bare metal, writes its own drivers, and evolves itself. Here's a demo where it builds its own audio driver from scratch to play a sound. What happened in the video? The agent realized it didn't have a sound driver. It enumerated which devices were connected. It found the Intel AC'97 sound card. It built a driver for it. It used that driver to play a sound. I got fed up with people saying they built \"AI operating systems\" when it's actually just a webpage. There's no Bash. There are no commands. The only interface to this computer is a sentence. How does it work? The main interface is an agent, and the tools it has access to are the kernel's direct syscalls. Everything runs in Ring 0, and the agent has access to everything. It's open source if you want to try it: https://github.com/robiot/fable-os submitted by /u/robi0t [link] [comments]",
+      "author": "robi0t"
+    },
+    {
+      "title": "Claude helped me fix my oven!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vd22i7/claude_helped_me_fix_my_oven/",
+      "published": "2026-08-01T23:28:45+00:00",
+      "summary": "My oven broke - couldn't turn off its own heating element when it came to temp. Claude helped me find schematics, information on the relays, troubleshooting, tips on soldering... I saved over 300 dollars over buying a new control board or 1200 dollars over buying a new 27 inch wall oven! So anyway, now I figure I can spend the money I saved on the 20x Max tier. submitted by /u/radiojosh [link] [comments]",
+      "author": "radiojosh"
+    },
+    {
+      "title": "Claude’s Plan 🙏",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcylv0/claudes_plan/",
+      "published": "2026-08-01T20:59:47+00:00",
+      "summary": "Only in San Francisco! submitted by /u/NowThatsMalarkey [link] [comments]",
+      "author": "NowThatsMalarkey"
+    },
+    {
+      "title": "CLAUDE.md for Opus 5 based on Anthropic's official platform docs to fix verbosity and more.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vd57c0/claudemd_for_opus_5_based_on_anthropics_official/",
+      "published": "2026-08-02T01:57:47+00:00",
+      "summary": "I was recently reading through Anthropic's official platform documentation for Claude Opus 5 and noticed a lot of interesting things regarding how its default behavior changed compared to prior models. Anthropic mentions specific habits Opus 5 has out of the box with examples on how to address them. It says in the docs that Opus 5 is significantly more verbose and eager than earlier models. Opus 5 verifies its own work automatically without being asked. If your setup still uses legacy verification instructions like telling it to run a final check or launch a subagent to double-check code, it triggers what Anthropic calls severe over-verification loops and burns tokens for no reason. Apparently it can also spawn a horrible army of subagents due to it being overeager. These are just a few key takeaways from the documentation, but addressing them made a noticeable difference in reducing wasted tokens and keeping the model focused. I addressed it by creating a CLAUDE.md configuration file ",
+      "author": "Puzzled-Ad-6854"
+    },
+    {
+      "title": "Well that's awkward",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcvtcv/well_thats_awkward/",
+      "published": "2026-08-01T19:08:30+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "I don't see the tech sector surviving this timeline",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcg25v/i_dont_see_the_tech_sector_surviving_this_timeline/",
+      "published": "2026-08-01T06:54:33+00:00",
+      "summary": "I'm already doing like 95% of my work through Claude Code while being at least 10x as productive as have I been before AI while producing way less errors. Especially the newer models for the most part just know what to do and more often than not think several steps ahead. Sure, I try to concentrate on architecture and design because there is simply no point in writing code or fixing bugs by hand anymore, but I'm not sure how long this is going to carry me through my career. I mean, even this part of my job is done via AI mostly. We might keep our jobs for the years to come and until AI agents really take over but the market is going to shrink year after year. I think it depends heavily on how fast companies are capable of implementing the necessary infrastructure and guardrails for AI agents to work and develop software independetly. More white collar sectors will follow after this. Yeah some companies f*cked up when they fired people after the first version of ChatGPT came out and wha",
+      "author": "AddressNew5619"
+    },
+    {
+      "title": "Genuine question for the \"Claude deleted my server\" crowd: What are you actually asking it to do?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcytv0/genuine_question_for_the_claude_deleted_my_server/",
+      "published": "2026-08-01T21:08:44+00:00",
+      "summary": "I feel like every day I see the millionth post on here complaining that Claude nuked someone's entire system or deleted 2 million files on their server. I am not an AI expert by any means, and also not a developer, but I do use Claude Code and Cowork rather often (ofc, not to the magnitude of building massive, complex platforms). So I am genuinely curious: what are you guys actually prompting Claude to do in the first place that leads to these fatal results? I don't need a heavy technical explanation; it'll go right over my head anyway, but like, in simple terms , what are the initial tasks you are giving Claude that end up with your whole system in flames? Are people just giving it a blank check to run wild on their computers? Please catch me up here. submitted by /u/Parking_Jackfruit54 [link] [comments]",
+      "author": "Parking_Jackfruit54"
+    },
+    {
+      "title": "I'm surprised Claude one-shotted this hand-tracking music tool.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcqtf9/im_surprised_claude_oneshotted_this_handtracking/",
+      "published": "2026-08-01T15:49:14+00:00",
+      "summary": "My goal is to make a specific music I have in mind for my thriller feature film in the works, and I haven't gotten close with Suno, Udio, Flow Music, or even a vibe-coded manual synthesizer. Let's see where this one takes me! submitted by /u/Philipp [link] [comments]",
+      "author": "Philipp"
+    },
+    {
+      "title": "We hear a lot of what Claude can do. What is Claude not able to do... yet?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcnekj/we_hear_a_lot_of_what_claude_can_do_what_is/",
+      "published": "2026-08-01T13:26:06+00:00",
+      "summary": "What are some of your specific experiences? I notice there are still major gaps when working on full-sized reports and projects. submitted by /u/Eurofan4640 [link] [comments]",
+      "author": "Eurofan4640"
+    }
+  ]
+}

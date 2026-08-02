@@ -1,0 +1,26 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-02T04:01:12.652683+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/rizaardiyanto/status/2083427408502554802",
+      "published": "2026-08-01T04:39:37+00:00",
+      "summary": "I love how Theo just being honest what T3 code is bad at. He admit it and working on to fix it. Theo - t3.gg (@theo) T3 Code is worse at: - Subagent visualization (long story, coming soon) - Update frequency (esp. on nightly) - Mobile app perf for long threads (on it) - Computer use - Attachment types (still only images) - Onboarding (esp. mobile) — https://nitter.net/theo/status/2083295265801589008#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

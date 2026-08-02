@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-08-02T04:00:03.168823+00:00",
+  "items": [
+    {
+      "title": "We’re getting closer to “Jarvis” everyday!",
+      "url": "https://www.youtube.com/shorts/PaNIJ9l2NOE",
+      "published": "2026-08-01T12:59:28+00:00",
+      "summary": "Here's how to turn AI into your own personal Jarvis 🤖\n\nBy using the voice features on ChatGPT and Claude, you can now build, edit, and iterate on interactive 3D designs in real-time—completely hands-free.\n\nI used voice commands to generate a 3D Iron Man suit, scale the helmet, change the colors, and even add solar panels on the fly.\n\nThese voice features are currently free to use on both platforms (available on web and mobile), though paid plans will give you higher usage limits and access to smarter reasoning features.\n\nWhat would you ask your own personal Jarvis to build first? Let me know in the comments!\n\nAnd follow for more cool AI and tech tutorials ✅\n\n#ChatGPT #Claude #ainews #futuretech #aihack",
+      "author": "Matt Wolfe",
+      "transcript": "Here's how you can turn AI into your own personal Jarvis. ChatGPT and Claude both just rolled out new features where you can just talk to your AI agent and it will do whatever you ask. So, I'm going to go ahead and ask ChatGPT to build me a complete 3D model of the Iron Man suit that I can interact with. >> Sure, I'll sketch out a realistic interactive plan. >> I can rotate it. I can zoom in and out on it. Can inspect individual components, toggle the core on and off, auto-rotate it. Now, check this out. All right, let's make the entire suit purple. >> Okay, switching the suit [music] finish to purple. >> Great, let's make the helmet 20% bigger now. Now, add solar panels across the back so that the suit can recharge itself. And after a little bit of back and forth, we now have solar panels. It's not perfect yet, but this is where the AI starts to really feel magical and like we're in a sci-fi movie. And this feature is currently free to use, too. ChatGPT voice is available for free on the web and in your app right now. Claude voice is also available for free right now on the web and in the app for all of their plans. Paid plans do get you more usage and more features. Let me know in the comments what you'd use your own personal Jarvis for. And follow me for more cool AI and tech videos.",
+      "transcript_lang": "en"
+    }
+  ]
+}

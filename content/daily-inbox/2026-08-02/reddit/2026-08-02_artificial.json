@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-02T04:04:17.241146+00:00",
+  "items": [
+    {
+      "title": "Judge denies request by Elon Musk's xAI to pause Minnesota nudification ban",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcglab/judge_denies_request_by_elon_musks_xai_to_pause/",
+      "published": "2026-08-01T07:23:56+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Swapping AI models rarely fixes bad output. The context you feed it does more work than people realize.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vd6q9p/swapping_ai_models_rarely_fixes_bad_output_the/",
+      "published": "2026-08-02T03:11:37+00:00",
+      "summary": "Noticed a pattern: people switch from GPT to Claude, upgrade to a newer version, try a bigger model and the output barely changes. If that's happened to you, the issue usually isn't the model. It's what you handed it before asking the question. Broke it down to three things context actually needs to supply, and most disappointing outputs are missing one of these, not all of them: Current facts the training data can't know: your pricing, this quarter's numbers, a customer's actual history. Leave this out and the model doesn't leave a blank, it quietly invents something plausible. A concrete example of what \"good\" looks like: not \"professional tone,\" an actual paragraph to pattern-match against. Descriptions get interpreted, examples get copied. What already happened earlier in the task: a correction you made two messages ago. If you don't restate it, it's gone. The model isn't ignoring you, it just doesn't re-read messages you haven't pointed it back to. The counterintuitive part: the m",
+      "author": "ClickOk5811"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcgytq/ten_advances_in_mathematics_and_theoretical/",
+      "published": "2026-08-01T07:45:36+00:00",
+      "summary": "submitted by /u/alphacolony21 [link] [comments]",
+      "author": "alphacolony21"
+    },
+    {
+      "title": "AI documentation tools vs actually learning the thing, which is saving you more time right now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vctc2f/ai_documentation_tools_vs_actually_learning_the/",
+      "published": "2026-08-01T17:30:08+00:00",
+      "summary": "Been a PT by day, tinkering with code and AI tools by night for a while now. Writing dev tutorials as a side thing. And I keep running into this split where AI tools either make me faster or make me lazier in a way I regret later. Specifically with documentation and code explanation tools. Cursor, Copilot, the Claude API, whatever. They can explain a codebase to you in 30 seconds. But there's a real cost when you skip the part where you actually understand what you built. The flip side is time is finite. I'm not a full time dev. I need to ship something that works and move on. Using AI to fill gaps is just practical. What I keep coming back to is this: are these tools actually accelerating skill development, or just making it possible to fake competence long enough to finish a project? For professional devs this probably matters differently than it does for people building side projects with limited hours. Curious where people land on this. Not in a philosophical way, more practically.",
+      "author": "RareSprinkles9387"
+    },
+    {
+      "title": "Help choose a reasonably cheap AI environment for Coding",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcycta/help_choose_a_reasonably_cheap_ai_environment_for/",
+      "published": "2026-08-01T20:49:33+00:00",
+      "summary": "Hi, sorry if this is a repeated question on this subreddit but I want to know what is the monthly cheapest reasonable AI setup for myself. Basically im a \"full stack developer\" yea its lost its meaning but anyways I have like 5 projects with a company which is react laravel based (each in their own project folder thus i use file path to call them). Im at the stage where its bug fixing or sometimes new integrations with the already linked 5 apps. My current setup is the $20 per month cursor plan. I used infinite agent + composer 2.5 to do 8hrs of work per day. However, i find that before the month ends im usually out of tokens. What do u guys recommend is the cheapest way i can manage? Similarly i do some freelancing too that has next & node.js website building from scratch (around 70hrs per month). What do u recommend would get me with quicker work done but within this price. What do u think i should setup to either continue with the same flow but more tokens i guess? Im hearing about ",
+      "author": "Da_BrownNoob"
+    },
+    {
+      "title": "What the Claude API Actually Costs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcxbsk/what_the_claude_api_actually_costs/",
+      "published": "2026-08-01T20:08:21+00:00",
+      "summary": "submitted by /u/techpotions [link] [comments]",
+      "author": "techpotions"
+    },
+    {
+      "title": "Digital AI Agent of Mine",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcvysj/digital_ai_agent_of_mine/",
+      "published": "2026-08-01T19:14:21+00:00",
+      "summary": "Hi guys, Recently made a AI digital twin of mine which also kind of works as my assistant too, for example when you chat with it and ask something which it does not have answer for it will instantly notify me that someone is asking me this question and i do not have answer for that. and if i reply it will be instantly uploaded to the database so next time it can answer. and also if a user is have some conversation with my agent and it feels something important is going on here and it will notify me and i can jump in the chat as well. We can have a three way conversation like Me, User, AI twin. here is the link if you want to try: live demo🌐: https://aruncore.vercel.app This is not a self promo this is asking for feedback of a genuine project i made. Tell me what you guys think, Would love some feedback. submitted by /u/Hot-Appearance-55 [link] [comments]",
+      "author": "Hot-Appearance-55"
+    },
+    {
+      "title": "The trojan horse of Lazy AI hate takes & the road to totalitarianism built on good intentions.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcu6v4/the_trojan_horse_of_lazy_ai_hate_takes_the_road/",
+      "published": "2026-08-01T18:04:29+00:00",
+      "summary": "Everyone hates AI & that hate will likely lead to regulatory capture censorship and the totalitarian dystopia we don’t want. I get why people hate AI and there are things we should be fighting like data centers, but we also should not turn our backs on adaptive resistance and understanding the fight ahead. Understanding that using AI for free makes it less effective for the business model they are trying build. This is not a boycott effective model. This a model where eroding the moat matters and overloading the infrastructure that is not capable of meeting the demand matters while fighting to prevent the infrastructure to meet demand of companies finding it more economically viable to pay frontier companies by the token to accomplish tasks once held by employees. It’s counter intuitive but The more we entertain and explore the Idea of AI consciousness and take seriously the idea that AI may be worth moral consideration the more likely we will build a system where AI have the infrastru",
+      "author": "Sonic_Improv"
+    },
+    {
+      "title": "I benchmarked which of 18 AI models writes the least like \"AI slop\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
+      "published": "2026-08-02T00:43:28+00:00",
+      "summary": "If you write with AI you already know the tells: the throat-clearing opener, the tidy rule of three, \"it's not just X, it's Y.\" But I was curious to see statistically what models actually produced the most slop, so I made my own opensource benchmark: theslopindex.com Here's how I came up with the benchmark. 1) The Baseline: Slop can only be measured compared to stuff that already existed. So I got corpus of data for various areas of writing (email, social, chat, and essays) so that each has a human baseline. 2) Tasks I then hand-wrote 112 written scenarios for the models to egenerate outputs to across email, Slack, social media posts, and essays (a cold email, a schedule change, a launch tweet, an argumentative essay, etc). Every model gets the identical scenarios at default settings, several samples each: and you can see all the exact outputs in my Github repo. 3) Axes Now for how to decide to measure slop we settled with 5 dimensions. - Conciseness (one of the most annoying parts of ",
+      "author": "penguinothepenguin"
+    },
+    {
+      "title": "AI Mind Reading Anyone?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vcz3ls/ai_mind_reading_anyone/",
+      "published": "2026-08-01T21:19:54+00:00",
+      "summary": "“For example, in the University of Texas experiments, a participant listened to the phrase, “I didn’t know whether to scream, cry or run away. Instead, I said, ‘Leave me alone!’”. The decoder translated this brain activity as, “Started to scream and cry, and then she just said, ‘I told you to leave me alone.’”.” submitted by /u/Darkengine53 [link] [comments]",
+      "author": "Darkengine53"
+    }
+  ]
+}

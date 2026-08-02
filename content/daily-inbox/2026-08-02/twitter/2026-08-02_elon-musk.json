@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-02T04:01:00.525303+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/FFmpeg/status/2083656620576231556",
+      "published": "2026-08-01T19:50:25+00:00",
+      "summary": "Thank you, @cursor_ai , for providing free credits to several FFmpeg developers. These credits will support their ongoing work on FFmpeg, including development and code review. We greatly appreciate Cursor’s support for FFmpeg and its community.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/dvorahfr/status/2083552831542370314",
+      "published": "2026-08-01T12:58:00+00:00",
+      "summary": "I would like to see a steampunk-style film Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/Starlink/status/2083624518862684644",
+      "published": "2026-08-01T17:42:51+00:00",
+      "summary": "Starlink enables fast, reliable connectivity where traditional infrastructure does not exist 🛰️🏔️ OffRoadCampingBoys (@OffRoadCampBoys) Many of the areas we went, there is not a single cell provider that has reception for long distances. Here is a speed test location at one camp site. And, yes, the more remote the better it performs. We ran Starlink for 8,431 miles - non-stop and turned off cellular data to prevent switching and dropping from the network. — https://nitter.net/OffRoadCampBoys/status/2079023053942751663#m",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083709924236751300",
+      "published": "2026-08-01T23:22:14+00:00",
+      "summary": "Made with Grok Imagine Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2083706250370449572",
+      "published": "2026-08-01T23:07:38+00:00",
+      "summary": "Grok Imagine Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

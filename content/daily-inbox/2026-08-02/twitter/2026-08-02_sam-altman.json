@@ -1,0 +1,49 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-02T04:01:01.746247+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2083560847889023219",
+      "published": "2026-08-01T13:29:51+00:00",
+      "summary": "team humanity jason (@jxnlco) one of the most beautiful things about OpenAI is that every employee really has a voice. i wanted to capture what it feels like to work here, what our mission means to me, and why you should join us. so i made this video with Codex, shared it with the team, and they felt it was worth producing and sharing with the world. this is our mission. and it’s why i’m here. Video — https://nitter.net/jxnlco/status/2082855170296205719#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/polynoamial/status/2083467194663571701",
+      "published": "2026-08-01T07:17:42+00:00",
+      "summary": "An internal version of Astra, @OpenAI ’s next major model family, solved 10 major open problems in mathematics, quantum complexity, and theoretical computer science. We believe it will be a major step for scientific reasoning. openai.com/index/ten-advance… Lijie Chen (@wjmzbmr1) 10 proofs from our next major model Astra on long-standing open problems in mathematics and theoretical computer science (also including new circuit lower bounds for computing the permanent!) GPT-5.6 has already enabled so much exciting work in math and science. Can’t wait to see what comes next! — https://nitter.net/wjmzbmr1/status/2083465844735226099#m",
+      "author": "sama",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/SebastienBubeck/status/2083456300692979886",
+      "published": "2026-08-01T06:34:25+00:00",
+      "summary": "yes, nonsofic groups exist: this statement is one of many new beautiful results proved by Astra, our next major model. We're releasing 10 such Astra proofs, complete with lean certificates and CoT walkthroughs for each of them. The results are wide-ranging, from von Neumann algebras (disproof of Connes' Rigidity Conjecture) to better bounds for high dimensional sphere packing, for circuit complexity, for monochromatic triangles in multicolored graphs, and more. More thoughts here: openai.com/index/ten-advance… Link Ten advances in mathematics and theoretical computer science OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity. openai.com",
+      "author": "sama",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-02T04:01:06.588618+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083709463492538489",
+      "published": "2026-08-01T23:20:24+00:00",
+      "summary": "To be clear, @GaryMarcus , your 2023 post did say \"some kind of hybrid may well work.\" But to be precise about it, for years, what you've meant by \"hybrid\" is neurosymbolic architecture (some form of symbol manipulation built into the system itself). It did not mean an LLM that's allowed to use a calculator/tools. This matters because your claim now is that \"using tools plus LLMs is what worked.\" There are two problems with that. First, in your own words, July 2025, on the IMO gold result: \"The fact that no tools, coding or internet was used is genuinely impressive.\" (Your write-up of that result was fair, by the way... credit where it's due.) So the math breakthrough you're now attributing to tools happened, by your own account at the time, without them. Just scaled deep learning and RL. Second, even where tools are involved, humans don't do math unaided either. Every mathematician in history used pencil, paper, and eventually computers. \"It only counts without tools\" is a bar no inte",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083712315350798829",
+      "published": "2026-08-01T23:31:44+00:00",
+      "summary": "Part of why I push back is that I think it's quite apparent that things in AI are moving incredibly quickly… and misleading people and telling them that these systems aren't continuing to get more widely capable is dangerous. I'm not saying I'm 100% right on everything I’ve predicted. We're all human, we're all fallible. We all hallucinate to some extent (just like LLMs :)), but I think directionally you would agree that those of us who believe that this stuff has been moving incredibly quickly and will continue to do so have been more or less right over the long-term. I'm not a pure optimist by any means. I feel confident that the technology is extremely likely to keep improving at a rapid rate (deep and wide), but I'm not convinced that the overall effects on society and the world as a whole will be positive overall. It’s going to be very mixed (I hope the good will outweigh the bad, but history is not in our favor on this one). I think it's important that people understand that this",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083702086990995697",
+      "published": "2026-08-01T22:51:05+00:00",
+      "summary": "Gary Marcus is right that math ≠ all of science. But his bar just keeps moving: 2012: deep learning is \"at best, only a small step toward the creation of truly intelligent machines\" 2022: \"deep learning is hitting a wall\" months before ChatGPT 2023: fine, chatbots, but they \"never really get even the most basic linear functions\" 2025: fine, IMO gold, but that's \"far from the most important skills in original math research\" 2026: fine, ten open problems solved, but that's just \"formal problems\" Being wrong at every rung is understandable, but the certainty is just confusing at this point. Do you really still believe it? Gary Marcus (@GaryMarcus) the last clause in particular (golden age of science) is a total leap of faith, the same overgeneralization from formal problems to difficult-to-formalize problems fallacy i have seen repeatedly all day. i wouldn’t even be sure that GPT-next will be immune from deleting user files. — https://nitter.net/GaryMarcus/status/2083689635935563811#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083672976688337382",
+      "published": "2026-08-01T20:55:25+00:00",
+      "summary": "If I could unlock another new capability with a new type of prompt, what would you guys want it to be?",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2083673079473979627",
+      "published": "2026-08-01T20:55:49+00:00",
+      "summary": "(Not saying I can… just curious! Though I will try :))",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

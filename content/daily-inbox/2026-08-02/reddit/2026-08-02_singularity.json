@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-02T04:01:13.766625+00:00",
+  "items": [
+    {
+      "title": "This is why \"abandon that office job\"/\"learn a trade\" is not going to help you when stronger algorithms and easier, more widespread adoption comes. Executives see this as the end goal of all forms of human employment.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcrzhg/this_is_why_abandon_that_office_joblearn_a_trade/",
+      "published": "2026-08-01T16:35:43+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Why is Elon somewhat able to compete in AI while Zuckerberg gets crushed?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vczhlb/why_is_elon_somewhat_able_to_compete_in_ai_while/",
+      "published": "2026-08-01T21:36:12+00:00",
+      "summary": "I just red through Metas earning report, they spending on AI like there is no tomorrow. However, there are almost no results to show off. Elon on the other hand has been at least kind of competitive over the last year, now with the new grok model 4.5 starting to get up there again. Why is he able to compete while Zuckerberg not ? Interested in your opinion. submitted by /u/AlbatrossHummingbird [link] [comments]",
+      "author": "AlbatrossHummingbird"
+    },
+    {
+      "title": "Figure.AI demos F.03 climbing a ladder autonomously",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcypst/figureai_demos_f03_climbing_a_ladder_autonomously/",
+      "published": "2026-08-01T21:04:06+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Gemini's reaction to ChatGPT's discoveries.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcmxsn/geminis_reaction_to_chatgpts_discoveries/",
+      "published": "2026-08-01T13:05:43+00:00",
+      "summary": "Model: Gemini 3.6 Flash submitted by /u/Mrp1Plays [link] [comments]",
+      "author": "Mrp1Plays"
+    },
+    {
+      "title": "One year ago",
+      "url": "https://www.reddit.com/r/singularity/comments/1vctncb/one_year_ago/",
+      "published": "2026-08-01T17:42:52+00:00",
+      "summary": "https://www.reddit.com/r/singularity/comments/1mkrt5v/gpt5_cant_do_basic_math/ submitted by /u/ilkamoi [link] [comments]",
+      "author": "ilkamoi"
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731 in Hermes Agent and one prompt, took 32 minutes and cost 0.07$, this model is so cheap to the point where 2 dollars can last you a full day.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcsrwh/deepseek_v4_flash_0731_in_hermes_agent_and_one/",
+      "published": "2026-08-01T17:07:28+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Do you see Al replacing around 90%-99% of white collar work force anytime soon?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vd3n2h/do_you_see_al_replacing_around_9099_of_white/",
+      "published": "2026-08-02T00:41:21+00:00",
+      "summary": "I swore Dario said Al would replace over half the work force by now last year. I asked this in the r agi sub reddit https://www.reddit.com/r/agi/s/IcfZAm1CcW Wanted to see if this sub differed submitted by /u/ErmingSoHard [link] [comments]",
+      "author": "ErmingSoHard"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science (OpenAI model Astra)",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcgutk/ten_advances_in_mathematics_and_theoretical/",
+      "published": "2026-08-01T07:39:10+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Agent 0 from AI-2027 is here - it's called Astra.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
+      "published": "2026-08-01T12:44:05+00:00",
+      "summary": "Open AI's internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI's data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representations; much more research-oriented reinforcement learning; long-term memory; multi-agent decomposition; automatic verification; very large inference budgets; AI-generated training data and evaluations. Early next year we will see the first widescale job disruption with the launch of Agent-1 (GPT-6's successor) and the first indication and early signs of RSI. Try your best to stay alive until then - from now onwards, things will get wild. submitted by /u/imadade [link] [comments]",
+      "author": "imadade"
+    },
+    {
+      "title": "EU will mandate labels on authentic-looking AI content starting August 2",
+      "url": "https://www.reddit.com/r/singularity/comments/1vclrf1/eu_will_mandate_labels_on_authenticlooking_ai/",
+      "published": "2026-08-01T12:11:43+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    }
+  ]
+}

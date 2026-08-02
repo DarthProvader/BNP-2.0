@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrej Karpathy",
+  "source_slug": "andrej-karpathy",
+  "handle": "karpathy",
+  "tags": [
+    "ai-research",
+    "education"
+  ],
+  "fetched_at": "2026-08-02T04:01:04.144993+00:00",
+  "items": [
+    {
+      "title": "Andrej Karpathy (@karpathy)",
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "published": "2026-08-02T02:00:09+00:00",
+      "summary": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all. I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine droppi",
+      "author": "karpathy",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
