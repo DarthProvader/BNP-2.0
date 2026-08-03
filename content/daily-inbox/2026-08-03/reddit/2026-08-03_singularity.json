@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-03T04:01:16.807370+00:00",
+  "items": [
+    {
+      "title": "Claude Built a Walkable Jungle Without any Assets, Only Code",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdcv0q/claude_built_a_walkable_jungle_without_any_assets/",
+      "published": "2026-08-02T08:46:48+00:00",
+      "summary": "Credits: prasenx Source: https://github.com/StarKnightt/jungle-trail submitted by /u/Rare_Bunch4348 [link] [comments]",
+      "author": "Rare_Bunch4348"
+    },
+    {
+      "title": "Just tell the model what you want",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdxilc/just_tell_the_model_what_you_want/",
+      "published": "2026-08-02T23:53:43+00:00",
+      "summary": "submitted by /u/BrentonHenry2020 [link] [comments]",
+      "author": "BrentonHenry2020"
+    },
+    {
+      "title": "This scene from \"Don't Look Up\" is now real",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdfa3z/this_scene_from_dont_look_up_is_now_real/",
+      "published": "2026-08-02T11:07:56+00:00",
+      "summary": "submitted by /u/ClarityInMadness [link] [comments]",
+      "author": "ClarityInMadness"
+    },
+    {
+      "title": "On second thought, maybe there should be AI regulation 🤔",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdurxs/on_second_thought_maybe_there_should_be_ai/",
+      "published": "2026-08-02T21:55:07+00:00",
+      "summary": "submitted by /u/BrennusSokol [link] [comments]",
+      "author": "BrennusSokol"
+    },
+    {
+      "title": "Qwen 3.8 max benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1ve0hp7/qwen_38_max_benchmarks/",
+      "published": "2026-08-03T02:11:06+00:00",
+      "summary": "https://qwen.ai/blog?id=qwen3.8 submitted by /u/CounterReady4774 [link] [comments]",
+      "author": "CounterReady4774"
+    },
+    {
+      "title": "4 years difference. Imagine 10 - 50 years from now",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdj41z/4_years_difference_imagine_10_50_years_from_now/",
+      "published": "2026-08-02T14:11:44+00:00",
+      "summary": "submitted by /u/HyperspaceAndBeyond [link] [comments]",
+      "author": "HyperspaceAndBeyond"
+    },
+    {
+      "title": "Where would Google be today if it had released ChatGPT-like assistant before OpenAI?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdeifa/where_would_google_be_today_if_it_had_released/",
+      "published": "2026-08-02T10:24:21+00:00",
+      "summary": "submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "Four years apart. Same prompt. Crazy how far we have come in such little time",
+      "url": "https://www.reddit.com/r/singularity/comments/1ve263g/four_years_apart_same_prompt_crazy_how_far_we/",
+      "published": "2026-08-03T03:33:29+00:00",
+      "summary": "submitted by /u/DreamFly_13 [link] [comments]",
+      "author": "DreamFly_13"
+    },
+    {
+      "title": "At what point do I let the agent clock out and see it's family?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdlo1s/at_what_point_do_i_let_the_agent_clock_out_and/",
+      "published": "2026-08-02T15:55:37+00:00",
+      "summary": "submitted by /u/TenaciousWeen [link] [comments]",
+      "author": "TenaciousWeen"
+    },
+    {
+      "title": "Anthropic employee was able to replicate 5 of the 10 Astra proofs using Fable",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdevrq/anthropic_employee_was_able_to_replicate_5_of_the/",
+      "published": "2026-08-02T10:46:08+00:00",
+      "summary": "It’s interesting to see which publicly available models can replicate it, but he didn’t provide the proofs. Even if the claim is true, I’m not sure why he’d focus on replication rather than using Fable to tackle other open problems, especially given how much compute they have at their disposal. submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    }
+  ]
+}

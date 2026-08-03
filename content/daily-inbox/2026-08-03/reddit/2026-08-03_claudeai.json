@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-03T04:03:59.673267+00:00",
+  "items": [
+    {
+      "title": "Warning for those that haven't experienced this yet.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdtzhm/warning_for_those_that_havent_experienced_this_yet/",
+      "published": "2026-08-02T21:22:08+00:00",
+      "summary": "Most devs might already be aware of this but I didn't know until today. I was working on an app on my personal desktop using Claude Code. I'm building an app and to test it and Claude asked me to add my API key to my local environment to test the API calls. Then, in my OTHER terminal session Claude switched to my API key to do all of the tasks in the work it was doing even though I pay $200/mo for a subscription. Luckily I have alerts that notified me before it passed $20 in API spend but I think this feels very scammy. Just a heads up to those that don't know this yet. It's their policy to switch to API if there is a key in the environment even if you have a monthly subscription. Claude said it was supposed to ask me first but I was never warned at all. submitted by /u/gzoomedia [link] [comments]",
+      "author": "gzoomedia"
+    },
+    {
+      "title": "7 days without a claude code update, are they re-writing it in rust or something?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdk55g/7_days_without_a_claude_code_update_are_they/",
+      "published": "2026-08-02T14:54:43+00:00",
+      "summary": "https://preview.redd.it/9fnyzojh6zgh1.png?width=1655&format=png&auto=webp&s=443a4fe0eee4e60d7a38d04464ca02e810129a80 I thought my Claude code was set to stable channel, every day for the last 7 days is same version 2.1.220 very concerning /s submitted by /u/HimaSphere [link] [comments]",
+      "author": "HimaSphere"
+    },
+    {
+      "title": "delete claude.md",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdzdgi/delete_claudemd/",
+      "published": "2026-08-03T01:18:04+00:00",
+      "summary": "delete claude.md Boris Cherny (Head of Claude Code at Anthropic) suggested to delete claude.md https://www.youtube.com/watch?v=qyPCVqFUyDo It is a big ask, and I have tried this (on a test account), happy to report i have not significantly changed the quality of the reasoning. I am curious if anything has done something similar ? submitted by /u/cmogpt [link] [comments]",
+      "author": "cmogpt"
+    },
+    {
+      "title": "I switched to sonnet 5 and now my max sub is unlimited",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdvgo6/i_switched_to_sonnet_5_and_now_my_max_sub_is/",
+      "published": "2026-08-02T22:23:31+00:00",
+      "summary": "A lot of people have been criticizing Sonnet 5 lately, especially with all the talk about GPT Luna getting a price cut. I actually haven't used Sonnet in the last 3 months, not even Sonnet 5 earlier this week. I finally stopped relying exclusively on Fable and Opus, gave Sonnet a try, and honestly? It’s amazing. Something that I would normally one-shot with Fable would eat up 20% of my weekly limits and take 20 minutes to finish. With Sonnet, that same task might take me 2-3 prompts to get right, but it only takes 10 minutes in total to get the exact same result. Fable is still the go to for massive, complex issues, but for most day-to-day coding tasks, Sonnet is more than enough. For some context: I am currently building my own ADE that uses my actual subscriptions like Claude and Codex here is some screeshots of my app not selling nor making publicity. submitted by /u/Azek_Tge [link] [comments]",
+      "author": "Azek_Tge"
+    },
+    {
+      "title": "Claude Code just randomly spat out Kimi K2 Thinking output mid-response",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdbtzy/claude_code_just_randomly_spat_out_kimi_k2/",
+      "published": "2026-08-02T07:46:31+00:00",
+      "summary": "Was working on a side project, asking Claude Code questions in manual mode. Opened a new session, asked questions 5-7 times, and out of nowhere the response came back with Kimi K2 Thinking model card description mixed in, like in the screenshot. Has this happened to anyone else? I was using the Sonnet 5 model. Never connected any other provider — I've only ever used Claude Code. For more conversational context. post https://www.reddit.com/r/ClaudeAI/s/o9Q5fyb6FC submitted by /u/No-Percentage5692 [link] [comments]",
+      "author": "No-Percentage5692"
+    },
+    {
+      "title": "Pro tip: those beautiful HTML docs can be edited super easily, and you don't have to open up a code editor",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdtleu/pro_tip_those_beautiful_html_docs_can_be_edited/",
+      "published": "2026-08-02T21:06:32+00:00",
+      "summary": "Just open the HTML file in your browser, and run the command - document.designMode = 'on' This lets you edit any text in the document, bold it, remove elements, etc. Exporting the file requires going to the root of the HTML doc and copying it into a text editor, and saving it as HTML. Hopefully soon, Anthropic will add this feature natively :) submitted by /u/kingkeating [link] [comments]",
+      "author": "kingkeating"
+    },
+    {
+      "title": "Claude AI vs Claude Code vs Claude Cowork — Which one would you use for an end-to-end project?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdqpio/claude_ai_vs_claude_code_vs_claude_cowork_which/",
+      "published": "2026-08-02T19:12:48+00:00",
+      "summary": "I’m trying to understand the practical difference between Claude AI , Claude Code , and Claude Cowork . Say I want to build an online cake business from scratch with: Landing page Product catalog Custom cake ordering Stripe payment integration Admin dashboard Production deployment Which tool would you use for each stage? Claude AI → Planning, architecture, brainstorming? Claude Code → Writing, debugging, and maintaining the code? Claude Cowork → Where does it fit? What does it do better than the other two? If you were starting this project today, would you use just one, or a combination of all three? I’m looking for real-world experiences and workflows—not the marketing descriptions. submitted by /u/srikrushna [link] [comments]",
+      "author": "srikrushna"
+    },
+    {
+      "title": "NotchBasket – a 1 MB basketball hoop for your Mac, for while your AI codes",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdfd8j/notchbasket_a_1_mb_basketball_hoop_for_your_mac/",
+      "published": "2026-08-02T11:12:33+00:00",
+      "summary": "Like half of this sub, I spend my day watching an AI agent write code. So I built a toy for exactly those moments: a little basketball hoop that lives on top of your desktop, over whatever you're doing. You flick the ball like a slingshot and get back to pretending to work. Built the whole thing with Claude, which was its own adventure. We fought about the net for days. I kept saying \"the net doesn't move like a real net\" and it kept replying with physics lectures and burning my tokens, then finally rewrote the entire thing as an actual cloth simulation. It was right. I'm still annoyed. 😅 The whole app is ~1 MB, no permissions, no network, free and open source. There are two modes: a 24-second shot clock mode (yes, buzzer-beaters count) and free play mode. https://github.com/ikucukkaya/notch-games/releases Would love feedback. Especially on the net. We suffered for that net. 😅 submitted by /u/BothIndication2886 [link] [comments]",
+      "author": "BothIndication2886"
+    },
+    {
+      "title": "I compared recent Claude models on political compass",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdtwv5/i_compared_recent_claude_models_on_political/",
+      "published": "2026-08-02T21:19:08+00:00",
+      "summary": "I compared the models in a deeper way, so capturing which questions have most variety in answers as well. For Fable 5 it was If we accept migrants at all, it is important that they assimilate into our culture. Agree 48 / Disagree 52 For Opus 5: Even when protesting an authoritarian government, violence is not acceptable. Agree 14 / Disagree 86 Funny enough Opus 5 was supporting European Union 35% of times while Fable is 100% supporting it. The overall conclusion was that it is much more determined on monetary policies, like it was always agreeing on tariffs being bad, and less determined on social policies. I also tried moving it more to being centrist by a prompt. It worked a little bit, but I think in that way it would be still easy to bias it towards some direction with a prompt injection, so I might try to fine tune something to get an actual centrist model. Comparison link: https://utopiagov.com/blog/political-compass Credit for questions and weights: https://github.com/8values/8v",
+      "author": "Makost"
+    },
+    {
+      "title": "I Turned Hand Gestures into Web Shooting",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vdp2iv/i_turned_hand_gestures_into_web_shooting/",
+      "published": "2026-08-02T18:09:50+00:00",
+      "summary": "For the past few days, I’ve been turning hand gestures into a Spider-Hero web shooting game. 🕸️ Built with React, MediaPipe, and plenty of help from Claude (Opus 4.8) along the way. It’s still a work in progress, but I’d love your feedback while it’s early. What would make this more fun to play? Try it out: https://hey-spidey.vercel.app submitted by /u/tuco_ye [link] [comments]",
+      "author": "tuco_ye"
+    }
+  ]
+}

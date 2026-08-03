@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-03T04:01:15.835493+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/LukaTheFounder/status/2083952284321415431",
+      "published": "2026-08-02T15:25:17+00:00",
+      "summary": "Claude code, Codex, Cursor. They all take almost a gig of ram. Props to T3 Code as it uses 250mb.. @theo can you give the others a hand in optimizing please... This is ridiculous...",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2083988340567855471",
+      "published": "2026-08-02T17:48:33+00:00",
+      "summary": "Why are people finding this now 💀 Theo - t3.gg (@theo) I think this might be able to pass an interview — https://nitter.net/theo/status/1284180596122513409#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

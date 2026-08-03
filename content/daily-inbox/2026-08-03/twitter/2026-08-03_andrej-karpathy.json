@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrej Karpathy",
+  "source_slug": "andrej-karpathy",
+  "handle": "karpathy",
+  "tags": [
+    "ai-research",
+    "education"
+  ],
+  "fetched_at": "2026-08-03T04:01:07.260278+00:00",
+  "items": [
+    {
+      "title": "Andrej Karpathy (@karpathy)",
+      "url": "https://x.com/karpathy/status/2083948654377996480",
+      "published": "2026-08-02T15:10:51+00:00",
+      "summary": "More on the pelican on the bicycle test from @simonw : simonwillison.net/2025/Jun/6… I uploaded the source here so it's playable in the browser, forkable etc. karpathy.ai/lotr-movie/ Look out for GTA Hobbiton dropping before GTA VI :)",
+      "author": "karpathy",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

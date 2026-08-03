@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-03T04:04:20.543144+00:00",
+  "items": [
+    {
+      "title": "The EU AI Act makes failure to disclose AI-generated content (especially if it's hallucinated) illegal and costly.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdlbbx/the_eu_ai_act_makes_failure_to_disclose/",
+      "published": "2026-08-02T15:41:26+00:00",
+      "summary": "Today, August 2, Article 50 of the EU AI Act takes effect. Here’s the part that’s applicable to those creating AI-generated content that’s read by anyone in the EU: “Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated . This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content. PwC and other big consulting firms are vulnerable to this provision because they've already been caught using hallucinated AI-generated text in reports. From GPTZero: \"The most egregious example is Transforming Governance, an AI-generated 2025 report with multiple fake citatio",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "We're building minds we can't fully explain, using minds we can't fully explain either",
+      "url": "https://www.reddit.com/r/artificial/comments/1ve23te/were_building_minds_we_cant_fully_explain_using/",
+      "published": "2026-08-03T03:30:18+00:00",
+      "summary": "Neuroscientists still argue about how human cognition actually produces a coherent sense of self. Meanwhile we're training systems with billions of parameters and calling their internal states a black box, as if that's a new problem. It isn't. We've always been building things smarter than our ability to describe them, starting with our own children. Maybe the discomfort isn't about AI. It's about finally being forced to admit we never understood the mind to begin with, ours included. submitted by /u/frankreddit5 [link] [comments]",
+      "author": "frankreddit5"
+    },
+    {
+      "title": "How much Fable usage on 20$ plan?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdz0wc/how_much_fable_usage_on_20_plan/",
+      "published": "2026-08-03T01:01:39+00:00",
+      "summary": "I want to try fable. I literally just want it to scan my repo and make a plan to improve it. So it would be one prompt, but it would be doing a lot of work. My question is, will it be able to do that in one shot or will I have to keep waiting the 5 hour period a few times? submitted by /u/DamnageBeats [link] [comments]",
+      "author": "DamnageBeats"
+    },
+    {
+      "title": "Nano Banana 2 vs OpenAI Image Generation.",
+      "url": "https://www.reddit.com/r/artificial/comments/1ve0b9r/nano_banana_2_vs_openai_image_generation/",
+      "published": "2026-08-03T02:02:59+00:00",
+      "summary": "I have used both Nano banana 2 and OpenAI image generation (Not dall e ) Prompt : \"An ancient celestial temple floating above an endless ocean of clouds during a breathtaking sunset, surrounded by colossal dragons, glowing phoenixes, and giant waterfalls cascading into the sky. A lone traveler wearing a flowing black cloak stands at the edge of a marble bridge holding a radiant crystal sword, while thousands of floating lanterns drift through the air. Massive planets, colorful nebulae, and a brilliant Milky Way fill the background. Ultra-realistic fantasy, cinematic composition, volumetric god rays, dramatic lighting, intricate architecture, glowing runes, magical atmosphere, Unreal Engine 5, ray tracing, hyper-detailed textures, 8K, HDR, masterpiece, award-winning concept art, photorealistic, depth of field, sharp focus, vibrant colors, epic scale, trending on ArtStation.\" Pics in comment. submitted by /u/Vsologaming [link] [comments]",
+      "author": "Vsologaming"
+    },
+    {
+      "title": "It started with a test of a frontier model and ended up as a multiplayer game",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdu2g8/it_started_with_a_test_of_a_frontier_model_and/",
+      "published": "2026-08-02T21:25:36+00:00",
+      "summary": "The last 1,5 week has been quite an eyeopener for me - I must say that Claude Code and the current frontier models are amazing. A test of Fable (and later Opus 5) turned into a larger game. It’s very much inspired by the tank element of Battlefield 1942 and the round-by-round build system from Overwatch 2’s Stadium mode. About the game: You join a game and enhance your tank, then you go out and destroy the enemy while hunting for salvage which is used to enhance your tank even further (balance patches pending). Some of the features: 6 different tanks (Tiger 1 is a beast) 3 maps (a desert, grass and snow map with destructible terrain) Round-by-round build system Customisation of tanks Matchmaking system Lag compensation system Ballistic shells system Hit multiplier regions (many tanks fall on a single rear hit) Bots who backfill if theres not enough real players ELO ladder system Replay/clip system In-game power ups Career profiles Group system Friends system 3 layered chat system (glob",
+      "author": "IamHuggos"
+    },
+    {
+      "title": "i swapped models three times chasing a slow workflow, the actual problem was 28 open tabs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdyvmh/i_swapped_models_three_times_chasing_a_slow/",
+      "published": "2026-08-03T00:54:55+00:00",
+      "summary": "Spent a week sure my setup was slow because I was on the wrong model. Swapped between a couple of the big ones, rewrote my prompts, same result. Then I actually counted what closing one deal took: 28 tabs across four windows. Gmail thread here, the HubSpot record there, the contract sitting in Drive, a couple calendar invites, a Slack DM I needed for context. The model was fine. I was the integration layer, copy pasting between all of it. What moved the needle wasn't a smarter model, it was letting a desktop agent do the cross-app pull, reach into Gmail and HubSpot and Drive in one task instead of me stitching it by hand. first run it surfaced a couple of open loops I'd genuinely lost track of in old threads. it drafts the follow up and waits for me to hit send, which is honestly the only reason I let it near a live account. the part that surprised me is how little the model choice mattered once the thing could actually touch the apps. same model that handed me generic advice in a chat",
+      "author": "Deep_Ad1959"
+    },
+    {
+      "title": "Where's the line between AI helping with research vs AI just telling you what you want to hear?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdksws/wheres_the_line_between_ai_helping_with_research/",
+      "published": "2026-08-02T15:20:57+00:00",
+      "summary": "been using LLMs to help process customer feedback, dump a bunch of reddit comments or reviews in and ask it to find patterns, objections, common language. works well enough that i'm a little suspicious of it now. the thing that got me thinking about this: i fed it a batch of comments about a product category and asked for the top objections. it gave me a clean confident list. except when i went back and reread the raw comments myself, a couple of the \"top objections\" were actually pretty rare, like 2 out of 200 comments, but the model presented them with the same confidence as stuff that showed up constantly. it wasn't lying exactly, it was just... smoothing everything into a narrative that sounded right. which makes me wonder how much of what feels like \"insight\" from these tools is real pattern-finding versus the model doing what it's built to do, produce a coherent, satisfying answer whether or not the underlying signal actually supports it. like it's optimizing for \"sounds like a g",
+      "author": "Mulberry_Morris"
+    },
+    {
+      "title": "🚀 We just built our first real-time implementation of Graph Engineering, inspired by our experience building graph tooling used by 4,000+ developers.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdrklz/we_just_built_our_first_realtime_implementation/",
+      "published": "2026-08-02T19:46:23+00:00",
+      "summary": "🔗 Repo: https://github.com/CodeGraphContext/grapharc Have you ever been frustrated because your AI agent: ❌ Takes actions you never intended? ❌ Creates, modifies, or even pushes changes you never asked for? ❌ Feels like a complete black box, making it impossible to understand what's happening until it's too late? What if, before execution, you could visualize the entire orchestration graph - every agent, every dependency, every decision, and inspect it from anywhere, even your phone, before granting approval? That's exactly what GraphArc is built for. Instead of treating agent execution as hidden traces buried in logs, GraphArc transforms workflows into interactive, real-time graphs that you can visualize, inspect, debug, and control. Because the future of AI isn't just autonomous. It's observable. Debuggable. Engineerable. This is our first real-world implementation of Graph Engineering , and we're excited to explore where this paradigm can go with the open-source community. 💡 We'd lo",
+      "author": "Desperate-Ad-9679"
+    },
+    {
+      "title": "Character consistency in AI video — has anyone actually cracked it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdkdlz/character_consistency_in_ai_video_has_anyone/",
+      "published": "2026-08-02T15:04:00+00:00",
+      "summary": "Been watching a project that claims to have solved the problem of keeping the same character looking and sounding consistent across multiple scenes. Not just a single clip — across a full 22-minute episode. Genuinely curious whether people here think that's actually achievable yet or whether they've just hidden the inconsistencies well enough. submitted by /u/NoBigDealProduction [link] [comments]",
+      "author": "NoBigDealProduction"
+    },
+    {
+      "title": "AI and thinking",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdjajo/ai_and_thinking/",
+      "published": "2026-08-02T14:19:10+00:00",
+      "summary": "this account is linked to a small ai automation side project i run alongside the building firm. i run a small refurbishment outfit in scotland. mind you, we do have admin help, and it works when the task repeats and it's clear what they can decide. contract jobs don't stay like that. explain one odd item, then answer the questions that come back while the job is moving. miss the order today and it misses friday, so it turns up next week. doing it myself was usually quicker. the work sat in a stupid gap. it needed too much context from the job to hand over cleanly, but it was far too basic to be using my day for. mostly pushing buttons, checking numbers and chasing things. it kept landing back with me. you can carry that for a while. problems creep up as you grow and daily firefighting feels like you're doing well. then your head goes. mine dropped to maybe 20% of what it handled two months before, only the problems kept coming. i'd lose a weekend catching up and the thing i fixed would",
+      "author": "cooltake_ai"
+    }
+  ]
+}

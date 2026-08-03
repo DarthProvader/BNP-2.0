@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-03T04:01:09.789311+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2084119443345383839",
+      "published": "2026-08-03T02:29:31+00:00",
+      "summary": "Hey @threejs if you’re down to sponsor the inference, I’d love to create a ThreeBench!",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2084072180992622928",
+      "published": "2026-08-02T23:21:42+00:00",
+      "summary": "Gauntlet Loops stay winning Paulius 🏴‍☠️ (@0xPaulius) This was the whole prompt not an essay, Opus 5 did all the heavy lifting tbh want you to recreate Pokemon leaf green but in modern 3D cartoon style. The first town pallet town and choosing the Pokemon sequence. It should be first person. at the level of the most recent animal crossing games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality—from textures to physics to anything you could think of. Fan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub-agent check it visually to ensure it looks triple A. That separate sub-agent should be a really harsh critic, and if it doesn't look triple A, it should keep going. Don't stop until each sub-agent is utterly wowed with the quality when compared with the actual latest Pokemon game. It should literally compare them side by side blind and say w",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
