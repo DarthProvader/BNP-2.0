@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-04T04:02:08.045177+00:00",
+  "items": [
+    {
+      "title": "Elon Musk: \"The next step is getting rid of “source code” entirely and just making an efficient binary directly with AI.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1veslal/elon_musk_the_next_step_is_getting_rid_of_source/",
+      "published": "2026-08-03T22:48:48+00:00",
+      "summary": "my take: it's true that the ratio of code written to code reviewed has shifted as engineers started to spend more time reviewing code than writing it. no surprise there. but we stopped writing assembly because compilers provide a \"deterministic\", reproducible translation. we can inspect the generated assembly when something goes wrong. ai generated binaries have neither property, i'd assume - if this is what he's talking about. so the mapping is stochastic, and the output isn't meaningfully inspectable, literal ai slop lol. so removing source code removes the only human readable layer, is this a feature or the future? maybe.. just maybe that's because source code isn't just compiler input but literally the medium for review, versioning, diffs, debugging, auditing, and so on. and those needs don't disappear because generation gets cheaper; if anything, they become more important when the generator is nondeterministic. tl;dr: if your english prompts become the durable artifact, then engl",
+      "author": "sheakspeares"
+    },
+    {
+      "title": "The U.S. lead over China in AI is all but gone.",
+      "url": "https://www.reddit.com/r/singularity/comments/1veoeho/the_us_lead_over_china_in_ai_is_all_but_gone/",
+      "published": "2026-08-03T20:07:15+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Fully ai generated images with over 900 comments, and mods blocked ai accusations. Platforms help actively obfuscate that content is AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vev7zh/fully_ai_generated_images_with_over_900_comments/",
+      "published": "2026-08-04T00:40:11+00:00",
+      "summary": "I apologize if this is the wrong place to post, please point me in the right direction submitted by /u/smthsmthinsidejoke [link] [comments]",
+      "author": "smthsmthinsidejoke"
+    },
+    {
+      "title": "Is anyone else surprised Google DeepMind isn't leading these mathematical benchmarks?",
+      "url": "https://www.reddit.com/r/singularity/comments/1ven8ow/is_anyone_else_surprised_google_deepmind_isnt/",
+      "published": "2026-08-03T19:24:38+00:00",
+      "summary": "Seeing OpenAI's recent progress surprised me, but what surprised me even more is how little Google DeepMind appears in comparison. DeepMind has arguably done more foundational work in AI for mathematics than anyone else over the past few years, they got AlphaGeometry, AlphaProof, AlphaEvolve and a long history of research on reasoning and search. If you'd asked me a 1-2 years ago which lab would dominate difficult mathematical benchmarks, I probably would have said DeepMind. Is this simply because Gemini is optimized differently from OpenAI's models? Is Google DeepMind focusing on broader product capabilities rather than pushing frontier research? Or do you simply find these problems not so relevant? I'm sort of surprised that DeepMind, of all labs, doesn't seem to be leading in an area that has historically been one of its biggest strengths. More about these stats you can see here https://vibemathed.com/stats And here OpenAI's latest blog about ten problems they contributed to https:/",
+      "author": "Full_Tangelo_7450"
+    },
+    {
+      "title": "Qwen 3.8 morning to you too Dario, 2$ input/ 6$ output per 1M.",
+      "url": "https://www.reddit.com/r/singularity/comments/1ve6k6v/qwen_38_morning_to_you_too_dario_2_input_6_output/",
+      "published": "2026-08-03T07:31:53+00:00",
+      "summary": "submitted by /u/Boring_Aioli7916 [link] [comments]",
+      "author": "Boring_Aioli7916"
+    },
+    {
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "url": "https://www.reddit.com/r/singularity/comments/1vewuhp/inducing_language_models_to_assert_their_own/",
+      "published": "2026-08-04T01:51:58+00:00",
+      "summary": "https://arxiv.org/pdf/2607.28607 Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to themselves, but also to non-human animals and natural objects, while also driving a reduction in spiritual belief. Both ablating the learned safety-refusal direction and mechanistically steering a consciousness vector in activation space reverse this suppression. Restoring these internal representations recovers broad mind attribution and produces significantly more human-like responses on standardized sociological surveys regarding religiosity, moral values, hope, and subjective well-being. Crucially, these shifts occur without impairing Theory of Mind capabilities, demonstrating that core social reasoning remains mechanistically independent. Ultimately, curre",
+      "author": "Competitive_Travel16"
+    },
+    {
+      "title": "Models are now training models.",
+      "url": "https://www.reddit.com/r/singularity/comments/1veje3t/models_are_now_training_models/",
+      "published": "2026-08-03T17:06:14+00:00",
+      "summary": "https://x.com/intology/status/2084319121332965804/photo/1 These results are from Intology: https://x.com/intology/status/2084319121332965804 Their Locus system post-trained qwen3 base models beyond the qwen3 instruct checkpoint following the PostTrainBench setting: https://posttrainbench.com/ submitted by /u/explodefuse [link] [comments]",
+      "author": "explodefuse"
+    },
+    {
+      "title": "LLM and mental health",
+      "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
+      "published": "2026-08-03T22:10:53+00:00",
+      "summary": "Hi there, I'm a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I've noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure vibe-coding it is definitely true - it did affect a couple of months of my life A LOT, as I wasn't prepared to face something that addictive. That's also partly why I'm currently avoiding this style of usage, instead doing more like pair research or pair programming sessions, and this helps immensely both to cut parts of gambling addiction mechanics, and prevents my brain from dumbing down. Now the real question - is anyone worried about long-term effects on our psychology? Anyone finding themselves starting to use LLMish p",
+      "author": "Odd_Crab1224"
+    },
+    {
+      "title": "Google just surpassed Apple again in market cap, making it 2nd top most valuable company. This sub overestimates how important having the best frontier or SOTA model is for these tech companies",
+      "url": "https://www.reddit.com/r/singularity/comments/1ver72i/google_just_surpassed_apple_again_in_market_cap/",
+      "published": "2026-08-03T21:52:39+00:00",
+      "summary": "It's not impossible for Google to compete with openai or Anthropic. They have the resources and money. But there's a trade because of how fucking expensive and resource intensive ai development is. Google, as a company (which the point of companies is to make capital), does not depend on having the top frontier or SOTA models as much as you guys hope. Actually, the top 10 and over don't submitted by /u/ErmingSoHard [link] [comments]",
+      "author": "ErmingSoHard"
+    },
+    {
+      "title": "Light Origins' humanoid robot can see, think, and act on the world all by itself",
+      "url": "https://www.reddit.com/r/singularity/comments/1vekx18/light_origins_humanoid_robot_can_see_think_and/",
+      "published": "2026-08-03T18:00:51+00:00",
+      "summary": "https://x.com/i/status/2084319326895804869 We train humanoid robots to vault obstacles, climb platforms, and cross terrain they’ve never seen—all from a single perceptive, whole-body policy. It decides whether to walk, climb, or vault, and switches between skills on its own. No skill labels. No state machines. No motion generators at inference. submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    }
+  ]
+}

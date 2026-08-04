@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-04T04:01:48.445385+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/Rothmus/status/2084433668597014727",
+      "published": "2026-08-03T23:18:08+00:00",
+      "summary": "$95 million of the Live Aid concert money in 1985 meant for starving Ethiopians bought guns for the Marxist factions fighting each other. This was the finding of a BBC investigation years after Bob Geldof’s concert raised over $125 million when the world saw the famine that killed over a million people. Ethiopia was never colonized, yet Western guilt and empathy were abused. Still remains a cautionary tale on why every dollar of aid has to be scrutinized hard or it ends up arming the people prolonging the suffering instead of feeding the ones who need it. Because as a result of this mismanagement, lives were lost DUE to millions in aid. Context: a drought hit at the same time the ruling Derg, a Marxist military junta, was collectivizing farms and diverting grain reserves to fight the rebels. The famine still happened because Marxist central planning had wrecked food production and the civil war made the drought catastrophic. Video Rothmus 🏴 (@Rothmus) Forced resettlement of famine vict",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2084423416493338866",
+      "published": "2026-08-03T22:37:23+00:00",
+      "summary": "Grok Build update X.ai/cli Link Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst... x.ai DogeDesigner (@cb_doge) 🚨 NEW GROK BUILD UPDATE 🚨 SpaceXAI is pushing new Grok Build updates almost daily. Grok Build v0.2.120 is now live. Bug Fixes: • Model picker now updates the status bar and /model menu immediately, even before the first prompt creates a session. • Changes panel now refreshes after the agent commits on the current branch instead of showing stale unstaged files. • Background task completions now report the full log size and read hint even when only a short prefix was captured. • GitHub export on old hibernated sessions now shows a clear message to start a new chat instead of a generic error. To download Grok Build Visit: x.ai/cli To update to Alpha Version use command: grok update --alpha To update to Stable Version use",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2084423245571252470",
+      "published": "2026-08-03T22:36:43+00:00",
+      "summary": "Starlink anywhere Starlink (@Starlink) Starlink provides the reliable connectivity needed to run company payroll even in the most remote locations — https://nitter.net/Starlink/status/2084417577615610232#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/dvorahfr/status/2084315501778371018",
+      "published": "2026-08-03T15:28:34+00:00",
+      "summary": "The next evolution of humanity will be written in space. Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2084377571429433431",
+      "published": "2026-08-03T19:35:13+00:00",
+      "summary": "💯 @jason (@Jason) This is going down to $25m in under 18 months… then $10m and finally $3m — https://nitter.net/Jason/status/2084329378469601441#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

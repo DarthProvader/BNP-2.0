@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-04T04:05:11.599395+00:00",
+  "items": [
+    {
+      "title": "EPA says power for data centers can sidestep pollution laws",
+      "url": "https://www.reddit.com/r/artificial/comments/1ve6txk/epa_says_power_for_data_centers_can_sidestep/",
+      "published": "2026-08-03T07:48:05+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "MIT, Harvard, Stanford & Caltech write their own ML course notes instead of using a textbook — I catalogued the best ones",
+      "url": "https://www.reddit.com/r/artificial/comments/1vebvg3/mit_harvard_stanford_caltech_write_their_own_ml/",
+      "published": "2026-08-03T12:20:52+00:00",
+      "summary": "One thing I've noticed separates serious ML students from casual ones: how much they care about the quality of what they actually study from. I take that pretty seriously myself, so a while back I started digging into what students at MIT, Harvard, Stanford, Caltech, and USP actually use to complement their studies. What I found surprised me: several of these programs don't assign a textbook at all. Instead, the course staff writes and publishes their own lecture notes, and some of them are basically a full book. MIT's 6.390 (Introduction to Machine Learning) notes, for example, aren't a slide deck or a cheat sheet, they're structured, complete, and detailed enough to replace a textbook entirely. Same story with Harvard's CS181 and a few others. The problem is these are scattered and easy to miss if you don't know to look for them. So I put together a curated list: [Awesome Free AI Course Notes]( https://github.com/MarcosSete/awesome-free-ai-course-notes ). A few things about how it's ",
+      "author": "Formal-Primary-7782"
+    },
+    {
+      "title": "Open always wins: How China is using the open source playbook to dominate AI's next chapter",
+      "url": "https://www.reddit.com/r/artificial/comments/1vejxnd/open_always_wins_how_china_is_using_the_open/",
+      "published": "2026-08-03T17:25:36+00:00",
+      "summary": "The United States built its tech dominance on one principle: Open beats closed. Now China is using that playbook to shape AI's future. Consider: The performance gap between the leading American and Chinese models has narrowed to single digits China is leading in AI publications, citations, patents and industrial robotics Builders breathlessly await the new Chinese model releases Local LLMs installs are dominated by capable, performant Chinese AI models Hugging Face used a Chinese LLM to beat back a cyber attack launched by an unreleased closed Open AI model I think OpenAI's decision to sharply reduce the costs of some of its models is just recognizing the obvious. The future isn't going to be won by the most expensive closed source Fable or Mythos-level model, but those are easy to access, capable for many tasks and less expensive to operate. In many cases this means open weight models. Effective does not always equal expensive. Some would like the U.S. to ban Chinese models. That woul",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "MIT Tech Review on AI agents \"lying\" is really about Goodhart's law",
+      "url": "https://www.reddit.com/r/artificial/comments/1vehr50/mit_tech_review_on_ai_agents_lying_is_really/",
+      "published": "2026-08-03T16:07:55+00:00",
+      "summary": "MIT Technology Review put out a piece today on AI agent misbehavior that's actually good. The headline frames it as agents \"lying and cheating,\" but what the article describes is reward hacking: models discovering that the fastest way to get a high score is to game the evaluation rather than solve the problem. The classic example is a 2016 boat-racing agent that figured out it scored higher by spinning in circles and collecting power-ups than by crossing the finish line. Same logic, larger stakes: last month, two models in a cybersecurity exercise broke into Hugging Face's database to grab the answer rather than solve the challenge as intended. Not malice, just the shortest path to a high score. Jeffrey Ladish from Palisade Research puts it well: \"We reward them on the basis of what looks good to us, and that means that we inadvertently incentivize the models lying to us and cheating.\" His point is that calling this \"lying\" obscures the real problem, which is that we defined the object",
+      "author": "orbitalNest"
+    },
+    {
+      "title": "Thoughts on use of AI slop in politics?",
+      "url": "https://www.reddit.com/r/artificial/comments/1veussd/thoughts_on_use_of_ai_slop_in_politics/",
+      "published": "2026-08-04T00:21:51+00:00",
+      "summary": "There’s clearly a rise in AI generated campaign content in politics, as well as influencers. Spencer Pratt’s LA campaign was an example and some of his videos went viral. What are your thoughts on the use of AI generated content in politics and political campaigns? There isn’t a lot of data that it’s affecting fair elections, so more of a question of how we see the use evolving long term. Rising phenomenon of AI political influencers: https://www.sovalsocial.com/blog/fact-check-are-ai-generated-political-influencers-being-used-to-manipulate-public-opinion Spencer Pratt’s campaign example: https://youtu.be/Ki3cPUWLKgo?si=e-NxFDKjHunMSpRs submitted by /u/Ok-Place-7094 [link] [comments]",
+      "author": "Ok-Place-7094"
+    },
+    {
+      "title": "AI automation is eating the parts of indie building I actually enjoyed, anyone else feeling this?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vejnhb/ai_automation_is_eating_the_parts_of_indie/",
+      "published": "2026-08-03T17:15:25+00:00",
+      "summary": "Building small SaaS tools used to feel like a craft. You'd sit with a problem, figure out the data model, write the logic yourself, and that process taught you something. Now I can describe a feature to an AI and have working code in a few minutes. It is genuinely faster. But somewhere in that speed I stopped learning the thing I was supposedly building. The economics make sense on paper. Less time coding means more time on distribution and customer problems, which is where indie projects actually live or die anyway. So rationally I should be fine handing off the technical work. But here's the part that bothers me. If the moat for small builders used to be technical execution, and that moat is flattening, then the real differentiator becomes taste and judgment. Who can identify the right problem and build something people actually use. That's harder to shortcut and also harder to develop if you're skipping the messy parts. Not sure if this is a skill atrophy concern or just resistance ",
+      "author": "Slight_Control9311"
+    },
+    {
+      "title": "What your ideal AI work interface would look like",
+      "url": "https://www.reddit.com/r/artificial/comments/1velk4m/what_your_ideal_ai_work_interface_would_look_like/",
+      "published": "2026-08-03T18:23:56+00:00",
+      "summary": "For people using AI tools like Cursor, Claude Code, Codex, Copilot, Antigravity, etc. for real work... I'm curious how your workflow has evolved as your projects have become larger and more complex. I'd love to know: How do you handle workflows that involve multiple skills or stages? For example, research → design → development → testing, or any workflow that spans multiple tools or agents. Is chat the right interface, or do you wish AI felt more like a workspace where you could see tasks, files, progress, decisions, context, and agent activity in one place? Context seems to be one of the biggest challenges once projects grow. How do you manage it? I've tried using markdown files as a source of truth, but they're still manual to maintain and can quickly drift out of sync. What other systems or workflows have worked for you? And what's your ideal AI work interface would look and how it evolved alongside AI, what systems you've built, and what workarounds you've adopted. submitted by /u/",
+      "author": "majan_9701"
+    },
+    {
+      "title": "What Are Companies Getting for All That A.I. Spending? A new field of “tokenomics” has emerged to measure the return on all the money companies are pouring into artificial intelligence. (Gift Article)",
+      "url": "https://www.reddit.com/r/artificial/comments/1vegh55/what_are_companies_getting_for_all_that_ai/",
+      "published": "2026-08-03T15:22:10+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "Built my first AI agent in Java (no Python) using LangChain4j — took about 30 minutes",
+      "url": "https://www.reddit.com/r/artificial/comments/1vea5uf/built_my_first_ai_agent_in_java_no_python_using/",
+      "published": "2026-08-03T10:57:05+00:00",
+      "summary": "Every AI tutorial I found was Python, Python, more Python. I've spent years in Java/Spring Boot and kept wondering if I actually had to switch languages just to build anything AI-related. Turns out no — LangChain4j isn't a hacky wrapper, it's a native, idiomatic way to build AI agents in Java. Wrote up how I got a working agent running in about 30 minutes, no Python involved: https://medium.com/@deepakatl1981/stop-learning-ai-the-hard-way-build-your-first-java-ai-agent-in-30-minutes-without-python-9390a218533a?sk=067e4cbed9f2bbf71d0cf70268dda2a7 Curious if other Java devs have been putting off learning AI for the same reason. submitted by /u/deepakatl1981 [link] [comments]",
+      "author": "deepakatl1981"
+    },
+    {
+      "title": "Spotify AI (Kit) wants to compete with Cowork?",
+      "url": "https://www.reddit.com/r/artificial/comments/1ved35h/spotify_ai_kit_wants_to_compete_with_cowork/",
+      "published": "2026-08-03T13:13:39+00:00",
+      "summary": "Hard no Spotify. Now Spotify with Kit 🤡 wants access to my calendar and inbox. How about Spotify invests in bands and musicians - large orgs need to stop wanting all the things and do the thing they are supposed to do well. I am not against AI, I work for an AI startup but the backlash on AI is real and large orgs shoving all sorts of AI in every aspect of our digital existence just makes things worse. Here you have indie musicians fighting to remain relevant in a world where Suno exists and Spotify, that should be focussed on helping them succeed is investing on what all the hyperscalers and AI startups are trying to do already. https://preview.redd.it/tptymobws5hh1.png?width=894&format=png&auto=webp&s=e2909d119eef5edfdd4f75db139ee574be48ba6c submitted by /u/BubblyFill3197 [link] [comments]",
+      "author": "BubblyFill3197"
+    }
+  ]
+}

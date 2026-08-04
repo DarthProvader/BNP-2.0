@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-04T04:04:20.494409+00:00",
+  "items": [
+    {
+      "title": "As soon as I hit 90% of the limit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1veoqdk/as_soon_as_i_hit_90_of_the_limit/",
+      "published": "2026-08-03T20:19:25+00:00",
+      "summary": "submitted by /u/Ripamon [link] [comments]",
+      "author": "Ripamon"
+    },
+    {
+      "title": "Opus 5 is just annoying to work with. Back to Opus 4.8 for me.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vephjv/opus_5_is_just_annoying_to_work_with_back_to_opus/",
+      "published": "2026-08-03T20:47:34+00:00",
+      "summary": "Not sure if anyone else is noticing that with Opus 5 it tends to ‘push back’ and argue a LOT more than 4.8 did. I’m always open to useful feedback but I feel like Opus 5 is like the annoying know-it-all IT guy from The Office . Not only does Opus 5 feel the need to correct you, it seems to add 3 additional things to every discussion for me to ‘be aware of’. Bro, just do the thing I asked for… Anyhoo, rant over, back to friendly, amiable Opus 4.8 for me. Anyone else have this same experience? submitted by /u/midsonshort [link] [comments]",
+      "author": "midsonshort"
+    },
+    {
+      "title": "Big D Claude out here shipping and showing off",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1veltsl/big_d_claude_out_here_shipping_and_showing_off/",
+      "published": "2026-08-03T18:33:30+00:00",
+      "summary": "submitted by /u/The_Time_Lord [link] [comments]",
+      "author": "The_Time_Lord"
+    },
+    {
+      "title": "GTA 6 first attempt. Far from perfect, but it's impressive what the right harness and agentic loops can build.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ve7u9r/gta_6_first_attempt_far_from_perfect_but_its/",
+      "published": "2026-08-03T08:46:47+00:00",
+      "summary": "I was experimenting with Matt Shumer's Gauntlet Loop and shared a quick demo of an old favorite game, Worms Armageddon , the other day. It was built from a single prompt that kicked off the entire loop. There's not much point in polishing or fixing it, though, since there are already excellent browser ports of the original. So I wanted to try something far more ambitious: GTA 6 . The first attempt failed spectacularly. It got stuck after generating little more than a basic 3D world. But after several additional loops and workflows, it eventually evolved into the very rough prototype you see in the video. I think this can be pushed much further. With a better feedback loop, I believe something like this could eventually be built from a single prompt and produce significantly better results. The key seems to be giving the agent much richer debugging information. Claude Code can't natively understand gameplay videos, so it extracts frames and reasons over those. That's somewhat useful, bu",
+      "author": "smith2008"
+    },
+    {
+      "title": "Claude shows its thinking again!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ved6x1/claude_shows_its_thinking_again/",
+      "published": "2026-08-03T13:17:55+00:00",
+      "summary": "Yay, Claude's thinking is back! We have something to do again while waiting for its response! (Sonnet 5 still seems to keep its thinking hidden.) submitted by /u/anttilk [link] [comments]",
+      "author": "anttilk"
+    },
+    {
+      "title": "I had Claude read all 1,189 chapters of One Piece and build a foreshadowing encyclopedia.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vehxv8/i_had_claude_read_all_1189_chapters_of_one_piece/",
+      "published": "2026-08-03T16:14:41+00:00",
+      "summary": "For the last ~3 months I've been running a Claude Code pipeline with one job: read the entire One Piece manga — every page, via vision — and keep a research vault the way an obsessive human re-reader would. I also used it to predict the end of the story, and I don't hate the conclusion it came to. It's now a public site: https://www.grandlinearchives.com What the agents built: 3,073 foreshadowing entries — setup → payoff chains with chapter citations on both ends. When Oda plants something in ch. 96 and pays it off in ch. 1044, there's a receipt. 1,488 character pages cross-linked into an evidence graph, plus 41 open mystery threads tracked like case files. A prediction ledger with receipts. The system files falsifiable predictions before reveals happen, stamps them with the chapter it knew about at the time, and scores them as new chapters come out. Current record: 108 filed, 28 confirmed, 23 partial, 4 refuted. In the highest-confidence bucket it's hitting 85%. A Theory Gauntlet — 16",
+      "author": "funballhorse"
+    },
+    {
+      "title": "CoD MW2 tribute built with Opus 5 in a few days. Nowhere near perfect, but it's fun to use these models to bring back key parts of your childhood!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1venmk1/cod_mw2_tribute_built_with_opus_5_in_a_few_days/",
+      "published": "2026-08-03T19:39:00+00:00",
+      "summary": "I’m a huge fan of CoD (esp. COD4 - Black Ops 2) so I thought I’d try making a multiplayer tribute to one of my favorite series with Opus 5 No where near perfect or studio level, but game creation is such a fun use case of these models, especially for people who are not game devs This took a few days of loops and many rounds of feedback & steering, but it’s crazy to think what people will be able to make 6-12 months down the road with the next generation of models You can check out the game here and read more about it here Happy to answer any questions about the creation process! submitted by /u/yerbamate2020 [link] [comments]",
+      "author": "yerbamate2020"
+    },
+    {
+      "title": "Opus 5 is driving me crazy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1velwq3/opus_5_is_driving_me_crazy/",
+      "published": "2026-08-03T18:36:30+00:00",
+      "summary": "Context: I've been working on a project from the web browser for a couple of months on Max 5x. I know it may sound archaic, but I prefer it because it forces me to read and revise everything. It's the fastest pace I can follow while feeling confident about my build. Through this process, I have used every Opus release since 4.6 to 5, keeping most of the conversation within the same chat (I know, not the most efficient). When models switched, I noticed that the previous release got somewhat nerfed every single time. So, a couple of days ago, I switched to Opus 5 and it is driving me crazy. Opus 5 does not respect the individual prompts, it mixes my requests from those of previous prompts (which evolve through planning discussions). It convolutes the coding process a lot. Also, I have noticed its verbosity is much higher than Opus 4.8, with endless paragraphs that say nothing new to the first two sentences. It makes it worse that I chat in English but I'm not a native, and many times it ",
+      "author": "Disastrous_Hawk_6984"
+    },
+    {
+      "title": "For all of its faults, Claude gets the Hyperdimensional Coordinate System",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vevfv7/for_all_of_its_faults_claude_gets_the/",
+      "published": "2026-08-04T00:49:51+00:00",
+      "summary": "Possibly one of the weirdest and yet simplest ideas I've had and, thanks to Claude, created, Hyperdims ( https://iluvdata.org/hyperdims/ ) is an interactive implementation of the Hyperdimensional Coordinate System (HCS), in which each data dimension is the real line compactified onto a circle (θ = 180·(v/s)/(1+|v/s|); (Dr. Art) Springer's subsegment-ratio construction), so values through ±∞ plot as a continuous locus, and dimensions nest recursively as circles in torus cross-section planes — embedding arbitrarily many dimensions in 3D without projection. The pure-transform formulation renders 10⁴ points × 7 dimensions in one instanced draw call. We demonstrate orbits passing continuously through infinity (tangent sweeps, a dopamine-model bifurcation blowing up through ±∞), chaotic maps via lag-embedding, and multichannel EEG, with interactive probing that inverts the map back to original values, and export to the ANTz/GlyphViz ( https://iluvdata.org/glyphviz/ ) immersive-visualization ",
+      "author": "jeffsale"
+    },
+    {
+      "title": "Can Opus Stop Writing Novels in Commit Messages jfc",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1veth2j/can_opus_stop_writing_novels_in_commit_messages/",
+      "published": "2026-08-03T23:25:27+00:00",
+      "summary": "https://preview.redd.it/rozj7rvou8hh1.png?width=611&format=png&auto=webp&s=0fd37b1f5a6a252563401973fcf41de1d2d19ddc At this point i can probably turn these commits into their own novella submitted by /u/HearMeOut-13 [link] [comments]",
+      "author": "HearMeOut-13"
+    }
+  ]
+}

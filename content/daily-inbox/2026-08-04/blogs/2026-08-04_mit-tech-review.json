@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-08-04T04:01:46.543621+00:00",
+  "items": [
+    {
+      "title": "Trump’s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "published": "2026-08-03T17:43:30+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots&#8230;",
+      "author": "James O'Donnell"
+    },
+    {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "published": "2026-08-03T07:30:05+00:00",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers&#8230;",
+      "author": "Grace Huckins"
+    }
+  ]
+}

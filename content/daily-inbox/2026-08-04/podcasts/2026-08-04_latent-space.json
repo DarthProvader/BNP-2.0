@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-04T04:01:34.690087+00:00",
+  "items": [
+    {
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "published": "2026-08-03T20:44:03+00:00",
+      "summary": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection. We return to Baseten at the peak of the 2026 edition of Open Weights debate. Ali has published a viral breakdown of Kimi K3:And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF:Three years ago, inference engineering barely existed as a category.Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: “How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?” Focusing on these creates an entirely new optimization problem.In one recent GLM-5.2 experiment, quantizing more of the model actually pres",
+      "author": "Latent.Space"
+    }
+  ]
+}

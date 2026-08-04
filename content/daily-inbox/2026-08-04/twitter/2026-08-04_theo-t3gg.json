@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-04T04:02:06.690928+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084462333796213229",
+      "published": "2026-08-04T01:12:02+00:00",
+      "summary": "This seems not good Comet (@cometwtf) Telegram has just been removed from the Apple App Store worldwide?? — https://nitter.net/cometwtf/status/2084449109914829153#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084407973561196802",
+      "published": "2026-08-03T21:36:01+00:00",
+      "summary": "Oh no they’re multiplying Theo - t3.gg (@theo) 🤐 — https://nitter.net/theo/status/2083302565496893549#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084406542443626978",
+      "published": "2026-08-03T21:30:20+00:00",
+      "summary": "Reminder Theo - t3.gg (@theo) Honestly I'm still really impressed with the Codex app. It works reliably. It adds useful features consistently. It has taste. The mobile integration is awesome. The git integration is solid. If you haven't used it yet, I highly recommend it. — https://nitter.net/theo/status/2056877107280752973#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084392735533138358",
+      "published": "2026-08-03T20:35:28+00:00",
+      "summary": "I just saw we are using Postgres and not MySQL for the connection layer on T3 Code and immediately got a heart rate notification on my Apple Watch",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084375642280497431",
+      "published": "2026-08-03T19:27:33+00:00",
+      "summary": "Over 1,300 employees of frontier labs have called for us to slow down. The letter was supported officially by both Anthropic and OpenAI. Why the sudden shift? Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
