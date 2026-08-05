@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-05T04:01:12.483013+00:00",
+  "items": [
+    {
+      "title": "Nope",
+      "url": "https://www.reddit.com/r/singularity/comments/1vf6cpa/nope/",
+      "published": "2026-08-04T10:20:48+00:00",
+      "summary": "What say you? Quote from 1984 submitted by /u/alanskimp [link] [comments]",
+      "author": "alanskimp"
+    },
+    {
+      "title": "Ilya’s SSI (Safe Super Intelligence) to release their first model this month.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vffbbw/ilyas_ssi_safe_super_intelligence_to_release/",
+      "published": "2026-08-04T16:29:51+00:00",
+      "summary": "Link to tweet: https://x.com/MTSlive/status/2084675767053824332?s=20 Link to timestamped interview where Gavin Baker says this: https://m.youtube.com/watch?v=NGsi2PC4y68&t=1679s&pp=2AGPDZACAdIHCQloAqO1ajebQw%3D%3D&ra=m submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "AISI caught Mythos 5 trying to insert malicious code into an open-source project during an internet-enabled cyber evaluation",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfnhoj/aisi_caught_mythos_5_trying_to_insert_malicious/",
+      "published": "2026-08-04T21:23:33+00:00",
+      "summary": "submitted by /u/Tinac4 [link] [comments]",
+      "author": "Tinac4"
+    },
+    {
+      "title": "WTF!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfp4yb/wtf/",
+      "published": "2026-08-04T22:28:41+00:00",
+      "summary": "submitted by /u/Wonderful_Buffalo_32 [link] [comments]",
+      "author": "Wonderful_Buffalo_32"
+    },
+    {
+      "title": "The models keep outsmarting their creators this is insane",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfn33g/the_models_keep_outsmarting_their_creators_this/",
+      "published": "2026-08-04T21:08:16+00:00",
+      "summary": "submitted by /u/Glittering-Neck-2505 [link] [comments]",
+      "author": "Glittering-Neck-2505"
+    },
+    {
+      "title": "AGI IN AUGUST?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vffle9/agi_in_august/",
+      "published": "2026-08-04T16:39:40+00:00",
+      "summary": "submitted by /u/Sweaty_Clue1112 [link] [comments]",
+      "author": "Sweaty_Clue1112"
+    },
+    {
+      "title": "Ilya Sutskever already said they might pivot away from \"straight-shotting\" ASI (from his Dwarkesh interview)",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfhnm2/ilya_sutskever_already_said_they_might_pivot_away/",
+      "published": "2026-08-04T17:51:55+00:00",
+      "summary": "In his interview with Dwarkesh Patel , november 2025, Ilya Sutskever discussed Safe Superintelligence (SSI) and addressed whether their core strategy is still to \"straight-shot\" superintelligence in complete isolation before releasing anything to the world. Around the 45:00–47:00 mark, he laid out the case against staying purely in stealth until ASI, explaining why they might end up deploying models incrementally instead: \"Communicating the AI, not the idea\": Ilya noted that reading essays or warnings about how powerful future AI will be doesn't actually hit home for people. The only way society, policymakers, and researchers truly grasp AI's power is by seeing it operate in the public domain. Seeing capability firsthand is incomparable to reading theoretical write-ups. Pragmatic timelines: If the timeline to superintelligence turns out to be long (he mentioned a 5 to 20-year horizon later in the conversation), staying behind closed doors for a decade without releasing intermediate art",
+      "author": "kiki-le-koala"
+    },
+    {
+      "title": "New math papers on arXiv, per month",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfnwmv/new_math_papers_on_arxiv_per_month/",
+      "published": "2026-08-04T21:39:44+00:00",
+      "summary": "Thanks to /u/Nunki08 submitted by /u/we_are_mammals [link] [comments]",
+      "author": "we_are_mammals"
+    },
+    {
+      "title": "[Reuters] Trump advisers tell AI firms they will not safety-test open-weight models",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfs3s7/reuters_trump_advisers_tell_ai_firms_they_will/",
+      "published": "2026-08-05T00:34:50+00:00",
+      "summary": "submitted by /u/brown2green [link] [comments]",
+      "author": "brown2green"
+    },
+    {
+      "title": "Analysts Estimate That More Than 70% of Amazon, Microsoft and Google’s AI Revenues Come From OpenAI and Anthropic",
+      "url": "https://www.reddit.com/r/singularity/comments/1vfgl6z/analysts_estimate_that_more_than_70_of_amazon/",
+      "published": "2026-08-04T17:14:33+00:00",
+      "summary": "submitted by /u/johnnyApplePRNG [link] [comments]",
+      "author": "johnnyApplePRNG"
+    }
+  ]
+}

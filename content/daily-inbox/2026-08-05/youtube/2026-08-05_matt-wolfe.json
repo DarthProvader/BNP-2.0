@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-08-05T04:00:03.401256+00:00",
+  "items": [
+    {
+      "title": "You Can Now Search Your Own Memory",
+      "url": "https://www.youtube.com/shorts/_HhnzIDnVnk",
+      "published": "2026-08-04T12:15:35+00:00",
+      "summary": "What if your credit card could remember everything for you?\n\nSecondBrain Note is a credit-card-thin AI recorder that captures your meetings, conversations, and ideas, then turns them into organized notes and actionable follow-ups.\n\nIt can even connect to tools like your email, calendar, Slack, Notion, and Google Workspace, so its Super Agent can draft emails, find old ideas, and pull together action items for you.\n\nCheck out the limited first release of @GensparkProduct SecondBrain Note and get 10% off here: shop.genspark.ai/s/mattwolfe\n\n#GensparkPartner #SecondBrain #SecondBrainNote #Genspark",
+      "author": "Matt Wolfe",
+      "transcript": "What if your credit card could remember things for you? This is the Second Brain Note from GenSpark. It's as thin as a credit card, magnetizes to the back of your phone, and will basically help you never forget anything. You just press this button, and it captures your meetings, conversations, and random ideas, then automatically turns them into organized AI notes. [music] It can record up to 35 hours, store around 7,000 hours offline, and it's MagSafe compatible. So, it can go anywhere with you. Second Brain connects to Gmail, Google Calendar, Docs and Sheets, Slack, Notion, GitHub, and a [music] bunch more. In the app, you can retrieve anything it remembers by asking something like, \"What was that video idea Dave mentioned 3 weeks ago?\" [music] And once it finds it, Super Agent can actually take action, like drafting the follow-up email or pulling together bullet point list of [music] the action items. The more you use it, the more knowledge it builds, so it basically becomes a personal memory that gets smarter over time. Second Brain Note is launching in limited quantities for 10% off right now, and free users get 300 minutes a month, while GenSpark Plus and Pro members get up to 24 hours of AI transcription and summaries per day. Check it out before it's gone at the link in the caption.",
+      "transcript_lang": "en"
+    }
+  ]
+}

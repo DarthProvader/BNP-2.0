@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-05T04:00:54.803054+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/nvidia/status/2084733460690903204",
+      "published": "2026-08-04T19:09:24+00:00",
+      "summary": "AI compute is going to orbit. 🚀 @SpaceX ’s Starmind AI1 satellite compute payload is powered by NVIDIA Vera Rubin NVL72, bringing AI factory compute closer to the stars. The next chapter of AI infrastructure boldly goes where no AI compute has gone before.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/Kristennetten/status/2084755184748486980",
+      "published": "2026-08-04T20:35:43+00:00",
+      "summary": "Elon & Jensen with NVIDIA GPUs August 2016",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/JensenHuang/status/2084656303046332747",
+      "published": "2026-08-04T14:02:48+00:00",
+      "summary": "Today, we’re launching Alpamayo 2 Super, our frontier open reasoning model for autonomous vehicles. Beyond seeing, Alpamayo understands and reasons through the complex world - thinks before it acts. It’s a powerful backbone for robotaxis, trucks, shuttles, delivery vans, tractors and the long tail of mobile robots—billions of autonomous machines someday. We’re releasing it for commercial use under OpenMDW-1.1 so teams can inspect it, fine-tune it and deploy it—open models advance safety and security. The next wave of AI is robotics—and it starts with autonomous vehicles. Great work, Alpamayo team! blogs.nvidia.com/blog/alpama…",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/cb_doge/status/2084600591448203559",
+      "published": "2026-08-04T10:21:25+00:00",
+      "summary": "BREAKING: Billionaire Whitey Basson says Elon Musk’s Starlink must launch in South Africa. 🇿🇦 He said that keeping @Starlink out of South Africa is discouraging businesspeople from investing in rural areas where there is no working communications infrastructure. Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2084745539187273851",
+      "published": "2026-08-04T19:57:23+00:00",
+      "summary": "SpaceX earnings call on now SpaceX (@SpaceX) Tune into SpaceX’s first earnings audio-only webcast since going public nitter.net/i/broadcasts/1XxyggqBZ… Link SpaceX Q2 2026 Financial and Operational Results https://nitter.net/i/broadcasts/1XxyggqBZZRGM — https://nitter.net/SpaceX/status/2084737732732186903#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

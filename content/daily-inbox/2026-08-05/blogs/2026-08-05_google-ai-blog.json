@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-05T04:00:46.203778+00:00",
+  "items": [
+    {
+      "title": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "published": "2026-08-04T12:00:00+00:00",
+      "summary": "July AI recap header",
+      "author": "News from Google Team"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-05T04:00:56.154807+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2084663673570971990",
+      "published": "2026-08-04T14:32:05+00:00",
+      "summary": "i would rather be an optimist and work hard than a pessimist posting about why things won't work. it's much more difficult and the most likely path is failure, but society fails if people don't try. no amount of \"it will never work\" essays will drive society forward. Brian Huang (@brianryhuang) Dang it’s crazy that all of this literally did happen — https://nitter.net/brianryhuang/status/2084522610998878228#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

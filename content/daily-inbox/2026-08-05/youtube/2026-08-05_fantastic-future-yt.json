@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-08-05T04:00:06.766366+00:00",
+  "items": [
+    {
+      "title": "Bliží se konec displejů?👀",
+      "url": "https://www.youtube.com/shorts/3VYjvkk9IEY",
+      "published": "2026-08-04T13:53:42+00:00",
+      "summary": "",
+      "author": "Fantastic Future Pod",
+      "transcript": "Což je fakt jako divný, jo, ale že to vypadá jak plivátko jako. Jo, ale ale ten prsten vlastně řeší to samý, že prostě dáš prsten k puse, promluvíš do něj a on ti vlastně rovnou převede na Macu, na iOS prostě to, co říkáš do tý aplikace, ve který se nacházíš, co znamená buď to jsou poznámky a nebo je to vlastně jako rovnou AI. co je na tom důležitý a vlastně to souvisí i trošku tady s tím, jo, že podle mě tady to je poslední druh tohodle deviceu, kdy řešíme displeje, protože už jsme měli všechny varianty poměrů obrazovek, ale ta budoucnost podle mě není nutně v tom displeji, ale spíš právě v tom audio rozhraní, kde ty prostě komunikuješ s AI a podle mě to je to, po čem jde open AI ala HomePod, to znamená rozhraní, se kterým můžeš mluvit a on na tebe reaguje, ale vlastně jako nejdou nutně do obrazovky. [hudba] is here.",
+      "transcript_lang": "cs"
+    }
+  ]
+}

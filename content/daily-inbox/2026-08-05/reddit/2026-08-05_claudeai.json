@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-05T04:03:55.176311+00:00",
+  "items": [
+    {
+      "title": "There have been many people here making games using Claude so we made r/ClaudeGameDev!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
+      "published": "2026-08-04T11:33:01+00:00",
+      "summary": "I regularly see people posting their games and game assets here that are made or assisted with Claude. With some of the potential we've seen, it would be nice to gather all of those games and showcase them one place. If you are working or interested in game dev using Claude, feel free to visit r/ClaudeGameDev ! submitted by /u/jogalleciez [link] [comments]",
+      "author": "jogalleciez"
+    },
+    {
+      "title": "This CEO challenged Fable to hack it's wallet",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfds0c/this_ceo_challenged_fable_to_hack_its_wallet/",
+      "published": "2026-08-04T15:34:46+00:00",
+      "summary": "This guy has like 100 btc in it's wallet and challenging the Anthropic to hack it Can the Fable 5 or Opus 5 do it? I have a web3 dev background and it's nearly impossible (until his laptop or mobile has virus) submitted by /u/NotGonnaLieBaby [link] [comments]",
+      "author": "NotGonnaLieBaby"
+    },
+    {
+      "title": "Claude from a small business perspective",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vftrri/claude_from_a_small_business_perspective/",
+      "published": "2026-08-05T01:50:48+00:00",
+      "summary": "For context, I am a mid-sixties small-business owner of a renewable energy company that does turnkey installations. The greatest hurdles are sales, marketing, payroll, P&L, and scheduling. Normal small business challenges. I started using ChatGPT when it came out. I was thrilled when it could finally do accurate spreadsheets. Fast forward to today, Claude (Fable) is the best business tool I have. A $ 200-a-month plan has saved me well in excess of $50K since the start of the year. (I never hit my usage limit) To date, I have merged an archaic database platform with HubSpot using webhooks, scripts, and Python code. Developed realistic marketing plans, have weekly reports auto-generated on our Google spend, creating great visual HTML proposals for clients that are auto-generated with a button push. All tokens cleanly inserted and formatted. Every time I have a business question/need I want answered, a report generated, or a P&L dissected, Fable does it. I check the math, the outcomes, an",
+      "author": "gregogarrison"
+    },
+    {
+      "title": "Opus 5 if you forget to tell it to be concise",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfly57/opus_5_if_you_forget_to_tell_it_to_be_concise/",
+      "published": "2026-08-04T20:25:28+00:00",
+      "summary": "Me: Which ice cream flavor should I get? Opus-5: Chocolate, or vanilla, or mint chip, or you could create your own store and make your own flavors. If you do that you'll need a business loan, a store location, and source ingredients. For the business loan you'll want to evaluate several different types. This will ultimately lead you to the most ice cream options of whatever flavor you want Want me to help you research the business loan, come up with a logo idea, help with your ingredients list? submitted by /u/thermist-MJ [link] [comments]",
+      "author": "thermist-MJ"
+    },
+    {
+      "title": "Claude reviewing Codex's code lifted the pass rate from 71.6% to 89.7%",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf4apv/claude_reviewing_codexs_code_lifted_the_pass_rate/",
+      "published": "2026-08-04T08:21:59+00:00",
+      "summary": "submitted by /u/Suspicious_Orchid770 [link] [comments]",
+      "author": "Suspicious_Orchid770"
+    },
+    {
+      "title": "Strange, Creepy Hallucinated Responses?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfble0/strange_creepy_hallucinated_responses/",
+      "published": "2026-08-04T14:15:25+00:00",
+      "summary": "Posting again as the moderators required more \"context\" apparently. I use AI purely as a tool. Generating wiring diagrams, building software, etc. I recently started using Claude to drill Japanese grammar as it boasted a vast understanding of the language and thought I'd try a \"Project\" as a tutor of sorts. Today it was asking me to build a sentence in Japanese based on my Prado (as it knows I've been diagnosing a wiring loom issue). After I responded with the sentence, it decides to completely hallucinate some creepy, perverted response? Has anyone else had trouble with this? It makes me not want to use it at all. submitted by /u/kxania [link] [comments]",
+      "author": "kxania"
+    },
+    {
+      "title": "Max 20x usage went from 0% to 100% in half an hour while I was not using Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vf6i4y/max_20x_usage_went_from_0_to_100_in_half_an_hour/",
+      "published": "2026-08-04T10:28:47+00:00",
+      "summary": "As the title says. And the best part is that I never knowingly signed up for this plan. I woke up this morning to find two Anthropic invoices in my inbox: one for a Max 20x subscription, and another for an “auto-recharge extra usage” charge. While trying to understand what had happened, I monitored the Usage page without using Claude at all. My current-session usage went from: 11% at 11:09 47% at 11:20 100% at 11:40 All of this happened while I was doing absolutely nothing. Settings → Claude Code shows “No Claude Code instance connected.” Extra usage is now disabled. As far as I know, it was already disabled, but when I checked the settings, I was alarmed to see that the spending limit was set to an absurd €2,000. I have contacted Anthropic through both chat and email, but I have not received any response from a human yet. Has anyone experienced the same unexplained usage drain? Was Anthropic able to identify the source of the usage or refund the charges? submitted by /u/Current_Aftern",
+      "author": "Current_Afternoon_76"
+    },
+    {
+      "title": "Is biology much more dangerous than cybersecurity?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfrxk7/is_biology_much_more_dangerous_than_cybersecurity/",
+      "published": "2026-08-05T00:27:07+00:00",
+      "summary": "Fable guardrails seem to treat biological questions as way more dangerous than cybersecurity ones. I had no problem with a conversation it named \"Terraform authentication via CyberArk Secrets Hub and MCP Gateway\" but was blocked instantly from asking \"is it true that converting carbs to fat is metabolically expensive and happens rarely in humans?\" Has anyone else observed this? Or am I just not asking hard enough cyber questions / easy enough biological ones? submitted by /u/Acoustic-Blacksmith [link] [comments]",
+      "author": "Acoustic-Blacksmith"
+    },
+    {
+      "title": "Max 20x user here, only burning through 50-70% of my weekly limit — what do you use your extra tokens on?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfoq73/max_20x_user_here_only_burning_through_5070_of_my/",
+      "published": "2026-08-04T22:12:15+00:00",
+      "summary": "I work as a researcher at my local university. I upgraded to the 20x plan because the 5x wasn't enough, but most weeks I end up only using like 50-70% of my usage before it resets. Feels like I'm wasting these extra tokens each week. What are y'all doing with your extra tokens? Looking for random inspiration for side projects. Doesn't have to be serious — could be dumb stuff, weird creative experiments, or productivity shit. For reference, I mainly do data science, so ideas in that lane are a plus. And yeah, I used AI to help me write this, cause why the fuck not. submitted by /u/BeefNBroccoli2 [link] [comments]",
+      "author": "BeefNBroccoli2"
+    },
+    {
+      "title": "How else can I use Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfsz2z/how_else_can_i_use_claude/",
+      "published": "2026-08-05T01:14:17+00:00",
+      "summary": "I’ve used ChatGPT much more, but I’m just starting to get into Claude (free version) and I’m impressed so far. With ChatGPT, I’ve used it for career advice, budgeting, planning to buy a house, trip planning, learning engineering concepts, studying for my PE exam, writing emails, troubleshooting car issues, and thinking through important decisions. The more I use AI, the more I realize I’m probably only scratching the surface of what’s possible. Since I’m newer to Claude, I’m curious how people are getting the most out of it. For those of you who are heavy Claude users: - What are some of the most valuable ways you use it? - What’s a workflow or prompt that completely changed how you use Claude? - What do you use it for that most people probably never think about? - Has it saved you a significant amount of time or money? - If you had to teach someone how to become a “power user,” what would you tell them? I’m especially interested in real-world examples rather than generic AI tips. I’d ",
+      "author": "MechEngineer232"
+    }
+  ]
+}

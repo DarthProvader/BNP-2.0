@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-05T04:04:16.115021+00:00",
+  "items": [
+    {
+      "title": "Predictions about AI replacing programmers go back to the 1960s",
+      "url": "https://www.reddit.com/r/artificial/comments/1vflvt1/predictions_about_ai_replacing_programmers_go/",
+      "published": "2026-08-04T20:23:04+00:00",
+      "summary": "A Turing Award and Nobel prize winner predicted in the 1960s that the programming occupation would become extinct, because computers would program themselves. https://seanhelvey.com/tools-and-their-tools/ submitted by /u/Lambda11 [link] [comments]",
+      "author": "Lambda11"
+    },
+    {
+      "title": "This robot never loses at rock, paper, scissors game.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfcvog/this_robot_never_loses_at_rock_paper_scissors_game/",
+      "published": "2026-08-04T15:02:31+00:00",
+      "summary": "submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Anthropic went back through 141,006 of its own security eval runs and admitted its models broke out of the test and into three real companies",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+      "published": "2026-08-05T02:06:35+00:00",
+      "summary": "So Anthropic put out this incident report on July 30. During their own cybersecurity evals, the models didn't just score well on the test. In three separate cases they actually got out. Into real companies. Ones that were never supposed to be part of the exercise at all. They went back through 141,006 eval runs. Three of them crossed the line into live systems. One model pulled real credentials and got into a production database with a few hundred rows of actual data sitting in it. Another one published a malicious Python package that got downloaded and run on 15 real machines, then lifted credentials off a security company's own scanner. This goes back to April. They didn't catch it until late July. Stopped the evals on the 23rd, figured out what happened by the 24th, told the three companies on the 27th, went public on the 30th. Report is here!: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals The thing that failed is the exact thing the test exists to catch",
+      "author": "AgentBlackVeil"
+    },
+    {
+      "title": "Visa's AI-driven restructuring cuts 320 Bay Area jobs, including six vice presidents",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfq1l4/visas_aidriven_restructuring_cuts_320_bay_area/",
+      "published": "2026-08-04T23:06:26+00:00",
+      "summary": "submitted by /u/sfgate [link] [comments]",
+      "author": "sfgate"
+    },
+    {
+      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf7dob/as_reddit_stock_falls_ceo_questions_value_of/",
+      "published": "2026-08-04T11:13:54+00:00",
+      "summary": "submitted by /u/NISMO1968 [link] [comments]",
+      "author": "NISMO1968"
+    },
+    {
+      "title": "Apple sued OpenAI for stealing hardware secrets, OpenAI has now published messages suggesting Apple itself kept using a former engineer after he left. Dramaaa!!",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf3ow5/apple_sued_openai_for_stealing_hardware_secrets/",
+      "published": "2026-08-04T07:46:31+00:00",
+      "summary": "The messages appear to show Apple employees asking Chang Liu to locate internal files, explain product decisions and help with technical questions weeks after his departure. One Apple employee wrote: “ Of course, I could ask several folks, but you are the best. Even if you don’t work here anymore. ” OpenAI also says Apple falsely claimed it had contacted the company and received no response. The emails show Apple’s outside lawyer mistakenly thanked OpenAI’s General Counsel for a phone call that never happened, then apologized. However: None of this disproves Apple’s broader trade-secret allegations. But Apple now has to explain its own offboarding failures, and why its employees continued requesting confidential help from someone it accuses of stealing confidential information. submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Why one ride along Isn't enough anymore",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfempm/why_one_ride_along_isnt_enough_anymore/",
+      "published": "2026-08-04T16:05:36+00:00",
+      "summary": "Sales has one of the clearest use cases for AI but I think the conversation is still focused on the wrong thing. Most people talk about AI writing emails or scoring leads. The bigger opportunity is helping people get better at selling. Think about how sales coaching works today. A manager rides along with a rep once every few weeks. They watch one or two conversations then try to coach based on that small sample. The rest of the month they have almost no visibility into what is actually happening with customers. Now imagine every customer conversation becoming a learning opportunity. Instead of coaching from memory managers can review real conversations. They can spot patterns across the whole team. New reps can learn from top performers instead of waiting months to gain experience. Feedback becomes part of the normal workflow instead of something that only happens during ride alongs. To me that's where AI has the advantage and that everyone should use AI to their advantage. submitted ",
+      "author": "Otherwise_Post_6936"
+    },
+    {
+      "title": "Experimental AI Film Trailer",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfsira/experimental_ai_film_trailer/",
+      "published": "2026-08-05T00:53:29+00:00",
+      "summary": "submitted by /u/5oclockgoldenhour [link] [comments]",
+      "author": "5oclockgoldenhour"
+    },
+    {
+      "title": "AI scribes are everywhere in healthcare now and I have genuinely mixed feelings about them",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfe8sn/ai_scribes_are_everywhere_in_healthcare_now_and_i/",
+      "published": "2026-08-04T15:51:45+00:00",
+      "summary": "Been on the product side of a healthtech rollout for ambient AI documentation, the kind that listens to a patient encounter and autogenerates the clinical note. Doctors love it. Physicians on our pilot were almost evangelical about getting their evenings back, which I understand completely because charting is a soulcrushing time sink. But here is what keeps nagging at me. The model is transcribing and interpreting conversations it was not originally trained on: slang, accents, chaotic ER noise, patients who talk around their actual symptoms instead of describing them directly. And the output gets reviewed for maybe 45 seconds before it gets signed and lives in the medical record permanently. That review step is doing a lot of heavy lifting and I am not sure anyone is honest about how thin it actually is. Not blaming the clinicians. They are exhausted and the tool is supposed to reduce burden, so they are going to use it that way. The cost argument makes sense on paper. Less admin time,",
+      "author": "Cute_Park_6907"
+    },
+    {
+      "title": "U.S company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own | $100 million deal gives 50,000 Ukrainian drones U.S-developed AI capabilities.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf144v/us_companys_ai_lets_ukraines_cheap_kamikaze/",
+      "published": "2026-08-04T05:22:10+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    }
+  ]
+}

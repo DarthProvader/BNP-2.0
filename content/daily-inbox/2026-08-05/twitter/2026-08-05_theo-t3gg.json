@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-05T04:01:11.503749+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084801515689316700",
+      "published": "2026-08-04T23:39:49+00:00",
+      "summary": "Briefly tried out the new activity view in Codex. It’s an improvement, but still too buggy and quirky for daily use IMO. T3 Code feels far ahead here. Probably time to move our new sidebar out of beta",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084748639470272972",
+      "published": "2026-08-04T20:09:43+00:00",
+      "summary": "Luna is such an insane value after the 80% cost reduction. It's basically free and can do a ton of real data processing type work. I'm overhauling title generation in T3 Code to take more advantage of it. I almost want to spin it up on every prompt to generate descriptions, feedback, and statuses. Why wouldn't I? It's basically free",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084721449114472849",
+      "published": "2026-08-04T18:21:40+00:00",
+      "summary": "You guys do realize that Codex and Claude are basically acting as terminals, right? If your dev server has a memory leak, and Codex spawns it, the memory leak will be credited to Codex. Imagine posting a screenshot of Ghostty using 100gb of RAM and saying it has a memory leak",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084704554369921255",
+      "published": "2026-08-04T17:14:32+00:00",
+      "summary": "Linus has shared his stance on AI in Linux kernel development. As usual, he's based as hell. Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2084692782963376274",
+      "published": "2026-08-04T16:27:45+00:00",
+      "summary": "Drift0r just shared all of his medical records after 5 years of illness. His doctors have no idea what’s wrong, and he’s hoping that releasing everything might get him answers. Never seen anything like this. I hope he gets some answers. Drift0r (@Drift0r) After 100+ doctors & thousands of tests, nobody can diagnose my complex medical issue. So, I decided to make all of my records public and beg the internet for help. Can you diagnose me? Plz share 4 help Medical records: drive.google.com/drive/u/1/f… Full video: piped.video/krP9EGyLCRE Video — https://nitter.net/Drift0r/status/2084372261436559517#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
