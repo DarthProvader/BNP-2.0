@@ -1,0 +1,50 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-06T04:01:25.640767+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085097342651257309",
+      "published": "2026-08-05T19:15:20+00:00",
+      "summary": "The Office (AI) Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085097586378105096",
+      "published": "2026-08-05T19:16:18+00:00",
+      "summary": "Insanely uncanny valley. So close, yet so far. Model is Minimax H3.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085036662531207540",
+      "published": "2026-08-05T15:14:13+00:00",
+      "summary": "Want to build games like this? I made it stupidly simple. Tell this tool what you want to build → it writes the Gauntlet Loop prompt → you run it. Free forever: somethingbig.ai/gauntlet-loo… Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

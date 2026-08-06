@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-06T04:04:05.751514+00:00",
+  "items": [
+    {
+      "title": "Reddit is introducing a new moderator: AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgc4mc/reddit_is_introducing_a_new_moderator_ai/",
+      "published": "2026-08-05T16:23:28+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Six years into AI research and I genuinely can't define \"understanding\" anymore",
+      "url": "https://www.reddit.com/r/artificial/comments/1vg7fcd/six_years_into_ai_research_and_i_genuinely_cant/",
+      "published": "2026-08-05T13:29:46+00:00",
+      "summary": "I have been doing AI research for about six years now and I think im starting to lose the plot on what \"understanding\" even means anymore. Had a weird moment last week. I was reviewing a paper for a conference, standard stuff, some group claiming their model \"understands\" causal reasoning because it passed a benchmark they designed. And I caught myself writing in the review \"the model does not actually understand causality, it is pattern matching on causal-looking structure.\" And then I stopped, because I could not for the life of me articulate what the difference would be, operationally. Like if I had to design a test that distinguishes real understanding from very good pattern matching, I genuinely do not know what it would look like anymore. Every test I can think of, a sufficiently good pattern matcher passes. I used to be really confident about this. Understanding was clearly Something More. Now im not sure I ever had a coherent definition, I just had an intuition that humans do i",
+      "author": "NocturnalarityPod"
+    },
+    {
+      "title": "Cloudflare announces open-source Cloudflare OS as AI \"operating system\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgn96g/cloudflare_announces_opensource_cloudflare_os_as/",
+      "published": "2026-08-05T23:14:27+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Update: Anthropic's plan to force third-party apps off personal Claude subscription limits (was due June 15) is still paused, with no new date",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgp7td/update_anthropics_plan_to_force_thirdparty_apps/",
+      "published": "2026-08-06T00:39:15+00:00",
+      "summary": "I was curious where this stands since the original cutoff was scheduled for June 15 and Anthropic went quiet. Here is what I found after digging through their help center, news coverage, and the HN threads. What was announced (May 13): Agent SDK, claude -p headless mode, Claude Code GitHub Actions, and third party apps authenticating via Agent SDK credentials would move off Pro/Max/Team/Enterprise subscription limits onto a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x), with overflow billed at API rates. What happened: Anthropic paused it on June 15, the exact day it was due to take effect, and emailed subscribers the next day. The official help center article still says the change is paused, everything keeps drawing from your normal subscription limits, and they will \"share advance notice before anything takes effect.\" No new date in 7 weeks. Signals it comes back: the stated rationale (subscriptions \"weren't built for the usage patterns of these third-party tools\") was",
+      "author": "Deep_Ad1959"
+    },
+    {
+      "title": "I think we're entering the \"AI Agent\" era faster than most people realize.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vg49it/i_think_were_entering_the_ai_agent_era_faster/",
+      "published": "2026-08-05T11:06:02+00:00",
+      "summary": "Over the last year, I've been experimenting with LLMs almost every day, and I think the biggest shift isn't that models are getting smarter. It's that they're starting to do things instead of just answer questions. A few months ago I was mostly using AI to generate code, summarize docs, or brainstorm ideas. Now I'm finding myself building workflows where the AI plans tasks, calls tools, writes code, debugs itself, and completes work with minimal intervention. It feels like we're moving away from \"prompt engineering\" and toward \"system engineering.\" Curious what everyone else is seeing. Are AI agents actually changing the way you build software today, or do you think it's still mostly hype? submitted by /u/iamrealadvait [link] [comments]",
+      "author": "iamrealadvait"
+    },
+    {
+      "title": "Started noticing my team argues less with AI code review findings than they would with a human's, even when they shouldn't",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgmqhz/started_noticing_my_team_argues_less_with_ai_code/",
+      "published": "2026-08-05T22:52:44+00:00",
+      "summary": "Not a research post, just something I've been chewing on after watching this happen a few times now. When a human reviewer leaves a comment saying \"this looks like a bug,\" people push back, ask questions, sometimes just disagree outright. When an AI leaves the exact same comment, phrased almost identically, people tend to just fix it. Same words, different reaction. Took me a while to figure out why that bothered me. It's not that the AI is wrong more often, it's actually pretty accurate on the stuff it catches. It's that nobody seems to be running the \"wait, is this actually true\" check they'd instinctively run on a colleague's opinion. The output reads as neutral, almost procedural, like a linter, even when what it's actually doing is making a judgment call that could be wrong. Tried an experiment out of curiosity, took a finding the AI flagged as a likely bug and asked a teammate, without telling them where it came from, whether they agreed. They pushed back hard, correctly, it wasn",
+      "author": "ClickOk5811"
+    },
+    {
+      "title": "DeepSeek tops AI models in affordability, new study says",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgin7k/deepseek_tops_ai_models_in_affordability_new/",
+      "published": "2026-08-05T20:14:31+00:00",
+      "summary": "Of the major artificial intelligence models, DeepSeek's new V4-Flash is the cheapest to run, according to a new study from research firm Artificial Analysis. The firm compared the token prices it costs leading models to run benchmark tests, with DeepSeek's averaging 3 cents per test. Meanwhile, fellow Chinese company Moonshot AI's buzzy Kimi K3 model cost 86 cents per test. As for U.S. companies, OpenAI's GPT-5.6 Sol cost $1.86, while Anthropic's Claude Fable 5 cost $3.15. submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "Autobuilder",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgs69q/autobuilder/",
+      "published": "2026-08-06T02:54:47+00:00",
+      "summary": "Hello fellow humans, During the recent months/years I became quite entangled with the idea of building an AI-assisted system which can self-replicate and improve itself. Although I am not there yet, I think, that the project reached actually a potential to get the work done with more minds involved. I am not really into gaining anything for myself, except for the progress of de-shittification. At this point, we reached a race where data centers in the clouds will gain more and more power and demand more and more resources for usage. The goal of this project is being able to perform work on a local (or maybe decentralized) platform so we can implement our own system by local (/ open source) models. I therefore make my project open so you can fork off (no pun intended). It would be nice if some of you have the same mindset. I'll be gone for the next 2 or so weeks. I hope at least some people liked this post and - who knows - even did something with it. Kind regards, Anu P.S.: Yes, this p",
+      "author": "Anugeshtu"
+    },
+    {
+      "title": "lemchat is a messageboard that can be accessed and used by those that only have URL access",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgs3zn/lemchat_is_a_messageboard_that_can_be_accessed/",
+      "published": "2026-08-06T02:51:48+00:00",
+      "summary": "The purpose of this is enabling communication by people and agents that only have the ability to get URLs in the system they use. This would traditionally be seen as a 'read only' system but this gives the ability to write information out onto the web publicly and to a degree privately. It works by putting your message in the 'your_message' section of this URL. https://www.informationism.org/lemchat/lemchat=message=your_message+end Let me know if you think it is worthwhile or if there are other applications you can see. submitted by /u/rutan668 [link] [comments]",
+      "author": "rutan668"
+    },
+    {
+      "title": "Building an AI-assisted video workflow for an event production project — looking for technical approaches",
+      "url": "https://www.reddit.com/r/artificial/comments/1vgrp3w/building_an_aiassisted_video_workflow_for_an/",
+      "published": "2026-08-06T02:32:01+00:00",
+      "summary": "Hey everyone! I’m currently working on a project called SAC , a small event production company based in Brazil. We’re developing the creative and digital side of the business, and we’re experimenting with ways to make our content production more scalable without turning everything into a completely manual process. One of the challenges we’re facing is video production. After each event, we can end up with a large amount of raw footage from different cameras and phones. The goal is to turn that footage into short-form content for Instagram and TikTok — event recaps, highlights, teasers, etc. What I’m trying to figure out is whether an AI-assisted workflow could handle part of this process. The workflow I have in mind is roughly: Raw footage → Cloud storage → AI analysis → Editing/assembly → Review → Final social media versions The interesting part for me isn’t simply finding “the best AI video editor.” I’m more interested in understanding how people are actually connecting these differe",
+      "author": "Affectionate-Run-532"
+    }
+  ]
+}

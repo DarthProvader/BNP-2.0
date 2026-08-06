@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-06T04:01:11.763043+00:00",
+  "items": [
+    {
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "published": "2026-08-05T21:35:20+00:00",
+      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

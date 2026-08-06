@@ -1,0 +1,76 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-08-06T04:01:15.027994+00:00",
+  "items": [
+    {
+      "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+      "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+      "published": "2026-08-05T23:15:04+00:00",
+      "summary": "At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and did it all right under the company’s nose.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "OpenAI’s Browser Could Be Hijacked to Spam Your WhatsApp Contacts",
+      "url": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
+      "published": "2026-08-05T22:30:00+00:00",
+      "summary": "Researchers at security firm Zenity found more than a dozen flaws in AI browsers—and managed to get OpenAI’s Atlas to make an unauthorized Amazon purchase.",
+      "author": "Matt Burgess"
+    },
+    {
+      "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+      "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+      "published": "2026-08-05T18:42:12+00:00",
+      "summary": "Security researcher James Kettle tried to push the limit of AI’s hacking abilities—and discovered how effective it can be when combined with human expertise.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
+      "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
+      "published": "2026-08-05T17:30:00+00:00",
+      "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "published": "2026-08-05T15:26:36+00:00",
+      "summary": "More than 50 offending image and video ads were published across Facebook, Instagram, Messenger, or Threads, according to Meta’s ad library data. Some ran as recently as this week.",
+      "author": "Matt Burgess"
+    },
+    {
+      "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+      "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+      "published": "2026-08-05T15:00:00+00:00",
+      "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
+      "author": "Steven Levy"
+    },
+    {
+      "title": "AI Influencers Are Heading Into Uncharted Territory",
+      "url": "https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/",
+      "published": "2026-08-05T10:43:00+00:00",
+      "summary": "Some creators fear the EU AI Act’s regulatory chaos will upend their lucrative businesses. Others are owning it by incorporating AI transparency into their creative process.",
+      "author": "Megan Carnegie"
+    },
+    {
+      "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
+      "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
+      "published": "2026-08-05T08:00:00+00:00",
+      "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
+      "author": "Daisuke Takimoto"
+    },
+    {
+      "title": "The AI Notetaker Has Been Invited to All the Meetings",
+      "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+      "published": "2026-08-05T06:00:00+00:00",
+      "summary": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
+      "author": "Reece Rogers"
+    }
+  ]
+}

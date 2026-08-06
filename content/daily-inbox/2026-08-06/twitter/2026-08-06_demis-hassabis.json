@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-06T04:01:27.984572+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2085034334914769203",
+      "published": "2026-08-05T15:04:58+00:00",
+      "summary": "I’ve been working towards AGI my whole life, and as we enter this pivotal moment, I’m stepping into a new role as Chair of Google DeepMind & Chief Scientist of Alphabet. This will allow me to focus on long-term strategy, and accelerating scientific breakthroughs, including leaning into my work at Isomorphic to help cure disease. I’m excited that @koraykv will be stepping up to lead GDM as SVP, alongside @joshwoodward and our exec team. I could not be more excited and confident about our amazing next chapter! 🚀 blog.google/company-news/ins… Link The next chapter of our AI momentum Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams. blog.google",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

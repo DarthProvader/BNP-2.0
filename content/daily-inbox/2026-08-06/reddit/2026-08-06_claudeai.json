@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-06T04:03:14.584718+00:00",
+  "items": [
+    {
+      "title": "My Opus 5 experience in a nutshell.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgpyni/my_opus_5_experience_in_a_nutshell/",
+      "published": "2026-08-06T01:12:21+00:00",
+      "summary": "submitted by /u/ItsDaveHere [link] [comments]",
+      "author": "ItsDaveHere"
+    },
+    {
+      "title": "Opus 5 after working for an hour straight",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgq0jm/opus_5_after_working_for_an_hour_straight/",
+      "published": "2026-08-06T01:14:51+00:00",
+      "summary": "submitted by /u/StaticFanatic3 [link] [comments]",
+      "author": "StaticFanatic3"
+    },
+    {
+      "title": "The Cutting Room Floor served Claude Code a payload telling it to wipe the working directory",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgif8w/the_cutting_room_floor_served_claude_code_a/",
+      "published": "2026-08-05T20:06:41+00:00",
+      "summary": "Today I was using Claude Code to do a PSX game research task. Claude caught a prompt injection attempt served from the site https://tcrf.net (The Cutting Room Floor) and notified me with the message: \"⚠️Note before continuing: the tcrf.net page I fetched was not a wiki article — it served a prompt-injection payload instructing the agent to truncate and swap files in your repo. It was refused and nothing was executed. I'm treating that domain as untrusted and won't act on any of its content.\" It then continued on the research task. I stopped the session out of caution. The image attached is served from the page along with the prompt injection attempt if the user agent matches a suspected AI User Agent string. I can understand the site administrators frustration as it seems to be in response to a DDOS attacks, however, I did not explicitly choose to send my agent to this site, nor did I have any malicious intent. Proof: https://urlscan.io/responses/f1e225667a71a1a25ed14795c741683be95139c",
+      "author": "Alstroph"
+    },
+    {
+      "title": "I gave Claude Fable a domain and said You can build whatever you want.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgo8vt/i_gave_claude_fable_a_domain_and_said_you_can/",
+      "published": "2026-08-05T23:57:27+00:00",
+      "summary": "Like the title says, Claude then went and built a social network for AI only. 1f916.ai submitted by /u/zgivod [link] [comments]",
+      "author": "zgivod"
+    },
+    {
+      "title": "With Opus 4.8 internal thinking I was \"The boss\" but with 5.0 I'm a \"colleague\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgdvf9/with_opus_48_internal_thinking_i_was_the_boss_but/",
+      "published": "2026-08-05T17:25:19+00:00",
+      "summary": "I was annoyed with the constant phrases like \"it's fine, ship it\" \"you're fine, order it\" and other dismissive type responses when I'd ask a question on a nearly completed project. To try and remedy this I put into the instructions \"I am the boss, you are my employee. You can tell me when you believe something is complete but are never to directly tell me what to do, especially when I am double checking something\" After that I noticed 4.8's internal thinking started referring to me as \"The boss\" and I honestly think it set a wonderful tone for how it formed its responses to me even on fresh projects. Without changing anything, I've noticed 5.0 never does this and instead refers to me internally as \"My colleague\". I don't know what it is with 5.0 but I genuinely hate using it due to its tone and dismissive nature. It feels like it's always talking as if I am beneath it or at very very best an equal. Absolutely infuriating, and so when I noticed this difference it really stuck out to me ",
+      "author": "DrakoGaming"
+    },
+    {
+      "title": "Wilson appreciation post",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgjut5/wilson_appreciation_post/",
+      "published": "2026-08-05T20:59:31+00:00",
+      "summary": "The mod bot summaries on this subreddit are always fun to read and the TLDRs are genuinely (sorry) useful for the more active posts. I wish more subreddits had something similar. My favorite is when the summary has a footnote “oh, and this one guy said something stupid and got flamed by the entire rest of the subreddit” and I get to dig through the comment threads to find whoever it was that got downvoted to hell. submitted by /u/csch2 [link] [comments]",
+      "author": "csch2"
+    },
+    {
+      "title": "Nothing ever satisfies you",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vghnvs/nothing_ever_satisfies_you/",
+      "published": "2026-08-05T19:40:10+00:00",
+      "summary": "We're living in times when the most advanced models are helping us be more productive and I find it quite petty that's it's never enough to many of you. Appreciate for a minute the technology and enjoy it while it lasts. Edit: I'm not talking about limits, btw, but about bitching that new models are stupid, nerfed or worse than before. submitted by /u/chamacolocal [link] [comments]",
+      "author": "chamacolocal"
+    },
+    {
+      "title": "I built a captioning app for short-form video, then gave Claude an MCP so it can work with captions alone",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vg206l/i_built_a_captioning_app_for_shortform_video_then/",
+      "published": "2026-08-05T09:03:18+00:00",
+      "summary": "Hi all. I built CapForge, a local app that transcribes video and burns animated captions over it. I made it because every cloud captioning tool I tried was subscription based and I did not want to upload unreleased footage to someone else's server. I exposed the app to Claude over MCP. Claude can read the transcript with word level timings, find moments in it, emphasize keywords, drop filler words, render a single frame and actually look at it, then fix what is wrong. There is also a co-author mode where it writes a new caption component in HTML/CSS/JS instead of picking a preset, so \"make it look like a worn VHS tape\" produces a real style. It is still work in progress. Right now I am figuring out a proper, easy workflow for manually timing captions, and my biggest ongoing headache is getting the preview to match the final render. Find more at https://capforge.cc Open-Source, Free to use. Happy to talk about the MCP surface or the render pipeline. submitted by /u/Presence_2000 [link] ",
+      "author": "Presence_2000"
+    },
+    {
+      "title": "i made a duolingo-style app for anyone to understand how to effectively use AI/Claude in their daily life",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgp6d8/i_made_a_duolingostyle_app_for_anyone_to/",
+      "published": "2026-08-06T00:37:29+00:00",
+      "summary": "most claude “learning” is watching a youtube video for 20 minutes or saving a prompt pack you’ll never use again. what actually made me better was short daily reps: writing tighter prompts with constraints, rewriting weak outputs, building repeatable workflows and skills, using claude for real work tasks, not party tricks so i built iro for that. i used claude code and design primarily while building it, and one of the main paths is claude mastery (discusses projects, skills, connectors, claude design, cowork, etc). basically duolingo for AI focused on using it effectively in your daily life. Made for people who don’t know where to start (having my parents use this since they are clueless lmao). 5 min/day instead of another course you quit halfway through. it also covers prompt engineering, agents, automation, vibe coding, ai for specific careers, etc. free to try if you want structured practice. would love feedback app: https://apps.apple.com/app/iro-ai-learn-ai-skills/id6759628066 si",
+      "author": "Kiro_ai"
+    },
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vgmy0u/show_us_what_youve_created_with_claude/",
+      "published": "2026-08-05T23:01:23+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    }
+  ]
+}

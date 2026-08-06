@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-06T04:01:31.488657+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085209870064824742",
+      "published": "2026-08-06T02:42:29+00:00",
+      "summary": "I want you all to tear T3 Code apart. What are we getting wrong? What could we do better?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085210292229902587",
+      "published": "2026-08-06T02:44:09+00:00",
+      "summary": "Some things I want to improve (most are already in progress): - Long thread load times on mobile - Onboarding in general - Stability of remote updating - Subagent visibility - Configuration centralization - Remote configuration/controls - Storage used by history",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085205880795210125",
+      "published": "2026-08-06T02:26:37+00:00",
+      "summary": "In retrospect it may have been stupid to open source this Theo - t3.gg (@theo) On absolute garbage wifi and running 6 threads in parallel with no issues. This feels like magic. I can close my laptop and be fine, they'll just pop up on my phone T3 Code feels like magic. Thank you to everyone who helped build this. — https://nitter.net/theo/status/2085192524977840243#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085198797999947818",
+      "published": "2026-08-06T01:58:29+00:00",
+      "summary": "Of course this is the first time I’ve got a Starlink plane Theo - t3.gg (@theo) I'm genuinely kind of excited to see how T3 Code remote work handles plane wifi. About to be very pleased or very upset. Either way, expect PRs — https://nitter.net/theo/status/2085178732948697567#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085192524977840243",
+      "published": "2026-08-06T01:33:33+00:00",
+      "summary": "On absolute garbage wifi and running 6 threads in parallel with no issues. This feels like magic. I can close my laptop and be fine, they'll just pop up on my phone T3 Code feels like magic. Thank you to everyone who helped build this.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

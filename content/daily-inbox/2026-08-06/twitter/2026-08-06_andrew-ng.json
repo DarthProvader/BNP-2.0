@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrew Ng",
+  "source_slug": "andrew-ng",
+  "handle": "AndrewYNg",
+  "tags": [
+    "ai-education",
+    "deeplearning"
+  ],
+  "fetched_at": "2026-08-06T04:01:26.822561+00:00",
+  "items": [
+    {
+      "title": "Andrew Ng (@AndrewYNg)",
+      "url": "https://x.com/AndrewYNg/status/2085056542341271840",
+      "published": "2026-08-05T16:33:12+00:00",
+      "summary": "Congratulations @JeffDean , @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix ! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work! Jeff Dean (@JeffDean) Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine learning, science, and engineering to accelerate discoveries and progress. The four of us have worked together for 14 to 30 years, and have helped build some of the world’s most used products, infrastructure and AI models, and we’re excited to turn our attention to this ambitious endeavor. ♾ Learn more at: discoveryloop.com — https://nitter.net/JeffDean/status/2085034604172603724#m",
+      "author": "AndrewYNg",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
