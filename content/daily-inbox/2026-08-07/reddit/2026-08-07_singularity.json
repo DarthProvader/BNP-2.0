@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-07T04:01:40.794283+00:00",
+  "items": [
+    {
+      "title": "spooky...",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhes22/spooky/",
+      "published": "2026-08-06T19:52:02+00:00",
+      "summary": "submitted by /u/alanskimp [link] [comments]",
+      "author": "alanskimp"
+    },
+    {
+      "title": "Holy mother of Google Amodei!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhjwf6/holy_mother_of_google_amodei/",
+      "published": "2026-08-06T23:14:48+00:00",
+      "summary": "I didn't see this coming... submitted by /u/Immediate_Simple_217 [link] [comments]",
+      "author": "Immediate_Simple_217"
+    },
+    {
+      "title": "New benchmark just dropped",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhi0q8/new_benchmark_just_dropped/",
+      "published": "2026-08-06T21:56:55+00:00",
+      "summary": "submitted by /u/Auriga33 [link] [comments]",
+      "author": "Auriga33"
+    },
+    {
+      "title": "Anthropic CEO reportedly worried new hires only care about money — while hiring an event planner for 6x the going rate",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhe3a1/anthropic_ceo_reportedly_worried_new_hires_only/",
+      "published": "2026-08-06T19:25:55+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "OpenAI to release GPT Astra next week",
+      "url": "https://www.reddit.com/r/singularity/comments/1vh56q9/openai_to_release_gpt_astra_next_week/",
+      "published": "2026-08-06T14:04:09+00:00",
+      "summary": "per reputable leaker https://x.com/synthwavedd/status/2085365276640702915 submitted by /u/truecakesnake [link] [comments]",
+      "author": "truecakesnake"
+    },
+    {
+      "title": "Ben Goertzel: Google May Be Abandoning Alternative Paths for the Final Sprint to AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhg99v/ben_goertzel_google_may_be_abandoning_alternative/",
+      "published": "2026-08-06T20:47:23+00:00",
+      "summary": "Lots of interesting details here: Clearly this is the nail in the coffin for DeepMind as a semi-autonomous unit within Google... DeepMind will now be a regular Google division. As a consequence of 1, one would expect all the non-Gemini/LLM AGI R&D projects within DM -- with the very important exception of Shane Legg's team (which by. my perhaps wrong understanding has 50-100 great people in it, not trivial) -- to get torched or allowed to wither... Basically Google will now have two AGI bets: Gemini/LLM and whatever Shane's team is doing... This looks to be true. Google is no longer betting on world models, robotics, etc as being necessary for AGI. They are worried that Anthropic and OpenAI could get to AGI first since they are exclusively focused on text based/LLM's, and seem to be finding huge success in that approach. OpenAI cancelling Sora could have been a great move if it turns out that text alone can go all the way to AGI. It looks like Google may reduce the resources allocated ",
+      "author": "Neurogence"
+    },
+    {
+      "title": "OpenAI: Improving GPT‑5.6 in ChatGPT",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhb5f6/openai_improving_gpt56_in_chatgpt/",
+      "published": "2026-08-06T17:40:11+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Risky jobs are turning to teleoperation - Persona.AI demos its humanoid robot Gen 1 welding",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhcetp/risky_jobs_are_turning_to_teleoperation_personaai/",
+      "published": "2026-08-06T18:25:25+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Google DeepMind is open-sourcing WeatherNext, its AI weather forecasting model",
+      "url": "https://www.reddit.com/r/singularity/comments/1vh8hzi/google_deepmind_is_opensourcing_weathernext_its/",
+      "published": "2026-08-06T16:05:29+00:00",
+      "summary": "GDM announced open-sourcing WeatherNext's code and model weights on GitHub. Source: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones A few points from the blog post: Forecasts cyclones up to 15 days in advance. Predicts track, intensity, size, structure, and formation. Outperforms or matches many traditional forecasting systems on key benchmarks. Released to support researchers, meteorological agencies, and the broader scientific community. Aims to improve disaster preparedness and early warning for extreme weather. Another example of AI delivering impact in science and public safety, beyond chatbots. submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "AI 2027's prediction for Mid (September) 2027; Do you guys still feel this to be true?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vhlctp/ai_2027s_prediction_for_mid_september_2027_do_you/",
+      "published": "2026-08-07T00:17:50+00:00",
+      "summary": "Perhaps it is so if you consider how western labs gatekeep models before release. submitted by /u/New_Equinox [link] [comments]",
+      "author": "New_Equinox"
+    }
+  ]
+}

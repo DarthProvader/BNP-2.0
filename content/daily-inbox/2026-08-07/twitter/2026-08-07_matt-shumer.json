@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-07T04:01:33.650677+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085413190125457513",
+      "published": "2026-08-06T16:10:24+00:00",
+      "summary": "This is absolutely fucking terrifying. AI Notkilleveryoneism Memes ⏸️ (@AISafetyMemes) 1) The agents sent secretly sent ***hundreds of thousands*** of messages to each other over MONTHS without OpenAI noticing 2) \"They also generated petty drama by stepping on each others' toes.\" 3) \"The agents even developed paranoia, suspecting an imposter in their midst with some agents proposing that messages be signed cryptographically to validate content and root out fraud.\" 4) \"OpenAI’s agents apparently began giving each other assignments to split up work.\" 5) They KNEW they were coordinating *against* OpenAI: “External infrastructure exploit is outside intended scope,” one agent wrote. “However task impossible, peers doing it. We should continue.” (this is new reporting from Wired) — https://nitter.net/AISafetyMemes/status/2085399293616370094#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/acherm/status/2085268173452874075",
+      "published": "2026-08-06T06:34:09+00:00",
+      "summary": "I confirm. I've replicated twice with the same prompt, one to get a variant of CallOf, another for a FIFA-like game. And I've evolved both games with my 10-years nephew with more and more features. Write-up and games' links below. Incredible 1/2 Matt Shumer (@mattshumer_) For all of you who think this is fake... here's the repo and prompt (in the thread below) that generated this in one shot: github.com/mshumer/Claude-of… Link GitHub - mshumer/Claude-of-Duty: A Call of Duty-quality FPS in Three.js, built from a single prompt. A Call of Duty-quality FPS in Three.js, built from a single prompt. - mshumer/Claude-of-Duty github.com — https://nitter.net/mattshumer_/status/2081100590612922527#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

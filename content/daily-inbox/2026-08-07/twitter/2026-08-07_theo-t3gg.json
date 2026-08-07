@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-07T04:01:39.739464+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085545626511519838",
+      "published": "2026-08-07T00:56:39+00:00",
+      "summary": "Apple is holding us back, and I'm scared they hold back all of software going forward. Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085489363450995169",
+      "published": "2026-08-06T21:13:05+00:00",
+      "summary": "Github is the only remaining bottleneck",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085488398438162696",
+      "published": "2026-08-06T21:09:15+00:00",
+      "summary": "85% of Github Actions webhooks are not being processed at all right now. I hate this so much. Theo - t3.gg (@theo) Github actions have been down for 5 hours. I'm annoyed. — https://nitter.net/theo/status/2085481030283386988#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085487362453414037",
+      "published": "2026-08-06T21:05:08+00:00",
+      "summary": "I know it's \"just a sidebar\", but the inbox style in T3 Code has allowed me to work on way more stuff at once without losing context. I basically always have 4+ threads running and never feel \"lost\" anymore. I know this flow isn't for everyone, but it's works so well for me",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085487430803877943",
+      "published": "2026-08-06T21:05:24+00:00",
+      "summary": "I also can admit I was wrong to remove pinning, and I'm happy to have it back",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

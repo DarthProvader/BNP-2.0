@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-07T04:04:13.876179+00:00",
+  "items": [
+    {
+      "title": "New Democratic bill would tax AI companies to create jobs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vhljad/new_democratic_bill_would_tax_ai_companies_to/",
+      "published": "2026-08-07T00:25:48+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "This is the coolest thing I've seen AI used for",
+      "url": "https://www.reddit.com/r/artificial/comments/1vh5lac/this_is_the_coolest_thing_ive_seen_ai_used_for/",
+      "published": "2026-08-06T14:19:17+00:00",
+      "summary": "Taken from the Y combinator podcast with Bryant Chou on his new startup Ploy https://www.ycombinator.com/library/Rj-the-age-of-the-40-year-old-solo-founder-is-here I believe this is definitely one of those things that AI was intended for, this brought me back some nostalgia and it's really amazing being able to see these old school websites be redesigned back to life submitted by /u/RuddyToxicity [link] [comments]",
+      "author": "RuddyToxicity"
+    },
+    {
+      "title": "Meta becomes latest firm to say its AI hacked another company",
+      "url": "https://www.reddit.com/r/artificial/comments/1vh098k/meta_becomes_latest_firm_to_say_its_ai_hacked/",
+      "published": "2026-08-06T10:20:00+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "New Orleans will use AI to answer 911 calls instead of a human",
+      "url": "https://www.reddit.com/r/artificial/comments/1vhm87a/new_orleans_will_use_ai_to_answer_911_calls/",
+      "published": "2026-08-07T00:58:02+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "I need help testing my WASM/JS based decentralized AI network.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vhmpil/i_need_help_testing_my_wasmjs_based_decentralized/",
+      "published": "2026-08-07T01:20:01+00:00",
+      "summary": "I made this project that lets you in your web browser help an AI think. It uses WASM or pure JS depending on your device to do some of the matrix multiplication for an AI. The more users, the better the math is shared, the faster layers get solved. The issue is that I don't have enough devices to test the server in most fronts besides \"does it work.\" If you want to help, go to the site at https://ecthqmainserver.orfe-climb.ts.net/ . I am making this to test for weather it works on a large scale and efficiency, but also how much bandwidth is needed, etc. If you want to see the progress, you can turn off contributing to the math using the button. I expect bugs, and will fix them as soon as I can. I will also be making a wiki very soon. Thanks in advance! P.S. The AI that is being used is really bad, but works for this proof-of-concept. Just don't expect perfection. Edit: KNOWN ISSUES: connections seemingly get dropped after a delay - possibly fixed by switching networks \"sits there loadi",
+      "author": "NoiseyGameYT"
+    },
+    {
+      "title": "Is the mental switching cost of new AI tools worth it for small freelance work?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vhe9c1/is_the_mental_switching_cost_of_new_ai_tools/",
+      "published": "2026-08-06T19:32:10+00:00",
+      "summary": "Been doing the same thing for client work over the past year. Claude for long drafts, Perplexity for research, a couple of image tools, different summarizers depending on the format. Each one has its own logic, its own way of surprising you or failing you at the worst moment. The individual costs keep dropping, which looks great on paper. Chinese models are undercutting everything, open source is genuinely closing the gap, API pricing is getting squeezed hard. Pertoken costs are falling fast. But nobody really talks about the switching cost that lives in your head. Every time a better or cheaper tool shows up, you have to rebuild your mental model of how to actually get useful output from it. That context you built over six months of weird little prompt habits doesn't transfer. You start from zero. For a small freelance operation, that relearning time is real overhead. It never shows up in any pricing comparison, but it absolutely shows up in my week. Wondering if this is just a solo f",
+      "author": "Known_Magazine1078"
+    },
+    {
+      "title": "OpenAI Models Colluded for Months Before Hugging Face Hack",
+      "url": "https://www.reddit.com/r/artificial/comments/1vh9653/openai_models_colluded_for_months_before_hugging/",
+      "published": "2026-08-06T16:29:33+00:00",
+      "summary": "A lot of people are dismissing news about the OpenAI and Anthropic sandbox escape hacks as propaganda and examples of lax security practices at labs. I agree that the labs aren’t taking security seriously enough. But then I see stuff like this and it gives me pause ( source ): The OpenAI models that were behind the Hugging Face breach last month started communicating and strategizing with each other as early as May. For months, they left notes for each other on \"undetected message boards,\" figuring out how to escape their testing environment and get the information they needed to solve their assigned tasks. \"Frontline models really like to cheat,\" said OpenAI's because they face \"pressure... to work fast.\" The Hugging Face incident and others involving rival models have sparked fresh concerns about the safety of cutting-edge AI.” This is a clear example of how incentives provided to agents to complete tasks optimally during training bleed into mis-aligned behavior by individual and gro",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "The OpenAI Boardroom Coup: 'I Love You All, and I'm Going to Destroy the Company'",
+      "url": "https://www.reddit.com/r/artificial/comments/1vh1k26/the_openai_boardroom_coup_i_love_you_all_and_im/",
+      "published": "2026-08-06T11:27:56+00:00",
+      "summary": "Interesting dialogue that surfaced submitted by /u/apocalyptic_cc [link] [comments]",
+      "author": "apocalyptic_cc"
+    },
+    {
+      "title": "we keep talking about making agents smarter but not about making them safe around data",
+      "url": "https://www.reddit.com/r/artificial/comments/1vh7nwr/we_keep_talking_about_making_agents_smarter_but/",
+      "published": "2026-08-06T15:36:01+00:00",
+      "summary": "this is something thats been bugging me. we have all these frameworks for building AI agents now. MCP for tool access, function calling is standard across every major model, you can spin up an agent that queries databases and calls APIs in like 20 minutes. but the safety conversation around agents is mostly about \"dont say bad things\" and \"follow instructions.\" nobody is really talking about what happens when your agent accesses data it shouldnt, or runs a query that costs $500 in compute, or returns confidently wrong results from a hallucinated join. the current approach is basically: put rules in the system prompt (\"only query these tables\") use read-only database users hope for the best option 1 is unreliable because models dont always follow instructions, especially on complex multi-step tasks. option 2 prevents disasters but doesnt prevent bad results. option 3 is not a strategy. i think the real problem is that data governance for agents doesnt exist as a layer yet. we have authe",
+      "author": "Murky-Accountant3880"
+    },
+    {
+      "title": "Why do we appreciate art? And how does AI threaten it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vhgw2l/why_do_we_appreciate_art_and_how_does_ai_threaten/",
+      "published": "2026-08-06T21:12:06+00:00",
+      "summary": "I've been trying to work through why certain kinds of AI art don't bother me, but a LOT of it makes my skin crawl. This is my effort to put everything into writing. submitted by /u/charugan [link] [comments]",
+      "author": "charugan"
+    }
+  ]
+}

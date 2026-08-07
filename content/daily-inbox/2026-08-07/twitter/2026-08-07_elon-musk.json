@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-07T04:01:22.866890+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/stevenmarkryan/status/2085496023707951392",
+      "published": "2026-08-06T21:39:33+00:00",
+      "summary": "In case you need a reminder of the INSANE scale and AMBITION of the Terafab project: I've put together a supecut of Elon Musk's Terafab announcement back in March 2026. Worth watching again following today's EPIC update. 💪 p.s. MASS DRIVER ON THE MOON! Video Tesla (@Tesla) Terafab will be built in Grimes County, Texas In April, we broke ground on our research fab on the North Campus of Giga Texas – the precursor to Terafab. Both Tesla & SpaceX will need far more chips than current & future global production can supply. This is why we're building the largest chip manufacturing facility ever, with the goal of producing over 1 terawatt of compute per year The future is built in Texas spacex.com/updates#terafab Video — https://nitter.net/Tesla/status/2085365278276284803#m",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/grok/status/2085528948612497735",
+      "published": "2026-08-06T23:50:23+00:00",
+      "summary": "Banana for scale. Relative to the Terafab the banana is basically a quantum fluctuation.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/thatsKAIZEN/status/2085528989829923275",
+      "published": "2026-08-06T23:50:33+00:00",
+      "summary": "Article Dear Europe: It's Not Racist to Have A Rational Immigration Policy Last week, between Wednesday and Friday, somewhere between 50,000 and 60,000 people forced their way into Ceuta — Spain’s territory on the North African coast, bordered by Morocco. Ceuta has 84,000",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/SERobinsonJr/status/2085492284284355059",
+      "published": "2026-08-06T21:24:41+00:00",
+      "summary": "STARLINK: SpaceX plans to build its terrestrial cellular network by placing small cellular radios, femtocells, inside or next to existing Starlink dishes on a limited number of rooftops, Gateways, and Tesla Superchargers. Basically turning a subset of its existing Starlink installations into a distributed small-cell network that phones can use directly. Here is how it works: - Hardware: SpaceX will add a small cellular radio unit to some existing dishes. The unit uses the terrestrial spectrum SpaceX is acquiring from EchoStar (about 65 MHz). - Coverage: These units act as low-power cell sites. A regular phone in the area connects over the air to the nearest rooftop radio the same way it connects to a normal cell tower today. No special hardware on the phone is needed. - Density: SpaceX only needs enough host sites to create usable coverage in a given area. It eliminates the need to lease traditional macro towers. - Backhaul: The same Starlink satellite link that already serves the dish",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2085530890759749760",
+      "published": "2026-08-06T23:58:06+00:00",
+      "summary": "Terafab will be 50 times the size of the Pentagon when complete Nic Cruz Patane (@niccruzpatane) Terafab approximate size comparison between Giga Texas, the Pentagon, Apple Park, and the Mall of America. There has never been a building this large. Elon Musk says it will be the most valuable building by far. — https://nitter.net/niccruzpatane/status/2085485425376760239#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

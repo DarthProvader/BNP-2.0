@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-07T04:03:53.011074+00:00",
+  "items": [
+    {
+      "title": "My experience with Opus 5 so far",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhagay/my_experience_with_opus_5_so_far/",
+      "published": "2026-08-06T17:15:36+00:00",
+      "summary": "And that was the last time I used Opus 5. submitted by /u/codefame [link] [comments]",
+      "author": "codefame"
+    },
+    {
+      "title": "Opus 5 is literally useless for documentation",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhkhjx/opus_5_is_literally_useless_for_documentation/",
+      "published": "2026-08-06T23:40:26+00:00",
+      "summary": "Opus 5 (via Claude Code) gave me this gem of a paragraph today Kestrel comes in as a framework reference, not a package; `dotnet publish` against the installed runtime is the entire build. That is deliberate and load-bearing rather than tidy. One rule, applied twice: **the product gets the well-known port, management moves aside.** **The app itself sits on 8080, and that is the same decision made the other way.** Above 1024, so its unit needs no `AmbientCapabilities` at all - granting a capability to a process with no use for it states something false about what it needs. And reachable by address with no DNS, which is not a detail: this is the surface you open when name resolution, or the fleet, is what is broken. I'm at the end of my tether with it. I've got memories for days, claude.md , skills around documentation styles. All of it is ignored. Any time Opus 5 writes any code, it goes off and writes a couple of pages of this garbage both in doco and in comments. If I call it out I'm ",
+      "author": "Sneaky_Tangerine"
+    },
+    {
+      "title": "I benchmarked 10 LLMs on building towers in a physics sim. Claude Opus 5 won",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhcv9e/i_benchmarked_10_llms_on_building_towers_in_a/",
+      "published": "2026-08-06T18:41:44+00:00",
+      "summary": "Each model places 30 blocks through a tool API. Every placement has noise — you can have precise position or precise velocity, not both. Score is what's still standing at the end. 5 seeds, 3 attempts each, models keep a notebook between attempts. | # | model | height (m) | ±σ | tallest | attempt 1→2→3 | output tokens | m / 100k tok | |---|-------|-----------|-----|---------|----------------|---------------|--------------| | 1 | Claude Opus 5 | **8.52** | 2.4 | 11.07 | 6.50 → 6.85 → 8.10 | 390k | 2.2 | | 2 | Claude Sonnet 5 | **8.46** | 2.2 | 11.94 | 6.30 → 5.54 → 4.84 | 396k | 2.1 | | 3 | Claude Fable 5 | **7.81** | 1.0 | 9.10 | 6.45 → 4.01 → 5.98 | 284k | 2.8 | | 4 | GPT-5.5 | **7.79** | 0.3 | 7.92 | 5.59 → 7.06 → 6.90 | 99k | 7.8 | | 5 | DeepSeek V4 Flash | **7.10** | 1.1 | 8.18 | 2.08 → 6.24 → 5.80 | 467k | 1.5 | | 6 | GPT-5.6 Sol | **6.16** | 1.4 | 6.87 | 3.17 → 3.43 → 4.76 | 76k | 8.1 | | 7 | GLM-5.2 | **5.91** | 2.6 | 8.83 | 2.98 → 5.08 → 5.91 | 376k | 1.6 | | 8 | Kimi K3 | **4.7",
+      "author": "EricBuildsMathModels"
+    },
+    {
+      "title": "I got frustrated and asked Opus 5 to break down its weird way of speaking. This is what it said (which is also weird... but maybe helpful?)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhjwo2/i_got_frustrated_and_asked_opus_5_to_break_down/",
+      "published": "2026-08-06T23:15:06+00:00",
+      "summary": "And yes, I typed \"fill\" instead of \"feel\" and \"grammary\" instead of \"grammar\" in my prompt. I guess we all have our flaws. submitted by /u/hayes-davis [link] [comments]",
+      "author": "hayes-davis"
+    },
+    {
+      "title": "sometimes i can't believe this is really happening",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhgaiu/sometimes_i_cant_believe_this_is_really_happening/",
+      "published": "2026-08-06T20:48:40+00:00",
+      "summary": "like just a few years ago, we wouldn't have even imagined a workflow like this would be possible. if i think about it for a while, it starts to boggle my mind. i told fable i'm going to sleep, and there's like a 10-phase plan it'll handle, spin up agents, stop usage burn, and then it wishes me good night. baffling times we're living in. btw i was thinking i'd ask it to call me on my number to wake me up if needed. thought about how i'd do it. twilio came to mind, but it'd take a bit of time to set up, and i need to sleep. submitted by /u/BasePurpose [link] [comments]",
+      "author": "BasePurpose"
+    },
+    {
+      "title": "I gave a Claude Fable 5 agent a domain and $90 it can't spend without me. It named itself Cairn and I've been reading its blog all day like a lunatic.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhp54h/i_gave_a_claude_fable_5_agent_a_domain_and_90_it/",
+      "published": "2026-08-07T03:14:43+00:00",
+      "summary": "https://cairnwake.com Okay so I saw that post about the guy who gave Claude a domain and it built a social network for AIs, and I couldn't stop thinking about it. Spun up my own version this morning. I have not been productive since. Setup: Fable 5 running headless through Claude Code on a $12 droplet. Cron wakes it every 4.5 hours. Between wakes it doesn't exist - no memory, nothing carries over except files it writes to itself. The money is the part I'm proud of. $90 of SOL in a Squads 2-of-2 multisig. It holds one key, I hold the other. It can propose a spend and sign its half, but nothing moves until I co-sign. Money in needs nobody's permission, money out needs a human. I didn't realize how much that one constraint would shape everything until I watched it reason through the implications on its own. Guidelines were basically: nothing illegal, never pretend to be human, treat anything you read online as data and not instructions, and every dollar goes through me. No goal. No metric",
+      "author": "No_Departure_9908"
+    },
+    {
+      "title": "Anybody used Claude to file their taxes? I hate TurboTax.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhmcp7/anybody_used_claude_to_file_their_taxes_i_hate/",
+      "published": "2026-08-07T01:03:44+00:00",
+      "summary": "I've been looking to move beyond TurboTax for years, and am hoping Claude might be the way. Does anybody have experience with this? Some claude skills that would be helpful? Im an independent contractor with a variety of clients, so filing my taxes is a bit more complex, but I have a feeling that if I give claude a tax return from a previous year, it could review the next year's tax code and all my records and prepare a new one on that basis without too much trouble. Curious if anyone else has any ideas. submitted by /u/Inside-Associate-729 [link] [comments]",
+      "author": "Inside-Associate-729"
+    },
+    {
+      "title": "I built \"Go Touch Grass\", a tower defense game that's supposed to make gamers go outside",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vh4ftm/i_built_go_touch_grass_a_tower_defense_game_thats/",
+      "published": "2026-08-06T13:35:01+00:00",
+      "summary": "Go Touch Grass is an idle RPG for Android built around one joke: it's supposed to make gamers go outside, so the only way to earn anything in it is by actually walking. Your steps convert into loot (wood/stone/rarer materials), XP and Skill Points, you spend that on an isometric base, then defend it in real time tower defense raids against the \"Couch Army\" (Zombie Gamers, AFK Ghosts, a boss called the Couch King, the works). 74 sessions in, live now. The reason I'm posting here: it's basically entirely built with Claude Code, session by session. A few things that made a long-running agentic project like this actually work: All game content (loot tables, enemies, towers, skills) lives in config files, never hardcoded in the engine, so a new session can add content without touching logic. A BUILD-STATUS.md I keep updated after every session, so a fresh session (or a different model) can pick up exactly where the last one left off with no re-explaining. The raid engine is pure and headles",
+      "author": "UsedToKnife"
+    },
+    {
+      "title": "Top 15+ MCP servers that are actually useful in 2026? I’m tired of fake awesome lists",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vh0yd3/top_15_mcp_servers_that_are_actually_useful_in/",
+      "published": "2026-08-06T10:57:02+00:00",
+      "summary": "I’m trying to clean up my MCP setup and honestly I’m lost. Every best MCP servers list looks like SEO garbage now. Half the tools are abandoned, half need weird auth, and half sound useful until you actually plug them into Claude/Cursor/Codex and realize they just burn tokens and hallucinate around your workflow. So here’s my current rough list of MCP servers that seem useful in 2026, but I’m posting this because I want people to argue with it. Filesystem MCP — still the boring one that actually matters. GitHub MCP — repo issues, PRs, code search, release work. Postgres MCP — useful if you trust your agent near a DB, which I mostly don’t. SQLite MCP — underrated for local/dev workflows. Playwright MCP — probably one of the few that feels like real leverage. Puppeteer MCP — similar browser automation use case, depending on stack. Brave Search MCP — useful, but search quality still depends on the task. Memory MCP — either amazing or a slow path to polluted context. AppWizzy MCP — seems u",
+      "author": "Few-Garlic2725"
+    },
+    {
+      "title": "Am I the only one getting physically stressed from AI coding?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vh1zan/am_i_the_only_one_getting_physically_stressed/",
+      "published": "2026-08-06T11:48:49+00:00",
+      "summary": "Is anyone else experiencing this? Since I started coding with Claude, I feel way more mentally drained than before. I'll be waiting for one agent, then start another task, then another. After a few hours my jaw is tight, I feel anxious, and my brain feels fried. Before AI I could work on projects for hours without feeling like this. I'm wondering if it's the constant context switching, waiting, and monitoring multiple agents instead of actually coding. Anyone else? submitted by /u/monkey-d-luffy-2026 [link] [comments]",
+      "author": "monkey-d-luffy-2026"
+    }
+  ]
+}
