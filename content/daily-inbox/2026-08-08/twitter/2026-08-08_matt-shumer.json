@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-08T04:01:09.368781+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/lucky_sharda/status/2085844712716693855",
+      "published": "2026-08-07T20:45:07+00:00",
+      "summary": "@mattshumer_ dropped this article 6 months ago. Read it today and damn… every single line is making sense now It’s crazy how he saw it all coming and practically called it six months in advance. Insane. Absolute cinema. Matt Shumer (@mattshumer_) Article Something Big Is Happening Think back to February 2020. If you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren't paying close attention. The stock — https://nitter.net/mattshumer_/status/2021256989876109403#m",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085776751150485642",
+      "published": "2026-08-07T16:15:03+00:00",
+      "summary": "Claude Opus 5 is way better than people give it credit for. If you're using it like previous Claude models, it's going to suck. Two things make a huge difference: - Delete ALL your skills/MCPs/Claude.md/etc. Start fresh. - Stop telling it how to do the thing. Just say what you want done. These two small changes make a massive difference.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085824835972718679",
+      "published": "2026-08-07T19:26:08+00:00",
+      "summary": "This prompt helps: Matt Shumer (@mattshumer_) Your skills are making Opus 5 worse. My prompt fixes that. It goes through each skill and uses a Gauntlet Loop to rewrite and blind-test it against the old version, until the new skill + Opus 5 is better by far. Try it: somethingbig.ai/skills-upgra… Link The Opus 5 Skills Upgrade Prompt One prompt that audits every Claude Code skill you have and upgrades it for Opus 5. Free. somethingbig.ai — https://nitter.net/mattshumer_/status/2085823850328068169#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085792263888658654",
+      "published": "2026-08-07T17:16:42+00:00",
+      "summary": "For those who want to keep their skills while using Opus 5, here's a trick you can try (let me know how it goes): Write a loop (have a model do this!) that has Opus 5: - do a first update pass on your skills to make them better for Opus 5 - creates a suite of test tasks for each skill, like a benchmark - runs each test task on Opus 5 with the new skill, and Opus 4.8 with the old one - has a separate model blind-compare the outcomes (Gauntlet Loop-style) - repeatedly iterate until Opus 5 + updated skills is consistently better on the suites than Opus 4.8 + old skills Matt Shumer (@mattshumer_) Claude Opus 5 is way better than people give it credit for. If you're using it like previous Claude models, it's going to suck. Two things make a huge difference: - Delete ALL your skills/MCPs/Claude.md/etc. Start fresh. - Stop telling it how to do the thing. Just say what you want done. These two small changes make a massive difference. — https://nitter.net/mattshumer_/status/2085776751150485642#",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2085824759623725372",
+      "published": "2026-08-07T19:25:50+00:00",
+      "summary": "Prompt for this: Matt Shumer (@mattshumer_) Your skills are making Opus 5 worse. My prompt fixes that. It goes through each skill and uses a Gauntlet Loop to rewrite and blind-test it against the old version, until the new skill + Opus 5 is better by far. Try it: somethingbig.ai/skills-upgra… Link The Opus 5 Skills Upgrade Prompt One prompt that audits every Claude Code skill you have and upgrades it for Opus 5. Free. somethingbig.ai — https://nitter.net/mattshumer_/status/2085823850328068169#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

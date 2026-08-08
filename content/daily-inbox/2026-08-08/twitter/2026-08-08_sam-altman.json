@@ -1,0 +1,49 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-08T04:01:04.009381+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2085862292311396515",
+      "published": "2026-08-07T21:54:58+00:00",
+      "summary": "astra is a powerful model and we are working to make it generally available. we do not think it is a good strategy to keep powerful models to a chosen few. given its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/fouadmatin/status/2085809572170866968",
+      "published": "2026-08-07T18:25:29+00:00",
+      "summary": "We’re entering a new era for cybersecurity. We’ll be working closely with our partners and the broader security community to ensure these capabilities reach defenders everywhere. OpenAI (@OpenAI) After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybersecurity under our Preparedness Framework. This is a scenario we've planned for, and we're putting additional controls in place to ensure Astra's further development happens safely and securely. We're working hard to make Astra broadly available, and get its advanced cyber capabilities into the hands of defenders. openai.com/index/responding-… Link Responding to the next frontier of critical cyber capabilities OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls. openai.com — https://nitter.net/OpenAI/status/2085801349866729975#m",
+      "author": "sama",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2085765236876046500",
+      "published": "2026-08-07T15:29:18+00:00",
+      "summary": "congrats to oklo for achieving criticality! (less than a year after groundbreaking) oklo.com/newsroom/news-detai… Link Oklo's Groves Reactor Achieves First Criticality in Under a Year Oklo achieves first criticality less than a year after groundbreaking through the U.S. Department of Energy’s Reactor Pilot Program. The Groves low-power test reactor is the first reactor under the... oklo.com",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

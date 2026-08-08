@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-08T04:01:15.619702+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085915705749422581",
+      "published": "2026-08-08T01:27:13+00:00",
+      "summary": "He's correct Tibo (@thsottiaux) I feel Theo is in need of a reset 👀 — https://nitter.net/thsottiaux/status/2085845171363791135#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085926360976077096",
+      "published": "2026-08-08T02:09:33+00:00",
+      "summary": ":(",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/sama/status/2085862292311396515",
+      "published": "2026-08-07T21:54:58+00:00",
+      "summary": "astra is a powerful model and we are working to make it generally available. we do not think it is a good strategy to keep powerful models to a chosen few. given its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/devberkayy/status/2085870600535318575",
+      "published": "2026-08-07T22:27:59+00:00",
+      "summary": "T3 code mobile app is the experience I was imagining and expecting to have by claude and codex as well but never arrived. Great work by @theo",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2085855971138769071",
+      "published": "2026-08-07T21:29:51+00:00",
+      "summary": "This is within the worst possible times to have discord be down. I NEED THIS FOR MY DEFCON TEAM GUYS PLS FIX.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

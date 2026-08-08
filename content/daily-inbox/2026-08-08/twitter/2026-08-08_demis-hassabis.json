@@ -1,0 +1,49 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-08T04:01:11.886790+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2085914742414061886",
+      "published": "2026-08-08T01:23:23+00:00",
+      "summary": "Really enjoyed talking to @bzcohen about AlphaGo's famous move 37 and the significance of it 10 years on for math and science breakthroughs in verifiable domains The Wall Street Journal (@WSJ) A decade ago, a computer did something that no human would have done. It was considered a breakthrough for AI. Now the world is full of them. on.wsj.com/4waySAp Link Move 37 Is the Moment AI Changes Everything. It’s Suddenly Happening Everywhere. A decade ago, a computer did something that no human would have done. It was considered a breakthrough for AI. Now the world is full of them. wsj.com — https://nitter.net/WSJ/status/2085894257651392763#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/pushmeet/status/2085819205224468973",
+      "published": "2026-08-07T19:03:45+00:00",
+      "summary": "Great to see @OpenAI join @ElevenLabs in adopting @Google 's SynthID for audio, enabling their users to have access to the same robust, imperceptible safeguards that power our own products. For years, we at @GoogleDeepMind have been pioneering research on SynthID watermarking to address the risks of AI-generated media (particularly acute for audio and voices). We had successfully integrated SynthID to safeguard our product surfaces - Gemini Live, Lyria, and Veo, but protecting the ecosystem requires an industry-wide effort to build foundational safety infrastructure together which is now gaining momentum! SynthID: deepmind.google/models/synth… OpenAI Verification Portal: openai.com/research/verify ElevenLabs: elevenlabs.io/blog/synthid Link SynthID SynthID is a tool to watermark and identify AI-generated content, helping to foster transparency and trust in generative AI. deepmind.google",
+      "author": "demishassabis",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/scmallaby/status/2085775218249711887",
+      "published": "2026-08-07T16:08:58+00:00",
+      "summary": "My column on @demishassabis in The Times. —Given his record of caring about AI safety and impact, people should err on the side of believing his own explanation for stepping back from management. When we spoke a lot last year, he gave me the sense that this moment might come. —Gemini is behind for now, and several famous names have quit the AI research team. But Google has deep commercial strengths. And technical progress probably depends on young cutting edge researchers who are yet to be famous. thetimes.com/article/5611b33… Link Don’t count out Demis Hassabis: his second act could save us from AI The DeepMind founder kickstarted the AI revolution but remains laser-focused on the technology being used safely, writes his biographer thetimes.com",
+      "author": "demishassabis",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

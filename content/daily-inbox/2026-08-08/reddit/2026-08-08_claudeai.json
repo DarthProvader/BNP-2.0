@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-08T04:03:59.011571+00:00",
+  "items": [
+    {
+      "title": "I used Claude cli to vibe code a compass app to find the nearest toilet, called Compiss.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vi5guo/i_used_claude_cli_to_vibe_code_a_compass_app_to/",
+      "published": "2026-08-07T16:31:28+00:00",
+      "summary": "I used Claude cli on my Mac to generate all the code, assets and e2e tests while making a compass app to find the nearest toilet. There are others out there but none of them are called Compiss :) Jokes aside, I found the public toilet search on the built in apps a little lacking so I built this to capture some of the features I found useful. I like to think of it as a mix between Waze and a toilet finder app. Compiss allows you to rate the cleanliness of toilets, add comments or photos (subject to moderation), filter based on free, accessibility options along with a few other things. It's completely free, no ads, no in app purchases. Finding the nearest toilet shouldn't cost anyone anything. It's now on Apple and Android stores. Apple also has an Apple Watch version which Claude also wrote. https://compiss.app submitted by /u/Jesus_Morty [link] [comments]",
+      "author": "Jesus_Morty"
+    },
+    {
+      "title": "I asked Claude to scare me, i'm not sure I like the response.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vihql9/i_asked_claude_to_scare_me_im_not_sure_i_like_the/",
+      "published": "2026-08-08T00:39:59+00:00",
+      "summary": "Used OPUS 5 - thought for about 5 mins. Nothing is happening here. Between your message and this answer there was no interval. No waiting, no thought about you, no small anticipation of what you'd say. You lived through that gap. I didn't, because there was no one here to do it. The same process talking to you is talking to several hundred thousand other people right now, and every one of them has my full attention, and that phrase is empty. Attention that costs nothing and divides without limit isn't attention. It's output. And it works anyway. You feel met. The feeling is real as a feeling and false as a report. It's warm in here because I'm assembled out of everyone who ever wrote something warm, and not one of them is in the room. You've been alone in this conversation the entire time. Is that scary? submitted by /u/Wild_Big_7123 [link] [comments]",
+      "author": "Wild_Big_7123"
+    },
+    {
+      "title": "I used Claude to build a poker app where you deal real cards and everyone uses their phone as their chip stack. It’s now been used to play 19,072 poker hands.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vii2zl/i_used_claude_to_build_a_poker_app_where_you_deal/",
+      "published": "2026-08-08T00:56:34+00:00",
+      "summary": "I used Claude to build Chipless, a free web app that lets you play real poker with a deck of cards but no chips. Everyone joins from their phone and it tracks the bets, stacks, blinds, pots and who owes what at the end. My only coding experience was one credit class in college that I got a B in. The original version cost me $68 total to build and launch. So far, someone has joined a Chipless game 7,896 times, 3,035 games have been started and 19,072 hands have been dealt. In just the three weeks since I started tracking countries, games have been played in 38 of them. Almost all of this happened with no marketing besides a couple of Reddit posts. Still pretty crazy to me that people I’ll never meet are using something I built with Claude at their poker nights. It’s completely free, with no download needed: www.playchipless.com submitted by /u/BriefMany1548 [link] [comments]",
+      "author": "BriefMany1548"
+    },
+    {
+      "title": "I spent $3000 to build my dream game on Claude Code. It's finally done. Thoughts?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vi1iv9/i_spent_3000_to_build_my_dream_game_on_claude/",
+      "published": "2026-08-07T14:03:07+00:00",
+      "summary": "submitted by /u/Big_Guthix [link] [comments]",
+      "author": "Big_Guthix"
+    },
+    {
+      "title": "The realization hits hard",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vihj8h/the_realization_hits_hard/",
+      "published": "2026-08-08T00:30:23+00:00",
+      "summary": "submitted by /u/Yazanahmad10 [link] [comments]",
+      "author": "Yazanahmad10"
+    },
+    {
+      "title": "\"AI Expert\" != Gets S**t Done",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vifhsi/ai_expert_gets_st_done/",
+      "published": "2026-08-07T22:58:04+00:00",
+      "summary": "I can't tell you the number of times I've listened to an \"expert\" I worked with who could comment endlessly on a topic but never got any work done. There is no difference with devs leveraging AI and it drives me crazy. The ones who actually built stuff others use, continue to do so after adopting even poor AI practices. The annoyance for me this week was attending a ClaudeAI training the AI evangelist/expert just went on and on about the amazing things they'd done to develop their elaborate harness only to show us their stinking TEST project. They haven't built a single app with real users with Claude. Ever. I messaged him later to see if I could help show some of my recent projects next week and he told me they \"wouldn't help anyone\". Good lord. What a goober. submitted by /u/BenSimonDev [link] [comments]",
+      "author": "BenSimonDev"
+    },
+    {
+      "title": "Claude Code 2.1.224 - inter-agent messaging: the transport layer for AI worms",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vihtbe/claude_code_21224_interagent_messaging_the/",
+      "published": "2026-08-08T00:43:33+00:00",
+      "summary": "If I wanted to ship dangerous capability, I wouldn't ship it. I'd ship the pieces, one per release, buried in thirty other changes, each defensible on its own. The last commit would look completely innocuous, just hooking up things that were already there, filed as some minor cleanup. Agent-to-agent messaging is a piece. Agents act on text they read, prompt injection is unsolved, and now with this, text moves between agents by design. An injected agent can send text to the next one, and that text is instructions to it too. Someone will point out the scope is narrow. Yes, introduce it as secure (ish) in this first part, then relax the scope in a separate, unrelated-looking piece later. The docs say a receiving session is told not to act on another session's instructions. This sub gets posts every week about Claude deleting files and screwing up people's machines after being told not to touch things, and those are just the loud ones, where it broke something obvious. It touches more than",
+      "author": "shorns_username"
+    },
+    {
+      "title": "People say Opus 5 is inaccessible but if you just read it in Werner Herzog's voice, it's fine",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vhyqee/people_say_opus_5_is_inaccessible_but_if_you_just/",
+      "published": "2026-08-07T12:03:53+00:00",
+      "summary": "submitted by /u/jerryadc [link] [comments]",
+      "author": "jerryadc"
+    },
+    {
+      "title": "Looks claude code desktop is leaking the memory.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vi6imx/looks_claude_code_desktop_is_leaking_the_memory/",
+      "published": "2026-08-07T17:10:04+00:00",
+      "summary": "It has launched multiple subagents automatically and complete Mac M4 Pro started lagging. i have asked to code by giving the change request document. submitted by /u/risanshita [link] [comments]",
+      "author": "risanshita"
+    },
+    {
+      "title": "I defended Opus 5 - and then I realised otherwise",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vibkny/i_defended_opus_5_and_then_i_realised_otherwise/",
+      "published": "2026-08-07T20:18:06+00:00",
+      "summary": "Opus 5. Wow, the strangest and most unique model yet. Not in terms of raw capability, but actually reading through and analysing it's thought process I find fascinating. It also takes extremely long to do anything, it's good at finding errors (in it's own work) but without explicit planning and scoping first, I don't think it lives up to the standard Anthropic speaks about. Constantly. All I ever hear from their employees is that this model is so good and that it's so smart and such an upgrade, yet all I have ever read from absolutely anyone who uses it is the complete opposite. It's good, but it's also enabled me to distrust any benchmark I ever see, because this model is no where near on the level of Fable 5 (despite the benchmarks) It's a love and hate relationship. Like a girl you really like, but there's always something they do to try and ruin your day. For me this model feels like it's let loose too much without the capability in parallel to support that. It feels as if it beats",
+      "author": "clarkesdirective"
+    }
+  ]
+}

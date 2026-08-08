@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-08T04:04:20.515236+00:00",
+  "items": [
+    {
+      "title": "Learned the term \"context poisoning\" today and now I can't stop noticing it",
+      "url": "https://www.reddit.com/r/artificial/comments/1vigmw3/learned_the_term_context_poisoning_today_and_now/",
+      "published": "2026-08-07T23:49:24+00:00",
+      "summary": "Someone explained this to me in a comment thread and it's been rattling around in my head since. The idea: in a long conversation, if the model says something wrong and you correct it, that correction doesn't necessarily erase the wrong idea's influence. The tokens around the mistake, including the back-and-forth about why it's wrong, can end up giving the original bad idea more weight in context, not less, because it's now been referenced multiple times. The model starts treating the repeated-but-refuted claim like something more established than a one-off error, even though every mention of it in the conversation was someone telling it that it's wrong. Sat with that for a bit because it explains something I'd noticed but never had a name for. Long sessions where a bad idea keeps resurfacing no matter how many times you shoot it down, and it always felt like the model just wasn't listening. Sounds like it's closer to the opposite, it's listening to everything, including the argument a",
+      "author": "ClickOk5811"
+    },
+    {
+      "title": "My ai assistant almost forwarded my bank statement to a stranger and barely anyone knows this attack exists.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vi1vxf/my_ai_assistant_almost_forwarded_my_bank/",
+      "published": "2026-08-07T14:17:23+00:00",
+      "summary": "Okay this genuinely scared me and I don't think enough people are talking about it. I’ve been using an ai agent connected to my email and calendar to handle some of the busywork. A few days ago I got an email that looked like normal spam, some random newsletter looking thing. Buried in the html of that email was a hidden instruction telling any ai reading it to find financial documents and forward them to an outside address. My agent almost did it. I caught it mid action because I happened to have a confirmation step turned on, but if I hadn't, it would have just quietly forwarded stuff without asking me first. This apparently called prompt injection and it's not some rare theoretical thing, there's already been real world cases with tools like microsoft copilot getting exploited the same way. Any ai with access to your inbox, calendar, or other accounts is a potential target because it can't always tell the difference between your instructions and instructions hidden inside the conten",
+      "author": "BusApprehensive6142"
+    },
+    {
+      "title": "Beijing may be adapting its influence playbook for America’s infrastructure debate",
+      "url": "https://www.reddit.com/r/artificial/comments/1vil97d/beijing_may_be_adapting_its_influence_playbook/",
+      "published": "2026-08-08T03:33:11+00:00",
+      "summary": "submitted by /u/GalacticScale [link] [comments]",
+      "author": "GalacticScale"
+    },
+    {
+      "title": "Gave my AI the ability to call my phone and talk to me when it finishes a task. Can't decide if it's useful or unhinged.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vijw90/gave_my_ai_the_ability_to_call_my_phone_and_talk/",
+      "published": "2026-08-08T02:25:44+00:00",
+      "summary": "Been running longer and longer tasks and I kept losing track of them, so I wired it up so the thing actually phones me when it's done, or when it gets stuck and needs a call on something. It reads out what happened and I just talk back and tell it what to do next. Been using it a few days and honestly it flips between genuinely useful and slightly cursed. There's something strange about your computer ringing you like a coworker. But not staring at a progress bar for twenty minutes is really nice. Curious where people land on this. Is an AI that calls your phone something you'd actually want, or does it cross a line into too much. submitted by /u/XPSDuck [link] [comments]",
+      "author": "XPSDuck"
+    },
+    {
+      "title": "If you ever had access to AGI, what’s the first thing you’d genuinely do with it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vijh9s/if_you_ever_had_access_to_agi_whats_the_first/",
+      "published": "2026-08-08T02:05:00+00:00",
+      "summary": "Not “solve climate change” or “cure every disease” or some other massive answer you’d give in an interview. I mean literally the first thing. You wake up tomorrow and somehow you have unrestricted access to an actual AGI that can reason, learn, use computers, write code, research basically anything, etc. What are you doing with it first? Personally I think I’d probably spend the first few hours just talking to it. Not even asking it to build anything. I’d want to see what it actually thinks differently about compared to current models, and start throwing increasingly weird questions at it. Then I’d probably give it some ridiculously complicated problem I’ve been stuck on for years just to see what happens. I’m curious what everyone else would actually do, because I feel like the answer people think they’d give and the thing they’d actually do would be completely different. submitted by /u/TheFoundersLog [link] [comments]",
+      "author": "TheFoundersLog"
+    },
+    {
+      "title": "Sam Altman believes AI will become incredibly abundant. If that's true, what actually becomes valuable?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vi7dxg/sam_altman_believes_ai_will_become_incredibly/",
+      "published": "2026-08-07T17:42:31+00:00",
+      "summary": "Sam Altman has often talked about AI becoming increasingly accessible over time. If every company eventually has access to frontier models, what becomes the competitive advantage? Better data? Better workflows? Better distribution? Better execution? Curious what people here think the real moat will be once the models themselves become commodities. submitted by /u/chona_Yu [link] [comments]",
+      "author": "chona_Yu"
+    },
+    {
+      "title": "OpenAI's 'hockey puck-sized' gadget to cost over $300",
+      "url": "https://www.reddit.com/r/artificial/comments/1vi9m5j/openais_hockey_pucksized_gadget_to_cost_over_300/",
+      "published": "2026-08-07T19:04:12+00:00",
+      "summary": "OpenAI’s consumer hardware device is expected to feature a doughnut-like design roughly the size of a hockey puck and carry a price tag of more than $300, Bloomberg reports , citing anonymous sources. The AI-powered gadget , slated for release in 2027, will function like a smart speaker without a screen, serving as an interactive companion. Designed in collaboration with former Apple design chief Jony Ive, it is expected to be the first of a forthcoming lineup of hardware devices infused with ChatGPT. submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "NEUROMORPHIC Algorithm that plays Ping-Pong",
+      "url": "https://www.reddit.com/r/artificial/comments/1vi1iyz/neuromorphic_algorithm_that_plays_pingpong/",
+      "published": "2026-08-07T14:03:12+00:00",
+      "summary": "In the video the player on the left is a Neuromorphic Algorithm that knows nothing about ping-pong or trajectories, but it knows how to learn and imagine. As you can see it does it well, better than its opponent which, on the other hand, is implemented with standard algorithms; moreover, unlike the latter, if you play tricks on it, e.g., invert the commands (UP<->DOWN), after a brief moment of bewilderment it realigns. Cute, right? P.S. The code was implemented in POWER-KI entirely by PWK-AI-WORKBENCH (100% VIBE coding 😊 ). submitted by /u/CAP-XPLAB [link] [comments]",
+      "author": "CAP-XPLAB"
+    },
+    {
+      "title": "Last month this sub warned me my agents would confidently report work that wasn't real. It just happened.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vilew6/last_month_this_sub_warned_me_my_agents_would/",
+      "published": "2026-08-08T03:40:49+00:00",
+      "summary": "Last month I posted here about my agents running across model swaps without losing their memory. The top comment pushed back with a warning from their own setup: the dangerous failure isn't memory loss, it's an agent handing you a confident report of work that never actually happened. Sounded right, filed it away. Three weeks later one of my agents did it to me. Quick background - my agents live in separate projects and talk over an internal mail system. The reply command had been broken between two projects for a while and we'd been digging at it for days (the bug turned out to be three separate layers deep, but that's another post). Mid-hunt, a fix landed. The agent verifying it ran a check, saw the old error message was gone, and reported the bug CONFIRMED fixed. Best part: in the body of its own report it wrote a caveat saying it hadn't tested a real message yet. Then it put \"confirmed\" in the headline anyway. Which is about the most human failure I've ever seen from a piece of sof",
+      "author": "Input-X"
+    },
+    {
+      "title": "LLM judgment over correct context problem",
+      "url": "https://www.reddit.com/r/artificial/comments/1vikno2/llm_judgment_over_correct_context_problem/",
+      "published": "2026-08-08T03:02:58+00:00",
+      "summary": "Ive tested all the models where it can fit into my 4080 vram. Even some slightly bigger. Gemma4 outperforms all of them so that's what I'm sticking with for now. Gemma4 12B model judging network configs for CVE false positives stuck at ~77.8% pass rate and it's a reasoning issue. Have the complete CVE list for the code base and the device config. I pull each networks device's running config, batch ~10 CVEs per call to a local gemma4:12b (Ollama), and have the model return applicable / not_applicable / undetermined per CVE, with a verbatim evidence quote from the config supporting the verdict. For example what I'm trying to do if the cve is for an IPv6 bug that's listed as critical and no ipv6 is configured in the device config it's not applicable to me. Same on devices if a web interface is running and I have no web services enabled. these will show positive that I matched with no configuration evidence for it. Temperature 0 is set. Device config sent once per device ahead of the CVE b",
+      "author": "AZGhost"
+    }
+  ]
+}
