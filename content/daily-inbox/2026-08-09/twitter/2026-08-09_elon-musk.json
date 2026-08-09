@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-09T04:01:00.126297+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/yunta_tsai/status/2086271431319724355",
+      "published": "2026-08-09T01:00:44+00:00",
+      "summary": "Really enjoy the new editing tool from @imagine . The grounding capability from the multi-modal is insane.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/SpaceX/status/2086160265553334635",
+      "published": "2026-08-08T17:39:00+00:00",
+      "summary": "Falcon 9 launches 24 @Starlink satellites from California",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2086220716286845039",
+      "published": "2026-08-08T21:39:13+00:00",
+      "summary": "Boring upgrades The Boring Company (@boringcompany) Prufrock builds tunnel rings fully autonomously. Six concrete segments (~3,750 lb each), are lifted, translated and placed into final position. That's the weight of a Tesla Model 3, placed with millimeter precision in < 1 minute, monitored remotely from the Global OCC in Texas. Video — https://nitter.net/boringcompany/status/2086182038596415978#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2086193585880195297",
+      "published": "2026-08-08T19:51:25+00:00",
+      "summary": "Having Starlink on a long flight is a gamechanger in productivity Sawyer Merritt (@SawyerMerritt) United Airlines says they are hearing from consultants that book themselves onto @Starlink -equipped flights specifically so they can work to and from client sites. United’s reported Wi-Fi satisfaction scores on Starlink aircraft at more than double those of the rest of the fleet. United: “On a Starlink flight, we often see round trip time in the 20 to 40 millisecond range. For GEO (Geostationary Earth Orbit) satellites [further away from Earth], you’d routinely see 2,000 milliseconds. It’s literally a hundred times faster.” A few days ago on SpaceX's Q2 earnings call, Gwynne Shotwell said that they were hearing from an airline that customers are flying shorter hop flights instead of direct, so that they could ensure that they're on a flight with Starlink, something they've never seen before in the industry. — https://nitter.net/SawyerMerritt/status/2086132507309969813#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/SpaceX/status/2086127049886838936",
+      "published": "2026-08-08T15:27:01+00:00",
+      "summary": "Watch Falcon 9 launch 24 @Starlink satellites to orbit from California nitter.net/i/broadcasts/1qxoNNApQ… Link SpaceX Starlink Mission https://nitter.net/i/broadcasts/1qxoNNApQWyJv",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-09T04:04:16.808312+00:00",
+  "items": [
+    {
+      "title": "Chinese LLMs dominate this week's top charts",
+      "url": "https://www.reddit.com/r/artificial/comments/1vizcs8/chinese_llms_dominate_this_weeks_top_charts/",
+      "published": "2026-08-08T15:48:29+00:00",
+      "summary": "Source: https://openrouter.ai/rankings submitted by /u/Asleep-Television-24 [link] [comments]",
+      "author": "Asleep-Television-24"
+    },
+    {
+      "title": "The EU AI Act may become a global rulebook without other countries adopting it",
+      "url": "https://www.reddit.com/r/artificial/comments/1viw4vs/the_eu_ai_act_may_become_a_global_rulebook/",
+      "published": "2026-08-08T13:31:47+00:00",
+      "summary": "The EU AI Act is usually discussed as a European compliance issue, but its larger impact may happen outside Europe. Global AI companies may find it cheaper to build around one demanding regulatory standard than maintain completely different systems for every market. If that happens, European requirements could influence how AI is developed and deployed worldwide, even in countries that never adopt the Act themselves. I made a deeper analysis of how enforcement could reshape global AI regulation. Do you think this becomes another “Brussels effect,” or will AI regulation fragment into competing regional systems? Full analysis: https://youtu.be/tdH4-rEmXos submitted by /u/Smart_AI_Hustle [link] [comments]",
+      "author": "Smart_AI_Hustle"
+    },
+    {
+      "title": "Will AI help speed up medical science?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vj3trr/will_ai_help_speed_up_medical_science/",
+      "published": "2026-08-08T18:48:37+00:00",
+      "summary": "What do you think? Could AI help the process so that chronic conditions could be treated, maybe even cured in the coming decades? Is it realistic to believe that? What kind of disorders could be examples where is helping the research right now? Could AI make the golden age of medicine come soon do you think? Are you optimistic? submitted by /u/jorgenalm [link] [comments]",
+      "author": "jorgenalm"
+    },
+    {
+      "title": "ByteDance trains massive AI model in bid to rival Anthropic",
+      "url": "https://www.reddit.com/r/artificial/comments/1virisx/bytedance_trains_massive_ai_model_in_bid_to_rival/",
+      "published": "2026-08-08T09:28:54+00:00",
+      "summary": "submitted by /u/NISMO1968 [link] [comments]",
+      "author": "NISMO1968"
+    },
+    {
+      "title": "So AI has now designed actual viruses that work...",
+      "url": "https://www.reddit.com/r/artificial/comments/1vizn4x/so_ai_has_now_designed_actual_viruses_that_work/",
+      "published": "2026-08-08T16:00:29+00:00",
+      "summary": "Just came across this and honestly this is pretty wild. Researchers used AI to design completely new viruses that don't exist in nature. They then actually made some of them in a lab, and 16 of the designs worked. Before anyone panics, these are bacteriophages, so they infect bacteria, not humans. The interesting part is that some of these AI-made viruses were able to kill E. coli, including bacteria that had become resistant to normal phages. So yeah, there could be a genuinely useful side to this, especially with antibiotic resistance becoming such a big problem. But at the same time... we now have AI systems capable of coming up with a complete virus genome, then humans can synthesize it and see if it works. That feels like a pretty big line to cross. Obviously this doesn't mean someone can just ask ChatGPT to make a deadly virus tomorrow. You still need labs, equipment, biological knowledge etc. But we've gone from AI generating text and images to designing proteins, genes, and now",
+      "author": "didiTonic"
+    },
+    {
+      "title": "Companies seeing AI returns had their data and governance sorted first, per PwC's 4,454-CEO survey",
+      "url": "https://www.reddit.com/r/artificial/comments/1vitkw8/companies_seeing_ai_returns_had_their_data_and/",
+      "published": "2026-08-08T11:29:12+00:00",
+      "summary": "submitted by /u/InsideDebt6345 [link] [comments]",
+      "author": "InsideDebt6345"
+    },
+    {
+      "title": "Anyone else using AI tools to figure out if they're actually employable again after years out of the workforce?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vj3cnc/anyone_else_using_ai_tools_to_figure_out_if/",
+      "published": "2026-08-08T18:29:19+00:00",
+      "summary": "This is a weird one to admit but here goes. Spent the last few years home with kids, which was the right call, but now I'm in this fuzzy inbetween place where I'm starting to think about what comes next professionally. My background is HR and recruiting, which means I spent years evaluating other people's career gaps on paper and now I get to experience one myself. Very humbling, not going to lie. Anyway I've been using a few different AI tools to stresstest my own resume and do mock interview prep, and it's genuinely strange how useful it's been. Not perfect, not even close. But it's like having a brutally honest mirror that doesn't get tired of your followup questions at 11pm. What's interesting is that from an HR angle I keep noticing how the AI frames employability: what it treats as a gap versus a credential, how it weights certain language. It reflects back some real assumptions that were baked into recruiting culture for years, and it makes me wonder how much of that bias got tr",
+      "author": "Mediocre-Extreme-482"
+    },
+    {
+      "title": "AI cost vs human cost math still doesn't add up for me and I work in healthcare",
+      "url": "https://www.reddit.com/r/artificial/comments/1viqva8/ai_cost_vs_human_cost_math_still_doesnt_add_up/",
+      "published": "2026-08-08T08:48:17+00:00",
+      "summary": "Physical therapy clinics run on thin margins. I see it every day. So when I hear that AI and robotics are going to be cheaper than humans I actually try to run the numbers in my own context and it falls apart fast. The hardware alone for anything resembling useful physical rehabilitation robotics is six figures minimum. Then you need maintenance contracts, software updates, liability coverage, and someone who actually knows how to run the thing. Meanwhile a skilled PT costs the clinic maybe 40 to 60 an hour all in. The robot does not replace that PT. It maybe assists. So now you have both costs. I get that the argument is long term. Depreciation over time, no sick days, scales without hiring. That math works eventually in manufacturing maybe. High volume, repetitive, controlled environment. Healthcare is none of those things. Patients are unpredictable. Edge cases are the norm, not the exception. What actually confuses me is who keeps funding this narrative that replacement is imminent",
+      "author": "RareSprinkles9387"
+    },
+    {
+      "title": "What's an AI capability you thought was hype until you actually used it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1viule1/whats_an_ai_capability_you_thought_was_hype_until/",
+      "published": "2026-08-08T12:20:46+00:00",
+      "summary": "What's an AI capability you thought was hype until you actually used it? I'll go first: agent orchestration. I read about agents managing other agents and assumed it was demo-ware. Then I built a tiny setup where one agent drafts a news digest and another one reviews and approves it before it posts. The review agent catches genuinely bad takes. It's not sci-fi: it's ~100 lines of Python and a couple of API calls. But seeing it actually gate content before publishing changed my mind completely. What changed yours? submitted by /u/Positive-Ad3618 [link] [comments]",
+      "author": "Positive-Ad3618"
+    },
+    {
+      "title": "I read a study that managers are the ones benefiting more from AI and it’s just getting started",
+      "url": "https://www.reddit.com/r/artificial/comments/1vj3zsu/i_read_a_study_that_managers_are_the_ones/",
+      "published": "2026-08-08T18:55:38+00:00",
+      "summary": "Managers are saving over 2x the time individual contributors are with AI tools. and it’s just starting I had a conversation recently with a copywriting agency owner who let her contractors go because her own prompts were giving her the same output they were. I believe that's one of the reasons you get a 2x gap between managers and everyone else. In the same survey, 36% of managers said they're not likely to launch training for their employees on how to leverage AI, which makes the gap even bigger. A manager's job was never to be the best individual operator in the room. It's to make everyone else better at the job. That doesn't change because the tool changed. Why do you think there's a 100% gap between managers and their teams right now, and what would it actually take to close it? Source: https://www.business.com/articles/ai-usage-smb-workplace-study/ P.S. If you're the founder still in the middle of every decision, still the person the whole company waits on, still telling yourself ",
+      "author": "Deep-Owl-1890"
+    }
+  ]
+}

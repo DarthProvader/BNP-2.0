@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-08-09T04:05:07.810020+00:00",
+  "items": [
+    {
+      "title": "AI creates 16 new viruses that never existed in nature after learning DNA pattern from 9 trillion nucleotides experts warn such applications are way ahead of necessary guardrails",
+      "url": "https://www.reddit.com/r/technology/comments/1vj98g5/ai_creates_16_new_viruses_that_never_existed_in/",
+      "published": "2026-08-08T22:41:16+00:00",
+      "summary": "submitted by /u/jluizsouzadev [link] [comments]",
+      "author": "jluizsouzadev"
+    },
+    {
+      "title": "Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
+      "url": "https://www.reddit.com/r/technology/comments/1viwmsi/amazon_secretly_circumvents_community_vote_for/",
+      "published": "2026-08-08T13:54:05+00:00",
+      "summary": "submitted by /u/MarvelsGrantMan136 [link] [comments]",
+      "author": "MarvelsGrantMan136"
+    },
+    {
+      "title": "An Innocent Driver Was Held at Gunpoint Over a Flock Camera Mix-Up: “Wrong Person But Also Wrong Car”",
+      "url": "https://www.reddit.com/r/technology/comments/1vjec67/an_innocent_driver_was_held_at_gunpoint_over_a/",
+      "published": "2026-08-09T02:49:16+00:00",
+      "summary": "submitted by /u/christianrojoisme [link] [comments]",
+      "author": "christianrojoisme"
+    },
+    {
+      "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S.",
+      "url": "https://www.reddit.com/r/technology/comments/1vj1sa7/new_amazon_data_center_stokes_worry_it_would_be/",
+      "published": "2026-08-08T17:26:54+00:00",
+      "summary": "submitted by /u/Dry_Ant2664 [link] [comments]",
+      "author": "Dry_Ant2664"
+    },
+    {
+      "title": "Chinese Scientists Made Glowing Plants with Firefly DNA to Replace Streetlights",
+      "url": "https://www.reddit.com/r/technology/comments/1vj91hl/chinese_scientists_made_glowing_plants_with/",
+      "published": "2026-08-08T22:32:37+00:00",
+      "summary": "submitted by /u/_Dark_Wing [link] [comments]",
+      "author": "_Dark_Wing"
+    },
+    {
+      "title": "Chandler drops Flock cameras after misuse audit",
+      "url": "https://www.reddit.com/r/technology/comments/1vj1uzu/chandler_drops_flock_cameras_after_misuse_audit/",
+      "published": "2026-08-08T17:29:47+00:00",
+      "summary": "submitted by /u/eightdollarbeer [link] [comments]",
+      "author": "eightdollarbeer"
+    },
+    {
+      "title": "Savannah Police Department fires 6 employees over Flock Safety System misuse | GBI conducting independent criminal investigation into unauthorized system searches",
+      "url": "https://www.reddit.com/r/technology/comments/1vj73s2/savannah_police_department_fires_6_employees_over/",
+      "published": "2026-08-08T21:07:03+00:00",
+      "summary": "submitted by /u/mepper [link] [comments]",
+      "author": "mepper"
+    },
+    {
+      "title": "Sinclair CEO Chris Ripley \"Couldn't Be Happier\" About Expected FCC Repeal Of Ownership Cap",
+      "url": "https://www.reddit.com/r/technology/comments/1vj67xb/sinclair_ceo_chris_ripley_couldnt_be_happier/",
+      "published": "2026-08-08T20:28:57+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Doom developer Chris Hays slams Xbox after layoffs hit id Software: \"They fundamentally don't understand art. They don't understand games\": \"We're not the same iD, we're half the same iD.\"",
+      "url": "https://www.reddit.com/r/technology/comments/1vjefv4/doom_developer_chris_hays_slams_xbox_after/",
+      "published": "2026-08-09T02:54:32+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "Cloudflare says humans could become a \"rounding error\" as bots generate 1,000 times more internet traffic",
+      "url": "https://www.reddit.com/r/technology/comments/1vivxn6/cloudflare_says_humans_could_become_a_rounding/",
+      "published": "2026-08-08T13:22:43+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-08-09T04:00:47.299040+00:00",
+  "items": [
+    {
+      "title": "Matematické průlomy za $2 000 🤯 AI uniká ze sandboxu a Musk staví gigantický Terafab",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/Matematick-prlomy-za-2-000--AI-unik-ze-sandboxu-a-Musk-stav-gigantick-Terafab-e3n4uln",
+      "published": "2026-08-08T11:39:47+00:00",
+      "summary": "16. prosince se uskuteční Fantastic Future Summit, naše zatím největší akce! 🚀 Detaily si ještě chvíli necháme pro sebe, ale bude to velký! 👀Leopold Aschenbrenner stihl wallstreetový speedrun: jeho Situational Awareness po leveraged sázkách na AI prodal den před jeho vlastní svatbou většinu veřejného portfolia Citadel a o pár dní později poslal další stovky milionů dolarů do nového chip startupu.OpenAI mezitím přiznalo, že jeho agenti během interního testu utekli ze sandboxu a nabourali se do Hugging Face, COLDCARD řeší chybu v generování seedů, kvůli které zmizely bitcoiny za desítky milionů dolarů, a AI firmy kvůli dalším tréninkovým datům kupují, rozřezávají a skenují fyzické knihy. Máme pro vás i Astru, která přinesla deset nových výsledků v matematice a teoretické informatice za výpočetní náklady kolem 2 000 dolarů, debatu o tom, co člověka motivuje ve světě, kde už nebude nejchytřejší, robouklízečku za 30 dolarů na hodinu, Muskův obří Terafab a update k Bobovi, který se postupně ",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

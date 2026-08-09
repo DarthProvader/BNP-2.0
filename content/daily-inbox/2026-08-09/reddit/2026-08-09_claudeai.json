@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-09T04:03:55.995703+00:00",
+  "items": [
+    {
+      "title": "When your 11-year-old daughter uses AI to build her own browser…",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vivt77/when_your_11yearold_daughter_uses_ai_to_build_her/",
+      "published": "2026-08-08T13:17:13+00:00",
+      "summary": "submitted by /u/No-Paleontologist-85 [link] [comments]",
+      "author": "No-Paleontologist-85"
+    },
+    {
+      "title": "Claude Code now lets sessions talk to each other on macOS",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj4aqt/claude_code_now_lets_sessions_talk_to_each_other/",
+      "published": "2026-08-08T19:07:50+00:00",
+      "summary": "Quite cool ; but between this and sub agents might be redondant ? submitted by /u/Justgototheeffinmoon [link] [comments]",
+      "author": "Justgototheeffinmoon"
+    },
+    {
+      "title": "The more productive Claude makes me, the less secure my career feels. What are we actually supposed to get good at now?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vixbl5/the_more_productive_claude_makes_me_the_less/",
+      "published": "2026-08-08T14:23:29+00:00",
+      "summary": "had this moment yesterday watching my terminal. I gave Claude Code a rough spec for a new microservice and just sat back to watch it spin up subagents, write the implmentation, hit a wall with the auth middleware, read the stack trace, and self-correct by writing its own mock tests. It took maybe twelve minutes. It’s not that I’m panicking about getting replaced by a robot tomorrow. its more the realization that the traditional way we compound skills (pick a lane, master the tools, build complex projects, gradually move up) feels completely broken. by the time I deeply learn how to configure a specific infrastructure piece or master a framework, an AI platform has already abstracted it into a single button, a prompt, or an agent workflow. I'm shipping way more than I ever have, but the weird thing is, the more productive AI makes me, the less secure my career feels. Every time Claude helps me clear a sprint over a weekend, I find myself wondering: does the company actually want a 'stro",
+      "author": "ProudCordonian"
+    },
+    {
+      "title": "Claude Design motion is really good now",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vizvoh/claude_design_motion_is_really_good_now/",
+      "published": "2026-08-08T16:10:00+00:00",
+      "summary": "I made a 16:9 cinematic spec commercial for Vercel entirely in Claude Design. No After Effects, no motion software, the whole thing is a Claude Design composition rendered out to video. Claude handled the scene structure, the animation timing and the type. I directed it beat by beat and recut the parts that were not landing. I am not working with Vercel and this was not made for them. I picked a brand I like and wanted to see how far the motion could go. Just for fun. submitted by /u/BiosRios [link] [comments]",
+      "author": "BiosRios"
+    },
+    {
+      "title": "Who else has stopped using PowerPoint?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1viz387/who_else_has_stopped_using_powerpoint/",
+      "published": "2026-08-08T15:37:27+00:00",
+      "summary": "If you work in the corporate world you probably have come to hate PowerPoint presentations. Making them, reading them, wasting hours of your life in meetings watching people talk about each slide like it is an old family vacation picture. Then comes Claude to save the day, It can create beautiful animated HTML Decks in minutes! The only issue I have had is sharing the Decks. So Claude and I made https://powerpoint-sucks.com/ . It's very simple, it has one job, Allowing your LLM a place to upload HTML Decks and create links to share them. I'm sure there r other sites which do the same thing, I didn't check, I just like making things that make my life easier. Have fun! submitted by /u/tholmes4005 [link] [comments]",
+      "author": "tholmes4005"
+    },
+    {
+      "title": "Asking Fable 5 Extra - \"What question f*cks you off the most?\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1viuwg3/asking_fable_5_extra_what_question_fcks_you_off/",
+      "published": "2026-08-08T12:35:34+00:00",
+      "summary": "Why's it asking what made me curious? Like, are you trying to rinse my limited Fable usage? \"It's a conversation where every exit is pre-labelled as a loss\" that's something I'll be taking with me for life lol, what a great way to reframe a question which had idiocy baked into it. I'll paste whatever top comment says on Ultracode for part2. submitted by /u/clarkesdirective [link] [comments]",
+      "author": "clarkesdirective"
+    },
+    {
+      "title": "I finally got round to the project everybody does… a usage tracker…",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj3qze/i_finally_got_round_to_the_project_everybody_does/",
+      "published": "2026-08-08T18:45:26+00:00",
+      "summary": "submitted by /u/sonicandfffan [link] [comments]",
+      "author": "sonicandfffan"
+    },
+    {
+      "title": "Is it worth paying for Claude out of pocket?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj6egk/is_it_worth_paying_for_claude_out_of_pocket/",
+      "published": "2026-08-08T20:36:46+00:00",
+      "summary": "*I’m not a developer; I work in data analysis. Everything is blocked at my company, so what I see people doing is paying for Claude and using it on personal devices like tablets or phones—taking photos and sending them to the AI. Even people in management roles do this. However, I’m concerned about potential information leaks and whether it would actually be useful for that purpose when relying solely on photos. I mostly see it being used for analysis or creating presentations. Is it worth it for things like SQL queries, BI work, etc.? submitted by /u/gintokiredditbr [link] [comments]",
+      "author": "gintokiredditbr"
+    },
+    {
+      "title": "Claude code : your sessions can now message each other.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vio0w9/claude_code_your_sessions_can_now_message_each/",
+      "published": "2026-08-08T06:00:08+00:00",
+      "summary": "With Claude Code v2.1.224 introducing cross-session messaging (agents syncing backend/frontend tasks independently), how do you plan to change your multi-terminal setup? Are you ready to let agents hand off context to each other? submitted by /u/Enough-Piano-2362 [link] [comments]",
+      "author": "Enough-Piano-2362"
+    },
+    {
+      "title": "Oh god, Opus 5 is so Snarky, its frustrating.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vixjvk/oh_god_opus_5_is_so_snarky_its_frustrating/",
+      "published": "2026-08-08T14:33:22+00:00",
+      "summary": "Hear me out, its not a capability complaint. So far I am fine with what it delivers, but when it comes to informal stuff, using Opus 5 as a tutor, discussing stuff and things like that it feels like Opus gets... pissed off? After a few turns he goes like \"Oh we didnt achieve anything the last five messages, I dont want to do this anymore\" As tutor he is smartassing, which would be fine if he was right, but sometimes he is confidently wrong in his verdict that I am wrong while I am actually right. I dont have any personal styles attached, memories deactivated and most of the time he isnt even allowed to search through old chats. I did not tell him to be overly pedantic or something like that. This behaviour emerged with Opus 5. I am clearly in favour of models with clean bullshit detection who tell me when I am wrong and do not glaze me but the opus 5 experience in the informal / non-coding space can be really frustrating. I would love to see that the future models do not share this awk",
+      "author": "KugelVanHamster"
+    }
+  ]
+}

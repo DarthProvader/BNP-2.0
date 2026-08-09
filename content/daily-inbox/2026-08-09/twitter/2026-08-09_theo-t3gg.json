@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-09T04:01:12.404422+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086275699334328540",
+      "published": "2026-08-09T01:17:42+00:00",
+      "summary": "T3 Code has affected my productivity more than any model or tool in my life. I'm generating like 20% more code, but I'm merging 10x more.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086276419760558586",
+      "published": "2026-08-09T01:20:34+00:00",
+      "summary": "Like holy shit the number of threads I can run without getting \"lost\" is crazy. So easy to spin something up, keep track of it, merge it and \"poof\", gone forever like it should be. I no longer feel overwhelmed with all the work I'm doing. I have regained parts of my brain that I thought the agents were going to take away forever. Most importantly: I'm having so much fucking fun.",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086287108273303630",
+      "published": "2026-08-09T02:03:02+00:00",
+      "summary": "jfc. Just built and merged a dozen prs in 4 hours of locking in",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086224400085639302",
+      "published": "2026-08-08T21:53:51+00:00",
+      "summary": "Been in my hotel room working on T3 Code and solving puzzles for all of DEFCON. Still haven't even picked up a badge lol. Should I go do that? Who should I meet on the floor?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086229392624320578",
+      "published": "2026-08-08T22:13:42+00:00",
+      "summary": "Since posting this I locked in and solved a super hard puzzle lol",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
