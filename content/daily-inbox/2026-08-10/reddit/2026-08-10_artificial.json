@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-10T04:04:11.910335+00:00",
+  "items": [
+    {
+      "title": "Why billion-dollar robotics startups are obsessed with folding laundry",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjorly/why_billiondollar_robotics_startups_are_obsessed/",
+      "published": "2026-08-09T12:34:52+00:00",
+      "summary": "submitted by /u/Spirited-Sir-3034 [link] [comments]",
+      "author": "Spirited-Sir-3034"
+    },
+    {
+      "title": "Domain-grounded coding agents vs. general-purpose ones (Copilot, Claude Code) — what are you seeing?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vk9f56/domaingrounded_coding_agents_vs_generalpurpose/",
+      "published": "2026-08-10T03:13:27+00:00",
+      "summary": "Curious what people are seeing with domain-grounded coding agents vs. general-purpose ones (Copilot, Claude Code, etc.) for data/ML work specifically. The pitch from the vertical tools (Databricks' Genie Code is the one I've used) is that grounding in your actual schema/lineage/governance layer beats a general agent guessing from context alone. Databricks claims a jump from ~32% to ~77% success rate on real data science tasks after adding that grounding. Haven't independently verified that number, but the qualitative difference (fewer hallucinated column names, less time re-explaining table relationships) tracks with what I've seen. Anyone using other domain-specific agents (not just data — legal, infra, whatever) and finding the same trade-off? Where's the line between \"grounding helps enough to be worth the lock-in\" and \"just use a general agent with good context\"? submitted by /u/Famous_Disk_7417 [link] [comments]",
+      "author": "Famous_Disk_7417"
+    },
+    {
+      "title": "Filtering out “[LLM] sucks”",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjzrbx/filtering_out_llm_sucks/",
+      "published": "2026-08-09T20:03:15+00:00",
+      "summary": "I understand there are a million variations on this theme, but it feels like half of my timeline is people coming on here to complain that this or that LLM sucks. Honestly, I don’t care. Everyone has a different experience. I would like to be able to filter out any of these posts. I don’t care whether it’s Claude or Codex or something else. I don’t want to hear about it. Suggestions? submitted by /u/Honestly_Now_This [link] [comments]",
+      "author": "Honestly_Now_This"
+    },
+    {
+      "title": "Tried camera and camera-free smart glasses. They're solving completely different problems",
+      "url": "https://www.reddit.com/r/artificial/comments/1vk6er6/tried_camera_and_camerafree_smart_glasses_theyre/",
+      "published": "2026-08-10T00:49:26+00:00",
+      "summary": "Been trying out a few smart glasses recently and there seem to be two clear directions: camera glasses for capturing the world, and quieter AI glasses for just getting things done. Dymesty and Echo Frames are firmly in the second camp, Ray-Ban Meta is very much in the first. If seamless AI assistance without pulling out your phone is the goal, audio-only or camera-free options make a lot of sense. Dymesty's 35g titanium frames are impressively light and drop the camera entirely, feeling more like premium eyewear that happens to have AI built in rather than a tech product trying to look like glasses. Echo Frames take a similar approach but center around Alexa, essentially putting an Echo on your face for timers, smart home control and playlists, with the same open-ear setup and no camera or display. Either one you can wear into a meeting or around family without raising any eyebrows. Ray-Ban Meta is a different proposition entirely. A 12MP ultrawide camera, short video clips, livestream",
+      "author": "Academic_Share7905"
+    },
+    {
+      "title": "Scrape, small piece on dif of calculators vs generative programs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vk3cw4/scrape_small_piece_on_dif_of_calculators_vs/",
+      "published": "2026-08-09T22:31:34+00:00",
+      "summary": "submitted by /u/Ok_Nectarine_4445 [link] [comments]",
+      "author": "Ok_Nectarine_4445"
+    },
+    {
+      "title": "OpenAI's stated reason for Codex's 272k context cap is cache-read cost, not the 2x billing line at the same number",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
+      "published": "2026-08-09T17:25:42+00:00",
+      "summary": "codex ships with a model catalog, and its gpt-5.6 entry lists the context window as 272,000 tokens. the published spec for the model is 1,050,000. 272,000 is also where the api reprices: past that many input tokens the whole request bills at 2x input and 1.5x output, including the tokens under the line. the obvious read is that the window was set to keep sessions on the cheap side of it. that is not the reason openai gave. thibault sottiaux said the driver is \"overall cost of cache reads going up with the size of the context being shuffled back and forth between toolcalls\". an agent resends its context on every tool call, so a bigger window multiplies across a long session rather than costing once. he also said the plan is to go back higher without it resulting in higher usage being charged. i only went looking because a session started compacting a bit under 245k, which is ninety percent of 272k. i had been in verdent with eco mode on for the other half of that week and had not been w",
+      "author": "SquirrelMotor5379"
+    },
+    {
+      "title": "Atlassian is taming AI costs, Mike Cannon-Brookes says",
+      "url": "https://www.reddit.com/r/artificial/comments/1vk5vat/atlassian_is_taming_ai_costs_mike_cannonbrookes/",
+      "published": "2026-08-10T00:24:00+00:00",
+      "summary": "Do you buy it submitted by /u/Spiritual_Manager703 [link] [comments]",
+      "author": "Spiritual_Manager703"
+    },
+    {
+      "title": "Emad Mostaque, on camera: \"It's a bad time to be a pure mathematician.\" AI just solved 10 decade-old math problems for $2,000.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjsil8/emad_mostaque_on_camera_its_a_bad_time_to_be_a/",
+      "published": "2026-08-09T15:18:22+00:00",
+      "summary": "A panel of AI researchers and founders — Peter Diamandis, Alex Wissner-Gross, Emad Mostaque — just sat with a number that's hard to argue with: $2,000 in compute, and ten decade-old, previously-unsolved math problems came back with machine-checkable proofs. Not \"AI is getting better at math\" in the abstract. A Fields Medalist said he'd recommend one of the proofs for publication without hesitation. A cosmologist called it \"a dark night for mathematics\" — \"the old gods are being slaughtered by the new machine gods.\" Then Emad closed it flat: \"It's a bad time to be a pure mathematician.\" Here's what they're not saying yet. Back in 2013/2014, I was with M+W High Tech Projects, on a design-and-build project in Kulim, Kedah, Malaysia. Our M&E engineer wanted an opening cut straight through the middle of a reinforced concrete beam — right where the bending moment peaks. I caught him before he did it. Told him no. That's beyond madness — you don't sacrifice a beam's structural integrity for a",
+      "author": "cen6wkf"
+    },
+    {
+      "title": "Why is there no “App Store” for independent AI agents yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai/",
+      "published": "2026-08-09T14:17:50+00:00",
+      "summary": "One thing that surprised me is that the barrier to entry is dropping much faster than I expected. There are now plenty of \"vibe coding\" or low-code platforms that let you connect models, tools, memory, and workflows without writing a huge amount of code. Almost anyone can build a useful agent. But then another question came up. if I build a killer agent that automates a complex workflow? Now what? How do people discover it? How do I deploy it without maintaining a bunch of infrastructure? I have to ask users to hand over their personal api keys. For a normal consumer, understanding how to configure environments like poetry or pip is not a simple matter. Nobody seems to be solving the distribution and packaging layer. The only ones I’m aware of are OKX and Anvita flow. I’ve also heard rumors that Google plans to launch an agent marketplace. I started wondering whether AI needs something similar to Apple's App Store or Steam. As builders, I feel like we're getting really good tools for c",
+      "author": "mgsz_"
+    },
+    {
+      "title": "The future of AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vk8mpf/the_future_of_ai/",
+      "published": "2026-08-10T02:35:02+00:00",
+      "summary": "I've been thinking about AI dependency, because many ppl have told me that relying on AI is already making them forget how to do parts of their jobs. In some sense this is nothing new. Technology has always replaced skills that used to be essential. We stopped doing calculations by hand because calculators exist, and we stopped memorizing information because computers can store it for us. AI may be the same process taken to its extreme, because instead of replacing one skill, it can replace parts of writing, programming, research, engineering and even reasoning itself. There is a possible future where humans become simple interfaces between AI output and the real world: AI thinks, we execute. And with robotics, even that role could disappear. Local and open AI may prevent intelligence from being completely controlled by a few companies, but there is another possibility: frontier models could keep getting bigger until only giant datacenters can run the best ones. Then compute becomes an",
+      "author": "un_dev_real"
+    }
+  ]
+}

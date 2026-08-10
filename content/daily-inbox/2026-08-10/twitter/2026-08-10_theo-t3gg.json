@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-10T04:01:07.537158+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086619736801177623",
+      "published": "2026-08-10T00:04:47+00:00",
+      "summary": "Julius ported the T3 Code usage/analytics view to mobile! Reminder that this logs all your usage with Claude and Codex, not just the usage in T3 Code itself :)",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/PirateSoftware/status/2086607219983032531",
+      "published": "2026-08-09T23:15:03+00:00",
+      "summary": "The badges are always cool but the team we've formed over the years is worth more by a mile.",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086605561580409068",
+      "published": "2026-08-09T23:08:27+00:00",
+      "summary": "My first black badge :)",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086565444618797311",
+      "published": "2026-08-09T20:29:03+00:00",
+      "summary": "Snuck a new \"draft\" feature into the T3 Code nightly release :) Fixes the \"oh shoot I need more info before starting this thread\" problem. Surprised how much I've been liking this small change. Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2086559931465916674",
+      "published": "2026-08-09T20:07:08+00:00",
+      "summary": "to anyone wondering why t3code isn’t being updated on the AUR: Theo - t3.gg (@theo) AUR isn’t accepting updates right now — https://nitter.net/theo/status/2086557284877111753#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

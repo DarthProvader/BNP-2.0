@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-10T04:02:59.753556+00:00",
+  "items": [
+    {
+      "title": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
+      "published": "2026-08-09T22:11:47+00:00",
+      "summary": "https://preview.redd.it/v8mmzfezafih1.png?width=869&format=png&auto=webp&s=6527014990d1e7e7b0ef89af1e7fa09893e794be submitted by /u/PsychologicalBox5208 [link] [comments]",
+      "author": "PsychologicalBox5208"
+    },
+    {
+      "title": "What do I want to be? - a poem about parenting in the AI age [OC]",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
+      "published": "2026-08-09T12:36:05+00:00",
+      "summary": "submitted by /u/leonleungjeehei [link] [comments]",
+      "author": "leonleungjeehei"
+    },
+    {
+      "title": "A picture is worth ~1,000 ~words according to Google AI Studio",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjxj0h/a_picture_is_worth_1000_words_according_to_google/",
+      "published": "2026-08-09T18:35:41+00:00",
+      "summary": "submitted by /u/Jjv41k [link] [comments]",
+      "author": "Jjv41k"
+    },
+    {
+      "title": "Life these days",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjs1v3/life_these_days/",
+      "published": "2026-08-09T14:59:57+00:00",
+      "summary": "submitted by /u/imfrom_mars_ [link] [comments]",
+      "author": "imfrom_mars_"
+    },
+    {
+      "title": "Chat glitched when GPT wrote a string of unicode chraracters",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
+      "published": "2026-08-10T01:10:52+00:00",
+      "summary": "I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can ",
+      "author": "donkeymonkey00"
+    },
+    {
+      "title": "Well, my little ChatGPT is not only swearing like a trooper, but can now tell the time. They grow up so fast. 😆",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjz1k6/well_my_little_chatgpt_is_not_only_swearing_like/",
+      "published": "2026-08-09T19:34:50+00:00",
+      "summary": "submitted by /u/calex_1 [link] [comments]",
+      "author": "calex_1"
+    },
+    {
+      "title": "I saw a fragrance at the store called mind games and this was the first thing that came to mind.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+      "published": "2026-08-09T18:12:39+00:00",
+      "summary": "submitted by /u/USTS2020 [link] [comments]",
+      "author": "USTS2020"
+    },
+    {
+      "title": "HRT Conjecture Disproven with GPT 5.6 Pro",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
+      "published": "2026-08-09T09:36:42+00:00",
+      "summary": "The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote \"with\" instead of \"by\" because the AI was being actively steered by mathematicians rather than simply \"here's the conjecture, go disprove it\". The counterexample itself was ultimately constructed by the AI though. submitted by /u/PsychologicalSoup251 [link] [comments]",
+      "author": "PsychologicalSoup251"
+    },
+    {
+      "title": "ChatGPT changes its mind mid reply",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vk9yi9/chatgpt_changes_its_mind_mid_reply/",
+      "published": "2026-08-10T03:40:46+00:00",
+      "summary": "Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. submitted by /u/BasilAzazel [link] [comments]",
+      "author": "BasilAzazel"
+    },
+    {
+      "title": "In a world where Digimon dominated",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vk28eh/in_a_world_where_digimon_dominated/",
+      "published": "2026-08-09T21:44:53+00:00",
+      "summary": "1996 – It begins Bandai releases Digimon Red & Blue for Game Boy. The mix of RPG battles and virtual-pet mechanics becomes an instant hit, with Agumon emerging as the face of a new global phenomenon. 1997 – Digimon hits TV Digimon Adventure becomes a ratings phenomenon, while phrases like “Digivolve” and “Digital World” enter everyday playground slang. 1998 – Digimon hits theaters Digimon: The Movie becomes a global box-office hit, proving the franchise has grown far beyond games and TV. 1998 – The card craze begins The Digimon Trading Card Game becomes an instant obsession, with booster packs selling out and rare cards quickly becoming status symbols. 1999–2000 – The second generation Digimon Adventure 02 launches as the next major game generation and goes on to sell more than 23 million copies worldwide. 2005 – The Digimon Store era begins The first official Digimon Stores open, turning launches into huge fan events packed with cosplay, queues and exclusive merchandise. 2012 – 750 Di",
+      "author": "ThisMayBeMike"
+    }
+  ]
+}

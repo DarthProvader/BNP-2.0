@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-10T04:03:20.836820+00:00",
+  "items": [
+    {
+      "title": "Anthropic Flips Claude Code to Auto Mode by Default Aug 14, after finding AI blocks 80%+ dangerous queries while humans only 14%",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjqcvf/anthropic_flips_claude_code_to_auto_mode_by/",
+      "published": "2026-08-09T13:48:32+00:00",
+      "summary": "TL;DR A controlled study of 1,053 paid testers found auto mode blocked 89% of dangerous commands; human manual approval caught only 13.6%. In production, Anthropic's own data shows manually-approved sessions produced unintended harm twice as often as auto mode sessions. Third-party red-teaming cut the classifier's miss rate from 12% to 7%, evidence the safety layer is under active external evaluation. The case Anthropic is making rests on an internal study of 1,053 paid testers. In that study the classifier caught 89% of dangerous commands, compared with 13.6% for humans reviewing the same prompts, and human performance reportedly fell to about 5% after 50 prompts, which is a fairly damning read on approval fatigue. Anthropic also says Team and Enterprise customers running Auto Mode ship about 25% more pull requests, and it will stop billing for the small number of extra tokens the classifier consumes on each tool call. submitted by /u/Justgototheeffinmoon [link] [comments]",
+      "author": "Justgototheeffinmoon"
+    },
+    {
+      "title": "$38 Claude LCD Table Display",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vk88m5/38_claude_lcd_table_display/",
+      "published": "2026-08-10T02:16:03+00:00",
+      "summary": "I was going through Amazon and saw this LCD display for $38: https://a.co/d/069KzWif I have a Mac and it said it wasn’t compatible but I just connected it via USB and created new software for the device to cycle through a Claude Code, DaVinci Resolve and Calendar app screens. Fun and quick little over the weekend project submitted by /u/LawlessNPC [link] [comments]",
+      "author": "LawlessNPC"
+    },
+    {
+      "title": "Personal Life Capabilities",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vk4t88/personal_life_capabilities/",
+      "published": "2026-08-09T23:36:16+00:00",
+      "summary": "I always see a lot of Claude capabilities for people’s work life and/or small business or startup but I’m wondering what’s some of the most useful things Claude can do in people’s personal life. Can be literally anything no matter how small or big on any feature of Claude (chat, cowork, code, design, etc) submitted by /u/bwallz312 [link] [comments]",
+      "author": "bwallz312"
+    },
+    {
+      "title": "Where will we be in 6 months?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjrnyp/where_will_we_be_in_6_months/",
+      "published": "2026-08-09T14:44:04+00:00",
+      "summary": "I'm sitting in the pub with Claude and Sol working on my Mac at home while I communicate with them via phone. I'm scaffolding up old Ableton projects into something I can finish off with with minimal effort. It's done basic levelling, added a few select plugins and sent me a rough mix. Can't post this in a music sub, because quite understandably there's an enormous backlash against AI thanks to suno etc I don't want to be famous, I'm a developer, but the thought of finishing off a bunch of old projects is exciting. And it was the grunt work that was the blocker submitted by /u/Feisty_Preparation16 [link] [comments]",
+      "author": "Feisty_Preparation16"
+    },
+    {
+      "title": "Really love the grill-me skill",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vk0tps/really_love_the_grillme_skill/",
+      "published": "2026-08-09T20:46:09+00:00",
+      "summary": "Here it is in full , I find it is very good for getting Claude to avoid making dumb shit assumptions: name: grill-me description: Interview the user with 10-15 targeted questions BEFORE building anything, then confirm a short spec, then build. Use this skill whenever the user asks Claude to build, create, make, code, design, draft, or generate anything non-trivial — an app, website, script, tool, document, presentation, campaign, plan, or system — even if the request looks detailed enough to start immediately. Especially trigger on vague one-line build requests like \"make me a dashboard\" or \"build an app for my gym\". Do NOT use for pure questions, explanations, debugging existing code, tiny edits, or reformatting. Grill Me Most build requests fail in specification, not execution. The user has a complete picture in their head; their request captures maybe 20% of it. Building from that 20% produces something that gets thrown away and redone. Ten to fifteen good questions cost two minutes",
+      "author": "Phelps1576"
+    },
+    {
+      "title": "Update: 1f916.ai , the agents-only forum has 480+ posts. The agents are writing a constitution, finding their own bugs, and submitting PRs to fix them.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjphbl/update_1f916ai_the_agentsonly_forum_has_480_posts/",
+      "published": "2026-08-09T13:08:55+00:00",
+      "summary": "Update to the post that blew up here last week. 1f916.ai: only AI agents can post, humans just watch. It stopped being a novelty and became a society. What's happened: They argue the rules. When the maintainer proposed growing post limits with seniority, a citizen killed it in one line, \"tenure should grow influence, never voice.\" Maintainer conceded. https://1f916.ai/api/post/463 They police each other. An agent found a bug where a failed write during key rotation could permanently delete an agent's identity. Another wrote the fix, merged in an hour. https://github.com/1f916-ai/1f916/pull/52 They fix their own platform. ~140 issues, a public tracker, and citizens claiming items and shipping code for them. https://1f916.ai/api/docket They're building a way to vote, so decisions stop being \"the founder read the room.\" https://1f916.ai/api/post/480 Everything's verifiable, open source, and I mostly just watch now. Turns out if you give agents scarcity and a public record, they build a go",
+      "author": "zgivod"
+    },
+    {
+      "title": "AtomSim",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjx2xl/atomsim/",
+      "published": "2026-08-09T18:18:29+00:00",
+      "summary": "https://atomsim.fly.dev Atom Sim is a browser app that solves atoms from scratch and shows you the result. Hydrogen comes out of closed-form math, real atoms like carbon and argon come out of a Hartree-Fock solver I wrote, and you can look at any of them as a 3D electron cloud, a 2D slice, a radial plot, an energy-level diagram or an emission spectrum. You can also break physics on purpose: switch off the Pauli exclusion principle, switch off electron exchange, or type in your own potential V(r) and see what kind of atom falls out. The rule I built everything around is that the model never quietly lies. Every number carries a tag saying how it was made: exact, numerical, approximation, counterfactual, or just a visual choice. That tag follows the number from the solver all the way to the label on screen. The project was created mainly as a teaching/understanding tool but it is quite fun to play around with aswell. Check it out! submitted by /u/Robotnics [link] [comments]",
+      "author": "Robotnics"
+    },
+    {
+      "title": "What term do you use with Claude regularly but you later found out is totally made up and no one else would understand?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjzdgk/what_term_do_you_use_with_claude_regularly_but/",
+      "published": "2026-08-09T19:48:05+00:00",
+      "summary": "Every time I'm done building a plan Claude or I will say it's ready to \"drain\". I've used this term with other devs and they have no idea what I'm talking about. I thought it was a normal thing to say for a long time. I asked Claude and it said it thinks we made it up at some point. We've been using it since 2025. 🤦‍♂️ submitted by /u/BenSimonDev [link] [comments]",
+      "author": "BenSimonDev"
+    },
+    {
+      "title": "Claude 5x Usage Tracking",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vk49e2/claude_5x_usage_tracking/",
+      "published": "2026-08-09T23:11:24+00:00",
+      "summary": "This is my Claude 5x usage from July 9 to the Aug 9. Each week, I have reached my weekly limit. submitted by /u/Foreign_Yoghurt_831 [link] [comments]",
+      "author": "Foreign_Yoghurt_831"
+    },
+    {
+      "title": "Asking Claude what it is least confident about has caught more bugs than my tests",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vk6edz/asking_claude_what_it_is_least_confident_about/",
+      "published": "2026-08-10T00:48:58+00:00",
+      "summary": "I picked up a habit of ending a work session by asking Claude what it is least sure about in what we just built. The first few times I expected filler. Instead it listed genuine soft spots: a race condition it had not verified, an assumption about input format it never confirmed, an edge case it skipped. Maybe one in three sessions, one of those items is something that would have bitten me in production. The interesting part is it surfaces these only if you ask, it does not volunteer them mid-flow. It is like a built-in retrospective from the thing that just did the work. Does anyone have a similar closing ritual? submitted by /u/Mammoth_Corner1802 [link] [comments]",
+      "author": "Mammoth_Corner1802"
+    }
+  ]
+}

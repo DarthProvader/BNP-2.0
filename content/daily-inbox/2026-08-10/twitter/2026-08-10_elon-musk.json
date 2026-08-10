@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-10T04:00:50.814505+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/dvorahfr/status/2086504649251586538",
+      "published": "2026-08-09T16:27:28+00:00",
+      "summary": "I tried pushing the video to test character consistency with Grok Imagine. I could have kept going for a long time.The consistency is perfect. Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2086555758989025437",
+      "published": "2026-08-09T19:50:33+00:00",
+      "summary": "Believe them. They mean exactly what they say. X Freeze (@XFreeze) You’re the biggest idiot if you bring a poisonous snake into your home, feed it, protect it, take care of it, and then convince yourself it will love you back A snake does not stop being poisonous because you treated it kindly If someone openly tells you they hate you and want to destroy you, believe them....they really do — https://nitter.net/XFreeze/status/2086442989703057740#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/XFreeze/status/2086439121149423828",
+      "published": "2026-08-09T12:07:05+00:00",
+      "summary": "Grok Build is quickly turning into an all-in-one creation environment It can now also generate images and videos with Grok Imagine directly inside your workflow You can create custom visuals for websites, apps, presentations, marketing campaigns, product pages, social media and pretty much anything else you're building No more jumping between different AI tools just to create the assets you need......even Claude Code doesn't natively have this Build the website, generate the images, create the videos, and then ship it - all from Grok Build",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2086554608348873008",
+      "published": "2026-08-09T19:45:59+00:00",
+      "summary": "AI agentic Internet traffic will obviously VASTLY exceed human usage. Not a close call at all. Cloudflare’s forecast is accurate. Aaron Burnett (@aaronburnett) For context, Global bandwidth is somewhere between 2-8 Pbps (2,000-8,000 Tbps) depending on if your measuring fiber public backhaul (like international fiber) or all public and private connections. 100,000 V3 Starlinks equals 100 Pbps 10x-50x the total bandwidth available today. If Starlinks V4s are 5x more capable we are looking at 50x-250x more bandwidth than world has today over the next 10 years. This may sounds like a supply shock but remember ~2B people don’t have regular access to the internet today, and we are connecting robots (digital and physical agents) to the internet at an accelerating pace. Distributed sensor data collection (on and off planet) is growing. On top of that individual internet usage does steadily increasing. In 10 years we’re probably going to move two orders of magnitude more information per second ",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2086555531569676510",
+      "published": "2026-08-09T19:49:39+00:00",
+      "summary": "And the only system that can support the insanely fast bandwidth growth needed by AI is Starlink",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
