@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrew Ng",
+  "source_slug": "andrew-ng",
+  "handle": "AndrewYNg",
+  "tags": [
+    "ai-education",
+    "deeplearning"
+  ],
+  "fetched_at": "2026-08-11T04:01:18.331490+00:00",
+  "items": [
+    {
+      "title": "Andrew Ng (@AndrewYNg)",
+      "url": "https://x.com/AndrewYNg/status/2086845515665166398",
+      "published": "2026-08-10T15:01:57+00:00",
+      "summary": "Thank you Mark, Alex and the whole Meta team for your contributions to open weight AI. Mark Zuckerberg (@finkd) Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models. — https://nitter.net/finkd/status/2086755195535413696#m",
+      "author": "AndrewYNg",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

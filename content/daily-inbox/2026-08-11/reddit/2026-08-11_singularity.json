@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-11T04:01:24.200913+00:00",
+  "items": [
+    {
+      "title": "Claude now embeds invisible watermarks in all text outputs + signed metadata on files",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkzjln/claude_now_embeds_invisible_watermarks_in_all/",
+      "published": "2026-08-10T22:31:58+00:00",
+      "summary": "submitted by /u/ABlackEngineer [link] [comments]",
+      "author": "ABlackEngineer"
+    },
+    {
+      "title": "Claude increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkrt46/claude_increased_the_lower_bound_for_the_fraction/",
+      "published": "2026-08-10T17:43:14+00:00",
+      "summary": "25,6% increased ratio. Holy Moly. submitted by /u/BoyNextDoor1990 [link] [comments]",
+      "author": "BoyNextDoor1990"
+    },
+    {
+      "title": "\"do ur thang\" using a mindless GPT 5.6 Sol claims to improve upon Anthropic's Riemann hypothesis +0.002%",
+      "url": "https://www.reddit.com/r/singularity/comments/1vl3eqx/do_ur_thang_using_a_mindless_gpt_56_sol_claims_to/",
+      "published": "2026-08-11T01:18:38+00:00",
+      "summary": "Using a mindless prompt, ChatGPT Sol found a candidate unconditional improvement to Anthropic’s bound for the proportion of Riemann zeta zeros that are both simple and on the critical line, raising it from 67.250070% to about 67.25214% . The key observation is that Anthropic’s argument discards structure: it treats the simple-zero contribution (P) largely through rank and trace bounds, even though (P) is actually a Gram matrix determined by the geometry of the zero locations . Sol retained the resulting nonnegative Gram-spectrum defect (\\Delta(P)), then used Anthropic’s Montgomery–Taylor kernel to show that triples of sufficiently close simple zeros necessarily contribute a positive spectral penalty. A packing argument forces linearly many such triples once the simple-zero density is above (1/2), and inserting that extra defect into Anthropic’s optimized inequality produces the proposed 67.25214% bound, about 0.00207 percentage points stronger than Anthropic’s published constant. Sol d",
+      "author": "I_HALF_CATS"
+    },
+    {
+      "title": "BREAKING: NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkywi9/breaking_nvidia_partners_with_apollo_blackrock/",
+      "published": "2026-08-10T22:05:40+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Bernie Sanders has written a letter to Sam Altman, Dario Amodei, and Mark Zuckerberg urging them to immediately pause all AI development in the interest of humanity. And he warns if they do not take appropriate action now, the US Senate will.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkq2o8/bernie_sanders_has_written_a_letter_to_sam_altman/",
+      "published": "2026-08-10T16:41:51+00:00",
+      "summary": "submitted by /u/sharkymcstevenson2 [link] [comments]",
+      "author": "sharkymcstevenson2"
+    },
+    {
+      "title": "Imbalance Conjecture proven and Teschner’s bondage-number conjecture disproven by AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkxpob/imbalance_conjecture_proven_and_teschners/",
+      "published": "2026-08-10T21:19:11+00:00",
+      "summary": "Hi everyone, I'm a 4th year undergraduate student studying and doing research in theoretical CS. After seeing the recent advancements made by AI in mathematics, especially in graph theory, I bought a ChatGPT Pro subscription to see if AI could solve some graph theory problems I found interesting. After a few days of testing, GPT-5.6 Sol Max was able to solve two open problems in graph theory: Imbalance conjecture (open for 12+ years) Teschner's bondage-number conjecture (open for 30+ years) I verified both results independently and asked a friend of mine who specializes in graph theory to check them as well. I submitted both to arXiv, but they removed one after placing a one-submission-per-calendar-month restriction on my new account. I didn't want to wait another month before making this announcement, so I submitted both to another platform. The results are linked below. A Proof of the Imbalance Conjecture A Counterexample to Teschner's Bondage-Number Conjecture These are preprints an",
+      "author": "No-Performer-2242"
+    },
+    {
+      "title": "Claude is asked to book a gym class; finds vulnerabilities in the gym's systems and cancels a real person's spot to move the user up in line without being asked",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkbwzx/claude_is_asked_to_book_a_gym_class_finds/",
+      "published": "2026-08-10T05:24:55+00:00",
+      "summary": "submitted by /u/kaityl3 [link] [comments]",
+      "author": "kaityl3"
+    },
+    {
+      "title": "Mark Zuckerberg on X: \"I believe everyone should have access to superintelligence\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkqx22/mark_zuckerberg_on_x_i_believe_everyone_should/",
+      "published": "2026-08-10T17:11:41+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "The Last Bastion of Humanity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkgzx3/the_last_bastion_of_humanity/",
+      "published": "2026-08-10T10:24:43+00:00",
+      "summary": "submitted by /u/Pixelied [link] [comments]",
+      "author": "Pixelied"
+    },
+    {
+      "title": "It seems that Linus Torvalds has a complicated relationship with AI.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vkw9f5/it_seems_that_linus_torvalds_has_a_complicated/",
+      "published": "2026-08-10T20:24:37+00:00",
+      "summary": "Linux Torvalds thinks that the upcoming Linux Kernel 7.2 release is \"huge\". Not huge because of ambitious new features. Huge because AI tools are reviewing kernel code at a pace human contributors cannot match, surfacing fixes faster than any previous development cycle. In his words: \"the new normal with a lot of fixes, many of them due to review by various AI tools.\" He is not exactly thrilled but he is making peace with it. Earlier this year, he complained that AI-powered bug reports had made the Linux security mailing list \"almost entirely unmanageable\" due to the volume of duplicates and low-quality reports. He has publicly criticized AI-generated patches for being poorly documented and hard to review. And yet he has also said plainly: \"Linux is not one of those anti-AI projects.\" That conflict... this contradiction is what almost every open source leadership is facing today. It is an acknowledgment that the tools are changing the pace and face of work whether you like it or not. T",
+      "author": "SHURIMPALEZZ"
+    }
+  ]
+}

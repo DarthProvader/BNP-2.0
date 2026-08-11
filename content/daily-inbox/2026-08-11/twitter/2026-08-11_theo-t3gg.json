@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-11T04:01:23.151246+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086973423574810765",
+      "published": "2026-08-10T23:30:12+00:00",
+      "summary": "This reset just dropped :) Tibo (@thsottiaux) I'll do another performative reset on Monday — https://nitter.net/thsottiaux/status/2086189414292865249#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/sonofalli/status/2086941093430509586",
+      "published": "2026-08-10T21:21:44+00:00",
+      "summary": "which way young dev",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/kr0der/status/2086754904379736340",
+      "published": "2026-08-10T09:01:53+00:00",
+      "summary": "i didn't realise how useful this was gonna be until i tried it for the whole day today Theo - t3.gg (@theo) Snuck a new \"draft\" feature into the T3 Code nightly release :) Fixes the \"oh shoot I need more info before starting this thread\" problem. Surprised how much I've been liking this small change. Video — https://nitter.net/theo/status/2086565444618797311#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2086902550406803729",
+      "published": "2026-08-10T18:48:35+00:00",
+      "summary": "I did not think I would love this feature so much Theo - t3.gg (@theo) Snuck a new \"draft\" feature into the T3 Code nightly release :) Fixes the \"oh shoot I need more info before starting this thread\" problem. Surprised how much I've been liking this small change. Video — https://nitter.net/theo/status/2086565444618797311#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/ChadAppDev/status/2086884577713254679",
+      "published": "2026-08-10T17:37:10+00:00",
+      "summary": "Theo - t3.gg (@theo) Apple is holding us back, and I'm scared they hold back all of software going forward. Video — https://nitter.net/theo/status/2085545626511519838#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

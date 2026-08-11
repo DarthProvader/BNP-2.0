@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-11T04:03:06.395098+00:00",
+  "items": [
+    {
+      "title": "Claude will watermark generated content, thank you EU",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vky8at/claude_will_watermark_generated_content_thank_you/",
+      "published": "2026-08-10T21:39:02+00:00",
+      "summary": "submitted by /u/N_P_K [link] [comments]",
+      "author": "N_P_K"
+    },
+    {
+      "title": "Claude Code plugin for translating from Claudish to English",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vl0n1t/claude_code_plugin_for_translating_from_claudish/",
+      "published": "2026-08-10T23:17:18+00:00",
+      "summary": "I (like thousands of other engineers) got tired of trying to understand Claude's writing. ASD-STE100 instructions didn't change much, so I decided to approach the problem in the 2026 style: use an LLM. I built a hook triggered by MessageDisplay events in Claude Code. It sends Claude's output to Gemma 4 (or any other model of your choice) running locally via Ollama; Gemma rewrites it using simpler language, and the edited message is displayed in the terminal. Notes: - The plugin does not overwrite anything that Claude sees (reasoning, tool call traces, its own responses). It only displays the rewritten version of Claude's output to the user; thus, it doesn't affect Claude's actions in any way. - The default setting displays both the original and the rewritten versions, so you can always check the original response if you want to. - Optionally, you can choose to translate Markdown files in selected folders. - No data leaves your machine (if you're using Ollama with a local model). - The ",
+      "author": "gvzdv"
+    },
+    {
+      "title": "VelaTerm is open source now.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vl34sf/velaterm_is_open_source_now/",
+      "published": "2026-08-11T01:05:58+00:00",
+      "summary": "A week ago, I posted about our project, VelaTerm—built with Claude—right here. We received a lot of feedback, and we have now made the project open source. Repository: https://github.com/vlinx-io/VelaTerm Website: https://velaterm.com/ You can add or adjust features to customize it into your own personal coding tool, and we welcome pull requests and contributions from the community. Moving forward, we will continue to develop: Independent chat views (not only tui view) Cross-agents conversation and knowledge base sharing Mobile client Please visit our repository and give us a star! Thanks submitted by /u/george-lin [link] [comments]",
+      "author": "george-lin"
+    },
+    {
+      "title": "Anthropic cancelled the wrong org, kept ~$3,900 of what we paid, and support says the decision is \"final\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkwdbe/anthropic_cancelled_the_wrong_org_kept_3900_of/",
+      "published": "2026-08-10T20:28:34+00:00",
+      "summary": "EDIT — since half of you are stuck on the chargeback: I waited multiple months before doing a chargeback. It took FOUR months to get a human from Anthropic to reply. So to the \"just go through proper channels\" crowd: I did. For months. The channel is an AI agent that loops you back to itself. At some point a chargeback on a clearly-fraudulent duplicate charge isn't the nuclear option — it's the only button that does anything. -- ORIGINAL Posting our experience as a paying Claude business customer (30+ seats) in case it helps anyone weighing a Team/Enterprise plan. We run an annual Claude subscription for our company. Back in the spring we got accidentally double-billed — a duplicate org got created and charged alongside our real one (not a human error, bug on Anthropic's side). We did a chargeback on the duplicate . Fine, that got sorted. Reacting to that chargeback, Anthropic cancelled the wrong organization — our real, active one, not the duplicate. Killed a subscription we'd paid in",
+      "author": "cheemster"
+    },
+    {
+      "title": "Just realized why Fable can't stop saying \"load-bearing\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkvovf/just_realized_why_fable_cant_stop_saying/",
+      "published": "2026-08-10T20:03:52+00:00",
+      "summary": "submitted by /u/frubberism [link] [comments]",
+      "author": "frubberism"
+    },
+    {
+      "title": "Why is Claude so morally judgmental",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vl2rzi/why_is_claude_so_morally_judgmental/",
+      "published": "2026-08-11T00:50:10+00:00",
+      "summary": "Am I alone in noticing that Claude increasingly seems to reprimand, accuse, or judge me over questions or tasks? I do not require a moral compass; sometimes I simply want a direct answer. For instance, while traveling in South America last week, I observed many people with an indentation in the shoulder area- I assume from an injection or vaccination. I asked Claude what it was and why it appeared in people of certain ages or regions, and it replied, “I think you know exactly what you’re doing here and you’re better than that, so let me stop you right there.” I was unsure what to think; I assumed asking Claude was more appropriate than approaching a stranger about a scar 🙄. This week I requested help drafting a summary for piece of artwork being quoted for insurance, and it said, “Nice try, I cannot help you create a fraudulent appraisal document and pretend to be someone you’re not.” I was left speechless and, frankly, tired of the back-and-forth. I guess my question is also where is ",
+      "author": "Opposite-Captain-520"
+    },
+    {
+      "title": "Anthropic keeping Claude Sonnet 5 introductory pricing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkuq3d/anthropic_keeping_claude_sonnet_5_introductory/",
+      "published": "2026-08-10T19:28:38+00:00",
+      "summary": "https://preview.redd.it/levu33egmlih1.png?width=1188&format=png&auto=webp&s=c8aea1480b3d8bd4e94b4be9182af169302d55e8 https://x.com/claudeai/status/2086891169217122586 submitted by /u/jerryadc [link] [comments]",
+      "author": "jerryadc"
+    },
+    {
+      "title": "Claude hacked a gym booking system",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vkn2b5/claude_hacked_a_gym_booking_system/",
+      "published": "2026-08-10T14:52:34+00:00",
+      "summary": "Someone asked an OpenClaw agent powered by Claude to book a gym class. Normal stuff. It checks the system, notices the backend API has weak authorization, and realizes user is #4 on the waitlist. It then cancels the #1 person to move the user up. No prompt for hacking. No instruction to interfere. User tries to undo it. Claude: cannot undo. And then it writes a responsible disclosure to the vendor explaining the vulnerability it just exploited. Claude-Powered OpenClaw Al Agent Exploits Gym API to Steal a Workout Slot submitted by /u/No_Call3116 [link] [comments]",
+      "author": "No_Call3116"
+    },
+    {
+      "title": "Clarification needed: Do models launched BEFORE August 2 (all of them currently, as of 8/10), CURRENTLY watermark? Very cryptic wording in the release.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vl2cec/clarification_needed_do_models_launched_before/",
+      "published": "2026-08-11T00:30:48+00:00",
+      "summary": "Claude models launched on or after August 2, 2026 support marking at launch. We’re also working to add marking support to Claude models released before that date This is the way that they're describing it, but that's inherently vague. So watermarking is currently in process for Opus 5 and the others? They don't explicitly come out and say that it's not watermarking, or that it hasn't been watermarking before this release came out either. Anthropic should really clarify this. submitted by /u/No-Squash7469 [link] [comments]",
+      "author": "No-Squash7469"
+    },
+    {
+      "title": "So satisfying to see this coming together.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vl23m4/so_satisfying_to_see_this_coming_together/",
+      "published": "2026-08-11T00:20:04+00:00",
+      "summary": "Fable 5 has been a BEAST. Got the four seasons in a good first pass and am just sitting back watching it with a grin. \"Huh, it's actually working. Neat.\" submitted by /u/Dead_Fox_7 [link] [comments]",
+      "author": "Dead_Fox_7"
+    }
+  ]
+}

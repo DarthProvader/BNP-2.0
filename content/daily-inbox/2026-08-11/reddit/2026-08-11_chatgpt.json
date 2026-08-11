@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-11T04:02:15.319566+00:00",
+  "items": [
+    {
+      "title": "It’s here",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/",
+      "published": "2026-08-10T17:55:10+00:00",
+      "summary": "For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. submitted by /u/ThenLayer5977 [link] [comments]",
+      "author": "ThenLayer5977"
+    },
+    {
+      "title": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkixw6/zuckerberg_says_meta_will_give_billions_a_247/",
+      "published": "2026-08-10T12:04:59+00:00",
+      "summary": "submitted by /u/terenscendent [link] [comments]",
+      "author": "terenscendent"
+    },
+    {
+      "title": "me and my childhood self",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
+      "published": "2026-08-10T17:56:02+00:00",
+      "summary": "submitted by /u/bigus-_-dickus [link] [comments]",
+      "author": "bigus-_-dickus"
+    },
+    {
+      "title": "Crazy times",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
+      "published": "2026-08-10T15:05:08+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "Shrek has arrived",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
+      "published": "2026-08-10T16:38:26+00:00",
+      "summary": "submitted by /u/hellohellowhatyoube [link] [comments]",
+      "author": "hellohellowhatyoube"
+    },
+    {
+      "title": "I think I broke chatgpt",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
+      "published": "2026-08-10T11:53:59+00:00",
+      "summary": "submitted by /u/Imaginary-Sun1350 [link] [comments]",
+      "author": "Imaginary-Sun1350"
+    },
+    {
+      "title": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+      "published": "2026-08-10T23:45:30+00:00",
+      "summary": "GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update ( https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt ) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? submitted by /u/giperborey-us [link] [comments]",
+      "author": "giperborey-us"
+    },
+    {
+      "title": "Anyone else’s chat suddenly cursing?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+      "published": "2026-08-10T21:11:50+00:00",
+      "summary": "I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 submitted by /u/ladyshastadaisy [link] [comments]",
+      "author": "ladyshastadaisy"
+    },
+    {
+      "title": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
+      "published": "2026-08-10T17:51:24+00:00",
+      "summary": "submitted by /u/notkilleveryoneist [link] [comments]",
+      "author": "notkilleveryoneist"
+    },
+    {
+      "title": "I asked OPUS 5 to make a video about what it's like to be an LLM",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+      "published": "2026-08-10T20:27:10+00:00",
+      "summary": "Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM submitted by /u/Dry-Blueberry-1768 [link] [comments]",
+      "author": "Dry-Blueberry-1768"
+    }
+  ]
+}

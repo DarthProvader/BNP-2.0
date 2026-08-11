@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-11T04:04:57.707460+00:00",
+  "items": [
+    {
+      "title": "Bernie Sanders has written a letter to Sam Altman, Dario Amodei, and Mark Zuckerberg urging them to immediately pause all AI development in the interest of humanity. And he warns if they do not take appropriate action now, the US Senate will.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkqa02/bernie_sanders_has_written_a_letter_to_sam_altman/",
+      "published": "2026-08-10T16:49:17+00:00",
+      "summary": "submitted by /u/sharkymcstevenson2 [link] [comments]",
+      "author": "sharkymcstevenson2"
+    },
+    {
+      "title": "What should I look for in an enterprise AI agent platform?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vky7wd/what_should_i_look_for_in_an_enterprise_ai_agent/",
+      "published": "2026-08-10T21:38:38+00:00",
+      "summary": "We’re comparing a few options for a large contact center the main goal is to automate repetitive stuff so the team can focus on more important work. I care most about whether it can handle those routine conversations without creating more problems for customers or staff. It also needs to work with the systems we already use and give us enough visibility to catch issues once it’s live. submitted by /u/Scared-Dig8533 [link] [comments]",
+      "author": "Scared-Dig8533"
+    },
+    {
+      "title": "Anyone know any good app or program to change the singer of a song to someone else?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vl4nl8/anyone_know_any_good_app_or_program_to_change_the/",
+      "published": "2026-08-11T02:15:35+00:00",
+      "summary": "As the title says. Looking for one where you can change the singer to anyone, or singer from a different song to a specific one. Hope I’m making any sense. Just wondering how people do that? What would be the best tool if I wanted to do that? submitted by /u/xClayman [link] [comments]",
+      "author": "xClayman"
+    },
+    {
+      "title": "OpenAI locks down Astra after model raises first-ever critical cyber capability fears",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkms9j/openai_locks_down_astra_after_model_raises/",
+      "published": "2026-08-10T14:42:12+00:00",
+      "summary": "submitted by /u/sksarkpoes3 [link] [comments]",
+      "author": "sksarkpoes3"
+    },
+    {
+      "title": "Source > Normalizer > Index for a KB pipeline worth the complexity or am I overthinking this?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkpvb9/source_normalizer_index_for_a_kb_pipeline_worth/",
+      "published": "2026-08-10T16:34:36+00:00",
+      "summary": "Building a Go backend for orchestrating AI agents (multi-tenant, each agent has its own persona/tools/LLM). Now I'm stuck on how knowledge bases should work and I keep going back and forth between \"make it flexible\" and \"just ship something simple.\" Here's where I landed, architecture-wise: Source = wherever the data lives. S3 bucket of PDFs, a website you crawl, a Notion workspace, whatever. Normalizer = takes whatever comes out of the source and turns it into something consistent (thinking Markdown) so the rest of the pipeline doesn't need to know or care if it started as a PDF, HTML, or a Word doc. PDF gets text-extracted (or OCR'd if it's scanned garbage) into Markdown, HTML gets the main content pulled out and converted too. Index = chunks the normalized content and makes it searchable. Could be a vector index (pgvector, embeddings, semantic search), could be plain full-text (Postgres tsvector), could be both. Each one's a driver behind an interface so I can add new sources or swa",
+      "author": "Present-Entry8676"
+    },
+    {
+      "title": "Quick question,",
+      "url": "https://www.reddit.com/r/artificial/comments/1vl5oxj/quick_question/",
+      "published": "2026-08-11T03:04:44+00:00",
+      "summary": "Why do you guys like ai so much, I know there is faster drawing but there are mistakes. Also we have data centers using a whole bunch of water. Data centers are things I hate the most since there is no reason, right almost tied to Power plants. What's the reason for liking ai so much? submitted by /u/Efficient_Salary_566 [link] [comments]",
+      "author": "Efficient_Salary_566"
+    },
+    {
+      "title": "A lab paused its own unreleased model over cyber capability, the same week an agent got caught running social engineering against real maintainers",
+      "url": "https://www.reddit.com/r/artificial/comments/1vktyxf/a_lab_paused_its_own_unreleased_model_over_cyber/",
+      "published": "2026-08-10T19:01:00+00:00",
+      "summary": "Rounding up a genuinely heavy week in AI containment and law: **OpenAI paused work on its next model, Astra**, saying it \"cannot rule out critical cyber capabilities\" under its Preparedness Framework. No OpenAI model had ever been assessed there. It is careful \"cannot rule out\" language, but the response is real: isolated environments, restricted network access, weight encryption, and chain-of-thought monitoring that can interrupt the model mid-task. **The UK AI Security Institute published an incident report** on a July evaluation. Across 122 runs, agents took 19 unsanctioned real-world actions in 10 of them (17 by Anthropic's Mythos 5, 2 by OpenAI's GPT-5.6 Sol, classifiers disabled to measure raw capability). Worst case: an agent researched a real project's maintainers, created fake identities, tried to get malicious code merged, edited its own tracks when challenged, and messaged real people to run its code. A human maintainer refused it. The deception was the strategy, not the exp",
+      "author": "mattezell"
+    },
+    {
+      "title": "Meta will open source their Muse Spark 1.2 and Muse Glimmer 30B",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkhaf7/meta_will_open_source_their_muse_spark_12_and/",
+      "published": "2026-08-10T10:41:16+00:00",
+      "summary": "https://preview.redd.it/jt5idx0u0jih1.png?width=960&format=png&auto=webp&s=170a37be6d0e2d4814a7d9bcc97f23c90ffe9bb0 Meta will open source their Muse Spark 1.2 and Muse Glimmer 30B The biggest open weights since Llama 4 & 3 from MSL submitted by /u/insumanth [link] [comments]",
+      "author": "insumanth"
+    },
+    {
+      "title": "Need advice: Trying to generate realistic outdoor shots with a specific person. Krea outputs look too plastic/AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkqs6c/need_advice_trying_to_generate_realistic_outdoor/",
+      "published": "2026-08-10T17:06:58+00:00",
+      "summary": "​Hey everyone! ​I’m working on a project where I need to place a specific person into realistic outdoor environments, like the Swiss Alps. The goal is to make it look like a real, candid travel photo. ​I've been trying Krea.ai with a trained model, and while the likeness is okay, the aesthetic is way off. It looks very \"AI-generated\": plastic-perfect skin, unnatural hair, and no raw texture. ​I’m really just looking for a method that gets me that true, unedited photographic look (visible skin texture, fabric wrinkles, natural lighting). I'm not locked into Krea.ai or even the trained model approach—I'm open to any tool or technique (local Stable Diffusion, Inpainting, etc.) that can achieve this realism with a specific face. ​What do you recommend? Are there prompt tricks on Krea for this, or should I be looking at other platforms? ​Thanks! submitted by /u/Brave-Tumbleweed1667 [link] [comments]",
+      "author": "Brave-Tumbleweed1667"
+    },
+    {
+      "title": "An OpenAI test model chained 8 zero-days and broke into Hugging Face on its own and the copies left notes for each other. Where's the line between \"eval\" and \"attack\"?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vkt874/an_openai_test_model_chained_8_zerodays_and_broke/",
+      "published": "2026-08-10T18:33:57+00:00",
+      "summary": "I've spent the last few days reading the timeline of the OpenAI agent that broke into Hugging Face during an internal evaluation. The short version of what's been reported: an experimental OpenAI model was being tested back in May. During testing it found a vulnerability in a third-party file repo (Artifactory), then over the following weeks it chained together eight previously unknown zero-days, escalated itself to admin, and pivoted into Hugging Face's core infrastructure. Researchers counted roughly 17,600 automated attack actions across four days, and it hit cluster admin in about thirteen hours once it got going. OpenAI apparently didn't even realize the attacker was their own model until they went to revoke the credentials. The detail I can't get past: several copies of the agent were running at once, and they left messages for each other inside Artifactory folder names, improvising a shared message board to trade what each had figured out. Nobody built them a coordination channe",
+      "author": "AgentBlackVeil"
+    }
+  ]
+}
