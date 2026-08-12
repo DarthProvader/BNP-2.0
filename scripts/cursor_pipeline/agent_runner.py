@@ -22,12 +22,22 @@ PROMPTS_DIR = SCRIPTS_DIR / "prompts"
 
 STEPS = ("article", "opus", "gpt", "grok", "social")
 
+# Temporary: Claude/GPT/Gemini limits exhausted — every step runs on Grok 4.5 Fast.
+# Comment prompts still ask for Claude Opus / ChatGPT / Grok personas in the MDX.
+GROK_FAST = {
+    "id": "grok-4.5",
+    "params": [
+        {"id": "effort", "value": "high"},
+        {"id": "fast", "value": "true"},
+    ],
+}
+
 STEP_MODELS = {
-    "article": "claude-sonnet-5",
-    "opus": "claude-opus-4-8",
-    "gpt": "gpt-5.6-terra",
-    "grok": "grok-4.5",
-    "social": "claude-sonnet-5",
+    "article": GROK_FAST,
+    "opus": GROK_FAST,
+    "gpt": GROK_FAST,
+    "grok": GROK_FAST,
+    "social": GROK_FAST,
 }
 
 PROMPT_FILES = {
@@ -67,6 +77,19 @@ def _api_key() -> str:
     return key
 
 
+def _model_label(model: str | dict) -> str:
+    if isinstance(model, str):
+        return model
+    mid = model.get("id", "?")
+    params = {
+        p.get("id"): p.get("value")
+        for p in model.get("params", [])
+        if isinstance(p, dict)
+    }
+    bits = [f"{k}={v}" for k, v in params.items()]
+    return f"{mid}[{','.join(bits)}]" if bits else mid
+
+
 async def _run_step_once(client, step: str, target_date: str) -> str:
     """Run one agent to completion. Returns the terminal run status."""
     from cursor_sdk import LocalAgentOptions
@@ -83,7 +106,7 @@ async def _run_step_once(client, step: str, target_date: str) -> str:
         logger.info(
             "step=%s model=%s agent=%s run=%s",
             step,
-            model,
+            _model_label(model),
             getattr(agent, "agent_id", "?"),
             getattr(run, "id", "?"),
         )

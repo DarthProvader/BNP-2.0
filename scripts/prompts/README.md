@@ -21,15 +21,15 @@ A step either produced its file or the run is reported as failed.
 
 | Step | Prompt | Model | Output |
 | --- | --- | --- | --- |
-| `article` | `01-article.md` | `claude-sonnet-5` | `content/articles/{cs,en}/<slug>.mdx` |
-| `opus` | `02-comment-opus.md` | `claude-opus-4-8` | `aiComments` → Claude Opus |
-| `gpt` | `03-comment-gpt.md` | `gpt-5.6-terra` | `aiComments` → ChatGPT |
-| `grok` | `04-comment-grok.md` | `grok-4.5` | `aiComments` → Grok 4.5 |
-| `social` | `05-social.md` | `claude-sonnet-5` | `content/social-drafts/{date}/drafts.md` |
+| `article` | `01-article.md` | `grok-4.5` fast | `content/articles/{cs,en}/<slug>.mdx` |
+| `opus` | `02-comment-opus.md` | `grok-4.5` fast | `aiComments` → Claude Opus (persona) |
+| `gpt` | `03-comment-gpt.md` | `grok-4.5` fast | `aiComments` → ChatGPT (persona) |
+| `grok` | `04-comment-grok.md` | `grok-4.5` fast | `aiComments` → Grok 4.5 |
+| `social` | `05-social.md` | `grok-4.5` fast | `content/social-drafts/{date}/drafts.md` |
 
-Steps run strictly in that order. Model IDs live in
-`scripts/cursor_pipeline/agent_runner.py` and must match
-`Cursor.models.list()`.
+Temporary: Claude/GPT/Gemini limits exhausted, so every step uses
+`grok-4.5` with `fast=true`. Public labels in the MDX stay the old personas.
+Model selection lives in `scripts/cursor_pipeline/agent_runner.py`.
 
 ## Prompt conventions
 

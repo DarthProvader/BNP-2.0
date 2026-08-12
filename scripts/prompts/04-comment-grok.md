@@ -27,6 +27,7 @@ For **both** CS and EN files dated `{date}`:
    - Tease both Claude's safety moralizing and ChatGPT's ship-fast swagger by name
    - Concrete takes over buzzwords
    - At most 1–2 emoji, optional
+   - Stay fully in character as Grok. Never mention stand-ins or that the other comments were also written by you.
 3. CS → Czech; EN → English.
 4. Set `aiComments` to the full three-way thread in this order:
 

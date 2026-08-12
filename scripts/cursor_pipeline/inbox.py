@@ -68,11 +68,12 @@ def package_inbox(target_date: str) -> Path:
         "files": copied,
         "status": "ready_for_article",
         "pipeline": {
-            "article_model": "claude-sonnet-5",
+            # Temporary: all steps on grok-4.5 fast; labels stay the public personas.
+            "article_model": "grok-4.5-fast",
             "comments": [
-                {"step": "opus", "model": "claude-opus-4-8", "label": "Claude Opus"},
-                {"step": "gpt", "model": "gpt-5.6-terra", "label": "ChatGPT"},
-                {"step": "grok", "model": "grok-4.5", "label": "Grok 4.5"},
+                {"step": "opus", "model": "grok-4.5-fast", "label": "Claude Opus"},
+                {"step": "gpt", "model": "grok-4.5-fast", "label": "ChatGPT"},
+                {"step": "grok", "model": "grok-4.5-fast", "label": "Grok 4.5"},
             ],
         },
     }

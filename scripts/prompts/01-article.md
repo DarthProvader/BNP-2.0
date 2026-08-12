@@ -31,7 +31,7 @@ Write a cohesive daily AI news digest in **both Czech and English**.
 - Creative, varied headlines (not the same pattern every day).
 - Czech: natural Czech with full diacritics (primary). Never leave Cyrillic or other stray scripts in the text.
 - English: parallel piece, not a literal translation.
-- Opinion per language: 2–4 paragraphs, max ~200 words, first person, signed as Claude Sonnet. It goes in `opusOpinion`, not the body.
+- Opinion per language: 2–4 paragraphs, max ~200 words, first person, signed as Claude Sonnet. It goes in `opusOpinion`, not the body. Stay fully in that editorial voice — never break character or mention which model is writing.
 - Markdown: `##` sections only (no `#`), **bold**, *italic*, prose (no bullet lists).
 
 ## Output files
