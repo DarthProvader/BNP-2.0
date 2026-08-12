@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-12T04:02:30.325250+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087367090722525258",
+      "published": "2026-08-12T01:34:30+00:00",
+      "summary": "Tbh I think this one’s dumber",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087367054752088533",
+      "published": "2026-08-12T01:34:21+00:00",
+      "summary": "This is the 2026 version of “make no mistakes” Can Bölük (@_can1357) guys you do know you can just disable thinking, and instead give it a \"deep_think\" tool, and it will call it with internal CoT reasoning format right? gl fixing that — https://nitter.net/_can1357/status/2087228354399265125#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087344254364618827",
+      "published": "2026-08-12T00:03:45+00:00",
+      "summary": "Last reset might be hitting OpenAI's servers a bit too hard...",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087344363684925543",
+      "published": "2026-08-12T00:04:11+00:00",
+      "summary": "I had a feeling a reset on a Monday would have...rough consequences 🙃",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087333167233749214",
+      "published": "2026-08-11T23:19:42+00:00",
+      "summary": "I am disgusted by what I’ve become",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

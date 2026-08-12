@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-12T04:05:04.663853+00:00",
+  "items": [
+    {
+      "title": "Claude now embeds an invisible watermark into every piece of text it generates.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlag0q/claude_now_embeds_an_invisible_watermark_into/",
+      "published": "2026-08-11T07:20:06+00:00",
+      "summary": "Anthropic just documented how it works. Two marks, both machine-readable: Text: an imperceptible watermark woven into the words themselves. You can’t see it, and it doesn’t change meaning, quality, or readability. Files (.svg, .png, .jpg): signed provenance metadata on the C2PA open standard, so you can tell if a file’s been tampered with. The watermark is applied at the model level. That means it shows up no matter where the text comes from: the API, Claude, Claude Code, Cowork, Claude Tag, and even when a supported model runs through AWS, Google Cloud, or Microsoft Foundry. Models launched on or after August 2, 2026 mark from day one. Older models are getting it during a transition period. Every sentence Claude writes for you now carries a signature you’ll never see. submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Outsourced my thinking and cognitive debt gives me anxiety",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
+      "published": "2026-08-11T22:58:45+00:00",
+      "summary": "I'm a dev. In my company I am an early adapter of LLMs, it just so happened that i became the \"AI guy\" in my department. I was given a project to lead, a rather complex system. A lot of it i architected at the start, but as models got better i started outsourcing not only implementation but planning as well. My team started delivering features with blazing speed. We are churning out dozens of PRs per day and they are being reviewed by agents. Even though i am leading this project i have very vague understanding of what is going on. I haven't seen the code for a few months now. When someone asks me a question i give it to an agent and copy-paste response. I used to have impostor syndrome but now i don't have a word for how to call it. I'm just straight up scared that someone will come up to me and start asking questions about how anything works in the project that i lead. But then i have a feeling that i might not be alone. I see em-dashes in my coworker's responses, the \"load bearings\"",
+      "author": "Late_End_1307"
+    },
+    {
+      "title": "NVIDIA is building its next-gen Nemotron 4 family to compete directly with leading Chinese open models and secure the open-weight crown for the U.S. The largest version will have at least 1 trillion parameters, according to original reporting from The Information",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/",
+      "published": "2026-08-11T16:11:15+00:00",
+      "summary": "submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "The guardrail tax: why enterprise AI safety overhead is costing more compute than actual reasoning",
+      "url": "https://www.reddit.com/r/artificial/comments/1vm3jxj/the_guardrail_tax_why_enterprise_ai_safety/",
+      "published": "2026-08-12T04:04:13+00:00",
+      "summary": "When enterprise technology officers evaluate large language model infrastructure, financial analysis almost universally focuses on API list pricing, GPU instance rates, and raw token throughput. Standard accounting models calculate compute expenditure per million tokens, factor expected query volume, and project annual licensing cost. This standard framework omits single largest operational inefficiency in modern commercial models: economic tax imposed by safety alignment paradigms. Reinforcement Learning from Human Feedback (RLHF), Direct Preference Optimization (DPO), and rule-based constitutional guardrails are presented as non-negotiable safety features required for enterprise deployment. Beyond ethical and behavioral functions, these alignment mechanisms operate as structural cost multipliers and quality degraders. The commercial insistence on universal safety guardrails creates systemic mismatch between what institutions pay for compute capacity and actionable intelligence extrac",
+      "author": "vasilisvj"
+    },
+    {
+      "title": "Is artificial intelligence turning everyone into a product builder?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlbdpn/is_artificial_intelligence_turning_everyone_into/",
+      "published": "2026-08-11T08:15:01+00:00",
+      "summary": "No, I don’t think so, if I look at my Reddit feed, yes. But if I look around me? Suddenly, not so much. I think AI is like money, it amplifies personality traits that already exist. If you’re generous without money, you’ll be even more generous when you have money. When Adobe Creative Suite came out, didn’t everyone become a graphic artist or designer? When YouTube came out, didn’t everyone become a YouTuber? That’s how I see AI, it’s not a magic wand or everyone’s future; it’s just another building block of our society. What do you think about that? submitted by /u/No_Computer_1247 [link] [comments]",
+      "author": "No_Computer_1247"
+    },
+    {
+      "title": "Who Are the Token Brokers?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/",
+      "published": "2026-08-11T14:28:47+00:00",
+      "summary": "submitted by /u/thisguy123123 [link] [comments]",
+      "author": "thisguy123123"
+    },
+    {
+      "title": "Open-source tool that maps what concepts an LLM has learned into browsable tree structures using hyperbolic geometry",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/",
+      "published": "2026-08-11T18:56:54+00:00",
+      "summary": "I built HyperSAE, an open-source interpretability tool that extracts what an LLM \"knows\" and organizes it into tree-shaped concept maps. The idea: LLMs learn concepts hierarchically. \"Programming\" contains \"Python\" contains \"list comprehensions.\" But current interpretability tools dump everything into a flat, unstructured list of thousands of features with no organization. HyperSAE uses a branch of geometry where space expands exponentially (like tree branches do), so the extracted features naturally self-organize into parent-child hierarchies. You can browse what the model learned as a navigable tree instead of scanning a flat feature list. Tested on Google's Gemma-2-2B model. Captures 99.8% of the model's learned features (compared to 96.2% with standard tools). It's a Python library: pip install hypersae GitHub: https://github.com/vishal-dehurdle/hypersae Paper with interactive demos: https://vishalvermalabs.com/papers/empirical-validation-hypersae-poincare-geometry/ submitted by /u",
+      "author": "visha1v"
+    },
+    {
+      "title": "Is more reasoning necessarily better?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlq4zw/is_more_reasoning_necessarily_better/",
+      "published": "2026-08-11T18:43:45+00:00",
+      "summary": "I’ve just been setting my model to use max/xhigh reasoning levels, but now I’m wondering how wise that is. I definitely see that it uses up a lot more tokens. Like I see it go over the exact same line of reasoning 3 or 4 time. Setting that aside, I’m wondering if that necessarily leads to better results. Does max/xhigh always lead to better results, or is it mostly a factor of cost? submitted by /u/CoVegGirl [link] [comments]",
+      "author": "CoVegGirl"
+    },
+    {
+      "title": "The Breakdown: OpenAI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vliv6l/the_breakdown_openai/",
+      "published": "2026-08-11T14:22:41+00:00",
+      "summary": "\\OC\\ An article I wrote breaking down OpenAI as a company. Everything from the ethical questions and valuation to the potential future TAM and areas that OpenAI can expand into such as robotics and hardware. 100% human written, pangram confirmed. https://preipomedia.substack.com/p/the-breakdown-openai submitted by /u/Roadtochessmaster [link] [comments]",
+      "author": "Roadtochessmaster"
+    },
+    {
+      "title": "Open Source AI Popularity Leaderboard",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/",
+      "published": "2026-08-11T14:04:32+00:00",
+      "summary": "submitted by /u/aviaviaviavi [link] [comments]",
+      "author": "aviaviaviavi"
+    }
+  ]
+}

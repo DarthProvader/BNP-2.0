@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-12T04:02:26.506500+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2087255967549243425",
+      "published": "2026-08-11T18:12:56+00:00",
+      "summary": "1B for the @GeminiApp ! Our fastest growing product ever 🚀 Incredible milestone - huge congratulations to @JoshWoodward and the amazing team! Could not be prouder of all of our hard work together. And thank you to all our wonderful users, we can't wait to see what you'll do next with it! Sundar Pichai (@sundarpichai) 1B+ people are now using @Geminiapp every month to spark new ideas and get things done. It’s our fastest growing product ever, and our 14th to hit the 1B-user mark. Kudos to @JoshWoodward & the entire Gemini team, and thank you to everyone who has been on this journey with us - much more to come! — https://nitter.net/sundarpichai/status/2087222656819241292#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/googlegemma/status/2087209342160552253",
+      "published": "2026-08-11T15:07:40+00:00",
+      "summary": "🎉 1 BILLION DOWNLOADS 🎉 To celebrate this exciting milestone, we’re hosting an exclusive evening in SF on Aug 20 dedicated to YOU, the open-source builders, researchers, and contributors driving the Gemmaverse forward. Space is limited. Apply for your spot here: cerebralvalley.ai/e/gemma-1-… Video",
+      "author": "demishassabis",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

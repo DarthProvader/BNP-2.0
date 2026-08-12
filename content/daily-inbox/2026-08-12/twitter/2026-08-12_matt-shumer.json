@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-12T04:02:24.056656+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2087313728219816293",
+      "published": "2026-08-11T22:02:27+00:00",
+      "summary": "Such an interesting and simple approach to controlled video generation: - use code to create the “skeleton” of the video, baking in all actions, objects, etc. at low fidelity - pass the resulting “draft” through a video model to “make it real” GMI Cloud (@gmi_cloud) you don't need Seedance 2.5, here's cheaper and more efficient workflow we made this entire game shooting scene in one shot for $1.97 with DeepSeek V4 Flash 0731 + MiniMax H3 we use DeepSeek to code the raw Three.js scene first: exact camera movement, character motion, timing, everything. keep tweaking it there for basically pennies. then feed the final footage into H3 and let it cook the realism 48 mins, $1.97 total, one H3 generation way cheaper than rerolling a video model 10 times Video — https://nitter.net/gmi_cloud/status/2086976751335551335#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2087313953906909403",
+      "published": "2026-08-11T22:03:21+00:00",
+      "summary": "This might be a useful short-term approach while we wait for the bitter lesson to work its magic on long-form video generation.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2087236666515710326",
+      "published": "2026-08-11T16:56:14+00:00",
+      "summary": "OpenClaw for the masses is here. Matt Shumer (@mattshumer_) I’ve been testing Grok Bot for a couple of weeks, and I’ve been surprised by how much I’ve loved it. Honestly, this feels like it could be the thing that gets millions of normal people using agents for the first time. As many of you know, I haven’t always had the best experience with Cursor’s products, but this one feels different. The best way I can describe it is an agent for everything, not just code. The interface feels like iMessage, and you create bots that each have a job and actually get better over time as they learn how you work. There are a lot of products attempting this, but the little details are what makes Grok Bot special. For example, I set up a researcher bot and a writer bot, then made a Chief of Staff bot and asked it to get the other two working together on a project. I checked in fully expecting that to fall apart, because there was no way it just would work out of the box. It worked out of the box. Had a",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/shubgaur/status/2087234655015645326",
+      "published": "2026-08-11T16:48:15+00:00",
+      "summary": "Matt responded to a complete cold DM to try out @bot , and has since been willing to give us a TON of feedback, all while pushing his bots to their limits. Highly, highly recommend following along Matt Shumer (@mattshumer_) I’ve been testing Grok Bot for a couple of weeks, and I’ve been surprised by how much I’ve loved it. Honestly, this feels like it could be the thing that gets millions of normal people using agents for the first time. As many of you know, I haven’t always had the best experience with Cursor’s products, but this one feels different. The best way I can describe it is an agent for everything, not just code. The interface feels like iMessage, and you create bots that each have a job and actually get better over time as they learn how you work. There are a lot of products attempting this, but the little details are what makes Grok Bot special. For example, I set up a researcher bot and a writer bot, then made a Chief of Staff bot and asked it to get the other two working",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/JeremyKrak/status/2087231125383233879",
+      "published": "2026-08-11T16:34:13+00:00",
+      "summary": "I used @mattshumer_ prompt generator too for it somethingbig.ai/gauntlet-loo… Link The Gauntlet Loop Prompt Generator Tell it what you want to create. It writes the exact prompt to paste into Claude Code. Free. somethingbig.ai",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-12T04:02:04.602069+00:00",
+  "items": [
+    {
+      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "url": "https://www.latent.space/p/chai-discovery",
+      "published": "2026-08-11T20:03:50+00:00",
+      "summary": "This January, four big AI × Pharma tools deals were announced at the huge JPM Pharma conference that takes over San Francisco every year. OpenAI-backed Chai Discovery (now worth $4B) was somehow at the heart despite being all of 2 years old. The Science team is proud to bring you the first podcast with cofounder Matt McPartlon and product lead Neil Patil to tell the full story! Editor’s note: not to be confused with Chai AI, which was another top pod of ours.Pharma suddenly doing big AI tools dealsFor the non-pharma people, JPM is JP Morgan’s annual conference for pharma deal-making that takes over San Francisco for a week in January with hundreds of side events, etc.  It’s a big thing. Tools deals for pharma are also a big (new) thing: companies that start as AI for Pharma usually end up building their own drug pipelines instead, and the reason is something like this: convincing pharma to use your tool requires proof that your tool works. Proof means good targets, maybe with good clin",
+      "author": "RJ Honicky"
+    }
+  ]
+}

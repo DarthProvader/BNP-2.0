@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-12T04:02:31.271528+00:00",
+  "items": [
+    {
+      "title": "OpenAI's Chief Operating Officer resigns.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlsi81/openais_chief_operating_officer_resigns/",
+      "published": "2026-08-11T20:09:19+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Researchers find way to extract hidden reasoning from frontier AI models via API, show Kimi likely distilled this way, also find scheming/other quirks in the raw chain of thought",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlhteb/researchers_find_way_to_extract_hidden_reasoning/",
+      "published": "2026-08-11T13:41:45+00:00",
+      "summary": "Link to Twitter thread: https://x.com/kotekjedi\\_ml/status/2087147042888114428 Link to paper: https://arxiv.org/abs/2608.09867 Link to stolen-thoughts website: https://stolen-thoughts.com/ Link to May report: https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/ submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
+      "url": "https://www.reddit.com/r/singularity/comments/1vljb4r/did_pathway_just_reveal_the_architecture/",
+      "published": "2026-08-11T14:39:08+00:00",
+      "summary": "Andrew Curran recently hinted at a major architectural breakthrough in memory efficiency, coming not from a big AI lab but from a team with ties to OpenAI: https://x.com/AndrewCurran_/status/2072076893730349409 Pathway has now announced BDH-CQ: a 150M-parameter post-Transformer model that scored 29.5% on ARC-AGI-1 at a computed cost of just $0.0007 per task, establishing a new cost-efficiency frontier. It uses recurrent memory and latent reasoning instead of long token-based chains of thought. The connection is surprisingly close: a new memory-efficient architecture, developed outside the major labs, with OpenAI researcher and Transformer co-author Lukasz Kaiser as an investor and adviser. Is this the announcement Curran was hinting at? submitted by /u/Direct_Leader_1802 [link] [comments]",
+      "author": "Direct_Leader_1802"
+    },
+    {
+      "title": "Cherokee Nation bans hyperscale data centers on tribally owned, trust lands",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlfhei/cherokee_nation_bans_hyperscale_data_centers_on/",
+      "published": "2026-08-11T12:01:41+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Dwarkesh Patel (guest Ryan Greenblatt) - What happens once Al can automate Al research?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlujj2/dwarkesh_patel_guest_ryan_greenblatt_what_happens/",
+      "published": "2026-08-11T21:25:19+00:00",
+      "summary": "submitted by /u/TFenrir [link] [comments]",
+      "author": "TFenrir"
+    },
+    {
+      "title": "ChatGPT Desktop with wider support now in preview.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlq75e/chatgpt_desktop_with_wider_support_now_in_preview/",
+      "published": "2026-08-11T18:45:54+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Us in the future",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlw6tj/us_in_the_future/",
+      "published": "2026-08-11T22:30:15+00:00",
+      "summary": "I had not thought about transportation of our personal robots in the future but I suppose if we were to have one that is powered down then probably it would be in a suitcase haha. submitted by /u/DandeNiro [link] [comments]",
+      "author": "DandeNiro"
+    },
+    {
+      "title": "Watermarking LLM Outputs is Going to be Standard Thanks to EU Regulations",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlrvkd/watermarking_llm_outputs_is_going_to_be_standard/",
+      "published": "2026-08-11T19:46:14+00:00",
+      "summary": "submitted by /u/swimmingupclose [link] [comments]",
+      "author": "swimmingupclose"
+    },
+    {
+      "title": "Could AI create a new coding language that was incredibly token efficient to work with?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vln3jy/could_ai_create_a_new_coding_language_that_was/",
+      "published": "2026-08-11T16:56:04+00:00",
+      "summary": "I asked gpt about this, and it said yes, and gave some good examples of how some python code might look like in a new language, where the language was indeciferable to us, and very short. This concept must surely have been considered. Would it have any merit? The concept I imagined, was a language so compact, that it almost resembled instinct, rather than words. submitted by /u/Both-Move-8418 [link] [comments]",
+      "author": "Both-Move-8418"
+    },
+    {
+      "title": "Scientists Used Post-Mortem Brain Tissue to Control a Robot",
+      "url": "https://www.reddit.com/r/singularity/comments/1vlq71j/scientists_used_postmortem_brain_tissue_to/",
+      "published": "2026-08-11T18:45:48+00:00",
+      "summary": "Creator: https://youtube.com/@bearbaitofficial?si=anJ9mvgC\\_z5v16Uj Paper from video (preprint) https://www.researchsquare.com/article/rs-9638576/v1 The lab https://www.lirmm.fr/lirmm-en/# Other topic citation for brain in a vat: https://www.science.org/content/article/not-alive-not-dead-disembodied-human-brains-used-drug-testing submitted by /u/BearBaitUntamed [link] [comments]",
+      "author": "BearBaitUntamed"
+    }
+  ]
+}

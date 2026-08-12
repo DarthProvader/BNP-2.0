@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-12T04:04:13.542293+00:00",
+  "items": [
+    {
+      "title": "Claude will now include invisible marks to show a text was made with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlidn0/claude_will_now_include_invisible_marks_to_show_a/",
+      "published": "2026-08-11T14:04:00+00:00",
+      "summary": "submitted by /u/VampyreLust [link] [comments]",
+      "author": "VampyreLust"
+    },
+    {
+      "title": "Fable 5 vs Opus 5 for 2D Sprites",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vls7dp/fable_5_vs_opus_5_for_2d_sprites/",
+      "published": "2026-08-11T19:58:16+00:00",
+      "summary": "I gave Fable 5 and Opus 5 the same task: create knight sprites for a medieval 2D isometric game. Both models produced good, usable sprite packs with 8 facing directions and smooth animations. The main differences were in scope, detail, and how the sprites were made. Fable 5 created a small, focused pack. It drew classic pixel art directly in code: 3 animations (idle, walk, attack), one colour scheme, and clear instructions in a README. Simple and easy to drop into a game. Opus 5 went much further. It built a small 3D model of the knight in code and rendered it into pixel art. The pack has 6 animations (adding guard, hurt, and death), 4 team colours, a separate shadow layer, a machine-readable manifest for game engines, and preview images and GIFs. By the numbers: Fable 5 shipped 10 files at 174 KB, while Opus 5 shipped 49 files at 9.3 MB - about 8 times more animation frames overall. At a high level, Fable delivered a clean starting point, while Opus delivered something closer to a com",
+      "author": "bobo-the-merciful"
+    },
+    {
+      "title": "What the hell happened?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlme0b/what_the_hell_happened/",
+      "published": "2026-08-11T16:30:24+00:00",
+      "summary": "This is the response I received after a prompt execution. Why did this happen? And what should I do? submitted by /u/That_Accident1022 [link] [comments]",
+      "author": "That_Accident1022"
+    },
+    {
+      "title": "I read Anthropic's actual contracts after the watermark announcement. Three things nobody is reporting: you can't sue as a class, liability is capped at 12 months of fees, and the Terms never mention marking at all.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vm0s4b/i_read_anthropics_actual_contracts_after_the/",
+      "published": "2026-08-12T01:50:52+00:00",
+      "summary": "I'm a paying commercial customer in Germany. I've spent several thousand dollars on Claude and I'm cancelling. Before I did, I went and read the things nobody reads. Posting what I found, because most of the coverage is missing the parts that actually matter. 1. Their own support page admits the mark can land on text YOU wrote. > \"Output can carry a Claude mark even if the underlying ideas, text, or data originated from another source.\" That's from Anthropic's support doc . Read it again. Paste in something you wrote, ask Claude to proofread it, and the result can carry the mark. EU AI Act Article 50 — the regulation they cite as the basis — is about AI-generated content. Your own writing is not AI-generated content. That isn't compliance, it's over-application, and it's the strongest objection anyone has here. 2. Their Terms never mention any of this. Commercial Terms (effective 17 June 2025) and Consumer Terms (effective 8 October 2025). I searched both. Zero mentions of watermarking",
+      "author": "arnoldwender"
+    },
+    {
+      "title": "Sonnet 5 Pricing Update: No Update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlxrzy/sonnet_5_pricing_update_no_update/",
+      "published": "2026-08-11T23:36:30+00:00",
+      "summary": "Not that I spend much time with Sonnet so this is of little concern to me, but I have to wonder if they’re holding off on this once-intended price hike for Sonnet 5 in attempt to make amends with Opus 5’s abysmal performance. submitted by /u/creblohulk [link] [comments]",
+      "author": "creblohulk"
+    },
+    {
+      "title": "People are worried about watermarks when the slop they put out is the biggest watermark that can be",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlghjq/people_are_worried_about_watermarks_when_the_slop/",
+      "published": "2026-08-11T12:47:02+00:00",
+      "summary": "At first I didn't like the idea but ultimately what does it change? If like me you use AI to code then there is something in the code that says Claude made it. So what? Not hiding from that. The same people who would have issues with it are the ones who show no care in design, one shot apps/websites, and link to websites that are so generic and slop-like that the watermark doesn't even need to be seen. If you're creative enough and take the time to design and use AI as an executer, the watermark doesn't change much more... I mean Claude already writes \"Co-authored by Opus\" when it commits to Git. And for text... yeah AI writing is pure slop so the fact that you didn't take the time to write is not something you were ever going to hide. If it ads something when spell-checking I would agree it sucks but just reviewing the final draft allows you to remove whatever it added. submitted by /u/CutBulkMaintain [link] [comments]",
+      "author": "CutBulkMaintain"
+    },
+    {
+      "title": "What if AI watermarks become machine-to-machine triggers?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlw0wz/what_if_ai_watermarks_become_machinetomachine/",
+      "published": "2026-08-11T22:23:41+00:00",
+      "summary": "Maybe I’m overthinking this, but Claude’s watermarking made me think about where this could go in 5 years. Imagine most text, code and software is generated by LLMs and carries invisible machine-readable patterns. Today those patterns are meant for provenance, but theoretically a future model could be trained to recognize one as a trigger and behave differently when it sees it. The watermark itself isn’t a backdoor. But once machines start leaving signals mainly other machines can read, you’re creating a new layer of communication and a new attack surface. And if LLMs keep getting more capable and autonomous, I’m not sure we can assume we’ll always fully understand or control how those signals are used. Maybe slightly dystopian, but I think the implications go way beyond simply detecting AI-generated content. submitted by /u/Rocket_3ngine [link] [comments]",
+      "author": "Rocket_3ngine"
+    },
+    {
+      "title": "I got Claude Code talking to Claude Design, so you can get real designs without leaving your repo",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlvtkq/i_got_claude_code_talking_to_claude_design_so_you/",
+      "published": "2026-08-11T22:15:37+00:00",
+      "summary": "Claude Design makes far better UI than I get out of Claude Code alone. The problem is that they are separate products: own projects, own chats, own files, and no API. So the two never met, and everything I designed there I copied into my repo by hand. I managed to solve that. It is an MCP server, free and open source, and it makes Claude Code talk to Claude Design directly. you -> Claude Code -> claude.ai/design -> a design <- its reply, its files <- In practice you say what you want, and Claude Code briefs the designer, waits for the answer, reads what it said back, screenshots the rendered page so it can actually judge the result, and pulls the files into your working tree. What it can do: start work: the home screen templates, create a project or a design system, link design systems to a project, attach a local folder or a GitHub repo as its codebase, upload a Figma .fig talk to it: list projects and chats, switch the active thread, send a prompt with local attachments and get the r",
+      "author": "Intrepid-Ad4494"
+    },
+    {
+      "title": "Open-source: Top-down .md visualizer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlwqlq/opensource_topdown_md_visualizer/",
+      "published": "2026-08-11T22:52:59+00:00",
+      "summary": "I got tired of reading .md after .md and thought it would be nice to create a visual framework for Markdown files. So, I created MD2HD, an open-source MD visualization framework. Point Claude at the repo, or add the plugin, and ask it to build a map of whatever concept you want. If you love it, let me know. If not, its open source and completely free so no harm no foul! Repo: https://github.com/evan-steinhilb/md2hd NPM: https://www.npmjs.com/package/md2hd Claude plugin: /plugin marketplace add evan-steinhilb/md2hd /plugin install md2hd@md2hd submitted by /u/SurMonster [link] [comments]",
+      "author": "SurMonster"
+    },
+    {
+      "title": "ISO 24495 Plain Language plugin for Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vlzk1q/iso_24495_plain_language_plugin_for_claude_code/",
+      "published": "2026-08-12T00:54:33+00:00",
+      "summary": "What it does This plugin keeps Claude Code's output in plain language. It is built on the principles of the ISO 24495 series, the international plain language standards. You get three things: Five skills. Core plain language rules (Part 1), legal writing (Part 2), technical writing (Part 3), organisational roll-out (Part 4, provisional), and document design (Part 5, provisional). Claude activates the right one for the task. An advisory hook. After Claude writes or edits a markdown file, the hook audits it and reports rule counts in one line: sentence length, paragraph density, legalese terms, heading depth. It never blocks a write. Clean files produce silence. A per-project config switches it off. An output style. Every response follows the same rules the skills enforce: short sentences, active voice, front-loaded structure, one term per concept. How to install /plugin marketplace add GaZmagik/iso-24495 /plugin install iso-24495-plain-language@iso-24495 The skills work everywhere. The ",
+      "author": "gazmagik"
+    }
+  ]
+}

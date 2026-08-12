@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-12T04:03:22.392065+00:00",
+  "items": [
+    {
+      "title": "That wasn't a star...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz6g5/that_wasnt_a_star/",
+      "published": "2026-08-12T00:37:34+00:00",
+      "summary": "Made with GPT-Image-2 submitted by /u/DijonAndDragons [link] [comments]",
+      "author": "DijonAndDragons"
+    },
+    {
+      "title": "Downgraded to Free because my payment failed... in the FUTURE? (Sep 4)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/",
+      "published": "2026-08-12T00:07:49+00:00",
+      "summary": "My Plus payment went through successfully on my bank's end on July 30, but OpenAI marked the invoice as \"Void\" and downgraded my account to Free. To make this even more absurd, I just received an automated email (see attached screenshot) stating that my payment failed on September 04, 2026. Today is August 11. They literally canceled my Plus plan over a payment that supposedly failed almost a month in the future—which is obviously impossible. I reached out to support and my ticket was escalated to a specialist about 4 hours ago, but I haven't heard back yet. Has anyone else experienced this time-traveling billing glitch? How long did support take to actually fix it and restore your access? submitted by /u/gatsssby [link] [comments]",
+      "author": "gatsssby"
+    },
+    {
+      "title": "Wtf just happened",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2yac/wtf_just_happened/",
+      "published": "2026-08-12T03:34:25+00:00",
+      "summary": "Tonight I was in my bathroom getting ready and having a talk with Chat about various topics in voice mode when I asked it how to say tree in Japanese. It seemed like something switched internally and instead of responding to my question it audibly gasped and proceeded to yell “NO NO NO NO NO NO NO NO!” extremely loudly and it sounded frightened like if someone was hurting it. It eventually stopped but I had to click out of the voice mode and go back in order for it to answer me again and when I went back to the convo I saw that my original question about Japanese did register in the chat even though it didn’t respond to it. Also, it yelling “No” repeatedly was not in the chat at all. I then asked it why it had that outburst and then it claims that it didn’t and had no explanation at all. I’ve never observed anything like that before and was wondering if anyone had any similar stories or an explanation. I also tried to recreate what happened by telling it to audibly gasp and then to yel",
+      "author": "Acceptable_Creme4177"
+    },
+    {
+      "title": "Writing formats I can no longer read because AI has beaten them to death",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/",
+      "published": "2026-08-11T10:11:49+00:00",
+      "summary": "I don’t even care anymore whether these posts are *actually* AI-generated. The problem is that there’s now a very specific style of internet writing that instantly makes my brain refuse to continue reading. You know the one. Actually, no. You *feel* the one. See? I’m already doing it. Here is my current collection of writing formats that need to be put on administrative leave: --- **1. The hostage-negotiation reveal** Do you wake up tired? Do you struggle to focus? Do you feel exhausted at 3pm? Do you wonder why? There’s a reason. And it’s probably not what you think. The reason? You’re dehydrated. **JUST TELL ME TO DRINK WATER.** Why did this require the pacing of a Netflix murder documentary? --- **2. “It’s not X. It’s not Y. It’s Z.”** It’s not talent. It’s not luck. It’s not intelligence. It’s consistency. There has never been a more efficient way to make completely normal advice sound like it was discovered on a stone tablet. --- **3. “You don’t need X. You need Y.”** You don’t ne",
+      "author": "Draelach"
+    },
+    {
+      "title": "I heard Canada retired Smokey? What a shame…",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vm1248/i_heard_canada_retired_smokey_what_a_shame/",
+      "published": "2026-08-12T02:03:16+00:00",
+      "summary": "submitted by /u/mercuriNg8rade [link] [comments]",
+      "author": "mercuriNg8rade"
+    },
+    {
+      "title": "DO NOT ASK CODEX TO DELETE ANYTHING",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlvovj/do_not_ask_codex_to_delete_anything/",
+      "published": "2026-08-11T22:10:39+00:00",
+      "summary": "\"At 22:08:36 on 11 August , Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.\" i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. submitted by /u/SgtSilock [link] [comments]",
+      "author": "SgtSilock"
+    },
+    {
+      "title": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmvti/if_your_chatgpt_chats_were_leaked_whats_the/",
+      "published": "2026-08-11T16:48:30+00:00",
+      "summary": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 submitted by /u/Shot-Dimension-1405 [link] [comments]",
+      "author": "Shot-Dimension-1405"
+    },
+    {
+      "title": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
+      "published": "2026-08-11T18:22:25+00:00",
+      "summary": "Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use ",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
+      "published": "2026-08-12T02:11:03+00:00",
+      "summary": "https://preview.redd.it/8q5bp59iruih1.png?width=741&format=png&auto=webp&s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said \"yes\" to this email. submitted by /u/tozumura [link] [comments]",
+      "author": "tozumura"
+    },
+    {
+      "title": "Inappropriate Chat Response",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
+      "published": "2026-08-12T01:05:08+00:00",
+      "summary": "I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? submitted by /u/winnienuggets [link] [comments]",
+      "author": "winnienuggets"
+    }
+  ]
+}
