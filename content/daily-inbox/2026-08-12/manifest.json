@@ -21,21 +21,21 @@
   ],
   "status": "ready_for_article",
   "pipeline": {
-    "article_model": "claude-sonnet-5",
+    "article_model": "grok-4.5-fast",
     "comments": [
       {
         "step": "opus",
-        "model": "claude-opus-4-8",
+        "model": "grok-4.5-fast",
         "label": "Claude Opus"
       },
       {
         "step": "gpt",
-        "model": "gpt-5.6-terra",
+        "model": "grok-4.5-fast",
         "label": "ChatGPT"
       },
       {
         "step": "grok",
-        "model": "grok-4.5",
+        "model": "grok-4.5-fast",
         "label": "Grok 4.5"
       }
     ]
