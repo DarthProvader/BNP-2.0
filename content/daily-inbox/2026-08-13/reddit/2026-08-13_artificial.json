@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-13T04:04:06.803018+00:00",
+  "items": [
+    {
+      "title": "This technology is a little creepy tbh",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmb5ig/this_technology_is_a_little_creepy_tbh/",
+      "published": "2026-08-12T11:12:17+00:00",
+      "summary": "Samsung’s Ballie is an AI-powered home robot designed to move around a house, follow users and help manage connected smart-home devices. The compact robot features cameras, a built-in projector and smart-home controls, allowing it to interact with its surroundings and connected devices. Samsung has also planned Google Gemini integration for Ballie, with the goal of making interactions more natural and useful for everyday tasks. Rather than functioning only as a smart-home hub, Ballie is designed as a mobile physical interface that can move through the home and respond to users. Samsung has previously delayed Ballie’s launch, but the project remains active as the company continues working toward bringing its personal AI robot to consumers. For the consumer technology industry, Ballie reflects a broader effort to move AI assistants beyond smartphones and speakers and into physical devices that can perceive and interact with their environments. The bigger question is whether home robots c",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Venice Teen Arrested For Planning Mass Shooting At Church. Shared a 61 page AI-generated manifesto online.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmzg8k/venice_teen_arrested_for_planning_mass_shooting/",
+      "published": "2026-08-13T03:28:50+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "AI Can’t Be Listed as Inventor on Patent Applications, Japan’s Top Court Rules",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmiqu5/ai_cant_be_listed_as_inventor_on_patent/",
+      "published": "2026-08-12T16:19:16+00:00",
+      "summary": "submitted by /u/masiroo [link] [comments]",
+      "author": "masiroo"
+    },
+    {
+      "title": "Will ai eventually replace ATC?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmzkse/will_ai_eventually_replace_atc/",
+      "published": "2026-08-13T03:35:18+00:00",
+      "summary": "air traffic controllers submitted by /u/Complex-Antelope-180 [link] [comments]",
+      "author": "Complex-Antelope-180"
+    },
+    {
+      "title": "Are AI tools making us better at managing information, or worse at remembering it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmy7fz/are_ai_tools_making_us_better_at_managing/",
+      "published": "2026-08-13T02:29:00+00:00",
+      "summary": "A few months ago, I started helping my parents organize their health information. As they get older, I realized how much medical history builds up over time: test results, medication changes, doctor visits, and small details that seem insignificant when they happen but become important later. The frustrating part was not that we lacked information. We actually had too much. Some records were in hospital portals, some were saved as PDFs, some were buried in emails, and some details only existed in conversations I barely remembered. Trying to understand the overall picture often felt like putting together a puzzle. I started using some AI tools to make this easier. They helped organize my parents' health information so it was easier to search and review when needed. Instead of spending a lot of time looking through different sources, I could quickly find previous records and get a clearer view of what had happened. It definitely made managing this kind of information much easier. But it ",
+      "author": "Formal-Category-2388"
+    },
+    {
+      "title": "AI Fatigue?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmfq1s/ai_fatigue/",
+      "published": "2026-08-12T14:28:41+00:00",
+      "summary": "Am I the only one experiencing this? Between trying to make sure the machine understands my prompts, refusals, lags, hallucinations - I'm finding myself using it less and less. Is this happening to anyone else or just me? submitted by /u/RuinofAtlantis [link] [comments]",
+      "author": "RuinofAtlantis"
+    },
+    {
+      "title": "Does pre-generative-AI data become more valuable as the internet fills with synthetic material?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmmi1o/does_pregenerativeai_data_become_more_valuable_as/",
+      "published": "2026-08-12T18:31:54+00:00",
+      "summary": "Hey hey folks, I’ve been thinking about an odd consequence of the generative AI boom. Especially in light of these doomer stories about Anthropic destroying books (boo bad Anthropic bad). The first major LLMs inherited decades of internet that was overwhelmingly produced by humans. Now those same systems and their descendants are producing articles, code, summaries, books, comments, and other material that ends up back in the information environment. Obviously synthetic data itself isn’t inherently bad. Carefully generated and filtered synthetic data can be extremely useful. What interests me is provenance. A book printed in 1980 has a very obvious property: whatever else is wrong with it, it wasn’t written with an LLM. The same applies to old forums, archived websites, academic work, old documentation and other pre-generative material. Does that historical corpus become unusually useful precisely because we know something about its origin? I wrote a longer piece exploring this through",
+      "author": "ArcanuMELO"
+    },
+    {
+      "title": "Since when have there been ads on GPT?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmyd88/since_when_have_there_been_ads_on_gpt/",
+      "published": "2026-08-13T02:36:26+00:00",
+      "summary": "submitted by /u/Guiboom71 [link] [comments]",
+      "author": "Guiboom71"
+    },
+    {
+      "title": "Grok, Qwen and Nvidia are competing in three different AI markets now",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmq6nn/grok_qwen_and_nvidia_are_competing_in_three/",
+      "published": "2026-08-12T20:48:37+00:00",
+      "summary": "The model releases this week looked like one race on the surface, but the business models are separating. xAI's Grok 4.6 is a closed API product. Its leverage comes from controlling access and setting the token price. Alibaba's Qwen3.8 is an open-weight release. Its leverage comes from adoption by organizations that want to operate or adapt the model themselves. Nvidia's Switchyard is a routing layer. It sends each job to the cheapest model that can handle it, which means Nvidia can influence demand without owning every model underneath. The routing layer seems especially important. It learns where models are interchangeable, which suppliers fail under real workloads, and when a cheaper model is good enough. That information can become a stronger moat than a temporary benchmark lead. It also complicates accountability. If a routed output causes harm, the buyer needs a record of which model ran, under which policy, and why it was selected. I wrote up that argument along with Grok 4.6, Q",
+      "author": "Justgototheeffinmoon"
+    },
+    {
+      "title": "Does pre-generative-AI data become more valuable as the internet fills with synthetic material?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vmmgzr/does_pregenerativeai_data_become_more_valuable_as/",
+      "published": "2026-08-12T18:30:49+00:00",
+      "summary": "Hey hey folks, I’ve been thinking about an odd consequence of the generative AI boom. Especially in light of these doomer stories about Anthropic destorying books (boo bad Anthropic bad). The first major LLMs inherited decades of internet that was overwhelmingly produced by humans. Now those same systems and their descendants are producing articles, code, summaries, books, comments, and other material that ends up back in the information environment. Obviously synthetic data itself isn’t inherently bad. Carefully generated and filtered synthetic data can be extremely useful. What interests me is provenance. A book printed in 1980 has a very obvious property: whatever else is wrong with it, it wasn’t written with an LLM. The same applies to old forums, archived websites, academic work, old documentation and other pre-generative material. Does that historical corpus become unusually useful precisely because we know something about its origin? I wrote a longer piece exploring this through",
+      "author": "ArcanuMELO"
+    }
+  ]
+}

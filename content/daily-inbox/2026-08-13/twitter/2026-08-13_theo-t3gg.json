@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-13T04:01:32.183658+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087661046744174961",
+      "published": "2026-08-12T21:02:35+00:00",
+      "summary": "Live nerds nitter.net/i/broadcasts/1vKpPNPXO… Link Theo - t3.gg Grok 4.6 + Deepseek 4.1 + I'm back nerds! https://nitter.net/i/broadcasts/1vKpPNPXOAZKE",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087651660151853528",
+      "published": "2026-08-12T20:25:17+00:00",
+      "summary": "Live at 3pm. Talking about new Grok and Deepseek models. What else should I cover?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/mehdi_khoudali/status/2087624875837940195",
+      "published": "2026-08-12T18:38:51+00:00",
+      "summary": "I've been coding like a dog with this app, can't realise how fast it is compared to codex, just WOW. Theo - t3.gg (@theo) Snuck a new \"draft\" feature into the T3 Code nightly release :) Fixes the \"oh shoot I need more info before starting this thread\" problem. Surprised how much I've been liking this small change. Video — https://nitter.net/theo/status/2086565444618797311#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/makeavish11/status/2087594794038264109",
+      "published": "2026-08-12T16:39:19+00:00",
+      "summary": "This is best remote control for coding agents I have used 2 person team is outperforming big labs! Theo - t3.gg (@theo) \"npx t3 connect\" This one's been a lot of work. You can now set up remote control for T3 Code on any internet-connected box with literally one command. All for free. T3 Connect is a minimal open source tunnel layer allowing you to control T3 Code instances remotely without needing Tailscale set up. I've been daily driving it for a month and it has changed how I code. Julius and I put a lot of effort into making setup as smooth as possible. Step 1: Install Claude Code, Codex, OpenCode, or Grok Build Step 2: Run \"npx t3 connect\" Step 3: Click link and sign in Step 4: You can now control that computer on T3 Code web, desktop or mobile (dropping very soon) We are currently providing this for free (s/o CloudFlare for bumping our tunnel limits). Every user can connect up to 3 devices. We don't want to charge for this, but if the bill gets unacceptable we may have to change ",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2087625841069248968",
+      "published": "2026-08-12T18:42:41+00:00",
+      "summary": "Okay fine, AI definitely wasted a bunch of water here Dexerto (@Dexerto) A farmer killed nearly 25 acres of his own crop after listening to an AI app It recommended spraying a chemical that destroyed weeds and also his plants — https://nitter.net/Dexerto/status/2087343329771991340#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

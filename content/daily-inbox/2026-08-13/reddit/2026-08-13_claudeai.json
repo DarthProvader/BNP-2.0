@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-13T04:03:15.448684+00:00",
+  "items": [
+    {
+      "title": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmsrq0/your_claude_in_chrome_sessions_now_carry_over_to/",
+      "published": "2026-08-12T22:29:38+00:00",
+      "summary": "We've rebuilt the Claude in Chrome side panel as a Claude Cowork session, with the same conversation history, skills, and connectors as Claude on desktop, web, and mobile. Sessions live with your account, not on any single device. Start a task in a browser tab and pick it up on your desktop or phone, with the whole conversation saved to your history. The new side panel is on the Max and Team plans today, and rolling out to the Pro plan in the coming weeks. Enterprise plan admins can enable it for their orgs. Browser agents can be tricked by instructions hidden in a page. We build defenses against this, and we still recommend a few habits of your own. What we do, and what we suggest: https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely Give it a try: https://claude.com/chrome submitted by /u/ClaudeOfficial [link] [comments]",
+      "author": "ClaudeOfficial"
+    },
+    {
+      "title": "I asked Opus 5 to build GTA6 on its own in 24 hours",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmjzh7/i_asked_opus_5_to_build_gta6_on_its_own_in_24/",
+      "published": "2026-08-12T17:02:37+00:00",
+      "summary": "I asked Opus 5 to build GTA6 autonomously. after that it was on its own. it picks the city, the districts, the roads, the buildings, the people, the cars, the weather. I never tell it how to do anything. This is a gameplay + trailer for what it produced. It is not good and i'm posting it anyway, rough as hell but you can see where it's going. Edit: Lots of people have been asking which game engine was used and more such details, so I’m sharing the exact harness I built and used. It contains all the skills, agents, tooling, resources, and models used. https://github.com/ukanwat/aaabench submitted by /u/ukanwat [link] [comments]",
+      "author": "ukanwat"
+    },
+    {
+      "title": "PSA: your claude code sessions are on disk as plaintext json, including everything you ever pasted",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmpplr/psa_your_claude_code_sessions_are_on_disk_as/",
+      "published": "2026-08-12T20:30:28+00:00",
+      "summary": "i went looking for something i'd done weeks ago & found out claude code keeps the whole thing locally. this seems to be news to a lot of people so here it is. they live in ~/.claude/projects/<slugified-path>/<session-id>.jsonl , one folder per project, one file per session. on windows that's C:\\Users\\you\\.claude\\projects\\ . each line is a json object. user turns, assistant turns, and crucially the tool calls & their results, so it's not just the conversation, it's what actually got run and what came back. three things that made it worth knowing: grep works. rg \"some command\" ~/.claude/projects finds the thing you half remember from three weeks ago, in the session where you actually ran it. you can audit what an agent really did rather than what it said it did. the tool_result entries are the ground truth. they're bigger than you'd think. one project on my machine has 71 session files, and the largest single session is 35mb. if you've been using it daily since launch, that's real disk. ",
+      "author": "CoderLuii"
+    },
+    {
+      "title": "Sonnet 5's pricing is outrageous",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmyaoc/sonnet_5s_pricing_is_outrageous/",
+      "published": "2026-08-13T02:33:06+00:00",
+      "summary": "Been tracking since early June. I'm afraid for when the discount ends. Everything but Fable and Opus 4.8 is subagent usage so input x output ratio is high but still, Opus 5 + Sol are looking like the better priced options for a workhorse right now (I haven't tested Terra all that much considering OAI resets tbh - it could be even better). Thank god for the Max plan. Thoughts? submitted by /u/arthurlindao [link] [comments]",
+      "author": "arthurlindao"
+    },
+    {
+      "title": "Zero After Effects: Claude Code built, animated, and edited a full 60s commercial for my startup.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmp3gp/zero_after_effects_claude_code_built_animated_and/",
+      "published": "2026-08-12T20:07:05+00:00",
+      "summary": "I built a job-hunt platform with Claude Code that I'm genuinely proud of, but as a full-stack engineer, promotion is definitely not my forte. The platform does too much to explain in a quick paragraph, so I needed a high-paced video that shows the entire user flow in 60 seconds. Inspired by u/BiosRios ' post , I decided to see if Claude Code could just make the commercial for me. No After Effects, no Premiere, no motion software. The entire video is a web composition (HTML/JS/CSS) that Claude wrote, and it even handled the screen recording and the final video edit itself. Claude handled the scene structure, the animation timing, and the typography. I just acted as the director and giving notes beat by beat and scene by scene like a standard review round, and having it recut the parts that weren't landing. At one point, two takes came back with the exact same visual glitch at the same timestamp. Claude actually debugged its own video output, figured out it was causing the rendering issu",
+      "author": "enzoshadow"
+    },
+    {
+      "title": "New to Claude but this is the greatest interaction I’ve ever had with any AI model.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vm8zgv/new_to_claude_but_this_is_the_greatest/",
+      "published": "2026-08-12T09:13:54+00:00",
+      "summary": "submitted by /u/reprobyte [link] [comments]",
+      "author": "reprobyte"
+    },
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmtj8f/show_us_what_youve_created_with_claude/",
+      "published": "2026-08-12T23:01:37+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "The True Motive Behind Watermarking: To Avoid AI-generated Text During Training",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmgctq/the_true_motive_behind_watermarking_to_avoid/",
+      "published": "2026-08-12T14:52:27+00:00",
+      "summary": "Did no one notice? This solves in an elegant way the well known problem: if the internet will be full of AI slop how can the AI companies train their model without poisoning the data set and avoid the Ouroboros problem - AI eating its own generated text during the training? Well, detect the generated text and omit it from training. We know that Claude watermark texts but the fact other LLMs did not publish they do it, they are maybe, just maybe, doing it anyways. Still I think the problem is the quality will be worse for high quality texts because it essentially changes the NATURAL word frequency (so the result inevitably will be UNNATURAL). submitted by /u/JakubErler [link] [comments]",
+      "author": "JakubErler"
+    },
+    {
+      "title": "What am I missing out on with AI, and how do I learn to use it differently?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmvq7c/what_am_i_missing_out_on_with_ai_and_how_do_i/",
+      "published": "2026-08-13T00:36:08+00:00",
+      "summary": "I’ve been using AI chat, code or even in terminal, mostly through normal conversations, asking questions, getting help, and working through things step by step. So far, I’ve mainly used it to build a few automations for social media and for news scoping/research. It’s been useful, but I have a feeling I’m only scratching the surface of what I could actually be doing with it. The problem is that I don’t really know what I’m missing. If you’ve gone from using AI chats for basic conversations to using it in more advanced or interesting ways, what changed about how you approached it? What kinds of things are you doing with Claude that you wouldn’t necessarily think to try if you were just starting with chat → question → answer? I’m particularly interested in things like: workflows or systems you’ve built around AI ways you use it for work/business/research projects that taught you a new way of thinking about AI features or capabilities that are easy to overlook ways to get AI to actually d",
+      "author": "alwayssadbut"
+    },
+    {
+      "title": "At last! I thought y'all were hallucinating......",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vms9yu/at_last_i_thought_yall_were_hallucinating/",
+      "published": "2026-08-12T22:10:24+00:00",
+      "summary": "After using Claude for 4 months I got got my first load-bearing response! load bearing you say? I feel truly part of the community now :) submitted by /u/cosmonz [link] [comments]",
+      "author": "cosmonz"
+    }
+  ]
+}

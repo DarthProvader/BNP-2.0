@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Lex Fridman Podcast",
+  "source_slug": "lex-fridman",
+  "feed_url": "https://lexfridman.com/feed/podcast/",
+  "tags": [
+    "interview",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-13T04:00:57.867168+00:00",
+  "items": [
+    {
+      "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+      "url": "https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov",
+      "published": "2026-08-12T12:11:45+00:00",
+      "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It’s translated and dubbed into English. Both language audio tracks (and subtitles) are available on YouTube. Here, only the English audio is available. We worked hard to make it enjoyable to listen to, by carefully dubbing the translation using voice-cloning, as we’ve done for previous foreign-language podcasts.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep500-sc\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\nTranscript:\nhttps://lexfridman.com/khabib-nurmagomedov-transcript\nCONTACT LEX:\nFeedback – give feedback to Lex: https://lexfridman.com/survey\nAMA – submit questions, videos or call-in: https://lexfridman.com/ama\nHiring – join our team: https://lexfridman.com/hiring\nOther – other ways to get in touch: https://lexfridman.co",
+      "author": ""
+    }
+  ]
+}

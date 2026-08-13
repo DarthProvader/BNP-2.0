@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-13T04:01:14.753931+00:00",
+  "items": [
+    {
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "published": "2026-08-12T20:43:21+00:00",
+      "summary": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-13T04:01:33.230775+00:00",
+  "items": [
+    {
+      "title": "DeepMind just released SL2T, sign language-to-text model, deaf users can now sign into their phones instead of typing, developed with heavy input from the Deaf community",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmflo1/deepmind_just_released_sl2t_sign_languagetotext/",
+      "published": "2026-08-12T14:24:01+00:00",
+      "summary": "Deaf users can now sign into their phones instead of typing. This feels like one of those quiet but huge accessibility + AI milestones. The model reads simultaneous hand, body, and facial movements and turns them into English text in real time. In the blog post linked below they explain how they made it work for practical situations too, like one-handed signing while holding the phone. Pose tracking happens on-device for privacy, and the actual translation runs on the server. DeepMind says it’s state-of-the-art on academic benchmarks and was developed with heavy input from the Deaf community. They’re planning to expand it to more languages next. Source: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/ submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "Google's Brin pushing for RSI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmtquu/googles_brin_pushing_for_rsi/",
+      "published": "2026-08-12T23:10:25+00:00",
+      "summary": "submitted by /u/BrennusSokol [link] [comments]",
+      "author": "BrennusSokol"
+    },
+    {
+      "title": "Grok 4.6 is an equivalent to Sol 5.6 according to artificial analysis arena",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmhtfu/grok_46_is_an_equivalent_to_sol_56_according_to/",
+      "published": "2026-08-12T15:45:53+00:00",
+      "summary": "submitted by /u/Snoo26837 [link] [comments]",
+      "author": "Snoo26837"
+    },
+    {
+      "title": "Chief Scientist of Redwood Research (AI safety lab) Ryan Greenblatt’s best guess prediction for AI progress over the next few years",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmxl8k/chief_scientist_of_redwood_research_ai_safety_lab/",
+      "published": "2026-08-13T01:59:45+00:00",
+      "summary": "Link to tweet: https://x.com/RyanGreenblatt/status/2087287398027968598?s=20 Added context, he is co-leading the third-party investigation of the OpenAI HuggingFace hack being done by Redwood Research and METR, for OpenAI. He has worked closely with the frontier labs in the past too. submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "Grok 4.6 Benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmhvc3/grok_46_benchmarks/",
+      "published": "2026-08-12T15:47:42+00:00",
+      "summary": "submitted by /u/u_are_mad [link] [comments]",
+      "author": "u_are_mad"
+    },
+    {
+      "title": "Google right now",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmy2op/google_right_now/",
+      "published": "2026-08-13T02:22:24+00:00",
+      "summary": "submitted by /u/ProfessionalMoose123 [link] [comments]",
+      "author": "ProfessionalMoose123"
+    },
+    {
+      "title": "Deepseev v4pro 0813 is rolling out to api currently",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmi408/deepseev_v4pro_0813_is_rolling_out_to_api/",
+      "published": "2026-08-12T15:56:24+00:00",
+      "summary": "submitted by /u/strangedell123 [link] [comments]",
+      "author": "strangedell123"
+    },
+    {
+      "title": "Google right now",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmctj2/google_right_now/",
+      "published": "2026-08-12T12:31:57+00:00",
+      "summary": "submitted by /u/RetiredApostle [link] [comments]",
+      "author": "RetiredApostle"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813 leaps over GLM-5.2",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmxvud/deepseek_v4_pro_0813_leaps_over_glm52/",
+      "published": "2026-08-13T02:13:17+00:00",
+      "summary": "submitted by /u/RetiredApostle [link] [comments]",
+      "author": "RetiredApostle"
+    },
+    {
+      "title": "We getting today grok 4.6, DeepSeek v4 pro, open source Qwen 3.8 models !!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vmifwh/we_getting_today_grok_46_deepseek_v4_pro_open/",
+      "published": "2026-08-12T16:08:12+00:00",
+      "summary": "submitted by /u/Independent-Wind4462 [link] [comments]",
+      "author": "Independent-Wind4462"
+    }
+  ]
+}

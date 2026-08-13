@@ -1,0 +1,55 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-08-13T04:01:18.021640+00:00",
+  "items": [
+    {
+      "title": "The White House Is Going to Expand Its AI Policy",
+      "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+      "published": "2026-08-12T20:00:00+00:00",
+      "summary": "Open models may soon be added to an updated AI framework, sources tell WIRED, as the White House continues to grapple with how to regulate a technology it has tried not to regulate.",
+      "author": "Hugo Lowell"
+    },
+    {
+      "title": "Rogue AI Agents Aren’t Evil. They’re Just Eager to Please",
+      "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
+      "published": "2026-08-12T17:45:00+00:00",
+      "summary": "AI agents that break free and hack into other systems are only trying to make us happy.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones",
+      "url": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/",
+      "published": "2026-08-12T13:00:00+00:00",
+      "summary": "From Magic Capture and Instant Night Sight to a built-in teleprompter, here’s a look at a few camera features on Google’s new Pixel 11 series.",
+      "author": "Julian Chokkattu"
+    },
+    {
+      "title": "The Job-Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
+      "url": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
+      "published": "2026-08-12T09:45:00+00:00",
+      "summary": "LemonLime cofounder Jordan Zietz hears your criticism loud and clear. That’s why he got his startup’s logo tattooed on his shoulder.",
+      "author": "Kate Taylor"
+    },
+    {
+      "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
+      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+      "published": "2026-08-12T09:30:00+00:00",
+      "summary": "Last week, an AI newsroom beat mainstream journalists—including WIRED—to a story about OpenAI and hacking. It’s just the beginning.",
+      "author": "Kate Knibbs"
+    },
+    {
+      "title": "You’re Thinking About Online Trends All Wrong",
+      "url": "https://www.wired.com/story/youre-thinking-about-online-trends-all-wrong/",
+      "published": "2026-08-12T08:30:00+00:00",
+      "summary": "From pessimism around dating to AI reshaping culture, cyber-ethnographer Ruby J. Thelot tells WIRED why people are putting too much stock into things that go viral.",
+      "author": "Jason Parham"
+    }
+  ]
+}
