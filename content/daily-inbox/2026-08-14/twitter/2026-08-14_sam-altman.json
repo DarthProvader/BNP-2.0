@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-14T04:02:06.895524+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2088101491802243121",
+      "published": "2026-08-14T02:12:45+00:00",
+      "summary": "/ultrafast OpenAI (@OpenAI) Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed. Launching first in the OpenAI API to a select group of customers with expanded access to more businesses as capacity grows. Video — https://nitter.net/OpenAI/status/2087947721936359705#m",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/FoundationOAI/status/2087911509997531178",
+      "published": "2026-08-13T13:37:50+00:00",
+      "summary": "The OpenAI Foundation is launching AI for Civil Society and Philanthropy to help nonprofits, community organizations, and other trusted partners put advanced AI to work on urgent challenges, develop practical solutions and scale what works. The first effort is a $100 million commitment with Common Health Coalition to launch Breakthroughs to Follow-through to help care teams use AI to reach more patients with proven treatments - starting with the goal of doubling hepatitis C cure rates in Alabama, Illinois, Louisiana, and Massachusetts. Breakthroughs to Follow-through will work to identify patients who have fallen out of care, synthesize records, track progress, and focus limited staff time where it can have the greatest impact. The OpenAI Foundation wants to empower those who are closest to issues and to put AI to work where it can make a meaningful difference in people’s lives. openaifoundation.org/news/ci… Video",
+      "author": "sama",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

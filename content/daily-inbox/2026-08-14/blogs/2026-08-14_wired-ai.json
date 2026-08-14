@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-08-14T04:02:05.511352+00:00",
+  "items": [
+    {
+      "title": "The Safety Reckoning Inside OpenAI",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+      "published": "2026-08-13T21:37:19+00:00",
+      "summary": "OpenAI’s rogue agent hack was a watershed moment for AI safety and cybersecurity. It also sparked internal questions about the culture that led to it.",
+      "author": "Maxwell Zeff"
+    },
+    {
+      "title": "Mark Zuckerberg’s AI Manifesto Is 6,500 Words—and Barely Says Anything",
+      "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
+      "published": "2026-08-13T20:14:43+00:00",
+      "summary": "AI is shifting the culture, from tech CEO manifestos to 1 am job interviews. We unpack some of the latest, along with the top findings from Black Hat and Defcon, this week on Uncanny Valley.",
+      "author": "Brian Barrett, Zoë Schiffer, Leah Feiger, Andy Greenberg"
+    },
+    {
+      "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+      "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+      "published": "2026-08-13T08:00:00+00:00",
+      "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+      "author": "David Cox"
+    }
+  ]
+}

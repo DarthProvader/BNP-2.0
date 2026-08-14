@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-14T04:02:02.208032+00:00",
+  "items": [
+    {
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+      "published": "2026-08-13T18:38:58+00:00",
+      "summary": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

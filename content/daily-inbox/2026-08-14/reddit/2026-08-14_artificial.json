@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-14T04:05:52.307006+00:00",
+  "items": [
+    {
+      "title": "How well do AI voice agents handle people who constantly interrupt?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnqdgc/how_well_do_ai_voice_agents_handle_people_who/",
+      "published": "2026-08-13T23:08:15+00:00",
+      "summary": "This is a thing I keep noticing in real customer calls that doesn’t really show up in voice AI demos. People interrupt constantly. They start answering before the question is finished, correct themselves halfway through a sentence, say 'wait actually…' and completely change what they were asking about. That’s normal when two people are talking but it seems like a pretty difficult problem for an AI voice agent because it has to know whether the customer is adding context, correcting something or trying to stop the current response entirely. We’re looking at enterprise voice AI for longer customer service conversations and I’m beginning to wonder if turn taking is as important as natural voice. For anyone testing conversational AI over the phone, how are you testing interruptions? Is this still something customers notice pretty quickly? submitted by /u/CheesecakeAbject1381 [link] [comments]",
+      "author": "CheesecakeAbject1381"
+    },
+    {
+      "title": "What's an AI trend that quietly died: and what replaced it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnabhp/whats_an_ai_trend_that_quietly_died_and_what/",
+      "published": "2026-08-13T13:11:23+00:00",
+      "summary": "What's an AI trend that quietly died: and what replaced it? I'll go first: generic \"AI will replace everything\" blog content. It peaked and fizzled because people got tired of being shouted at. What replaced it (for me at least) is boring, specific use-cases: \"here's a script that triages my inbox\" beats \"the future of work\" every time. I think the same thing is happening with agent hype: everyone's demoing, few are shipping something that runs for a month. What trend are you glad to see go? submitted by /u/Positive-Ad3618 [link] [comments]",
+      "author": "Positive-Ad3618"
+    },
+    {
+      "title": "And Claude has a watermark now.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnwnep/and_claude_has_a_watermark_now/",
+      "published": "2026-08-14T03:58:54+00:00",
+      "summary": "submitted by /u/Imoldok [link] [comments]",
+      "author": "Imoldok"
+    },
+    {
+      "title": "Andrej Karpathy just admitted OpenAI's own researchers feel the same career anxiety we do — his actual reasoning is more useful than the doom headlines",
+      "url": "https://www.reddit.com/r/artificial/comments/1vn601y/andrej_karpathy_just_admitted_openais_own/",
+      "published": "2026-08-13T09:35:23+00:00",
+      "summary": "Watching a former Tesla AI Director shrug and say \"I can't tell if that's temporary, I'm not sure how I feel about it yet\" did something to me. Usually it's the junior guy admitting that. Not the guy who helped build the thing. The people who end up fine here aren't the loudest about how safe their job is. They're just already standing close enough to the mechanism to redirect it, instead of getting redirected by it. Karpathy's actual point isn't doom. It's the Jevons paradox — code gets cheaper, so total demand for it goes up. Just not for the same kind of engineer who got hired in 2019. I watched a version of this play out years ago, before any of this AI stuff existed. I was the technical guy in a construction tender department. Rule-based work — you follow A, you get B. A sub-contractor came in to pitch his quotation. On his way out, in the corridor, we locked eyes and instantly recognized each other. I knew him — my senior once told me how this guy forced his way into building an ",
+      "author": "cen6wkf"
+    },
+    {
+      "title": "Hackers used autonomous AI agents to attack Taiwan. Is this the future of cyberwarfare?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnc7hm/hackers_used_autonomous_ai_agents_to_attack/",
+      "published": "2026-08-13T14:25:18+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "AI CEO Building Platform Based On Human Nature Is Confused By Human Nature",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnf4nc/ai_ceo_building_platform_based_on_human_nature_is/",
+      "published": "2026-08-13T16:10:41+00:00",
+      "summary": "submitted by /u/Calvinball_24 [link] [comments]",
+      "author": "Calvinball_24"
+    },
+    {
+      "title": "[Academic Survey] Employees working in Germany: Attitudes toward AI in the workplace (5–7 min)",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnchse/academic_survey_employees_working_in_germany/",
+      "published": "2026-08-13T14:36:09+00:00",
+      "summary": "Hi everyone! I'm conducting this survey as part of my Master's thesis and would greatly appreciate your participation. The research examines how employees' perceptions of HR practices relate to work engagement and innovativeness, and how attitudes toward the application of Artificial Intelligence in the workplace influence these relationships. Who can participate? You are currently working in Germany (full-time or part-time). You are 18 years or older . The survey is anonymous , takes 5–7 minutes , and all responses will be used solely for academic research . 👉 Survey: https://pollmill.com/f/xya75pv.f Even if you don't actively use AI at work, your perspective is still valuable —the study focuses on employees' attitudes toward AI in the workplace, not their level of AI usage. Thank you for helping with my research! submitted by /u/miawallace1997 [link] [comments]",
+      "author": "miawallace1997"
+    },
+    {
+      "title": "The White House is reportedly preparing to bring open AI models under its secret prerelease safety-testing framework. So yeah, its getting interesting.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vn3n70/the_white_house_is_reportedly_preparing_to_bring/",
+      "published": "2026-08-13T07:15:33+00:00",
+      "summary": "WIRED says the voluntary framework currently covers frontier closed models from labs such as OpenAI and Anthropic. Open models are expected to join once they reach comparable capabilities, potentially facing a 30-day testing period before public release. Officials are caught between two risks: excluding open models could create a government-approved advantage for closed labs; including them could slow US open-model development. submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Cascadia Launches Distributed AI Inference for Intel Hardware",
+      "url": "https://www.reddit.com/r/artificial/comments/1vnbxow/cascadia_launches_distributed_ai_inference_for/",
+      "published": "2026-08-13T14:14:59+00:00",
+      "summary": "submitted by /u/techne98 [link] [comments]",
+      "author": "techne98"
+    },
+    {
+      "title": "Namecheap is currently completely down",
+      "url": "https://www.reddit.com/r/artificial/comments/1vndzuy/namecheap_is_currently_completely_down/",
+      "published": "2026-08-13T15:30:45+00:00",
+      "summary": "Namecheap is currently experiencing a major outage following a power failure affecting its Phoenix data center. Web hosting, websites, DNS, email services, and other Namecheap services may currently be unavailable or disrupted. So if your website or hosting is suddenly offline, the issue is likely on Namecheap’s side rather than with your own server or configuration. Emergency maintenance is currently underway. submitted by /u/didiTonic [link] [comments]",
+      "author": "didiTonic"
+    }
+  ]
+}

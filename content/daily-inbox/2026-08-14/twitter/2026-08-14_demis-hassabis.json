@@ -1,0 +1,49 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-14T04:02:13.953973+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2087995995694960670",
+      "published": "2026-08-13T19:13:33+00:00",
+      "summary": "Oh yes, and Flash 3.7 is also lightning fast! ⚡️ Logan Kilpatrick (@OfficialLoganK) 3.7 Flash : ) — https://nitter.net/OfficialLoganK/status/2087976757731409998#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2087950102455271765",
+      "published": "2026-08-13T16:11:11+00:00",
+      "summary": "Gemini 3.7 Flash brings major upgrades for software engineering, web dev & knowledge work. And introductory price is half the original 3.6 Flash cost. Happy building - enjoy! Google DeepMind (@GoogleDeepMind) Gemini 3.7 Flash is here. It’s stronger for coding, knowledge work, and web development. 🧵 — https://nitter.net/GoogleDeepMind/status/2087948366294515977#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/demishassabis/status/2087885303855944001",
+      "published": "2026-08-13T11:53:42+00:00",
+      "summary": "SL2T is our amazing sign-language-to-text model allows users to sign directly to their phones for the first time. Built in close collaboration with the Deaf community, it’s a great example of the good that can be done with AI. Congrats to the team for the launch! Google DeepMind (@GoogleDeepMind) SL2T is our breakthrough sign language-to-text model powering new features for Deaf and hard of hearing users on @Android . Starting with American Sign Language-to-English on Pixel 11, people can sign directly into Gboard and Live Transcribe instead of typing. Video — https://nitter.net/GoogleDeepMind/status/2087541213284946191#m",
+      "author": "demishassabis",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

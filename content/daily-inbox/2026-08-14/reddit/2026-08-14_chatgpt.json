@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-14T04:03:09.728701+00:00",
+  "items": [
+    {
+      "title": "Told ChatGPT I was uninstalling it. I expected more begging if I’m honest 😃",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vndo7r/told_chatgpt_i_was_uninstalling_it_i_expected/",
+      "published": "2026-08-13T15:18:59+00:00",
+      "summary": "submitted by /u/MJB17 [link] [comments]",
+      "author": "MJB17"
+    },
+    {
+      "title": "Help! I was swallowed by a whale",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbatk/help_i_was_swallowed_by_a_whale/",
+      "published": "2026-08-13T13:50:49+00:00",
+      "summary": "Poor GPT, submitted by /u/PlantainSeveral1188 [link] [comments]",
+      "author": "PlantainSeveral1188"
+    },
+    {
+      "title": "Robot Friends",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpr5x/robot_friends/",
+      "published": "2026-08-13T22:41:49+00:00",
+      "summary": "submitted by /u/Darri3D [link] [comments]",
+      "author": "Darri3D"
+    },
+    {
+      "title": "Prompt: Make an image from an useless ChatGPT product",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
+      "published": "2026-08-13T15:34:39+00:00",
+      "summary": "submitted by /u/SomeGrapefruit2435 [link] [comments]",
+      "author": "SomeGrapefruit2435"
+    },
+    {
+      "title": "New movie",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnr5l5/new_movie/",
+      "published": "2026-08-13T23:42:02+00:00",
+      "summary": "submitted by /u/Otherwise_Yak_5344 [link] [comments]",
+      "author": "Otherwise_Yak_5344"
+    },
+    {
+      "title": "Well, that turned dark quickly",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vn6hcd/well_that_turned_dark_quickly/",
+      "published": "2026-08-13T10:03:15+00:00",
+      "summary": "submitted by /u/Level_Couple6818 [link] [comments]",
+      "author": "Level_Couple6818"
+    },
+    {
+      "title": "I asked how many chickens it would take to kill a t-Rex. Then to visualize the scenario.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbsi4/i_asked_how_many_chickens_it_would_take_to_kill_a/",
+      "published": "2026-08-13T14:09:29+00:00",
+      "summary": "I’d estimate: 10–100 chickens: T. rex treats them as an irritating snack. 1,000 chickens: Potentially annoying and capable of causing superficial injuries, but T. rex wins decisively. 10,000 chickens: Now the dinosaur has a serious problem. It could kill hundreds, but eventually exhaustion, eye injuries, and accumulated wounds become significant. 50,000–100,000 chickens: I’d bet on the chickens eventually overwhelming it through sheer numbers. Millions: The T. rex is basically being buried alive in poultry. submitted by /u/cjalas [link] [comments]",
+      "author": "cjalas"
+    },
+    {
+      "title": "I asked home many Lions it would take to kill a t-rex. It says between 35 to 45 male lions. Then to visualise the scenaio",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vn33ps/i_asked_home_many_lions_it_would_take_to_kill_a/",
+      "published": "2026-08-13T06:44:52+00:00",
+      "summary": "submitted by /u/isnisse [link] [comments]",
+      "author": "isnisse"
+    },
+    {
+      "title": "Thanks ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vndh0h/thanks_chatgpt/",
+      "published": "2026-08-13T15:11:43+00:00",
+      "summary": "My son's doctors office called saying they want to finish a series of vaccines but we lost our health insurance. They said it would cost $560 with cash pay..... I asked Chat what other options we had and it referred us to a no cost provider. Just a note of appreciation. Thanks Chat. submitted by /u/TheseCashews [link] [comments]",
+      "author": "TheseCashews"
+    },
+    {
+      "title": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+      "published": "2026-08-14T00:02:46+00:00",
+      "summary": "Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** submitted by /u/Smart_AI_Hustle [link] [comments]",
+      "author": "Smart_AI_Hustle"
+    }
+  ]
+}

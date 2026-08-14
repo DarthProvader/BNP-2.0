@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-14T04:02:17.441511+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088110153719844989",
+      "published": "2026-08-14T02:47:10+00:00",
+      "summary": "Are yall really making T3 Code contribution leaderboards?? Gabe Fletcher (@gabefletcher) @jullerino is an absolute monster. 3.7m lines of code. — https://nitter.net/gabefletcher/status/2088095186387636700#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088057260807532867",
+      "published": "2026-08-13T23:16:59+00:00",
+      "summary": "Gotta say that Matt's \"grill-me\" skill is exceptional and helps a ton with getting agents aligned with my brain",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088062833506533871",
+      "published": "2026-08-13T23:39:08+00:00",
+      "summary": "Just did a long grill and the 27th question made me realize what I really want. Ended up cutting scope by like 90%",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088059856213406012",
+      "published": "2026-08-13T23:27:18+00:00",
+      "summary": "I’m so deep in my AI psychosis that I think this sounds great OpenAI (@OpenAI) ChatGPT can now remember your activity across the apps and websites on your computer. With Computer History in the desktop app, future interactions feel more personalized and require less explanation. Video — https://nitter.net/OpenAI/status/2087996496088297746#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088060096266076509",
+      "published": "2026-08-13T23:28:15+00:00",
+      "summary": "I’m not gonna lie, I wanted this since Windows Recall/Rewind/whatever was announced. It got panned so hard that I kept my mouth shut. Enough time has passed that I’m gonna say fuck it and try this",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

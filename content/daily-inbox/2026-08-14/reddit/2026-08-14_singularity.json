@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-14T04:02:18.515126+00:00",
+  "items": [
+    {
+      "title": "Gemini 3.7 flash benchmark",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnguad/gemini_37_flash_benchmark/",
+      "published": "2026-08-13T17:12:09+00:00",
+      "summary": "submitted by /u/Expensive_Syrup_6529 [link] [comments]",
+      "author": "Expensive_Syrup_6529"
+    },
+    {
+      "title": "GPT-5.6 Sol can run now at an incredible rate of ~750 tokens per second",
+      "url": "https://www.reddit.com/r/singularity/comments/1vngnhy/gpt56_sol_can_run_now_at_an_incredible_rate_of/",
+      "published": "2026-08-13T17:05:18+00:00",
+      "summary": "submitted by /u/ProxyLumina [link] [comments]",
+      "author": "ProxyLumina"
+    },
+    {
+      "title": "3.7 flash looks fine I guess",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnhlu6/37_flash_looks_fine_i_guess/",
+      "published": "2026-08-13T17:38:54+00:00",
+      "summary": "Although it's still priced too high for a flash model for my taste it seems like it's at least not absolutely outrageous anymore. submitted by /u/NoFaithlessness951 [link] [comments]",
+      "author": "NoFaithlessness951"
+    },
+    {
+      "title": "Anthropic: Introducing The Conceptual Reasoning Index",
+      "url": "https://www.reddit.com/r/singularity/comments/1vncr82/anthropic_introducing_the_conceptual_reasoning/",
+      "published": "2026-08-13T14:46:10+00:00",
+      "summary": "submitted by /u/EducationalCicada [link] [comments]",
+      "author": "EducationalCicada"
+    },
+    {
+      "title": "DeepSeek announce price increases of 50-1000%",
+      "url": "https://www.reddit.com/r/singularity/comments/1vn8qsr/deepseek_announce_price_increases_of_501000/",
+      "published": "2026-08-13T12:01:43+00:00",
+      "summary": "submitted by /u/AlyoshaV [link] [comments]",
+      "author": "AlyoshaV"
+    },
+    {
+      "title": "Grok 4.6 Edges Out GPT 5.6 Sol Pro On SimpleBench",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnp6e5/grok_46_edges_out_gpt_56_sol_pro_on_simplebench/",
+      "published": "2026-08-13T22:18:29+00:00",
+      "summary": "submitted by /u/EducationalCicada [link] [comments]",
+      "author": "EducationalCicada"
+    },
+    {
+      "title": "Actually not bad for such low price ig",
+      "url": "https://www.reddit.com/r/singularity/comments/1vngqdt/actually_not_bad_for_such_low_price_ig/",
+      "published": "2026-08-13T17:08:16+00:00",
+      "summary": "submitted by /u/Independent-Wind4462 [link] [comments]",
+      "author": "Independent-Wind4462"
+    },
+    {
+      "title": "Gemini Flash 3.7 is at 50% discount on OpenRouter",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnpudv/gemini_flash_37_is_at_50_discount_on_openrouter/",
+      "published": "2026-08-13T22:45:39+00:00",
+      "summary": "I guess they want to hook you onto the model...in terms of cost per task according to Artificial Analysis this puts it right next to MiniMax M3 (with the discount) price wise. submitted by /u/elemental-mind [link] [comments]",
+      "author": "elemental-mind"
+    },
+    {
+      "title": "Gpt-5.6 Sol Ultrafast",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnqc4j/gpt56_sol_ultrafast/",
+      "published": "2026-08-13T23:06:34+00:00",
+      "summary": "I mean, we don't know prices yet, but please, please, please just give us Luna Ultrafast as well...something that the peasants can also afford at probably 3x or 5x the price. submitted by /u/elemental-mind [link] [comments]",
+      "author": "elemental-mind"
+    },
+    {
+      "title": "Software development is moving from “can you write the code?” to “can you make the right system exist?”",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnpff2/software_development_is_moving_from_can_you_write/",
+      "published": "2026-08-13T22:28:31+00:00",
+      "summary": "I think the endless “AI slop” argument is obscuring the more important transition happening in software. Code generation is getting cheaper. That does not make engineering disappear. It changes which part of engineering is scarce. When implementation is expensive, knowing how to manually produce implementation carries a lot of value. When implementation becomes dramatically cheaper, value moves toward problem definition, architecture, constraints, verification, security, testing, systems thinking and judgment. That is why I think blanket dismissal of AI-assisted software is going to age badly. Yes, generative systems can produce terrible code faster than humans can. That is a real problem. But the rational response is stronger quality control, not pretending the productivity gain is fake. A strong engineer with agents can potentially explore more designs, automate more tests, inspect more code paths, refactor faster and iterate more aggressively than the same engineer working manually.",
+      "author": "OGMYT"
+    }
+  ]
+}

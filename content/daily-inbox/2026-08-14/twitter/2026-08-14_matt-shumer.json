@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-14T04:02:11.565562+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088026930104684962",
+      "published": "2026-08-13T21:16:28+00:00",
+      "summary": "I have a Gauntlet Loop running on Grok 4.6. It’s been going for over a day now… super promising… not all models can do this. Excited to see what comes out!",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/prasenx/status/2087769416058741217",
+      "published": "2026-08-13T04:13:12+00:00",
+      "summary": "again i used the same thing. i told opus 4.6 to modify @mattshumer_ 's gauntlet prompt idk but this prompt just works everywhere perfectly opus 4.6 actually understands it better than 4.7 and 4.8 (don't tell me about 5 btw lol)",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

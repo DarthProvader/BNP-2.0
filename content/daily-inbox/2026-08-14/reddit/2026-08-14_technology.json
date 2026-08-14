@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-08-14T04:06:13.086995+00:00",
+  "items": [
+    {
+      "title": "'We're Not Big Brother': Flock CEO Unveils New Privacy Guardrails After Backlash",
+      "url": "https://www.reddit.com/r/technology/comments/1vnllu9/were_not_big_brother_flock_ceo_unveils_new/",
+      "published": "2026-08-13T20:00:58+00:00",
+      "summary": "submitted by /u/lurker_bee [link] [comments]",
+      "author": "lurker_bee"
+    },
+    {
+      "title": "Young Americans Don’t Trust Billionaire AI Leaders, New Poll Finds",
+      "url": "https://www.reddit.com/r/technology/comments/1vndqit/young_americans_dont_trust_billionaire_ai_leaders/",
+      "published": "2026-08-13T15:21:25+00:00",
+      "summary": "submitted by /u/MarvelsGrantMan136 [link] [comments]",
+      "author": "MarvelsGrantMan136"
+    },
+    {
+      "title": "Discord raises free upload limit to 20MB after lowering it two years ago because \"storage management is expensive\"",
+      "url": "https://www.reddit.com/r/technology/comments/1vnmb6w/discord_raises_free_upload_limit_to_20mb_after/",
+      "published": "2026-08-13T20:26:38+00:00",
+      "summary": "submitted by /u/IndicaOatmeal [link] [comments]",
+      "author": "IndicaOatmeal"
+    },
+    {
+      "title": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct",
+      "url": "https://www.reddit.com/r/technology/comments/1vnca0n/pbs_broadcaster_loses_access_to_50tb_of_data/",
+      "published": "2026-08-13T14:27:57+00:00",
+      "summary": "submitted by /u/ourlifeintoronto [link] [comments]",
+      "author": "ourlifeintoronto"
+    },
+    {
+      "title": "Flock “can’t tech its way out” of the stalker cop problem, experts say | Flock to lock out cops who stalk exes, but agencies can still hide abuse.",
+      "url": "https://www.reddit.com/r/technology/comments/1vnqart/flock_cant_tech_its_way_out_of_the_stalker_cop/",
+      "published": "2026-08-13T23:04:57+00:00",
+      "summary": "submitted by /u/andmario_com [link] [comments]",
+      "author": "andmario_com"
+    },
+    {
+      "title": "Bumble divides users by ditching its signature 'women-first' chat rule",
+      "url": "https://www.reddit.com/r/technology/comments/1vno0iz/bumble_divides_users_by_ditching_its_signature/",
+      "published": "2026-08-13T21:32:13+00:00",
+      "summary": "submitted by /u/sokos [link] [comments]",
+      "author": "sokos"
+    },
+    {
+      "title": "Researchers find Windows 11 can be hacked with no physical access with new attack",
+      "url": "https://www.reddit.com/r/technology/comments/1vnqj5d/researchers_find_windows_11_can_be_hacked_with_no/",
+      "published": "2026-08-13T23:15:09+00:00",
+      "summary": "submitted by /u/gdelacalle [link] [comments]",
+      "author": "gdelacalle"
+    },
+    {
+      "title": "Twitch finally lets you opt out of AI training, years after it started",
+      "url": "https://www.reddit.com/r/technology/comments/1vnka4t/twitch_finally_lets_you_opt_out_of_ai_training/",
+      "published": "2026-08-13T19:12:45+00:00",
+      "summary": "submitted by /u/AdSpecialist6598 [link] [comments]",
+      "author": "AdSpecialist6598"
+    },
+    {
+      "title": "In a first, US will allow some private firms to carry out cyberattacks",
+      "url": "https://www.reddit.com/r/technology/comments/1vnezov/in_a_first_us_will_allow_some_private_firms_to/",
+      "published": "2026-08-13T16:05:58+00:00",
+      "summary": "submitted by /u/lurker_bee [link] [comments]",
+      "author": "lurker_bee"
+    },
+    {
+      "title": "Flock Admits Failures That Put Innocent People at Risk, Overhauls Police Search Rules",
+      "url": "https://www.reddit.com/r/technology/comments/1vnibsq/flock_admits_failures_that_put_innocent_people_at/",
+      "published": "2026-08-13T18:03:56+00:00",
+      "summary": "submitted by /u/TripleShotPls [link] [comments]",
+      "author": "TripleShotPls"
+    }
+  ]
+}

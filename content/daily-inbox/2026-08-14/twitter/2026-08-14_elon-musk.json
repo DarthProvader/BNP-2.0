@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-14T04:02:05.718441+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2088100521261359218",
+      "published": "2026-08-14T02:08:53+00:00",
+      "summary": "Grok 4.6 will work best with the Grok Build harness. The experience will be significantly worse without it, so best to evaluate using Build. Grok.com/build Link Grok Grok is an AI assistant built by SpaceXAI. Chat, create images, write code, and get real-time answers from the web and X. grok.com Arthur MacWaters (@ArthurMacwaters) From my use so far, 4.6 seems highly optimized for Grok Build — https://nitter.net/ArthurMacwaters/status/2088044880379761103#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/TexasLindsay_/status/2087948377770119594",
+      "published": "2026-08-13T16:04:20+00:00",
+      "summary": "I’ve had my @Tesla for 9 days—and it’s already saved my life. Full Self-Driving with HW4 is mind-blowing. My car drove me ~800 miles from Georgia to Texas without me touching the wheel or pedals, while avoiding multiple collisions. I’ve never felt safer in a vehicle. Here’s one example of a collision avoided, automatically captured on camera. In this instance (though it doesn’t show my actual POV), sparks covered the windshield, lighting up the road like the Fourth of July and obstructing my view. Since I was in FSD, the car reacted immediately without overcorrecting like I likely would have, which could have led to a far worse outcome. Everyone who’s ridden with me and experienced FSD for the first time is blown away and now looking into buying one—including my parents, who like me have never owned an EV. There’s no telling how many lives this technology will save. This is hands-down the most incredible purchase I’ve ever made. God bless @elonmusk & the Tesla team🫡 Video",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/EndWokeness/status/2088016559755211058",
+      "published": "2026-08-13T20:35:15+00:00",
+      "summary": "Unlike her bro, she doesn't try to hide it End Wokeness (@EndWokeness) Abul El-Sayed's sister on Thanksgiving and July 4th: — https://nitter.net/EndWokeness/status/2088014600528703552#m",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2088037519312994480",
+      "published": "2026-08-13T21:58:33+00:00",
+      "summary": "Tesla self-driving is amazing Video",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/gailalfaratx/status/2088012952624418880",
+      "published": "2026-08-13T20:20:55+00:00",
+      "summary": "Just took a Tesla Robotaxi ride in an area of Austin where the normal wait in the past was up to 20 minutes and my wait was only two minutes and this was consistent every time I did this!",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

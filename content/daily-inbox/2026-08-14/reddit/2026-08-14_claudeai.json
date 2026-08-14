@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-14T04:04:00.926156+00:00",
+  "items": [
+    {
+      "title": "Example of a real working loop orchestrator",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnnpur/example_of_a_real_working_loop_orchestrator/",
+      "published": "2026-08-13T21:20:29+00:00",
+      "summary": "Hey everyone, Wanted to give a little peak into what one of my loop orchestors looks like as a 20+ year senior engineer & designer, so people could see a real working example. My orchestrator Lloyd's primary goal is managing it's own internal tickets table. In my example thats just a simple SQLite table. An orchestrator can do anything, so giving it a database to manage its own memory has compounding value. Lloyd has managed over 600 tickets for me that it can query (like it's own internal jira, that I can click through). This means every time I have a new ticket, it can look up previous related tickets. Just like any of us should when assigned new work. It gives the agent a database of tribal knowledge that can be passed to any model. https://preview.redd.it/0nyyd00bl7jh1.png?width=1940&format=png&auto=webp&s=f383811da3c23f3bc0645672291bcfa05e6de1ac The main concept I want to point out is the heart beat, and the pulse action items. You can see exactly where the value comes: - first it",
+      "author": "croovies"
+    },
+    {
+      "title": "I built a watercolor Simulator based on real physics (V2)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vn7yk3/i_built_a_watercolor_simulator_based_on_real/",
+      "published": "2026-08-13T11:23:50+00:00",
+      "summary": "Last week-end I built a watercolor simulator based on real physics and shared it online. A lot of people asked to play with it so i improved it and it's now live: https://sudoaquarelle.com/ New since the first prototype: - More pigments (52), based on the best research out there to predict color mixes (Kubelka-Munk). - More luminous / glassy feel - Some fun experimental stuff like the salt and alcohol techniques to alter the texture, a backlight effect and a few more. - I also added a \"Code Mode\" where the simulator prints its real function calls next to the sheet while you paint It's still largely based on the same physics model as my prototype: Curtis et al.'s \"Computer-Generated Watercolor\" / SIGGRAPH. It works in the browser. Current status: building and implementing a kid-friendly version. Plenty of awesome things to learn with watercolor painting! submitted by /u/kouklimou [link] [comments]",
+      "author": "kouklimou"
+    },
+    {
+      "title": "The three AI giants be like",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnpb13/the_three_ai_giants_be_like/",
+      "published": "2026-08-13T22:23:35+00:00",
+      "summary": "submitted by /u/DAPTIMEdagoat [link] [comments]",
+      "author": "DAPTIMEdagoat"
+    },
+    {
+      "title": "Why aren't businesses using Fable 5?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnj1xq/why_arent_businesses_using_fable_5/",
+      "published": "2026-08-13T18:29:21+00:00",
+      "summary": "Fable 5 accounts for only 11% of business spend on Anthropic models and it's not rising. Ramp data shows: https://econlab.substack.com/p/ai-index-august-2026 submitted by /u/Ambitious_Action_754 [link] [comments]",
+      "author": "Ambitious_Action_754"
+    },
+    {
+      "title": "Finally, Claude Code has “Auto-continue when limits reset”",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vndhg6/finally_claude_code_has_autocontinue_when_limits/",
+      "published": "2026-08-13T15:12:08+00:00",
+      "summary": "Just noticed this after hitting my Claude Code usage limit today. There’s now an “Auto-continue when limits reset” option, so Claude can automatically resume the session once your limit becomes available again. Really nice improvement for longer coding sessions. Has anyone else started seeing this yet? submitted by /u/Adex77 [link] [comments]",
+      "author": "Adex77"
+    },
+    {
+      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vndlg3/some_claude_users_are_mad_that_anthropics_new/",
+      "published": "2026-08-13T15:16:14+00:00",
+      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "author": "IKeepItLayingAround"
+    },
+    {
+      "title": "Opus 5 is actually almost rage-inducing to use.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vn8ml6/opus_5_is_actually_almost_rageinducing_to_use/",
+      "published": "2026-08-13T11:56:47+00:00",
+      "summary": "I've read the latest recommendations from Anthropic, I've tried all kinds of global claude.md file changes, but I just cannot make Opus 5 behave in a way that's pleasant to work with. I'm not talking about if it's \"nice\" or \"pleasant\" in its phrasing, I'm talking about the following: Responses are way too verbose and buzzwordy and hard to follow. I legit don't read 90% of the output anymore, that's how bad it is. No matter what I put in my claude.md when it comes to communication style, after it did any type of meaningful work, it always reverts back to its extremely verbose, over-explained, buzzword heavy mess. Huge sentences & paragraphs which contain multiple concepts at once, using buzzwords constantly that serve almost no purpose except making it harder to parse, and just overall doesn't stop yapping. Simple tasks turn into these huge \"projects\" no matter how small something is. On the flip side, it just doesn't actually finish things properly. It made a change to a file, which in",
+      "author": "ronoudgenoeg"
+    },
+    {
+      "title": "You never know the good days until they’re gone (unless you’re still using 4.6)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vn6b31/you_never_know_the_good_days_until_theyre_gone/",
+      "published": "2026-08-13T09:53:28+00:00",
+      "summary": "and yes I am still using 4.6 for a lot of stuff. Opus 5 literally floods the chat with so much nonsense chatter submitted by /u/No-Squash7469 [link] [comments]",
+      "author": "No-Squash7469"
+    },
+    {
+      "title": "I built my 9 year old's game concept with Claude Code. She wrote the design doc in a notebook.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnci9w/i_built_my_9_year_olds_game_concept_with_claude/",
+      "published": "2026-08-13T14:36:39+00:00",
+      "summary": "Le Royaume des Pépins, is a browser game. A fruit kingdom gets invaded by germs and microbes. You play a watermelon that needs to purify the kingdom and take down the germs trying to destroy it. Runs in any browser and mobile as well. Where the idea came from My daughter (9) and her friend wrote this in a notebook over the summer's holidays: \"Once upon a time there was a little slice of watermelon who lived in a very happy town. He met a lemon who said, there's an army of germs coming! I suggest you go to the market that sells weapons, it's not very far.\" THB I loved that pitch. Only kids can come up with these kind of ideas. I used their drawings as is, only did some cleanup and colored them with GPT and build the 3D with Meshy, so the characters kept their original shapes instead of drifting into generic AI fruit. How Claude helped Claude Code is the main coding agent I used. Concretely: I pasted their notebook page in close to verbatim instead of rewriting it into a proper design do",
+      "author": "titkun"
+    },
+    {
+      "title": "I Vibe Coded Half My Job",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vnsu99/i_vibe_coded_half_my_job/",
+      "published": "2026-08-14T00:57:04+00:00",
+      "summary": "And I barely know what I’m doing with the tool. It’s been a week. I imagine it’s only a matter of time before the brass in my company figures this all out. Is it months? Years? Do I just enjoy the free time it will afford me or do I figure out a way to make money off of it while I still can? Where do I go from here? submitted by /u/StandUpPeddlingMode [link] [comments]",
+      "author": "StandUpPeddlingMode"
+    }
+  ]
+}
