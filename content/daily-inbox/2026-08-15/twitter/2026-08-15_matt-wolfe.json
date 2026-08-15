@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "handle": "mreflow",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-08-15T04:02:00.477824+00:00",
+  "items": [
+    {
+      "title": "Matt Wolfe (@mreflow)",
+      "url": "https://x.com/mreflow/status/2088295249768825085",
+      "published": "2026-08-14T15:02:40+00:00",
+      "summary": "I’ve been itching to do another livestream. Going to jump on live on Tuesday. What should we deep-dive on? What should we test out?",
+      "author": "mreflow",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Wolfe (@mreflow)",
+      "url": "https://x.com/mreflow/status/2088294977243947375",
+      "published": "2026-08-14T15:01:35+00:00",
+      "summary": "Another one. Z.ai (@Zai_org) Introducing GLM-5.3: Built to Code. Ready for Cyber Defense. - Top-tier coding and agentic capabilities, achieved through post-training on the 743B base model - A major leap in cybersecurity, setting a new standard among open models Tech Blog: z.ai/blog/glm-5.3 — https://nitter.net/Zai_org/status/2088132965922476159#m",
+      "author": "mreflow",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

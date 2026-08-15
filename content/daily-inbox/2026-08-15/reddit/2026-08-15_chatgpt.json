@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-15T04:03:55.114404+00:00",
+  "items": [
+    {
+      "title": "???",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
+      "published": "2026-08-14T10:54:21+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "I can't spot any AI mistake in this image",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/",
+      "published": "2026-08-14T18:09:56+00:00",
+      "summary": "submitted by /u/VisWare [link] [comments]",
+      "author": "VisWare"
+    },
+    {
+      "title": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
+      "published": "2026-08-14T23:11:12+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Bro had enough",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vnz4hw/bro_had_enough/",
+      "published": "2026-08-14T06:10:41+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "Even Gemini doesn't recommend Gemini",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vond66/even_gemini_doesnt_recommend_gemini/",
+      "published": "2026-08-14T23:47:40+00:00",
+      "summary": "Google paid how much money(?) for an insanely intelligent ad for other companies' AIs? submitted by /u/Independent-Reader [link] [comments]",
+      "author": "Independent-Reader"
+    },
+    {
+      "title": "Prototype ( GPT + Kling )",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vodkm6/prototype_gpt_kling/",
+      "published": "2026-08-14T17:24:48+00:00",
+      "summary": "submitted by /u/ainsoph00 [link] [comments]",
+      "author": "ainsoph00"
+    },
+    {
+      "title": "I asked the model how many ALFs it would take to fight off a T-Rex, then I animated it with gemini",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vo6daq/i_asked_the_model_how_many_alfs_it_would_take_to/",
+      "published": "2026-08-14T12:48:32+00:00",
+      "summary": "submitted by /u/No-Lifeguard-8173 [link] [comments]",
+      "author": "No-Lifeguard-8173"
+    },
+    {
+      "title": "I asked ChatGPT to generate an image of several AI models having a board meeting about their humans.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vof86a/i_asked_chatgpt_to_generate_an_image_of_several/",
+      "published": "2026-08-14T18:24:42+00:00",
+      "summary": "submitted by /u/Ok_Entertainer_3257 [link] [comments]",
+      "author": "Ok_Entertainer_3257"
+    },
+    {
+      "title": "Can't Make Switches?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vony4v/cant_make_switches/",
+      "published": "2026-08-15T00:13:26+00:00",
+      "summary": "I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. submitted by /u/Calcaware [link] [comments]",
+      "author": "Calcaware"
+    },
+    {
+      "title": "Improved GPT Image 2.0 Stealth Testing.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vobfkl/improved_gpt_image_20_stealth_testing/",
+      "published": "2026-08-14T16:06:42+00:00",
+      "summary": "@SynthwaveDD. \"I'm told an improved version of GPT-Image 2 is now being stealth tested for some ChatGPT accounts.\" Looks like GPT Image 2.0 is getting an update. I noticed the quality increase Tuesday August 12th. It's subtle and only noticeable with true absolute photorealism from what I've seen. Is this in preparation for GPT's Image 3.0 codenamed Mona-Lisa-1? submitted by /u/The_Digital_Hearts [link] [comments]",
+      "author": "The_Digital_Hearts"
+    }
+  ]
+}

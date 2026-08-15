@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Andrew Ng",
+  "source_slug": "andrew-ng",
+  "handle": "AndrewYNg",
+  "tags": [
+    "ai-education",
+    "deeplearning"
+  ],
+  "fetched_at": "2026-08-15T04:01:58.121147+00:00",
+  "items": [
+    {
+      "title": "Andrew Ng (@AndrewYNg)",
+      "url": "https://x.com/AndrewYNg/status/2088302050706686198",
+      "published": "2026-08-14T15:29:42+00:00",
+      "summary": "New: A map of the most important skills in AI Engineering. Article The AI Engineering Skills Map I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous",
+      "author": "AndrewYNg",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

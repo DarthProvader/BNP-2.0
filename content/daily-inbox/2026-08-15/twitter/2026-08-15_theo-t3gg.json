@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-15T04:02:02.796434+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088389637819822542",
+      "published": "2026-08-14T21:17:44+00:00",
+      "summary": "One of the final payouts before the upcoming changes in the creator revenue share program",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088395234833306065",
+      "published": "2026-08-14T21:39:59+00:00",
+      "summary": "Reminder that this doesn’t even cover 1/10th of my media team payroll. We have 8 employees now!",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

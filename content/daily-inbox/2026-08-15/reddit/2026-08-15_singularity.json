@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-15T04:02:03.818889+00:00",
+  "items": [
+    {
+      "title": "Anthropic Internally Uses A Model That Is Significantly Better Than Mythos 5, But Has No Plans To Release It",
+      "url": "https://www.reddit.com/r/singularity/comments/1volqxh/anthropic_internally_uses_a_model_that_is/",
+      "published": "2026-08-14T22:36:30+00:00",
+      "summary": "https://x.com/kimmonismus/status/2088331147650490748 As has already been expected, Anthropic internally uses a model that is significantly better than Mythos 5, but they have no plans to release it. https://x.com/daniel_mac8/status/2088344245178716175 RSI is near. Anthropic tested an unreleased ‘Model 2’ on CoBench v2. CoBench tests a model’s ability to solve historical AI R&D tasks that Anthropic staff solved. Model 2 scored 12.5 percentage points higher than Mythos 5. The report estimates a model that scores 85% could replace Anthropic researchers. Only a couple turns of the crank left. The Singularity is here. 2027 is the takeoff. It’s 4 months away. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "A 150M param recurrent model scores 29.5% on ARC-AGI-1 at $0.0007 per task",
+      "url": "https://www.reddit.com/r/singularity/comments/1vohdrz/a_150m_param_recurrent_model_scores_295_on/",
+      "published": "2026-08-14T19:43:27+00:00",
+      "summary": "Not a transformer. It's a recurrent latent reasoning setup that keeps \"thinking\" in latent space before answering. Sits completely outside the published cost/accuracy frontier for ARC-AGI, and something this size runs on basically anything. Paper is from the Pathway team, dropped 4 days ago. I want to see it scaled to 1-3B before getting too excited, but the shape of the result is wild. submitted by /u/juanviera23 [link] [comments]",
+      "author": "juanviera23"
+    },
+    {
+      "title": "Qwen 3.8 27b is here",
+      "url": "https://www.reddit.com/r/singularity/comments/1voa4mo/qwen_38_27b_is_here/",
+      "published": "2026-08-14T15:18:19+00:00",
+      "summary": "https://huggingface.co/collections/Qwen/qwen38 submitted by /u/song91 [link] [comments]",
+      "author": "song91"
+    },
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.reddit.com/r/singularity/comments/1voo5mz/openai_talent_exodus_raises_huge_red_flag_ahead/",
+      "published": "2026-08-15T00:22:58+00:00",
+      "summary": "submitted by /u/Steap-Edit [link] [comments]",
+      "author": "Steap-Edit"
+    },
+    {
+      "title": "GLM 5.3 finds 2436 unpatched open source vulnerabilities likely missed by Mythos (Project Glasswing)",
+      "url": "https://www.reddit.com/r/singularity/comments/1vo56qy/glm_53_finds_2436_unpatched_open_source/",
+      "published": "2026-08-14T11:55:51+00:00",
+      "summary": "1097 rated critical or high. The average age of the vulnerabilities is 26 years, so many were likely important to intelligence agencies. An interesting development. Z.ai's equivalent to Project Glasswing: https://cvd.z.ai/ submitted by /u/1a1b [link] [comments]",
+      "author": "1a1b"
+    },
+    {
+      "title": "TAU Robotics home cleaning service, despite being teleoperated, offers a glimpse into the future",
+      "url": "https://www.reddit.com/r/singularity/comments/1vof90w/tau_robotics_home_cleaning_service_despite_being/",
+      "published": "2026-08-14T18:25:32+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "You can now build digital clones to do your work if you have a coding agent",
+      "url": "https://www.reddit.com/r/singularity/comments/1voitnh/you_can_now_build_digital_clones_to_do_your_work/",
+      "published": "2026-08-14T20:37:59+00:00",
+      "summary": "Built something over a weekend a few months back because I was tired of babysitting AI coding agents, approving every step, re-explaining context every session. So I made it wrap the agent I already used and just... learn how I actually work. Then I made another one for a teammate. Then they started handing work off to each other through a shared knowledge base without me in the middle. That's the part that got weird. Not \"the AI is smarter,\" but \"the AI doesn't need me to route information anymore.\" Multiply that across a whole team and you get something that looks less like a tool and more like an organization running itself, 24/7, compounding its own context every day it runs. It's called Munder Difflin if anyone wants to poke at it, open source, MIT licensed, wraps Claude Code/Cursor/whatever you already use. But honestly I'm more curious what this sub thinks: if the singularity isn't a single model waking up but a mesh of narrow agents that stop needing humans to coordinate them, ",
+      "author": "chaitanyagiri"
+    },
+    {
+      "title": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+      "url": "https://www.reddit.com/r/singularity/comments/1vonpuo/dots3note_preview_a_small_but_mighty_step_toward/",
+      "published": "2026-08-15T00:02:56+00:00",
+      "summary": "https://x.com/dotsstudioai/status/2088083314855018521 Tech Blog: https://studio.dots.ai/dots/dots3-en.html The tech blog has many interesting videos and this AI company belongs to a kinda big company in China. I am reposting because the previous post was removed by reddit automatic filter. I think the post contained the name of a competitor's product and they do not allow that or something. submitted by /u/otarU [link] [comments]",
+      "author": "otarU"
+    },
+    {
+      "title": "Neurosurgery resident at a Peking College Hospital uses GPT 5.6 Sol to prove a 2 decades old mathematical conjecture underlying a major problem in numerical linear algebra — All for the purposes of his research on transcranial ultrasound.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vnz6og/neurosurgery_resident_at_a_peking_college/",
+      "published": "2026-08-14T06:14:03+00:00",
+      "summary": "https://alextownsend.net/essays/SIAMNews_CrouzeixConjecture.pdf submitted by /u/New_Equinox [link] [comments]",
+      "author": "New_Equinox"
+    },
+    {
+      "title": "New AI Model Detects Hidden Signs of Solar Eruptions Hours Before They Emerge",
+      "url": "https://www.reddit.com/r/singularity/comments/1voptr8/new_ai_model_detects_hidden_signs_of_solar/",
+      "published": "2026-08-15T01:42:22+00:00",
+      "summary": "submitted by /u/Casq-qsaC_178_GAP073 [link] [comments]",
+      "author": "Casq-qsaC_178_GAP073"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-15T04:01:56.915257+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088303001299529981",
+      "published": "2026-08-14T15:33:28+00:00",
+      "summary": "Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088304177877233679",
+      "published": "2026-08-14T15:38:09+00:00",
+      "summary": "If you want to learn how to run one: somethingbig.ai/gauntlet-loo… Note that Grok doesn’t have ultracode, but it should work as-is! Grok Build harness is likely best but you can also run this in Grok Bot! Link How to Run a Gauntlet Loop The prompting method behind Claude of Duty: give the agent a bar it can't talk its way around, let it split the work, and never let the builder grade itself. somethingbig.ai",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088303563311132803",
+      "published": "2026-08-14T15:35:42+00:00",
+      "summary": "Current state, still running: Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088292946101592147",
+      "published": "2026-08-14T14:53:31+00:00",
+      "summary": "Update: it’s still going! Matt Shumer (@mattshumer_) I have a Gauntlet Loop running on Grok 4.6. It’s been going for over a day now… super promising… not all models can do this. Excited to see what comes out! — https://nitter.net/mattshumer_/status/2088026930104684962#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088303444788445434",
+      "published": "2026-08-14T15:35:14+00:00",
+      "summary": "Current state: Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

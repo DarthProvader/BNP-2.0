@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Demis Hassabis",
+  "source_slug": "demis-hassabis",
+  "handle": "demishassabis",
+  "tags": [
+    "deepmind",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-15T04:01:59.305248+00:00",
+  "items": [
+    {
+      "title": "Demis Hassabis (@demishassabis)",
+      "url": "https://x.com/joshwoodward/status/2088344782821326980",
+      "published": "2026-08-14T18:19:30+00:00",
+      "summary": "3.7 Flash is in the @GeminiApp",
+      "author": "demishassabis",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

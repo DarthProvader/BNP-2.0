@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-15T04:05:07.118613+00:00",
+  "items": [
+    {
+      "title": "OpenAI Reports Goldman Sachs Analyst to FBI for Horrifying ChatGPT Conversations",
+      "url": "https://www.reddit.com/r/artificial/comments/1volf3k/openai_reports_goldman_sachs_analyst_to_fbi_for/",
+      "published": "2026-08-14T22:22:14+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "I've built a fully autonomous meditation system for TouchDesigner",
+      "url": "https://www.reddit.com/r/artificial/comments/1vo2kku/ive_built_a_fully_autonomous_meditation_system/",
+      "published": "2026-08-14T09:33:34+00:00",
+      "summary": "A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon , and the Tools Store . submitted by /u/uisato [link] [comments]",
+      "author": "uisato"
+    },
+    {
+      "title": "Your thoughts on RNN's (RWKV approach) for language generation",
+      "url": "https://www.reddit.com/r/artificial/comments/1vonp6j/your_thoughts_on_rnns_rwkv_approach_for_language/",
+      "published": "2026-08-15T00:02:03+00:00",
+      "summary": "I recently was thinking about reducing the cost of LLMs, specially LLMs which are doing repetitive tasks (such as coding, which has a lot of repetition) and I was thinking of RNN's and had RWKV paper open. I'm not really good at math but as far as I could understand, they just added that QKV matrix system to a traditional RNN. Based on my personal tests, RWKV models are a little faster on both colab and gaming systems and even when quantized, faster on a CPU using ollama. So, what do you think about them? If you want to make an LLM from scratch today, would you go with this approach or not? submitted by /u/Haghiri75 [link] [comments]",
+      "author": "Haghiri75"
+    },
+    {
+      "title": "Custom AI Agents for Non-Developers: What’s Real",
+      "url": "https://www.reddit.com/r/artificial/comments/1vokj1y/custom_ai_agents_for_nondevelopers_whats_real/",
+      "published": "2026-08-14T21:45:08+00:00",
+      "summary": "submitted by /u/techpotions [link] [comments]",
+      "author": "techpotions"
+    },
+    {
+      "title": "New to AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vo2xy9/new_to_ai/",
+      "published": "2026-08-14T09:55:52+00:00",
+      "summary": "Hi! I recently graduated high school and will be starting university this upcoming fall as an engineering major. Although I have used AI tools like Claude, ChatGPT etc but I lack experience (or any kind of knowledge) about how to make my own AI models and AI ethics. I just wanted to ask for some guidance from people who are already experienced in this field if there are classes/courses they recommend I take. I have some free time before university starts so I want to build some projects and kind of develop my skills especially for engineering internships later on since I am in a competitive field. I'd appreciate any advice for someone who is just starting out! submitted by /u/SuccessfulMud8899 [link] [comments]",
+      "author": "SuccessfulMud8899"
+    },
+    {
+      "title": "Chinese AI start-up ModelBest kicks off pre-IPO tutoring process on mainland",
+      "url": "https://www.reddit.com/r/artificial/comments/1vomk6v/chinese_ai_startup_modelbest_kicks_off_preipo/",
+      "published": "2026-08-14T23:11:46+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Anthropic ships frontier AI models but no simple toggle to switch billing modes?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vojtph/anthropic_ships_frontier_ai_models_but_no_simple/",
+      "published": "2026-08-14T21:17:03+00:00",
+      "summary": "Spent way more time than I should have switching Claude Code (Anthropic's coding agent) from API-key billing back to my Pro subscription. The flow: SSH into a server → attach a tmux session → run a login command → copy an OAuth URL → open a browser → authorize → paste the code back into the terminal. For a company shipping some of the most advanced AI models out there, this feels like a UX problem that was solved a decade ago. A single command or flag to switch billing mode would save everyone a lot of friction. Curious if other AI companies handle this better, or if this is just a growing pain across the industry right now. submitted by /u/seekerOfTruths76 [link] [comments]",
+      "author": "seekerOfTruths76"
+    },
+    {
+      "title": "When the smartest AI model is actually a terrible business move",
+      "url": "https://www.reddit.com/r/artificial/comments/1vo13up/when_the_smartest_ai_model_is_actually_a_terrible/",
+      "published": "2026-08-14T08:06:09+00:00",
+      "summary": "I came across this article that flips the script on AI hype: sometimes the most advanced models are the worst for business. High costs, misaligned incentives, and ethical risks can turn a technical win into a strategic loss. Have you seen this play out in your work or industry? (Not affiliated, just thought it was a refreshing take.) [Source: https://www.hitechies.com/ai-smartest-model-worst-business-decision/\\ ] submitted by /u/dhakalster123 [link] [comments]",
+      "author": "dhakalster123"
+    },
+    {
+      "title": "🚀 New version of Android Remote Control MCP released! Let your AI agent control your phone, now with on-device PII redaction! 🛡️ No cables or root needed!",
+      "url": "https://www.reddit.com/r/artificial/comments/1voafib/new_version_of_android_remote_control_mcp/",
+      "published": "2026-08-14T15:29:38+00:00",
+      "summary": "🚀 New release of Android Remote Control MCP is out — the MCP server that runs on your phone and gives your AI agent the ability to use any app you want! Grab it here: https://github.com/danielealbano/android-remote-control-mcp/releases/tag/v1.11.0 My favorite part of this release? The Privacy Mode 🛡️! Recently I was told by an user \"it's a good project but I don't want Anthropic to know everything about me\" and it's a very fair point! The LLM providers see and record everything they receive … including your emails, phone numbers and credit cards! Well, not anymore! With Privacy Mode all of that gets detected and redacted locally, on the phone, before anything leaves the device (about 87% of PII caught on my benchmark on emails, phone numbers, credit cards, IBANs, national IDs, …), and the agent keeps working normally because it sees placeholders: the real values get substituted back on-device. Unfortunately the only weak spot for now are non English names but I am working on it! The fu",
+      "author": "daniele_dll"
+    },
+    {
+      "title": "Realized there's a name for the thing I kept doing wrong in AI debugging sessions: confusing \"symptom resolved\" with \"cause found\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1vo4pwa/realized_theres_a_name_for_the_thing_i_kept_doing/",
+      "published": "2026-08-14T11:32:39+00:00",
+      "summary": "Kept running into a specific failure pattern across different AI-assisted debugging sessions and didn't have a clean way to describe it until I actually sat down and compared a few of them side by side. The pattern: an error goes away, I file the problem as solved, and sometime later the same underlying issue resurfaces wearing a different symptom. Turns out those are two separate claims that get treated as one by default. \"The error is gone\" only tells you the symptom stopped being visible. \"The bug is fixed\" requires the actual mechanism to have been addressed, and a model asked to make an error disappear will happily do exactly that, a wider try/catch, a retry wrapped around a flaky call, both of which satisfy the first claim while leaving the second completely unverified. What made this click was a case where a retry \"fixed\" what looked like a flaky database write, only for the same class of failure to show up two weeks later under a different error message. Root cause was duplicat",
+      "author": "ClickOk5811"
+    }
+  ]
+}
