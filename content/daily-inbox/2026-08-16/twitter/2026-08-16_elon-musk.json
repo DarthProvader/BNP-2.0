@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Elon Musk",
+  "source_slug": "elon-musk",
+  "handle": "elonmusk",
+  "tags": [
+    "ai",
+    "tesla",
+    "xai"
+  ],
+  "fetched_at": "2026-08-16T04:00:49.698218+00:00",
+  "items": [
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/mvanhorn/status/2088740832266306033",
+      "published": "2026-08-15T20:33:15+00:00",
+      "summary": "Okay I am convinced that I don’t think I need my OpenClaw or Hermes anymore bc of Grok Bot. 😬 It has a “can-do” attitude that other LLMs protect themselves from doing plus a thoughtfully designed hosted desktop and mobile experience that is incredible.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/keven_ink/status/2088468642438521212",
+      "published": "2026-08-15T02:31:40+00:00",
+      "summary": "Grok Bot can be configured to use your CLI's in it's computer. It can connect to your locally hosted memory systems, it can connect to and control your agent-fleet across all computers you own via SSH. Grok Bot as the Orchestrator. I had Grok Bot make itself a plugin so any bots I create can automatically use my custom memory system (called Hindsightly) to coordinate any agents for me.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2088781747911819519",
+      "published": "2026-08-15T23:15:51+00:00",
+      "summary": "Tesla cars sold in America are the most made in America of any cars Wes (@wmorrill3) Model 3, Model Y, and Cybertruck literally top the list Tesla has 84% domestic parts while the next closest manufacturer is at 63% so it's not even close — https://nitter.net/wmorrill3/status/2088775402345107770#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/MiltonFriedmanW/status/2088605374169637368",
+      "published": "2026-08-15T11:35:00+00:00",
+      "summary": "Adam Smith understood this in 1776. 250 years later, many people still don’t.",
+      "author": "elonmusk",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Elon Musk (@elonmusk)",
+      "url": "https://x.com/elonmusk/status/2088780849948832078",
+      "published": "2026-08-15T23:12:16+00:00",
+      "summary": "Grok 4.6 Dan (@KettlebellDan) So I asked Grok Build to make a trailer for my video game It booted the game, played it, recorded the screen, edited the footage, and voiced it. I didn’t touch anything X THE GAME — free to play kettlebelldan.com/x_the_game… Video — https://nitter.net/KettlebellDan/status/2088779213247492254#m",
+      "author": "elonmusk",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

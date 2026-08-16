@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-16T04:01:02.597119+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088833766609596623",
+      "published": "2026-08-16T02:42:33+00:00",
+      "summary": "So I heard we're talking about Anthropic's watermarks... Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088800577430208822",
+      "published": "2026-08-16T00:30:40+00:00",
+      "summary": "Kinda wild to see Dario blaming social media algorithms for hurting the public reputation of their text generation algorithms",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2088793798369481067",
+      "published": "2026-08-16T00:03:44+00:00",
+      "summary": "\"I'm impressed that your brain runs on only 15-20 watts tbh\" Gavin Baker (@GavinSBaker) Ok. Becky just brought me another gin and tonic and is watching our daughter. So: I think the framing of cyber as defense dominant and bio as offense dominant is sensible and the bio point is probably the best pro-regulation argument. And the USG should absolutely have all information necessary to make informed choices as cards are turned over. Agreed! Likewise agree that the compute shortage plus high DRAM prices (which effectively reduce compute per capex $) may be really civilizationally useful in giving us time to adapt to what might be a fast takeoff. And in a world that is likely compute constrained for a long, long time, I do think the computational efficiency of humans (I’m impressed that your brain runs on only 15-20 watts tbh) means that humans will be economically useful for the foreseeable future *even* in a fast takeoff, AGI maximalist scenario. And compute inequality is absolutely goin",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2088776327818084715",
+      "published": "2026-08-15T22:54:18+00:00",
+      "summary": "Theo reacts—to Matt's skills Video Matt Pocock (@mattpocockuk) I'm sorry everyone github.com/mattpocock/skills… Link Remove em-dashes from grilling skill by mattpocock · Pull Request #879 · mattpocock/skills Summary Replaces em-dash punctuation in skills/productivity/grilling/SKILL.md with colons/semicolons, keeping the same meaning in plain text. Test plan grep -n \"—\" skills/prod... github.com — https://nitter.net/mattpocockuk/status/2088729731642327181#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2088778118890729689",
+      "published": "2026-08-15T23:01:25+00:00",
+      "summary": "Theo wants to fork Matt Pocock skills Video Matt Pocock (@mattpocockuk) I'm sorry everyone github.com/mattpocock/skills… Link Remove em-dashes from grilling skill by mattpocock · Pull Request #879 · mattpocock/skills Summary Replaces em-dash punctuation in skills/productivity/grilling/SKILL.md with colons/semicolons, keeping the same meaning in plain text. Test plan grep -n \"—\" skills/prod... github.com — https://nitter.net/mattpocockuk/status/2088729731642327181#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

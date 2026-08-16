@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-16T04:01:03.830450+00:00",
+  "items": [
+    {
+      "title": "I don’t think we’re psychologically prepared for how alien the world after ASI is going to be",
+      "url": "https://www.reddit.com/r/singularity/comments/1vphdpw/i_dont_think_were_psychologically_prepared_for/",
+      "published": "2026-08-15T23:30:42+00:00",
+      "summary": "gonna start by saying I’m feeling very iffy about ASI because I kinda enjoy my life rn, but that aside: after going down the AI 2040 rabbithole, I keep thinking that even people who talk about ASI constantly are still imagining the future in a way that is way too normal. We talk about AI replacing people’s jobs, humanoid robots, self-driving cars, universal basic income, whatever the fuck. I think that might be the equivalent of someone in 1955 predicting the year 2000, trying to use our current world as a basis for the future world. AI 2040 describes a scenario where even after deliberately slowing AI development down, by 2031 a third of cognitive labor is being performed by AI and robots are already doing about a tenth of physical labor. The document literally describes ordinary people as being too “whiplashed” by technological change to process what’s happening. And that’s the slowed version , can’t imagine what our world is going to look like since it seems we are going full speed ",
+      "author": "Public_Print_9360"
+    },
+    {
+      "title": "ChatGPT upcoming speed improvements summarized by OpenAI employee",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp3eh6/chatgpt_upcoming_speed_improvements_summarized_by/",
+      "published": "2026-08-15T13:50:22+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp77op/alibaba_ai_models_hit_3_billion_downloads_passing/",
+      "published": "2026-08-15T16:28:10+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "AI Isn’t Outthinking Mathematicians. It’s Out-Remembering Them.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vpl4uj/ai_isnt_outthinking_mathematicians_its/",
+      "published": "2026-08-16T02:32:48+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "33 years ago, Vernor Vinge (1944-2024) coined the term \"Singularity\" in reference to the point at which technological progress, driven by superhumanly intelligent machines, would be so great as to render our current models would be good as discarded. He predicted this event to occur ~30 years on.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp5j8u/33_years_ago_vernor_vinge_19442024_coined_the/",
+      "published": "2026-08-15T15:20:31+00:00",
+      "summary": "His prescience is truly incredible. Living in the stone age of the machines, he still predicted the current transpiring events, where such superhumanly intelligent machines are bound to exist within only a few years of his predicted date of 2023, while already demonstrating some greater than human capabilities. The lower bound of his prediction for date at which this event would occur was 2005, and the upper bound 2030. But I think that his firm assertion at the beginning of this event occuring within a 30 years timespan still solidifies his overall predictions as being scarily close to the current timeline of events. https://edoras.sdsu.edu/~vinge/misc/singularity.html Reposted since there seemed to be a problem with the images not uploading. submitted by /u/New_Equinox [link] [comments]",
+      "author": "New_Equinox"
+    },
+    {
+      "title": "Is anyone really ready? Survival strategies, alternate plans, and such",
+      "url": "https://www.reddit.com/r/singularity/comments/1vpinp8/is_anyone_really_ready_survival_strategies/",
+      "published": "2026-08-16T00:30:39+00:00",
+      "summary": "With all of the back and forth on this sub of pros and cons to AI development, I'm surprised to see that nobody has put forward this pivotal discussion from the vlog Diary of a CEO featuring Daniel Kokotajlo. This is a really solid watch that I highly recommend, whether you think we're headed for disaster or not. He goes into the pros and cons quite heavily and his discomfort is readily apparent. But not just criticizing for it's own sake, this man actually has solutions. Previously he was a researcher in the governance division of OpenAI and then resigned, as so many do. He is co-author of the paper AI 2027 by the AI Futures Project non-profit which he cofounded, detailing his prediction that on our current trajectory we have a 70% chance of self-destruction. He also co-authored AI 2040 Plan A which is a possible alternate outcome he forecasts should developers make more conservative choices leading us away from disaster and into prosperity. https://www.youtube.com/watch?v=_g4l7YkDQwA",
+      "author": "Effective_Coach7334"
+    },
+    {
+      "title": "There is a decent indication that Astra/gpt-next is going to release next month.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp2ezc/there_is_a_decent_indication_that_astragptnext_is/",
+      "published": "2026-08-15T13:06:13+00:00",
+      "summary": "I don't trust people's claims about the release date, so I was wondering if I could figure out the release date based on when partners get access to the model ahead of the release. Normally it happens 2-4 weeks ahead of time (5.6 being an special case), but because everyone has signed NDA, they can't tell they have access to it. So what I did, is instead of looking for people saying they have access to it, is to look for people who look like they have the model and can't talk about it, by looking at Twitter and the posts they make. If they suddenly stop speculating, then that is a decent chance that they now have access to the model. The idea for this is mine, but research has been done by AI. The general conclusion is that: \"There is a weak/moderate evidence that partners got access to the next model between August 2nd and August 7th.\" Considering previous times when partners has gotten access to a model, this would put it between end of August, to late late September if the situation",
+      "author": "Ormusn2o"
+    },
+    {
+      "title": "git clone",
+      "url": "https://www.reddit.com/r/singularity/comments/1voue9r/git_clone/",
+      "published": "2026-08-15T05:35:21+00:00",
+      "summary": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/ submitted by /u/minecrafter923 [link] [comments]",
+      "author": "minecrafter923"
+    },
+    {
+      "title": "Are Latent Reasoning Models Easily Interpretable?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp6wdl/are_latent_reasoning_models_easily_interpretable/",
+      "published": "2026-08-15T16:15:34+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "The Second Cognitive Revolution - an opinion piece",
+      "url": "https://www.reddit.com/r/singularity/comments/1vp3mps/the_second_cognitive_revolution_an_opinion_piece/",
+      "published": "2026-08-15T14:00:26+00:00",
+      "summary": "We have taught machines our greatest trick: language. Like a jet engine spun up by a starter motor, biology got human intelligence to a point of self-sustainment. Now, we have done the same for AI. https://medium.com/@space.sapper/the-second-cognitive-revolution-06fe5b02f3b0 Would love to hear all your thoughts! submitted by /u/Capt_Aeronaut [link] [comments]",
+      "author": "Capt_Aeronaut"
+    }
+  ]
+}

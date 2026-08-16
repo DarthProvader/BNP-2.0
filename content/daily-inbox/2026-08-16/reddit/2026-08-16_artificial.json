@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-16T04:04:07.262962+00:00",
+  "items": [
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.reddit.com/r/artificial/comments/1voy5dh/openai_talent_exodus_raises_huge_red_flag_ahead/",
+      "published": "2026-08-15T09:15:32+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Resource - AI Text Watermarking: How it Works and How to Evade It",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpjsbh/resource_ai_text_watermarking_how_it_works_and/",
+      "published": "2026-08-16T01:25:48+00:00",
+      "summary": "Earlier this month, Anthropic announced that it was adding invisible text watermarking to Claude outputs. This announcement got a lot of attention. At the same time the European Commission announced that other firms, including Black Forest Labs and Open AI have also committed to taking steps to mark AI-generated outputs. Because of this, there's been a lot of interest in understanding: - How AI text watermarking works - Whether AI text watermarking can be evaded or erased Here's an in-depth educational resource I developed that answers both questions. The resource also highlights one potential unexpected benefit of AI text watermarking. We might be able to better answer the question: 'How much human input went into this content?\" submitted by /u/SpiritRealistic8174 [link] [comments]",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "Analyst gets probation after telling ChatGPT about plans to rape and kill his ex",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp3rgg/analyst_gets_probation_after_telling_chatgpt/",
+      "published": "2026-08-15T14:05:46+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "The Trump administration is pressuring Apple not to buy Chinese memory chips as AI data centers drain global supply.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpbtqz/the_trump_administration_is_pressuring_apple_not/",
+      "published": "2026-08-15T19:30:54+00:00",
+      "summary": "Via WSJ Apple is reportedly testing chips from CXMT and YMTC for devices sold in China. Commerce Secretary Howard Lutnick says he told Apple “plainly” that Washington opposes the move. Apple can legally buy standard, off-the-shelf parts from both companies. Sharing product information for customized chips would require a U.S. license. Looks like ram shortage will continue and prices stay high. submitted by /u/Left-Hotel904 [link] [comments]",
+      "author": "Left-Hotel904"
+    },
+    {
+      "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpmp8e/of_course_the_chatgpt_dog_cancer_vaccine_spawned/",
+      "published": "2026-08-16T03:54:17+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Zuckerberg is betting Meta's whole ad business on AI and his own ai ugc tools are turning dresses into pants",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpcxj4/zuckerberg_is_betting_metas_whole_ad_business_on/",
+      "published": "2026-08-15T20:15:29+00:00",
+      "summary": "Zuckerberg's out here telling everyone ai is the future of meta's ad revenue, reuters covered his latest ai pitch and called it more ad than substance. Fine tho, he is the ceo thats his job. Altho his own ai ad tools are currently generating gibberish copy and mangled products and business insider found one advertiser's dress ad came out as a shirt and trousers. Emarketer and mediapost both confirmed it and also some of these features are turning themselves on from bugs. So the guy is standing on stage telling investors ai is the future of advertising while the product turns dresses into trousers and its not just meta looking rough rn,wired ran a piece on backlash from people getting annoyed at mcdonald's and cocacola for slapping ai visuals into their ads and a gallup poll in the same piece found almost half of americans under 30 think gen ai does more harm than good at this point. Google also has started slapping ai labels on ads across search, youtube and snapchat has stopped showin",
+      "author": "Kind-Coast6677"
+    },
+    {
+      "title": "Compétences ia/ compétence developpeur full stack",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp780b/compétences_ia_compétence_developpeur_full_stack/",
+      "published": "2026-08-15T16:28:30+00:00",
+      "summary": "Je me suis demandé, mais enfait, les développeurs ne vont pas ètre remplacé, ils auront juste un autre métier qu'est ingénieur informatique! Leur but ne seras plus vraiment de trouver, optimiser, apprendre des languague, écrire, améliorer le code mais plus de trouver des nouveauté au niveau architecture, problème, déléguation de tache etc! Ils changeront juste de boulot, un peu comme les agriculteurs qui ne le font plus à la main pour récolter (dans le pays où je suis), mais juste ou des machines le font à la place, mais le boulot en lui meme devient juste plus haut! Dans le pays ou je suis, il y a vait à une époque, près de 80% de la population qui était agriculteur, avec l'ajout des nouvelles techno c'est passé à 1 ou 2%! Y auras ptetre moins de développeur car le marché n'en voudras plus autant mais ils seront centralisé sur ces taches créative, de type ingénieur! Et d'autre métier feront leur apparition que là pout le moment nous ne connaissons pas car c'est l'essor, mais qui dans ",
+      "author": "Any_Bus9205"
+    },
+    {
+      "title": "I built a small game discovery toy, not a chatbot wrapper",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpccuk/i_built_a_small_game_discovery_toy_not_a_chatbot/",
+      "published": "2026-08-15T19:52:26+00:00",
+      "summary": "I'm Eli. GameCombiner embeds 146,288 games as 1024-dimensional vectors built from their genres, user tags and store descriptions, not their titles, and lets you combine two games by taking the mathematical midpoint of their vectors and returning the closest real game to that point. No LLM is choosing the answer, and nothing is generated. The output is always a real catalog entry, and the same pair always returns the same result. Combining is free. If you try it, I would love comments on whether the results feel coherent. Drop your combination results, and I will tell you why it picked what it picked. https://gamecombiner.com submitted by /u/Death12th [link] [comments]",
+      "author": "Death12th"
+    },
+    {
+      "title": "I curated a database of 37+ powerful AI tools that require NO Sign-ups, NO registration, and NO hidden paywalls. Completely free.",
+      "url": "https://www.reddit.com/r/artificial/comments/1voulm9/i_curated_a_database_of_37_powerful_ai_tools_that/",
+      "published": "2026-08-15T05:46:58+00:00",
+      "summary": "Hey everyone, I got tired of AI directories that force you to create an account, log in with Google, or give away your email just to test a single basic feature. To solve this friction, I spent hours researching and building **FrostAI** on Notion. It is a completely curated list of 37 active, functional AI tools that you can use instantly from your mobile or browser without signing up. It includes tools for: * Video generation (Kling, Luma Dream Machine) * Research & PDF analysis (Google NotebookLM) * Coding utilities, copywriting, and graphics No ads, no affiliate links, no catch. Just a clean dashboard for creators, students, and indie developers. Check it out here: https://upbeat-shrimp-f8e.notion.site/FrostAI-Directory-3a7d0bb501858023a258e8c5c9b3797e?source=copy\\_link Let me know if there are any other no-signup tools I should add to keep this list fresh! submitted by /u/SubZzro1 [link] [comments]",
+      "author": "SubZzro1"
+    },
+    {
+      "title": "At what point does an AI tool become a platform?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
+      "published": "2026-08-15T16:56:40+00:00",
+      "summary": "I've noticed that a lot of AI products don't stay in the category they started in. Something launches as a tool, does one thing well, and that's the whole value proposition. Then a year later people are connecting it to other systems, building workflows around it, sharing it across teams, writing integrations for it, and depending on it for things it wasn't originally designed to do. Looking at some of the bigger AI products today, I'm not even sure \"tool\" is the right word anymore. The interesting part is that there never seems to be a clear moment where the transition happens. People don't wake up one day and decide they're using a platform now. It just gradually becomes part of how work gets done. For those who've seen products make that jump, what was the signal? What made you realize something had stopped being a tool and become a platform? submitted by /u/Meher_Nolan [link] [comments]",
+      "author": "Meher_Nolan"
+    }
+  ]
+}

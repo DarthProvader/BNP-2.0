@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-16T04:03:16.138581+00:00",
+  "items": [
+    {
+      "title": "Claude just made me this launch video",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpbsem/claude_just_made_me_this_launch_video/",
+      "published": "2026-08-15T19:29:19+00:00",
+      "summary": "I've been building a motion design tool (with Claude) and added an MCP server so Claude can drive the editor. I gave it one of Spline's launch videos as inspo and asked it to make one for my product in that style. This was the output. The best part is this is NOT generated video. Claude draws the layers, adds images, writes the text, so it's all fully editable by you if something doesn't feel right. The thing that made it actually work: after each edit it renders stills of its own frames, looks at them, and fixes what reads wrong. Without that loop the output was confident garbage. Happy to answer questions about how the MCP is structured or the tech behind the product / how it was built! submitted by /u/Horror_Turnover_7859 [link] [comments]",
+      "author": "Horror_Turnover_7859"
+    },
+    {
+      "title": "Downgraded from Opus 5 to Opus 4.6 and it feels night and day",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1voz6sm/downgraded_from_opus_5_to_opus_46_and_it_feels/",
+      "published": "2026-08-15T10:18:55+00:00",
+      "summary": "Holy shit. Got Opus 4.6 to take over the project and finally the plans made sense. The language, my god Opus 5 speaks in riddles and weird sentence phrasing it is so difficult to understand wtf it is saying half the time without prompting, 4.6 sounds so more more coherent to me.Given opus 5 is supposedly better on benchmarks, what are the steps you have taken to improve your experience on Claude code? Edit: Just trying to get Claude code to work since I just extended it for a year, but my god would've swapped over to ChatGPT after the last few weeks of struggling with Opus 5. Edit 2: I just tried using /config -> output style , got Claude to write in ~/.Claude/output-style to follow ASD-STE100, and in a style that is succinct, concise and jargon free. It works quite well. Imo better than the suggested ELI5 which tends to dumb down details. submitted by /u/Budget-Juggernaut-68 [link] [comments]",
+      "author": "Budget-Juggernaut-68"
+    },
+    {
+      "title": "I built Popwatch - your personal popcorn popping pal",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp09ja/i_built_popwatch_your_personal_popcorn_popping_pal/",
+      "published": "2026-08-15T11:19:49+00:00",
+      "summary": "It's staggering how quickly we can knock up an app now. I've long thought about creating some software for determining the perfect time to stop microwave popcorn. Typically the instructions say to wait until 3-4 seconds between pops. The initial prompt I used to build with Claude Opus5 build a mobile website that will primarily be used by android and iOS devices. It should be able to access the device microphone and listen in realtime. It needs to perform some audio analysis to detect pop sounds. This aim is to create a website that people can visit on their phone, place it down next to a microwave, it then listens for the popping sound of popcorn to estimate when the bag is most likely finished popping. This condition is usually set as when there are 3-4 sec between pops. This variable should be configurable. About 5 rounds of minor adjustments and features and it's done. Less than 1hr in total. App is free on https://olkham.github.io/popwatch/ repo: https://github.com/olkham/popwatch",
+      "author": "dr_hamilton"
+    },
+    {
+      "title": "i created a site that gives you prompts to replace your paid app subscriptions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpgsc4/i_created_a_site_that_gives_you_prompts_to/",
+      "published": "2026-08-15T23:03:05+00:00",
+      "summary": "i got tired of seeing apps like quittr, cal ai, umax etc make millions of ARR when they are simple gpt wrappers that are primarily relying on marketing and people forgetting their subscription to continue to grow their revenue i decided to build a site that gives an honest assessment of what features you can vibecode of famous consumer apps (starting currently with just 25 apps, but planning to add more soon) and the prompt to do so. you can check it out here: https://freethe.app would love feedback on it submitted by /u/AppropriateHamster [link] [comments]",
+      "author": "AppropriateHamster"
+    },
+    {
+      "title": "...Claude Fable (Extra) just one-shotted an NES emulator that works perfectly....",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpf5r6/claude_fable_extra_just_oneshotted_an_nes/",
+      "published": "2026-08-15T21:49:31+00:00",
+      "summary": "EDIT: OKAAAAY it doesnt work PERFEEECCTLLY..and i shouldnt have said that. In my head i meant maro played perfectly, and the sound was perfect and shit.. i know I clarified in the actual body, but..yeah. sorry. Although I did just throw a bunch of games at it (I have all of them) and even Battletoads was playable, just not perfect. But it told me it wouldn't be. The only game so far it refused tk play was Castlevania 3, because it said it doesnt have the right mappers. I have the $20 tier and havrnt used Fable for anything cuz im not a programmer... at all..... I just randonly decided to see if Fable could do it. fully not expecting much.. but it did it. I told it to build an NES emulator that plays .nes files. ... then loaded up Mario/Duck Hunt and played the first 2 full levels of Mario before posting this cuz holy shit.. It told me that right now it wont be able to save games like Zelda, and it hsz some issue with timing ot somrthing where Battletoads might glitch.. and im sure it h",
+      "author": "MAGA_R_TRAITORS"
+    },
+    {
+      "title": "Claude conversation too long to continue: best way to preserve 7 months of project context?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp9nh8/claude_conversation_too_long_to_continue_best_way/",
+      "published": "2026-08-15T18:03:59+00:00",
+      "summary": "Hey, I have a 7-month chat that's incredibly valuable with my personal project work. I got the message “This conversation is too long to continue. Start a new chat, or remove some tools to free up space. “ Is there anything I can do to continue in the chat or keep all the context? submitted by /u/taailusi [link] [comments]",
+      "author": "taailusi"
+    },
+    {
+      "title": "Have a cronjob every morning 3 hours before you usually start work pinging claude code to have a quicker session reset.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp9q4f/have_a_cronjob_every_morning_3_hours_before_you/",
+      "published": "2026-08-15T18:06:55+00:00",
+      "summary": "I have a cronjob running every morning that's just \"claude -p 'ping' \". I usually start working at 9, and this cronjob runs at 7, so that means my session timer resets every day at 12. If I don't do this, usually my session limit is full at some awkward time where it resets when I stopped working already, this way I get a lot more work done in a single day. The idea is to get 2 sessions worth of tokens back2back. Ideally the timer resets when your usage is at 99%. So if you hit the session limit usually around 3 hours since your first prompt, set the cronjob 2 hours before you start. A cronjob is a schedulable task on Linux, I guess Windows and OSX have something similar although I have no idea what they call it. EDIT: Added some clarification to explain it better. EDIT2: So this actually might break the TOS unless you do it manually every morning; From the TOS: Except when you are accessing our Services via an Anthropic API Key or where we otherwise explicitly permit it, to access the",
+      "author": "False-Positive21"
+    },
+    {
+      "title": "I vibecoded my own MMO inspired by my favorite childhood MMO",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vp840g/i_vibecoded_my_own_mmo_inspired_by_my_favorite/",
+      "published": "2026-08-15T17:04:02+00:00",
+      "summary": "I used Fable and Opus 5. Lythravel is a 3D voxel MMORPG that runs in a browser tab. It's free (for now). Play here: https://lythravel.com/ I've been working on the game for about 6 weeks. Now it's at the stage where I have all the content ready and everything I noticed as a solo developer has been tweaked. I spent a lot of time optimizing it, if you have a gaming PC it should run smoothly, if there is a problem turning off shadows will help a lot. When registering for the game, an email is not required. Just a username and password. You can add an email later in the settings if you want to be able to reset your password. I would be very happy for feedback, or if we meet in the game and have a beer or dance at the local pub, hehe. If you have any questions about the development, feel free to ask. If anyone wants to help with development etc., contact me. points a few things the game contains: 2 factions 6 classes 50 level cap Mounts Guilds Free stat allocations PVP maps, Battleground 10",
+      "author": "Big-Sandwich733"
+    },
+    {
+      "title": "How do you make Opus cut the fluff and reply like a human?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpfhej/how_do_you_make_opus_cut_the_fluff_and_reply_like/",
+      "published": "2026-08-15T22:03:52+00:00",
+      "summary": "Reading through the output of Opus and trying to decipher it, sometimes feels exhausting. There's so much fluff and noise, but the worst is the \"painfully AI-generated\" words and phrases that it uses, which no human on earth would use: Furthermore, delving deeper into the implementation reveals that mapping over this collection will ultimately yield a brand new array. It is crucial to remember that a well-defined repository boundary is a testament to clean architecture. This was a big issue in Opus 4.8 which seems to be slightly improved in Opus 5. How do you work around this? Do you use custom agents or skills, asking to remove the noise and fluff? Do you use some kind of 3rd party framework (e.g. caveman)? submitted by /u/mg-scott [link] [comments]",
+      "author": "mg-scott"
+    },
+    {
+      "title": "World of Claudecraft after 2 months of vibe coding",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1voxq2f/world_of_claudecraft_after_2_months_of_vibe_coding/",
+      "published": "2026-08-15T08:49:44+00:00",
+      "summary": "Wanted to update you all after two months of vibecoding with the community on what our AI generated game, World of ClaudeCraft, looks and plays like now The graphics difference alone is hard to believe, I could list every feature we've added in the past 60 days but the video speaks for itself At this point there seems to be no stopping what can be done with Claude in game dev The whole thing is free and MIT licensed, and if you're passionate about games or AI-assisted development we'd love to have you building with us. Beginners genuinely welcome Game: worldofclaudecraft.com Github: github.com/levy-street/world-of-claudecraft submitted by /u/singing_coach_ai [link] [comments]",
+      "author": "singing_coach_ai"
+    }
+  ]
+}

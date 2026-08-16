@@ -1,0 +1,50 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-16T04:00:56.265988+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/prasenx/status/2088685239438807103",
+      "published": "2026-08-15T16:52:21+00:00",
+      "summary": "it's the same process btw i used . @mattshumer_ 's gauntlet loop, everytime it works perfectly, never disappointed i highly recommend you to use opus 4.6 to modify it.",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088666207108948281",
+      "published": "2026-08-15T15:36:43+00:00",
+      "summary": "Teaching Grok Bot to build games in Unity. Updates soon! Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2088643473402413059",
+      "published": "2026-08-15T14:06:23+00:00",
+      "summary": "It’s still going! Should I let it run for another day? Guide to Gauntlet Looping: somethingbig.ai/gauntlet-loo… Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
