@@ -1,0 +1,62 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-17T04:01:16.586100+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089108578082939222",
+      "published": "2026-08-16T20:54:33+00:00",
+      "summary": "Have to film a bunch of ads. If I still have energy after I might stream a bit. If I do, what should I talk about? 👀👀",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089164829680717964",
+      "published": "2026-08-17T00:38:04+00:00",
+      "summary": "I’m still filming ads sadly (I was really behind) so probably won’t be streaming :(",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "published": "2026-08-16T23:36:11+00:00",
+      "summary": "Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have Astra)",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089088055768723601",
+      "published": "2026-08-16T19:33:00+00:00",
+      "summary": "…people use o3 still? alice (@aliceisplaying) NO WHAT NO — https://nitter.net/aliceisplaying/status/2088967076182388987#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

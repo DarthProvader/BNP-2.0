@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-17T04:04:00.246406+00:00",
+  "items": [
+    {
+      "title": "I'm getting this error constantly while trying to use Claude Cowork on Desktop - anyone else?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9o87/im_getting_this_error_constantly_while_trying_to/",
+      "published": "2026-08-16T21:48:38+00:00",
+      "summary": "submitted by /u/nooruponnoor [link] [comments]",
+      "author": "nooruponnoor"
+    },
+    {
+      "title": "I built my first Unity game with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq3rtp/i_built_my_first_unity_game_with_claude/",
+      "published": "2026-08-16T17:56:28+00:00",
+      "summary": "FrogPop is the first game I’ve ever built. It was inspired by Bubble Trouble, an old Flash game I played as a kid. You control a frog that pops bouncing bubbles with its tongue, and the bubbles split into smaller ones. I eventually added roguelite upgrades, relics, shops, hazards, and boss fights. I used Claude throughout most of development. I’d describe how I wanted a mechanic to work, let Claude inspect the relevant Unity scripts, and then have it write or change the C# code. It helped with things like the tongue and bubble mechanics, the wave system, upgrades, the shop, and several bosses. A lot of the process was me testing changes in Unity and then going back to Claude with errors or things that felt wrong. For example, one boss emerges through the walls and exposes different weak points. Claude could build the attack states and hitbox logic, but I still had to test it repeatedly because parts of the boss would appear in the wrong place or remain active after the attack ended. La",
+      "author": "PerspectivePersonal"
+    },
+    {
+      "title": "I just got this in right bottom of web page. What happened?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9qp8/i_just_got_this_in_right_bottom_of_web_page_what/",
+      "published": "2026-08-16T21:51:33+00:00",
+      "summary": "https://preview.redd.it/bs4hvvif5tjh1.png?width=535&format=png&auto=webp&s=913a22a4c475574a653470f635fecd631932470b Hi, I enter a prompt and this showed up. It keeps coming... What's up? submitted by /u/gladiatooorr [link] [comments]",
+      "author": "gladiatooorr"
+    },
+    {
+      "title": "Curious, what does vibe-coded code read like to original coders?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq8ahg/curious_what_does_vibecoded_code_read_like_to/",
+      "published": "2026-08-16T20:51:37+00:00",
+      "summary": "I love vibe-coding. It's brought some of my educational dreams to life. I'm curious though, AI writing has a distinctly inhuman feel with errors that range from awkward vernacular to metaphors that miss the target by a country mile. What's it like for original coders to read vibe-coded code? Is it odd in similar ways to reading AI generated language? Or less odd because code has incorporated machine logic from the outset? Or...? submitted by /u/ComposerNo8415 [link] [comments]",
+      "author": "ComposerNo8415"
+    },
+    {
+      "title": "Thanks, Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpziv3/thanks_claude/",
+      "published": "2026-08-16T15:10:27+00:00",
+      "summary": "Claude clearly is the artistic AI submitted by /u/Many-Bathroom951 [link] [comments]",
+      "author": "Many-Bathroom951"
+    },
+    {
+      "title": "No more weekly limits? I don’t have one.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9gye/no_more_weekly_limits_i_dont_have_one/",
+      "published": "2026-08-16T21:40:12+00:00",
+      "summary": "On the max 5x plan, I don’t have a weekly meter, except for the fable5 specific one. I’ve restarted the app but it doesn’t seem to come back no matter what I do. Does anyone have an idea what might be going on? submitted by /u/WagerWise [link] [comments]",
+      "author": "WagerWise"
+    },
+    {
+      "title": "What is this behavior where it leaks info about the process of making the feature....INTO THE FEATURE?!!!!!!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqehi3/what_is_this_behavior_where_it_leaks_info_about/",
+      "published": "2026-08-17T01:24:42+00:00",
+      "summary": "https://preview.redd.it/mcccdo388ujh1.png?width=525&format=png&auto=webp&s=952203dcbcc808846554deb6e77b6c616235fc17 This is driving me up the wall. First there's the word salad bonanza when working with Claude that gives me a headache. But then it's dumb and so dense that it keeps talking to me THROUGH the stuff that I'm telling it to build. imagine working on an app and needing a simple change to a button: UI Button: Send your email Me: Claude, the send email button should just say Send, not Send your email . Claude: You're right, and it's even worse than your \"it's not worded right\" instinct...[word salad ensues]... It's fixed [proceeds to act like it saved the company]. UI Button: Send (previously 'send your email', but fixed to just 'Send' – simpler, and avoids layout issues with the button, and failed 5 regression tests and storybook snapshots) submitted by /u/RupFox [link] [comments]",
+      "author": "RupFox"
+    },
+    {
+      "title": "Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq9y4h/discussion_hub_for_new_claude_incident_service/",
+      "published": "2026-08-16T22:00:09+00:00",
+      "summary": "Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are investigating reports of degraded performance affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork. We will provide an update as soon as possible. Aug 16, 22:02 UTC Investigating - We are investigating an issue with users authenticating to claude.ai, Claude Code, and Claude Cowork. We will provide an update as soon as possible. Aug 16, 21:58 UTC Post flair and post body will be updated as the incident report is updated by Anthropic. This discussion post will be removed from subreddit highlights one hour after the incident is resolved. View this incident on status.claude.com submitted by /u/ClaudeAI-m",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "I've used both ChatGPT and Gemini extensively for almost 3 years now, and started using Claude last week. I'm never going back.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vq5e7d/ive_used_both_chatgpt_and_gemini_extensively_for/",
+      "published": "2026-08-16T18:57:53+00:00",
+      "summary": "I'm actually amazed. Claude is in so many aspects just clearly better. It surprised me most that Claude actively speaks against my opinion or giving concerns without sounding harsh, and it's honestly so incredibly refreshing and been more productive than any gemini or chatgpt bootlicking answer. Claude takes much longer to respond to me sure, but I think I speak for many people when I say we don't care. The extra time it takes think not only feels like the answers get more quality, but it also clearly shows in the help it gives. Gemini and ChatGPT can and do think for sure, but even if I specifically ask for extra thought and use the correct models claude still takes longer to think and in my opinion comes with better answers and results, truly feeling like it works WITH me, and not FOR me, like the other programs, just trying to please. Am I the only one that clearly sees and feels the difference? Or was I just using the other programs so horribly wrong? submitted by /u/Samisamisamisa",
+      "author": "SamisamisamisamiaamI"
+    },
+    {
+      "title": "I gave claude a chessboard so we can play in between work sessions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqcwqd/i_gave_claude_a_chessboard_so_we_can_play_in/",
+      "published": "2026-08-17T00:10:22+00:00",
+      "summary": "So I got bored and gave claude code a chessboard. I spend a lot of my day with claude in the terminal for work , I wanted a way to spin off and take a short break . I like chess and was curious if I could give claude a chessboard and play together, mini-game style and then come back to the work session. https://i.redd.it/ohve4pu9utjh1.gif You say /chess in your session, a board opens in your browser, and the same claude is now your opponent. You move on the board , the server uses chess.js to verify move legality , and then delivers the move to claude as an FEN notation in the chat via push in tmux or on a normal terminal as a long-poll pull., Claude then replies via the CLI and the board updates. theres no engine behind it. no stockfish, nothing, its literally just claude reading the position and thinking. Which I found to be interesting as it would reflect about its moves. Here are some quotes \"Nxe4 — that's a free pawn. e4 had nothing defending it. Castling was a reasonable-looking ",
+      "author": "tokentrillionaire"
+    }
+  ]
+}

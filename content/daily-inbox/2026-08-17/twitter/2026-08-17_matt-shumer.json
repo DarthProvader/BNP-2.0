@@ -1,0 +1,38 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-17T04:01:06.199327+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2089076441535091120",
+      "published": "2026-08-16T18:46:51+00:00",
+      "summary": "Anyone wanna toss me Instinct access?",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2089073412001980663",
+      "published": "2026-08-16T18:34:49+00:00",
+      "summary": "Ryan is doing incredible work with Gauntlet Loops! Ryan Campbell (@Ryancampbell) Built 4 games this month using @mattshumer_ gauntlet loop. Using Opus 5 for all. The latest game MoonBase One was built over 2 days from a single prompt. I added a note to the gauntlet prompt to first pull learnings and code from the previous games. All built with @threejs . Next I'm thinking I'll build a FPS in a monorepo along with the other games and let a gauntlet loop focus on shrinking the code base of each game while building up a shared library.. with the goal of decreasing effort to build new games over time. I have Grok 4.6 currently building a smart tv/gaming console as well so I can enjoy these on my tv (plus you can talk to Grok, Claude or Codex by saying \"yo homie\" ha). 2026 is pretty fun so far :) Play them here: racing.ryancampbell.com umbranine.ryancampbell.com moonbase.ryancampbell.com — https://nitter.net/Ryancampbell/status/2089019695236276696#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

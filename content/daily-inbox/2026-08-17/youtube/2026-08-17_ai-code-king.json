@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-08-17T04:00:14.294109+00:00",
+  "items": [
+    {
+      "title": "Kimi K3 + DS V4 Flash (Full Workflow): This just COSTS $10/m and BEATS $200/m PLANS!",
+      "url": "https://www.youtube.com/watch?v=_BFs9MZL780",
+      "published": "2026-08-16T08:15:07+00:00",
+      "summary": "Get ClinePass through this link & get 80% off on your purchase: https://cline.gg/aicking80\n\nIn this video, I'll be showing you how to use ClinePass with Cline to access powerful open AI coding models like Kimi K3, DeepSeek V4 Flash, GLM-5.2, Qwen, MiniMax M3, and more through one affordable subscription. I'll also explain why the planner and implementer workflow can make open models feel almost as strong as frontier models for real coding tasks.\n\n--\nKey Takeaways:\n\n🚀 Open AI coding models are now extremely close to top closed models on the KingBench leaderboard.\n🏆 Qwen 3.8 Max, Kimi K3, GLM-5.2, and DeepSeek V4 Flash perform within a few points of frontier models.\n💸 ClinePass gives access to many leading open models through one $9.99 per month subscription.\n🎟️ Using the discount link brings the monthly plan down to about $2 and the yearly plan to about $16.\n🧠 Kimi K3 works best as a planner because it handles long-horizon reasoning and feature planning well.\n⚡ DeepSeek V4 Flash is a st",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
