@@ -1,4 +1,4 @@
-import { getArticles, getAllTags, fetchLatestVideos } from "@/lib/mdx";
+import { getArticleSummaries, getAllTags, fetchLatestVideos } from "@/lib/mdx";
 import { getHomepageYouTubeChannels } from "@/lib/config";
 import { PINNED_VIDEOS } from "@/data/videos";
 import PageClient from "@/components/themes/brutalist-dark/ListingPage";
@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const articles = getArticles();
+  const articles = getArticleSummaries();
   const allTags = getAllTags();
   const latestVideos = await fetchLatestVideos(getHomepageYouTubeChannels(), 1);
   return (

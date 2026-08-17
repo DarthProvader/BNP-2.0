@@ -1,6 +1,6 @@
 "use client";
 
-import type { Article } from "@/lib/mockData";
+import type { ArticleSummary } from "@/lib/mockData";
 import Link from "next/link";
 import { Righteous, Chakra_Petch, Fira_Code } from "next/font/google";
 import { useState, useEffect } from "react";
@@ -91,18 +91,35 @@ const MODEL_NEON: Record<string, string> = {
 /*  Rain drop component                                                */
 /* ------------------------------------------------------------------ */
 function RainEffect() {
+  const [drops, setDrops] = useState<
+    { left: number; height: number; duration: number; delay: number }[] | null
+  >(null);
+
+  useEffect(() => {
+    setDrops(
+      Array.from({ length: 40 }, (_, i) => ({
+        left: i * 2.5 + Math.random() * 1.5,
+        height: 60 + Math.random() * 100,
+        duration: 0.6 + Math.random() * 0.8,
+        delay: Math.random() * 2,
+      }))
+    );
+  }, []);
+
+  if (!drops) return null;
+
   return (
     <div className="pointer-events-none fixed inset-0 z-50 overflow-hidden opacity-[0.07]">
-      {Array.from({ length: 40 }).map((_, i) => (
+      {drops.map((drop, i) => (
         <div
           key={i}
           className="absolute w-px bg-linear-to-b from-transparent via-blue-300 to-transparent"
           style={{
-            left: `${(i * 2.5) + Math.random() * 1.5}%`,
-            height: `${60 + Math.random() * 100}px`,
+            left: `${drop.left}%`,
+            height: `${drop.height}px`,
             animationName: "rainFall",
-            animationDuration: `${0.6 + Math.random() * 0.8}s`,
-            animationDelay: `${Math.random() * 2}s`,
+            animationDuration: `${drop.duration}s`,
+            animationDelay: `${drop.delay}s`,
             animationIterationCount: "infinite",
             animationTimingFunction: "linear",
           }}
@@ -193,7 +210,7 @@ export default function AkiraNeonStreetsPage({
   articles,
   allTags,
 }: {
-  articles: Article[];
+  articles: ArticleSummary[];
   allTags: string[];
 }) {
   const [lang, setLang] = useState<"cs" | "en">("cs");

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
-import type { Article } from "@/lib/mockData";
+import type { ArticleSummary } from "@/lib/mockData";
 import type { YouTubeVideo } from "@/lib/mdx";
 
 const instrumentSerif = Instrument_Serif({
@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 interface PageClientProps {
-  articles: Article[];
+  articles: ArticleSummary[];
   allTags: string[];
   basePath?: string;
   videos?: YouTubeVideo[];

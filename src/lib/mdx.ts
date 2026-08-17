@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import type { Article, Source, AIComment } from "./mockData";
+import type { Article, ArticleSummary, Source, AIComment } from "./mockData";
 
 const contentDir = path.join(process.cwd(), "content", "articles");
 
@@ -84,6 +84,21 @@ export function getArticles(): Article[] {
   return loadArticles();
 }
 
+export function getArticleSummaries(): ArticleSummary[] {
+  return loadArticles().map((article) => ({
+    slug: article.slug,
+    title: article.title,
+    titleEn: article.titleEn,
+    date: article.date,
+    tags: article.tags,
+    excerpt: article.excerpt,
+    excerptEn: article.excerptEn,
+    sources: article.sources,
+    aiComments: article.aiComments,
+    readTime: article.readTime,
+  }));
+}
+
 export function getArticleBySlug(slug: string): Article | null {
   return loadArticles().find((a) => a.slug === slug) ?? null;
 }
@@ -117,7 +132,7 @@ export async function fetchLatestVideos(channels: YouTubeChannel[], count = 1): 
 
   const results = await Promise.allSettled(
     channels.map(async (ch) => {
-      const res = await fetch(ch.feedUrl, { next: { revalidate: 3600 } });
+      const res = await fetch(ch.feedUrl, { next: { revalidate: 86400 } });
       if (!res.ok) return null;
       const xml = await res.text();
       return { xml, channel: ch };
@@ -158,4 +173,4 @@ export async function fetchLatestVideos(channels: YouTubeChannel[], count = 1): 
 }
 
 // Re-export types for convenience
-export type { Article, Source, AIComment } from "./mockData";
+export type { Article, ArticleSummary, Source, AIComment } from "./mockData";

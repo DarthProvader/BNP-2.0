@@ -27,6 +27,12 @@ export interface Article {
   opusOpinionEn?: string;
 }
 
+/** Listing payload — no article body, so ISR cache stays small. */
+export type ArticleSummary = Omit<
+  Article,
+  "content" | "contentEn" | "opusOpinion" | "opusOpinionEn"
+>;
+
 export const articles: Article[] = [
   {
     slug: "claude-4-opus-revolution",

@@ -8,6 +8,8 @@ export function generateStaticParams() {
   return getArticleSlugs().map((slug) => ({ slug }));
 }
 
+export const dynamicParams = false;
+
 export const generateMetadata = generateArticleMetadata;
 
 export default function Page({ params }: { params: Promise<{ slug: string }> }) {

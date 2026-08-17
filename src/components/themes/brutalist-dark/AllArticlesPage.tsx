@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
-import type { Article } from "@/lib/mockData";
+import type { ArticleSummary } from "@/lib/mockData";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 interface Props {
-  articles: Article[];
+  articles: ArticleSummary[];
   allTags: string[];
 }
 

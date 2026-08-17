@@ -1,4 +1,4 @@
-import { getArticles, getAllTags } from "@/lib/mdx";
+import { getArticleSummaries, getAllTags } from "@/lib/mdx";
 import AllArticlesPage from "@/components/themes/brutalist-dark/AllArticlesPage";
 import type { Metadata } from "next";
 
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const articles = getArticles();
+  const articles = getArticleSummaries();
   const allTags = getAllTags();
   return <AllArticlesPage articles={articles} allTags={allTags} />;
 }
