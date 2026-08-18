@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-18T04:03:00.965340+00:00",
+  "items": [
+    {
+      "title": "The extreme number of updates comes off as janky and unprofessional.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vr9vri/the_extreme_number_of_updates_comes_off_as_janky/",
+      "published": "2026-08-18T00:30:21+00:00",
+      "summary": "At this point it feels like way more than once per day and is super distracting. Is it just asking you to reload anytime an engineer commits or something? Anthropic: this should feel way more organized and like 2X per week maximum. submitted by /u/mbatt2 [link] [comments]",
+      "author": "mbatt2"
+    },
+    {
+      "title": "I coded terminal manager for ADHD brains. 100% Opensource.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqx297/i_coded_terminal_manager_for_adhd_brains_100/",
+      "published": "2026-08-17T16:30:27+00:00",
+      "summary": "Hey everyone! Hope I don’t get roasted for this 😅 I’m here with a fun little intro video. My goal is simple: build something genuinely useful for everyone.I shared this on r/ClaudeCode last week and got some amazing feedback 300K views, hopefully some of you here will find it useful too. I originally built this tool just to improve my own productivity. I was using the native Mac Terminal, but managing multiple projects — especially projects I connect to remotely over SSH — had become a complete nightmare. On top of that, I was also keeping VS Code open mostly for Git, which was adding even more overhead to my machine. So, as a solution, I built a program with Claude where I could manage all of my terminals on a single canvas. But things got a little out of hand 😅 I kept adding features, and it eventually turned into something close to an autonomous development environment. So, what can you actually do with it? Your terminals are persistent. You can close the app, lose your connection, ",
+      "author": "ottasilver"
+    },
+    {
+      "title": "Claude is Losing Me After Being Heavy User Since Release",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
+      "published": "2026-08-17T13:25:31+00:00",
+      "summary": "I've been using Claude - mostly Claude Code, but regular Chat as well - almost since it came out. It's been incredibly useful and seemed to only get better with new releases. I've seen lots of posts in this sub and related subs when new models would come out about them not being as capable or getting nerfed or causing all sorts of problems. I rarely found that to be the case for my work, or at least for any extended period of time. It seemed with proper prompting and context management most of this stuff was totally manageable. But Opus 5 and Fable 5 feel totally different. Fable was great at release, but post- Opus 5, both models are driving me crazy. It's hard to even fully explain or give examples because it's just a language change - it just feels harder to read and have a conversation with. It uses weird jargon and shorthand. Some examples: It refers to many things as \"chips.\" I never used that term once in 30 years of software dev, but now it's Claude's favorite word. And it appl",
+      "author": "madscene"
+    },
+    {
+      "title": "Anybody have a good method to tone down the Claude-isms?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vr7bqj/anybody_have_a_good_method_to_tone_down_the/",
+      "published": "2026-08-17T22:42:19+00:00",
+      "summary": "I prefer Claude over GPT because it feels more like a collaborator than a sycophant, but its turns of phrases are very grating--one place where GPT is head and shoulders better because it'll just communicate normally while Claude is all \"three things that improved this turn and one that I want to push on gently that you probably can't see from the inside.\" Every reply it's the same structure. Do I just put it up with it, or can I tell it to stop acting a fool through a set of instructions or settings? submitted by /u/FictionalContext [link] [comments]",
+      "author": "FictionalContext"
+    },
+    {
+      "title": "Hot take: Most \"prompt engineering\" advice for claude code is just common sense dressed up as a skill.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqvua9/hot_take_most_prompt_engineering_advice_for/",
+      "published": "2026-08-17T15:39:48+00:00",
+      "summary": "Hey guys, see a lot of posts and threads treating prompting claude code like its some deep skill with secret techniques. Be specific, give examples, break down the task, mention edge cases. Like yeah, that's just... how you'd explain something to a competent junior dev too. Not exactly a hidden art. Feels like half the \"advanced prompting\" content out there is just repackaging basic communication skills as claude specific tricks. The actual skill is knowing your codebase and being able to articulate what you want clearly, which has nothing to do with claude specifically. Curious if people disagree. submitted by /u/Pretend_Sell6592 [link] [comments]",
+      "author": "Pretend_Sell6592"
+    },
+    {
+      "title": "If Claude writes all my code, what exactly is my skill? Genuinely losing sleep over this.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
+      "published": "2026-08-17T12:43:56+00:00",
+      "summary": "I need to hear from people who've been doing this longer than me, because this has been eating me alive for about a month now. Context: I've spent the last year building a voice agent system that's live and handling 1000+ calls, deployed on Azure. On top of that I building SDK which analyzes those calls, plus a full dashboard on Next.js with Supabase behind it. It works. The client is happy. It's real production software with real traffic. I wrote almost none of it myself. My actual background is a bit of Python. And eveyrhting else framework of voice agent learned on the go with claude code. That's it. Zero web dev. Zero database experience before this. Never touched TypeScript or other language before in my life before this project. My most of the time workflow is: I have a CLAUDE.md and a rules file, I open a session, I dump everything in my head into it, it makes a plan, I read the plan, we iterate, I run it. That's the job. That's all of it. And here's the part that's messing me u",
+      "author": "mynamepookie"
+    },
+    {
+      "title": "How do you guys deal with being a stranger to your own codebase?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vrayh1/how_do_you_guys_deal_with_being_a_stranger_to/",
+      "published": "2026-08-18T01:17:58+00:00",
+      "summary": "This question is for those of you doing agentic coding. Agentic coding can 10-20x speed of development and bosses are loving it. Though it seems to keep you in this constant state of being new to a codebase. And it's not as if you were actually new to a codebase because you could just end up learning it over time. No. With agentic coding, you can't learn it. As it keeps drastically changing with every request from your boss holding inhuman expectations from agentic coding. How do you deal with not being able to keep up? Do you even try to keep up? Did you just stop caring? Thanks submitted by /u/Slight_Season_4500 [link] [comments]",
+      "author": "Slight_Season_4500"
+    },
+    {
+      "title": "why do i get like this",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqqe2g/why_do_i_get_like_this/",
+      "published": "2026-08-17T12:02:42+00:00",
+      "summary": "For anyone wondering, the app I'm working on is https://www.AppScout.co . It helps people discover web and mobile apps from across the internet by showing them one app at a time. People like apps in order to get personalized app recommendations. If you run a software startup or side project, you can list it for free to get free extra traffic here: https://www.appscout.co/submit/ (Affiliation Disclosure: I'm the sole creator and developer behind AppScout.) submitted by /u/Healthy_Flatworm_957 [link] [comments]",
+      "author": "Healthy_Flatworm_957"
+    },
+    {
+      "title": "Claude code doesn’t follow rules anymore",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqxfn0/claude_code_doesnt_follow_rules_anymore/",
+      "published": "2026-08-17T16:42:45+00:00",
+      "summary": "So, this happened recently with me while using Claude Code. I am working on a dev project using claude code to do the usual stuff. As guardrails, I have explicitly added instructions for disabling auto push of code commits and instructions for confirming before performing updates on remote. I was debugging a failed gitlab pipeline and Claude simply went on to apply the fix, commit and pushed to the branch. When confronted, it just acknowledged that yeah it just broke the rule even when the context was clearly available in memory. 😶‍🌫️ submitted by /u/GuyWhoNoticed [link] [comments]",
+      "author": "GuyWhoNoticed"
+    },
+    {
+      "title": "How are you guys discovering new Claude Skills and workflows? I feel like I'm missing a lot",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqv6pp/how_are_you_guys_discovering_new_claude_skills/",
+      "published": "2026-08-17T15:15:18+00:00",
+      "summary": "I've been experimenting more with Claude Code, Skills and custom instructions lately, and I feel like I'm only scratching the surface. I keep finding really good Skills and workflows randomly across Reddit, GitHub and other communities. So I'm curious: Where do you guys find the good stuff? GitHub? Discord? Reddit? A marketplace? Newsletters? Your own collection? I've been thinking about creating a simple site that gives you one useful Claude Skill/workflow to discover every day , with examples and real use cases. Does something like this already exist? Or would you actually use it? I'm curious what everyone is using. submitted by /u/Felix_Opus [link] [comments]",
+      "author": "Felix_Opus"
+    }
+  ]
+}

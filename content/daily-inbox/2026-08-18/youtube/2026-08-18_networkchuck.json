@@ -1,0 +1,24 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-08-18T04:00:47.788544+00:00",
+  "items": [
+    {
+      "title": "CCNA from Start to Finish: One MASSIVE Packet Tracer Lab",
+      "url": "https://www.youtube.com/watch?v=buiNt9MUIHk",
+      "published": "2026-08-17T16:41:06+00:00",
+      "summary": "Join us for our 90 minute Sumer of CCNA session, today at 5PM ET!\n\nIf you haven't signed up for the Summer of CCNA, please visit this page here and let's get started! https://academy.networkchuck.com/course/premium-summer-of-ccna",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

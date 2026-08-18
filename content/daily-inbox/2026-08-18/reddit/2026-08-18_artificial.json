@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-18T04:04:52.278032+00:00",
+  "items": [
+    {
+      "title": "Deepfake voices seem like a nightmare for diplomatic calls",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr1hae/deepfake_voices_seem_like_a_nightmare_for/",
+      "published": "2026-08-17T19:02:13+00:00",
+      "summary": "Been reading more about AI voice cloning and this seems like one of the scarier use cases. Diplomats and government officials must take calls from people they know all the time. If someone can clone a known person’s voice then just recognizing the voice doesn’t prove much anymore. But I’m curious how real this threat is in practice. Are deepfake calls actually happening often enough for people in these roles to change how they verify who they’re talking to? If so what can we do to fight against it? Or am I thinking for something too far in the future. submitted by /u/Dapper-Path-585 [link] [comments]",
+      "author": "Dapper-Path-585"
+    },
+    {
+      "title": "Should AI agents have their own company cards?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr54rn/should_ai_agents_have_their_own_company_cards/",
+      "published": "2026-08-17T21:15:38+00:00",
+      "summary": "As AI agents start doing more ops work, I think business banking has to think about them differently. Not full bank access but maybe controlled spend lanes. If an agent is helping with research, ads, APIs, software trials or vendor tasks I don’t want it touching the main account. I’d rather give it strict limits, logs and approval rules like you would with a junior employee and probably someone is doing this so need to know more, thanks in advance! submitted by /u/Several-Cattle-9515 [link] [comments]",
+      "author": "Several-Cattle-9515"
+    },
+    {
+      "title": "Using AI the wrong way could leave you worse off than never using it at all",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqxviw/using_ai_the_wrong_way_could_leave_you_worse_off/",
+      "published": "2026-08-17T16:58:09+00:00",
+      "summary": "Research conducted by BYU professor Mark Keith suggests using AI the wrong way could have serious long-term negative impacts. His review of the AI use literature indicates many people: Don't retain skills after AI assistance is removed Forget what they learned using AI Demonstrate lower critical thinking skills and less mental effort/engagement with tasks The Long-Term AI Outcomes Gap: Mark Keith, BYU In fact, over the long term, failing to engage with AI the right way could leave people worse off than those who never adopted AI in the first place. (There are a lot of non-AI adopters out there. Most people think AI equals a chatbot , and 50% of Americans don't plan to use them). What's the right way to use AI? The research suggests: Verifying information AI is providing Use it to challenge assumptions Ask whether you're asking the right questions Are you finding your critical thinking skills eroded as you use AI more, or the opposite? What are you doing to preserve or augment your skil",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "Strongest candidates for an AI Microchip moment",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr6x5j/strongest_candidates_for_an_ai_microchip_moment/",
+      "published": "2026-08-17T22:25:37+00:00",
+      "summary": "I am curious about all these data centers being built. What are the chances AI can have a microchip moment potentially rendering them all useless? This could be a black swan event that could wipe out a lot of investment and potentially destroy some very large businesses. If this is possible, what are the mostly likely candidates? In particular, I am interested in hearing from anyone who may be working on one of these candidates, even if it is still in RD and their opinion on how likely they are to succeed. submitted by /u/ThomasToIndia [link] [comments]",
+      "author": "ThomasToIndia"
+    },
+    {
+      "title": "Self-hosted AI analyst that writes the SQL, checks its own numbers, and cites which query every claim came from",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr6lbp/selfhosted_ai_analyst_that_writes_the_sql_checks/",
+      "published": "2026-08-17T22:12:45+00:00",
+      "summary": "Most \"chat with your data\" tools give you a confident answer and no way to tell whether it's right. I've been building the opposite: an AI Analyst where the entire working is on screen and every claim is traceable to the query that produced it. Asked it a real question against an HR dataset: \"Is Engineering's heavy hiring actually translating into headcount growth, or is it mostly backfilling exits?\" What it does, in order: 1. States its approach before touching data. It reads the schema, plans the steps, and says why — including telling me the governed semantic model lacked a hires metric, so it fell back to the raw monthly table. No silent guessing about which source it used. 2. Runs each step as real SQL you can read. Every step shows the query, the row count, and a \"where these numbers came from\" breakdown. Nothing is a black box — if you don't trust a number, the SQL that produced it is right there. 3. Self-checks every result — and flags its own problems. This is the part I care ",
+      "author": "Outside-Risk-8912"
+    },
+    {
+      "title": "Why NVIDIA’s Six-Year-Old A100 GPU Is Still Making Money",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqldp4/why_nvidias_sixyearold_a100_gpu_is_still_making/",
+      "published": "2026-08-17T07:23:47+00:00",
+      "summary": "submitted by /u/Ok-Elevator5091 [link] [comments]",
+      "author": "Ok-Elevator5091"
+    },
+    {
+      "title": "Could today’s AI models give us an “LK-99 moment” — but this time for real?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqrdj9/could_todays_ai_models_give_us_an_lk99_moment_but/",
+      "published": "2026-08-17T12:47:06+00:00",
+      "summary": "I still remember those few days in 2023 when LK-99 looked like it might actually be a room-temperature, ambient-pressure superconductor. For a brief moment, it felt like we were watching one of those discoveries that could genuinely change civilization. Obviously, LK-99 didn’t survive replication. But AI has advanced enormously since then. We now have models that can reason across scientific literature, generate hypotheses, write and run code, analyse experimental data, predict structures and materials, and increasingly interact with automated labs. So I keep wondering: Could AI significantly increase the probability of discovering something like a real LK-99? Not necessarily superconductivity specifically, but a breakthrough material or physical discovery with enormous technological consequences — something humans might have needed decades to stumble upon otherwise. It seems like materials science could be particularly well suited to this: huge search spaces, lots of existing experime",
+      "author": "lfguerreiro1"
+    },
+    {
+      "title": "Chinese robot dogs tackle fires and toxic leaks to protect rescuers",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqtw4o/chinese_robot_dogs_tackle_fires_and_toxic_leaks/",
+      "published": "2026-08-17T14:27:29+00:00",
+      "summary": "The X30 can carry a water cannon, reaching 60 meters at 40 L/s, or transport hoses, air tanks and breaching tools. submitted by /u/Spirited-Sir-3034 [link] [comments]",
+      "author": "Spirited-Sir-3034"
+    },
+    {
+      "title": "Looking for the name of an old ai app",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr7dkg/looking_for_the_name_of_an_old_ai_app/",
+      "published": "2026-08-17T22:44:22+00:00",
+      "summary": "Around 2021/2022 time, you could customise your ai character they were kinda 3d like the sims and you could chat to them like in c.ai , anyone know what it was called? submitted by /u/adorable_k1ttenn [link] [comments]",
+      "author": "adorable_k1ttenn"
+    },
+    {
+      "title": "A week after OpenAI paused a cyber-capable model, two labs shipped one anyway, through opposite doors",
+      "url": "https://www.reddit.com/r/artificial/comments/1vr6wje/a_week_after_openai_paused_a_cybercapable_model/",
+      "published": "2026-08-17T22:24:58+00:00",
+      "summary": "Rounding up a genuinely heavy week. The throughline: last issue OpenAI paused internal work on a model it couldn't rule out was cyber-capable. This week the capability shipped anyway, two different ways. **OpenAI GPT-5.6 Cyber** (Aug 10): a security-specialized model gated behind a \"Daybreak Red\" tier. OpenAI's own eval has it answering 95% of offensive-security requests the standard model refuses 98.5% of the time. Access stays with 16 named partners; from Sept 1 individual accounts need hardware keys. Customers get findings, never the weights. **Zhipu GLM-5.3** (Aug 14): marketed on \"emergent cyber capabilities,\" claims 84.5% on CyberGym (vendor-reported; note Wiz's Atlas system claims a higher 90.9%). Open weights promised in ~2 weeks. The capability didn't get shelved. It got a doorman. The rest of the week: - **Meta returned to open weights** with Muse Glimmer, a 30B Apache-2.0 agent model that runs under 20GB. - **Alibaba** published its first downloadable Max-class Qwen (2.4T), ",
+      "author": "mattezell"
+    }
+  ]
+}

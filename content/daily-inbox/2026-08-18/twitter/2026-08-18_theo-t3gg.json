@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-18T04:01:47.650888+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089546517199941911",
+      "published": "2026-08-18T01:54:46+00:00",
+      "summary": "It's legit trippy to use T3 Code on a bad network. You forget the connection is terrible until you alt-tab back to your browser and everything is slow again Astrid (@just_some_dev) T3 Code just working on delta WiFi (the shit infra not starlink) was magical tbh — https://nitter.net/just_some_dev/status/2089535513216581969#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089531402945745012",
+      "published": "2026-08-18T00:54:42+00:00",
+      "summary": "This is a really good tweet Zed (@zeddotdev) We’ve got you @theo . (you’re invited) We spent our psychosis building Delta on a different primitive: every edit recorded as an ordered delta, together with the conversation that produced it. Sign up for early access: zed.dev/deltadb — https://nitter.net/zeddotdev/status/2089418150831869981#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/maria_rcks/status/2089477033197789536",
+      "published": "2026-08-17T21:18:39+00:00",
+      "summary": "Guys, don't trust this guy, he's a paid shill for T3 Code, you know, the free and open source project that has no way to make profit for its whole existence. He's such a paid shill lmao. Theo - t3.gg (@theo) Agreed. Codex is far ahead of the other labs with their remote stuff. That said - I'd argue T3 Code is even further. Project creation, multi-pc management, remote configuration, and also open source :) — https://nitter.net/theo/status/2089475101658099795#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089487653741949073",
+      "published": "2026-08-17T22:00:52+00:00",
+      "summary": "I'm tired of terminals. Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089475101658099795",
+      "published": "2026-08-17T21:10:59+00:00",
+      "summary": "Agreed. Codex is far ahead of the other labs with their remote stuff. That said - I'd argue T3 Code is even further. Project creation, multi-pc management, remote configuration, and also open source :) Federico Viticci (@viticci) It's honestly remarkable how good *and* unique Codex Remote for iOS is. Other companies' \"remote control\" features force you to start from a Mac (Claude, Cursor). Codex Remote is, as far as I know, the only one with full start-from-iOS flow, near desktop parity, and a voice mode. I coordinate dozens of threads from iOS on a daily basis. The voice mode is especially impressive since it can dispatch to individual threads, load all your context + plugin/skills from desktop, and even reopen threads on-screen. I recently set up a second Mac mini (a Tahoe machine for backwards compatibility of my CLIs) and Codex Remote voice mode guided me through the process of setting up a Comet Remote KVM while I was wearing AirPods. While speaking to Codex on my iPhone, it opera",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-18T04:01:48.835058+00:00",
+  "items": [
+    {
+      "title": "[OC] Chinese models",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqy1p1/oc_chinese_models/",
+      "published": "2026-08-17T17:03:56+00:00",
+      "summary": "Used Gemini for the comic. Prompt: create an image for this comic. it should be a single image. no text, no baloon dialogues (i'll add that later). use a simple, minimal style. mostly blank (white), with black lines. some accent colors here and there. there are two women, friends, sitting on a couch. they're talking, facing each other. one is silent (listening), and the other one is talking (venting), holding a lit cig. submitted by /u/Speckart [link] [comments]",
+      "author": "Speckart"
+    },
+    {
+      "title": "Big Tech Is Raising Billions To Stop UBI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrasl0/big_tech_is_raising_billions_to_stop_ubi/",
+      "published": "2026-08-18T01:10:39+00:00",
+      "summary": "Joe Biden's Former commerce secretary Gina Raimondo has decided that UBI in response to AI is the thing to fear most. She said: \"I personally think it's like the end of America.\" She is now heading up a newly-launched extremely well-funded organization to make sure the country reaches for anything but a basic income in response to AI. It's called RAISE US, and the money behind it comes largely from the companies building the disruption it exists to manage. RAISE US launched June 25, with Raimondo as CEO and former Indiana governor Eric Holcomb as co-chair. It has already secured more than $500 million toward a $1 billion target. Amazon, Anthropic, Microsoft, and the OpenAI Foundation are anchor partners. Behind them sits a wall of corporate and philanthropic money: Blackstone, General Motors, IBM, Eli Lilly, Mastercard, Deloitte, UPS, Cisco, Workday, Arnold Ventures, and a dozen more. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Tests for the Worldwide Humanoid Robot Games have already started",
+      "url": "https://www.reddit.com/r/singularity/comments/1vr69ot/tests_for_the_worldwide_humanoid_robot_games_have/",
+      "published": "2026-08-17T22:00:05+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vr3oo8/anthropic_has_finished_training_mythos_2_but_does/",
+      "published": "2026-08-17T20:21:38+00:00",
+      "summary": "https://x.com/kimmonismus/status/2089436090885185698 Anthropics Mythos 2 is done training and Anthropic won't release it, but the internal loop that builds Mythos 3 hasn't stopped, Patel says. The focus now is on internal improvements. It's unclear when we'll see any releases. They just do not want to release it so that Chinese companies are not able to distill from it. Despite all the rave about GPT 5.6 Sol, Claude Fable 5 is still the most intelligent publically released model. At this rate, it's likely Anthropic will only release a better model to the public If/When Open AI releases a model that is clearly smarter than Fable 5. It's like a race. If you're ahead of the competition, there's no need to step on the gas, unless the competitor is about to overtake you. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Read more: https://x.com/gavincrooks/status/2088643200038883830",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqsrnv/read_more/",
+      "published": "2026-08-17T13:44:51+00:00",
+      "summary": "submitted by /u/Southern-Break5505 [link] [comments]",
+      "author": "Southern-Break5505"
+    },
+    {
+      "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqzdz2/qwen3827b_lands_next_to_deepseek_v4_and_gpt56/",
+      "published": "2026-08-17T17:49:29+00:00",
+      "summary": "submitted by /u/yaboyyoungairvent [link] [comments]",
+      "author": "yaboyyoungairvent"
+    },
+    {
+      "title": "Unitree previews a humanoid that jumps higher than any human and has a faster top speed than Usain Bolt (It's called Superman).",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqxz3o/unitree_previews_a_humanoid_that_jumps_higher/",
+      "published": "2026-08-17T17:01:27+00:00",
+      "summary": "Source: https://www.youtube.com/watch?v=O7OkiZfIlS4 submitted by /u/GraceToSentience [link] [comments]",
+      "author": "GraceToSentience"
+    },
+    {
+      "title": "The Most Attractive Quadrant is already occupied ! It's happening !",
+      "url": "https://www.reddit.com/r/singularity/comments/1vr3rvq/the_most_attractive_quadrant_is_already_occupied/",
+      "published": "2026-08-17T20:25:02+00:00",
+      "summary": "https://artificialanalysis.ai/models/open-source#intelligence-index-vs-total-parameters submitted by /u/Southern-Break5505 [link] [comments]",
+      "author": "Southern-Break5505"
+    },
+    {
+      "title": "Qwen 3.8 27B's existence raises questions",
+      "url": "https://www.reddit.com/r/singularity/comments/1vra37m/qwen_38_27bs_existence_raises_questions/",
+      "published": "2026-08-18T00:39:30+00:00",
+      "summary": "1) Are scaling laws dead ? If a model this small is so intelligent, then what's the key to intelligence ? 2) Are the majority of today's biggest frontier models parameters just \"fluff\" that don't help a model reason, or don't hold knowledge, and are waiting to be compressed ? 3) how did they do it ? Is it distillation from a internal model, or is it because smaller models are faster to train with RL ? submitted by /u/Notrx73 [link] [comments]",
+      "author": "Notrx73"
+    },
+    {
+      "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
+      "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
+      "published": "2026-08-17T18:40:41+00:00",
+      "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.8 (27b) 51 GPT-5.6-Terra 50 submitted by /u/UnknownEssence [link] [comments]",
+      "author": "UnknownEssence"
+    }
+  ]
+}
