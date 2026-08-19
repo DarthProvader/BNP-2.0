@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-19T04:01:56.873583+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089913970841055331",
+      "published": "2026-08-19T02:14:54+00:00",
+      "summary": "So I finally tried out @mattpocockuk 's skills... Video",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/IAM_Niza/status/2089892890726064579",
+      "published": "2026-08-19T00:51:08+00:00",
+      "summary": "He was a good guy. He can finally rest Video special k | CEO of stressed out era (@specialkdelslay) Some very sad news Our friend @FlipMediaProd has been struggling for the past year with medical issues, had an unexpected complication and has passed away. I know many of you knew him; with family's permission I asked to make this post. I'm beyond heartbroken. RIP lil bro — https://nitter.net/specialkdelslay/status/2089883527982862640#m",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/t3dotcodes/status/2089900317223895120",
+      "published": "2026-08-19T01:20:38+00:00",
+      "summary": "i should prolly start posting here huh",
+      "author": "theo",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089874287310327912",
+      "published": "2026-08-18T23:37:12+00:00",
+      "summary": "People seem to be struggling with understanding \"feedback\" again, here let me help: ✅ \"tried out [product], it didn't work for me. here's 3 issues I had\" ❌ \"idk why everyone is using [product], I tried it and it sucked. it's ugly and bad. their users must be paid grifters\"",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2089879902988468640",
+      "published": "2026-08-18T23:59:31+00:00",
+      "summary": "Here’s an example of some critical but very good feedback for reference gianmarco simone ✨ (@ggsimm) Please @theo hire a designer ASAP that can be annoying about stuff while you guys ship like crazy 🙏 Or even a design engineer that's up to fix a bunch of the random stuff. Eg. This needs some love, it's starting to accumulate stuff randomly — https://nitter.net/ggsimm/status/2087212920564306398#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

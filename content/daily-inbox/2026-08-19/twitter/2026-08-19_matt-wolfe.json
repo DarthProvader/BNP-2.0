@@ -1,0 +1,37 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "handle": "mreflow",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-08-19T04:01:54.517841+00:00",
+  "items": [
+    {
+      "title": "Matt Wolfe (@mreflow)",
+      "url": "https://x.com/mreflow/status/2089774537114300456",
+      "published": "2026-08-18T17:00:50+00:00",
+      "summary": "AI Rants & Rabbit Holes: Does AI Make Our Lives Better? nitter.net/i/broadcasts/1nGeLMBzB… Link Matt Wolfe AI Rants & Rabbit Holes: Does AI Make Our Lives Better? https://nitter.net/i/broadcasts/1nGeLMBzBkZKX",
+      "author": "mreflow",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Wolfe (@mreflow)",
+      "url": "https://x.com/mreflow/status/2089758127415787682",
+      "published": "2026-08-18T15:55:38+00:00",
+      "summary": "Going live in about an hour just for fun. Bringing my buddy @joefier on to hang with me and chat about all the latest in the world of tech and AI. Planning on showing behind the scenes of my current operation and how I systematize everything. Live on YT, Twitch and X.",
+      "author": "mreflow",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

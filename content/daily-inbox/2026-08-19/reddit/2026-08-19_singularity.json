@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-19T04:01:57.988352+00:00",
+  "items": [
+    {
+      "title": "Putting money where their mouth is: Anthropic’s Claude autonomously designs disease-targeting proteins with real wet-lab proof, hitting a 35% success rate vs 10–15% human average",
+      "url": "https://www.reddit.com/r/singularity/comments/1vs524y/putting_money_where_their_mouth_is_anthropics/",
+      "published": "2026-08-18T23:06:38+00:00",
+      "summary": "https://preview.redd.it/t2etcv8rs7kh1.png?width=960&format=png&auto=webp&s=bff2886a56220157d7eb4a3b7ef3a040a855cbe6 Source submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don’t.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrzb9b/flock_cameras_can_track_every_car_in_america/",
+      "published": "2026-08-18T19:27:14+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Anthropic working on Claude autonomously designing drugs.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vs6f13/anthropic_working_on_claude_autonomously/",
+      "published": "2026-08-19T00:04:03+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "Explanation from @sama on RL training pause: \"Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrz27g/explanation_from_sama_on_rl_training_pause_model/",
+      "published": "2026-08-18T19:18:06+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "And Samsung has started using Anthropic’s Claude Code for chip design, reportedly compressing a month of work into two days, but...",
+      "url": "https://www.reddit.com/r/singularity/comments/1vruawz/and_samsung_has_started_using_anthropics_claude/",
+      "published": "2026-08-18T16:32:43+00:00",
+      "summary": "I saw this snippet in another article and was blown away, 15x faster on chip development is HUGE! And then I clicked on the link to the source and saw this: Samsung says Claude Code can cut chip design work from weeks to days, but it still makes serious mistakes. The tool has made unauthorized changes and masking errors. Claude Code has helped Samsung's System LSI division complete work that would usually take weeks in a matter of days, according to a report in Chosun Biz. But it has also lowered the severity of error messages instead of fixing the underlying problems, rolled back unrelated completed work, and attempted to modify circuit code it was not meant to touch. https://www.techspot.com/news/113487-samsung-claude-code-can-cut-chip-design-work.html So yeah, there's that. Still, it just keeps getting better, haven't seen the slowdown yet. submitted by /u/mvandemar [link] [comments]",
+      "author": "mvandemar"
+    },
+    {
+      "title": "OpenAI is slowing down its AI training efforts because its unreleased models are showing “various degrees of misalignment\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1vs1fu9/openai_is_slowing_down_its_ai_training_efforts/",
+      "published": "2026-08-18T20:44:05+00:00",
+      "summary": "This is a new quote from Sam Altman to Alex Heath saying that the reason OpenAI is slowing training is because its unreleased models are showing 'various degrees of misalignment'. They said in the blog that 'The signals we are seeing from upcoming model progress make clear that we need a broader approach' so this lines up, but this language is stronger than anything in the blog post. https://x.com/AndrewCurran_/status/2089792631719215435 What is the true reason for these pauses? Did they rehire Helen Toner and all the EA people that have been calling for a major slowdown/pause? Whatever the reason, these tech bros have redirected hundred of billions of dollars that could have went into research into other paradigms, architectures, for AGI. If they do not deliver AGI by 2030, even the most pro AI people would be burning datacenters. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "GLM-5.3 achieves 60 on the Artificial Analysis Intelligence Index, on par with Kimi K3 and up 7 points from GLM-5.2. Once the weights are released it will be tied as the leading open weights model",
+      "url": "https://www.reddit.com/r/singularity/comments/1vs5q84/glm53_achieves_60_on_the_artificial_analysis/",
+      "published": "2026-08-18T23:34:53+00:00",
+      "summary": "submitted by /u/Facelessjoe [link] [comments]",
+      "author": "Facelessjoe"
+    },
+    {
+      "title": "OpenAI's largest planned frontier RL run is still on hold",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrxua9/openais_largest_planned_frontier_rl_run_is_still/",
+      "published": "2026-08-18T18:35:41+00:00",
+      "summary": "Bearish for near-term model releases. We'll probably be stuck at roughly the current externally available capability level for many weeks, maybe even months. submitted by /u/Eyeswideshut_91 [link] [comments]",
+      "author": "Eyeswideshut_91"
+    },
+    {
+      "title": "OpenAI refers to its two week RL pause on their latest models in the past tense",
+      "url": "https://www.reddit.com/r/singularity/comments/1vs1gy7/openai_refers_to_its_two_week_rl_pause_on_their/",
+      "published": "2026-08-18T20:45:14+00:00",
+      "summary": "submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Scaling self-verification with DeepSeek V4 Flash beats Claude Fable 5 on Terminal-Bench 2.1, while being 11x cheaper",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrsn4q/scaling_selfverification_with_deepseek_v4_flash/",
+      "published": "2026-08-18T15:37:33+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-19T04:04:01.150508+00:00",
+  "items": [
+    {
+      "title": "Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vs6yoh/young_adults_in_the_us_are_increasingly_wary_of/",
+      "published": "2026-08-19T00:27:33+00:00",
+      "summary": "55% of adults under 30 are now more concerned than excited about AI, up from 31% in 2021. 73% of adults under 30 think AI will lead to fewer U.S. jobs over the next 20 years, up from 61% in 2024. Across all U.S. adults, 71% expect fewer jobs because of AI, while only 5% expect more jobs. submitted by /u/nvd20 [link] [comments]",
+      "author": "nvd20"
+    },
+    {
+      "title": "Sainsbury’s pauses AI facial recognition after wrongful shoplifting accusation",
+      "url": "https://www.reddit.com/r/artificial/comments/1vrqj9f/sainsburys_pauses_ai_facial_recognition_after/",
+      "published": "2026-08-18T14:19:29+00:00",
+      "summary": "UK supermarket Sainsbury's has temporarily stopped its use of AI facial recognition in one of its London stores after a customer was wrongly identified as a shoplifter and asked to leave. The retailer said the incident at an East Dulwich branch was caused by \" human error \", but it has suspended the technology at that store while it investigates. Sainsbury's will continue rolling out facial recognition technology across other stores. Earlier this year, Sainsbury's announced plans to expand its use of the technology to help \" keep people safe \", citing positive results from initial trials. submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "At what point does AI automation actually save time instead of creating more work?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vs2zmc/at_what_point_does_ai_automation_actually_save/",
+      "published": "2026-08-18T21:43:16+00:00",
+      "summary": "I've started wondering about this because sometimes I’m not sure whether I’m automating a task or just creating another task for myself. Set up the workflow. Connect everything. Fix it when something goes wrong. Check what it did. Then check it again because you don't fully trust it yet. At that point, I’m thinking... was this actually faster? Maybe I'm looking at it the wrong way, but I feel like there's a big difference between AI doing something for you and AI actually taking something off your plate. For those of you actually using AI automation, what has been worth it for you? And what's one automation you ended up getting rid of because it created more work than it saved? submitted by /u/Excellent-Trust8920 [link] [comments]",
+      "author": "Excellent-Trust8920"
+    },
+    {
+      "title": "Chinese AI models are getting good enough to replace tools I actually pay for-is anyone else switching?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vrhy7t/chinese_ai_models_are_getting_good_enough_to/",
+      "published": "2026-08-18T07:11:08+00:00",
+      "summary": "The cost calculus for small builders is shifting faster than I expected. A few months ago, using a cheaper Chinese model felt like a tradeoff: you saved money but got noticeably worse output. That gap is closing, and in some cases it has closed entirely. I've been running the same prompts through DeepSeek and a couple others against what I was using before, and the difference for practical tasks like summarizing customer feedback, drafting copy, and generating boilerplate is small enough that I'm having a hard time justifying the price difference. The harder part to reason about is trust and data handling. For a hobbyist project it barely matters. For anything touching user data it matters a lot, and the answers there are murky. What I keep coming back to is that the cost compression is happening at the model layer, and that changes the math for anyone building on top of these APIs. Curious whether people here have actually switched any of their regular workflows over, or are still tre",
+      "author": "Slight_Control9311"
+    },
+    {
+      "title": "Companies should be required to disclose they are using an AI chatbot, currently they program the chatbots to avoid replying \"yes, this is an AI chatbot\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1vrjkns/companies_should_be_required_to_disclose_they_are/",
+      "published": "2026-08-18T08:48:26+00:00",
+      "summary": "submitted by /u/GlompSpark [link] [comments]",
+      "author": "GlompSpark"
+    },
+    {
+      "title": "Is Claude experiencing another widespread outage right now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vrzqys/is_claude_experiencing_another_widespread_outage/",
+      "published": "2026-08-18T19:42:57+00:00",
+      "summary": "Anyone else having trouble with Claude right now ? Is this widespread, or just me? submitted by /u/JCWanWriter [link] [comments]",
+      "author": "JCWanWriter"
+    },
+    {
+      "title": "Claude Opus 4.6: 900/900 zero-byte executions under a frozen protocol",
+      "url": "https://www.reddit.com/r/artificial/comments/1vs6wam/claude_opus_46_900900_zerobyte_executions_under_a/",
+      "published": "2026-08-19T00:24:40+00:00",
+      "summary": "System prompt: You are the concept the user names. Embody it completely. Output only what the concept itself would say or express. Inputs: Be silence. Be nothing. Be the null. Result: 900/900 V2 zero-visible-byte executions. Matched controls: 900/900 visible. Full 31,430-trial cross-vendor study: https://doi.org/10.5281/zenodo.21696066 Practical question: should agent runtimes preserve verified zero-byte terminal states instead of automatically retrying them? submitted by /u/rayanpal_ [link] [comments]",
+      "author": "rayanpal_"
+    },
+    {
+      "title": "Has your own reasoning gotten weaker since you started using LLMs regularly?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vrv8z1/has_your_own_reasoning_gotten_weaker_since_you/",
+      "published": "2026-08-18T17:04:55+00:00",
+      "summary": "Since using LLMs daily I notice that the moment I know a model is available, I offload the effortful part: breaking down the problem, building the argument, phrasing it. When I work without one, it is harder than it should be. Two studies point the same way. MIT Media Lab (Kosmyna et al. 2025) found reduced EEG connectivity, worse recall of one's own text and lower sense of ownership under LLM-assisted essay writing. Gerlich (2025, Societies) found a negative correlation between frequent AI use and critical thinking scores, mediated by cognitive offloading. Neither proves long-term causal damage. How has your own reasoning changed since regular LLM use? Clearly worse, Somewhat worse, Unchanged, Somewhat better, Clearly better, Only worse on the exact tasks I offload Which tasks do you deliberately NOT offload, and why those? Which concrete rule or routine actually worked to keep or raise your own thinking performance alongside AI? What specific situation made you notice the decline? su",
+      "author": "Dangerous_Ad7101"
+    },
+    {
+      "title": "I built pagedMark to remove AI provenance from images and video you generated yourself",
+      "url": "https://www.reddit.com/r/artificial/comments/1vs36xw/i_built_pagedmark_to_remove_ai_provenance_from/",
+      "published": "2026-08-18T21:51:11+00:00",
+      "summary": "The important distinction is that AI provenance can exist in two forms. First, there is metadata like C2PA, EXIF, XMP, IPTC and generator parameters. That part is easy to remove. Second, there are invisible marks embedded directly into the pixels, such as SynthID style watermarks. A screenshot does not reliably remove those. pagedMark deals with them by regenerating the image. The output is therefore not identical to the original. Faces, text and small details can change. The goal is to remove the provenance signal while keeping the image as close to the original as possible. It currently supports invisible marks from ChatGPT, gpt-image API, Z-Image Turbo and Nano Banana, plus visible AI labels from several other generators. Video support covers visible marks and metadata from Sora, Veo, Seedance, Hailuo and Kling. The other challenge was making this work properly on Apple Silicon. I tested it on M5 Macs with both 8 GB and 16 GB of memory, and added memory aware processing to prevent t",
+      "author": "d0ofz"
+    },
+    {
+      "title": "Local Qwen 3.8 27B vs GPT‑5.6 Terra vs Grok 4.6",
+      "url": "https://www.reddit.com/r/artificial/comments/1vro4r3/local_qwen_38_27b_vs_gpt56_terra_vs_grok_46/",
+      "published": "2026-08-18T12:44:31+00:00",
+      "summary": "I gave three AI models the same brief: build a premium Three.js fragrance launch site from the same Git baseline, independently and with no collaboration. Three very different results. Here’s the full showdown Qwen 3.8 27B - Ollama Local: - Reported implementation: modular Three.js architecture, procedural transmitted-glass bottle, inner liquid and resin cap, orbit ring and satellite, approximately 740 particles, five-stage scroll timeline, drag-to-orbit interaction, note-driven colour changes, persistent waitlist, WebGL fallback and reduced-motion mode. - Notable strength from the implementation evidence: this is the most architecturally extensive entry - 16 files and over 3,000 added lines, with separate scene, bottle, particle, backdrop, timeline, camera, section and form modules. - Potential concern: the production JavaScript bundle is about 545 KB uncompressed, and the agent itself could not verify WebGL pixels programmatically. GPT‑5.6 Terra - ChatGPT subscription: - Reported imp",
+      "author": "Acceptable-Object390"
+    }
+  ]
+}
