@@ -1,0 +1,25 @@
+{
+  "source_type": "twitter",
+  "source_name": "Sam Altman",
+  "source_slug": "sam-altman",
+  "handle": "sama",
+  "tags": [
+    "openai",
+    "ai-policy"
+  ],
+  "fetched_at": "2026-08-20T04:02:12.423415+00:00",
+  "items": [
+    {
+      "title": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2090163991234453611",
+      "published": "2026-08-19T18:48:23+00:00",
+      "summary": "we support business privacy! openai.com/index/offering-ze… Link Offering Zero Data Retention for frontier models OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy. openai.com",
+      "author": "sama",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

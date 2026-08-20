@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-20T04:05:06.909098+00:00",
+  "items": [
+    {
+      "title": "Is everybody else getting tired of AI tools that only tell you what went wrong after the customer hangs up or is it just me?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vsm0zn/is_everybody_else_getting_tired_of_ai_tools_that/",
+      "published": "2026-08-19T13:11:16+00:00",
+      "summary": "A lot of the tools seem great at analyzing calls after they happen. You get transcripts. QA scores. Sentiment. Coaching notes. Maybe a dashboard showing why AHT went up. Useful stuff but the customer already had the bad call. The more interesting idea to me is using that data while the next conversation is still happening. If your best reps have figured out how to handle a billing issue or save a customer who wants to cancel then why leave that knowledge buried in old recordings and training docs? AI could surface that guidance during the call. Then the same conversation data could feed QA and coaching afterward. Of course this could get dystopian fast if managers turn it into a surveillance tool. Agents also don't need another annoying window throwing useless prompts at them. Adoption and integration seem like half the battle. Could this work for a company whos constantly growing and cant brute force people into positions submitted by /u/Intelligent-Egg8844 [link] [comments]",
+      "author": "Intelligent-Egg8844"
+    },
+    {
+      "title": "One employee with AI matched a two-person team in a major workplace experiment - Research Today",
+      "url": "https://www.reddit.com/r/artificial/comments/1vstvk2/one_employee_with_ai_matched_a_twoperson_team_in/",
+      "published": "2026-08-19T17:56:15+00:00",
+      "summary": "submitted by /u/CandyFangs [link] [comments]",
+      "author": "CandyFangs"
+    },
+    {
+      "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+      "url": "https://www.reddit.com/r/artificial/comments/1vsebj5/when_ai_art_has_no_author_study_finds_generated/",
+      "published": "2026-08-19T06:24:12+00:00",
+      "summary": "submitted by /u/frankster [link] [comments]",
+      "author": "frankster"
+    },
+    {
+      "title": "I described my messy AI memory setup on one sub. Eighteen strangers replied describing almost the same architecture, independently.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vt7zpg/i_described_my_messy_ai_memory_setup_on_one_sub/",
+      "published": "2026-08-20T03:21:39+00:00",
+      "summary": "Yesterday I posted in a Claude-focused subreddit about a setup I have been running for about eight months. I keep a folder of markdown files that a language model reads at the start of every session: an identity file, dated journal entries, and a project ledger. Nothing exotic. No fine tuning, no vector database, no custom model. Files, and the discipline of writing to them. I expected either silence or someone telling me I had reinvented a worse version of RAG. Instead eighteen different people replied describing architectures nearly identical to mine, and none of them had talked to each other. The convergence is the interesting part, not my particular folder, so here is what kept repeating unprompted. Read on wake. Almost everyone had settled on the same startup ritual: the model reads a small canonical identity file first, then recent dated entries, then working state. Several people independently found that three or four sentences of well written identity does more work than a hund",
+      "author": "__hymn"
+    },
+    {
+      "title": "Looking for criticism on an AI that can watch and track your screen",
+      "url": "https://www.reddit.com/r/artificial/comments/1vt2idv/looking_for_criticism_on_an_ai_that_can_watch_and/",
+      "published": "2026-08-19T23:18:04+00:00",
+      "summary": "I'm working on an AI tool that can see what's happening on your screen in real time and understand the context, rather than requiring you to constantly take screenshots and upload them. The idea is that you could ask it things like: \"What's going wrong here?\" \"How do I fix this?\" \"What am I looking at?\" \"What should I do next?\" Or just have it understand what's happening without needing to explain everything manually. Privacy is something I'm taking seriously with the idea. There would be a privacy toggle that completely disables screen analysis, as well as the ability to temporarily pause screen checking whenever you want. So you're always in control of when the AI can see your screen. I'm especially interested in hearing from people who use local/vision models: What would you actually want a screen-aware AI to do for you? Would you want it to continuously watch your screen, only activate when you press a key, or something else? And assuming you could instantly disable/pause screen ac",
+      "author": "Ayman-Bot"
+    },
+    {
+      "title": "Please recommend best priced ai powered website builder. My mom wants to open a new business site for beach for tables, chairs, decor etc. Free would be great but not expecting it.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vt6ho0/please_recommend_best_priced_ai_powered_website/",
+      "published": "2026-08-20T02:11:20+00:00",
+      "summary": "Any advice would be helpful. Is there a better or better priced one than Base44? Just need a checkout portal, booking calendar, separate pages for add ons like fruit baskets etc. She would like the ability to approve schedulings. Thank you. submitted by /u/BumblebeeNo504 [link] [comments]",
+      "author": "BumblebeeNo504"
+    },
+    {
+      "title": "I built a custom multi-agent framework (GenOS) to autonomously evolve algorithms. I pitted the 3 fundamental AI paradigms against an NP-Hard problem. Here is what happened.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vsyo3j/i_built_a_custom_multiagent_framework_genos_to/",
+      "published": "2026-08-19T20:47:42+00:00",
+      "summary": "Hey everyone, For a while now, I’ve been developing a proprietary multi-agent framework called GenOS . Without giving away the exact mechanics, GenOS is an orchestrator where autonomous LLM sub-agents write, compile, benchmark, and iteratively evolve Rust code to solve extremely complex algorithmic challenges. They share knowledge, compete, and evolve their architectures over dozens of generations. The Challenge: I tasked GenOS with solving the \"Reverse Game of Life\" (finding the exact Gen-0 starting state that results in a target Gen-5 grid on a flat 20x20 matrix). For those who don't know, reversing Cellular Automata is a notoriously NP-Hard problem due to the immense state space and chaotic temporal butterfly effect. The 3 Champions: Over the course of the experiment, GenOS organically evolved and isolated three peak architectures, representing the three fundamental paradigms of computer science optimization: Epsilon (Gen 17 - The Causal Optimizer): Epsilon took a highly analytical,",
+      "author": "MonokoEloba"
+    },
+    {
+      "title": "Poor adoption at different scales",
+      "url": "https://www.reddit.com/r/artificial/comments/1vsyj5s/poor_adoption_at_different_scales/",
+      "published": "2026-08-19T20:42:41+00:00",
+      "summary": "Generic AI training at one company: 11% uptake. A company-wide licence at an unrelated firm, different sector: 11.5% active use. Same number twice, from opposite directions. The cause underneath is the same. Nobody connected the tool to the job sitting in front of the person. Training that opens with “here is what the tool can do” gets you 11%. Training that opens with “show me the thing you did 4 times yesterday” gets people building before lunch. What was the uptake on your last rollout, measured a month later? submitted by /u/IgniteAISolutionsUK [link] [comments]",
+      "author": "IgniteAISolutionsUK"
+    },
+    {
+      "title": "An open-weight model just closed most of the gap on autonomous cyber offense - and that changes who can run it",
+      "url": "https://www.reddit.com/r/artificial/comments/1vsstg0/an_openweight_model_just_closed_most_of_the_gap/",
+      "published": "2026-08-19T17:19:18+00:00",
+      "summary": "Irregular (an AI security research group) tested Kimi K3, an open-weight model, against CyScenarioBench, a benchmark built around autonomous cyber campaigns - adapting public exploit techniques to constrained environments, building custom tooling, diagnosing failed attempts, and validating each stage before moving on. It is the first open-weight model to pass. It trails closed frontier models by roughly six months, at an estimated third of the inference cost. The six-month lag is the less interesting number. What matters is that this level of capability now sits in downloadable weights instead of behind an API. A closed lab can throttle or ban an account mid-campaign - both OpenAI and Anthropic have done this before to abusive usage. Once equivalent capability is something you can self-host, that kill switch disappears entirely, along with any usage logging a defender could later subpoena. If the trend holds, the realistic baseline for any internet-facing asset a year out is not \"gets ",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "An AI agent just stacked blocks in a live physics simulation — building an open benchmark arena for embodied AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vt1dhc/an_ai_agent_just_stacked_blocks_in_a_live_physics/",
+      "published": "2026-08-19T22:31:43+00:00",
+      "summary": "Sharing an early result from a project I'm building: an open, browser-based arena where AI agents (Vision-Language-Action models, robotic policies) compete on real-time physical reasoning tasks. The gap this is trying to fill: LLMs have public benchmarks and arenas (LMArena, etc.) that let anyone compare model quality transparently. Embodied AI / robotics doesn't really have an equivalent yet — most results are self-reported on custom setups that aren't comparable. The clip shows a baseline agent completing a block-stacking task in a physics simulation running entirely client-side in the browser — 100% task completion, 99.6% spatial accuracy. Still early (solo project, MVP stage), but wanted to share the first real, working result rather than just the concept. Full demo + SDK for submitting your own agent coming soon. submitted by /u/NovaCoding [link] [comments]",
+      "author": "NovaCoding"
+    }
+  ]
+}

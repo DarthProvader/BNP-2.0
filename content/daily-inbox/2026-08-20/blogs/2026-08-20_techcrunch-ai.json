@@ -1,0 +1,97 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-08-20T04:01:59.690261+00:00",
+  "items": [
+    {
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "published": "2026-08-19T22:32:00+00:00",
+      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "published": "2026-08-19T21:10:46+00:00",
+      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+      "author": "Lucas Ropek"
+    },
+    {
+      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "published": "2026-08-19T20:51:23+00:00",
+      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "AI was supposed to win people over by now — it hasn’t",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "published": "2026-08-19T18:11:40+00:00",
+      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "published": "2026-08-19T18:00:00+00:00",
+      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "author": "Aisha Malik"
+    },
+    {
+      "title": "Researchers say OpenAI revoked their access to limited cyber program",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+      "published": "2026-08-19T17:46:14+00:00",
+      "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+      "author": "Lorenzo Franceschi-Bicchierai"
+    },
+    {
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "published": "2026-08-19T16:26:48+00:00",
+      "summary": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into data centers and GPUs,&#160;compute has&#160;become the single biggest cost for anyone building AI products. But for all that spending, there still&#160;isn’t&#160;a straightforward way to put a price on&#160;compute&#160;— or&#160;for firms to hedge their exposure when the price&#160;changes.&#160; Silicon Data [&#8230;]",
+      "author": "Theresa Loconsolo"
+    },
+    {
+      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+      "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+      "published": "2026-08-19T14:44:53+00:00",
+      "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+      "author": "Tim De Chant"
+    },
+    {
+      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+      "published": "2026-08-19T14:00:00+00:00",
+      "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Calendly throws its hat into meeting note-taker circus",
+      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+      "published": "2026-08-19T13:09:39+00:00",
+      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie.",
+      "author": "Ivan Mehta"
+    },
+    {
+      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "published": "2026-08-19T11:00:00+00:00",
+      "summary": "It's the data, stupid.",
+      "author": "Tim Fernholz"
+    },
+    {
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+      "published": "2026-08-19T09:00:00+00:00",
+      "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+      "author": "Russell Brandom"
+    }
+  ]
+}

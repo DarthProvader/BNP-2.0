@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-08-20T04:01:56.058090+00:00",
+  "items": [
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "published": "2026-08-19T18:00:00+00:00",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "author": ""
+    },
+    {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "published": "2026-08-19T06:00:00+00:00",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "author": ""
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-08-20T04:02:06.525770+00:00",
+  "items": [
+    {
+      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
+      "published": "2026-08-19T18:30:00+00:00",
+      "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "published": "2026-08-19T15:44:07+00:00",
+      "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
+      "author": "Isabella Ward"
+    },
+    {
+      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "published": "2026-08-19T08:00:00+00:00",
+      "summary": "Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
+      "author": "Dhruv Mehrotra, Dell Cameron"
+    }
+  ]
+}

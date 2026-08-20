@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Theo",
+  "source_slug": "theo-t3gg",
+  "handle": "theo",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-20T04:02:32.466890+00:00",
+  "items": [
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2090255583123534157",
+      "published": "2026-08-20T00:52:20+00:00",
+      "summary": "Heads up: the /config command only edits the claude config for THE CURRENT PROJECT, NOT your global config. The UI really should indicate this, super annoying. ClaudeDevs (@ClaudeDevs) You can now set Claude Code's output style to Concise. Claude leads with the result, keeps responses short, and still gives full detail when you ask. Turn it on in /config → Output style, or set \"outputStyle\": \"Concise\" in settings.json. — https://nitter.net/ClaudeDevs/status/2090245922685063634#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2090231173461287418",
+      "published": "2026-08-19T23:15:21+00:00",
+      "summary": "ChatGPT is down. Hi @thsottiaux 👉👈",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2090196605798690946",
+      "published": "2026-08-19T20:57:59+00:00",
+      "summary": "Live at 3:30, what should we talk about today?",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2090184720437162013",
+      "published": "2026-08-19T20:10:45+00:00",
+      "summary": "Lmao why am I in this Andrew Curran (@AndrewCurran_) Multiple mutuals and members of the X AI family mentioned in Axios this morning, and I'm very happy to see them getting mainstream coverage. — https://nitter.net/AndrewCurran_/status/2090094131678953782#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Theo (@theo)",
+      "url": "https://x.com/theo/status/2090170638724157454",
+      "published": "2026-08-19T19:14:48+00:00",
+      "summary": "First confirmed production outage caused by T3 Code? Let’s go 🎉🎉 addison (@uwunetes) just took down prod cause i accidentally killed my terminal in t3 code.... that really needs a confirm button — https://nitter.net/uwunetes/status/2089857096435339518#m",
+      "author": "theo",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-20T04:01:58.071751+00:00",
+  "items": [
+    {
+      "title": "5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "published": "2026-08-19T18:00:00+00:00",
+      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
+      "author": "Awaneesh Verma"
+    }
+  ]
+}

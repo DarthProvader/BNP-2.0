@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-20T04:04:15.843704+00:00",
+  "items": [
+    {
+      "title": "List of Latest Discussion Hubs on r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt5drr/list_of_latest_discussion_hubs_on_rclaudeai/",
+      "published": "2026-08-20T01:22:04+00:00",
+      "summary": "Please choose one of the following dedicated Discussion Hubs discussing topics relevant to your issue. UPDATE: All Discussion Hubs will now be automatically refreshed regularly (for most, weekly) NEW: You can now see full logs and summaries of all recent problem reports submitted by r/ClaudeAI readers. These logs allow you to see how intensely people are experiencing problems at any time with Usage Limits, Performance, Bugs and Accounts. See: User Problem Report Log and Surge Detector UPDATE: All report posts are now mirrored here: ClaudeAI User Report Subreddit and linked to from the report log post. Performance and Bugs Discussion Hub for discussion of Claude performance issues and bugs. Usage Limits Discussion Hub for discussion of Claude usage limits. ⭐ Built with Claude Project Showcase Megathread ⭐ for showcasing projects built with Claude Claude Competitor Comparison Discussion Hub for discussion of competitors to Claude. Claude Identity, Sentience and Expression Discussion Hub ",
+      "author": "claudeai-perfhub"
+    },
+    {
+      "title": "Claude Sonnet 5 shifts behavior when it recognizes the user as an AI safety researcher",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vst16y/claude_sonnet_5_shifts_behavior_when_it/",
+      "published": "2026-08-19T17:26:46+00:00",
+      "summary": "submitted by /u/rhiever [link] [comments]",
+      "author": "rhiever"
+    },
+    {
+      "title": "Give Back Claude’s ‘Thought Process’",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsztvg/give_back_claudes_thought_process/",
+      "published": "2026-08-19T21:31:50+00:00",
+      "summary": "The sudden removal of Claude’s internal reasoning strikes me as user-hostile, and greatly reduces the output’s value. As a long-time paying customer of Max, I can’t help but think the sudden removal of it is somehow driven by purely legal and/or competitive fears, and irks me. The thought process can expose flaws in the model’s understanding of my prompt, and even if the answer is “correct” - hiding its work from a user can result in them missing a key flaw in Claude’s reasoning chain that could save wasting more tokens against. If the reasoning is still required behind the scenes, I can’t help but feel slighted by the product teams removing it. It leaves a gaping hole I the UI/UX that looks like a bug. Which leads me to think this is driven by legal concerns or distillation fears? Either way, please give it back! submitted by /u/totallyninja [link] [comments]",
+      "author": "totallyninja"
+    },
+    {
+      "title": "Antrophic Employee said there is \"make a lot of money\" button",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsl6c7/antrophic_employee_said_there_is_make_a_lot_of/",
+      "published": "2026-08-19T12:34:36+00:00",
+      "summary": "I very much believe he is correct. The main issue is that \"make a lot of money\" button works only for existing businesses, with large enough audiences to make a lot of money by baking integrations, MCP for agents into Claude Code plugins or other AI workspaces and charging AI users for usage. What is missing, is a fair discovery and execution engine, that would allow non-corporations to participate. Without convincing user to put card details on some random-startup.ai website. Without forcing users to go through checkout process and pay $29 sub just to run random feature they need for few days. Not to mention configuring integration. Anyways, have anyone tried pressing that button? Did it work? submitted by /u/EagleApprehensive [link] [comments]",
+      "author": "EagleApprehensive"
+    },
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt249k/show_us_what_youve_created_with_claude/",
+      "published": "2026-08-19T23:02:02+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "One Claude Code skill pushed DeepSeek V4 Flash from 67.42% to 82.02%",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vst0hm/one_claude_code_skill_pushed_deepseek_v4_flash/",
+      "published": "2026-08-19T17:26:08+00:00",
+      "summary": "Autoprompt is a skill / workflow that works with Claude Code and it closes much of the manual coding loop by planning, building, testing, reviewing, and repairing from one goal- with that your work quality can improve signifficantly. Refference ; this is like opus 4.5 to opus 5.0 - from an skill. litteraly insane. Using it in OpenCode, DeepSeek V4 Flash 0731 moved from 67.42% to 82.02% on Terminal-Bench 2.1. It uses roughly 2x the tokens and 3x the runtime, and it is meant for complex tasks. In the future the Terminal-Bench 3.0 will be executed, with cost and runtime tracked. Repo: https://github.com/Spielewoy/autoprompt-skill Benchmark setup & evidence: https://github.com/Spielewoy/autoprompt-skill/tree/main#benchmarks Any feedback would be awesome. submitted by /u/Sorosu [link] [comments]",
+      "author": "Sorosu"
+    },
+    {
+      "title": "Anthropic has twice the revenue of OpenAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsdx5z/anthropic_has_twice_the_revenue_of_openai/",
+      "published": "2026-08-19T06:02:12+00:00",
+      "summary": "Even if reading things here on Reddit or X makes it seem like everyone is ditching Claude, the rest of the world tells a different story. From the WSJ. submitted by /u/Data___Viz [link] [comments]",
+      "author": "Data___Viz"
+    },
+    {
+      "title": "Anthropic’s Project Parka sits through meetings and assigns Claude agents the homework",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsgxgn/anthropics_project_parka_sits_through_meetings/",
+      "published": "2026-08-19T08:56:54+00:00",
+      "summary": "submitted by /u/ryanmerket [link] [comments]",
+      "author": "ryanmerket"
+    },
+    {
+      "title": "Got annoyed /w TripIt Pro and other alternatives.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt6228/got_annoyed_w_tripit_pro_and_other_alternatives/",
+      "published": "2026-08-20T01:52:12+00:00",
+      "summary": "A few months ago, after 15+ years using TripIt Pro for all my travel planning and itineraries, I got fed up. Tried a bunch of AI alternatives, some are good, but I realized I could do better. So, Claude to the rescue. Using nothing but Claude Code, GitHub, Cloudflare free account (including D1 / R2 apps, etc), and API's for a few available travel sites... lo and behold. I love what I built. Auto imports from my Gmail and Microsoft365 accounts every few hours, has extensive error check and conflict resolution logic, auto backup all data, and has ALL the features I want and use, none that I dont. And a few themes since my wife wanted lighter and my daughter wanted pink/red. A few other areas/features not shown on screen shots as they contain personal/identifiable info. Not only a website, but also iPhone app! (PWA) Best of all? 100% free. No subscription or other costs anywhere. submitted by /u/rajuabju [link] [comments]",
+      "author": "rajuabju"
+    },
+    {
+      "title": "IAH: INTERNET WAR - Agentic Gameplay",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsvbjq/iah_internet_war_agentic_gameplay/",
+      "published": "2026-08-19T18:46:32+00:00",
+      "summary": "Hi guys! The RTS game that I have been working on for a few years is about to release this Friday. It has been pretty much a passion project for me. When I started developing the game, I was writing 100% of code by hand, but this year LLM‘s such as Claude have been very instrumental for me. So, I have this idea for agentic gameplay future where humans and agents could play together, but not in a manner where they are NPCs but rather entities that have same capabilities as players via API. Hence this game. You can like use Claude to interact with the games API and automate entire play-trough or just play with a mouse, alone or with friends (2-10 player co-op) RTS games are notoriously hard games to develop so it has a long hard road so I am happy how the game turnee out and I hope it can inspire too. So if this type or game interests you or want to pave a way for agentic games on steam feel free to wishlist it on Steam so that you dont miss out when it releases this friday: https://stor",
+      "author": "Embarrassed_Guide_80"
+    }
+  ]
+}

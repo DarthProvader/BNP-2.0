@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-20T04:02:33.427018+00:00",
+  "items": [
+    {
+      "title": "Introducing GEN-1.5, a one-shot learner",
+      "url": "https://www.reddit.com/r/singularity/comments/1vt155o/introducing_gen15_a_oneshot_learner/",
+      "published": "2026-08-19T22:22:36+00:00",
+      "summary": "Source: https://www.youtube.com/watch?v=1cllCVK-9lo Blog post: https://generalistai.com/blog/gen-1.5 submitted by /u/GraceToSentience [link] [comments]",
+      "author": "GraceToSentience"
+    },
+    {
+      "title": "Moderna stock, $MRNA , surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vso1mh/moderna_stock_mrna_surges_over_110_after/",
+      "published": "2026-08-19T14:28:52+00:00",
+      "summary": "Moderna and Merck said their personalized cancer vaccine helped cut the recurrence of melanoma in a large, late-stage trial. submitted by /u/Fantastic-Emu-3819 [link] [comments]",
+      "author": "Fantastic-Emu-3819"
+    },
+    {
+      "title": "Stripe says \"the singularity\" has begun",
+      "url": "https://www.reddit.com/r/singularity/comments/1vsvdai/stripe_says_the_singularity_has_begun/",
+      "published": "2026-08-19T18:48:21+00:00",
+      "summary": "submitted by /u/Charuru [link] [comments]",
+      "author": "Charuru"
+    },
+    {
+      "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+      "url": "https://www.reddit.com/r/singularity/comments/1vt49z0/when_ai_art_has_no_author_study_finds_generated/",
+      "published": "2026-08-20T00:33:04+00:00",
+      "summary": "submitted by /u/Warm_Ad1257 [link] [comments]",
+      "author": "Warm_Ad1257"
+    },
+    {
+      "title": "Humanoids robots are getting ready for the WHRG'26 opening this Saturday",
+      "url": "https://www.reddit.com/r/singularity/comments/1vskah7/humanoids_robots_are_getting_ready_for_the_whrg26/",
+      "published": "2026-08-19T11:55:17+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Exclusive: GOP issues stark warning to AI companies",
+      "url": "https://www.reddit.com/r/singularity/comments/1vspc13/exclusive_gop_issues_stark_warning_to_ai_companies/",
+      "published": "2026-08-19T15:15:50+00:00",
+      "summary": "submitted by /u/u_are_mad [link] [comments]",
+      "author": "u_are_mad"
+    },
+    {
+      "title": "AI models are becoming unbearable to Talk to",
+      "url": "https://www.reddit.com/r/singularity/comments/1vspuf2/ai_models_are_becoming_unbearable_to_talk_to/",
+      "published": "2026-08-19T15:34:36+00:00",
+      "summary": "I have been using AI since open AI used to provide GPT 1.5b parameter/2 when it was launched around 2019, through their platform, and as the time went by, models became better and better and at one point, I used to be excited to talk to newer models especially claude, but idk what has happened with the recent batch of models, especially the ones launched in past 6 months, they have become extremely unbearable, especially claude. GPT was never really good to talk to begin with, but with claude, that was never the issue but now? The more i discuss anything with claude, the more frustrated I feel. Let me explain what I feel in detail. What I do with claude is mostly dialogue over ideas, stories and random stuff when I feel like it. Previously claude would *appropriately interpret* what I meant by that and continue the discussion but now? Claude *Interprets* what it understands and what it thinks my problem is and then continue to interpret and interpret, even when I remind it that I need ",
+      "author": "Any-Abbreviations622"
+    },
+    {
+      "title": "What would happen if we gave a single ai problem the compute currently used for millions of prompts?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vstr1x/what_would_happen_if_we_gave_a_single_ai_problem/",
+      "published": "2026-08-19T17:51:53+00:00",
+      "summary": "Maybe I’m being naive, but whenever people discuss whether AI could make truly extraordinary scientific breakthroughs — curing cancer, for example — I get the impression that we may be looking at the problem from a very partial perspective. We tend to think about the capabilities of an individual model answering an individual question, rather than about the sheer amount of AI “thinking” happening globally at any given moment. Every second, LLMs are answering an enormous number of prompts from users all over the world. Collectively, that must require a staggering amount of compute. So here’s my question: what would happen if, instead of using all that computational capacity to answer millions of unrelated questions simultaneously, we concentrated an equivalent amount of compute on a single scientific problem? Suppose the question were something like: How do we cure a particular form of cancer? Would concentrating that enormous amount of computation on one problem give an AI system radic",
+      "author": "skullllll"
+    },
+    {
+      "title": "Neuralink enters mass production, but there's a patent that got there first (DARPA has funded neural interface research since the 1970s, long before the word commercialization entered the conversation...)",
+      "url": "https://www.reddit.com/r/singularity/comments/1vshjlc/neuralink_enters_mass_production_but_theres_a/",
+      "published": "2026-08-19T09:31:33+00:00",
+      "summary": "submitted by /u/frankreddit5 [link] [comments]",
+      "author": "frankreddit5"
+    },
+    {
+      "title": "IBM’s new modular architecture for cryogenic systems",
+      "url": "https://www.reddit.com/r/singularity/comments/1vskbe4/ibms_new_modular_architecture_for_cryogenic/",
+      "published": "2026-08-19T11:56:27+00:00",
+      "summary": "submitted by /u/donutloop [link] [comments]",
+      "author": "donutloop"
+    }
+  ]
+}

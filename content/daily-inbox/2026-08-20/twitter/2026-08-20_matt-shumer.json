@@ -1,0 +1,74 @@
+{
+  "source_type": "twitter",
+  "source_name": "Matt Shumer",
+  "source_slug": "matt-shumer",
+  "handle": "mattshumer_",
+  "tags": [
+    "ai",
+    "startups",
+    "agents"
+  ],
+  "fetched_at": "2026-08-20T04:02:17.130477+00:00",
+  "items": [
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2090203025465872892",
+      "published": "2026-08-19T21:23:30+00:00",
+      "summary": "New loop acquired",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2090143862090002688",
+      "published": "2026-08-19T17:28:24+00:00",
+      "summary": "Fucking generational run by @alexatallah , @cclark , Louis, and the team. It's been a pleasure to watch them grow over the last few years as an investor, and use the product across almost everything I do. They're just getting started. Alex Atallah (@alexatallah) 1/ Stripe has signed an agreement to acquire OpenRouter. OpenRouter will continue to operate as it is: same name, same product, same roadmap, same mission. But now, we will do it faster, and with Stripe's unparalleled excellence and reach. — https://nitter.net/alexatallah/status/2090132420171284959#m",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2090144200738123913",
+      "published": "2026-08-19T17:29:45+00:00",
+      "summary": "Plus Alex and the team are just all around great people. Every interaction I've had with them has been fantastic.",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mcalbyrne/status/2090084088971481328",
+      "published": "2026-08-19T13:30:53+00:00",
+      "summary": "@mattshumer_ unlocked something special. Spent the last week or so iterating with gauntlets. Atmospheric grimey city, 10+ playable missions, reactive AI, great physics. If there's interest i'll share my approach. Video",
+      "author": "mattshumer_",
+      "is_retweet": true,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    },
+    {
+      "title": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2089946502110089572",
+      "published": "2026-08-19T04:24:10+00:00",
+      "summary": "RT @Ryancampbell : Latest peak at MoonBase One, playable in the browser with @threejs . I started this project with Opus 5, and now Grok 4.6…",
+      "author": "mattshumer_",
+      "is_retweet": false,
+      "favorites": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "0"
+    }
+  ]
+}
