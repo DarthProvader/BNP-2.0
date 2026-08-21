@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-21T04:01:57.685139+00:00",
+  "items": [
+    {
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "published": "2026-08-20T12:00:35+00:00",
+      "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

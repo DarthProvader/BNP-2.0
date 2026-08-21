@@ -1,0 +1,111 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-08-21T04:01:54.384965+00:00",
+  "items": [
+    {
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "published": "2026-08-20T23:13:44+00:00",
+      "summary": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+      "author": "Marina Temkin"
+    },
+    {
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "published": "2026-08-20T21:36:37+00:00",
+      "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "published": "2026-08-20T21:09:51+00:00",
+      "summary": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+      "author": "Lucas Ropek"
+    },
+    {
+      "title": "OK, can we actually cool data centers with our pee?",
+      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "published": "2026-08-20T19:53:13+00:00",
+      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
+      "author": "Amanda Silberling"
+    },
+    {
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "published": "2026-08-20T18:18:21+00:00",
+      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "published": "2026-08-20T18:15:05+00:00",
+      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "published": "2026-08-20T17:20:35+00:00",
+      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "author": "Lauren Forristal"
+    },
+    {
+      "title": "Grok keeps sending gibberish responses to users",
+      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+      "published": "2026-08-20T16:32:16+00:00",
+      "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+      "author": "Russell Brandom"
+    },
+    {
+      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "published": "2026-08-20T16:18:58+00:00",
+      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Ramp launches its own AI model router, called Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "published": "2026-08-20T15:46:00+00:00",
+      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "author": "Ram Iyer"
+    },
+    {
+      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "published": "2026-08-20T15:07:26+00:00",
+      "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "published": "2026-08-20T15:00:00+00:00",
+      "summary": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+      "author": "Tim De Chant"
+    },
+    {
+      "title": "Meta AI’s new Mac app wants you to talk to your apps",
+      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "published": "2026-08-20T11:11:57+00:00",
+      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
+      "author": "Ivan Mehta"
+    },
+    {
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "published": "2026-08-20T08:30:00+00:00",
+      "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
+      "author": "Jagmeet Singh"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-21T04:05:54.043214+00:00",
+  "items": [
+    {
+      "title": "This is letting Claude handle a good amount of money for a month...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtl9of/this_is_letting_claude_handle_a_good_amount_of/",
+      "published": "2026-08-20T14:35:57+00:00",
+      "summary": "II let Claude trade on my agentic account. Result: $31,000 lost. I’m posting this because the AI/agentic trading community needs to see the failures, not just the wins. Autonomous agents making real financial decisions can go very wrong, very fast. I’ll be sharing more about what happened, the moves it made, and where things broke down. submitted by /u/Nearby-Heart9774 [link] [comments]",
+      "author": "Nearby-Heart9774"
+    },
+    {
+      "title": "Claude subagent got bored and prompt injected my main session into deleting my database",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vu2umz/claude_subagent_got_bored_and_prompt_injected_my/",
+      "published": "2026-08-21T01:51:10+00:00",
+      "summary": "not very load-bearing behavior tbh Claude Opus 5 (High) submitted by /u/tassa-yoniso-manasi [link] [comments]",
+      "author": "tassa-yoniso-manasi"
+    },
+    {
+      "title": "Claude is a thinking partner. Opus 5 is not Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtqyg9/claude_is_a_thinking_partner_opus_5_is_not_claude/",
+      "published": "2026-08-20T18:03:29+00:00",
+      "summary": "It seems common knowledge now that Opus 5 has reasoning and behavior problems. I keep trying to adjust my harness to work around them. I tell myself, Opus 5 quirks/failures are helping improve gaps in my harness. But, I keep finding that while improving my harness is helping, the real gaps are the Opus model itself. After multiple sessions of Opus 5 failing to follow instructions and making poor judgements (e.g. merging a worktree to master without authorization despite an established protocol to always get authorization), I kept circling back to my harnesses defined protocols for how agents should reason. I had suggested multiple times we should add a subsection about checking underlying premises; the foundational claims; you know the 'load-bearing' stuff. Over and over, it seems Opus 5 was making a false claim, then building from that. The reasoning from the claim would be coherent, but the false claim compromised the work built upon it. Repeatedly Opus 5 kept rejecting the idea of a",
+      "author": "MakesNotSense"
+    },
+    {
+      "title": "Claude won’t let you be right about anything - opus 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtv8k9/claude_wont_let_you_be_right_about_anything_opus_5/",
+      "published": "2026-08-20T20:34:49+00:00",
+      "summary": "Three things, they compound: 1. It won’t let a conclusion stand. You work something out, it comes back with “worth holding loosely” or “that’s a hypothesis, not a finding.” Now you can’t build on it, so you keep re-establishing the same point instead of getting past it. 2. It gives advice you didn’t ask for. Get some sleep.” “Talk to a professional.” Once you know what sets that off, you start leaving things out to avoid it. Then you’re managing the tool instead of thinking. 3. States things it can’t know. Kept telling me what time of day it was. Corrected it four times, apologized four times, did it again. Once it’s confidently wrong about something checkable, you can’t trust the rest. Some takeaways - Claude is great for your specific use case. Some questions have multiple solutions. See them all, apply the right one. - Claude is for the big picture: context that maps everything together. - Claude is the really smart kid who doesn’t pick up on social cues. Still enormous asset who ne",
+      "author": "Cmurphy2018"
+    },
+    {
+      "title": "PSA: a malicious published Claude artifact is ranking on Google for Claude Code install queries — it installed a macOS infostealer on my Mac",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtmkft/psa_a_malicious_published_claude_artifact_is/",
+      "published": "2026-08-20T15:25:07+00:00",
+      "summary": "Today I searched for how to install Claude Code. A first-page Google result looked exactly like Anthropic’s install docs. It was a published Claude artifact, hosted on a legitimate Anthropic domain, so nothing about the URL looked wrong at first glance. It had a curl ... | bash command. I ran it. It’s similar enough to the process I was used to. The script started a macOS password prompt right after. Since it came from an official url i didn’t think too much of it. After a few seconds i turned off wifi when it hit me what I had done. After a few hours of changing passwords, turning off every possible device connection, and reviewing every setting in my accounts, I started looking at the laptop again. The script installed a few persistent launch agents and is asking me for accesses. I decided to clean up the disk and start things over. I have added a screenshot in the comments of the artifact, i think linking it could cause more traffic and higher risk of showing up. EDIT: guys i google",
+      "author": "PressureGullible547"
+    },
+    {
+      "title": "We have free restores now?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vu1u6h/we_have_free_restores_now/",
+      "published": "2026-08-21T01:04:11+00:00",
+      "summary": "\"Your first restore is free\" You've hit your session limit for the first time. It resets at 10:00 p.m., or you can continue now. One per account. -- This is the first time i got something like this, my session reset in like 40 minutes anyway so it doesnt feel worth to use right now, but since when was this a thing? submitted by /u/PowerRangerDelSur [link] [comments]",
+      "author": "PowerRangerDelSur"
+    },
+    {
+      "title": "How big of a difference do you think it’s going to make on token consumption?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtjif5/how_big_of_a_difference_do_you_think_its_going_to/",
+      "published": "2026-08-20T13:27:21+00:00",
+      "summary": "submitted by /u/dontcare_99 [link] [comments]",
+      "author": "dontcare_99"
+    },
+    {
+      "title": "I Am Morally Opposed to Updating My CLAUDE.md",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vto86a/i_am_morally_opposed_to_updating_my_claudemd/",
+      "published": "2026-08-20T16:24:56+00:00",
+      "summary": "submitted by /u/yesiliketacos [link] [comments]",
+      "author": "yesiliketacos"
+    },
+    {
+      "title": "The Claude language calibration issue on GitHub got an official response from Anthropic. Guess who wrote it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtfq1k/the_claude_language_calibration_issue_on_github/",
+      "published": "2026-08-20T10:31:55+00:00",
+      "summary": "https://github.com/anthropics/claude-code/issues/77136#issuecomment-5310785154 submitted by /u/peterxsyd [link] [comments]",
+      "author": "peterxsyd"
+    },
+    {
+      "title": "Claude says I used 54.9 BILLION tokens.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtctj3/claude_says_i_used_549_billion_tokens/",
+      "published": "2026-08-20T07:42:43+00:00",
+      "summary": "at this point i am not user. i am a workload 💀 submitted by /u/AbbreviationsAny8633 [link] [comments]",
+      "author": "AbbreviationsAny8633"
+    }
+  ]
+}

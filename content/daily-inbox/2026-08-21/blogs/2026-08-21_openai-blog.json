@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-08-21T04:01:50.779309+00:00",
+  "items": [
+    {
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "published": "2026-08-20T06:00:00+00:00",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "author": ""
+    }
+  ]
+}

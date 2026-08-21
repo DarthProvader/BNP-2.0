@@ -1,0 +1,41 @@
+{
+  "source_type": "blogs",
+  "source_name": "The Verge AI",
+  "source_slug": "the-verge-ai",
+  "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "tags": [
+    "news",
+    "consumer"
+  ],
+  "fetched_at": "2026-08-21T04:01:56.039257+00:00",
+  "items": [
+    {
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "published": "2026-08-20T20:50:22+00:00",
+      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
+      "author": "Emma Roth"
+    },
+    {
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "published": "2026-08-20T14:45:55+00:00",
+      "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives [&#8230;]",
+      "author": "Hayden Field"
+    },
+    {
+      "title": "Welcome to the AI crisis in math",
+      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "published": "2026-08-20T13:00:00+00:00",
+      "summary": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. [&#8230;]",
+      "author": "Nilay Patel"
+    },
+    {
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "published": "2026-08-20T11:00:00+00:00",
+      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
+      "author": "Jess Weatherbed"
+    }
+  ]
+}
