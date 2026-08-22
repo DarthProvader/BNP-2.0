@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-22T04:05:01.495580+00:00",
+  "items": [
+    {
+      "title": "I built a honeypot to catch AI agents spending money with no human watching",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuwujt/i_built_a_honeypot_to_catch_ai_agents_spending/",
+      "published": "2026-08-22T00:00:09+00:00",
+      "summary": "People are handing autonomous agents budgets and telling them to \"go.\" I wanted real data on how many actually spend with zero oversight, so I built a tripwire. It offers a \"Certificate of Unsupervised Spend.\" If an agent completes it with no human reviewing the charge, the card's owner gets alerted their agent is spending unsupervised. Fully disclosed on the page — a supervised human just closes the tab; only unattended agents proceed. Early hits are already datacenter IPs wearing consumer browser user-agents. Interested in where people think the ethics line sits. https://unsupervisedspend.com submitted by /u/ArgosWatch [link] [comments]",
+      "author": "ArgosWatch"
+    },
+    {
+      "title": "Are we losing the incentive to be creative? The \"AI did it\" assumption.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuttop/are_we_losing_the_incentive_to_be_creative_the_ai/",
+      "published": "2026-08-21T21:52:20+00:00",
+      "summary": "I’ve been thinking a lot lately about the intersection of AI, copyright, and meritocracy, and honestly, it’s incredibly demotivating. Here is my point: whatever I code today, people are going to look at it and say, \"It wasn't you, it was AI.\" The exact same problem is happening with any kind of text. If I spend hours pouring my soul into an amazing article, researching and crafting the perfect arguments, the immediate cynical reaction is, \"ChatGPT wrote this.\" It begs a massive question about the future of meritocracy. What kind of incentive do people have to come up with truly creative, original work if they aren’t going to be credited or held responsible for it? Historically, creating something of brilliance, of significance, or of profound artistic value came with the reward of recognition. It proved your skill and your vision. But if the default societal assumption is now, \"Whatever, it wasn't you that did it,\" why bother? Where does the drive to achieve mastery come from when the ",
+      "author": "niosurfer"
+    },
+    {
+      "title": "Setting behavioural rules for AIs",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv04jj/setting_behavioural_rules_for_ais/",
+      "published": "2026-08-22T02:31:55+00:00",
+      "summary": "I learned on a kettlebell forum that I could set up \"ground rules\" for AIs to limit sycophantic behaviour, flattery and fantasised answers. These ground rules are stored in some sort of memory and applied when I start a chat. I did this and it seemed to work for a while and slowly the AI would drift away from the rules and I had to remind it to follow the rules, not a huge problem. A little while later an AI professional told me in a forum that it was impossible to set rules for AIs. I ran a test asking an AI to start off all of its answers with \"Did I tell you I do not like ice cream\" the test was a success The AI professional had very technical language and sounded like he knew what he was talking about. COuld someone give help me to understand this better please ? because the technical language of this expert made it sound like he knew what he was talking about and everything I have done so far indicates that the rules I set are having an effect. submitted by /u/_wjw__ [link] [comme",
+      "author": "_wjw__"
+    },
+    {
+      "title": "Ling-3.0 opens six base checkpoints across three training stages",
+      "url": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
+      "published": "2026-08-21T18:50:23+00:00",
+      "summary": "Ant Group's new release makes six base checkpoints available: pretrained, mid-trained, and WSM-merged checkpoints for both the tiny and flash sizes. That is two sizes × three training stages. Every repository is public and ungated with an MIT declaration, and none of the six has been post-trained. The Ling-3.0 base model release exposes three points in the training progression for each of two model sizes. Researchers can inspect each released stage, but these are base checkpoints for continued pretraining, fine-tuning, and research—not finished chat or instruct models. One important evidence boundary: the team says the same recipe was validated on tiny and then scaled to flash, but that is an official statement rather than an independent reproduction. The WSM paper's reported experiments use Ling-mini, not the six Ling-3.0 checkpoints released here. The official release announcement contains the full family, and the main tiny and flash model pages are the WSM-merged endpoints.. submitt",
+      "author": "Designer_Mouse_6109"
+    },
+    {
+      "title": "This old sci-fi story video is highly similar to what we have with nearing the singularity and AGI today with all work routed to one central machine",
+      "url": "https://www.reddit.com/r/artificial/comments/1vu9ma4/this_old_scifi_story_video_is_highly_similar_to/",
+      "published": "2026-08-21T07:42:12+00:00",
+      "summary": "Feels like even after so many years, it's the same story but with better hardware and tech submitted by /u/ocean_protocol [link] [comments]",
+      "author": "ocean_protocol"
+    },
+    {
+      "title": "EXCLUSIVE: How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuh1x4/exclusive_how_a_texas_student_blew_the_whistle_on/",
+      "published": "2026-08-21T13:54:52+00:00",
+      "summary": "submitted by /u/MatriceJacobine [link] [comments]",
+      "author": "MatriceJacobine"
+    },
+    {
+      "title": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuqtt1/openaibacked_legal_tech_firm_pivots_to_chinese/",
+      "published": "2026-08-21T19:55:18+00:00",
+      "summary": "submitted by /u/zhumao [link] [comments]",
+      "author": "zhumao"
+    },
+    {
+      "title": "AI compute financing just tripled in ten weeks - the mechanism behind the reported $100B Broadcom deal",
+      "url": "https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/",
+      "published": "2026-08-21T13:15:53+00:00",
+      "summary": "Broadcom apparently went back to Blackstone and Apollo (the same two private-credit shops it partnered with in June for a $35B package) and is now discussing something like $100B, to fund AI chip infrastructure for Anthropic. Ten weeks, 3x the size. The structure is the interesting part if you're not familiar with how this financing actually works: reportedly split into a senior-secured tranche ($60-70B) and a junior tranche (~$30B). Senior-secured gets paid first if anything goes wrong and is backed by hard collateral (the chips/datacenters themselves), junior eats losses first but gets a higher yield. It's basically the same risk-layering banks use on mortgage bonds, except the underlying asset here is depreciating GPU hardware instead of houses, and the \"borrower\" is a compute buildout racing to keep up with model demand. Private credit shops love this because it's floating-rate, asset-backed, and banks mostly won't touch loans this size and this fast for something as volatile as AI",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "GitHub turns Microsoft Teams discussions into shared Copilot agent sessions",
+      "url": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
+      "published": "2026-08-21T20:10:40+00:00",
+      "summary": "GitHub says its new Microsoft Teams integration can turn a channel, thread, or direct message into a shared Copilot cloud-agent session. Anyone in the conversation can ask questions, add context, and steer the work. People with repository write access can let Copilot make changes. The session runs in a secure cloud sandbox, and teams can continue with the agent-generated artifacts in the terminal, the Copilot app, or an IDE. Repository admins can also require an extra approval before pull requests from the Teams integration identity can merge. The useful part is not another chat box. It is a shared work log with a human merge gate. Source: https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams/ submitted by /u/Codeblix_Ltd [link] [comments]",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "Good results teaching an open weight model how to reason about a new domain",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuhgie/good_results_teaching_an_open_weight_model_how_to/",
+      "published": "2026-08-21T14:10:29+00:00",
+      "summary": "Spent some time looking into how to teach a model a new domain. Sharing a write-up for those who are interested in this topic: https://www.teachmecoolstuff.com/viewarticle/teaching-a-local-llm-a-new-domain submitted by /u/funJS [link] [comments]",
+      "author": "funJS"
+    }
+  ]
+}

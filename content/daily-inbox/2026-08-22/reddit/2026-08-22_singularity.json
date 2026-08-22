@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-22T04:02:58.501540+00:00",
+  "items": [
+    {
+      "title": "NVIDIA’s coding agent scored 100% on ARC-AGI-3 interactive reasoning benchmark",
+      "url": "https://www.reddit.com/r/singularity/comments/1vuhlhn/nvidias_coding_agent_scored_100_on_arcagi3/",
+      "published": "2026-08-21T14:15:56+00:00",
+      "summary": "submitted by /u/MagicZhang [link] [comments]",
+      "author": "MagicZhang"
+    },
+    {
+      "title": "Hello Qwen... I mean Claude... I mean Qwen...",
+      "url": "https://www.reddit.com/r/singularity/comments/1vutyjz/hello_qwen_i_mean_claude_i_mean_qwen/",
+      "published": "2026-08-21T21:57:51+00:00",
+      "summary": "submitted by /u/virtualQubit [link] [comments]",
+      "author": "virtualQubit"
+    },
+    {
+      "title": "At WRC'26 Galbot showcased its new agile humanoid robot",
+      "url": "https://www.reddit.com/r/singularity/comments/1vuhk5b/at_wrc26_galbot_showcased_its_new_agile_humanoid/",
+      "published": "2026-08-21T14:14:29+00:00",
+      "summary": "Galbot is a novel entry into the bipedal humanoid robotics sector submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Google Deepmind - SIMA 2 - From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://www.reddit.com/r/singularity/comments/1vuxx91/google_deepmind_sima_2_from_atari_to_eve_online/",
+      "published": "2026-08-22T00:48:05+00:00",
+      "summary": "submitted by /u/otarU [link] [comments]",
+      "author": "otarU"
+    },
+    {
+      "title": "A stealth model called Ox-Alpha has been released, outperforming Fable on SWE.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vu87p5/a_stealth_model_called_oxalpha_has_been_released/",
+      "published": "2026-08-21T06:20:26+00:00",
+      "summary": "submitted by /u/troll_khan [link] [comments]",
+      "author": "troll_khan"
+    },
+    {
+      "title": "I fingerprinted Ox Alpha: same tokenizer as GLM-5.3 (+75 token offset), z.ai's exact error strings, near-identical temp-0 outputs",
+      "url": "https://www.reddit.com/r/singularity/comments/1vufbx1/i_fingerprinted_ox_alpha_same_tokenizer_as_glm53/",
+      "published": "2026-08-21T12:43:54+00:00",
+      "summary": "Ran three black-box fingerprint tests on stealth/ox-alpha (OpenRouter + OpenCode) vs public GLM-5.3 on z.ai. 1. Tokenizer: I sent 6 texts (EN/DE/CN/code/emoji) and compared prompt_tokens. Ox Alpha = GLM-5.3 exactly +75 on every text . Same tokenizer, constant 75-token hidden system prompt. Kimi/Qwen/MiMo/MiniMax all diverge. Counts identical on both Ox routes. 2. Error strings: Invalid reasoning_effort on Ox Alpha (OpenCode passes params through) returns: \"[1210] This model always engages in thinking and cannot be disabled; please use low, high, or max\", so the same as the GLM 5.3 error message 3. Temp-0 outputs: Greedy, same prompts → same markdown quirks, same German-decimal LaTeX (`0{,}375`), near word-for-word matches on factual answers. Qwen/MiMo/Kimi format these completely differently. Conclusion: I'm quite sure than Ox Alpha is a GLM model. Not sure if it's a vision variant of GLM 5.3 (GLM 5.3V) or a completely new version like GLM 5.5 but I guess it's unlikely that Z.AI drops ",
+      "author": "FlunkyGraphics"
+    },
+    {
+      "title": "GLM-5.3 (max) takes 2nd place on the Short Story Creative Writing Benchmark!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vulofb/glm53_max_takes_2nd_place_on_the_short_story/",
+      "published": "2026-08-21T16:47:19+00:00",
+      "summary": "Every model writes to the same constrained creative briefs and independent LLM judges rank them by choosing the stronger story from each matched pair. NEW: In-depth qualitative reports examine how six new models differ from their predecessors across 50 matched stories per pair. More info: github.com/lechmazur/writing/ GLM-5.2 Max tends to name what a story contains, while GLM-5.3 builds it so it can be used. GLM-5.2 Max's protagonists usually work alone in an agreeable world, whereas GLM-5.3 puts a second person in the room who withholds, judges, or is changed, so a belief has to survive contact with someone else. GLM-5.2 Max often stops the night before the decisive event and lets the narrator say what it meant, while GLM-5.3 stages the test, pays its cost, and hands the practice on to whoever comes next. Quantitatively, GLM-5.3 was preferred in every matched pair. submitted by /u/zero0_one1 [link] [comments]",
+      "author": "zero0_one1"
+    },
+    {
+      "title": "GPT MOMENT of Robotics.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vv1en8/gpt_moment_of_robotics/",
+      "published": "2026-08-22T03:35:07+00:00",
+      "summary": "submitted by /u/dolo937 [link] [comments]",
+      "author": "dolo937"
+    },
+    {
+      "title": "Open weight progression with no frontier release",
+      "url": "https://www.reddit.com/r/singularity/comments/1vujrdg/open_weight_progression_with_no_frontier_release/",
+      "published": "2026-08-21T15:36:34+00:00",
+      "summary": "As a software developer we got access to GPT 5.6 sol and Opus 5 last week in a decently restricted field, and with these latest models I feel like I can do all my assigned work so quickly as well as make tons of progress on my side projects as well. So at the moment I’m not like dying for another frontier release but overall I want to see acceleration It seems like we are at a state where openAI and Anthropic realize that a lot of these Chinese companies wait for them to make progress and are able to replicate pretty damn close models soon after they release their frontier models Whether you believe Anthropic and open ai or not, they seem like they are going to keep their development internal for a while. Whether this is due to actual security concerns (with hugging face incident I believe this), more marketing hype, or truly a way to combat distillation from Chinese companies I think it is going to be interesting. How do you think this will effect open weight releases, will the capabi",
+      "author": "PykeTheTitan"
+    },
+    {
+      "title": "OpenAI: Introducing ChatGPT for Teens",
+      "url": "https://www.reddit.com/r/singularity/comments/1vuezmb/openai_introducing_chatgpt_for_teens/",
+      "published": "2026-08-21T12:28:20+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    }
+  ]
+}

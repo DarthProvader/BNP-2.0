@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-22T04:03:19.510464+00:00",
+  "items": [
+    {
+      "title": "GTA: Pyongyang",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqfn0/gta_pyongyang/",
+      "published": "2026-08-21T19:40:30+00:00",
+      "summary": "spent way too long on this. fake GTA trailer, pyongyang setting. the tram wires staying intact through the whole shot is the bit im weirdly proud of submitted by /u/burikismat47 [link] [comments]",
+      "author": "burikismat47"
+    },
+    {
+      "title": "Things are going great for michael i’d say",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vum98s/things_are_going_great_for_michael_id_say/",
+      "published": "2026-08-21T17:08:01+00:00",
+      "summary": "submitted by /u/Alone_Landscape_3562 [link] [comments]",
+      "author": "Alone_Landscape_3562"
+    },
+    {
+      "title": "I used Codex to make Seedance 2.5 arrive at the Disaster Girl frame",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vuhi3h/i_used_codex_to_make_seedance_25_arrive_at_the/",
+      "published": "2026-08-21T14:12:15+00:00",
+      "summary": "ChatGPT is usually treated as a prompt box. Ask for a cinematic shot, add a few camera words, copy the result into a video model, and hope the ending survives. My problem was that the ending usually did not survive.Most of my image-to-video failures happen in the last second. The motion can look coherent for 19 seconds, then Seedance suddenly snaps into the reference image, as if it remembered the endpoint too late. Faces morph, perspective jumps, or a white flash hides the transition. So I changed the role of ChatGPT.Instead of asking it to write a more impressive prompt, I used ChatGPT/Codex as a shot planner. The final Disaster Girl frame came first. The whole camera route had to be designed backward from that destination. The useful shift was: stop asking “what should happen in this video?” start asking “what has to be true when the video ends?” 1.Give ChatGPT the terminal state I started by listing everything that could not change in the final frame: the girl’s position, gaze and ",
+      "author": "Lonelydude014"
+    },
+    {
+      "title": "AI Soap Opera: The Chiseled and the Beautiful",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vux7tz/ai_soap_opera_the_chiseled_and_the_beautiful/",
+      "published": "2026-08-22T00:15:32+00:00",
+      "summary": "submitted by /u/Darri3D [link] [comments]",
+      "author": "Darri3D"
+    },
+    {
+      "title": "OpenAI Halts AI Training on Advanced Model as It Detects Dark Signs Emerging",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vus273/openai_halts_ai_training_on_advanced_model_as_it/",
+      "published": "2026-08-21T20:42:42+00:00",
+      "summary": "Finally someone puts on the brakes! submitted by /u/Plastic-Conflict-796 [link] [comments]",
+      "author": "Plastic-Conflict-796"
+    },
+    {
+      "title": "Prompt: Construct the most woke sentence possible.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vv0evv/prompt_construct_the_most_woke_sentence_possible/",
+      "published": "2026-08-22T02:46:15+00:00",
+      "summary": "submitted by /u/JayGatsby52 [link] [comments]",
+      "author": "JayGatsby52"
+    },
+    {
+      "title": "Asked Chat GPT to take a random picture in 2003",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoxla/asked_chat_gpt_to_take_a_random_picture_in_2003/",
+      "published": "2026-08-21T18:45:02+00:00",
+      "summary": "submitted by /u/Therebentine_jaguar [link] [comments]",
+      "author": "Therebentine_jaguar"
+    },
+    {
+      "title": "ChatGPT tells me garlic confit is going to f*ck",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vuvdft/chatgpt_tells_me_garlic_confit_is_going_to_fck/",
+      "published": "2026-08-21T22:55:55+00:00",
+      "summary": "submitted by /u/fastchutney [link] [comments]",
+      "author": "fastchutney"
+    },
+    {
+      "title": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+      "published": "2026-08-21T13:11:11+00:00",
+      "summary": "I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. submitted by /u/severe_009 [link] [comments]",
+      "author": "severe_009"
+    },
+    {
+      "title": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+      "published": "2026-08-21T16:21:56+00:00",
+      "summary": "I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. submitted by /u/CloseCalls4walls [link] [comments]",
+      "author": "CloseCalls4walls"
+    }
+  ]
+}

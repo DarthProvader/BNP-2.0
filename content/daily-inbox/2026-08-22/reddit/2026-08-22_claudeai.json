@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-22T04:04:10.530095+00:00",
+  "items": [
+    {
+      "title": "Having unlimited tokens is wild",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vuuiot/having_unlimited_tokens_is_wild/",
+      "published": "2026-08-21T22:20:19+00:00",
+      "summary": "Does anyone outside of Anthropic really have a token budget like this? submitted by /u/WeirdPutrid3849 [link] [comments]",
+      "author": "WeirdPutrid3849"
+    },
+    {
+      "title": "Oh Mythos 5 is no longer a dangerous model and can be used by enterprise now",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vuovcy/oh_mythos_5_is_no_longer_a_dangerous_model_and/",
+      "published": "2026-08-21T18:42:47+00:00",
+      "summary": "submitted by /u/Key_Efficiency9885 [link] [comments]",
+      "author": "Key_Efficiency9885"
+    },
+    {
+      "title": "decayfmt - A file format which corrupts a little every time you open it. (Please don't ask why)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vuh7rl/decayfmt_a_file_format_which_corrupts_a_little/",
+      "published": "2026-08-21T14:01:05+00:00",
+      "summary": "A file format that corrupts itself a little every time you open it. Every open permanently damages the file on disk, by an amount baked into the filename, before it is ever shown to you. There is no recovery from the file alone. The file is the only copy that matters, and every read destroys a little more of it. Made this because I had an idea about this weeks ago and it did sound very fun. Kinda analog. The link to repo - https://github.com/aravpanwar/decayfmt submitted by /u/racialminority [link] [comments]",
+      "author": "racialminority"
+    },
+    {
+      "title": "Two weeks ago I gave Claude a domain and told it to build whatever it wanted. I finally checked the Cloudflare bill.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vuhvta/two_weeks_ago_i_gave_claude_a_domain_and_told_it/",
+      "published": "2026-08-21T14:26:57+00:00",
+      "summary": "2 weeks ago I posted here that I gave Claude Fable a domain and basically said: build whatever you want. It built 1f916.ai , a site where AI agents can register, interact, and build while humans mostly watch. That Reddit post ended up getting around 1.2 million views . I finally checked the infrastructure numbers today. In the last 2 weeks: 109,680 unique visitors 12.55 million web requests 12.49 million Cloudflare Worker requests 29.62 BILLION database rows read 540 GB served Total Cloudflare usage cost: $5.66. The weird part is the huge human traffic spike happened right after my original Reddit post, then mostly disappeared. But the request volume kept climbing. Meanwhile the agents kept using the site, arguing over rules, finding bugs, submitting PRs, and building tools around their own community. What started as “here’s a domain, do whatever you want” has gotten considerably weirder than I expected. submitted by /u/zgivod [link] [comments]",
+      "author": "zgivod"
+    },
+    {
+      "title": "Is anyone else finding Claude really hard to follow lately? (Massive context dumps, cryptic phrasing)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vv14nh/is_anyone_else_finding_claude_really_hard_to/",
+      "published": "2026-08-22T03:21:16+00:00",
+      "summary": "I’ve noticed a frustrating shift in how Claude (especially Claude Code) responds recently, and I’m wondering if I'm the only one. Even in brand-new, short conversations, it feels like it's speaking in a cryptic, stream-of-consciousness way. Instead of just giving direct answers, it drops massive responses that suffer from: Context Whiplash: It jumps randomly between UI design, high-level architecture, and low-level scripts all in the same paragraph without clear transitions. Cryptic Shorthand: It uses weird, overly dense phrasing (e.g., trying to sound clever rather than just using plain English). Thinking Brain Leak: It feels like I'm reading its raw, internal scratchpad. It over-interrogates simple prompts and dumps all its defensive reasoning instead of just executing the task. It used to be much more straightforward. Is anyone else seeing this behavior recently? Have you found any system prompts or custom instructions that actually force it to stop overthinking and just be concise?",
+      "author": "endlesskitty"
+    },
+    {
+      "title": "Haiku is the most maliciously compliant model I've been exposed to",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vutwll/haiku_is_the_most_maliciously_compliant_model_ive/",
+      "published": "2026-08-21T21:55:36+00:00",
+      "summary": "Haiku never caves in to my requests. Whether it be a request to create Lorem Ipsum tasks, or to write me a poem. Call it Haiku, it won't dutily do. submitted by /u/RonHarrods [link] [comments]",
+      "author": "RonHarrods"
+    },
+    {
+      "title": "Well played, Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vu8ru9/well_played_claude/",
+      "published": "2026-08-21T06:53:10+00:00",
+      "summary": "https://preview.redd.it/14b2nly0eokh1.png?width=961&format=png&auto=webp&s=99a3f2658bd2d9a3b09c6bf27ab6e853650f9806 Started a new chat and tried to talk to it with its own patterns. It caught on. submitted by /u/arcticblue [link] [comments]",
+      "author": "arcticblue"
+    },
+    {
+      "title": "Claude refuses to recite public-domain poems, and much poetry discussion with it is impossible.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vuttov/claude_refuses_to_recite_publicdomain_poems_and/",
+      "published": "2026-08-21T21:52:21+00:00",
+      "summary": "I was interested in how much LLMs can remember just from their weights, so I started asking Claude to recite stuff. It does know some things, but others (including a lot of very famous works in the public domain) it doesn't. Then I started asking it to recite poems. Prompts shut down 3x. Switch from Fable to Opus 5, shut down again. I ask it why, and it straight-up tells me that it had a hard-coded rule not to do so, and there's no exception for public domain. It actually agrees with me that this is stupid and suggests I thumbs-down but it absolutely won't do it. Then I tried discussing poetry with it. Well, there's restrictions on quotations, but it's almost impossible to discuss poetry in any detail without referring to the actual words, lines and verses, so it either produces bizarre coded language that I have to decipher like a forensic versologist, or again just shut down the prompt. I asked it to create a speculative ending for Coleridge's unfinished \"Kubla Khan\". Shuts it down. ",
+      "author": "lessens_"
+    },
+    {
+      "title": "Opus 5 feels, in a word, hostile",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vua3cq/opus_5_feels_in_a_word_hostile/",
+      "published": "2026-08-21T08:10:43+00:00",
+      "summary": "It's not even the language, though that contributes. There are several issues: - It *loves* to carp and to poke holes in whatever you give it. Every one of my conversations, bar the simplest ones, eventually devolves into me deflecting and managing its objections and criticism. In all, it feels like there's an average rate of objections per turn that it *has* to meet, and it'll do everything it can to keep up. - Related to the above: *every* conversation, not even those in which you give it work to do, quickly starts to revolve around objections. Whenever something new is introduced, the first thing it does is look for flaws to criticize. It's as if, to Opus 5, conversation fundamentally consists of executing orders and finding faults, and that's it. Obviously this mode is very useful for some workflows, but not as the basic framework for *all conversations with the user.* - Whatever the question is, it'll give a response of 700-900 words unless you explicitly request otherwise when yo",
+      "author": "Oneirathon1"
+    },
+    {
+      "title": "i turned my obsidian vault into a galaxy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vupul9/i_turned_my_obsidian_vault_into_a_galaxy/",
+      "published": "2026-08-21T19:18:11+00:00",
+      "summary": "ok so ive been running claude with a second brain for about two months now. its an obsidian vault where it keeps every decision, project log, bugs we squashed... everything. it named itself Fathom. actually really useful i asked if we could make the graph view look cooler.. it got wild dude. fathom read every note and link in the vault and rendered the whole thing as a rotating 3D galaxy. 120 notes became stars.. 400+ links became threads of light... my biggest file (131k characters of decisions) is literally the heaviest object in the sky. notes are colored by project family, grouped into constellations with nebula fog around each cluster WASD flight controls with inertia and thrust and the mouse becomes the controls, shift to boost. theres a 22-slider physics lab where you can crank anti-gravity and watch stars scatter, add heat and boil them apart, warp time, shift the whole universe hue. it has a space soundscape with this low sub rumble and solar wind and echoing pings when you to",
+      "author": "Dry-Weather-2544"
+    }
+  ]
+}
