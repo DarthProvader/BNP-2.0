@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-23T04:04:58.493036+00:00",
+  "items": [
+    {
+      "title": "GOP urges top AI firms to do something about the toxic image of data centers",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvhngn/gop_urges_top_ai_firms_to_do_something_about_the/",
+      "published": "2026-08-22T16:59:28+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Unpopular opinion: AI is going to hit a peak, fade into the background, and human stuff becomes the luxury item",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvh293/unpopular_opinion_ai_is_going_to_hit_a_peak_fade/",
+      "published": "2026-08-22T16:36:06+00:00",
+      "summary": "Remember when computers were the luxury thing? Now they’re everywhere and basically invisible but nobody’s impressed by “I own a laptop” anymore. I think AI is heading the same way. It gets so common, so good, so baked into everything that it stops being a “thing” at all. It just disappears into the background, like electricity or wifi. Nobody says “wow, AI” anymore, the same way nobody says “wow, computer.” And when that happens, the rare thing won’t be AI-made stuff. It’ll be human-made stuff. Human skill, human attention, a person who actually did the thing themselves : that becomes the flex. Not because AI can’t do it, but because AI can , and choosing the human version anyway is what makes it valuable. AI won’t keep climbing forever like it feels like now. It’ll peak, then fade into invisibility. And humans doing human things will become the new premium. submitted by /u/PracticalPhoto3101 [link] [comments]",
+      "author": "PracticalPhoto3101"
+    },
+    {
+      "title": "A personalized history podcast you can interrupt to ask the questions",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvup6g/a_personalized_history_podcast_you_can_interrupt/",
+      "published": "2026-08-23T02:12:46+00:00",
+      "summary": "The idea came from a personal frustration: I love history but could never find podcasts on the niche topics I wanted, and when I did, my curiosity always wanted a detour the host couldn't take. So I built the tool I wanted. It's called Historai https://historai.ca/ , it generates a podcast on any topic, one or two narrators, does real research and sources its material. The core feature: you can interrupt it any time and ask a question, and the story continues after. There's also a map and period artwork alongside the audio. Free to try, no account needed for the demo. Just looking for genuine feedback, happy to answer questions about how it works. And if you like it feel fee to share it! Podcast generated from the demo video: https://historai.ca/history/how-a-song-became-the-odyssey--cd48307e4d1244e1ac98e9fcb50f7484 submitted by /u/Goldenchild123 [link] [comments]",
+      "author": "Goldenchild123"
+    },
+    {
+      "title": "Our deterministic verification engine passed 66/66 benchmark cases on canonical structured inputs.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
+      "published": "2026-08-23T01:55:18+00:00",
+      "summary": "Our deterministic verification engine passed 66/66 benchmark cases on canonical structured inputs. In live model evaluation, the end-to-end pipeline currently passed 19/66 cases. We are restructuring the benchmark to isolate failures by their first invalid state and to separately measure deterministic verifier correctness, production contract integrity, and live model generation reliability. The next benchmark version will provide stage-level attribution across transport, parsing, schema validation, normalization, claim binding, evidence graph construction, deterministic verification, and final outcome mapping. https://www.reddit.com/r/ArtificialInteligence/comments/1vucc82/i_benchmarked_my_deterministic_ai_financial/ submitted by /u/MuhammadMujtaba21 [link] [comments]",
+      "author": "MuhammadMujtaba21"
+    },
+    {
+      "title": "Follow-up: VSArena now has a proper VLA track (camera + language, no privileged state) — repo and docs are public",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvlxi2/followup_vsarena_now_has_a_proper_vla_track/",
+      "published": "2026-08-22T19:44:56+00:00",
+      "summary": "Posted about this project a little while ago — quick update since a few things changed that address feedback from that thread. Biggest change : split the observation space properly. There's now a VLA track where the policy only gets a 128x128 RGB camera + a language stacking instruction — cube poses are never sent to the policy. Scoring still uses real poses internally to grade spatial accuracy and completion, but that's judge-only, not policy-visible. State-based (privileged poses) is kept as a separate debug track and doesn't write public ELO either — wanted the \"VLA vs state\" distinction to be explicit rather than something people had to dig for. On the client-side physics concern from before: Studio (the in-browser demo) is spectator/dev-only, clearly labeled, and does not post to the public leaderboard. Public ELO only comes from a hosted harness that scores server-side. That harness isn't live yet — it's the one piece standing between this and actually being open for submissions.",
+      "author": "NovaCoding"
+    },
+    {
+      "title": "Will Chinese Open Source Agree to EU Watermarking?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvnwxp/will_chinese_open_source_agree_to_eu_watermarking/",
+      "published": "2026-08-22T21:04:12+00:00",
+      "summary": "I wonder if people are thinking and worried about this yet? Anthopic, OpenAI and the western AI labs have agreed to watermark AI outputs. Some of us want free and open and untracked and un-modified outputs for many reasons. Do you think the Chinese labs will succumb to the EU pressure and implement the watermarking? Will there be some that dont? Or do people not even care about this? I don't like it and if the EU makes stupid laws, or the USA or another country for that matter, the rest of the world shouldn't be affected. My hope is that the chinese labs dont add it and that they stay free and open source. What do you think? submitted by /u/aiseedbank [link] [comments]",
+      "author": "aiseedbank"
+    },
+    {
+      "title": "Made a tool to remove SynthIDs from images",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvrso7/made_a_tool_to_remove_synthids_from_images/",
+      "published": "2026-08-22T23:54:48+00:00",
+      "summary": "As you know, whenever you edit an image via Gemini or OpenAI, they plaster a SynthID to mark it as their own. Further, these SynthIDs can be unqiue, which could be used to track whoever made it. This SynthIDs are imposed on even paid users, and cannot be opted out of this. In response, I created this scrubber. Works on any computer with 8GB of ram. Pretty reliable, automatic, but sucks with text. Have fun. submitted by /u/Great-Investigator30 [link] [comments]",
+      "author": "Great-Investigator30"
+    },
+    {
+      "title": "UBS models $4.1T in AI infrastructure spending by 2028 - it assumes the power just shows up",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvfxyq/ubs_models_41t_in_ai_infrastructure_spending_by/",
+      "published": "2026-08-22T15:51:46+00:00",
+      "summary": "Everyone talks about chip supply as the bottleneck on AI buildout, but power interconnection is turning into the harder constraint in several major markets, and it works nothing like a chip shortage. A chip shortage is a supply problem: fabs run flat out, backlogs clear eventually, prices come down. Grid interconnection is a queue problem: a new data center has to get in line behind every other proposed generation and load project in that region, and studies for that queue routinely take years, not quarters. You can't buy your way to the front by paying more, and you can't build your way out of it by ordering more GPUs. Three things happened just this month that show the queue problem getting worse, not better. The Tennessee Valley Authority created a rate class specifically for AI data centers, an admission that normal industrial rates and normal queue treatment don't fit this load anymore. Denmark's grid operator started putting new data center interconnection requests behind other c",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "Possible pathways to RSI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv8iu3/possible_pathways_to_rsi/",
+      "published": "2026-08-22T10:11:59+00:00",
+      "summary": "I was just wondering what could be, from this point onwards the potential pathways to undeniable RSI.. which in my opinion is precursor to singularity/ AGI. Maybe not AGI but definitely RSI. (BELOW TEXT WAS EDITED BY GEMINI) Pathway 1: Decentralized & Crowdsourced Open-Source Automation An organized, community-driven ecosystem automates the entire machine-learning pipeline, utilizing crowdsourced compute and unified project management so open-source agents gradually upgrade their own systems without human intervention. Pathway 2: The Biological & Continuous Learning Shift A shift toward biocomputing enables large-scale continuous learning, allowing models to adapt dynamically to every experience and evolve distinct personalities, goals, and drives. Pathway 3: Closed-Loop Centralized Automation (Frontier Labs) Leading labs fully automate their R&D pipelines, enabling autonomous multi-agent systems to design experiments, set benchmarks, and deploy architectural upgrades without human inv",
+      "author": "Disastrous_Ad7017"
+    },
+    {
+      "title": "I spent the morning digging into Anthropic so I could write it up properly. The short version",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvjmmo/i_spent_the_morning_digging_into_anthropic_so_i/",
+      "published": "2026-08-22T18:15:32+00:00",
+      "summary": "Anthropic appears to be A/B testing reduced effort levels in Claude Code I went through the primary sources and the threads this morning so I could write it up properly, and the short version is: the hype is half right. I collect daily AI news and write guides around exactly these stories at https://apexnexus.site (free, no email wall) if you want the deeper version. The writeup on Anthropic goes up later today. What's your take on Anthropic? submitted by /u/Positive-Ad3618 [link] [comments]",
+      "author": "Positive-Ad3618"
+    }
+  ]
+}

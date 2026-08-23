@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-08-23T04:00:40.317789+00:00",
+  "items": [
+    {
+      "title": "Moderna slaví průlom v léčbě rakoviny 🧬 Unitree Superman a Muskův Grok Bot",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/Moderna-slav-prlom-v-lb-rakoviny--Unitree-Superman-a-Muskv-Grok-Bot-e3noftu",
+      "published": "2026-08-22T15:00:01+00:00",
+      "summary": "16. prosince míří Fantastic Future Summit do Fora Karlín. Naše zatím největší akce propojí AI, robotiku, technologie, byznys, longevity, zdraví i sport a postupně začínáme odhalovat hosty.🎟️ Lístky:Ticketportal: https://www.ticketportal.cz/event/FANTASTIC-FUTURE-SUMMIT-2026Ticketmaster: https://www.ticketmaster.cz/artist/fantastic-future-summit-vstupenky/1460414V novém díle řešíme Grok Bot, který z AI agentů dělá celý tým s vlastními počítači, a Buzz od Jacka Dorseyho, kde spolu v jednom workspace komunikují lidé i agenti. Claude mezitím při pokusu o Riemannovu hypotézu posunul desítky let starý matematický výsledek, Moderna s Merckem uspěly ve Phase 3 s personalizovanou mRNA terapií proti melanomu a Anthropic začíná neviditelně označovat AI text.K tomu AI vlogy ze starého Říma, budoucnost videotvorby a Unitree „Superman“, který podle výrobce běží 45,6 km/h, skočí z místa do výšky 2 metrů a vznikl za něco přes tři měsíce. 🤖🎧Poslouchejte Fantastic Future na:YouTube: https://www.youtube.",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

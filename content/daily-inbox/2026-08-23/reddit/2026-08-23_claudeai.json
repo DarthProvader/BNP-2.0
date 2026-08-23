@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-23T04:03:07.321530+00:00",
+  "items": [
+    {
+      "title": "I built an English ↔ Claudish translator",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvi3x1/i_built_an_english_claudish_translator/",
+      "published": "2026-08-22T17:17:08+00:00",
+      "summary": "Claude has become a language, so I built a translator. It works both ways: English → Claudish and Claudish → English. Both directions are neural programs compiled with ProgramAsWeights, so it easily runs on CPUs. Demo: https://programasweights.com/claudish Code: https://github.com/programasweights/claudish Inspired by the recent Claudish → English plugin that was posted here: https://www.reddit.com/r/ClaudeAI/comments/1vl0n1t/claude_code_plugin_for_translating_from_claudish/ submitted by /u/yuntiandeng [link] [comments]",
+      "author": "yuntiandeng"
+    },
+    {
+      "title": "Devs who actually use Claude Code properly (not vibe coding) — what's your take?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvo1a5/devs_who_actually_use_claude_code_properly_not/",
+      "published": "2026-08-22T21:09:11+00:00",
+      "summary": "Every time AI coding tools come up you get the same three replies: \"it'll break in prod\", \"full of security holes etc..\",\"if AI codes better than you, you never really knew how to code\" Fair enough sometimes, especially when people just prompt and pray with no review. But that's not what I'm doing, I think through architecture first, bake security constraints into the prompt, write tests for every feature, and manually test both backend and frontend before trusting anything. Basically treat it like a fast junior dev I still have to check. I also want to hear from people who can't code but use Claude Code seriously (write proper tests, ask for tradeoffs, don't just accept the first output) — did it hold up long term, or did stuff break later that you couldn't catch? What's the actual workflow you use to manage these tools correctly, and where does it still fail even when you're careful? submitted by /u/Positive-Crazy-9974 [link] [comments]",
+      "author": "Positive-Crazy-9974"
+    },
+    {
+      "title": "Anthropic Stealth Nerfing Effort Levels",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvjr5n/anthropic_stealth_nerfing_effort_levels/",
+      "published": "2026-08-22T18:20:27+00:00",
+      "summary": "EDIT: Update from Thariq on twitter. https://x.com/trq212/status/2091247114869432543 \"We sometimes test API serving configs in Claude Code before rolling them out, and one running now maps the numerical effort value differently. That's why Claude may tell some of you it's at \"10\" on high. The scale isn't 0-100, the number isn't meaningful on its own, and the effort you selected is the effort you're getting. We've run in-depth evals to confirm this doesn't affect model performance. This should be the same experience, but if you see a clear regression please hit /feedback and send me the ID. Will give credits.\" If Fable has felt dumber this week, it probably isn't you. I saw @argofowl's thread on X claiming the effort scale had been shrunk server side, figured it was worth an afternoon to test, and it holds up. Some background first. When Claude Code calls the API it sends the effort level as a word: output_config: {effort: \"high\"}. The API turns that word into a number and puts it in fr",
+      "author": "jcll"
+    },
+    {
+      "title": "Just in case you needed to know, Domino's India is a certified connector for Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvlv0p/just_in_case_you_needed_to_know_dominos_india_is/",
+      "published": "2026-08-22T19:42:08+00:00",
+      "summary": "submitted by /u/Relative-Seaweed-583 [link] [comments]",
+      "author": "Relative-Seaweed-583"
+    },
+    {
+      "title": "About 12 F***ing Ounces - Claude Selve Serve Beer Wall and POS",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvqzwh/about_12_fing_ounces_claude_selve_serve_beer_wall/",
+      "published": "2026-08-22T23:18:13+00:00",
+      "summary": "I've spent the last three months and just at 1000 hours (12 to 16 hours a day, 7 days a week, and yes NOT a single day off), developing a self serve beer wall and point of sale system for my restaurant. First video is nice and short. 2nd video shows a bit more but longer, if you are interested. THese are both of the beer wall, and the actual POS we use tablets, it has KDS and Expo Screens, complete routing, coursing, reservation system, inventory, rbac, auth with pin and nfc cards, integration with the beer wall. Phone app for reservations, whats app notifications, sms...the list is much longer but you get the gest. Next stage is to resale this but it's not why I am here. This is the last place to market a pos system to. Just wanted to share as it's been an extremly fun, yet challenging project. It all runs on containers and is clustered using proxmox in a three cluster system with backups on site and off. A bit of history about myself. I'm highly techincal, but NOT a coder. I have the",
+      "author": "iliadz"
+    },
+    {
+      "title": "What do people mean by \"my harness\" re: agentic coding?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvjl5y/what_do_people_mean_by_my_harness_re_agentic/",
+      "published": "2026-08-22T18:13:56+00:00",
+      "summary": "I see a lot of posts on LinkedIn and other social media posts with folks at various companies talking about their harnesses. Are they talking about Claude Code / Codex, or are they building custom harnesses? If custom, what does that look like? How do you go about building a custom harness that's as good as, if not better than, Claude Code or Codex or Cursor? Feeling kind of dumb about this. Edit: I'm not really asking what a harness is. I know what that is. I'm asking whether people are building custom harnesses from scratch or if it's adding more skills/connectors to Claude Code or something else. submitted by /u/Jemaclus [link] [comments]",
+      "author": "Jemaclus"
+    },
+    {
+      "title": "Anthropic: Please Have Daisy the CC Engineer Do a Video!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvn0dy/anthropic_please_have_daisy_the_cc_engineer_do_a/",
+      "published": "2026-08-22T20:27:22+00:00",
+      "summary": "In this week's newsletter, Anthropic included this: \"My daily driver currently looks like: two lead agents that keep each other accountable and restart the other if either fails. These delegate to tech lead or PM agents for the 8-10 projects I'm running at any one time, and each project has 5-10 IC [individual contributor] agents, generalists or specialists depending on the problem. Across all of these I'm still only doing 30-50 prompts per day, and my IC agents typically work autonomously for 2-3 days. About 60% of my interaction is with the leads, 35% with a project lead, and 5% is when something has gone off the rails. All of these agents communicate directly with the SendMessage tool.\" – Daisy, Engineer on Claude Code Please, Anthropic... have her do a presentation on how she makes this work. Only 30-50 prompts per day for 8-10 projects x 5-10 IC agents? How? How would she do this if she had to work under usage limits of a 20x account? Please share the secrets! submitted by /u/Wsz2",
+      "author": "Wsz2020"
+    },
+    {
+      "title": "Yeah, feels like something's wrong.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvtz9b/yeah_feels_like_somethings_wrong/",
+      "published": "2026-08-23T01:37:07+00:00",
+      "summary": "Anthropic says they're keeping limits 50% higher through August 31st, but I somehow blitzed through all of my weekly fable usage since my reset yesterday morning with comparatively very light use. This is supposed to be 20x max? With 50% higher limits? So 30x? 30x of what? Not sure what's happening but I imagine a lot of folks are going to cancel their $200 subs and move on to try other frontier models if this is the way it's going to go down with Anthropic. I still strongly feel Fable and CC is the \"best of the best\" but I can't believe I pay for the highest subscription tier offered and my Fable usage for the entire week is gone in a day and a half. A few weeks ago I built an open-source deterministic particle physics engine, a browser sandbox game, and accompanying launch websites with a week's worth of Fable. ( SunaBox , SunaEngine , GitHub ) Now, I cant get through light web design work? I've hardly done anything at all. Just a bummer, that's all... Feels like being lied to. submi",
+      "author": "cheetoskull"
+    },
+    {
+      "title": "I built one app to replace Adobe Illustrator, Lightroom and most of After Effects. The Figma part is next.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvspv7/i_built_one_app_to_replace_adobe_illustrator/",
+      "published": "2026-08-23T00:36:07+00:00",
+      "summary": "Hey everyone :) It's been a rough 2 months. I got fired in June because the CEO wanted to use AI for everything, then I tried to freelance but illustrator & photoshop kept crashing because I have only 8GB ram on my Surface Pro 8. It would crash over the most basic functions & this had me frustrated AF. Adobe's apps wanted more than it had, and I was paying monthly for the privilege of watching it crash every 30mins.. So, I decided to build my own app. I am not a dev, so Claude-Code did all the coding (Opus 5 mostly). It runs in a browser, on an engine I designed. What it can do for now: Instead of Illustrator: Vector drawing with points, transform, artboards, wraps, snapping + guides & grids, curves, Booleans, brushes, filters & effects, masks & clipping, groups, layers & sub-layers, type on a curve and real style runs inside one text object. It opens your .ai files and keeps the layers and the type editable. And more. Instead of Lightroom: Photo grading on the graphics card. White bal",
+      "author": "Glittering_Diver_478"
+    },
+    {
+      "title": "What's the most practical thing I can do with my Claude subscription?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvi5d8/whats_the_most_practical_thing_i_can_do_with_my/",
+      "published": "2026-08-22T17:18:43+00:00",
+      "summary": "How do you use the cloud to simplify, streamline, and improve your daily life? I'm looking forward to hearing your ideas :) submitted by /u/Johannes1509 [link] [comments]",
+      "author": "Johannes1509"
+    }
+  ]
+}
