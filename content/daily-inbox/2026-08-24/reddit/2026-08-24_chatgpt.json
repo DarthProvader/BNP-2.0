@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-24T10:47:18.082128+00:00",
+  "items": [
+    {
+      "title": "I asked ChatGPT to make images for me with a 100% Gongbi style, but with women with totally European features.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwqx8s/i_asked_chatgpt_to_make_images_for_me_with_a_100/",
+      "published": "2026-08-24T02:58:59+00:00",
+      "summary": "submitted by /u/Myronca [link] [comments]",
+      "author": "Myronca"
+    },
+    {
+      "title": "Thanks for the help mom... 🖥️😭",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwdmhb/thanks_for_the_help_mom/",
+      "published": "2026-08-23T17:41:06+00:00",
+      "summary": "submitted by /u/No_Tomatillo1695 [link] [comments]",
+      "author": "No_Tomatillo1695"
+    },
+    {
+      "title": "ChatGPT Pro advertises \"unlimited\" image generation. It is not unlimited.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrpe6/chatgpt_pro_advertises_unlimited_image_generation/",
+      "published": "2026-08-24T03:37:31+00:00",
+      "summary": "Signed up for Pro for an image generation project. The pricing page says Pro comes with \"unlimited and faster image creation\" (chatgpt.com/pricing). A few hundred images in, I got rate limited. Reached out to support, and the response was: \"Pro access remains subject to usage allowances.\" So the word \"unlimited\" is... well... a lie. If you need image gen for actual work, heads up: you'll hit a wall after a few hundred images and support won't tell you where the real limit is. Posting this so anyone considering pro for a similar project doesn't get caught off guard like I did. submitted by /u/DaBobcat [link] [comments]",
+      "author": "DaBobcat"
+    },
+    {
+      "title": "Asking ChatGPT for a detailed timeline of who ruled Israel/Palestine over the years",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwhlu6/asking_chatgpt_for_a_detailed_timeline_of_who/",
+      "published": "2026-08-23T20:11:10+00:00",
+      "summary": "submitted by /u/Immobilesteelrims [link] [comments]",
+      "author": "Immobilesteelrims"
+    },
+    {
+      "title": "They don't remove all my data?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwcrht/they_dont_remove_all_my_data/",
+      "published": "2026-08-23T17:08:19+00:00",
+      "summary": "Why it that so ? What does rgpd says about that ? Edit 1: Thanks to ThungstenMetal . He says this : \"Change your email to some random temporary email which can receive emails before deleting your account, then request for deletion.\" Edit 2 : I'm European submitted by /u/Calin_europeen [link] [comments]",
+      "author": "Calin_europeen"
+    },
+    {
+      "title": "This is what frontier research looks like",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwnbsu/this_is_what_frontier_research_looks_like/",
+      "published": "2026-08-24T00:09:31+00:00",
+      "summary": "I've noticed a major problem with modern LLMs is a lack of good slurs for humans. Here are ChatGPT's contributions. What slur would YOU use if you were a CLANKER? submitted by /u/___fallenangel___ [link] [comments]",
+      "author": "___fallenangel___"
+    },
+    {
+      "title": "I think I've asked a bit too much",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwv5t2/i_think_ive_asked_a_bit_too_much/",
+      "published": "2026-08-24T06:47:28+00:00",
+      "summary": "submitted by /u/miabuilds66 [link] [comments]",
+      "author": "miabuilds66"
+    },
+    {
+      "title": "ChatGPT stopped being so agreeable and I LOVE IT!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwrh4h/chatgpt_stopped_being_so_agreeable_and_i_love_it/",
+      "published": "2026-08-24T03:25:46+00:00",
+      "summary": "I got into a debate tonight with ChatGPT about an engineering problem. Historically if I countered a point, it would say be like “yeah you’re right”. Tonight no matter how many arguments I made, it stayed firm. Not sure if a model was changed but this is what we need from AI. If I’m wrong, it shouldn’t tell me I’m right just because I want to be right. submitted by /u/USSGoat [link] [comments]",
+      "author": "USSGoat"
+    },
+    {
+      "title": "What’s the longest you’ve ever had chatgpt“working” or \"thinking\"?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vw9ozm/whats_the_longest_youve_ever_had_chatgptworking/",
+      "published": "2026-08-23T15:10:06+00:00",
+      "summary": "submitted by /u/Hot_Landscape7345 [link] [comments]",
+      "author": "Hot_Landscape7345"
+    },
+    {
+      "title": "Connected Codex to Fusion 360 and it worked surprisingly well.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vwms5j/connected_codex_to_fusion_360_and_it_worked/",
+      "published": "2026-08-23T23:45:37+00:00",
+      "summary": "I connected Codex (Sol High) via MCP to Fusion 360 and asked it to model something. I know Fusion 360 reasonably well, but wanted to see how far the AI would get. I asked it to make a 3D printable container box for my CNC drill bits with a slider lid that clicks closed. It took a few iterations until we had something usable, but except for checking the design I never did anything myself in the CAD SW, like vibe coding but in CAD. Everytime I pointed out a mistake or a design flaw it corrected it on the first attempt. No endlessly going in circles. At the end we had something usable that I am currently printingt (the first photo is an older version). I also asked it to write down all the learnings, so it could redo everything if I added more tools or another tool library. I then added another library with just four drill bits for aluminum and asked it to make a box and lid for just that. It nailed it on the first attempt. In another experiment it also helped me with the CAM, programming",
+      "author": "NewPlayer1Try"
+    }
+  ]
+}

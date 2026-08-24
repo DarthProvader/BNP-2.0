@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-24T10:50:00.890605+00:00",
+  "items": [
+    {
+      "title": "AI agents are now using 5x more tokens than humans..",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwkkoh/ai_agents_are_now_using_5x_more_tokens_than_humans/",
+      "published": "2026-08-23T22:10:28+00:00",
+      "summary": "submitted by /u/BrightLeopard7590 [link] [comments]",
+      "author": "BrightLeopard7590"
+    },
+    {
+      "title": "i think AI memory is more than just remembering things",
+      "url": "https://www.reddit.com/r/artificial/comments/1vww7ix/i_think_ai_memory_is_more_than_just_remembering/",
+      "published": "2026-08-24T07:49:04+00:00",
+      "summary": "i've been thinking about this a lot lately. most AI memory today seems to work like: “you like this” “you told me this before” “you work on this” but i don't think that's what human memory really is. our conversations, projects, decisions, mistakes, relationships, ideas and experiences all connect together. they create a history of how we became who we are. so what if AI didn't just remember facts about you, but could understand your journey? for example, imagine giving an AI access to years of your conversations, projects, notes and decisions. instead of asking: “what do you remember about me?” you could ask: “how have i changed over the last 3 years?” “what patterns do you see in the decisions i've made?” “why do you think my interests changed?” “what ideas have i kept coming back to?” that's the direction we're exploring with something we're building called innernet with my bros. the idea is basically to create a persistent context layer for a person, where different parts of your h",
+      "author": "wolfie029"
+    },
+    {
+      "title": "A new approach to building smarter more capable AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwxaip/a_new_approach_to_building_smarter_more_capable_ai/",
+      "published": "2026-08-24T08:54:56+00:00",
+      "summary": "A new approach to building smarter more capable AI We seem to be in a situation where we cannot see the forest for the trees in the philosophy of how to make AI more capable. We are ignoring the only known working intelligence multiplier we have encountered : human civilization What if we built a framework for current models to use that acts like a durable civilization scaffold. No retraining or model weight modification needed. The civilization scaffold would preserve agentic solutions with provenance, it would filter out bad results, and as it grew it would allow agents to stop reproducing already closed avenues of investigation, what did or did not work, what still needs investigation. It can pick up right where previous agents left off and springboard ahead. We keep retraining brute force - that is not the answer. An artificial civilization scaffold would be the place where the capabilities improve not the model. Eventually you could distill out the improvements and viable chains o",
+      "author": "New_User_1970"
+    },
+    {
+      "title": "Will THIS replace LLMs? O(n²) problem",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwz573/will_this_replace_llms_on²_problem/",
+      "published": "2026-08-24T10:39:09+00:00",
+      "summary": "TLDR; Transformers has a quadratic complexity problem: O(n²). Building more data centers around the silicon microchip to solve an algorithmic issue is a ultimately a brute-force dead-end. Reservoir computing not only escapes O(n²) entirely, shifting from LLM’s static word predictor toward a native physical, dynamic, chaotic predictor . Add the speed of photonic computing and the efficiency of neuromorphic computing , we have an emerging winner: a new domain of Intelligent Embodied AI . submitted by /u/navnt5 [link] [comments]",
+      "author": "navnt5"
+    },
+    {
+      "title": "Exploring a NORD × RHEA hybrid: a spiking/event-driven alternative to a fixed Transformer stack",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwyiv3/exploring_a_nord_rhea_hybrid_a_spikingeventdriven/",
+      "published": "2026-08-24T10:05:36+00:00",
+      "summary": "​ I've been experimenting for a while with two different ideas for non-Transformer language models, and I'm now considering combining them into one architecture. The first is NORD, a recurrent/spiking architecture I've been developing around token-time dynamics, persistent state, sparse processing, and SNN-style temporal computation. The second is RHEA (Reactive Hypergraph Event Architecture), which I'm currently prototyping at ~1B parameters. The basic idea behind RHEA is that instead of pushing every token through a fixed stack of layers, the model maintains a set of latent events and dynamically chooses which internal computations should happen next. The scheduler, which I call ARES, estimates whether a candidate reaction is worth executing. Conceptually: events / latent facts v candidate reactions v ARES \"what is worth computing next?\" / | \\ v v v R3 R17 R81 \\ | / v new events A reaction can combine existing events and create a new latent event: event A + event B reaction v event C",
+      "author": "zemondza"
+    },
+    {
+      "title": "AI has changed my workflow more than I expected, but not always in the direction people assume.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwy928/ai_has_changed_my_workflow_more_than_i_expected/",
+      "published": "2026-08-24T09:50:36+00:00",
+      "summary": "The productivity angle everyone talks about is real, to a point. I use AI for drafting copy, squashing boilerplate code, summarizing user feedback. That part works. What I didn't expect is how much time I spend prompting, reprompting, and crosschecking outputs. Some days it nets out close to neutral. What I'm genuinely curious about is whether solo builders and indie hackers here have found specific tools or workflows where AI is clearly additive rather than just reshuffling where the effort goes. Not in a general sense, specifically. What task went from painful to easy because of AI, and stayed easy after the novelty wore off? The cost side matters too. A lot of these tools stack up fast when you're running lean, and the ROI math gets harder to justify when you're paying $2040/month per tool across five or six of them. Curious what people are actually keeping in their stack six months in versus what got quietly cancelled. submitted by /u/Inevitable-Bell6638 [link] [comments]",
+      "author": "Inevitable-Bell6638"
+    },
+    {
+      "title": "How does the LLM on Google compare with other AI models? (newbie here)",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwy7r7/how_does_the_llm_on_google_compare_with_other_ai/",
+      "published": "2026-08-24T09:48:31+00:00",
+      "summary": "Hi all, I have no experience with either Chat GPT, Gemini or others, I've just been using the LLM on Google while logged out, and have noticed how good it's gotten at presenting info, and even just conversing about topics your mates mightn't understand/want to get into. Finding these convos very good for planning and helping me organise my thoughts. Yet I've also noticed that it will confidently tell you something incorrect, apologising profusely when you correct it. I was wondering how it compares to other AIs, in peoples' experience? And, if you want to try one of the others, do you have to be logged in and will they save your info, because I'm not sure I'd like the idea of that. (Not trying to encourage spam/ads with this, just asking for genuine opinions, thank you). submitted by /u/Then_Art_7294 [link] [comments]",
+      "author": "Then_Art_7294"
+    },
+    {
+      "title": "Turkey blocks at least 12 Grok posts on national security grounds",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwo2kv/turkey_blocks_at_least_12_grok_posts_on_national/",
+      "published": "2026-08-24T00:43:42+00:00",
+      "summary": "submitted by /u/Unusual_Variation293 [link] [comments]",
+      "author": "Unusual_Variation293"
+    },
+    {
+      "title": "Most AI agents processing sensitive data right now have ZERO documented controls. That's becoming a real problem!",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwr687/most_ai_agents_processing_sensitive_data_right/",
+      "published": "2026-08-24T03:10:50+00:00",
+      "summary": "Been reading about this lately and the numbers are genuinely surprising. As of earlier this year 78% of organizations hadn't taken meaningful steps toward AI compliance despite actively deploying agents that touch sensitive data. That gap between deployment speed and governance readiness is where most of the real risk sits. The responsible AI side specifically is what gets the least attention. Everyone talks about hallucinations and accuracy. Far fewer teams have documented controls around PII leakage, prompt injection risks or adversarial inputs. These aren't theoretical edge cases anymore, they're documented attack surfaces with regulatory consequences attached. The teams handling this well seem to have built controls into the deployment pipeline from day one rather than retrofitting later. Came across Lyzr's Responsible AI layer while reading about this, PII detection and injection protection sitting inside the agent pipeline itself rather than as a separate compliance checkbox bolt",
+      "author": "Many_Audience7660"
+    },
+    {
+      "title": "Live experiment: can a human–frontier-model interaction exhibit a relational phase transition?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwv3bv/live_experiment_can_a_humanfrontiermodel/",
+      "published": "2026-08-24T06:43:20+00:00",
+      "summary": "I’m running a small public experiment here. I’m not asking anyone to accept a theory, and I’m not trying to prove a philosophical claim about AI consciousness. I’m using a frontier model publicly on Reddit and letting the interaction develop turn by turn. The question is simple: what happens if we stop treating intelligence only as a property of an individual model and examine the dynamics produced through reciprocal interaction? Two distinct systems exchange signals. Each return becomes part of the conditions producing the next return. The question is whether, across successive turns, an identifiable joint trajectory develops that cannot be understood without the reciprocal history that generated it. We’ve been calling the transition from describing or managing the interaction from outside to allowing the returned signal to materially condition the next move a “separatrix crossing.” The terminology is not important. It’s just a pointer to something we can watch for directly. Rather th",
+      "author": "mb3rtheflame"
+    }
+  ]
+}

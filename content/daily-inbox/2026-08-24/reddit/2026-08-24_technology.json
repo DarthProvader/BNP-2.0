@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-08-24T10:50:21.668894+00:00",
+  "items": [
+    {
+      "title": "AliExpress was silently running audio in your browser to fingerprint and track your device",
+      "url": "https://www.reddit.com/r/technology/comments/1vwqknk/aliexpress_was_silently_running_audio_in_your/",
+      "published": "2026-08-24T02:42:04+00:00",
+      "summary": "submitted by /u/magnus007 [link] [comments]",
+      "author": "magnus007"
+    },
+    {
+      "title": "People have clicked the \"Seems like AI slop\" button on LinkedIn over a million times already",
+      "url": "https://www.reddit.com/r/technology/comments/1vwfbas/people_have_clicked_the_seems_like_ai_slop_button/",
+      "published": "2026-08-23T18:43:42+00:00",
+      "summary": "submitted by /u/AdSpecialist6598 [link] [comments]",
+      "author": "AdSpecialist6598"
+    },
+    {
+      "title": "Twitch and Amazon hit with lawsuit for training AI with streamers' content",
+      "url": "https://www.reddit.com/r/technology/comments/1vwm6ig/twitch_and_amazon_hit_with_lawsuit_for_training/",
+      "published": "2026-08-23T23:18:47+00:00",
+      "summary": "submitted by /u/efap1701 [link] [comments]",
+      "author": "efap1701"
+    },
+    {
+      "title": "Texas Gov. Greg Abbott says data centers 'dug their own grave'",
+      "url": "https://www.reddit.com/r/technology/comments/1vwifxj/texas_gov_greg_abbott_says_data_centers_dug_their/",
+      "published": "2026-08-23T20:43:56+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    },
+    {
+      "title": "Silicon Valley Doesn't Get Why You Hate AI | Technology leaders don’t seem to understand society’s gripes about AI, but boy, are they posting through it",
+      "url": "https://www.reddit.com/r/technology/comments/1vwo35v/silicon_valley_doesnt_get_why_you_hate_ai/",
+      "published": "2026-08-24T00:44:26+00:00",
+      "summary": "submitted by /u/Hrmbee [link] [comments]",
+      "author": "Hrmbee"
+    },
+    {
+      "title": "Data centers near O’Hare win nearly $100M in local tax breaks, leaving suburban homeowners to cover the gap",
+      "url": "https://www.reddit.com/r/technology/comments/1vwh3mt/data_centers_near_ohare_win_nearly_100m_in_local/",
+      "published": "2026-08-23T19:51:58+00:00",
+      "summary": "submitted by /u/Unusual-State1827 [link] [comments]",
+      "author": "Unusual-State1827"
+    },
+    {
+      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash | TechCrunch",
+      "url": "https://www.reddit.com/r/technology/comments/1vwads8/flock_ceo_calls_for_compromise_as_surveillance/",
+      "published": "2026-08-23T15:37:00+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    },
+    {
+      "title": "After Pushing Gamers to All Digital, Some Companies Are Refusing to Share Digital Game Sales Data",
+      "url": "https://www.reddit.com/r/technology/comments/1vwpuoz/after_pushing_gamers_to_all_digital_some/",
+      "published": "2026-08-24T02:07:18+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+      "url": "https://www.reddit.com/r/technology/comments/1vwttcn/alibaba_shares_fall_5_as_ai_spending_drives_75/",
+      "published": "2026-08-24T05:30:09+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "Parked Waymos Are Recording Your Neighborhood",
+      "url": "https://www.reddit.com/r/technology/comments/1vw9gkt/parked_waymos_are_recording_your_neighborhood/",
+      "published": "2026-08-23T15:01:07+00:00",
+      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "author": "IKeepItLayingAround"
+    }
+  ]
+}

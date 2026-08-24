@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-08-24T10:45:21.343529+00:00",
+  "items": [
+    {
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "published": "2026-08-24T08:00:00+00:00",
+      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&#8230;",
+      "author": "Elise Cutts"
+    }
+  ]
+}

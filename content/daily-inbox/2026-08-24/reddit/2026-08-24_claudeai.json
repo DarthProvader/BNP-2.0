@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-24T10:48:09.244535+00:00",
+  "items": [
+    {
+      "title": "Opus 5 real usecase decoded. Using it for coding sessions was anyway a lost cause.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwinim/opus_5_real_usecase_decoded_using_it_for_coding/",
+      "published": "2026-08-23T20:52:09+00:00",
+      "summary": "submitted by /u/MoreFaithlessness954 [link] [comments]",
+      "author": "MoreFaithlessness954"
+    },
+    {
+      "title": "Opus 5 medium is such an unique experience, LOL.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vws2g7/opus_5_medium_is_such_an_unique_experience_lol/",
+      "published": "2026-08-24T03:56:05+00:00",
+      "summary": "https://preview.redd.it/kegffhxww8lh1.png?width=435&format=png&auto=webp&s=580d84a4fd617fd025498a44cdee873fcd1caf02 Honestly, Opus 5 medium is the best model i've used since 4o, i just love it. it just does amazing things and sometimes comes up with something so insane that i can't help but laugh. submitted by /u/Sea_Connection_3265 [link] [comments]",
+      "author": "Sea_Connection_3265"
+    },
+    {
+      "title": "23% of 5-hour limit for \"server is busy\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwv0bq/23_of_5hour_limit_for_server_is_busy/",
+      "published": "2026-08-24T06:38:13+00:00",
+      "summary": "https://preview.redd.it/loq4a8gwp9lh1.png?width=1004&format=png&auto=webp&s=e715094111ca9730d8ba5f9c9c5724ffffbfc86a Love this, trying to make the prompts as efficient as possible, so Claude decides to take my tokens and not do anything :) I mean of course Service is busy can be understandable, I can wait, but the fact that it Ate up my tokens is wild. 3 prompts and I have to wait 4 more hours :) submitted by /u/peachbaby12 [link] [comments]",
+      "author": "peachbaby12"
+    },
+    {
+      "title": "How to stop Claude code from adding every correction to the spec? 😭",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwkw83/how_to_stop_claude_code_from_adding_every/",
+      "published": "2026-08-23T22:24:00+00:00",
+      "summary": "When Claude code adds something I didn’t ask. For example, “make a coffee with ketchup” Me: remove the ketchup. Claude code: you are right, I will remove it. But when I check the PR, it says: make a coffee(without ketchup) WHY??? How to fix Claude code doing this? submitted by /u/Ruqii-ruqii [link] [comments]",
+      "author": "Ruqii-ruqii"
+    },
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Aug 24, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwteev/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-08-24T05:07:15+00:00",
+      "summary": "Resolved - This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5. Aug 24, 08:30 UTC Update - At this time, we have seen errors stabilize on Opus 5 and Fable 5, and are working to fully resolve success rates on all affected models. We will provide an update as soon as possible. Aug 24, 07:47 UTC Update - We are continuing to work to resolve issues causing elevated requests on multiple models. We will provide an update as soon as possible. Aug 24, 06:42 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, and other Claude models and are working on a fix. We will provide an update as soon as possible. Aug 24, 05:27 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, and Claude Opus 4.8. We will provide an update as soon as ",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "I accidentally negotiated a profanity contract with Claude and now I have a custom character mode",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwtw3u/i_accidentally_negotiated_a_profanity_contract/",
+      "published": "2026-08-24T05:34:33+00:00",
+      "summary": "So I was building a Claude skill to make it respond in-character as Pam from Archer, curse words included. Problem: Claude wouldn’t say them, no matter how I phrased it. So I went back into the skill-building process itself and had Claude help me list out the specific words the character uses, so I could explicitly consent to them being used. We wrote it up as: this is roleplay, I understand what’s being agreed to, and I’m opting in to that approved list. Ran the skill. Claude immediately broke character and refused to swear. I reminded it that we built the skill together and there’s a whole consent clause sitting right there in the file. Claude went back, reread its own skill, apologized for pushing back, and then just started swearing in character like nothing happened. 😂 Now I can type “Pam on” and Claude fully commits to the skill. Is this a deeply silly use of an AI skill system? Yes. Did I basically argue my way through my own AI’s terms of service with itself? Also yes. 10/10, w",
+      "author": "lemontechbar"
+    },
+    {
+      "title": "Claude speaks my language. I’m not sure it thinks in it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwxqv5/claude_speaks_my_language_im_not_sure_it_thinks/",
+      "published": "2026-08-24T09:21:14+00:00",
+      "summary": "I use Claude in both English and Spanish, and I’ve been thinking about something that has less to do with how good its Spanish is and more with what comes with the language. Say I have a problem with my boss and ask Claude what to do. It might suggest sitting down with him, being direct about how I feel and talking through how we could improve the situation. Nothing strange about that advice. But it also comes from a particular idea of how people should deal with conflict and authority. What works in an American workplace might feel awkward in Spain, and could be completely inappropriate in another culture. That’s the part I hadn’t really thought about before. LLMs have learned from a huge amount of English-language content. Claude can answer me in very good Spanish, but that doesn’t necessarily mean the assumptions behind the answer are Spanish too. And this goes beyond language sounding slightly translated. People ask Claude what they should say to their boss, how to handle an argume",
+      "author": "Rebekator"
+    },
+    {
+      "title": "Saw this job posting",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwvitc/saw_this_job_posting/",
+      "published": "2026-08-24T07:08:28+00:00",
+      "summary": "requirements by poster: https://preview.redd.it/j643ih3jv9lh1.png?width=752&format=png&auto=webp&s=5d0f3e158e9d6cc1b3b140d641edc22b92fc4f42 https://preview.redd.it/u22y6snkv9lh1.png?width=1342&format=png&auto=webp&s=d14ff0962e6ea2289d00bbe1ff25ca8350106c4c submitted by /u/ShortSideG [link] [comments]",
+      "author": "ShortSideG"
+    },
+    {
+      "title": "Claude Code guesses my timezone based on my name?!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwpl0x/claude_code_guesses_my_timezone_based_on_my_name/",
+      "published": "2026-08-24T01:54:35+00:00",
+      "summary": "Interaction with Claude Code (Opus 5) today: Me: what does this mean? \" cron: \"27 19 * * *\" (UTC, ≈00:57 IST):\" Why IST?? is that indian standard time? Claude: The machine is America/Los_Angeles, so my IST guess was wrong — I inferred it from the repo author's name, which was an unfounded assumption on my part. 19:27 UTC would have been 12:27 midday Pacific. What! Why even make this guess? My racism alarm went off, but I'm mostly amused. P.S. the comments have turned into 'racism or not' debate, so i want to clarify. I don't think the agent is racist. The right term might have been stereotyping, inferring the geolocation of a person purely by name (ancestory would make more sense, rather than current location). There are plenty of Manishes in the bay area. This is really curious, particularly when the 'date' command is present. At the very least, it's bad inference. submitted by /u/manishrjain [link] [comments]",
+      "author": "manishrjain"
+    },
+    {
+      "title": "Lattice: An isometric game kit for agents",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vw868t/lattice_an_isometric_game_kit_for_agents/",
+      "published": "2026-08-23T14:08:37+00:00",
+      "summary": "Lattice is a collection of typescript packages, agentic skills and plugins that enable easier development of isometric games! At its core lives a 0 dependency typescript package, 80kb gzipped. Everything is rendered onto a 2D canvas! It ensures that the game and the UI is fully deterministic (it’s a hard rule), and that your game doesn’t require any external assets. That means no sprite sheets and no hunt for royalty free music. Both can be synthesised on the go with their respective packages (e.g. @latticekit/audio)! You can install the plugin to an agent of your choice (ready to go instructions available for Claude code, codex, and grok) and then start building with /lattice <my game idea here>. The game kit itself is built with Claude code running Opus 5, and the demos on the website come from a mix of different agents (those were essentially testing runs that made it to the landing page). Available at: https://lattice.plausible.ventures submitted by /u/Whole_Art_2446 [link] [commen",
+      "author": "Whole_Art_2446"
+    }
+  ]
+}

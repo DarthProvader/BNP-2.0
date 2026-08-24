@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-08-24T10:44:52.544104+00:00",
+  "items": [
+    {
+      "title": "Robot rychlejší než Usain Bolt 🤖 mRNA vakcína proti rakovině a nový svět AI agentů",
+      "url": "https://www.youtube.com/shorts/-wXgvrfLej0",
+      "published": "2026-08-23T09:55:07+00:00",
+      "summary": "Grok Bot dělá z AI agentů celý tým, Claude posouvá matematiku a Moderna s Merckem hlásí úspěch ve Phase 3 s personalizovanou mRNA terapií proti melanomu 🧬\nK tomu neviditelné watermarky v AI obsahu, vlogy ze starého Říma, budoucnost videotvorby a Unitree „Superman“, který podle výrobce běží 45,6 km/h a skočí z místa do výšky 2 metrů. 🤖\nNový díl Fantastic Future je venku 🚀",
+      "author": "Fantastic Future Pod",
+      "transcript": "Grockbot, něco, co já bych nazval open claw nebo Hermes udělanej jako konečně pořádně. Jak jsem pochopil, tak Rockbot je jenom na XAI agentech v cloudu, že jo. Každý má vlastní VPS, jestli se dobře pamatuju. >> Poprvý, kdy mám fakt pocit, že to funguje out of the box. >> A vlastně jako Jardo, je mi je mi líto, že tvůj bod se stává jako fakt historickým artefaktem. Nicmíš [smích] todle a Jarmil je trošičku prkenej, jako přiznejme si to. Jo, na to, že má jak asi rok a dva měsíce. >> Akcie moderny stouply o 177 % za jeden den, eh, což já si nepamatuju, že bych někdy viděl. >> Jako se vracíme k tomu, že pořád potřebuješ vzdělání a zkušenost a AI ti v tom může pomoct, ale jakoby že tam jako není shortcut. >> Pro mladou generaci získávat informace a zkušenosti je furt důle. [hudba] Yeah.",
+      "transcript_lang": "cs"
+    }
+  ]
+}

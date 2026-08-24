@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-24T10:46:26.948528+00:00",
+  "items": [
+    {
+      "title": "Sam Altman with some sad statements about AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+      "published": "2026-08-23T21:39:38+00:00",
+      "summary": "Sam Altman admits he was wrong on AI's timeline and says society and the economy will adapt more slowly \"I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.\" \"I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.\" \"People keep doing the same things, buying from the same company, wanting to use their tools the same way. I think this is actually a positive in many ways, and it's going to make this big transition go smoother and slower. I'm grateful for it.\" \"But it means we've all been too ambitious on timelines. Even with this incredible technology, society and the economy will adapt more slowly.\" submitted by /u/SwingDingeling [link] [comments]",
+      "author": "SwingDingeling"
+    },
+    {
+      "title": "He Can't Be Stopped.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwkffs/he_cant_be_stopped/",
+      "published": "2026-08-23T22:04:15+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Alexa, fix global warming",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwlieh/alexa_fix_global_warming/",
+      "published": "2026-08-23T22:50:13+00:00",
+      "summary": "submitted by /u/eposnix [link] [comments]",
+      "author": "eposnix"
+    },
+    {
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job I assumed needed a frontier model, and it finished in 30 minutes",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwaetf/i_gave_qwen_38_27b_a_reverseengineering_job_i/",
+      "published": "2026-08-23T15:38:09+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Amazon kept shutting down my tablet, so I spent $266 on four AI models to own it",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwakph/amazon_kept_shutting_down_my_tablet_so_i_spent/",
+      "published": "2026-08-23T15:44:31+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Robot plays ping pong with Ding Ning (2016 Olympic champion)",
+      "url": "https://www.reddit.com/r/singularity/comments/1vw8hdg/robot_plays_ping_pong_with_ding_ning_2016_olympic/",
+      "published": "2026-08-23T14:21:33+00:00",
+      "summary": "This was cooler than the running events to me for 2 reasons: Its alternating between forehand and backhand When they placed the paddle in its hand, that precise paddle orientation and position couldn't have appeared during training since I doubt the robot hand can perfectly grasp the paddle in the same orientation/position every time. This suggests this robot was trained to be able to generalize to some range of paddle orientations and positions in its hand, and this is especially important because in ping pong, tiny differences in orientation/position of the paddle can decide whether the ball hits the table or the ground submitted by /u/averagebear_003 [link] [comments]",
+      "author": "averagebear_003"
+    },
+    {
+      "title": "WHRG'26: Tiangong humanoid robot crushed the 400m in 38.15 and the 1500m in 2:21.6, smashing the human world records of 43.03 and 3:26 set by Niekerk (2016) and Guerrouj (1998) respectively",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwak0v/whrg26_tiangong_humanoid_robot_crushed_the_400m/",
+      "published": "2026-08-23T15:43:47+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "WHRG'26: Galbot’s humanoid robot just completed +100 consecutive tennis rallies autonomously",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwclb9/whrg26_galbots_humanoid_robot_just_completed_100/",
+      "published": "2026-08-23T17:01:46+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "US startup just put autonomous excavators to work",
+      "url": "https://www.reddit.com/r/singularity/comments/1vwh3nq/us_startup_just_put_autonomous_excavators_to_work/",
+      "published": "2026-08-23T19:52:00+00:00",
+      "summary": "submitted by /u/soldierofcinema [link] [comments]",
+      "author": "soldierofcinema"
+    },
+    {
+      "title": "Alibaba to issue US$10 billion in new shares for global AI push",
+      "url": "https://www.reddit.com/r/singularity/comments/1vw7gyh/alibaba_to_issue_us10_billion_in_new_shares_for/",
+      "published": "2026-08-23T13:39:03+00:00",
+      "summary": "Alibaba spent $9.5B to build out AI compute in Q2 2026 and have projected to spend $25B more within this year. submitted by /u/nugurimt [link] [comments]",
+      "author": "nugurimt"
+    }
+  ]
+}
