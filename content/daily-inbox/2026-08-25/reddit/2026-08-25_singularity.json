@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-25T04:05:18.363456+00:00",
+  "items": [
+    {
+      "title": "100m Hurdles Final",
+      "url": "https://www.reddit.com/r/singularity/comments/1vx7hk4/100m_hurdles_final/",
+      "published": "2026-08-24T16:21:57+00:00",
+      "summary": "submitted by /u/ghouleye [link] [comments]",
+      "author": "ghouleye"
+    },
+    {
+      "title": "Elon Musk on the AI race",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxi7or/elon_musk_on_the_ai_race/",
+      "published": "2026-08-24T22:51:05+00:00",
+      "summary": "submitted by /u/Charuru [link] [comments]",
+      "author": "Charuru"
+    },
+    {
+      "title": "WHRG'26 wrong turns",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxfgi4/whrg26_wrong_turns/",
+      "published": "2026-08-24T21:03:55+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "An unusual parade was held in Kyiv. It featured ground-based robotic systems, maritime drones, and aerial drones",
+      "url": "https://www.reddit.com/r/singularity/comments/1vx443u/an_unusual_parade_was_held_in_kyiv_it_featured/",
+      "published": "2026-08-24T14:17:35+00:00",
+      "summary": "“Souza scores Skynet” submitted by /u/RealSlyck [link] [comments]",
+      "author": "RealSlyck"
+    },
+    {
+      "title": "AI Insider States \"The Next Generation Of Models Will Be An Ontological Shock\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxn0ma/ai_insider_states_the_next_generation_of_models/",
+      "published": "2026-08-25T02:18:00+00:00",
+      "summary": "https://x.com/skirano/status/2091652181870973309 No one is ready for what’s coming. The next generation of models will be an ontological shock. He had access to models like GPT-5.6 long before release, so this is legit. I'm not sure if I buy into his \"ontological shock,\" though. The only things that would constitute an ontological shock would be if the model was capable of recursive self Improvement or if the model clearly exhibited signs of consciousness. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Ox-alpha: pelican on bicycle benchmark",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxfqhd/oxalpha_pelican_on_bicycle_benchmark/",
+      "published": "2026-08-24T21:14:12+00:00",
+      "summary": "submitted by /u/TensorFlar [link] [comments]",
+      "author": "TensorFlar"
+    },
+    {
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxm8gq/ai_is_hitting_entrylevel_jobs_hardest_stanford/",
+      "published": "2026-08-25T01:42:54+00:00",
+      "summary": "submitted by /u/GarlicoinAccount [link] [comments]",
+      "author": "GarlicoinAccount"
+    },
+    {
+      "title": "Why do we assume anyone will give us access to superintelligence?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vx5ezk/why_do_we_assume_anyone_will_give_us_access_to/",
+      "published": "2026-08-24T15:06:17+00:00",
+      "summary": "Thought experiment. Let's suppose a company develops something genuinely superintelligent. The full \"enslaved god\" scenario, in Tegmark's framework. In what universe would its rational next move be to put it behind a $200/month subscription? If it can accelerate its own R&D, improve its successor models, discover technologies, protect its infrastructure, make better strategic decisions and increase the organization's advantage, then giving competitors and the general public comparable access is utterly irrational, economically speaking. What am I missing? Is there a window in AI history during which ordinary people have relatively open access to near-frontier intelligence...and might that window eventually close from either direction? submitted by /u/rgkirkpatrick [link] [comments]",
+      "author": "rgkirkpatrick"
+    },
+    {
+      "title": "What are some predictions you guys think have been so far overlooked, say for 2030?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxjk0i/what_are_some_predictions_you_guys_think_have/",
+      "published": "2026-08-24T23:46:46+00:00",
+      "summary": "So we're about 3.5 years out from 2030 and i feel like a lot of the conversation around where things are headed tends to focus on the same handful of topics, AGI timelines, job displacement, maybe some regulation talk. Those are obviously important but i‘d like to hear you guys‘ predictions on stuff you think has been overlooked. IMO, early 2023 is roughly when LLMs started going mainstream and since then the pace has been wild. I was in my 2nd year of my CS major back then so maybe I’m biased. Now in mid 2026 looking back we can really see how fast it has been, especially the past year or so. extrapolating even conservatively out to 2030, there's probably a bunch of stuff that's going to catch people off guard. What do you guys think is being slept on? submitted by /u/Sharp_Caregiver_1534 [link] [comments]",
+      "author": "Sharp_Caregiver_1534"
+    },
+    {
+      "title": "Why do antis still believe ai is incompetent/useless? This will lead to regulation coming too late.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxg3xh/why_do_antis_still_believe_ai_is/",
+      "published": "2026-08-24T21:28:17+00:00",
+      "summary": "As a SWE/someone interested in this space since gpt2 era, I am of the position that AI is competent/useful and therefore should be regulated before mass job loss. Even if you show them that Linus Torvalds said that \"ai helps linux kernel development and its useful\" or all the math breakthroughs, they repeat that \"AI makes mistakes and is incompetent lets get rid of it.\" This does not look good for regulation if the position of anti-ai people is to ignore it and not use it. They must also be students or unemployed because peoples employers force AI usage. I get why they might think its shit after using Claude Sonnet 4 without mcp on their works plan, but why are they even ignoring experts? submitted by /u/jptboy [link] [comments]",
+      "author": "jptboy"
+    }
+  ]
+}

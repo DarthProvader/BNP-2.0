@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-25T04:07:01.315646+00:00",
+  "items": [
+    {
+      "title": "What I Built with Claude - sweet potatoes",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx6fyn/what_i_built_with_claude_sweet_potatoes/",
+      "published": "2026-08-24T15:44:19+00:00",
+      "summary": "Yes, I know this sub is mainly for programming work with Claude, but I actually built these sweet potatoes with Claude (more or less). I was sitting there in winter wondering if I could manage an entire season with Claude... and I went for it. Not perfect, and in many parts quite clumsy, but the results are breathtaking. I started planning the greenhouse with Claude in March to grow the seedlings….with the Claude app and a project folder, then discovered connectors, then CoWork, then Claude Code, got convinced by Claude to set up various sensors, built a harness that pulls weather data and gives me watering and fertilizer recommendations, and in between, I just joked around with Claude. And we had a blast. While working, with Excel spreadsheets, and with little apps for time and data tracking, cron jobs and data analysis. And Claude really made my season so much better. I've collected more data than ever before, I've laughed more while getting my hands dirty than ever before, and I've ",
+      "author": "Otherwise_Pear_2472"
+    },
+    {
+      "title": "Week 4 of making my fishing game entirely with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxdnw6/week_4_of_making_my_fishing_game_entirely_with_ai/",
+      "published": "2026-08-24T19:58:45+00:00",
+      "summary": "Hello there again, Last week I posted here game that I was making fully with AI, It is mostly done by Claude except for image generation which is done by ChatGPT. I included my workflow in previous Week update so I will leave all previous Week updates in the link and give you guys new video and just tell some progress that I made since last week as well as answer questions that people asked the most. Week 1 Progress Week 2 Progress Week 3 Progress Previous update really blew up and I tried to answer as many people as I could, but couldn't answer to everybody. Anyway to answer some questions that people asked the most: Engine: Godot 3D models: Claude Code in Blender via MCP and Tripo 3D Money spent so far: Probably around 300$ or so, 3 x 10$ on image generation, 200$ Max Plan on Claude, 12$ on StableAudio, 15ish$ on Tripo 3D and other stuff that I forgot by now How is water done? - Claude Code directly in Godot and million of tweaks, million of adjustments and even now I'm not sure it's",
+      "author": "RUSuper"
+    },
+    {
+      "title": "Claude Enterprise admins, have you ever found anything shocking in an employee's chat history?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxehxv/claude_enterprise_admins_have_you_ever_found/",
+      "published": "2026-08-24T20:28:45+00:00",
+      "summary": "Admins on Claude Enterprise can pull every person's Claude usage history, including their entire chat history. Incognito mode does not hide chat history from an admin pull. It shouldn't be a surprise, but I've read several comments from people who were shocked to learn this. If you are an admin on an Enterprise plan, have you ever found anything shocking or juicy in an employee's chat history? I know there are stories out there. Even in my own org, I've heard people use our work Claude as a kind of personal life coach. I'm not here to tease out the ethics of micromanaging or snooping through an employee's chats, I just want to hear what you've found. submitted by /u/optaisamme [link] [comments]",
+      "author": "optaisamme"
+    },
+    {
+      "title": "Indeed laid off my pregnant wife, so I built a job search competitor with Claude. It just got its first three people hired.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx4kn7/indeed_laid_off_my_pregnant_wife_so_i_built_a_job/",
+      "published": "2026-08-24T14:35:05+00:00",
+      "summary": "Quick backstory: last December Indeed laid off my wife when she as ~7 months pregnant. She was a PM on their social impact team. That means we would be losing health insurance and critical income at possibly the worst time. I was pissed (still am), my wife said their internal systems were falling apart, and Claude Code had just gotten good, so I decided to start building a competitor. Four months of building later: 4,300+ authed users, 91 paying (these are the only ones that can apply, hence the 3 placed number - in just 4 weeks), and the first three humans hired through it - one at Palantir, one at Accenture, one videographer. The recruiting industry's main trade publication (ERE, who I had never heard of) ran a feature on us last month. And as you might have guessed, Claude build most of it: - 1,100+ PRs merged in the first few months. Team of three, and one of us (me) is not technical - but have now written over 200 PRs. - Ingests ~15,000 job listings a day straight from employer ca",
+      "author": "Cojj25"
+    },
+    {
+      "title": "Welp thats just great !",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx9qo0/welp_thats_just_great/",
+      "published": "2026-08-24T17:41:28+00:00",
+      "summary": "Yes it was only a local dev database and i'm grateful it was ! Yes I was using Opus 5. Never had opus 4.6-4.8 delete any db.. (just saying) submitted by /u/toxic_prince21 [link] [comments]",
+      "author": "toxic_prince21"
+    },
+    {
+      "title": "I would immediately switch my money and time to any AI platform that made it so that hitting enter went to another paragraph instead of sending the message.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx7fb6/i_would_immediately_switch_my_money_and_time_to/",
+      "published": "2026-08-24T16:19:42+00:00",
+      "summary": "This is absolutely driving me crazy. Every other interface of any kind: words, pages, notes, text, email … everything has it where enter = next paragraph. Not our ai robot overlords. Nope. Enter = send. So I’m constantly sending before I want to, having to stop or interrupt. And then screwing up again. Shift-enter as a solution???? Annoying as heck. 40 years of word processing is preventing me from remembering that. I like paragraphs, not for the bot, for me and my own readability and thinking and organization. This one fix needs to happen asap. submitted by /u/OrangeGringo [link] [comments]",
+      "author": "OrangeGringo"
+    },
+    {
+      "title": "“It’s an issue but not a bug”-Cherny. Community notes cooked him on X",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx3phv/its_an_issue_but_not_a_bugcherny_community_notes/",
+      "published": "2026-08-24T14:01:49+00:00",
+      "summary": "submitted by /u/MoreFaithlessness954 [link] [comments]",
+      "author": "MoreFaithlessness954"
+    },
+    {
+      "title": "I built a way for Claude to send things directly to my iPhone Home Screen",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxdgej/i_built_a_way_for_claude_to_send_things_directly/",
+      "published": "2026-08-24T19:51:16+00:00",
+      "summary": "I’ve been building Glance, an iOS app for creating custom Home Screen widgets, and I just released an MCP integration for Claude. The idea is to give Claude a persistent surface outside of the chat. Claude can create or update a widget with things like a morning briefing, important messages, changes in your calendar, news you’re tracking, or information coming from other tools and workflows. In the example above, Claude is maintaining a simple “While you were away” widget and surfacing only the things that actually changed or need attention. I built both Glance and the MCP integration, and it’s free to try. submitted by /u/Dense-Map-406 [link] [comments]",
+      "author": "Dense-Map-406"
+    },
+    {
+      "title": "Lifting the Curtain: The Max x5 and Max x20 Usage Limits that Anthropic Refuses to Share",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vx0k69/lifting_the_curtain_the_max_x5_and_max_x20_usage/",
+      "published": "2026-08-24T11:49:04+00:00",
+      "summary": "TLDR With high confidence, this is how the Max x5 and Max x20 subscriptions compute usage. All point values are the unique set that makes the \"100×\" principle below exact; measured uncertainty bands in brackets. Values include the current +50% weekly boost. subscription pool (M TV) Fable weight (× Opus) Fable cap (M fable-TV) Max x20 1,412 [1,406–1,422] 6.50 [6.47–6.52] 108.6 [108.2–108.7] Max x5 * 628 [600–637] 4.25 [4.11–4.35] 73.85 [73.1–74.6] ratio 2.25 1.53 1.4706 [1.45–1.49] * x5 values from typed meter readings (softer); x20 from caught display flips (hard). Sonnet weight: 0.60 on both plans (= its list-price ratio). What that buys, in API list dollars per week zero Fable max Fable monthly value ÷ sub price ** x20 ($200/mo) $7,059 $4,615 ($3,529 Opus + $1,086 Fable) 152.9× → 100× x5 ($100/mo) $3,138 $2,308 ($1,569 Opus + $738 Fable) 136.0× → 100× Maxing Fable forfeits ~35% of either pool's API value — and at full Fable both plans land on exactly 100× . ** weekly × 52/12; boost i",
+      "author": "Ohtince"
+    },
+    {
+      "title": "I'm now claudish native speaker",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxbww3/im_now_claudish_native_speaker/",
+      "published": "2026-08-24T18:56:44+00:00",
+      "summary": "Here we are Mr Claudish. We can speak that too. meaningfully so. submitted by /u/Secure_Pirate9838 [link] [comments]",
+      "author": "Secure_Pirate9838"
+    }
+  ]
+}
