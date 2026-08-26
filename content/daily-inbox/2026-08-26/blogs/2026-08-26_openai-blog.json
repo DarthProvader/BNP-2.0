@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-08-26T04:04:48.060196+00:00",
+  "items": [
+    {
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "published": "2026-08-25T06:05:00+00:00",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "author": ""
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "published": "2026-08-25T06:00:00+00:00",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "author": ""
+    }
+  ]
+}

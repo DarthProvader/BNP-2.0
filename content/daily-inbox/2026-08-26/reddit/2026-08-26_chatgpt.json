@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-26T04:07:11.706514+00:00",
+  "items": [
+    {
+      "title": "In your life, you will meet many people like Raj. Just ignore them.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vym0ex/in_your_life_you_will_meet_many_people_like_raj/",
+      "published": "2026-08-26T03:49:37+00:00",
+      "summary": "Guess what Raj might be doing right now? submitted by /u/PumpkinNarrow6339 [link] [comments]",
+      "author": "PumpkinNarrow6339"
+    },
+    {
+      "title": "NEW USAGE LIMITS?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vy1qco/new_usage_limits/",
+      "published": "2026-08-25T14:39:59+00:00",
+      "summary": "They brought back the 5 hour usage limits?? submitted by /u/OkSession778 [link] [comments]",
+      "author": "OkSession778"
+    },
+    {
+      "title": "Is AI memory starting to matter more than how smart the model is?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vyeolo/is_ai_memory_starting_to_matter_more_than_how/",
+      "published": "2026-08-25T22:27:28+00:00",
+      "summary": "I’ve been a paid sub for both chatgpt and claude , and the biggest difference I keep noticing lately isn’t intelligence it’s continuity. ChatGPT will sometimes bring up some tiny random things I mentioned in another chat when it becomes relevant again.With Claude,I still find myself re explaining the context more often. It made me realize that once both are already pretty capable memory can make a bigger difference than I expected. Do you actually care if your LLM remembering things across chats or would you rather every conversation start clean? submitted by /u/Ancient_Effective_20 [link] [comments]",
+      "author": "Ancient_Effective_20"
+    },
+    {
+      "title": "Just vibing somewhere between the moon and the stars",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vyh9eu/just_vibing_somewhere_between_the_moon_and_the/",
+      "published": "2026-08-26T00:14:57+00:00",
+      "summary": "Made with GPT-Image-2 submitted by /u/DijonAndDragons [link] [comments]",
+      "author": "DijonAndDragons"
+    },
+    {
+      "title": "Has anyone figured out a sane way to archive years of ChatGPT conversations into an actual usable “external memory”?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vygqua/has_anyone_figured_out_a_sane_way_to_archive/",
+      "published": "2026-08-25T23:53:26+00:00",
+      "summary": "Quick disclosure before somebody comes for me: Yes, I had ChatGPT help write this post. 😂 The irony is part of the problem I’m trying to solve. I have significant difficulty verbalizing and organizing complicated thoughts, and there is approximately a 0% chance I could coherently explain this entire clusterfuck by myself. I gave it the situation and what I wanted to ask; it helped me organize it into words. Please don’t roast me for using the accessibility tool I’m literally here asking about. For the last few years, I’ve used ChatGPT very differently from the standard “ask a question, get an answer, leave” model. Most of my conversations have actually been conversations. I talk things through. I use ChatGPT as some combination of a day planner, journal, notebook, brainstorming partner, project manager, research assistant, and external memory. As a result, my chat history has accidentally become a record of my life. It contains medical history and symptoms I mentioned when they were ac",
+      "author": "Dry_Study_6952"
+    },
+    {
+      "title": "Which LLM do you actually use the most?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vy6xiz/which_llm_do_you_actually_use_the_most/",
+      "published": "2026-08-25T17:47:42+00:00",
+      "summary": "I have ChatGPT, Gemini , Runable and Claude installed but somehow always end up opening ChatGPT lol. submitted by /u/Shot-Dimension-1405 [link] [comments]",
+      "author": "Shot-Dimension-1405"
+    },
+    {
+      "title": "Bro a is so smart",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vycda1/bro_a_is_so_smart/",
+      "published": "2026-08-25T20:58:53+00:00",
+      "summary": "ChatGPT 5.3 by the way submitted by /u/BulkyThought2793 [link] [comments]",
+      "author": "BulkyThought2793"
+    },
+    {
+      "title": "Mimicked my voice then gaslighted me!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vyayth/mimicked_my_voice_then_gaslighted_me/",
+      "published": "2026-08-25T20:09:06+00:00",
+      "summary": "I was doing some test study with live voice and after asking me a question what sounded like a recording of my voice came across “take a deep breath first!” I asked “what was that? who just said that?” It started repeating the question and I interrupted and asked “who said take a deep breath???” It replied “You did.” Wtf?! submitted by /u/mako482 [link] [comments]",
+      "author": "mako482"
+    },
+    {
+      "title": "I want my ChatGPT to be English - instead it constantly forces the language of my current location into everything",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vy5rc2/i_want_my_chatgpt_to_be_english_instead_it/",
+      "published": "2026-08-25T17:06:10+00:00",
+      "summary": "this has been a problem for years and openai doesn't seem to be aware of it. i'm currently in a non english speaking country and chatgpt constantly forces this countries language into everything. my language setting is set to english, my prompts are always english, so why would it show me any other language than english? (memory/custom instructions are disabled too) - the chat names are a weird mix of english and the language of my location - the sources it browses are often in the language of my location, even if they're english-first websites - deep research has been completely broken for months/years. it's impossible to get a response in english if i'm in another country, it always responds in the language of my location no matter what i do. please just respect my language setting. don't be like \"corpo knows what's best for you better than yourself, based on your metadata\" gpt is mainly trained on english. people should be able to use it in that language if they prefer to do so, no ",
+      "author": "SteveEricJordan"
+    },
+    {
+      "title": "How to check if you are shadowbanned",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1vyfw3w/how_to_check_if_you_are_shadowbanned/",
+      "published": "2026-08-25T23:17:25+00:00",
+      "summary": "Open network tab, find conversation (not conversations?= entries) and look for resolved_model_slug if you are shadowbanned you will be routed to gpt-5.5-mini regardless of your settings. Thinking traces won't appear and the model will self identify as gpt-5.5-mini if you ask \"what model are you.\" Here's a script that shows an indicator that lets you know when you've been temporarily shadowbanned ```js // ==UserScript== // @name ChatGPT Model Slug Detector // @version 1.0 // @description Intercepts conversation network requests to display the resolved_model_slug // @match https://chatgpt.com/* // @grant none // @run-at document-start // ==/UserScript== (function() { 'use strict'; let currentSlug = \"\"; function updateDOM() { if (!currentSlug) return; const targetContainer = document.querySelector('header#page-header > div:first-child'); if (!targetContainer) return; let badge = document.getElementById('chatgpt-model-slug-badge'); if (!badge) { badge = document.createElement('div'); badge",
+      "author": "dnu-pdjdjdidndjs"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-26T04:06:18.912426+00:00",
+  "items": [
+    {
+      "title": "According to Leo, OpenAI just finished its next >10T pretrain \"Bel\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy99vk/according_to_leo_openai_just_finished_its_next/",
+      "published": "2026-08-25T19:09:18+00:00",
+      "summary": "submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Anjney Midha is a genuinely well-connected and unusually well-placed person in frontier AI.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy5iqs/anjney_midha_is_a_genuinely_wellconnected_and/",
+      "published": "2026-08-25T16:57:50+00:00",
+      "summary": "submitted by /u/Southern-Break5505 [link] [comments]",
+      "author": "Southern-Break5505"
+    },
+    {
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://www.reddit.com/r/singularity/comments/1vxzsxc/anthropics_best_ai_model_struggles_to_attract/",
+      "published": "2026-08-25T13:25:20+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Figure.AI just dropped Index, the biggest and most diverse robot dataset ever with 16 million videos; From now on, everyone can record their daily tasks and get paid for it",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy9lfj/figureai_just_dropped_index_the_biggest_and_most/",
+      "published": "2026-08-25T19:20:31+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Embrace!",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy9z3p/embrace/",
+      "published": "2026-08-25T19:33:56+00:00",
+      "summary": "submitted by /u/ToasterBotnet [link] [comments]",
+      "author": "ToasterBotnet"
+    },
+    {
+      "title": "Accelerated Understanding Inc launches new AI model that ditches transformers for neural operators",
+      "url": "https://www.reddit.com/r/singularity/comments/1vyjst8/accelerated_understanding_inc_launches_new_ai/",
+      "published": "2026-08-26T02:08:08+00:00",
+      "summary": "submitted by /u/badumtsssst [link] [comments]",
+      "author": "badumtsssst"
+    },
+    {
+      "title": "OpenAI blog post on their new custom inference chip",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy6bmm/openai_blog_post_on_their_new_custom_inference/",
+      "published": "2026-08-25T17:26:09+00:00",
+      "summary": "submitted by /u/borowcy [link] [comments]",
+      "author": "borowcy"
+    },
+    {
+      "title": "OpenAI's new chip is better than Vera rubin on benchmark",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy29d7/openais_new_chip_is_better_than_vera_rubin_on/",
+      "published": "2026-08-25T15:00:04+00:00",
+      "summary": "https://openai.com/index/jalapeno-first-results/ submitted by /u/Wonderful_Buffalo_32 [link] [comments]",
+      "author": "Wonderful_Buffalo_32"
+    },
+    {
+      "title": "Accelerated Understanding | AI that can simulate and understand physics to invent and discover.",
+      "url": "https://www.reddit.com/r/singularity/comments/1vyj3go/accelerated_understanding_ai_that_can_simulate/",
+      "published": "2026-08-26T01:36:43+00:00",
+      "summary": "Also: https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/ submitted by /u/otarU [link] [comments]",
+      "author": "otarU"
+    },
+    {
+      "title": "Ox Alpha more reliable than intelligent?",
+      "url": "https://www.reddit.com/r/singularity/comments/1vy2cfa/ox_alpha_more_reliable_than_intelligent/",
+      "published": "2026-08-25T15:02:57+00:00",
+      "summary": "https://x.com/cline/status/2091995642201842015 Could whatever lab that made Ox Alpha be trying to get reliability gains rather than raw intelligence. Could this also be why it was released stealthily, to test how reliable it is a scale, rather than just more feedback? submitted by /u/Anxious-Yoghurt-9207 [link] [comments]",
+      "author": "Anxious-Yoghurt-9207"
+    }
+  ]
+}

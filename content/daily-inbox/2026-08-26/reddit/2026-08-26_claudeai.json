@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-26T04:08:04.874552+00:00",
+  "items": [
+    {
+      "title": "Claude in a box",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy40r2/claude_in_a_box/",
+      "published": "2026-08-25T16:04:04+00:00",
+      "summary": "submitted by /u/InsidiousApe [link] [comments]",
+      "author": "InsidiousApe"
+    },
+    {
+      "title": "I built \"Omegle for political debates\": you get matched with a person who disagrees, and Claude Haiku judges the debate live.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy7ue3/i_built_omegle_for_political_debates_you_get/",
+      "published": "2026-08-25T18:19:10+00:00",
+      "summary": "Really wanted to do a project using a claude API, so I got this done and ready! Like everyone else I miss Omegle, and like everyone else I've watched people scream past each other in comment sections. So I spent the last months building Policon (policon.net), random video-call matching, except instead of pairing you with anyone, it deliberately pairs you with the person whose politics are furthest from yours. The twist is the judge. A lightweight LLM (Claude Haiku) listens to the debate as it happens and scores it live, with a momentum chart, live \"logical fallacy popups\" and a full match report at the end. - You see \"moments\" pop up in real time; great argument when you land a point, ad hominem when you get personal. Getting dinged mid-rant while your opponent watches is exactly as humbling as it sounds. - A momentum graph tracks who's \"winning\" over the course of the call. - Afterwards you get a match report, and your rating (Glicko, chess-style) goes up or down. There's a ladder wit",
+      "author": "CormAlan"
+    },
+    {
+      "title": "Opus 5 feels like I am talking to Jordan Peterson",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy3f0s/opus_5_feels_like_i_am_talking_to_jordan_peterson/",
+      "published": "2026-08-25T15:42:45+00:00",
+      "summary": "I don't know but after opus 4.8 the models seem to use a lot of jargon and verbose language. I hope this is not the case with me only. I now have 2 md's/docs. One for agents and one for humans. The agent one is unfiltered opus 5 yapping and talking like a philosopher, sometimes it feels like I don't know english when I am reading the md files. For the human one I specify my agent to use ASD-STE100 Simplified Technical English (STE for short). These are the docs I read. Not perfect, but a lot better than all the opus 5 slop. submitted by /u/Careless_Leg_4905 [link] [comments]",
+      "author": "Careless_Leg_4905"
+    },
+    {
+      "title": "What a… backwards way to confirm a typo",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vycha6/what_a_backwards_way_to_confirm_a_typo/",
+      "published": "2026-08-25T21:02:49+00:00",
+      "summary": "It refused to say “Netscope” for some reason lol. submitted by /u/LtCodename [link] [comments]",
+      "author": "LtCodename"
+    },
+    {
+      "title": "Went through a list of 27 advanced Claude tips. These were the first 5 I thought were actually useful",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vyjm2h/went_through_a_list_of_27_advanced_claude_tips/",
+      "published": "2026-08-26T02:00:01+00:00",
+      "summary": "I came across Ruben Hassid's big list of 27 Claude tips and decided to go through them from the perspective of a normal user rather than just saving another “AI tips” list. The first five had a few ideas I hadn't really thought about this way. 1. Projects aren't automatically better than normal chats If you're doing repeat work using the same documents, a Project makes obvious sense. But if you're trying to brainstorm something genuinely fresh, having lots of old documents/instructions sitting in the Project can influence the direction. I've started thinking about it as: repeatable/context-heavy task = Project fresh exploration = new chat 2. Use expensive intelligence where the task is actually difficult One suggestion was to start a difficult problem using the strongest Claude model, let it understand/frame the job, then potentially switch to something cheaper for the easy follow-up work. Example: “Analyze this business and decide our strategy” is difficult. “Turn that strategy into t",
+      "author": "Aimply_flow"
+    },
+    {
+      "title": "How many billions of tokens do I need to burn to unlock this tier of merch?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy8rvs/how_many_billions_of_tokens_do_i_need_to_burn_to/",
+      "published": "2026-08-25T18:51:57+00:00",
+      "summary": "submitted by /u/kyrdotjs [link] [comments]",
+      "author": "kyrdotjs"
+    },
+    {
+      "title": "He answered in Claudish again",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vya9xh/he_answered_in_claudish_again/",
+      "published": "2026-08-25T19:44:45+00:00",
+      "summary": "Can someone build a Claudish translator? submitted by /u/Lehatan [link] [comments]",
+      "author": "Lehatan"
+    },
+    {
+      "title": "I got so fed up, I tried to take the p**s. It backfired.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxy12f/i_got_so_fed_up_i_tried_to_take_the_ps_it/",
+      "published": "2026-08-25T12:10:10+00:00",
+      "summary": "https://preview.redd.it/joh2w334iilh1.png?width=1351&format=png&auto=webp&s=b9ceca3798a805ce9f4041445733826921f26c8f This can't be called English anymore: The language is claude-bearing. submitted by /u/virtualworker [link] [comments]",
+      "author": "virtualworker"
+    },
+    {
+      "title": "Claude thinking in Russian",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxsgpx/claude_thinking_in_russian/",
+      "published": "2026-08-25T07:03:02+00:00",
+      "summary": "Does Claude think in Russian while building something? Have you experienced this? submitted by /u/Good_Sapien [link] [comments]",
+      "author": "Good_Sapien"
+    },
+    {
+      "title": "Claude made me realize I could actually build an OS for my daughters",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy5moj/claude_made_me_realize_i_could_actually_build_an/",
+      "published": "2026-08-25T17:01:37+00:00",
+      "summary": "Hi! Lets start with some quick background. I’ve been a professional programmer for 20+ years, and one of the biggest things Claude changed for me wasn’t whether I could build software, it changed what I considered realistic for one person to attempt. To be fair, for me it all started with Gemini 2.5 Pro. Claude at the time wasn't, in my opinion, particularly useful for my work, while 2.5 Pro was the first model that showed me glimpses of the actual productivity multiplier current LLMs have become. Today though Claude is my go to environment when I need real work done. I am also a father, I have 2 perfect daughters, roughly 2.75 and 4.94 years old. This post and project is about them, Claude, modern LLMs and some parenting I guess. I had an old Acer Aspire One lying around, one of the shittiest netbooks from the early netbook era, and wanted to turn it into my daughters' computer. antiX was basically the only modern Linux distro I found that ran decently on it, so I customised it and st",
+      "author": "orblabs"
+    }
+  ]
+}

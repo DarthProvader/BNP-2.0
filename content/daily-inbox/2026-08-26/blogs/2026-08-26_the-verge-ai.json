@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "The Verge AI",
+  "source_slug": "the-verge-ai",
+  "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "tags": [
+    "news",
+    "consumer"
+  ],
+  "fetched_at": "2026-08-26T04:04:56.319113+00:00",
+  "items": [
+    {
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "published": "2026-08-25T13:00:00+00:00",
+      "summary": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&#241;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [&#8230;]",
+      "author": "Emma Roth"
+    },
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "published": "2026-08-25T08:15:03+00:00",
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [&#8230;]",
+      "author": "Robert Hart"
+    }
+  ]
+}

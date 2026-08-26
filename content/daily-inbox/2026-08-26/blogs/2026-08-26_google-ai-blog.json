@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-26T04:04:51.262950+00:00",
+  "items": [
+    {
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background",
+      "author": "Megan Stoner"
+    }
+  ]
+}

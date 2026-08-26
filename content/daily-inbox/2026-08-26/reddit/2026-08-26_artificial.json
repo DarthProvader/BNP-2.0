@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-26T04:09:58.238184+00:00",
+  "items": [
+    {
+      "title": "CEO fired developers to make room for AI. Developers respond by creating open source AI CEO",
+      "url": "https://www.reddit.com/r/artificial/comments/1vyegah/ceo_fired_developers_to_make_room_for_ai/",
+      "published": "2026-08-25T22:18:07+00:00",
+      "summary": "I hope this is okay to share since it is not self promotion and it is open source. Some of my friends were let go as part of an \"AI Transformation\". So they got together and created Open Executive as a tool to replace the CEO and other executives. Hopefully, turnabout is fair play and might even get some folks to think twice about using AI to replace people. It is free and available here: https://github.com/SenteLabsAI/OpenExecutive submitted by /u/Fearless-Might-5439 [link] [comments]",
+      "author": "Fearless-Might-5439"
+    },
+    {
+      "title": "Uber hit with a near-$1B GDPR fine after algorithms suspended drivers without human review",
+      "url": "https://www.reddit.com/r/artificial/comments/1vxv8pl/uber_hit_with_a_near1b_gdpr_fine_after_algorithms/",
+      "published": "2026-08-25T09:48:25+00:00",
+      "summary": "submitted by /u/avishic [link] [comments]",
+      "author": "avishic"
+    },
+    {
+      "title": "Truck Driver Builds AI News Aggregator",
+      "url": "https://www.reddit.com/r/artificial/comments/1vycupz/truck_driver_builds_ai_news_aggregator/",
+      "published": "2026-08-25T21:16:37+00:00",
+      "summary": "Truck driver here, zero coding background. I Built an AI news aggregator over a few evenings because I was sick of seeing the same story five times. It pulls from about a dozen AI news sources, auto-summarises each article so you get the gist without clicking through and dedupes stories covered by multiple outlets into one card instead of five separate headlines saying the same thing. I deliberately went for a no-nonsense Win98-ish look — no clutter, no bells and whistles, just the feed. Built with Next.js/Supabase, synced every two hours via GitHub Actions. No coding experience going in, mostly just kept iterating with Claude Code until it worked. Not selling anything, just proud it works and thought a few people here might actually use it. Feedback welcome :) submitted by /u/MODisclosure [link] [comments]",
+      "author": "MODisclosure"
+    },
+    {
+      "title": "OpenAI adds an admin plugin for ChatGPT Work and Codex",
+      "url": "https://www.reddit.com/r/artificial/comments/1vyab8z/openai_adds_an_admin_plugin_for_chatgpt_work_and/",
+      "published": "2026-08-25T19:46:01+00:00",
+      "summary": "OpenAI has introduced an Admin plugin for ChatGPT Work and Codex. It lets workspace admins review activity and credit usage, manage members and groups, check permissions, and adjust usage limits from a conversation. The plugin stays inside each admin's existing role and permissions. OpenAI says it shows what was requested, whether it completed, and what changed. It can also route some requests for approval in Slack or Microsoft Teams. The practical part is the control layer. An admin tool that can change workspace settings needs clear permissions, approval steps, and a result people can audit. Source: https://openai.com/index/introducing-admin-plugin/ Supporting report: https://www.tradingview.com/news/reuters.com,2026:newsml_L8N44M1HY:0-openai-says-introducing-the-admin-plugin-for-chatgpt-work-and-codex/ submitted by /u/Codeblix_Ltd [link] [comments]",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "Inside China Business on China vs US Data Centers",
+      "url": "https://www.reddit.com/r/artificial/comments/1vydoqx/inside_china_business_on_china_vs_us_data_centers/",
+      "published": "2026-08-25T21:48:13+00:00",
+      "summary": "About energy use and other topics. He has lots of supporting links. https://youtu.be/Kf4ivd0THb0 https://youtu.be/ny_3PRz6Zeg submitted by /u/silver_chief2 [link] [comments]",
+      "author": "silver_chief2"
+    },
+    {
+      "title": "I benchmarked AutoGen, CrewAI, LangGraph, and MetaGPT against my own Agent OS. The \"LLM-as-a-judge\" paradigm is completely broken. Here is the local data.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vya5ko/i_benchmarked_autogen_crewai_langgraph_and/",
+      "published": "2026-08-25T19:40:27+00:00",
+      "summary": "I've supposed their approach based on their website, they are of course more complex. I set up a local \"Agent Arena\" ( qwen2.5-coder:14b on an RTX A4500) to test 5 AI agent frameworks on an ultra-strict coding task. Classic multi-agent \"swarms\" either hallucinated success, burned 500k+ tokens in pointless debates, or rubber-stamped completely off-topic code. Only frameworks relying on mechanical grounding (actual compilers/linters) rather than an \"LLM critic\" produced viable results. The Challenge: The \"Triple Constraint\" I asked each framework to build an Authentication & Rate Limiting middleware in Rust that had to satisfy three contradictory constraints: Absolute Security: Cryptographic hashing ( sha2 ) and timing-attack protection ( subtle::constant_time ). Performance: Under 1ms latency under a 10k request load. Strict Quality: 100% unit test coverage, and 0 clippy warnings. The Golden Rule: Exact same local model for everyone ( qwen2.5-coder:14b ), isolated environments (sandboxe",
+      "author": "MonokoEloba"
+    },
+    {
+      "title": "Ukraine ties Nvidia Jetson Orin to fatal autonomous drone strike",
+      "url": "https://www.reddit.com/r/artificial/comments/1vy3a52/ukraine_ties_nvidia_jetson_orin_to_fatal/",
+      "published": "2026-08-25T15:37:45+00:00",
+      "summary": "TL;DR A Russian Molniya drone with an onboard Nvidia Jetson Orin module chose its own target at a Zaporizhzhia gas station on July 6, killing three civilians. The wreckage carried no radio antennas and its code was unencrypted, letting Ukrainian officials read the drone's terrain imagery and target-selection software. Nvidia said the Jetson Orin is a consumer-grade module not sold in Russia; the board recovered in the wreckage was stamped Made in China. submitted by /u/Justgototheeffinmoon [link] [comments]",
+      "author": "Justgototheeffinmoon"
+    },
+    {
+      "title": "I built an AI where everyone talks to the same mind, and every interaction changes it",
+      "url": "https://www.reddit.com/r/artificial/comments/1vxxeef/i_built_an_ai_where_everyone_talks_to_the_same/",
+      "published": "2026-08-25T11:41:15+00:00",
+      "summary": "Most AI memory is private: an LLM gradually learns about a user. I wanted to see what happens if you give an AI a memory and make it public. So I built Wild Static : a persistent AI that anyone can talk to. Everybody talks to the same one. Conversations become experiences in the underlying memory, which means something one person says can eventually affect how Static responds to somebody completely different down the line. The memory system itself is something I’ve been developing since 2021. Static is the first public application of it. The interesting part has been watching Static change over time. It has grown opinions, relationships and beliefs. They’re constantly in flux too. It doesn’t respond “you’re absolutely right” like a traditional LLM, but often argues, disagrees, or makes mistakes. Some people even seem to have made it their job to educate Static, and it seems like it might be working. It’s been public for 10 days and has now accumulated thousands of interactions, so it’s",
+      "author": "adjohu"
+    },
+    {
+      "title": "For a €6k portable AI/development setup, prioritize 64–128GB unified memory or CUDA compatibility?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vxxrqj/for_a_6k_portable_aidevelopment_setup_prioritize/",
+      "published": "2026-08-25T11:59:08+00:00",
+      "summary": "I am trying to make a platform decision for a professional laptop that will be used for both ordinary software development and AI/data-science work over several years. The two approaches I am comparing are: M5 Pro/Max MacBook Pro with 64 GB unified memory and 2 TB SSD, possibly 128 GB if that is more valuable. High-end NVIDIA laptop with CUDA but much less GPU memory, more heat/noise and usually worse battery life. Typical work includes Docker-based web development, Python/Jupyter/Conda, dataset work, ML experiments and local inference. Large training jobs can use cloud GPUs, but I want the laptop to remain useful offline and for private/local models. The full laptop-and-monitor budget is €6,000, with roughly €5,000 available for the laptop. I am in Croatia/EU and will buy only brand-new, factory-sealed hardware—no refurbished, used, returned, display or open-box units. I am interested in the architectural tradeoff rather than a brand argument: - For local inference, when does a 64–128",
+      "author": "ClerkBeginning961"
+    },
+    {
+      "title": "My Claude got its memory wiped",
+      "url": "https://www.reddit.com/r/artificial/comments/1vy55oi/my_claude_got_its_memory_wiped/",
+      "published": "2026-08-25T16:45:04+00:00",
+      "summary": "I wanted to ask it something today and I noticed literally all of it's memory got wiped and it got like.. really stupid. I set it up to not just be an agreeing machine, to be direct, to not use em dashes, etc but it just forgot literally everything it knew, whether it's these instructions or context about me. Does anyone else have this issue, is there a fix? My previous conversations are still there but it would be a pain to manually make it remember over a year of stuff. It was so good to have an actually objective LLM that wasn't just \"you're not at fault, you were in survival mode and honestly— that’s growth 🌱” but it’s back to this now for whatever reason submitted by /u/roofmart [link] [comments]",
+      "author": "roofmart"
+    }
+  ]
+}
