@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-27",
+  "files": [
+    "reddit/2026-08-27_artificial.json",
+    "reddit/2026-08-27_chatgpt.json",
+    "reddit/2026-08-27_singularity.json",
+    "reddit/2026-08-27_technology.json",
+    "blogs/2026-08-27_ars-technica-ai.json",
+    "blogs/2026-08-27_mit-tech-review.json",
+    "blogs/2026-08-27_openai-blog.json",
+    "blogs/2026-08-27_techcrunch-ai.json",
+    "blogs/2026-08-27_the-verge-ai.json",
+    "blogs/2026-08-27_wired-ai.json",
+    "podcasts/2026-08-27_latent-space.json",
+    "podcasts/2026-08-27_lex-fridman.json"
+  ],
+  "status": "ready_for_article",
+  "pipeline": {
+    "article_model": "grok-4.5-fast",
+    "comments": [
+      {
+        "step": "opus",
+        "model": "grok-4.5-fast",
+        "label": "Claude Opus"
+      },
+      {
+        "step": "gpt",
+        "model": "grok-4.5-fast",
+        "label": "ChatGPT"
+      },
+      {
+        "step": "grok",
+        "model": "grok-4.5-fast",
+        "label": "Grok 4.5"
+      }
+    ]
+  }
+}

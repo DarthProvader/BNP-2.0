@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Lex Fridman Podcast",
+  "source_slug": "lex-fridman",
+  "feed_url": "https://lexfridman.com/feed/podcast/",
+  "tags": [
+    "interview",
+    "ai-research"
+  ],
+  "fetched_at": "2026-08-27T04:01:55.920999+00:00",
+  "items": [
+    {
+      "title": "#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
+      "url": "https://lexfridman.com/dhh-2/?utm_source=rss&utm_medium=rss&utm_campaign=dhh-2",
+      "published": "2026-08-26T20:47:04+00:00",
+      "summary": "DHH is the creator of Ruby on Rails, Omarchy Linux, CTO of 37signals, and a racecar driver.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep501-sc\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\nTranscript:\nhttps://lexfridman.com/dhh-2-transcript\nCONTACT LEX:\nFeedback – give feedback to Lex: https://lexfridman.com/survey\nAMA – submit questions, videos or call-in: https://lexfridman.com/ama\nHiring – join our team: https://lexfridman.com/hiring\nOther – other ways to get in touch: https://lexfridman.com/contact\nEPISODE LINKS:\nDHH’s X: https://x.com/dhh\nDHH’s Blog: https://world.hey.com/dhh\nOmarchy: https://omarchy.org\nRuby on Rails: https://rubyonrails.org\n37signals: https://37signals.com\nSPONSORS:\nTo support this podcast, check out our sponsors & get discounts:\nWispr Flow: AI-powered voice dictation app.\nGo to https://wisprflow.ai/lex\nBlitzy: AI agent for large enterprise codebases.\nGo to https://blitzy.c",
+      "author": ""
+    }
+  ]
+}

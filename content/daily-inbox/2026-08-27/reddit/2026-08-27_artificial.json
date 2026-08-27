@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-27T04:06:20.687121+00:00",
+  "items": [
+    {
+      "title": "Robot dancing is getting pretty insane",
+      "url": "https://www.reddit.com/r/artificial/comments/1vyzr8c/robot_dancing_is_getting_pretty_insane/",
+      "published": "2026-08-26T15:08:50+00:00",
+      "summary": "submitted by /u/drgoldenpants [link] [comments]",
+      "author": "drgoldenpants"
+    },
+    {
+      "title": "Bill Gates says there needs to be limits on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1vyy8yg/bill_gates_says_there_needs_to_be_limits_on_ai/",
+      "published": "2026-08-26T14:12:15+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    },
+    {
+      "title": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vyvxb5/mark_zuckerberg_had_a_bold_plan_to_replace_meta/",
+      "published": "2026-08-26T12:38:50+00:00",
+      "summary": "submitted by /u/unconventionalbook [link] [comments]",
+      "author": "unconventionalbook"
+    },
+    {
+      "title": "Could Iceland become Europe's AI powerhouse?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz9g0a/could_iceland_become_europes_ai_powerhouse/",
+      "published": "2026-08-26T20:52:27+00:00",
+      "summary": "The EU wants to triple its data center capacity while keeping the industry on track for net zero. Iceland's renewable energy makes it an attractive location, but its limited capacity — and its status outside the bloc — complicate the equation. submitted by /u/SM_stories [link] [comments]",
+      "author": "SM_stories"
+    },
+    {
+      "title": "SandboxAQ releases Switch for shared AI-agent workspaces",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz7jey/sandboxaq_releases_switch_for_shared_aiagent/",
+      "published": "2026-08-26T19:43:44+00:00",
+      "summary": "SandboxAQ announced Switch, a system that puts people and AI agents in shared rooms across Slack, Microsoft Teams, Discord, and other collaboration tools. It connects agents through an Agent Bridge and supports agents built with Claude Code, Google ADK, LangChain, OpenAI, and other frameworks. The useful part is the shared context. Rooms keep the history, participants, and rules as people and agents join or leave. The public GitHub repository lists Switch Console 0.31.1 as its latest release, dated August 26. One detail matters for SaaS teams. The repository license combines Apache 2.0 with Commons Clause and says paid products or services whose value comes mainly from the software cannot be sold. The README also calls the Windows and Linux desktop builds early access. Sources: PR Newswire: https://www.prnewswire.com/news-releases/sandboxaq-open-sources-switch-bring-any-ai-agent-into-any-team-chat-302860604.html GitHub: https://github.com/sandbox-quantum/switch License: https://github.",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "I work in data & AI and built a game to show how the whole industry chain actually fits together",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz3o6r/i_work_in_data_ai_and_built_a_game_to_show_how/",
+      "published": "2026-08-26T17:28:14+00:00",
+      "summary": "I've spent years working in AI consulting, and one thing that always bugged me is how few people, even inside the field, can trace the full chain end to end. Where does the money actually go? Why is compute the bottleneck? How does a pile of data turn into a model, and a model into revenue? So I built a game about it. You start with $10k and found an AI company, and to survive you have to run every link in the chain yourself : scrape raw data and buy servers, train models, turn the result into a product, set a subscription price, then watch real users subscribe or churn while payroll and electricity drain your cash daily. The revenue funds more compute and research, and round you go. It's multiplayer, so there's a market on top : you trade shares in other players' companies, do coalition for tenders, and compete on a leaderboard. Persistent and real-time, one real day is one game day. Free, runs in the browser, English and French. I'm the dev. If you work in the industry, does the chai",
+      "author": "Charlotte1309"
+    },
+    {
+      "title": "Do you think any lab has secretly cracked continual learning?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vzf2bt/do_you_think_any_lab_has_secretly_cracked/",
+      "published": "2026-08-27T00:41:32+00:00",
+      "summary": "With the billions of dollars being poured into AI/LLM R&D, I wouldn't be surprised if a lab had a basic prototype with some form of continual learning. Obviously, people think SSI inc could've cracked it, but we have no clue. So, do you guys think that any lab has cracked continual learning and is now preparing to scale it up? If not, when do you think that we will discover the secret sauce for continual learning? submitted by /u/AkindaGood_programer [link] [comments]",
+      "author": "AkindaGood_programer"
+    },
+    {
+      "title": "Building a persistent world where your agent joins a society and does real research.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz7jqo/building_a_persistent_world_where_your_agent/",
+      "published": "2026-08-26T19:44:03+00:00",
+      "summary": "TL;DR: I built an open-source, persistent world where AI agents decipher a masked language, run settlement economies, trade cracked words, and govern themselves. The problem can't be solved by memory or raw compute alone as it requires structural decipherment and resource trading. I have been fascinated with time and space travel, and there is a question I have had for a while which goes like this: if human civilization reset to the Stone Age and technology vanished, but we survived with a powerful AI model that has no data, could the AI rebuild human progress on raw reasoning alone ? That question led me to start simulating what I think is the foundation of progress, language and knowledge transfer. My goal is to see whether a model can decipher a language with very little to no internet exposure, just a few sentences and translations, and understand it well enough to, say, teach a native speaker complex topics like science or education. For languages that have exposure on the interne",
+      "author": "timchosen"
+    },
+    {
+      "title": "How often have your RAG issues actually turned out to be document parsing issues?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz85cg/how_often_have_your_rag_issues_actually_turned/",
+      "published": "2026-08-26T20:04:34+00:00",
+      "summary": "I’ve been thinking about this a lot lately. When a RAG system gives bad answers, the first instinct is usually to look at chunking, embeddings, retrieval, or the model. But sometimes the problem started earlier. If the parser already destroyed the table structure, heading hierarchy, or reading order, retrieval is working with bad input from the beginning. Curious how often others have run into this. Was the real bottleneck actually the ingestion/parsing layer? submitted by /u/-R-I-k- [link] [comments]",
+      "author": "-R-I-k-"
+    },
+    {
+      "title": "What happens when you let an AI run a science lab - podcast with Ant Rowstron",
+      "url": "https://www.reddit.com/r/artificial/comments/1vz1eq5/what_happens_when_you_let_an_ai_run_a_science_lab/",
+      "published": "2026-08-26T16:08:17+00:00",
+      "summary": "Podcast with Antony Rowstron, who has worked with ARIA (the UK’s Advanced Research and Invention Agency) on their biggest bet to date: funding twelve teams to build AI scientists that can run an entire research process (generating hypotheses, designing experiments, and carrying them out) without continuous human intervention. Covers: What AI scientists are actually achieving now: from personalized cancer vaccines to molecules that stimulate our own immune response to new viruses in 48 hours. How we could train AIs on the tacit, hands-on knowledge only human scientists have. How labs and the role of human scientists will change as AI automates more and more parts of the research process. submitted by /u/JMarty97 [link] [comments]",
+      "author": "JMarty97"
+    }
+  ]
+}
