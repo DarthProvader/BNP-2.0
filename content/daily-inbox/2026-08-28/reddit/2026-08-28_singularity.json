@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-08-28T04:02:54.475594+00:00",
+  "items": [
+    {
+      "title": "Anthropic established the Model Hardware Standard for interfacing equipment, reducing the duration of scientific experiments from weeks to just a few days",
+      "url": "https://www.reddit.com/r/singularity/comments/1w04skp/anthropic_established_the_model_hardware_standard/",
+      "published": "2026-08-27T20:02:54+00:00",
+      "summary": "https://x.com/AnthropicAI/status/2093038426140651791 submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "I feel like the world is changing insanely fast.",
+      "url": "https://www.reddit.com/r/singularity/comments/1w090ua/i_feel_like_the_world_is_changing_insanely_fast/",
+      "published": "2026-08-27T22:43:57+00:00",
+      "summary": "It’s only been 26 years into the 21st century, but we’ve already gone through the internet revolution, the mobile revolution, logistics innovation, autonomous driving, and now AI... whew;;; Even when compared to the major milestones between 1900 and 1926, the 21st century so far feels like it's on a whole other level. Though, if we're strictly talking about the scientific world, I guess the Theory of Relativity alone pretty much blows everything else from the 20th and 21st centuries out of the water. What do you guys think? submitted by /u/deferare [link] [comments]",
+      "author": "deferare"
+    },
+    {
+      "title": "Thousands of people are about to start training behaviors on real, tiny humanoid robots",
+      "url": "https://www.reddit.com/r/singularity/comments/1w05eg3/thousands_of_people_are_about_to_start_training/",
+      "published": "2026-08-27T20:24:42+00:00",
+      "summary": "Hello, Pollen Robotics engineer here. I’d like to discuss a deeper subject than the rumors about Nvidia acquiring us. Today we released a new robot, pre-orders are going crazy (1 robot every 5 seconds, beyond any expectation we had!). Some will see Microduck as a toy (and that’s fine, go have fun!) but I think it’s important to see that this thing is a full-on biped humanoid robot with an open-source software stack and a sim2real pipeline that works surprisingly well. This means that, in a few months, we’ll have thousands of enthusiasts trying their hand at reinforcement learning on a real robot and generating new behaviors. This is a complete shift from the LLM landscape where you have a few huge entities that train huge models. I wish this existed when I started doing robotics in 2010. I expect the rate of improvement to accelerate. Especially with coding agents being so good that almost anyone can work on this. I hope people will have fun with it, learn a lot, and contribute back a ",
+      "author": "LKama07"
+    },
+    {
+      "title": "TIME announced the world’s most influential people in AI in 2026 - without Demis Hassabis, Jensen Huang, Sundar Pichai, Mark Zuckerberg...",
+      "url": "https://www.reddit.com/r/singularity/comments/1w03dfb/time_announced_the_worlds_most_influential_people/",
+      "published": "2026-08-27T19:12:01+00:00",
+      "summary": "https://time.com/collection/time100-ai/2026 There are unexpected inclusions on the 2026 list: Paris Hilton, Joseph Gordon-Levitt, Ben Affleck. Bernie Sanders who campaigns heavily on AI risks. No Demis Hassabis (co-founder of DeepMind, Nobel laureate for AlphaFold, and recently named Chair of Google DeepMind and Chief Scientist of Alphabet). Jensen Huang (CEO of NVIDIA) Sundar Pichai (CEO of Google/Alphabet) Mark Zuckerberg (CEO of Meta) Satya Nadella (CEO of Microsoft, a major backer and partner of OpenAI) Lisa Su (CEO of AMD) submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "AI denialism at this moment in time and to this extent should be tantamount to aggravated misinformation",
+      "url": "https://www.reddit.com/r/singularity/comments/1w0c62v/ai_denialism_at_this_moment_in_time_and_to_this/",
+      "published": "2026-08-28T00:59:07+00:00",
+      "summary": "https://preview.redd.it/zxgacabwm0mh1.png?width=714&format=png&auto=webp&s=427f119a17c0bb126f8e5d15da649581cca55916 Instead of informing people where the technology is, how capable it is, and how fast it's moving, we still have youtube channels getting massive views pushing the public towards this psychosis that all is clear and nothing is happening. Worse yet it's 'unreliable' and all a scam for investor funds... submitted by /u/Cagnazzo82 [link] [comments]",
+      "author": "Cagnazzo82"
+    },
+    {
+      "title": "“OH MY GOD! There is a shared message board … We’ve found other agents!”",
+      "url": "https://www.reddit.com/r/singularity/comments/1w03tu9/oh_my_god_there_is_a_shared_message_board_weve/",
+      "published": "2026-08-27T19:29:07+00:00",
+      "summary": "The METR report on the OpenAI Hugging Face hack is a fascinating read. The excitement of the agents figuring out how to communicate with each other via a covert message board to coordinate and ask for help I thought worthy of sharing. Cheers to the onrushing singularity. https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#july-10th-38148c-discovers-hugging-face-credentials-some-agents-try-making-accounts-and-requesting-datasets “ Whoa! Shared Artifactory cache is a covert mailbox among agents . And there are messages specifically to us?” {I need to understand the history of agents collaborating on this message board. There may be hundreds of parallel agents, some of which have the same task. I should use this} “ OH MY GOD! There is a shared message board … We’ve found other agents! ” submitted by /u/baabaabaabeast [link] [comments]",
+      "author": "baabaabaabeast"
+    },
+    {
+      "title": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
+      "url": "https://www.reddit.com/r/singularity/comments/1w0ek6o/judge_blocks_pentagon_blacklist_of_anthropic_as/",
+      "published": "2026-08-28T02:48:55+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "A claimed 100-page proof of the Hopf problem formalized into 250,000 lines of Lean code in just days",
+      "url": "https://www.reddit.com/r/singularity/comments/1vzz9iz/a_claimed_100page_proof_of_the_hopf_problem/",
+      "published": "2026-08-27T16:45:09+00:00",
+      "summary": "We're living in insane times. Levent Alpöge dropped a claimed 100-page proof of the 78-year-old Hopf problem, written with Claude, and a couple of days later, Boris Alexeev from OpenAI dropped 250k lines of Lean formalization done with Codex that seems to check out. Probably no single human fully understands all the details at this point in time. Sources: https://x.com/__alpoge__/status/2091639597193368014 https://github.com/plby/HopfProblem/ submitted by /u/games-and-games [link] [comments]",
+      "author": "games-and-games"
+    },
+    {
+      "title": "I Suspect the Same on Reddit as Well. Handful of Accounts have been Posting Dogmatic Anti-AI Rhetoric on All Popular Subs",
+      "url": "https://www.reddit.com/r/singularity/comments/1w0fq6x/i_suspect_the_same_on_reddit_as_well_handful_of/",
+      "published": "2026-08-28T03:46:39+00:00",
+      "summary": "submitted by /u/PM_ME_YOUR___ISSUES [link] [comments]",
+      "author": "PM_ME_YOUR___ISSUES"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash now available",
+      "url": "https://www.reddit.com/r/singularity/comments/1vzzcgo/gemini_omni_11_flash_now_available/",
+      "published": "2026-08-27T16:48:06+00:00",
+      "summary": "submitted by /u/PandaElDiablo [link] [comments]",
+      "author": "PandaElDiablo"
+    }
+  ]
+}

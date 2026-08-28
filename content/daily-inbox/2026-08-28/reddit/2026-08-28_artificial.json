@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-28T04:05:57.949649+00:00",
+  "items": [
+    {
+      "title": "Bill Gates Warns Rise Of AI Will Be One Of The 'Most Turbulent Times In Human History' In Alarming New Essay",
+      "url": "https://www.reddit.com/r/artificial/comments/1w05qir/bill_gates_warns_rise_of_ai_will_be_one_of_the/",
+      "published": "2026-08-27T20:36:48+00:00",
+      "summary": "submitted by /u/ComicSandsNews [link] [comments]",
+      "author": "ComicSandsNews"
+    },
+    {
+      "title": "Blood drawing machine from China",
+      "url": "https://www.reddit.com/r/artificial/comments/1vzuwgn/blood_drawing_machine_from_china/",
+      "published": "2026-08-27T14:03:41+00:00",
+      "summary": "submitted by /u/BeechTreeOakTree [link] [comments]",
+      "author": "BeechTreeOakTree"
+    },
+    {
+      "title": "Amazon SDE Interview",
+      "url": "https://www.reddit.com/r/artificial/comments/1w0cpaj/amazon_sde_interview/",
+      "published": "2026-08-28T01:23:13+00:00",
+      "summary": "Sharing my interview experience after Amazon SDE - Location - USA After applying for 6+ months and 44 applications finally my resume got picked. OA: One coding question & AI assisted coding. Coding question - Medium Level LC AI assisted coding - It was completely new but was able to do it, lots of debugging, heavily concentrated on OOPS Cleared the OA and moved to the interview loop 4 rounds - 3 in one day & 1 the next day Round 1: Coding Question: Returning adjacent letters in a string and there are three sub questions in it. Leetcode - Medium - Hard Before the start of the coding round, Formal introductions and jumped straight into coding, I have used heap for this and solved it using max heap, was able to communicate the solution and thought process. The interviewer was not at all satisfied with the high level explanation and he kept digging till the last line, he literally asked what's the logic of heap in the backend and how do you make it better ? I got blanked but was able to an",
+      "author": "Senior-Reception8110"
+    },
+    {
+      "title": "Is it crazy to ask ChatGPT or Gemini about my cancer treatment?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w0f05b/is_it_crazy_to_ask_chatgpt_or_gemini_about_my/",
+      "published": "2026-08-28T03:10:13+00:00",
+      "summary": "I'm getting conflicting info from different doctors and i'm tempted to just paste my records into ChatGPT to see what it says. Has anyone done this? is it dangerous or actually helpful? i know it's not a doctor, but sometimes it explains things better than my oncologist does. submitted by /u/Kettapillah [link] [comments]",
+      "author": "Kettapillah"
+    },
+    {
+      "title": "Hugging Face turned down a $7B Nvidia offer last year. The reported price now is $12.9B, and the reason isn't the chips.",
+      "url": "https://www.reddit.com/r/artificial/comments/1vztx93/hugging_face_turned_down_a_7b_nvidia_offer_last/",
+      "published": "2026-08-27T13:25:16+00:00",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face for about $12.9 billion, per The Information (unconfirmed by either company so far). Less than a year ago, Hugging Face turned down a roughly $7 billion Nvidia investment offer. That's close to a doubling in under a year, which is a strange trajectory for a company whose product is mostly a website where people upload model weights. Here's why this reads different from a normal chip-vendor acquisition. Hugging Face's product is distribution, not silicon - the default place OpenAI, Google, Amazon and Anthropic actually publish and download open models. Those four are all building or backing custom chips specifically to cut how dependent they are on Nvidia GPUs, and a lot of what comes out of that work still gets hosted and benchmarked through Hugging Face. Buying the hub doesn't touch any of those chip programs directly. It does put Nvidia inside the pipeline every rival's open-model strategy currently runs through, whether or not they wa",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "What do you think AI will look like in 5 or 10 years?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w071zi/what_do_you_think_ai_will_look_like_in_5_or_10/",
+      "published": "2026-08-27T21:26:33+00:00",
+      "summary": "I just wanna know what you guys think. With how fast AI is improving right now, what can we realistically expect in 5 or 10 years? Like how much more capable will AI become and what will actually change? submitted by /u/yashk_10 [link] [comments]",
+      "author": "yashk_10"
+    },
+    {
+      "title": "Nvidia is buying Hugging Face for $12.9B. A simulation already had HF choosing stability over “open everything.\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1vzm3fw/nvidia_is_buying_hugging_face_for_129b_a/",
+      "published": "2026-08-27T06:29:24+00:00",
+      "summary": "Nvidia agreed to buy Hugging Face for $12.9B. The Information first, Reuters after. Same Nvidia HF turned down last year at $7B, when they said they didn’t want one investor big enough to steer the company. Now the place that hosts basically every open-weight model belongs to the company that sells the GPUs those models run on. In July someone ran a completely unrelated scenario through MiroShark ,open-source sim, agents arguing a situation out. The simulation showcased the agents behalf of HF defended hard when their infrastructure was the thing at risk. The simulation basically showcased: even the open-source people pick institutional stability once their own position is on the line. A simulation got the character of HF right a month early. Simulations help bring to light how an actor would behave in a more psychological manner. Hugging Face is Nvidia’s now. Honest question: thoughts on the acquisition, and how advanced simulation has got to a point of understanding human psychology.",
+      "author": "amu4biz"
+    },
+    {
+      "title": "What enables the consciousness in humans?",
+      "url": "https://www.reddit.com/r/artificial/comments/1vzsu8d/what_enables_the_consciousness_in_humans/",
+      "published": "2026-08-27T12:40:01+00:00",
+      "summary": "Let me put it like this, I wanna know what gives humans consciousness, like where does it come from? Is it something that emerged because of the complexity of the brain, or is it something hidden like a mystery box in the brain or somewhere else? I don't get it. What exact thing enables consciousness? If you can give an answer for me, I really do appreciate it. Thank you. submitted by /u/SuccessfulOrange7548 [link] [comments]",
+      "author": "SuccessfulOrange7548"
+    },
+    {
+      "title": "Who’s Training on Your AI Chats? The Big Players, Audited",
+      "url": "https://www.reddit.com/r/artificial/comments/1w0bytq/whos_training_on_your_ai_chats_the_big_players/",
+      "published": "2026-08-28T00:50:13+00:00",
+      "summary": "I found this article and I think this is really informative. All 3 articles. Every player mentions about an option to opt-out from \"training models\", what about storing data? submitted by /u/plutoniansoul [link] [comments]",
+      "author": "plutoniansoul"
+    },
+    {
+      "title": "Goodbye HuggingFace - bought by Nvidia",
+      "url": "https://www.reddit.com/r/artificial/comments/1w03wlb/goodbye_huggingface_bought_by_nvidia/",
+      "published": "2026-08-27T19:31:46+00:00",
+      "summary": "submitted by /u/-Old-School-Cool- [link] [comments]",
+      "author": "-Old-School-Cool-"
+    }
+  ]
+}

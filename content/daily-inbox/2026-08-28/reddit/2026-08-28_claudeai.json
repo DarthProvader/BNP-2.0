@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-28T04:04:06.712054+00:00",
+  "items": [
+    {
+      "title": "Claude ai is cooking too much !!!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w0djtj/claude_ai_is_cooking_too_much/",
+      "published": "2026-08-28T02:02:32+00:00",
+      "summary": "submitted by /u/Impossible-Club1830 [link] [comments]",
+      "author": "Impossible-Club1830"
+    },
+    {
+      "title": "I think we’re starting to see the downside of everyone being able to build",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w047gy/i_think_were_starting_to_see_the_downside_of/",
+      "published": "2026-08-27T19:42:23+00:00",
+      "summary": "I’ve been thinking about this quite a lot lately, partly because I’m living it myself, and I’m curious if anyone else here is starting to feel the same. Claude Code has made it ridiculously easy to turn an idea into something real. I don’t mean that everything it produces is good, or that suddenly nobody needs to know what they’re doing. I just mean that the distance between having an idea and having something that actually works has become incredibly short. And obviously that’s amazing. People who would never have built software before are building things now. Developers are making in days what might have taken them weeks or even months. Every time I come here there’s another app, another tool, another little utility someone made because they needed it. There’s just so much stuff being built. But I’m starting to wonder if that’s creating another problem that I hadn’t really thought about. If everyone can build, there’s suddenly an enormous amount of stuff competing for the same amount",
+      "author": "Rebekator"
+    },
+    {
+      "title": "Claude figured out what was wrong with my 4090 after years of no success and built a guard against the flaw",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzy4cg/claude_figured_out_what_was_wrong_with_my_4090/",
+      "published": "2026-08-27T16:02:30+00:00",
+      "summary": "submitted by /u/Acidyo [link] [comments]",
+      "author": "Acidyo"
+    },
+    {
+      "title": "a new level of sass today lmao",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzxt5a/a_new_level_of_sass_today_lmao/",
+      "published": "2026-08-27T15:51:30+00:00",
+      "summary": "submitted by /u/AaronMatthews25 [link] [comments]",
+      "author": "AaronMatthews25"
+    },
+    {
+      "title": "Did Anthropic release Fable 5.1?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w05cv6/did_anthropic_release_fable_51/",
+      "published": "2026-08-27T20:23:09+00:00",
+      "summary": "I just started doing some work with Claude CLI - the last time I touched it, was 4 days ago, and the difference between then and now is completely insane. I'm kinda flabbergasted. The speed at which it deals with writing code is bonkers and the way it talks - like 2 to 3 sentences at max, very clearly explaining what's doing. I'm pretty sure I'm getting routed to Fable 5.1. Anyone else feeling it? submitted by /u/NewFg1 [link] [comments]",
+      "author": "NewFg1"
+    },
+    {
+      "title": "Literally me when claude codes",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzl671/literally_me_when_claude_codes/",
+      "published": "2026-08-27T05:37:09+00:00",
+      "summary": "I thought this was a great meme and wanted to share it here for everyone. This is me literally everytime. submitted by /u/Artistic-Focus2916 [link] [comments]",
+      "author": "Artistic-Focus2916"
+    },
+    {
+      "title": "4.6 still the GOAT",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w0bh33/46_still_the_goat/",
+      "published": "2026-08-28T00:27:54+00:00",
+      "summary": "I have very fond memories of Opus 4.6 being the greatest model at the perfect inflection point for my AI usage. It felt like overnight I was able to go from reviewing every line of code and worrying that I was going to be grossly misunderstood and destroy a feature to barely having to articulate what I needed to an insanely intelligent partner that would then build something better than I had originally envisioned. Fast-forward to Opus 5 and I feel like I’m back to having to spoon feed every little step to something that intentionally tries to misunderstand me then gaslights me telling me it did what I asked. I spent hours today trying to build what should be a fairly simple listserv aggregator using Opus 5 and it just wasn’t working. I was getting very frustrated so I decided to switch back to 4.6 and I swear to God it got it right the first try and then it told me why 5 wasn’t able to do it. I guess I’m just addicted to frontier models and feel like I need to be using the newest thin",
+      "author": "manaPoolParty"
+    },
+    {
+      "title": "Opus 5 sudden improvement?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzvtkl/opus_5_sudden_improvement/",
+      "published": "2026-08-27T14:38:55+00:00",
+      "summary": "Did Claude just go super saiyan, as of 4-5 hours ago? I use Opus 5 extra high as my default and suddenly there's a night and day change in its ability (as well as the amount of time and tokens it put in too, tbh). It went from decent but imperfect rendering to hugely superior oneshotting. submitted by /u/alphanumericsprawl [link] [comments]",
+      "author": "alphanumericsprawl"
+    },
+    {
+      "title": "6 months of vibe coding: what I wish I knew when I started",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzxyi6/6_months_of_vibe_coding_what_i_wish_i_knew_when_i/",
+      "published": "2026-08-27T15:57:01+00:00",
+      "summary": "I went from not knowing how to code to building fully functional iPhone apps within six months. Over those six months, I messed up a ton and learned a lot along the way. I wanted to share my story to help others who are just getting started or starting to work on more complex projects. After writing this, I realized it was waaay longer than I intended. If anyone is interested in an AMA, let me know in the comments and I’ll get one going. Tldr; Just start. Pick Claude Code or ChatGPT. Don't worry about having the perfect model. Build something stupidly simple that you actually care about. Don't over engineer your first project. Prompt → build → test → fix is completely fine initially. Once the project gets serious, stop working directly on main. Start planning features before asking AI to code them. Use worktrees when you want multiple agents/features running simultaneously. As complexity grows, find a way to orchestrate and track everything. Watch for AI slop and periodically clean up/",
+      "author": "CrackityJones33"
+    },
+    {
+      "title": "How I got my Mac to read my Claude Code chats at night and extend my token usage by 1/3rd",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w06a7b/how_i_got_my_mac_to_read_my_claude_code_chats_at/",
+      "published": "2026-08-27T20:57:20+00:00",
+      "summary": "I kept hitting my weekly limit two days before my reset. So I dug into where the week was actually going. About a third of my usage was re-reads: the same files getting read again even though they hadn't changed, and old chats getting pulled into new ones over and over. Apple Intelligence might not be the fastest AI, but it's great at reading through my chats at night for free. You don't need the smartest model to read a chat log. Reading is easy work. So my setup now: my Mac reads each chat as it grows, on my own machine, zero tokens, even while I sleep. When a chat is finished, my Mac writes the handoff: what happened, what was decided, what's next, which files were touched. The next morning, my new chat starts already knowing all of that, instead of the expensive model re-reading everything at full price. And I have it set up so anything my Mac can't read gets pushed to Haiku. So far I haven't needed it, my Mac has handled all of it. I kept my same Max plan but I'm making the tokens",
+      "author": "Unable_Strategy5135"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-28T04:01:47.732314+00:00",
+  "items": [
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "published": "2026-08-27T13:00:13+00:00",
+      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+      "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+      "published": "2026-08-27T11:58:59+00:00",
+      "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+      "author": "Dan Goodin"
+    }
+  ]
+}
