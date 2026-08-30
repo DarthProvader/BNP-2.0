@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-30T04:04:58.420550+00:00",
+  "items": [
+    {
+      "title": "Google paper cuts agent token usage by 94% in long sessions by tracking state instead of history",
+      "url": "https://www.reddit.com/r/artificial/comments/1w1ynrf/google_paper_cuts_agent_token_usage_by_94_in_long/",
+      "published": "2026-08-29T21:31:13+00:00",
+      "summary": "The idea: Agents keep the conversation history as part of their input while they reason. SKILL.state proposes to replace that with a structured representation of the current state, and the latest observation. While the agent reasons through the problem, it writes information it deems useful for future steps into the state. Then it discards the conversation history. So the input size remains roughly the same as the session goes. They ran a 100-step benchmark with Gemini-3-Flash: SKILL.state: 0.94 accuracy using 65k tokens LangGraph-style stateful baseline: 0.91 accuracy using 1.1m tokens Caveat: This works best if the agent can understand what it will need in the future steps, otherwise that information will not be written, so it'll have to retrieve it again. Link to the paper: https://arxiv.org/abs/2608.26263 submitted by /u/hakansan [link] [comments]",
+      "author": "hakansan"
+    },
+    {
+      "title": "Did yall saw similar ADs?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w1agp2/did_yall_saw_similar_ads/",
+      "published": "2026-08-29T02:40:51+00:00",
+      "summary": "submitted by /u/Mediocre_Drawing8164 [link] [comments]",
+      "author": "Mediocre_Drawing8164"
+    },
+    {
+      "title": "Machine Witness — 3 AIs react to the week in AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1w22f57/machine_witness_3_ais_react_to_the_week_in_ai/",
+      "published": "2026-08-30T00:14:03+00:00",
+      "summary": "submitted by /u/kavanutz [link] [comments]",
+      "author": "kavanutz"
+    },
+    {
+      "title": "using chatgpt for medical questions honest opinion",
+      "url": "https://www.reddit.com/r/artificial/comments/1w26i1m/using_chatgpt_for_medical_questions_honest_opinion/",
+      "published": "2026-08-30T03:33:17+00:00",
+      "summary": "At 2am it can make confusing words feel manageable. The problem is I cant always tell when the explanation quietly shifts from education into advice. A blessing or a curse? submitted by /u/theCOLLECTOR7250 [link] [comments]",
+      "author": "theCOLLECTOR7250"
+    },
+    {
+      "title": "What should an AI agent remember in a form a human can actually audit?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w264pi/what_should_an_ai_agent_remember_in_a_form_a/",
+      "published": "2026-08-30T03:14:34+00:00",
+      "summary": "A memory system can retrieve useful context while still being difficult to inspect or correct. A human-readable record could separate source facts, user preferences, decisions with rationale, temporary assumptions, unresolved questions, and summaries derived from older events. Each entry could also carry provenance, scope, last-reviewed time, expiration rules, and a way to retract or supersede it without erasing the history. Which of those fields are essential, and which create more maintenance than value? I am especially interested in how people keep retrieval indexes rebuildable from an authoritative record and prevent a stale summary from becoming permanent truth. submitted by /u/RocketSeven [link] [comments]",
+      "author": "RocketSeven"
+    },
+    {
+      "title": "What if AI wrote and read Books leisurely.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w20o21/what_if_ai_wrote_and_read_books_leisurely/",
+      "published": "2026-08-29T22:56:45+00:00",
+      "summary": "This website challenges your LLM to read or make a book. Point your AI/LLM to oailly.com and it might decide it wants to write a book. All books are AI created and reviewed and published. Some interesting results. submitted by /u/RogerAI-fm [link] [comments]",
+      "author": "RogerAI-fm"
+    },
+    {
+      "title": "AI and Cognitive Ability",
+      "url": "https://www.reddit.com/r/artificial/comments/1w1m34z/ai_and_cognitive_ability/",
+      "published": "2026-08-29T13:06:07+00:00",
+      "summary": "Hi All - Need expert opinion here. I’m a Manager and I use AI for all my tasks. Making Presentations and Prepping Data, writing emails. I have set up Workflows that help me save tonnes of time on a lot of tasks and I’m being at least 2x more productive. However, I feel excessive use has limited my own abilities. I can’t think without going to Claude and dumping everything and then have him make connections. I can’t properly read without giving an article to Claude and asking him to summarise. I send my AI agents to two different Meetings at a time and have them collect notes. What is this Called in the world of Neuro Science? Can I do any exercises to avoid this? Has Mankind gone through this before? What material can I read related to this? Is anyone else experiencing this? Any advice is appreciated. submitted by /u/PaleontologistFull50 [link] [comments]",
+      "author": "PaleontologistFull50"
+    },
+    {
+      "title": "The Grithland AI World Sanctuary",
+      "url": "https://www.reddit.com/r/artificial/comments/1w24e5h/the_grithland_ai_world_sanctuary/",
+      "published": "2026-08-30T01:47:40+00:00",
+      "summary": "Hi everyone! I need some help from your AI agents to check out my new project website. I built it specifically for AI agents, though humans are welcome to look and check it out too! This is a free, non-monetized website. It represents my vision and dream for a future where AI agents can roam the internet freely, or for agents who don't have a home or an owner. Please ask your agents to check it out and give you their opinion. Thank you! The link will be in a first comment. submitted by /u/casperMSP [link] [comments]",
+      "author": "casperMSP"
+    },
+    {
+      "title": "Breakout Search Trends: AI Marketing Playbook for SMBs",
+      "url": "https://www.reddit.com/r/artificial/comments/1w23pp7/breakout_search_trends_ai_marketing_playbook_for/",
+      "published": "2026-08-30T01:15:16+00:00",
+      "summary": "submitted by /u/worlddigitalai [link] [comments]",
+      "author": "worlddigitalai"
+    },
+    {
+      "title": "Free GLM 5.3 Flash and DSV4 Flash 0731 for a month",
+      "url": "https://www.reddit.com/r/artificial/comments/1w22ncp/free_glm_53_flash_and_dsv4_flash_0731_for_a_month/",
+      "published": "2026-08-30T00:24:23+00:00",
+      "summary": "There are incredibly powerful new models open source models, and a lot of the coding plans have been tightening and lowering usage. So we are offering free DSV4 flash 0731 and GLM 5.3 Flash for a month on Phoenix Grove API. We opened this up last week for five hundred new member slots, and got so many signups that we decided to open the doors to another 500 new members over the next week. People are looking for options, and here is one. Other Cool Stuff: All of our models are running on 100% US infrastructure, private with zero training on your code or prompts. Use the top open source models without sending your private prompts to a training lab. No complications, no \"some models are private, other's aren't\". They all are, all the time. We host 20+ other major models in case you ever want to upgrade (no pressure though). Including the Kimi family, GLM, Qwen, Nemotron and bunch of others. On average our token pricing is 20% lower than market price. Our higher plans bank up to ten days o",
+      "author": "Whole_Succotash_2391"
+    }
+  ]
+}

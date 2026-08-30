@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-08-30T04:02:15.712264+00:00",
+  "items": [
+    {
+      "title": "You're out of mana! Take this!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w1r9ja/youre_out_of_mana_take_this/",
+      "published": "2026-08-29T16:38:47+00:00",
+      "summary": "submitted by /u/Watermelon_Sherbert [link] [comments]",
+      "author": "Watermelon_Sherbert"
+    },
+    {
+      "title": "What was the point of saying North Macedonia?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w21ne6/what_was_the_point_of_saying_north_macedonia/",
+      "published": "2026-08-29T23:39:51+00:00",
+      "summary": "submitted by /u/Due-Gas9037 [link] [comments]",
+      "author": "Due-Gas9037"
+    },
+    {
+      "title": "My first couple of days on GPT+ as someone who was firmly AI=BAD",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w20anz/my_first_couple_of_days_on_gpt_as_someone_who_was/",
+      "published": "2026-08-29T22:40:22+00:00",
+      "summary": "So, I am just your garden variety Gen X Redditor and mostly lurker in all things Reddit, and I like to think of myself as pretty open minded, but \"AI\" always rubbed me the wrong way, and for years I made the conscious decision to not engage with it other than to grumble at it while scrolling my Reddit feed and bemoaning hardware prices as a life-long gamer. However, a couple of days ago I said to myself \"You know what, instead of grumbling impotently at it, why not use it seriously for a while and see what all the buzz is about from the inside\". It's less for a month than the average indie game at this point in time (I am sure it will be increasingly unaffordable in due time), so why the hell not. I had concepts of a plan in mind for what to try it out on. A tiny little Debian 13 home media server setup. I recently switched from Windows 11 to Cachyos so it seemed fitting for me as a Linux beginner. I tried AIDungeon once, when it was new, and quickly dismissed it then for lacking inter",
+      "author": "Ennart"
+    },
+    {
+      "title": "“Create a supermarket / retirement home / nightclub / beach scene image where everything is the opposite of what it should be”",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w1w1if/create_a_supermarket_retirement_home_nightclub/",
+      "published": "2026-08-29T19:45:46+00:00",
+      "summary": "submitted by /u/NeverMind-BestWishes [link] [comments]",
+      "author": "NeverMind-BestWishes"
+    },
+    {
+      "title": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w211q1/does_ai_overuse_the_em_dash_an_analysis_of_88927/",
+      "published": "2026-08-29T23:13:19+00:00",
+      "summary": "People always say AI overuses the em dash (—). It seems like they were right. The evidence from the article is: - Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. - Em dash usage in U.S. published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. - Google search interest in \"—\" grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? - It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. - It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. - Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. Edit: to sound ",
+      "author": "Pristine_Ad3669"
+    },
+    {
+      "title": "the fuh",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w1bx6e/the_fuh/",
+      "published": "2026-08-29T03:53:11+00:00",
+      "summary": "submitted by /u/No_Refuse_4241 [link] [comments]",
+      "author": "No_Refuse_4241"
+    },
+    {
+      "title": "I still don't know how it's pronounced",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w262if/i_still_dont_know_how_its_pronounced/",
+      "published": "2026-08-30T03:11:25+00:00",
+      "summary": "submitted by /u/Flope [link] [comments]",
+      "author": "Flope"
+    },
+    {
+      "title": "Does anyone know about this feature? I only text with ChatGPT, never made images",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w1uda5/does_anyone_know_about_this_feature_i_only_text/",
+      "published": "2026-08-29T18:40:46+00:00",
+      "summary": "What happened???? I can't text it either I was in a chat and it was like that it's doing a check or something and check back in 9 minutes?? Any info on that? Apparently 5 hour time limit is back?? submitted by /u/Ok_Long5367 [link] [comments]",
+      "author": "Ok_Long5367"
+    },
+    {
+      "title": "ChatGPT has been working for 910 minutes and counting",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w25230/chatgpt_has_been_working_for_910_minutes_and/",
+      "published": "2026-08-30T02:20:27+00:00",
+      "summary": "Has anyone else given ChatGPT a task which has lasted this long? Before this one my record was around 40 minutes. submitted by /u/Sure_Artichoke6929 [link] [comments]",
+      "author": "Sure_Artichoke6929"
+    },
+    {
+      "title": "Happy Skynet Day (Aug 29) to those who celebrate",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w24asj/happy_skynet_day_aug_29_to_those_who_celebrate/",
+      "published": "2026-08-30T01:43:11+00:00",
+      "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    }
+  ]
+}

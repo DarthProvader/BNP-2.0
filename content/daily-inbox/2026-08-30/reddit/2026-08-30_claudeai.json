@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-30T04:03:07.013443+00:00",
+  "items": [
+    {
+      "title": "Prepare for a decrease of about 20% of current rate",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1s49z/prepare_for_a_decrease_of_about_20_of_current_rate/",
+      "published": "2026-08-29T17:12:25+00:00",
+      "summary": "submitted by /u/py-net [link] [comments]",
+      "author": "py-net"
+    },
+    {
+      "title": "“We are raising it by lowering it first”, lower by 50%, raise by 25%. Such clever wordplay",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1x1d3/we_are_raising_it_by_lowering_it_first_lower_by/",
+      "published": "2026-08-29T20:25:15+00:00",
+      "summary": "submitted by /u/MoreFaithlessness954 [link] [comments]",
+      "author": "MoreFaithlessness954"
+    },
+    {
+      "title": "Thank you, Anthropic (really)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1jqsh/thank_you_anthropic_really/",
+      "published": "2026-08-29T11:10:37+00:00",
+      "summary": "A few days ago, my social media accounts were hacked. The hacker took advantage of the situation to spam the worst kinds of bait (cryptocurrency scams...). After cleaning things up, I tracked down the virus with a bunch of Opus 5 Max (I was quite concerned lol). I changed my passwords and thought I’d be able to sleep soundly. But last night I received this email from Anthropic warning me of an attempt to steal tokens via the API. However, after checking, the attempt did indeed fail. Note that I was logged into Anthropic via Google with two-factor authentication. Apparently, the hacker stole all my Google Chrome credentials, including cookies and session IDs, which allowed him to bypass all two-factor authentication security measures. As an emergency measure, I removed all active sessions from my Google accounts (which I should have done from the start) and changed my passwords again... Thanks to Anthropic for the security measures they’ve put in place. I wouldn’t have wanted to deal wi",
+      "author": "WorriedAssociate7029"
+    },
+    {
+      "title": "Claude Opus in VSCode",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1jemb/claude_opus_in_vscode/",
+      "published": "2026-08-29T10:52:41+00:00",
+      "summary": "Every. Single. Time. submitted by /u/GnightSteve [link] [comments]",
+      "author": "GnightSteve"
+    },
+    {
+      "title": "I made a website with Claude where you try to time the market and beat a couch. 100K+ plays later, the couch still wins 62%",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1s79z/i_made_a_website_with_claude_where_you_try_to/",
+      "published": "2026-08-29T17:15:39+00:00",
+      "summary": "The game. beatthecouch.com - $10,000, two secret years of real S&P 500 history, one buy / sell button. Your opponent is a couch. It buys on day one and never sells. After each game, 1,000 monkeys replay your trade count on random days. Beat 90% of them or your win is stamped Lucky. The data. 100,278 games (at the time of the graph - now around 107K, still similar). The couch won 62%. Humans only seem to beat the couch when the market crashed in their window. What Claude did. The data pipeline (S&P closes 1928 to 2025, dividends, T-bills etc). The whole game as one HTML file and the Cloudflare backend. And also the reddit app port at reddit.com/r/beatthecouch happy to answer any questions! submitted by /u/noir_chat [link] [comments]",
+      "author": "noir_chat"
+    },
+    {
+      "title": "Claude Revives a Dead Sleep Company",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1rij9/claude_revives_a_dead_sleep_company/",
+      "published": "2026-08-29T16:48:52+00:00",
+      "summary": "Over the past month, I've been working with Claude to revive a dead product from a sleep company that shut down 10 years ago and had over $40M in investments. I've detailed the process, learnings, and the successful result. submitted by /u/motojo [link] [comments]",
+      "author": "motojo"
+    },
+    {
+      "title": "Claude just throwing unrelated words in a ban appeal discussion",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w25bat/claude_just_throwing_unrelated_words_in_a_ban/",
+      "published": "2026-08-30T02:33:28+00:00",
+      "summary": "Nowhere in this discussion contains any talks about a 14 year old pursuing a 19 year old. I am neither 14, or 19, and it seems off for it to say that. submitted by /u/yes3554 [link] [comments]",
+      "author": "yes3554"
+    },
+    {
+      "title": "Claude rude/unhelpful",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w22zj1/claude_rudeunhelpful/",
+      "published": "2026-08-30T00:40:26+00:00",
+      "summary": "I’ve been using Claude for about a year, mostly for personal research and planning. It always struck me as a less conversational version of ChatGPT, but generally more concise and, in many cases, more accurate. Since the recent updates, though, I’ve found it much more argumentative and dismissive. It also seems more likely to confidently get something wrong and then require several rounds of correction before getting back on track. A lot of the time it seems to take a strong counterposition to whatever premise is in my question, even when that is not really what I am asking about. For example, I was discussing how the Gospels were written decades after Jesus’s life and how the biblical canon was compiled much later. Claude pushed back by essentially arguing that the Gospels are part of the Bible, so my suggestion was wrong. I eventually had to explicitly ask it to review the historical timeline of when the Gospels were written and when the Bible was compiled. After doing that, it corre",
+      "author": "Downto184"
+    },
+    {
+      "title": "Does Opus 5 verbosity affect its real world coding capacities as compared to Fable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w22dy7/does_opus_5_verbosity_affect_its_real_world/",
+      "published": "2026-08-30T00:12:34+00:00",
+      "summary": "Which of the 2 is actually the best coder in your real life experiences? submitted by /u/py-net [link] [comments]",
+      "author": "py-net"
+    },
+    {
+      "title": "PSA: Claude Code silently deletes local history older than 30 days",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+      "published": "2026-08-29T19:57:41+00:00",
+      "summary": "Found out the hard way that Claude Code auto-deletes local session transcripts older than 30 days :/ It's the default: cleanupPeriodDays: 30 it runs silently at startup, and deletion is permanent.... no trash, no warning, no server side copy to recover to fix it you can add this to your ~/.claude/settings.json { \"cleanupPeriodDays\": 3650 } its a known issue: GitHub #59248, #62476, #64999 submitted by /u/fobax [link] [comments]",
+      "author": "fobax"
+    }
+  ]
+}
