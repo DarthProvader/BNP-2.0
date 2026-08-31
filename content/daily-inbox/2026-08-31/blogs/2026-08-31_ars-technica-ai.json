@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-08-31T04:00:59.735887+00:00",
+  "items": [
+    {
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "published": "2026-08-30T10:03:47+00:00",
+      "summary": "The company is testing robots on tasks that can performed by technicians.",
+      "author": "Paresh Dave, WIRED.com"
+    }
+  ]
+}

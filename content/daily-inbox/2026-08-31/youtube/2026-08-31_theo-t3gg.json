@@ -1,0 +1,34 @@
+{
+  "source_type": "youtube",
+  "source_name": "Theo - t3.gg",
+  "source_slug": "theo-t3gg",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-08-31T04:00:09.809209+00:00",
+  "items": [
+    {
+      "title": "They lied...",
+      "url": "https://www.youtube.com/watch?v=Q7n0PGbMW_U",
+      "published": "2026-08-31T00:16:17+00:00",
+      "summary": "Anthropic announced a 25% increase in Claude Code limits! That's good, right? It couldn't actually be a 17% decrease in usage...right?\n\nThank you Posthog for sponsoring! Check them out at: https://soydev.link/posthog\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#claude #code #programming",
+      "author": "Theo - t3․gg",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Well This Was Unexpected...",
+      "url": "https://www.youtube.com/watch?v=jKCjLzjmiaA",
+      "published": "2026-08-30T06:14:04+00:00",
+      "summary": "OpenAI is ending Cursor's access to its models on November 12th and it's not really about Cursor.\n\nThank you WorkOS for sponsoring the video!\nhttps://soydev.link/workos\n\nSources:\nhttps://x.com/NotTomBrown/status/2093541294027280657\nhttps://x.com/thsottiaux/status/2093515916076343774\nhttps://x.com/thsottiaux/status/2093784314714657110\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg/\n\nS/O @ Ph4seon3 for the awesome edit 🙏\n\n#openai #cursor #programming",
+      "author": "Theo - t3․gg",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

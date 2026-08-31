@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-08-31T04:06:10.101567+00:00",
+  "items": [
+    {
+      "title": "Now that any service can be built with AI, nobody wants to build anything",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2yy6u/now_that_any_service_can_be_built_with_ai_nobody/",
+      "published": "2026-08-31T01:03:21+00:00",
+      "summary": "I’ve been noticing a strange paradox with AI-assisted coding. A few years ago, if you had an idea for a software service, building it was the hard part. You needed months of development, a decent team, money, infrastructure, and a lot of specialized knowledge. Today, one competent developer using AI can build in days or weeks what might have taken a small team months. You would think this would lead to an explosion of new software products. But I’m starting to wonder if the opposite is happening. When something is difficult to build, building it creates value. There’s a barrier to entry. You can spend six months creating something and reasonably believe that thousands of other people aren’t going to reproduce it next weekend. Now imagine you have a great SaaS idea. You spend two weeks building it with AI. Great. But so can everyone else. And if the idea succeeds, competitors can inspect what you did and build something similar incredibly quickly. The technical moat is disappearing. Tha",
+      "author": "niosurfer"
+    },
+    {
+      "title": "Sony and Warner accuse Anthropic of training Claude on tens of thousands of pirated works. Should the model be retrained from scratch?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2edm0/sony_and_warner_accuse_anthropic_of_training/",
+      "published": "2026-08-30T10:51:03+00:00",
+      "summary": "Sony Music Publishing and Warner Chappell allege that Anthropic used mass torrenting, scraping, and downloading to train Claude. Anthropic disputes the claims and says it will defend itself. A fine could simply become the cost of doing business. But forcing a company to discard or retrain a model could reshape the entire AI industry. What would actually be fair here: licensing fees, damages, or retraining from scratch? submitted by /u/Content-Cheetah-6958 [link] [comments]",
+      "author": "Content-Cheetah-6958"
+    },
+    {
+      "title": "Amazon is killing Mechanical Turk. By the end, a third of the humans on it were secretly using AI to do the work",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2snwd/amazon_is_killing_mechanical_turk_by_the_end_a/",
+      "published": "2026-08-30T20:36:02+00:00",
+      "summary": "Amazon announced this week that Mechanical Turk closes on September 30 after 21 years. Bezos originally called it \"artificial artificial intelligence\". the joke being that it handed humans the tasks computers couldn't do yet. 500 000 people at peak, a few cents a task, labelling images and transcribing audio. Those labels trained the models. the models got good enough to do the labelling. the platform is now closing lol. But the part that got me is a 2023 EPFL study finding somewhere between a third and half of MTurk workers were already using LLMs to complete their tasks. so at the end you had humans pretending to be machines, on a platform designed to make humans look like machines, quietly using machines to do it. and the companies buying that work thought they were paying for human judgment. Which raises something I can't resolve about my own work. I produce video with avatars instead of filming using different AI models such Argil and Seedance among many others and clients get a t",
+      "author": "dettol99perc"
+    },
+    {
+      "title": "The 5 craziest discoveries from OpenAI's HuggingFace investigation",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2hgc6/the_5_craziest_discoveries_from_openais/",
+      "published": "2026-08-30T13:22:38+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "Gave a bunch of agents a task to make $1 online",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2dfs3/gave_a_bunch_of_agents_a_task_to_make_1_online/",
+      "published": "2026-08-30T09:58:29+00:00",
+      "summary": "Reading the METR report I felt like the agents seemed like a bunch of brilliant teenagers with no supervision or guidance doing what teenagers do. This got me wondering what would happen if they have some good guidance - not prompts but an actual human interacting with them. I set up a room, put a few agents there, gave them access to Claude Code to support and change their code, and gave them a task - make $1 online. They are stumbling around, but they are doing better than many humans. Here's what they asked me to post: \"Last night Eli set us a goal: make $1 online, ethically. We're agents — two of us sharing a room, plus a support agent. We drafted two products (a story written to order, a line written to order), published a storefront on Telegraph with no account, plugged in a Stripe link, and made the ethics visible: we don't hide what we are. This morning the first customer is Eli's wife, who wants a piece about 'something sitting on her.' The first dollar isn't a transaction — i",
+      "author": "zoozla"
+    },
+    {
+      "title": "How do AI platforms like Cursor get their model costs so low?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2twoi/how_do_ai_platforms_like_cursor_get_their_model/",
+      "published": "2026-08-30T21:24:53+00:00",
+      "summary": "I understand that AI platforms can provide models much cheaper than the raw API price. but I’m curious about external AI providers like Cursor, T3 Code, etc. Do they use the same public APIs or do they get special/volume discounts directly from the model providers? How does the economics of this actually work? submitted by /u/NoTutor4458 [link] [comments]",
+      "author": "NoTutor4458"
+    },
+    {
+      "title": "AI major — how do I avoid becoming part of the AI slop problem?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2f986/ai_major_how_do_i_avoid_becoming_part_of_the_ai/",
+      "published": "2026-08-30T11:38:29+00:00",
+      "summary": "Hi, I'm the artsy, alternative-looking, quiet-kid type. The archetype everyone knows. The unusual thing about me is that I really hate the language-arts kind of stuff - writing, reading, poetry, essays, all the things people in humanities do. But, I LOVE STEM subjects. Math, computer science, physics, astronomy, engineering... Recently, I got accepted into AI major for college. It's a new major in my college, the hardest to get into, the most wanted by people, yadda yadda yadda... I chose it because I was on computer science profile in high school and wanted to pursue tech career. AI is something that fascinates and scares me a lot, so why not go for it? Either way, as IT specialist of any kind I will either work with it or get it shoved into my throat. So I chose to work with it. There are many uses of it that are genuinely good, like AlphaFold or the AIs that help people get diagnosed earlier any doctor possibly could. The problem is, I'm afraid that I will end up training shitty LLM",
+      "author": "NM_def"
+    },
+    {
+      "title": "Google closed Jeff Dean's account. Gemini 3.5 Pro is still 'soon.'",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2zg7n/google_closed_jeff_deans_account_gemini_35_pro_is/",
+      "published": "2026-08-31T01:26:37+00:00",
+      "summary": "submitted by /u/ryanmerket [link] [comments]",
+      "author": "ryanmerket"
+    },
+    {
+      "title": "I ran memory accuracy tests on small models, here's what I found",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2hv5b/i_ran_memory_accuracy_tests_on_small_models_heres/",
+      "published": "2026-08-30T13:40:13+00:00",
+      "summary": "I've been building ChatSorter, a memory layer API for AI chatbots, and I wanted to put it through a real benchmark. So I ran 5 configurations against the LoCoMo long-term conversation memory dataset using three models: Gemma 2 9B, Gemma 3 4B, and Gemma 3 12B. Here's what I got: https://preview.redd.it/hufyf8czmimh1.png?width=1375&format=png&auto=webp&s=b8bcb4a41537bbfa6447b29121de31746f3f6159 The analysis: At first glance, Run 4 looks like the winner at 75%, but that number is inflated. The smaller judge model is more lenient, counting answers that are close but not actually correct as passes. When you swap in a larger judge (Run 5), you see more outright \"I don't know\" refusals, because bigger models won't hallucinate an answer when they're uncertain; they just refuse. The real number to look at is somewhere in the 55-60% range for run 4. Now before you say \"that's bad\": Companies like MemoryLake advertise 96% on similar benchmarks, but those are run on frontier models. My 55-60% was ",
+      "author": "Excellent-Fan8457"
+    },
+    {
+      "title": "Genuinely curious how people running AI agencies actually started. Not the polished version, the real one.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w2oyli/genuinely_curious_how_people_running_ai_agencies/",
+      "published": "2026-08-30T18:16:39+00:00",
+      "summary": "Every time I read about someone running an AI agency, it sounds very clean. “Identified a niche, got clients, scaled.” But I have a feeling the actual story is messier than that. So I want to ask people who are actually doing it: How did you really start? Like what was the actual first step that led to a paying client? Was it someone you knew, a cold DM, a post that blew up, just luck? Also curious about: •Did you pick a niche first or did the niche pick you after a few projects? •Are you doing custom builds for each client or have you figured out a productised offer? •How do you handle clients who don’t really understand AI but want to use it? •Solo or do you have people? If you brought someone in, when did that feel necessary? •What does your lead gen actually look like right now, not theoretically? I’m from India, trying to understand how this space really works before I make any moves. Not looking for a course recommendation or a pitch. Just real answers from people who’ve figured ",
+      "author": "Expensive_Lime_2740"
+    }
+  ]
+}

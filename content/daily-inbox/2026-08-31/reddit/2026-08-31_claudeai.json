@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-08-31T04:04:18.855487+00:00",
+  "items": [
+    {
+      "title": "I have been working on quantum computing with Fable 5.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2xapb/i_have_been_working_on_quantum_computing_with/",
+      "published": "2026-08-30T23:49:05+00:00",
+      "summary": "submitted by /u/goldenguyz [link] [comments]",
+      "author": "goldenguyz"
+    },
+    {
+      "title": "All leaks and news about Fable, Opus and sometimes Sonnet, what about Haiku? Do you use it? what is your use case?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2t9x1/all_leaks_and_news_about_fable_opus_and_sometimes/",
+      "published": "2026-08-30T20:59:46+00:00",
+      "summary": "I literally use it as the meme stats, Anthropic may lost that low cost tier war with models like GLM 5.3 flash and GPT Luna I can't think they can compete in terms of price/performance in this tier submitted by /u/HimaSphere [link] [comments]",
+      "author": "HimaSphere"
+    },
+    {
+      "title": "The complaints I see every hour here and on Twitter",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2z3h6/the_complaints_i_see_every_hour_here_and_on/",
+      "published": "2026-08-31T01:10:03+00:00",
+      "summary": "submitted by /u/HimaSphere [link] [comments]",
+      "author": "HimaSphere"
+    },
+    {
+      "title": "Those were the days",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2nl6j/those_were_the_days/",
+      "published": "2026-08-30T17:24:47+00:00",
+      "summary": "submitted by /u/Nom___Chompsky [link] [comments]",
+      "author": "Nom___Chompsky"
+    },
+    {
+      "title": "Claude Code is silently adding session URLs (claude.ai/code/session_...) to the bottom of every single commit and PR description you make.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2omfu/claude_code_is_silently_adding_session_urls/",
+      "published": "2026-08-30T18:03:56+00:00",
+      "summary": "PSA for anyone using Claude Code: Check your recent git history and PR descriptions. It's automatically appending a public session URL to everything you commit without telling you. (The fix: set attribution.commit: \"\" in your .claude/settings.json). submitted by /u/Patient_Project425 [link] [comments]",
+      "author": "Patient_Project425"
+    },
+    {
+      "title": "What’s a good useful MCP you connected to that brings you real value?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2grux/whats_a_good_useful_mcp_you_connected_to_that/",
+      "published": "2026-08-30T12:52:00+00:00",
+      "summary": "Looking to improve my workflows and wondering what other might do that’s useful In giving Claude just things that help with day to day things submitted by /u/Dense-Map-406 [link] [comments]",
+      "author": "Dense-Map-406"
+    },
+    {
+      "title": "What's the dumbest thing you use AI for?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2jtq8/whats_the_dumbest_thing_you_use_ai_for/",
+      "published": "2026-08-30T14:59:45+00:00",
+      "summary": "All I see are posts of solo-preneurs lying about how much money their vibe coded startups are making For me, it's probably having Claude convert the oven cooking instructions on frozen food to air fryer times. Yeah I could google it and do the math, but who's got time for all that? submitted by /u/VibeWorks [link] [comments]",
+      "author": "VibeWorks"
+    },
+    {
+      "title": "Reminder: Can you still use Opus 4.6 with 1M context in Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2z2rx/reminder_can_you_still_use_opus_46_with_1m/",
+      "published": "2026-08-31T01:09:06+00:00",
+      "summary": "/model claude-opus-4-6[1M] If Opus 5 or Fable 5 is bitching that it won't do something, just switch to Opus 4.6 ... it's like having a coworker that is not giving you attitude. submitted by /u/autisticbagholder69 [link] [comments]",
+      "author": "autisticbagholder69"
+    },
+    {
+      "title": "Claude Projects made more sense when I stopped thinking of them as folders",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w31d6m/claude_projects_made_more_sense_when_i_stopped/",
+      "published": "2026-08-31T02:55:53+00:00",
+      "summary": "I used to think Claude Projects were basically just folders for keeping chats organized. But while testing them, a better way of thinking about them clicked for me: A Project can turn Claude into a specialist for one recurring job. For example: Job-search Project resume career history target roles achievements rules like “don’t invent experience” Then you can drop in a job description and ask where you actually match, where the gaps are, and what needs changing. Or an n8n Project : n8n docs workflow examples templates SOPs / rules Then you’re not asking a completely general Claude every time. You’re giving it the context for that particular type of work. The mental model I’m using now is: Knowledge = what Claude should know Instructions = how Claude should work Prompt = what you need right now I still wouldn’t use Projects for every random question. But for work where I keep giving Claude the same background again and again, this makes much more sense. Curious what everyone else has bu",
+      "author": "Aimply_flow"
+    },
+    {
+      "title": "Check your default organisation spend limit as a Max User.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w2k6jh/check_your_default_organisation_spend_limit_as_a/",
+      "published": "2026-08-30T15:13:33+00:00",
+      "summary": "Mine was set to $200,000. I'm a solo user but still, theoretically I could owe up to $200,000 with no built-in notifications. I had to enable these as well. I certainly didn't set it to $200,000 and I quickly modified it. submitted by /u/moog500_nz [link] [comments]",
+      "author": "moog500_nz"
+    }
+  ]
+}

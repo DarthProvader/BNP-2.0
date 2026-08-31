@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-08-31T04:00:16.503818+00:00",
+  "items": [
+    {
+      "title": "FULLY FREE GLM 5.3 Flash & Deepseek V4 Flash Coder: This is FREE & GOOD!",
+      "url": "https://www.youtube.com/watch?v=rFSLZJdMToY",
+      "published": "2026-08-30T08:15:30+00:00",
+      "summary": "Visit Verdent: https://www.verdent.ai/?id=700712\n\nVisit AISeeKing (my second channel with more cool local ai stuff): https://www.youtube.com/@aiseeking\n\nIn this video, I'll be telling you about GLM 5.3 Flash and DeepSeek V4 Flash being completely free to use in Verdent, allowing you to run fast multimodal and multi-agent coding workflows without spending any credits.\n\n--\nKey Takeaways:\n\n🚀 GLM 5.3 Flash is now completely free to use inside the Verdent multi-agent coding app.  \n💸 DeepSeek V4 Flash is also free, with generous five-hour and weekly usage limits.  \n👁️ GLM 5.3 Flash can visually inspect frontends, gameplay, and 3D output to improve its own work.  \n⚡ Its Mixture-of-Experts architecture delivers fast performance during agentic coding workflows.  \n🤖 Verdent offers parallel agents, Plan Mode, skills, plugins, and built-in cloud app deployment.  \n🔑 Verdent supports bring-your-own-key and bring-your-own-account options alongside its free trial.  \n👍 You can use the free flash models",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
