@@ -188,9 +188,10 @@ def _run_sdk_steps(
     steps: list[str],
     attempts: int,
     use_git: bool = True,
+    agent_backend=agent_runner,
 ) -> list[str]:
-    logger.info("SDK mode — running steps locally: %s", ", ".join(steps))
-    unfinished = agent_runner.run_steps(
+    logger.info("Agent mode — running steps locally: %s", ", ".join(steps))
+    unfinished = agent_backend.run_steps(
         target_date,
         steps,
         verify=_step_verifier(target_date),
@@ -282,8 +283,10 @@ def run(
     social_timeout: int = DEFAULT_SOCIAL_TIMEOUT,
     clear_inbox_after: bool = False,
     use_git: bool = True,
+    agent_backend=agent_runner,
+    pipeline_name: str = "Cursor",
 ) -> int:
-    logger.info("=== Cursor daily pipeline — %s ===", target_date)
+    logger.info("=== %s daily pipeline — %s ===", pipeline_name, target_date)
     if not use_git:
         logger.info("Git disabled — nothing will be committed or pushed")
 
@@ -313,9 +316,10 @@ def run(
     else:
         unfinished = _run_sdk_steps(
             target_date,
-            steps or list(agent_runner.STEPS),
+            steps or list(agent_backend.STEPS),
             attempts,
             use_git,
+            agent_backend,
         )
 
     exit_code = 1 if unfinished else 0
@@ -345,8 +349,10 @@ def run(
     return exit_code
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="BNP daily orchestrator (Cursor SDK)")
+def main(*, agent_backend=agent_runner, pipeline_name: str = "Cursor") -> None:
+    parser = argparse.ArgumentParser(
+        description=f"BNP daily orchestrator ({pipeline_name} backend)"
+    )
     parser.add_argument("--date", type=str, default=None)
     parser.add_argument("--skip-collect", action="store_true")
     parser.add_argument("--collect-only", action="store_true")
@@ -355,7 +361,7 @@ def main() -> None:
         "--steps",
         type=str,
         default=None,
-        help=f"Comma-separated subset of: {','.join(agent_runner.STEPS)}",
+        help=f"Comma-separated subset of: {','.join(agent_backend.STEPS)}",
     )
     parser.add_argument(
         "--attempts",
@@ -397,7 +403,7 @@ def main() -> None:
     steps: list[str] | None = None
     if args.steps:
         steps = [s.strip() for s in args.steps.split(",") if s.strip()]
-        unknown = [s for s in steps if s not in agent_runner.STEPS]
+        unknown = [s for s in steps if s not in agent_backend.STEPS]
         if unknown:
             print(f"ERROR: unknown steps: {', '.join(unknown)}")
             sys.exit(2)
@@ -421,6 +427,8 @@ def main() -> None:
             social_timeout=args.social_timeout,
             clear_inbox_after=args.clear_inbox,
             use_git=not args.no_git,
+            agent_backend=agent_backend,
+            pipeline_name=pipeline_name,
         )
     except Exception:
         logger.exception("Pipeline failed")
