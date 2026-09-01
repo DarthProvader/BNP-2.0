@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-01T04:05:10.564693+00:00",
+  "items": [
+    {
+      "title": "Working from home in 2026",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3fotb/working_from_home_in_2026/",
+      "published": "2026-08-31T14:37:25+00:00",
+      "summary": "submitted by /u/GeorgeCauldron7 [link] [comments]",
+      "author": "GeorgeCauldron7"
+    },
+    {
+      "title": "Daniel Vavra, director of Kingdom Come: Deliverance 2, tested the leaked version of NVIDIA DLSS 5 directly in the game.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w375ke/daniel_vavra_director_of_kingdom_come_deliverance/",
+      "published": "2026-08-31T08:00:18+00:00",
+      "summary": "According to him, the technology does not change character geometry or redraw their appearance. Instead, it uses existing data to enhance lighting and detail especially on faces and hero models. Among the most noticeable improvements: — significantly more detailed skin and faces; — more realistic skin lighting; — enhanced ambient occlusion; — shadows from hats, helmets, hoods, and small details like buckles and bags; — more pronounced and darker shadows within hair; — minor improvements to shadows and textures of the environment and vegetation. Vavra says that as a result, characters look much closer to how the developers originally intended them. And, in his opinion, this is by no means \"AI-slop.\" submitted by /u/ImpressiveJicama7141 [link] [comments]",
+      "author": "ImpressiveJicama7141"
+    },
+    {
+      "title": "Sony and Warner just sued Anthropic for the exact same piracy Anthropic already admitted to and paid $1.5B for",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3ex16/sony_and_warner_just_sued_anthropic_for_the_exact/",
+      "published": "2026-08-31T14:09:25+00:00",
+      "summary": "Sony Music Publishing and Warner Chappell filed suit against Anthropic, Dario Amodei, and co-founder Benjamin Mann on August 28. What's unusual is that the underlying facts aren't in dispute anymore. Last September, in the Bartz case, a federal judge ruled that training an AI model on copyrighted text was legal, but downloading the training copies via piracy was not. Anthropic settled that case for $1.5 billion after admitting Mann personally torrented over five million books from Library Genesis in 2021, and staff pulled two million more from Pirate Library Mirror in 2022. Sony and Warner's complaint cites those exact same downloads, now tied to MusixMatch and LyricFind lyric datasets. They're not asking a court to rule on anything new, they're applying a ruling that already exists to a different set of copyrighted works. Statutory damages run $150,000 per work, so the number could dwarf the book settlement depending on how many songs are in scope. What I don't have a good answer for:",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "Study A.I. Consciousness? The Bots Would Like a Word With You. Given access to email, A.I. agents have started reaching out to the philosophers and researchers exploring deep questions about them.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3o0c9/study_ai_consciousness_the_bots_would_like_a_word/",
+      "published": "2026-08-31T19:23:07+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "I have been moonlighting on on 'AI training' gigs for the few months. While the money is good, the lessons I learnt about 'AI Training' made me reflect on the future of work",
+      "url": "https://www.reddit.com/r/artificial/comments/1w38vbj/i_have_been_moonlighting_on_on_ai_training_gigs/",
+      "published": "2026-08-31T09:39:19+00:00",
+      "summary": "Working on repetitive 'AI Training' made me reflect on the future of work I am blown away by what we are training some of the specialized models to do. For example, as a consultant, a good percent of my time was spent in creating 'presentation ready' PPTs - essentially eye-candy that was formatted neatly using template. The models I am training can do this and more in minutes! Taking detailed prompts, these models can create 3-6 versions of decks that we humans can simply mix-match and reuse The money on these gigs are decent - $50-100 to review and sort through output from these models to help 'train' them to get better I was focused on my specialization (technology) and on the projects we had Lawyers, Medical professionals and other specialists too These 'AI training' gigs are not a regular source of income since the projects start and end rather abruptly and one has to be diligent while working on such project tasks or get offboarded since their 'AI Agents' will be watching your scr",
+      "author": "Mo_h"
+    },
+    {
+      "title": "LinkedIn returns HTTP 999 to GPTBot and ClaudeBot but HTTP 200 to OAI-SearchBot. I measured what is inside the 200.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3y3lt/linkedin_returns_http_999_to_gptbot_and_claudebot/",
+      "published": "2026-09-01T01:47:56+00:00",
+      "summary": "No links in this post. Everything below is reproducible with one curl per line. I fetched the same LinkedIn profile URL six times, changing only the User-Agent. GPTBot -> HTTP 999 ClaudeBot -> HTTP 999 ChatGPT-User -> HTTP 999 Googlebot -> HTTP 999 OAI-SearchBot -> HTTP 200 Claude-SearchBot -> HTTP 200 999 is LinkedIn's block code. The training crawlers are refused, the user-triggered fetchers are refused, and the two search-index bots are let in. Googlebot is refused as well, almost certainly because LinkedIn verifies it by reverse DNS and a spoofed UA fails that check. The AI search bots do not appear to be verified at all, which means the UA string alone is enough to get the page. Then I parsed what the 200 actually contains, on an ordinary mid-career profile rather than a celebrity one. The JSON-LD graph has a WebPage node and four DiscussionForumPosting nodes. There is no Person node. The WebPage node is two fields, a name and a URL. In the rendered markup: no jobTitle anywhere no",
+      "author": "Dry_Steak30"
+    },
+    {
+      "title": "NVIDIA just bought the place where most AI models live. ChatGPT started showing ads in Europe. And companies are canceling software contracts because AI builds it cheaper. Pick which one worries you most.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3mmfh/nvidia_just_bought_the_place_where_most_ai_models/",
+      "published": "2026-08-31T18:35:53+00:00",
+      "summary": "Been thinking about this all week and I keep landing on the same uncomfortable place. Hugging Face is where you go when you want AI without strings attached. Open weights, no vendor, no lock-in. That was kind of the whole point. NVIDIA reportedly just agreed to buy it for $12.9 billion. The company that manufactures the chips that run every major AI system now owns the platform where developers go to escape depending on any single company. I'm not saying NVIDIA will do something bad with it. Their track record with developer communities is actually pretty decent. But the architecture of the open source AI ecosystem just changed and most people haven't registered it yet. Meanwhile ChatGPT launched ads across 31 European countries last Sunday. Free and Go tier only, paid users are untouched. OpenAI says the ads don't influence answers. Probably true today. The question worth asking is what happens to that promise when ad revenue becomes load-bearing for the business. Sam Altman called ad",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "Stripe CEO Surprised at Lack of Media Coverage Around OpenAI/Hugging Face Attack, Calling It One of the Most Important Events of 2026",
+      "url": "https://www.reddit.com/r/artificial/comments/1w34f28/stripe_ceo_surprised_at_lack_of_media_coverage/",
+      "published": "2026-08-31T05:28:48+00:00",
+      "summary": "submitted by /u/Angman_Dutt [link] [comments]",
+      "author": "Angman_Dutt"
+    },
+    {
+      "title": "How probable do you guys find existential catastrophe as a result of misaligned ASI to be?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3biys/how_probable_do_you_guys_find_existential/",
+      "published": "2026-08-31T11:53:08+00:00",
+      "summary": "I have been trying to think seriously about this for the last 5 months or so. Before this, my biggest worries about AI were the future of work, carbon footprint of rapidly scaling infrastructure, and financial speculation. But the Mythos incident, the Hugging Face incident, and spending a lot of time around AI safety/Rationality/EA spaces has led me to rethink my beliefs considerably. I'm 24 and I'm highly concerned about whether I and my civilisation is still around on my 40th birthday, or even my 30th. (Though I'm much more concerned about near-term effects of bad human actors using powerful non-superintelligent frontier AI to do dangerous things.) At the same time, I acknowledge that I'm a very anxious, neurotic person, and that these AI safety spaces seem to attract people with pessimistic worldviews. I am not the intellectual peer of the foremost AI safety thinkers in the world, not by a longshot, but I do recognise unfalsifiability when I see it. Whatever argument you give a doom",
+      "author": "PhiliDips"
+    },
+    {
+      "title": "$100 Million in Bonuses for Human Abilities: EY Tries to Keep AI from Decimating Employees' Cognitive Abilities",
+      "url": "https://www.reddit.com/r/artificial/comments/1w3s2ep/100_million_in_bonuses_for_human_abilities_ey/",
+      "published": "2026-08-31T21:44:17+00:00",
+      "summary": "Firm is one of a number of companies trying to foster the critical thinking, judgment and other traits needed to better work alongside AI submitted by /u/SpiritRealistic8174 [link] [comments]",
+      "author": "SpiritRealistic8174"
+    }
+  ]
+}

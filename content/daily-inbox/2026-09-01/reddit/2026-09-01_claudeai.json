@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-01T04:04:19.498384+00:00",
+  "items": [
+    {
+      "title": "This Claude's response made me think about our relationship with smartphones.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3g17r/this_claudes_response_made_me_think_about_our/",
+      "published": "2026-08-31T14:49:56+00:00",
+      "summary": "Sharing this because I found it thought-provoking. Beyond the point about boredom, what concerns me is how attached we've become to our phones. Many of us instinctively reach for them every few minutes, while eating, waiting, in the bathroom, or whenever there's a brief moment with nothing to do. It makes me wonder whether we're actually saving time or just filling every empty moment with stimulation. If we never let our brains enter that \"background processing\" mode anymore, what are we permanently losing in return? My guess is that we're already seeing some of the effects: shorter attention spans, less patience, less self-control over our impulses, and less peace of mind. It feels like we've become uncomfortable with doing nothing for even a few minutes, we instinctively reach for our phones instead of simply being present. Maybe we're saving time. Or maybe we're trading away the mental space our brains evolved to need. What do you think? submitted by /u/UndefinedCurve [link] [commen",
+      "author": "UndefinedCurve"
+    },
+    {
+      "title": "I can't do Opus 5 anymore. Every time I talk with it and try to read it, I literally get so confused. Has anyone figured out how to not make it weird to work with?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3xtsz/i_cant_do_opus_5_anymore_every_time_i_talk_with/",
+      "published": "2026-09-01T01:35:33+00:00",
+      "summary": "I was very excited for Opus 5, and it has done some great work for me, as I have a YouTube channel. It has helped me tremendously with actually being able to make edits on my videos and automate a lot of the dumb editing work I used to have to do by hand and spend so much time on. That has been a huge win for me. However, as I've worked with it more and more, I have found it to be really annoying to work with. It has dragged me into so many unnecessary rabbit holes, and I just don't like the way it writes. It tells me things that are only things that I can do, but really all I have to do is say, \"Hey, why don't you try it?\" and then it's able to do it. Its language feels like somebody who's trying to be really intellectual but actually just ends up losing you in how they're being overcomplicated with their speaking instead of simplifying things. I feel like I am struggling to communicate with this model and to keep it scoped and focused while also making it easy to understand. I'm curi",
+      "author": "k_kool_ruler"
+    },
+    {
+      "title": "Week 5 of making my fishing game entirely with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3oha6/week_5_of_making_my_fishing_game_entirely_with_ai/",
+      "published": "2026-08-31T19:39:12+00:00",
+      "summary": "Hello there again, I posted several times already and once again I'm back with a weekly update on game that I'm building entirely with AI. Previous Weekly updates are here: Week 1 Progress Week 2 Progress Week 3 Progress Week 4 Progress Sorry about low FPS in the video my macbook is being friend when trying to run it at maximum details, but I want to show how game looks at it's best. I honestly don't even know what I'm trying to achieve with this game I treat this like a hobby of mine, no particular plans for releasing a game as some people have asked, but if it goes well... who knows. Right now I just want to see how far I can push this \"entirely built with AI game\" thing that all I have to do is decide what I want and how I want it to look. Anyway inspiration for this game is Dredge and Civilisation (I even tried making it hexagon grid turn based at the beginning but after some time I scrapped the idea as there were no real benefits of turn based fishing game over real time one). So ",
+      "author": "RUSuper"
+    },
+    {
+      "title": "Feds quietly sold a seized Anthropic stake from former FTX executives that could be worth up to $5 billion today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w38vay/feds_quietly_sold_a_seized_anthropic_stake_from/",
+      "published": "2026-08-31T09:39:17+00:00",
+      "summary": "submitted by /u/thisisinsider [link] [comments]",
+      "author": "thisisinsider"
+    },
+    {
+      "title": "I was wrong about Claude’s UI skills",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3jydv/i_was_wrong_about_claudes_ui_skills/",
+      "published": "2026-08-31T17:06:57+00:00",
+      "summary": "I thought I was better than Claude at UI design. All my attempts so far looked like AI slop. Up until I tried this approach: build the initial wireframe, work on the UI kit with Claude and define some guidelines (no borders, soft shadows, more whitespace, use Bézier curves in animations) in an MD file. Just like a proper UI designer would do it. Then iterate, but always ask to follow the initial UI kit, ideally referencing the MD file in the repo. This approach gave me impressive results, and that’s because of the formality due to the UI kit (MD) which is the language Claude speaks. I implemented 80% of the new UI features with Claude in a few hours, and I didn’t have to tweak a single thing. It’s a free and open-source PDF editor in 2D, like Figma: - repo: https://github.com/AlexandrosGounis/pdfx - web demo: https://pdfx.zip I’d really appreciate your feedback regarding the UI. submitted by /u/gounisalex [link] [comments]",
+      "author": "gounisalex"
+    },
+    {
+      "title": "Claude started pirating PREY from Fitgirl while I wasnt looking 😆",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3i0yv/claude_started_pirating_prey_from_fitgirl_while_i/",
+      "published": "2026-08-31T16:00:32+00:00",
+      "summary": "This is my prompt for context on what I was doing. After the last line I gave it a giant list of games I have that I want audio data from. I only noticed something was happening because the Fitgirl installer music started playing while I was playing a game ~ \"The list below is your current to do list. Do one at a time, and cross these off your list. Download whatever tool you need to /tools but keep a record of how you unpack/decrypt things for future reference. I want audio, primarily voice audio, but also SFX if its there. If the voice data can be linked to a manifest to make it easier to figure out who is who, thats great and thats the goal. \"H:/\" drive will not be used as it has issues that cause system hangups. For now, I want new extractions and scratch to be written to \"F:\\extracted\" and \"F:\\scratch\". This is to prevent I/O drive issues with C while I'm doing other claude code stuff. Occupy F drive instead as its empty atm and has plenty of space. If tools and other things would",
+      "author": "sir-bantzalot"
+    },
+    {
+      "title": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3y5xt/working_professionals_nonengineering_how_are_you/",
+      "published": "2026-09-01T01:50:54+00:00",
+      "summary": "I work in corporate (think consulting) and I my company recently got access to Claude (incl Cowork and Claude Code). I'm hoping to upgrade my workflows to be really AI-enabled, particularly using Cowork. I'd imagine there is huge opportunity here - digital brain setups, AI for scheduling, help with excel work / slide building, simple workflow automation, streamlined email follow-up, etc. Happy for engineers to contribute but I'm hoping to focus this thread on non-engineering use cases. Figured I'd post here for inspo. How are you all using Claude for professional work? submitted by /u/Fubby2 [link] [comments]",
+      "author": "Fubby2"
+    },
+    {
+      "title": "How do you stop context switching every time Claude takes more than 30 seconds?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3tx9t/how_do_you_stop_context_switching_every_time/",
+      "published": "2026-08-31T22:52:58+00:00",
+      "summary": "I use Claude heavily, and my biggest bottleneck right now isn't the model. It's me. Because I never know whether a response takes 15 seconds or 4 minutes, I don't sit and wait. I go do something else. Then I start a second session. Then a third. By the afternoon I have four or five threads open, none of them finished, and I've lost the plot on all of them. The tool got faster and somehow I got slower. I've tried to force myself to pay attention to only one task at a time, but it didn't work. Just takes too much self-discipline. How do you handle this? submitted by /u/MountainOriginal3663 [link] [comments]",
+      "author": "MountainOriginal3663"
+    },
+    {
+      "title": "I posted 3 days ago about a Claude UI bug that showed I was using Opus when it was draining Fable usage in the background; then I contacted Anthropic support and it got worse.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3pfdc/i_posted_3_days_ago_about_a_claude_ui_bug_that/",
+      "published": "2026-08-31T20:11:31+00:00",
+      "summary": "Becuase extra usage was turned on, but the UI was showing that I had switched to Opus, it cost me $144.00 before I figured out what was happening. Well... It did it again today, and so I used their \"Get Help\" feature. And then I was essentially blackmailed/bullied into just accepting their problems as my own. https://preview.redd.it/5o4u3gglprmh1.png?width=788&format=png&auto=webp&s=1e23a68aa09a2110a6054f08a9688c54a8599272 https://preview.redd.it/s4wydtmmprmh1.png?width=774&format=png&auto=webp&s=77dbdb8d75d35f040083b46b2804c69b808bbd33 https://preview.redd.it/45vm33nnprmh1.png?width=772&format=png&auto=webp&s=044a63811781230f35fbd82367746afa5ef22a98 submitted by /u/Aggravating-Vast-822 [link] [comments]",
+      "author": "Aggravating-Vast-822"
+    },
+    {
+      "title": "рro tір to ɡеt аn ехtrа 10% of уoսr սѕаɡе on thе 20х mах рlаn",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3uzzj/рro_tір_to_ɡеt_аn_ехtrа_10_of_уoսr_սѕаɡе_on_thе/",
+      "published": "2026-08-31T23:35:06+00:00",
+      "summary": "еᴠеrу month, саnсеl уoսr 20х ѕսbѕϲrірtіon аnԁ ԝhеn іt fіnаllу rսnѕ oսt, bսу thе 5х рlаn. սѕе thе 5х рlаn սntіl уoս hіt thе 100% ԝееklу Iіmіt, thеn սрɡrаԁе to thе 20х рlаn аɡаіn. уoս’ll bе bаᴄk аt 0% ԝееklу Iіmіt аftеr thе սрɡrаԁе, аnԁ bеϲаսѕе thе 20х սрɡrаԁе іѕ рrorаtеԁ, уoս’rе not рауіnɡ tах tԝіϲе/рауіnɡ tах on а hіɡhеr totаl аmoսnt. submitted by /u/andybarriateth [link] [comments]",
+      "author": "andybarriateth"
+    }
+  ]
+}

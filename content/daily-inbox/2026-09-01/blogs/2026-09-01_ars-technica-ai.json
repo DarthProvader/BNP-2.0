@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-01T04:00:59.798340+00:00",
+  "items": [
+    {
+      "title": "Think twice before installing this device promising free movies",
+      "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
+      "published": "2026-08-31T15:33:38+00:00",
+      "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
+      "author": "Dan Goodin"
+    }
+  ]
+}
