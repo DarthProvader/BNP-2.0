@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-09-02T04:00:04.609192+00:00",
+  "items": [
+    {
+      "title": "The One-Prompt Dashboard Trick",
+      "url": "https://www.youtube.com/shorts/-goIBDS9UNU",
+      "published": "2026-09-01T13:27:45+00:00",
+      "summary": "I turned a boring spreadsheet into the ultimate content creator dashboard.\n\nIt tracks my audience and growth across YouTube, Instagram, TikTok, LinkedIn, X, Threads, Facebook, and my newsletter, all in one place that my whole team can use.\n\nAnd I built the whole thing with @OpenAI ChatGPT Sites inside the Codex app.\n\nSites handles the hosting, authentication, database, analytics, and even lets you add WebMCP actions that AI agents can interact with directly.\n\nBasically: custom software for your team without having to build all the infrastructure yourself.\n\n🔗If you want to try Sites for yourself, head to the link in the pinned comment to download the Codex app!\n\n#AI #Ainews #ChatGPT #Codex #contentcreator",
+      "author": "Matt Wolfe",
+      "transcript": "I turned this boring spreadsheet into this custom dashboard that's the ultimate content creator hub. And here's how I did it. I went to Codex inside the ChatGPT app and typed @sites into the prompt box. Then I typed the rest of my prompt, and then it got straight to building. The data tracks my audience across YouTube, my newsletter, Instagram, LinkedIn, TikTok, X, Threads, [music] and even Facebook. And I can share that dashboard with my whole team. So, instead of digging through eight different apps, my team can easily track our audience and growth for each platform. And Sites handles all the annoying stuff for you like hosting and authentication and even the database. I can also connect it to a custom domain, and Sites analytics lets me track things like visitors and page views. And with the new web MCP, you can actually build specific actions into your site that compatible AI agents can use directly instead of having it just blindly click around trying to figure out your interface. So, you can basically build these tiny pieces of custom software for yourself for your team without dealing with all the infrastructure normally required. If you want to try Sites for yourself, you can download the Codex app at the link in the caption.",
+      "transcript_lang": "en"
+    }
+  ]
+}

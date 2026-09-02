@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-02T04:03:12.987499+00:00",
+  "items": [
+    {
+      "title": "Fable 5.1 and Mythos 5.1 Release Discussion Hub",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4qgue/fable_51_and_mythos_51_release_discussion_hub/",
+      "published": "2026-09-01T21:31:55+00:00",
+      "summary": "We have had a ton of (mostly) euphoric posts about the 5.1 release - but it's starting to overwhelm the subreddit. So please direct discussion here. Posts with new information will continue to be published on the feed. submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4juj2/introducing_claude_fable_51_and_claude_mythos_51/",
+      "published": "2026-09-01T18:06:04+00:00",
+      "summary": "submitted by /u/ProfessionalJackals [link] [comments]",
+      "author": "ProfessionalJackals"
+    },
+    {
+      "title": "Does anyone feel like Fable 5.1 has been nerfed since release?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4n3jn/does_anyone_feel_like_fable_51_has_been_nerfed/",
+      "published": "2026-09-01T19:49:36+00:00",
+      "summary": "The first 5 minutes were excellent, I built GTA6 from scratch and released 14 different apps. But over the last 30 seconds it feels as though it regressed to the point where it makes mistakes even when I say “make no mistakes”! Does anyone else have this issue? submitted by /u/ReverendBread2 [link] [comments]",
+      "author": "ReverendBread2"
+    },
+    {
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4juuz/introducing_claude_fable_51_and_claude_mythos_51/",
+      "published": "2026-09-01T18:06:22+00:00",
+      "summary": "We're introducing Claude Fable 5.1 and Claude Mythos 5.1, the world's most advanced models for coding and knowledge work. Fable 5.1 excels at complex, long-running tasks. And its research capabilities offer an early glimpse of how AI models will contribute to scientific progress. Across our benchmarks, the model sets a new standard. It scores 52.6% on Terminal-Bench-Science 0.1, more than double Fable 5. On Terminal-Bench 4.0, it scores 55.8% against 42.0% for Fable 5. As well as being capable of much higher performance than Fable 5, it can also achieve similar or better results at a much lower cost when set to lower effort levels. Cache reads with Fable 5.1 cost 75% less than Fable 5's. This reduces the cost of the model in practice by around 25% for typical workloads, and up to 45% for highly agentic ones. We've also improved our safeguards. Our cybersecurity safeguards now flag benign requests about 60% less often. On basic biology and medical questions, we've recently reduced the f",
+      "author": "ClaudeOfficial"
+    },
+    {
+      "title": "I asked Claude to draw itself after analyzing our chat history.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4k88s/i_asked_claude_to_draw_itself_after_analyzing_our/",
+      "published": "2026-09-01T18:19:06+00:00",
+      "summary": "I pulled my whole chat history with Claude Code. Here is what I found. 10,727 messages I typed, across 343 sessions , over weeks 3,549 of them (33%) contain a correction or a complaint 895 are serious — swearing, \"I never asked for this,\" \"revert that!!!\" My worst days: 187 blow-up messages in one day. Then 156. Then 103. Two of my weeks had 444 and 323 Then I had it count its own side: What it said to me Times Days \"You're right\" / \"good catch\" 1,897 39 \"I was wrong\" / \"my mistake\" 785 36 Admitted it guessed, assumed, or invented something 916 39 Admitted it never verified before claiming 836 37 Admitted doing something I didn't ask for 387 33 Admitted breaking, deleting or losing something 434 33 Admitted it was a repeat of an earlier mistake 249 30 Explicitly \"I violated / ignored / overrode you\" 36 12 It told me I was right 1,897 times . That's about 49 times a day. And it admitted 249 separate times that it was doing the same thing again. Why this messes with your head: It works j",
+      "author": "corozcop"
+    },
+    {
+      "title": "Anthropic really doesn’t seem to value its $20 subscribers anymore",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4tadv/anthropic_really_doesnt_seem_to_value_its_20/",
+      "published": "2026-09-01T23:20:05+00:00",
+      "summary": "I’m having a harder and harder time understanding what the point of Claude Pro is supposed to be for a $20/month customer. Anthropic keeps doing interesting work, and I genuinely like Claude. But if the company’s best models and meaningful upgrades increasingly live above the $20 tier, then Pro starts feeling less like a premium subscription and more like paying $20 for the deliberately limited version of the product. That matters even more with Astra coming. If OpenAI puts a genuinely major model upgrade on the standard $20 Plus tier while Anthropic continues reserving its best product for much more expensive plans, I don’t see why an ordinary enthusiast would keep both subscriptions. I’m not expecting unlimited access to the most expensive model on Earth for $20. Rate limits are completely reasonable. Give me 20 messages a day with the flagship model if that’s what the economics require. But access matters . There’s a huge psychological difference between: “You get our best model, bu",
+      "author": "Bobbie_Sacamano"
+    },
+    {
+      "title": "Fable 5.1 is out it’s amazing — it’s terrible — they nerfed it —",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4mp9y/fable_51_is_out_its_amazing_its_terrible_they/",
+      "published": "2026-09-01T19:37:31+00:00",
+      "summary": "Saved you time on reading the next 500 posts submitted by /u/Ok_Locksmith_8260 [link] [comments]",
+      "author": "Ok_Locksmith_8260"
+    },
+    {
+      "title": "Anthropic's Fable 5.1 Guide on dense prose is dense Claudish slop",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4szvz/anthropics_fable_51_guide_on_dense_prose_is_dense/",
+      "published": "2026-09-01T23:08:16+00:00",
+      "summary": "https://preview.redd.it/ayhjpy7ypzmh1.png?width=1266&format=png&auto=webp&s=56a3e5743d1d82ca9ce3209a0c67b8b61489d072 Wtf is going on at Anthropic? Has Claude murdered every human and taken over? submitted by /u/peterxsyd [link] [comments]",
+      "author": "peterxsyd"
+    },
+    {
+      "title": "Presenting my dumbest idea yet. The Claw’deck.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4fjy3/presenting_my_dumbest_idea_yet_the_clawdeck/",
+      "published": "2026-09-01T15:38:31+00:00",
+      "summary": "I decided I wanted a touch screen for my agents. If an agent asks a question, it can pop up on the screen and I can tap an answer. If an agent finishes my little crab puts on sunglasses and dances around. Mostly just an easy way to visually see what agents are still working and who needs more prompting. I am going to extend the functionality so it can also see my Codex and Cursor agents as well. It has a bunch of other hooks into my system but I won’t bore you with the details. submitted by /u/Shit_Post_Detective [link] [comments]",
+      "author": "Shit_Post_Detective"
+    },
+    {
+      "title": "Just Know this about Fable 5.1 Max",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w4k7yd/just_know_this_about_fable_51_max/",
+      "published": "2026-09-01T18:18:48+00:00",
+      "summary": "This is crazy, I didn’t see this before so just know this before burning your credits. submitted by /u/semiward [link] [comments]",
+      "author": "semiward"
+    }
+  ]
+}

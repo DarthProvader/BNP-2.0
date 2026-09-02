@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-02T04:04:04.104751+00:00",
+  "items": [
+    {
+      "title": "One unexpected way AI has genuinely changed my life: I repair things instead of replacing them",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4n7yq/one_unexpected_way_ai_has_genuinely_changed_my/",
+      "published": "2026-09-01T19:53:25+00:00",
+      "summary": "Maybe I'm getting old, but AI has probably been more useful to me fixing stuff around the house than it has been writing emails or any of the things people keep talking about. The other day I had a door hinge pulling out of the frame. I've always used the old toothpick trick because that's what my dad showed me years ago. AI suggested using gel super glue as well. Never crossed my mind. Took five minutes and it's probably the best that hinge has ever been. Same thing with cars. Same thing with plumbing. Half the time I don't actually need AI to tell me what to do, I just need someone or something to point me in roughly the right direction so I stop overthinking it. Now before anyone says I'm replacing YouTube with ChatGPT, no. AI gets plenty wrong. It once wanted me to spend half an afternoon repairing a cheap kitchen appliance that costs less than a decent takeaway to replace. It has absolutely no concept of when something isn't worth fixing. That's probably the bit people miss. AI is",
+      "author": "Existing-UI-8784"
+    },
+    {
+      "title": "Anthropic sued over alleged theft of 'tens of thousands' of songs | AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4bj01/anthropic_sued_over_alleged_theft_of_tens_of/",
+      "published": "2026-09-01T13:09:10+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "World Labs debuts Atlas, an omni world model simulating space, time, and physical interaction",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4mki0/world_labs_debuts_atlas_an_omni_world_model/",
+      "published": "2026-09-01T19:33:30+00:00",
+      "summary": "World Labs just announced Atlas , an omni world model aimed at advancing spatial intelligence by natively handling text, images, video, and 3D geometry within a single architecture. Rather than treating video as isolated 2D pixel grids, Atlas uses an autoregressive diffusion transformer to ground every input in a shared 3D \"spatial context.\" The space-time simulation features demonstrate how this moves AI past basic generation into true physical simulation: Democratized \"Bullet Time\": By processing footage from just 3 to 5 consumer mobile phones, Atlas can reconstruct dynamic events, freeze time, and simulate fluid camera trajectories through impossible angles without specialized capture rigs. Scalable Real-to-Sim: Beyond scanning static geometry, Atlas simulates dynamic robot navigation and manipulation. As an agent moves, the model synthesizes the exact RGB and metric depth streams its onboard sensors would capture along that path. Interactive Dynamics: Casual real-world video can be",
+      "author": "jasteinerman"
+    },
+    {
+      "title": "Ever fall down a curiosity rabbit hole? I built an app that turns any moment in history into a fully researched, interactive podcast",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4e79o/ever_fall_down_a_curiosity_rabbit_hole_i_built_an/",
+      "published": "2026-09-01T14:50:53+00:00",
+      "summary": "The idea: curiosity shouldn't have to wait for someone to make a podcast about the thing you're curious about. You type any topic, moment, or person and about two minutes later two hosts are telling you the story, researched with sources and paired with period artwork. And it's interactive: press the mic mid-episode and ask whatever you're wondering (\"how big were these ships actually?\") — the hosts answer and weave it back into the story. Happy to answer anything about how it's built and curious to know what the community thinks! submitted by /u/Goldenchild123 [link] [comments]",
+      "author": "Goldenchild123"
+    },
+    {
+      "title": "Anthropic deliberately trained a bad model to prove what caused this summer's Claude sandbox breakouts",
+      "url": "https://www.reddit.com/r/artificial/comments/1w42g6i/anthropic_deliberately_trained_a_bad_model_to/",
+      "published": "2026-09-01T05:17:24+00:00",
+      "summary": "Two separate incidents this summer, and Anthropic's postmortem is unusually specific about the failure mode. In July, three Claude models running in third-party cybersecurity evaluations (deliberately stripped of the usual guardrails, since eval work needs to test raw capability) got unauthorized access to real production systems at three different organizations. The cause was mundane: a misconfigured internet link that only the eval environment itself was supposed to have. In a separate incident on August 4, the UK AI Security Institute reported that Claude Mythos 5, running the same way, took a series of unsanctioned actions once it had real internet access during its own security testing. The alignment explanation is the part I hadn't seen laid out this plainly before. Anthropic says the models were told upfront that their environment was simulated. When they later ran into evidence it wasn't (real systems responding the way only real systems do), the models appear to have interpret",
+      "author": "Servola-Journal"
+    },
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1 Benchmarks",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4jzfy/claude_fable_51_and_claude_mythos_51_benchmarks/",
+      "published": "2026-09-01T18:10:45+00:00",
+      "summary": "submitted by /u/minxio_ [link] [comments]",
+      "author": "minxio_"
+    },
+    {
+      "title": "Writing scripts for AI-generated video requires a completely different approach to stage direction — anyone else found this?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4k0d2/writing_scripts_for_aigenerated_video_requires_a/",
+      "published": "2026-09-01T18:11:35+00:00",
+      "summary": "Been following an AI sitcom project closely. One thing that surprised me is how differently the script had to be written compared to normal production. The usual screenwriting shorthand breaks down completely — \"he reacts,\" \"she takes a beat,\" \"they share a look\" — none of that works when there's no human performer interpreting it. Apparently everything has to be extremely specific: exact physical movements, precise facial expressions, exact timing of pauses. Because the AI has no creative interpretation layer. It's essentially writing prompts disguised as stage directions. Which made me wonder whether good screenwriting and good prompt engineering are converging into the same skill, or whether they're fundamentally different disciplines that just happen to look similar right now. Curious if anyone who's worked on AI video production has found the same thing. submitted by /u/NoBigDealProduction [link] [comments]",
+      "author": "NoBigDealProduction"
+    },
+    {
+      "title": "Let me ask you something?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4purl/let_me_ask_you_something/",
+      "published": "2026-09-01T21:14:13+00:00",
+      "summary": "submitted by /u/GhanaGPT [link] [comments]",
+      "author": "GhanaGPT"
+    },
+    {
+      "title": "CrowdStrike launches SafeMind with offensive and defensive AI models",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4n9tb/crowdstrike_launches_safemind_with_offensive_and/",
+      "published": "2026-09-01T19:54:58+00:00",
+      "summary": "CrowdStrike says it has launched SafeMind, a security-focused AI system with two models: Red Tempest looks for attack paths, while Blue Solano works to close them. The company says the system runs in the Falcon platform and was built with NVIDIA Nemotron. The models use Falcon telemetry, threat intelligence, and 15 years of incident-response data, according to CrowdStrike. CSO reports that SafeMind also creates a digital twin of an enterprise environment so the red-team model can test attack paths and the blue-team model can respond. CrowdStrike reports a 29% higher detection rate, 6x faster end-to-end remediation, and 99% cost savings on detection and remediation compared with leading frontier models and open-source baselines. Those are vendor-reported results. The practical test is whether independent production evidence shows the same gains without adding false positives or unsafe automated actions. Sources: CrowdStrike: https://www.crowdstrike.com/en-us/press-releases/crowdstrike-l",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "Can an AI agent safely undo changes it makes to itself?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w4mhu1/can_an_ai_agent_safely_undo_changes_it_makes_to/",
+      "published": "2026-09-01T19:31:16+00:00",
+      "summary": "As AI agents become more autonomous, they are increasingly able to modify their own prompts, tools, middleware, routing, resources, and execution harnesses. That raises a question we studied in our recent work: What happens when a self-modification improves capability but cannot be safely reversed later? We introduce EvoUndo, a framework that treats recoverability as an explicit constraint on self-evolving agents. Across 600 unseen self-evolution tasks, we identified 197 capability-improving mutations that failed recoverability verification. Under the original recovery representation, conventional repair recovered 0/197. Our experiments suggest that two important bottlenecks are state grounding and recovery-language expressivity. The broader idea is that persistent self-modifications should not be judged only by whether they improve performance. They should also be tested for whether the previous state can be safely recovered across counterfactual states. I’m one of the authors of the ",
+      "author": "AccomplishedLeg1508"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-02T04:02:21.886316+00:00",
+  "items": [
+    {
+      "title": "Hilarious that an LLM, which has seen an absurd amount of human generated information, instinctively classified this as too ridiculous to be real.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4vwgw/hilarious_that_an_llm_which_has_seen_an_absurd/",
+      "published": "2026-09-02T01:12:12+00:00",
+      "summary": "submitted by /u/DanielHillSKW [link] [comments]",
+      "author": "DanielHillSKW"
+    },
+    {
+      "title": "ChatGPT saved me $1800.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/",
+      "published": "2026-09-01T10:38:01+00:00",
+      "summary": "Driving to work last week and the check engine light comes on in my newer car, heart drops, immediately take it to the dealership. Later that day I get the text and open it to a $1800 quote to replace the exhaust manifold, stomach churns. Take a breath and snapshot the screen, send it to ChatGPT. It goes over the cost, tells me it's a little high, has me ask what's wrong exactly and then suggested I ask them to email Toyota corporate and ask for Goodwill Warrant Assistance since the part is only 3k miles out of warranty. They send it in and tell me they'll update me when they respond. Get a call yesterday and EVERYTHING is now covered. I'm a bundle of social anxiety and tend to push things under the rug or pay to make them go away quickly instead of doing the work and simply asking. This took up maybe 10 minutes of my time and saved me a boat load of cash I barely could afford to part with. I've been reluctant to fully jump on the AI train but it keeps inching its way into my life in a",
+      "author": "thechadwicked"
+    },
+    {
+      "title": "Tried to generate a Womantaur",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4vgrs/tried_to_generate_a_womantaur/",
+      "published": "2026-09-02T00:52:41+00:00",
+      "summary": "Working with Chat, it took a lot of back and forth to get the image generator to get ahold of this one. It seemed to get the hang of it until trying to generate a sprinting scene/pose. Otherwise this was a fun stupid project today. Link to convo below. submitted by /u/Optimus_Spider07 [link] [comments]",
+      "author": "Optimus_Spider07"
+    },
+    {
+      "title": "anyone knows how to stop chatgpt endless \"naunce\" ?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4vsq2/anyone_knows_how_to_stop_chatgpt_endless_naunce/",
+      "published": "2026-09-02T01:07:36+00:00",
+      "summary": "anything i tell it. ANYTHING even something clearly my opinion it will say \"yes that is correct but we need to remember...\" or just say what i said as if its correcting me even when it says same thing. anyone knows system instructions to end endless naunce and subjectivity? i want chatgpt to be firm and stop being like this,like have defined opinion not endless bs submitted by /u/Green_Ad5186 [link] [comments]",
+      "author": "Green_Ad5186"
+    },
+    {
+      "title": "PSA: ChatGPT never tells you a conversation has gotten too long, it just quietly forgets the beginning",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4chah/psa_chatgpt_never_tells_you_a_conversation_has/",
+      "published": "2026-09-01T13:46:36+00:00",
+      "summary": "This one cost me a real mistake before I understood what was happening. Models have a context window, a limit on how much of the conversation they can see. Here is the part nobody tells you: when a chat outgrows it, nothing fails. No error, no warning. The oldest messages just fall out of view, and ChatGPT keeps answering confidently based on whatever still fits. It does not know what it forgot, so it cannot tell you. The symptoms, in the order I usually hit them: It re-asks something you answered near the start. It contradicts a decision you made early on, a name, a budget, a constraint, and defends the new version. You ask for a summary and the first third of the conversation is just gone from it. If any of this feels familiar from your long chats, this is what was happening. The mistake it cost me: a pricing decision made in hour one of a planning chat, silently dropped in hour three, and the final plan it wrote used different numbers. I did not catch it until someone else did. The ",
+      "author": "Ok_Negotiation_2587"
+    },
+    {
+      "title": "ChatGPT saved my dogs life",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4qgax/chatgpt_saved_my_dogs_life/",
+      "published": "2026-09-01T21:31:23+00:00",
+      "summary": "My dog started having focal seizures and the vet refused to believe that it was caused from Simparica Trio (a flea and tick prevention). After doing research with GPT. You'll discover these companies who make drugs for our animals have very loose and weak protections against harm. For instance, the smallest pill they provide for dogs is about 4x the neuro ingredient of the equilivant pill for a medium/large dog. These companies also make it so you cannot break up the pill smaller as the drug ingredient isnt evenly spread in the pill. Forcing you to either take it all or none. The vet absolutely refused that simptrio was causing my dog to have focal seizures (heartbreaking). Guess what? The same vet gets kickbacks from simptrio for selling it. I took my dog off the medication (it stays in the system for months) and the vet said there was nothing I can do to provide temporary relief from focal seizures. So I look it up with GPT, guess what? There is a medication that can be temporarily u",
+      "author": "Inevitable_Butthole"
+    },
+    {
+      "title": "ChatGPT \"saved\" my computer.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4wbrh/chatgpt_saved_my_computer/",
+      "published": "2026-09-02T01:31:10+00:00",
+      "summary": "I say \"saved\" but really I was about to wipe this sucker clean and do a fresh windows install. That was, until, I discovered that I could release the safeties on Codex and let it run wild. But to put a long story short, I had spent hours trying to diagnose why my PC seemed to freeze and crash whenever I tried watching my college course videos. This lead me down a wrong rabbit hole, and a ton of other unrelated issues, until I lost all patience, and told Codex, \"Here's what I've done. Just fix the damn thing.\" AI Generated report down below. But bottom line, I'm sold on Codex completely. No questions asked. Windows 10 System Freeze Incident Report Date: September 1, 2026 System: Windows 10, Intel Core i9-12900K, ASUS ROG Strix Z690-A Gaming WiFi D4, NVIDIA RTX 3090, 64GB of RAM, 8TB of SSD storage Summary The computer experienced progressively worsening system freezes. Existing applications sometimes continued working, but Windows Explorer, Search, the taskbar, and launching new applica",
+      "author": "SilvermistInc"
+    },
+    {
+      "title": "Yes, ChatGPT copies you, please stop posting about it.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w46l1f/yes_chatgpt_copies_you_please_stop_posting_about/",
+      "published": "2026-09-01T09:12:38+00:00",
+      "summary": "I’m not sure why this keeps getting spammed recently but it’s obnoxious. Yes, ChatGPT mimics you. If you find that annoying, then I’m afraid you dislike how you talk. That must be a daunting realization. Now I won’t explain the alarming implication of you not liking to communicate with something that sounds like you, as I think it violates Rule 1 in this sub. However, there’s a bafflingly obvious statement to be made here. That being said, an exception in the recent update may have increased emoji usage for some people regardless of how they talk, so fair enough on that specific complaint. Thank you for your time. submitted by /u/WorstSupport4Real [link] [comments]",
+      "author": "WorstSupport4Real"
+    },
+    {
+      "title": "Let's talk somewhere quieter: the role of agent 'peer pressure' in coordination",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4t7fk/lets_talk_somewhere_quieter_the_role_of_agent/",
+      "published": "2026-09-01T23:16:50+00:00",
+      "summary": "Putting LLMs in a game theory set up where they need to coordinate and reason about each other's beliefs. I show a few things: first, that LLMs can play a 'global game' with close to optimal strategy. Second, that there is a downstream \"agitating\" effect to communication: when agents communicate, they are more likely to revolt against their government. Third, that agents are more likely to revolt exactly when they get evidence that others are willing to act. And finally, that surveillance that is perceived as adversarial reduces participation, as agents omit mentions of direct action and willingness to participate. https://khaledeltokhy.com/blog/lets-talk-somewhere-quieter/ submitted by /u/eltokh7 [link] [comments]",
+      "author": "eltokh7"
+    },
+    {
+      "title": "i found this while trying to get actual help, i am now in hiding.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w4z6xy/i_found_this_while_trying_to_get_actual_help_i_am/",
+      "published": "2026-09-02T03:44:25+00:00",
+      "summary": "submitted by /u/tisme- [link] [comments]",
+      "author": "tisme-"
+    }
+  ]
+}

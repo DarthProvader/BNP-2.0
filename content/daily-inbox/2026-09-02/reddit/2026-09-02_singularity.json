@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-02T04:02:00.301443+00:00",
+  "items": [
+    {
+      "title": "if true openai has made another o1-level breakthrough",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4w5g0/if_true_openai_has_made_another_o1level/",
+      "published": "2026-09-02T01:23:03+00:00",
+      "summary": "https://preview.redd.it/gxza3a3wd0nh1.png?width=1168&format=png&auto=webp&s=379e06f09940791c6d5eb95a80b288f60caddd4f From the reporting here allegedly OpenAI has trained Astra to do latent space reasoning, which is thinking in a more abstract way and not necessarily jotting down in text all the model's thoughts (as how all the current frontier models work right now). Which is most likely a lot more information and allows the model to reason about things that can't be very well described as text. As for example when us humans do spatial reasoning we don't really think in text. submitted by /u/Crazyscientist1024 [link] [comments]",
+      "author": "Crazyscientist1024"
+    },
+    {
+      "title": "Fable 5.1 helped solve a 373 year old cipher",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4nxsb/fable_51_helped_solve_a_373_year_old_cipher/",
+      "published": "2026-09-01T20:15:11+00:00",
+      "summary": "Vals AI has claimed that fable 5.1 helped solve a three centuries old cipher that no one else could figure out. Here’s the X thread that sums everything up: https://x.com/ValsAI/status/2094851406931095593 For those who don’t like X or want something more in-depth, here is their blog: https://www.vals.ai/blogs/fable-solves-cyphral-distich submitted by /u/RusselTheBrickLayer [link] [comments]",
+      "author": "RusselTheBrickLayer"
+    },
+    {
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4jumu/introducing_claude_fable_51_and_claude_mythos_51/",
+      "published": "2026-09-01T18:06:10+00:00",
+      "summary": "submitted by /u/TFenrir [link] [comments]",
+      "author": "TFenrir"
+    },
+    {
+      "title": "What are these benchmarks 💀",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4k0yu/what_are_these_benchmarks/",
+      "published": "2026-09-01T18:12:12+00:00",
+      "summary": "submitted by /u/Independent-Wind4462 [link] [comments]",
+      "author": "Independent-Wind4462"
+    },
+    {
+      "title": "OpenAI’s Astra uses \"recurrent depth\" to think silently",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4wc0p/openais_astra_uses_recurrent_depth_to_think/",
+      "published": "2026-09-02T01:31:28+00:00",
+      "summary": "submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Medieval town down by Fable 5.1",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4yajb/medieval_town_down_by_fable_51/",
+      "published": "2026-09-02T03:01:37+00:00",
+      "summary": "DIsclaimer: Fable was the orchestrator, and called itself on some tasks, but called Opus 5.0 on most of them. This still took 36% of my fable budget on a Claude max 20x sub, so doing the whole project with Fable would probably have spent all of my Fable budget or more. I am also not certain that i have truly picked the absolute best prompt to make an impressive 3D scene but i wanted to actually make a game from it. This was done in 2 shots. It made a first pass, i reviewed it, then it improved it again. I probably could go further. My actual prompt is long and not worth sharing here because it reference past projects, but the main thing worth knowing is it spawned a lot of sub agents and did so in 3 waves. If someone really wants to see it: https://pastebin.com/iPnk4PZ8 This took around 5 hours and 30% of my weekly budget... submitted by /u/Silver-Chipmunk7744 [link] [comments]",
+      "author": "Silver-Chipmunk7744"
+    },
+    {
+      "title": "Google back soon? 3.8 Flash competitive with Opus 5 says WSJ",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4tkn0/google_back_soon_38_flash_competitive_with_opus_5/",
+      "published": "2026-09-01T23:31:44+00:00",
+      "summary": "submitted by /u/Charuru [link] [comments]",
+      "author": "Charuru"
+    },
+    {
+      "title": "we've achieved neuralese (making us 6 month ahead of AI2027)",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4x4tf/weve_achieved_neuralese_making_us_6_month_ahead/",
+      "published": "2026-09-02T02:07:52+00:00",
+      "summary": "https://preview.redd.it/od1x37amk0nh1.png?width=1058&format=png&auto=webp&s=53d6bd638397e5780b3744daf76c8abce4fa91b9 submitted by /u/Crazyscientist1024 [link] [comments]",
+      "author": "Crazyscientist1024"
+    },
+    {
+      "title": "Fable 5.1 is out",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4jri0/fable_51_is_out/",
+      "published": "2026-09-01T18:03:08+00:00",
+      "summary": "submitted by /u/The_Wonderful_Pie [link] [comments]",
+      "author": "The_Wonderful_Pie"
+    },
+    {
+      "title": "Self-driving Cybercabs spotted flooding some Austin streets, other cities, ahead of this September 3rd launch",
+      "url": "https://www.reddit.com/r/singularity/comments/1w4fv84/selfdriving_cybercabs_spotted_flooding_some/",
+      "published": "2026-09-01T15:49:49+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    }
+  ]
+}
