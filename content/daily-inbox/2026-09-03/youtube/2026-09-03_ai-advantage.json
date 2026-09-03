@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-09-03T04:01:12.782459+00:00",
+  "items": [
+    {
+      "title": "You need to start using Claude Skills!",
+      "url": "https://www.youtube.com/shorts/AvLkMgeWzjc",
+      "published": "2026-09-02T08:06:37+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor",
+      "author": "The AI Advantage",
+      "transcript": "Even the most advanced users of AI shifted to using way more skills. >> They're free. We're going to chat you between Claude. Let's get to it. And the first one we should always look at is actually built in one. This one you won't install, but you need to know about it. It's called, and if I go all the way to the bottom of the list, this one, skill creator. And the skill creator is basically a skill that, well, let's say create and save other skills. So, maybe you're doing something in Claude and you did a multi-step process. You can always go and say {slash} skill creator, turn what I did into a skill. And it will save that. Now, knowing of the skill creator can be very useful because in various situations, maybe you're uploading a chat GB skill in a different file format, you can always just say skill creator and be like, save this skill to my library. Often times, if you do that without calling the skill creator, it will struggle a little bit.",
+      "transcript_lang": "en"
+    }
+  ]
+}

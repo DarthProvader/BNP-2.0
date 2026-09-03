@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-03T04:02:53.176718+00:00",
+  "items": [
+    {
+      "title": "\"GPT-6-ASTRA\" has been staged on the OpenAI API",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5f55h/gpt6astra_has_been_staged_on_the_openai_api/",
+      "published": "2026-09-02T16:24:16+00:00",
+      "summary": "https://preview.redd.it/qa0i0dfyu4nh1.png?width=598&format=png&auto=webp&s=cca6c0c3722796add5d00c7b55c090531a0ea2be we eating good this week submitted by /u/ThunderBeanage [link] [comments]",
+      "author": "ThunderBeanage"
+    },
+    {
+      "title": "Who does a better job of explaining the future of generative AI: Ben Affleck or AI CEOs?",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5q76e/who_does_a_better_job_of_explaining_the_future_of/",
+      "published": "2026-09-02T23:02:57+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Muse Spark 1.3 Released",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5knze/muse_spark_13_released/",
+      "published": "2026-09-02T19:36:28+00:00",
+      "summary": "submitted by /u/MagicZhang [link] [comments]",
+      "author": "MagicZhang"
+    },
+    {
+      "title": "Meta’s muse spark 1.3 surpassed fable 5 and GPT 5.6 sol 🫪",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5nkbh/metas_muse_spark_13_surpassed_fable_5_and_gpt_56/",
+      "published": "2026-09-02T21:19:16+00:00",
+      "summary": "submitted by /u/Snoo26837 [link] [comments]",
+      "author": "Snoo26837"
+    },
+    {
+      "title": "The tide is turning",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5sahg/the_tide_is_turning/",
+      "published": "2026-09-03T00:33:29+00:00",
+      "summary": "submitted by /u/Cagnazzo82 [link] [comments]",
+      "author": "Cagnazzo82"
+    },
+    {
+      "title": "Gemini 3.8 Flash Benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5d1pz/gemini_38_flash_benchmarks/",
+      "published": "2026-09-02T15:08:38+00:00",
+      "summary": "submitted by /u/Able-Line2683 [link] [comments]",
+      "author": "Able-Line2683"
+    },
+    {
+      "title": "Astra leaked chat",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5vzrc/astra_leaked_chat/",
+      "published": "2026-09-03T03:26:40+00:00",
+      "summary": "The singularity has arrived. submitted by /u/VenomCruster [link] [comments]",
+      "author": "VenomCruster"
+    },
+    {
+      "title": "Meta slowly catching back up. Muse Spark 1.3 beats Sol on AA",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5mew4/meta_slowly_catching_back_up_muse_spark_13_beats/",
+      "published": "2026-09-02T20:37:37+00:00",
+      "summary": "submitted by /u/DistanceSolar1449 [link] [comments]",
+      "author": "DistanceSolar1449"
+    },
+    {
+      "title": "May We Take A Moment?",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5tu57/may_we_take_a_moment/",
+      "published": "2026-09-03T01:44:00+00:00",
+      "summary": "Prior to ChatGPT, the turing test was typically considered to be the defining moment; the event that marked when we could no longer doubt machine awareness anymore than our own. Does anyone here even remember when models started passing it? What model was it? I feel like crossing this threshold was a blip in time and the immediate consensus was, \"that's actually a flawed and easily gamed test\". I'm not debating this idea, but it doesn't change the fact that we, as a community, as a society, have been quick to move the goal posts as we've become desensitized to the current state of the art. I'd like to remind everyone that GPT-3, not ChatGPT/3.5, was referred to by the community as proto-AGI. If you were to have shown someone in 2016 a current frontier model, they would have likely considered it AGI. As someone that's been obsessed with AI since I was a child, I remember the moment I read GPT-3 output a convincing and coherent 4chan copypasta (cringe I know, but that was the moment) and",
+      "author": "SOCSChamp"
+    },
+    {
+      "title": "Insider's opinion on Astra capabilities",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5rm41/insiders_opinion_on_astra_capabilities/",
+      "published": "2026-09-03T00:03:13+00:00",
+      "summary": "@Lentils80 post on X \"Over the past few days, two GPT Astra checkpoints, \"ultima-alpha\" and \"vega-alpha\", were undergoing testing \"ultima-alpha\" appears to be the release candidate intended for the public, while \"vega-alpha\" is the cybersecurity-focused variant meant for security work in select enterprises Based on extensive testing on my part, when OpenAI said Astra is built for long-running tasks and orchestration they really meant it. It can run for an incredibly long time even without setting \"/goal\", fully autonomous, and it's very capable at orchestration and guiding the subagents it spawns For the research community, it's very good at applying existing academic literature. Tried it at some hard graphics optimization stuff, so a LOT of complex math involved, and it did great It also writes code with great quality and maintainability (for an LLM ofc), ranking the best out of all models in that I'd say, but most normal people will probably just run it as the main agent and cheaper ",
+      "author": "Ok_Display_3159"
+    }
+  ]
+}

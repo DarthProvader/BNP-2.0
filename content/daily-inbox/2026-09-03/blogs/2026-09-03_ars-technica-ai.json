@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-03T04:01:46.469902+00:00",
+  "items": [
+    {
+      "title": "I rented a car, and within hours, my driver's license was for sale",
+      "url": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+      "published": "2026-09-02T19:32:02+00:00",
+      "summary": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+      "published": "2026-09-02T10:00:43+00:00",
+      "summary": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-03T04:05:57.387609+00:00",
+  "items": [
+    {
+      "title": "Can anyone explain how this works to me? Is it a scam? This person says they'll send me a computer and pay me $200 per week to keep it on 24/7",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5bpww/can_anyone_explain_how_this_works_to_me_is_it_a/",
+      "published": "2026-09-02T14:19:25+00:00",
+      "summary": "submitted by /u/Junior-Key-5043 [link] [comments]",
+      "author": "Junior-Key-5043"
+    },
+    {
+      "title": "Last quarter has been insane. Amazing times to be alive.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5421z/last_quarter_has_been_insane_amazing_times_to_be/",
+      "published": "2026-09-02T08:07:13+00:00",
+      "summary": "I developed an ML algorithm for detection of pneumonia on chest x-rays back in 2019 when i studied for the MD. Back then, the things we are seeing now where an unimaginable pipe dream. If I could go back and explain to myself the capabilities of the frontier models, it would be like explaining todays computer back in the early 1900s. I would have then called this AGI for sure. Adding to the fact that Luna can run a month for reasonable $ sum too I think would have been shocking. I currently smart route between open weight and frontier models through standardcompute.com . 200 bucks then gives me insane capabilities. Doing what I spent 2 months on in 2019 would literally take me 10 minutes now. submitted by /u/Firm-Club-8334 [link] [comments]",
+      "author": "Firm-Club-8334"
+    },
+    {
+      "title": "Trump administration backs OpenAI in New York Times copyright battle",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5kswn/trump_administration_backs_openai_in_new_york/",
+      "published": "2026-09-02T19:41:26+00:00",
+      "summary": "submitted by /u/lol2funneeee [link] [comments]",
+      "author": "lol2funneeee"
+    },
+    {
+      "title": "The Pentagon is giving 3 million military and civilian workers access to ChatGPT and Grok through a secure AI platform built for ‘warfighter needs’",
+      "url": "https://www.reddit.com/r/artificial/comments/1w58zoc/the_pentagon_is_giving_3_million_military_and/",
+      "published": "2026-09-02T12:30:53+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Simcha Kosman AMA: Owning ChatGPT's Secure Sandbox",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5wqja/simcha_kosman_ama_owning_chatgpts_secure_sandbox/",
+      "published": "2026-09-03T04:04:13+00:00",
+      "summary": "submitted by /u/_clickfix_ [link] [comments]",
+      "author": "_clickfix_"
+    },
+    {
+      "title": "Introducing Human Tool, a Claude Code plugin that erodes your dignity",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5qi0f/introducing_human_tool_a_claude_code_plugin_that/",
+      "published": "2026-09-02T23:15:49+00:00",
+      "summary": "submitted by /u/huopak [link] [comments]",
+      "author": "huopak"
+    },
+    {
+      "title": "Classics departments are disappearing and AI cannot even read their texts. The polytonic Greek problem nobody talks about.",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5buz3/classics_departments_are_disappearing_and_ai/",
+      "published": "2026-09-02T14:24:39+00:00",
+      "summary": "Every major AI model on market today fails at polytonic Ancient Greek. Not a little. Completely. Ask ChatGPT to parse a sentence from Aristotle's Nicomachean Ethics in original Greek and watch what happens. It confuses accents, drops breathings, produces Modern Greek where polytonic should be. The entire Corpus Aristotelicum, 2,400 years of philosophical reasoning, is invisible to the systems we call \"intelligent.\" The reason is technical but simple. Training data for Ancient Greek is almost zero. Modern Greek exists in some quantity, but polytonic script, with its rough and smooth breathings, acute, grave, and circumflex accents, is a different orthographic system entirely. RLHF training made problem worse. Human raters do not know polytonic Greek. They rate outputs based on what looks reasonable to them, which means they reward Modern Greek approximations and punish authentic polytonic forms. The alignment process systematically destroys what little Ancient Greek capability the base ",
+      "author": "vasilisvj"
+    },
+    {
+      "title": "Used Story Prism’s New Agentic-Powered Building Tool to Connect 178 Sources in Minutes. Found a Disturbing Pattern in Epstein’s Intellectual Network...",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5f8xc/used_story_prisms_new_agenticpowered_building/",
+      "published": "2026-09-02T16:27:58+00:00",
+      "summary": "A while back, when the Epstein files were released, I dug into them like many others did. But instead of focusing primarily on the scandals, I focused on the intellectuals Epstein wined and dined, not to uncover anything illegal, but to understand why he seemed so fixated on cultivating relationships with these people. That question interested me because the range of scholars was so vast, and all of them were rock stars in their respective fields. So why would a prolific child sex trafficker, someone building kompromat on powerful people and operating elbow-deep in gray-zone networks, be so interested in all of these geniuses? Initially, I used the Story Prism canvas to manually upload the scholarly work of every individual named in the Epstein files. I then connected the material into a tree-branch structure, attaching all of the books to a single chatbot persona named Winston, who acts as a librarian and helps me find information across the collection. For those who don’t know, Story",
+      "author": "CyborgWriter"
+    },
+    {
+      "title": "AI coding tools are saving me hours but I keep secondguessing whether I actually understand what I shipped",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5bkf2/ai_coding_tools_are_saving_me_hours_but_i_keep/",
+      "published": "2026-09-02T14:13:42+00:00",
+      "summary": "Been building a small SaaS for about six months now, invoice automation for freelancers, and I lean on AI coding assistants pretty heavily since I'm not a trained developer. The thing that keeps nagging at me: the code works, users are signing up, but I didn't write most of it in any traditional sense. I described problems and iterated on outputs. That felt fine at first. Now I'm looking at scaling questions and realizing I have these gaps where I genuinely cannot explain why certain parts of the architecture are structured the way they are. The AI made a call, I accepted it because it ran, and now that decision is loadbearing. This is probably a new version of a very old problem. People have always used tools they don't fully understand to build things that depend on those tools. But the speed at which AI lets you outrun your own comprehension feels different. The gap between what you can ship and what you actually understand closes really slowly while the product keeps moving. submit",
+      "author": "Excellent-Wheel7769"
+    },
+    {
+      "title": "How are you keeping long-running agents from losing the plot?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w5mc9p/how_are_you_keeping_longrunning_agents_from/",
+      "published": "2026-09-02T20:34:57+00:00",
+      "summary": "For the past few weeks I have been working on optimising long running agent workflows, and in every case the main bottleneck is memory and state management rather than the raw capabilities of the model. Each time an agent has to carry out multi-step tool calls over long sessions, the standard context windows either overflow or suffer from serious context rot. At first we attempted to feed very long prompt histories into the GPT and Claude modelsbut performance soon deteriorated after only a few dynamic interactions. Instead we changed our method to one involving stateful tracking, experimenting with frameworks such as Lyzr together with custom Redis layers so as to keep the agent's memory confined to a structured state rather than sending the whole conversation back to the model on each iteration. It greatly reduced both latency and token bloat, but I'm interested to know how other people are dealing with state persistence in the case of complex agentic setups. submitted by /u/Deepfeet",
+      "author": "Deepfeet-09"
+    }
+  ]
+}
