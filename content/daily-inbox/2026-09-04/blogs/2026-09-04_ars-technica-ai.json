@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-04T04:01:48.634997+00:00",
+  "items": [
+    {
+      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
+      "url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+      "published": "2026-09-03T18:52:06+00:00",
+      "summary": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
+      "url": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
+      "published": "2026-09-03T17:58:31+00:00",
+      "summary": "Pro soccer team's CTO points to \"issues with the Broadcom takeover.\"",
+      "author": "Scharon Harding"
+    }
+  ]
+}

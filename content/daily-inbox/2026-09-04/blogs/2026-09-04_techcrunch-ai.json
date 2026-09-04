@@ -1,0 +1,69 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-09-04T04:01:45.256345+00:00",
+  "items": [
+    {
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "published": "2026-09-03T23:48:42+00:00",
+      "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "author": "Marina Temkin"
+    },
+    {
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "published": "2026-09-03T18:36:29+00:00",
+      "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+      "author": "Marina Temkin"
+    },
+    {
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "published": "2026-09-03T17:37:57+00:00",
+      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "Meta is paying to peek at how you use their latest AI model",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "published": "2026-09-03T17:19:56+00:00",
+      "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+      "author": "Tim Fernholz"
+    },
+    {
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "published": "2026-09-03T17:01:45+00:00",
+      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+      "author": "Lucas Ropek"
+    },
+    {
+      "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+      "published": "2026-09-03T15:09:01+00:00",
+      "summary": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+      "published": "2026-09-03T14:00:00+00:00",
+      "summary": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+      "author": "Tim Fernholz"
+    },
+    {
+      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "published": "2026-09-03T11:42:45+00:00",
+      "summary": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+      "author": "Ivan Mehta"
+    }
+  ]
+}

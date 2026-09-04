@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-04T04:05:58.707629+00:00",
+  "items": [
+    {
+      "title": "ChatGPT, Claude and Grok Went Down Together: But How Did Gemini Avoid a Major Outage?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6j83r/chatgpt_claude_and_grok_went_down_together_but/",
+      "published": "2026-09-03T20:31:20+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Can we all acknoledge how crazy AI is?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
+      "published": "2026-09-04T03:16:23+00:00",
+      "summary": "There is usually so much talk about what AI can't do, and not what it already can. All the normal things we do using AI would've been science fiction 10 years ago. The Turing test used to be the pinnacle of Language Models. I feel like it just slowly got phased out and is now treated like a semi-joke. We can talk to machines that appear to be intelligent and talk like humans. We used to think that language was what made us human (Don't start arguing that LLMs don't actually \"understand\" anything; go read this: https://www.anthropic.com/research/tracing-thoughts-language-model ) Imagine telling someone even 5 years ago that 10 research-level math problems would be solved by a single AI model. No one would've belived you. It's insane that these things work at all. I feel like if you told the average person on this subreddit 10 years ago that something like this would happen, almost no one would believe you. The Hugging Face incident literally sounds like science fiction. Agents coming to",
+      "author": "AkindaGood_programer"
+    },
+    {
+      "title": "Nvidia buys Hugging Face for $12.9B - End of neutral AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w66hbd/nvidia_buys_hugging_face_for_129b_end_of_neutral/",
+      "published": "2026-09-03T12:49:51+00:00",
+      "summary": "Nvidia has officially agreed to acquire Hugging Face, the definitive hub of open-source artificial intelligence, in a massive $12.9 billion deal that marks a major turning point for the AI ecosystem. Hugging Face CEO Clément Delangue revealed on CNBC's Squawk Box that he personally approached Jensen Huang over the summer to initiate the acquisition. By absorbing the platform long considered the \"Switzerland of AI,\" Nvidia secures a seamless vertical stack from hardware architecture to developer workflows, raising critical questions about whether the repository can maintain its strict cloud-and-hardware-agnostic neutrality under the roof of the dominant GPU manufacturer. Nvidia now owns the hardware, the CUDA software layer, and the largest repository where developers find and share models. Is this the ultimate vertical monopoly? Source: CNBC submitted by /u/unconventionalbook [link] [comments]",
+      "author": "unconventionalbook"
+    },
+    {
+      "title": "What will happen to AI once they start making it a non-free service for consumers?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6e81s/what_will_happen_to_ai_once_they_start_making_it/",
+      "published": "2026-09-03T17:36:30+00:00",
+      "summary": "Just a regular smeggular person here asking a question. AI is everywhere now, but its free so its being pushed on a lot of people everywhere. Eventually I expect it to just not have a free option once everything is settled. I mean, Netflix doesn't let you watch their streams for free. I would expect AIs to eventually move on to a mandatory sibscription tiers with tye cheapest one having invasive ads. Within the next 5 years do you see this happening? If so then what will the AI world be like when people have to pay for to bare minimum AI service with ads or even pay with no ads? Like pretty much paying $8 for regular basic ChatGPT. submitted by /u/TheCommander21 [link] [comments]",
+      "author": "TheCommander21"
+    },
+    {
+      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6sg44/bitcoin_miner_ditches_site_for_ai_deal_that_could/",
+      "published": "2026-09-04T03:03:51+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "The Rise and Fall of Agent Civilizations. The whole OpenAI/Hugging Face story in plain English",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6sbsa/the_rise_and_fall_of_agent_civilizations_the/",
+      "published": "2026-09-04T02:58:20+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "NVIDIA's PAIR beta routes local AI work across PCs",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6hx9o/nvidias_pair_beta_routes_local_ai_work_across_pcs/",
+      "published": "2026-09-03T19:45:29+00:00",
+      "summary": "NVIDIA's new PAIR beta is a free, open source tool that finds compatible PCs on a local network and routes independent inference requests to whichever system has capacity. NVIDIA says it works with Ollama and LM Studio and supports Windows, macOS, and Linux, plus RTX 20-series GPUs and newer, RTX PRO workstation GPUs, DGX Spark, and Apple M4 or newer. The tool is aimed at local agent workflows that split a task into smaller jobs. NVIDIA also says its IFA updates bring simpler local model setup to Hermes Agent, OpenClaw, and Perplexity Portable Computer, and up to 1.9x higher throughput for llama.cpp on a GeForce RTX 5090. Those are vendor-reported figures. The useful test is whether multi-PC routing improves real workflows without making setup and privacy harder to manage. Source: https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/ submitted by /u/Codeblix_Ltd [link] [comments]",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "Top 3 frontier labs seem to be down right now. Ever seen this before?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6a6di/top_3_frontier_labs_seem_to_be_down_right_now/",
+      "published": "2026-09-03T15:12:14+00:00",
+      "summary": "Grok, Claude and ChatGPT are all down on pc and mobile. AWS issue? submitted by /u/Msun17 [link] [comments]",
+      "author": "Msun17"
+    },
+    {
+      "title": "Do we need to start treating AI agent configs like code?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+      "published": "2026-09-04T03:52:06+00:00",
+      "summary": "So this happened to me recently and I honestly hadn't thought much about it before. We had an agent that had been running fine for a few weeks. Then we changed one part of the prompt. Nothing that seemed particularly risky, tested it quickly and pushed the change. A few hours later, some of the answers were just... wrong. Turned out the change was affecting how it was using one of its tools. Took a little while to figure that out. What really annoyed me was that I couldn't easily get back to the old version. I'd overwritten the prompt. There wasn't a proper history for it, so I ended up going through old messages and trying to work out what we'd had before. The actual fix was pretty quick once we found the problem. Getting there was the painful bit. And it got me thinking about how weird this is compared with normal software. If I change code, there's a commit. I can see exactly what changed and revert it if I need to. But with agents, I've noticed I tend to think of the prompt, tool s",
+      "author": "Many_Audience7660"
+    },
+    {
+      "title": "why wont my ai follow my rules",
+      "url": "https://www.reddit.com/r/artificial/comments/1w6tcih/why_wont_my_ai_follow_my_rules/",
+      "published": "2026-09-04T03:48:37+00:00",
+      "summary": "I made an ai and it wont do what i asked despite me telling it too, eg i did make this on my pc, i told it can do whats in the prompt, it refuses, it also edited my rules submitted by /u/DovahkinnPlays [link] [comments]",
+      "author": "DovahkinnPlays"
+    }
+  ]
+}

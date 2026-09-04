@@ -1,0 +1,62 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-04T04:01:51.980587+00:00",
+  "items": [
+    {
+      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+      "published": "2026-09-03T20:56:21+00:00",
+      "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "Prediction Market Betting Is Getting People Banned and Arrested",
+      "url": "https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/",
+      "published": "2026-09-03T20:48:24+00:00",
+      "summary": "This week on Uncanny Valley, we dig into the latest prediction market buzz, Flock’s AI-powered police search tool, and how tech bros don’t know how to talk about “rouge” AI agents",
+      "author": "Brian Barrett, Zoë Schiffer, Leah Feiger"
+    },
+    {
+      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+      "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+      "published": "2026-09-03T17:06:24+00:00",
+      "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
+      "author": "Maxwell Zeff"
+    },
+    {
+      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+      "published": "2026-09-03T15:42:40+00:00",
+      "summary": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
+      "author": "Maxwell Zeff"
+    },
+    {
+      "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+      "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+      "published": "2026-09-03T12:00:00+00:00",
+      "summary": "At IFA 2026, Nvidia and its partners showed off the first RTX Spark-powered laptops and mini PCs, designed to run AI models right on your computer.",
+      "author": "Luke Larsen"
+    },
+    {
+      "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+      "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
+      "published": "2026-09-03T11:43:09+00:00",
+      "summary": "The long-rumored deal will give the chip giant access to—and help it promote—a huge repository of open-source AI models and data sets.",
+      "author": "Lauren Goode"
+    },
+    {
+      "title": "This Is Flock’s AI Search Tool for Cops",
+      "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
+      "published": "2026-09-03T09:00:00+00:00",
+      "summary": "WIRED rebuilt Flock’s latest search tool from code the company sends to a police officer’s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
+      "author": "Dell Cameron, Dhruv Mehrotra"
+    }
+  ]
+}

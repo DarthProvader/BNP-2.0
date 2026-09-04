@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-09-04T04:01:41.576935+00:00",
+  "items": [
+    {
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "published": "2026-09-03T12:15:00+00:00",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "author": ""
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "published": "2026-09-03T11:00:00+00:00",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "author": ""
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "published": "2026-09-03T11:00:00+00:00",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "author": ""
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-04T04:02:55.317640+00:00",
+  "items": [
+    {
+      "title": "Gpt 6 astra benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6f9xo/gpt_6_astra_benchmarks/",
+      "published": "2026-09-03T18:13:16+00:00",
+      "summary": "https://thenewstack.io/openai-gpt6-astra-benchmarks/ submitted by /u/CounterReady4774 [link] [comments]",
+      "author": "CounterReady4774"
+    },
+    {
+      "title": "GPT-6 Astra is actually nuts for electrical engineering",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6m7hr/gpt6_astra_is_actually_nuts_for_electrical/",
+      "published": "2026-09-03T22:24:20+00:00",
+      "summary": "Okay, I’m genuinely kind of blown away by this. GPT-6 Astra is apparently getting really good at electrical engineering and hardware work, especially the kind of stuff around circuit design, verification, and chip architecture. Like, we’re talking about an AI that can start doing engineering stuff. Lotta people say AI can only do game dev and write essays, but this proves otherwise. The chip-design potential is what really has me interested. Being able to throw it a design problem, constraints, schematics, architecture questions, or verification issues and have it work through the actual engineering tradeoffs is pretty damn wild. And honestly? If this keeps improving, I could absolutely see AI replacing a huge amount of traditional electrical engineering work. Where will automation lead us? AI getting this capable at actual hardware engineering is absolutely insane. We are living in some weird-ass times. submitted by /u/Christs_Elite [link] [comments]",
+      "author": "Christs_Elite"
+    },
+    {
+      "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6f0jp/welcome_to_the_agi_era_openai_says_as_gpt6_astra/",
+      "published": "2026-09-03T18:04:03+00:00",
+      "summary": "submitted by /u/ShreckAndDonkey123 [link] [comments]",
+      "author": "ShreckAndDonkey123"
+    },
+    {
+      "title": "GPT-6 Astra Launch Video",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6gjmb/gpt6_astra_launch_video/",
+      "published": "2026-09-03T18:57:10+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "GPT-6 Pokemon FireRed results",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6jh5h/gpt6_pokemon_firered_results/",
+      "published": "2026-09-03T20:40:38+00:00",
+      "summary": "Source: @Clad3815 on X submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Not only does Astra saturate ARC-AGI-3, it does so using fewer moves than the average human",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6icmp/not_only_does_astra_saturate_arcagi3_it_does_so/",
+      "published": "2026-09-03T20:00:19+00:00",
+      "summary": "submitted by /u/ObiWanCanownme [link] [comments]",
+      "author": "ObiWanCanownme"
+    },
+    {
+      "title": "Sam's Astra post",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6iwhj/sams_astra_post/",
+      "published": "2026-09-03T20:19:43+00:00",
+      "summary": "submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "GPT-6 Astra recreated the Palace of Fine arts in Blender.",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6rilg/gpt6_astra_recreated_the_palace_of_fine_arts_in/",
+      "published": "2026-09-04T02:19:01+00:00",
+      "summary": "https://x.com/sharifshameem/status/2095653641164329143 \"[It] autonomously researched and found hundreds of photos of the Palace of Fine Arts, iterated on the Blender scene, rendered intermediate frames, and compared them to the its database of reference images. It even found an old scan of a document from the Library of Congress that described the dimensions for some of the Palace's columns.\" \"I steered it a few times, but I didn't really need to (mostly to correct things like the color of the sky, and minor clipping issues) as I saw some intermediate frames come in. The bulk of the run was done overnight. I woke up this morning to the rendered video sitting on my desktop.\" submitted by /u/Recoil42 [link] [comments]",
+      "author": "Recoil42"
+    },
+    {
+      "title": "Astra is available to plus users. You will be able to use 100% of your usage limits toward it. They're going for the throat of Anthropic",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6i29a/astra_is_available_to_plus_users_you_will_be_able/",
+      "published": "2026-09-03T19:50:11+00:00",
+      "summary": "https://preview.redd.it/de73ckmk0dnh1.png?width=1098&format=png&auto=webp&s=6bd0f515e15a1bbfcb1137e808dd1f106a7e9fcc . submitted by /u/Just_Stretch5492 [link] [comments]",
+      "author": "Just_Stretch5492"
+    },
+    {
+      "title": "Astra benchmarks from the OpenAI blog before it was taken down",
+      "url": "https://www.reddit.com/r/singularity/comments/1w6gp90/astra_benchmarks_from_the_openai_blog_before_it/",
+      "published": "2026-09-03T19:02:33+00:00",
+      "summary": "submitted by /u/saln1 [link] [comments]",
+      "author": "saln1"
+    }
+  ]
+}
