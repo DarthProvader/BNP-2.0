@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-09-05T04:00:53.774020+00:00",
+  "items": [
+    {
+      "title": "Linux Doesn’t Have to Be Ugly",
+      "url": "https://www.youtube.com/shorts/yQ4prIKen74",
+      "published": "2026-09-04T18:38:54+00:00",
+      "summary": "Check out the full video: https://youtu.be/9SDkU5VDQEQ\n\nOur interview with DHH: https://youtu.be/_CuibYl_Fh0",
+      "author": "NetworkChuck",
+      "transcript": "Linux doesn't have to be ugly. >> we're always looking at these great movies, right? The Matrix or whatever. You'd see their little interaction like, \"Why can't my computer look like that? Why is it only in the movies it looks like that?\" >> Yeah. >> And like, we could make it look like that. We could make an operating system that looks just as cool as it does in the movies. The window arrangement, the color coordination does not have to look like it was made by someone who's color blind. [music] Like, we can actually put things together and then wrap it in just beautiful computer hacker movie-like aesthetics. >> I want to be the guy that when they when you [music] see someone working on a computer at the airport, they're like, \"What is he Is he hacking us right now? What is he doing?\" >> I guarantee you, if you run Amachi and you open that thing in the airport and you just let the screen saver run or you open a few terminals or something, it's going to look exactly like that. People [music] are going to go, \"What is that?\"",
+      "transcript_lang": "en"
+    }
+  ]
+}

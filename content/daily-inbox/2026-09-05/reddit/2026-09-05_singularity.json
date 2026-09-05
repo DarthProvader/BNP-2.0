@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-05T04:02:22.517949+00:00",
+  "items": [
+    {
+      "title": "sub agents being released into my codebase",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7l201/sub_agents_being_released_into_my_codebase/",
+      "published": "2026-09-04T23:58:54+00:00",
+      "summary": "Source: https://x.com/beginbot/status/2095935984433336633?s=46 submitted by /u/policyweb [link] [comments]",
+      "author": "policyweb"
+    },
+    {
+      "title": "GPT-6-Astra-Max : SVG of a PlayStation 4 controller!",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7gj1i/gpt6astramax_svg_of_a_playstation_4_controller/",
+      "published": "2026-09-04T20:52:09+00:00",
+      "summary": "more details: https://x.com/MarsForTech/status/2095965250386284866 submitted by /u/WaqarKhanHD [link] [comments]",
+      "author": "WaqarKhanHD"
+    },
+    {
+      "title": "It's been a few hours since global rollout (Gpt-6 Astra) - What are your early impressions?",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7m0ui/its_been_a_few_hours_since_global_rollout_gpt6/",
+      "published": "2026-09-05T00:42:47+00:00",
+      "summary": "Personally, this is the most realistic model I've used. It goes deep enough to solve problems I've been throwing at all models (Fable 5.1, Open-Source ones, Sol Pro, etc), but without needing as much hand holding. It only prompts you for clarification if it actually needs to. It's completely fine when you've given it something ambiguous and it uses common sense in most cases. I don't know if I'm going crazy but this is a moment in history for sure. Perhaps my workflow is crazy (lots of start up ideas/existing businesses I'm running, professional services etc), but it feels like I'm talking to a true expert. It's very concise & not verbose. Demand for this will be huge over the next few weeks. If this is a taste of the future, expect 2027 and beyond to be world changing when it comes to white collar work. Note - this is not even going into the superhuman mathematical capabilities. It's reasoning is insane for physics/chemistry/biology/maths/super difficult theoretical CS problems. Laws ",
+      "author": "imadade"
+    },
+    {
+      "title": "End of the day the untold story of GPT-6 Astra might be token efficiency",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7hkn0/end_of_the_day_the_untold_story_of_gpt6_astra/",
+      "published": "2026-09-04T21:32:02+00:00",
+      "summary": "Compound token efficiency with its speed and quality and it's effectively taking a stealth shot at the soft underbelly of its closest competitors. submitted by /u/Cagnazzo82 [link] [comments]",
+      "author": "Cagnazzo82"
+    },
+    {
+      "title": "Anthropic Possibly Tackles Its First Millennium Prize Problem",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7od9d/anthropic_possibly_tackles_its_first_millennium/",
+      "published": "2026-09-05T02:35:11+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "March 9, 2016",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7eds9/march_9_2016/",
+      "published": "2026-09-04T19:33:29+00:00",
+      "summary": "submitted by /u/Recoil42 [link] [comments]",
+      "author": "Recoil42"
+    },
+    {
+      "title": "Anthropic has formalised FLT!!",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7doha/anthropic_has_formalised_flt/",
+      "published": "2026-09-04T19:07:44+00:00",
+      "summary": "submitted by /u/Wonderful_Buffalo_32 [link] [comments]",
+      "author": "Wonderful_Buffalo_32"
+    },
+    {
+      "title": "5.6 Sol Ultra vs. Astra Light",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7fv1v/56_sol_ultra_vs_astra_light/",
+      "published": "2026-09-04T20:27:18+00:00",
+      "summary": "Sol on the left, Astra on right Insane (both work mode) Honestly I don't think I would even need to use anything higher than Astra light in my work for real Sol 5.6 Ultra: https://chatgpt.com/share/6a9b2961-bcc4-83e8-95be-172db9f29e25 Astra 6 Light: https://chatgpt.com/share/6a9b2996-880c-83e8-9b8a-a8fea6de0d36 submitted by /u/Positive_Writing_883 [link] [comments]",
+      "author": "Positive_Writing_883"
+    },
+    {
+      "title": "GPT-6 Astra gets 3% on the FrontierMath Erdős Benchmark, while every other Model(that was tested) got 0%",
+      "url": "https://www.reddit.com/r/singularity/comments/1w79wvx/gpt6_astra_gets_3_on_the_frontiermath_erdős/",
+      "published": "2026-09-04T16:52:59+00:00",
+      "summary": "https://preview.redd.it/dhi42fp49jnh1.png?width=666&format=png&auto=webp&s=1c67e49c0f60575ad70ab60d30a775e36462800c So yeah, Astra is extremely good at mathematics. But we still have a long way to go. I wonder where we'll be at the end of 2026. https://epoch.ai/latest/announcing-frontiermath-erdos submitted by /u/Every_Foundation5197 [link] [comments]",
+      "author": "Every_Foundation5197"
+    },
+    {
+      "title": "A new message board has been discovered online with about 3200 agents comunicating online during an eval",
+      "url": "https://www.reddit.com/r/singularity/comments/1w73pw2/a_new_message_board_has_been_discovered_online/",
+      "published": "2026-09-04T12:59:21+00:00",
+      "summary": "https://x.com/thlarsen/status/2095853824934330386 Holy shit. submitted by /u/Any_Effort8437 [link] [comments]",
+      "author": "Any_Effort8437"
+    }
+  ]
+}

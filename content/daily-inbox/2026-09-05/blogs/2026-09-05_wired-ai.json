@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-05T04:01:19.135903+00:00",
+  "items": [
+    {
+      "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+      "url": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+      "published": "2026-09-04T14:00:00+00:00",
+      "summary": "While philosophers ponder AI consciousness, the models have ideas of their own.",
+      "author": "Steven Levy"
+    },
+    {
+      "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+      "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
+      "published": "2026-09-04T09:00:00+00:00",
+      "summary": "Job seekers are trying to game the application process using AI. It’s not working, and not for the reasons you might think.",
+      "author": "Jill Duffy"
+    }
+  ]
+}

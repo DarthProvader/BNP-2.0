@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-05T04:05:56.359582+00:00",
+  "items": [
+    {
+      "title": "OpenAI CEO Sam Altman says 38,000 ChatGPT queries use as much water as the production of one almond — says data centers use no more water than an office building: “For every 38,000 ChatGPT queries, that is the same amount of water that is used in the production of single almond in California.”",
+      "url": "https://www.reddit.com/r/artificial/comments/1w78xil/openai_ceo_sam_altman_says_38000_chatgpt_queries/",
+      "published": "2026-09-04T16:17:53+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "Why are more people not concerned about privacy?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7o0xv/why_are_more_people_not_concerned_about_privacy/",
+      "published": "2026-09-05T02:18:25+00:00",
+      "summary": "There are so many people uploading their pictures to be edited, disclosing people's names, detailed experiences, trauma, opinions and ideas with seemingly no filter. Additionally, the power users have given AI access to their password manager for coding, debugging. Access to their files and computers as a whole is something Claude advertises. Connections to their emails, calendar, text messages and multiple other apps via API. Trusting AI with personal health information (diagnosis, prescriptions) In my AI usage I always use aliases, never disclose location, often portray as not me (someone asked me if...). I scrub any document from personal information. I don't have any AI chat bot linked to anything and use VPN and burner email before I use it. Am I overly panicked for privacy with AI? The story about ChatGPT conversations appearing in Google search was horrifying and that feels like only the beginning. Isolated leaks aside, what happens when AI improves, generates a profile for you ",
+      "author": "banica24"
+    },
+    {
+      "title": "Bernie Sanders Wants to 'Pause AI Development NOW': Dwarkesh Patel Asks 'Pause to Do What?'",
+      "url": "https://www.reddit.com/r/artificial/comments/1w76b8m/bernie_sanders_wants_to_pause_ai_development_now/",
+      "published": "2026-09-04T14:41:41+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Study: Generative AI is making writing on Reddit and elsewhere boring",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7imfi/study_generative_ai_is_making_writing_on_reddit/",
+      "published": "2026-09-04T22:14:02+00:00",
+      "summary": "Data from a new study published recently in Nature and Arxiv: \"Across three studies spanning seven datasets in different domains and over 880,000 texts, we show that the widespread adoption of large language models (LLMs) as writing assistants is linked to declines in linguistic diversity.\" The homogenization effect happens even when an LLM is used to polish and rewrite copy developed by a human: \"While core content is retained when LLMs polish and rewrite texts, LLMs also homogenize writing styles, reducing writing-complexity variance.\" Study source data: \"Our analyses utilize three large-scale datasets of individual writing: creative stories from Reddit, community news articles from Patch, and computer science research abstracts from arXiv.\" The kicker: \"Across datasets, we observe a consistent bias in LLM-rewritten texts, with writing styles often aligning with older, male, politically liberal individuals and exhibiting positive moral valence and lower empathy.\" So, LLM-developed or",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "[Experiment] I trained a model on childhood photos to simulate memory recall",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7gdny/experiment_i_trained_a_model_on_childhood_photos/",
+      "published": "2026-09-04T20:46:48+00:00",
+      "summary": "I fine-tuned the good-old SDXL on 60 photographs from my childhood, using a limited family archive as the dataset through which to revisit that period of my life. Rather than reconstructing those images faithfully, the model produces unstable variations: spaces, faces and fragments that feel familiar without necessarily having existed. This speculative study treats generative hallucination as an analogue for recollection: not the retrieval of a preserved image, but the reconstruction of a past from incomplete traces. This resonates with contemporary accounts of episodic memory as a reconstructive rather than reproductive process. The model becomes a kind of externalized mnemonic apparatus, situated somewhere between archive, memory and imagination. Tools used: Kohya, WarpFusion, TouchDesigner, Premiere, After Effects, Ableton Live, Expressive Osmose, Soma Cosmos. PS: For those of you asking, this is not just \"a prompt\". It's the fine-tuning of the model, the creation of an audio-reacti",
+      "author": "Chuka444"
+    },
+    {
+      "title": "Salesforce blames its Claude addiction for denting profit margin guidance",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7dswx/salesforce_blames_its_claude_addiction_for/",
+      "published": "2026-09-04T19:12:15+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "How do I move forward if I have very short ASI timelines?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7pxu8/how_do_i_move_forward_if_i_have_very_short_asi/",
+      "published": "2026-09-05T03:54:59+00:00",
+      "summary": "I am a 24 year old male. A year ago I figured I had well over a half century until I'd die. I'm no longer sure of this. Six months ago I thought AI was an interesting, useful, and sometimes unwieldy tool for programmers and researchers and such, and maybe it was at risk of displacing workers and shifting the global economy. Five months ago I was told about the METR Graph, the Mythos Incident, and the enormous power of AIs. I learned that AI progress had not, in fact, topped out. It's at the beginning of a sigmoid curve of indeterminate length. And I was terrified. I was in Berkeley, CA at the time and I spent a couple days walking around the city looking up at the high rises and thinking \"well, shit. In a year or two this will all be ruins, and the world will be Terminator.\" I had a few months since April where I felt a bit more normal. \"OK,\" I figured, \"smart people seem to have long ASI timelines and low p(doom) values. It's obviously more complicated than a single graph.\" But everyt",
+      "author": "PhiliDips"
+    },
+    {
+      "title": "Nvidia acquiring Hugging Face (~$13B), Apple reportedly renting Gemini for Siri, and Anthropic's quiet Sonnet 5 price bump — a roundup of a heavy week",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7p8uk/nvidia_acquiring_hugging_face_13b_apple/",
+      "published": "2026-09-05T03:19:19+00:00",
+      "summary": "A few genuinely structural things happened this week that seem more important than the usual model-drop cycle, so I wanted to lay them out and get others' read. Nvidia is buying Hugging Face for around $13B. Reported across CNBC, TechCrunch and the wires. HF says it'll \"remain an open platform.\" What's interesting to me is the vertical integration angle — the dominant compute vendor now owns the main distribution hub for open models and datasets (3M+ models, 18M+ devs). Whether \"open and neutral\" survives a commercial owner is the open question. Apple leadership change + a reported Gemini-for-Siri deal. John Ternus took over as CEO on Sep 1. Separately, multiple outlets report Apple agreed to pay Google ~$1B/year to license a custom Gemini to power a rebuilt Siri. If accurate, it's a notable admission that catching the frontier internally wasn't worth it even for Apple. Pricing is drifting up, subtly. Anthropic's Sonnet 5 promo pricing ended (moved to $3/$15 per M tokens), and there ar",
+      "author": "ksraj1001"
+    },
+    {
+      "title": "Why would you use an AI to write your replies on Reddit?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w7a9ep/why_would_you_use_an_ai_to_write_your_replies_on/",
+      "published": "2026-09-04T17:05:01+00:00",
+      "summary": "More and more, people use AI to write their replies and posts, which to me at least is very counterintuitive. Why would you want to essentially reduce your account to being bot ran? Seems like that even if your thoughts are less coherent, they’re still your thoughts. If you aren’t writing your own stuff, there’s not really a point to having an online presence at all, since you don’t have one if someone else is writing your replies for you. I think drafts is a different thing since you’re still rewriting just from a template. Having an AI do thinking for you on an anonymous website to represent your thoughts just seems odd. Using an AI to do abilities that would take years to learn and even if you did take years it would still be faster and more accurate is a wonderful thing. Raising the global bar of what an I’m individual is capable of in one lifetime. However human expression should be respected, you should be able to both have your own thoughts and then use those thoughts to express",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Automatic AI Responses to Customer Service Issues",
+      "url": "https://www.reddit.com/r/artificial/comments/1w79lg9/automatic_ai_responses_to_customer_service_issues/",
+      "published": "2026-09-04T16:41:42+00:00",
+      "summary": "I don't understand these companies that are now using automatic AI replies to customer service emails. (e.g, I didn't like this product can I exchange it) Do they REALLY think that's going to solve an issue, and moreso make me want to come back/use their product? It's very similar to calling a restaurant or calling your doctor and going through an AI answering service. People hate this, everyone does. It's bizarre to me, that these businesses apparently believe customer service is not that important. To the contrary, your customer service is sometimes as important as the product. In some extent it IS the product. Ugh I hate this timeline. submitted by /u/Quitelegal [link] [comments]",
+      "author": "Quitelegal"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-05T04:04:05.028770+00:00",
+  "items": [
+    {
+      "title": "Fable 5.1 one shotted this",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7bh9p/fable_51_one_shotted_this/",
+      "published": "2026-09-04T17:49:08+00:00",
+      "summary": "Was just tinkering with what the Blender MCP could do. I had an existing MCP for a local image AI that it chose to use. Prompt was (in short) for it to generate a 1km x 1km \"WoW style region zone\" in Blender submitted by /u/Prodigle [link] [comments]",
+      "author": "Prodigle"
+    },
+    {
+      "title": "Claude got usage limit reset",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7hr8x/claude_got_usage_limit_reset/",
+      "published": "2026-09-04T21:39:23+00:00",
+      "summary": "Claude Usage Limit Reset Just saw reset limit announcement submitted by /u/No-Life5877 [link] [comments]",
+      "author": "No-Life5877"
+    },
+    {
+      "title": "We got a limits reset.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7ffob/we_got_a_limits_reset/",
+      "published": "2026-09-04T20:11:14+00:00",
+      "summary": "Claude usage limits has been reset. Thanks Anthropic. submitted by /u/cryogen2dev [link] [comments]",
+      "author": "cryogen2dev"
+    },
+    {
+      "title": "I redrew Artificial Analysis using subscription costs instead of API pricing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7mwbb/i_redrew_artificial_analysis_using_subscription/",
+      "published": "2026-09-05T01:23:25+00:00",
+      "summary": "It always amuses me that coding agents get ranked by API token prices, while noone would code paying for API. We use subscriptions instead. I redrew the Artificial Analysis chart using estimated subscription costs per task, based on Reddit usage logs and independent experiments. Kimi is the most expensive. Fable 5.1 is the best money can buy. Astra xhigh and max differ in cost, but not quality. Methodology, calculations, and all 18 sources: https://aiandtractors.com/coding-agent-subscription-costs/ submitted by /u/Pichonn [link] [comments]",
+      "author": "Pichonn"
+    },
+    {
+      "title": "Claude will deliver your data in any way you want it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7agvf/claude_will_deliver_your_data_in_any_way_you_want/",
+      "published": "2026-09-04T17:12:34+00:00",
+      "summary": "Prompt: Run the usage report, but this time give me full geocities: 90's under constructions, dancing unicorns, sparkling stars, rainbows, webring, visitor counters, make it like i spent three months working on it in FrontPage '97. submitted by /u/aerofoto [link] [comments]",
+      "author": "aerofoto"
+    },
+    {
+      "title": "Am I falling into the hype train or is Fable 5.1 really this better compared to everything else? Thinking of upgrading to x20 from x5 just for Fable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w77fyo/am_i_falling_into_the_hype_train_or_is_fable_51/",
+      "published": "2026-09-04T15:23:46+00:00",
+      "summary": "So I was a Pro user until last week I have subscriptions to all 3 American frontier labs - all base $20 until last week I’ve been working with LLMs since before Claude Code or even the VS Code extension even existed. I kind of self learned how to code on the job as a necessity (founder in an early stage startup, new hire bailed at last moment, backup guy was incompetent, product kept pivoting too fast to hire someone else). I had some prior experience from college but nothing close to actually useful for real world product dev Being that early I had to develop some processes around working with LLMs and I had assumed LLMs won’t be able to do anything end to end. Before Antigravity, Codex and CC, cursor did not seem to make sense so I used ChatGPT in chat to write code, learn patterns and call it out in chat itself and then copy paste. Antigravity launch in December — and it being included in my monthly Google plan made my try actual harnesses for the first time because they gave this I",
+      "author": "i4858i"
+    },
+    {
+      "title": "My Usage Just Reset?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7ffpk/my_usage_just_reset/",
+      "published": "2026-09-04T20:11:16+00:00",
+      "summary": "Anyone else get there usage reset at random? What's the dealio? I'm not complaining :) submitted by /u/tedbradly [link] [comments]",
+      "author": "tedbradly"
+    },
+    {
+      "title": "My Claude Code setup: no secrets, restricted network, real production infrastructure",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7mqzn/my_claude_code_setup_no_secrets_restricted/",
+      "published": "2026-09-05T01:16:25+00:00",
+      "summary": "TLDR: Isolate your Claude Code, controll his egress, dont give him secrets, but all the things that runs in production (ideally not mocked). Ship high quality code and built a strategy to measure your progress (dont burn token by token - less is more) Hey, I am a B. Sc. in CS and using Claude everyday for private, professional or university work. I write nearly no lines myself, but review each line I commit. My services run in production and I am responsible for their uptime and customer experience. So having a kind of random system in my daily work was a huge problem. That is why I want to share with you my devcontainer, which helps me to lower the risks. I spent a lot of time building it, and always had a bad feeling developing so much around developing (I wanted to create value and not optimizing myself) So as I mentioned I use a devcontainer, it is a standardized developer environment. I used them already before Claude Code but it now also adds benefits in terms of some isolation (",
+      "author": "Hansehart"
+    },
+    {
+      "title": "Hot take: AI coding is making good taste more important than raw coding speed.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w752jb/hot_take_ai_coding_is_making_good_taste_more/",
+      "published": "2026-09-04T13:54:01+00:00",
+      "summary": "The more I use Claude Code, the less I think the advantage is simply being able to produce more code.Producing code is becoming the easy part. Deciding what should exist in the first place is still hard.Claude can give me three reasonable implementations of the same feature very quickly, but it can't remove the responsibility of deciding which one actually fits the codebase, what complexity is worth introducing, and what should probably be left alone.I've noticed that when I don't have a strong opinion about the design beforehand, it's very easy to accept the first solution that looks clean and works.That worries me more than occasional bad output. As implementation gets cheaper, I think engineering judgment becomes more valuable, not less. The developers who benefit most from these tools may end up being the ones who are best at saying “this works, but I still don't want it in the codebase.” submitted by /u/Pretend_Sell6592 [link] [comments]",
+      "author": "Pretend_Sell6592"
+    },
+    {
+      "title": "Did I get hacked???",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w6z9qy/did_i_get_hacked/",
+      "published": "2026-09-04T09:15:37+00:00",
+      "summary": "Wth happend here? He choked mid convo and started asking me for confidential info and then was like nvm bro ignore that submitted by /u/NinjaAgreeable4877 [link] [comments]",
+      "author": "NinjaAgreeable4877"
+    }
+  ]
+}

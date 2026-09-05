@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-05T04:01:15.734196+00:00",
+  "items": [
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "published": "2026-09-04T21:17:36+00:00",
+      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+      "published": "2026-09-04T16:35:02+00:00",
+      "summary": "Broadcom admits it put “too big a focus on VCF.”",
+      "author": "Scharon Harding"
+    },
+    {
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "published": "2026-09-04T16:18:12+00:00",
+      "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "author": "Dan Goodin"
+    }
+  ]
+}
