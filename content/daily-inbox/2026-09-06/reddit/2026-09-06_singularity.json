@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-06T04:02:06.300094+00:00",
+  "items": [
+    {
+      "title": "GPT-6 Astra Has Beaten Portal, Becoming the First Model to Achieve This.",
+      "url": "https://www.reddit.com/r/singularity/comments/1w8g7d0/gpt6_astra_has_beaten_portal_becoming_the_first/",
+      "published": "2026-09-05T23:41:23+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "AGI achieved",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7z3f6/agi_achieved/",
+      "published": "2026-09-05T12:11:35+00:00",
+      "summary": "submitted by /u/SureSpecial1834 [link] [comments]",
+      "author": "SureSpecial1834"
+    },
+    {
+      "title": "Astra turned a game ad video into a playable game in less than 30 minutes",
+      "url": "https://www.reddit.com/r/singularity/comments/1w85dqz/astra_turned_a_game_ad_video_into_a_playable_game/",
+      "published": "2026-09-05T16:31:51+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Are all the graphs just gonna look like this now?",
+      "url": "https://www.reddit.com/r/singularity/comments/1w82zm5/are_all_the_graphs_just_gonna_look_like_this_now/",
+      "published": "2026-09-05T14:58:57+00:00",
+      "summary": "submitted by /u/soggy_bert [link] [comments]",
+      "author": "soggy_bert"
+    },
+    {
+      "title": "GPT-6-Astra Draws an Portrait in Canva",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7xe37/gpt6astra_draws_an_portrait_in_canva/",
+      "published": "2026-09-05T10:45:36+00:00",
+      "summary": "more details: https://x.com/iam_zachi/status/2095992132620136677 submitted by /u/WaqarKhanHD [link] [comments]",
+      "author": "WaqarKhanHD"
+    },
+    {
+      "title": "GPT-6-Astra -Max Debuts as #1 on Arena.ai's Code Arena",
+      "url": "https://www.reddit.com/r/singularity/comments/1w8acpa/gpt6astra_max_debuts_as_1_on_arenaais_code_arena/",
+      "published": "2026-09-05T19:40:02+00:00",
+      "summary": "https://preview.redd.it/0mwyxgkm8rnh1.png?width=1616&format=png&auto=webp&s=089fe9dbfae497b2bd232dbb0b6d3a6e83688eab Initial results for GPT-6-Astra-Max on Arena.ai submitted by /u/DeArgonaut [link] [comments]",
+      "author": "DeArgonaut"
+    },
+    {
+      "title": "New Details on Where the Anthropic Millennium Problem Rumor Came From",
+      "url": "https://www.reddit.com/r/singularity/comments/1w89z3q/new_details_on_where_the_anthropic_millennium/",
+      "published": "2026-09-05T19:25:04+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "I know these posts are getting old, but Astra one-shot a Balatro clone with only vague direction and my mind is pretty blown",
+      "url": "https://www.reddit.com/r/singularity/comments/1w8cgb5/i_know_these_posts_are_getting_old_but_astra/",
+      "published": "2026-09-05T21:02:04+00:00",
+      "summary": "Two prompts total: Build me a Balatro clone that can run completely in the browser. It should be similar to Balatro but have its own unique twist, with crazy synergies and combos and a unique, surreal visual style. With Astra High, it took two of my 5 hour quotas to complete but the actual time spent working was less than 5 minutes total. This got an initial working version of the game written entirely in JS and HTML. But, it looked like a browser game. I wanted it to be flashier and look more similar to Balatro's surreal style. So then I prompted: I like the base game we have built here. I want it to be less of a javascript/html game and more something like a real game. Let's use three.js and make it more visually appealing. There should be cool surreal shader effects and animations, looking more like a Balatro type vibe. 8 minutes later and another 5 hour quota gone, I had the above version. I work with LLMs every day (I'm a software engineer) and this is the most impressed I've been",
+      "author": "nyanpi"
+    },
+    {
+      "title": "Frontier AI models are beginning to cross the human baseline on SimpleBench",
+      "url": "https://www.reddit.com/r/singularity/comments/1w8j2t0/frontier_ai_models_are_beginning_to_cross_the/",
+      "published": "2026-09-06T01:58:10+00:00",
+      "summary": "​ EDIT: GPT-6 Astra hasn't been measured yet. They usually take a couple of days since release. u/Alt_Restorer also pointed out \"the benchmark is private, so Phillip only runs it if there's an API that doesn't retain data. I'm not sure whether Astra has that yet.\" Context for those unfamiliar SimpleBench is designed around reasoning that humans tend to find relatively easy but LLMs have historically struggled with - things like commonsense reasoning, spatial and temporal reasoning, social judgement, and questions designed to catch shallow pattern-matching and/or misleading assumptions. The plotted model score is average accuracy across 5 runs. Random guessing would score 16.7% - very close to where models started just over two years ago. The baseline comes from 9 native-English, non-specialist participants, each of whom answered a random subset of 25 questions. Participants had at least high-school-level maths proficiency. So likely above avg. submitted by /u/Bojackin_Around [link] [co",
+      "author": "Bojackin_Around"
+    },
+    {
+      "title": "AI can do it all",
+      "url": "https://www.reddit.com/r/singularity/comments/1w7xi2i/ai_can_do_it_all/",
+      "published": "2026-09-05T10:51:27+00:00",
+      "summary": "The Symphony: https://x.com/aug5thmusic/status/2096030719156089029 submitted by /u/twist_games [link] [comments]",
+      "author": "twist_games"
+    }
+  ]
+}

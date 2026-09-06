@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-09-06T04:00:51.885702+00:00",
+  "items": [
+    {
+      "title": "GPT-6 Astra otevírá éru AGI 🧠 Cybercab v ulicích a Čína ukazuje budoucnost robotiky🤖",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/GPT-6-Astra-otevr-ru-AGI--Cybercab-v-ulicch-a-na-ukazuje-budoucnost-robotiky-e3oc9m0",
+      "published": "2026-09-05T14:00:00+00:00",
+      "summary": "Na Fantastic Future Summit máme prvního speakera. 🚀 16. prosince ve Forum Karlín vystoupí Dušan Šenkypl, CEO Grouponu a partner Pale Fire Capital, který patří mezi nejvýraznější české osobnosti v praktickém využívání AI v byznysu. Další hosty budeme postupně odhalovat.🎟️ Lístky:Ticketportal: https://www.ticketportal.cz/event/Fantastic-Future-Summit-2026-41068?utm_source=ig&utm_medium=social&utm_content=link_in_bioTicketmaster:https://www.ticketmaster.cz/artist/fantastic-future-summit-vstupenky/1460414?utm_source=ig&utm_medium=social&utm_content=link_in_bioV novém díle řešíme Grok Bota jako hlavní pracovní prostředí pro desítky AI agentů, Perplexity Portable Computer pro lokální AI a reporty o tom, že OpenAI nakoupilo desítky tisíc Mac mini a Mac Studio. Hugging Face mezitím spustilo předobjednávky na robokachnu Microduck za 399 dolarů.Hlavní novinkou je ale GPT-6 Astra. Na ARC-AGI-3 dosáhla 62,7 % oproti 7,8 % u GPT-5.6 Sol a se speciálním systémem až 99,9 %. K tomu generuje hry, pracu",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

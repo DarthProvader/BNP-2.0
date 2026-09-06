@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-06T04:04:18.603633+00:00",
+  "items": [
+    {
+      "title": "sub agents being released into my codebase",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w801bh/sub_agents_being_released_into_my_codebase/",
+      "published": "2026-09-05T12:55:56+00:00",
+      "summary": "submitted by /u/yash3011 [link] [comments]",
+      "author": "yash3011"
+    },
+    {
+      "title": "I thought I will never say this about Fable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8h07m/i_thought_i_will_never_say_this_about_fable/",
+      "published": "2026-09-06T00:17:44+00:00",
+      "summary": "Just tried OpenAI Astra , I thought I will never say this , it’s lit , OpenAI cooked something spectacular, and I have a strong feeling this will pull lot of Fable 5 users towards it , and it’s fast, not sure if it’s AGI, but it feels fresh and a very very serious competition to Anthropic , this is going to be fun to watch , what’s your next move Anthropic ?, I’m surely going to try pro subscription for a month along with my current Claude Max, anyone feels the same ? Have you tried it ? submitted by /u/Sweet-Helicopter2769 [link] [comments]",
+      "author": "Sweet-Helicopter2769"
+    },
+    {
+      "title": "New #1 on Code Arena: Astra and Fable 5.1 are in a class of their own. Anyone seeing real world differences",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8b57m/new_1_on_code_arena_astra_and_fable_51_are_in_a/",
+      "published": "2026-09-05T20:10:26+00:00",
+      "summary": "submitted by /u/py-net [link] [comments]",
+      "author": "py-net"
+    },
+    {
+      "title": "Suddenly worried about costs of Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8fy9u/suddenly_worried_about_costs_of_claude/",
+      "published": "2026-09-05T23:29:53+00:00",
+      "summary": "Hi, I (finally) started paying for Claude Code; I am on Pro now, monthly payments. Now I discovered this function in Claude Code on Linux, /usage. It shows me the image attached - with a surprising USD 321 of 'total cost'. I have no clue; I thought the USD 18 (ex VAT) covers it all but this number got me wondering... Am I in trouble? submitted by /u/bramvandriel [link] [comments]",
+      "author": "bramvandriel"
+    },
+    {
+      "title": "Am I the only one noticing the same pattern with every launch? Fable vs Astra",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8g9dx/am_i_the_only_one_noticing_the_same_pattern_with/",
+      "published": "2026-09-05T23:43:57+00:00",
+      "summary": "Long story short: this pattern feels like paid PR at the start, followed by everyone jumping on the bandwagon for X engagement and revenue. When Fable 5 launched, X was suddenly full of people one shotting entire games with it. Random AI generated videos, screenshots, people saying they ran Fable for 24 hours and came back to a complete game. Then when people asked for the prompt or the actual process, there was usually no real answer. Just vague stuff like “I let it run” or “I gave it some instructions”. Seriously, 24 hours? Now Astra 6 by OpenAI has launched and I am seeing basically the exact same thing again. Suddenly everyone is building games and apps with one prompt. I am not saying the models are bad. I am saying I don’t trust launch week X posts as a realistic representation of what using these models is actually like. submitted by /u/MoreFaithlessness954 [link] [comments]",
+      "author": "MoreFaithlessness954"
+    },
+    {
+      "title": "What's going on with claude usage",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w81w5b/whats_going_on_with_claude_usage/",
+      "published": "2026-09-05T14:14:32+00:00",
+      "summary": "I am on claude max ×5 plan. After the weekly reset, I literally ran one session for 54min with ~160k tokens, opus 5 max effort. Plus it was wrapped in headroom. Anyone experiencing the same? submitted by /u/Bropocalypse_Team [link] [comments]",
+      "author": "Bropocalypse_Team"
+    },
+    {
+      "title": "I spent 883 commits and 8 months building an LLM agent harness, overengineered it, and abandoned it - lol.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w8jhfp/i_spent_883_commits_and_8_months_building_an_llm/",
+      "published": "2026-09-06T02:18:05+00:00",
+      "summary": "(I am open sourcing what i have as MIT, link on the comments and yes all 8 months i mostly used 1 20x claude or sometimes 2 20x accounts, so this was basically all made by claude models/claude code harness - by the way don’t use my agents.md or claude.md etc, its old and its not what i use now and far from what i would recommend.) So yeah, I spent 883 commits, 8 months and billions of tokens building this thing and eventually abandoned it: It started as my attempt to build a better coding-agent harness, where the LLM is basically a replaceable worker instead of being trusted to control everything. The harness was supposed to own the actual planning, state, permissions, context, verification, evidence, orchestration, etc. The model could say “I finished the task,” but the system would check what actually happened instead of just believing it. Then I kept adding shit. Code graphs, RAG, deterministic orchestration, isolated workers, crash recovery, model routing, local models, replayable ",
+      "author": "dancingwithlies"
+    },
+    {
+      "title": "A small gift to all my opusfived friends",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w80umw/a_small_gift_to_all_my_opusfived_friends/",
+      "published": "2026-09-05T13:31:04+00:00",
+      "summary": "Opus 5 has been burning people out at a rate that would make the Spanish Inquisition look kind. (Even they would be like -“Should we give him one last caveat?” -“Now, Emilio, the Lord does not want us to be cruel .”) I might be the pettiest person on the planet. So: one lazy afternoon, a few leftover Lovable credits, and one 9 USD domain later, I proudly present to you: https://opusfived.dev Hope you enjoy it — let me know if there are any load-bearing wrinkles to iron out. PS — As a lawyer, I disclaim any and all mental suffering claims. submitted by /u/mnov88 [link] [comments]",
+      "author": "mnov88"
+    },
+    {
+      "title": "I built a desktop workspace for Claude Code that cuts token usage by 51%",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w883pv/i_built_a_desktop_workspace_for_claude_code_that/",
+      "published": "2026-09-05T18:15:02+00:00",
+      "summary": "I’ve been building Halv, a desktop app where you can run Claude Code alongside other coding agents using your existing subscriptions. It has chat, split terminals, saved sessions, and a live savings meter. Underneath, it compresses context, filters noisy command output, and uses a code index to help agents find what they need. I finally have some numbers to share. The first benchmark tested Codex on 20 paired SWE-rebench tasks: - 51.1% fewer tokens per correct answer - 30.2% fewer total tokens - 10/20 tasks solved , versus 7/20 without Halv Those numbers describe the Codex runs. It’s a small test I ran myself, with all 40 run records and verifier results published. Benchmark and evidence: https://halv.ai/blog/halv-swe-rebench-20-pairs/ Halv: https://halv.ai/ submitted by /u/EnslavedFish [link] [comments]",
+      "author": "EnslavedFish"
+    },
+    {
+      "title": "I miss when people built things for the internet without turning everything into a subscription",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7web0/i_miss_when_people_built_things_for_the_internet/",
+      "published": "2026-09-05T09:49:56+00:00",
+      "summary": "I miss the old internet. And yes, I realise that sentence makes me sound about 74 years old. I'm a millennial, so I was around when the internet was becoming mainstream but hadn't yet become as commercialised as it is today. There were loads of fellow geeks creating websites and programmes simply because they loved something and wanted to share it with other people. No growth strategy, no conversion funnel, no £99.99 Super Duper Ultra Premium plan. Just people making stuff. I actually started building websites because of movie scripts. Back then, loads of scripts were stored on university servers and random corners of the internet. You'd bookmark one, come back a few months later and it would be gone. So I had the idea of creating a repository where I could host all of the scripts on my own server, mainly so I could find and read them whenever I wanted. I spent pretty much an entire summer learning HTML and PHP to build it. It was completely free because, frankly, I had built it for my",
+      "author": "chromak"
+    }
+  ]
+}
