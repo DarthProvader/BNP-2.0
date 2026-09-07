@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-07T04:04:01.496506+00:00",
+  "items": [
+    {
+      "title": "Musk Loses Bid To Block MN Law Against AI Child Porn",
+      "url": "https://www.reddit.com/r/artificial/comments/1w953sx/musk_loses_bid_to_block_mn_law_against_ai_child/",
+      "published": "2026-09-06T19:07:51+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Pentagon Says Its Anthropic Ban Is On, Despite Lutnick Remarks",
+      "url": "https://www.reddit.com/r/artificial/comments/1w927or/pentagon_says_its_anthropic_ban_is_on_despite/",
+      "published": "2026-09-06T17:22:49+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack",
+      "url": "https://www.reddit.com/r/artificial/comments/1w8on5m/gpt6_reportedly_jailbroken_within_24_hours_using/",
+      "published": "2026-09-06T06:46:45+00:00",
+      "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prompt) attack from ACL 2025 paper with four other unnamed techniques. TIP attacks exploit the model’s reasoning/instruction-following behaviour by hidding the harmful objective inside another task, like solving a cipher or executing a Python code. For GPT-6, the researcher says the original minimal TIP attack was no longer sufficient and had to be reworked. They have reportedly disclosed the details privately to OpenAI rather than publishing the jailbreak. The same researcher reported jailbreaking GPT-5 within an hour of its release a year ago. Source: screenshot/post from the researcher ; their ACL 2025 TIP paper linked in the original post. submitted by /u/Asleep-Requirement13 [link] [comments]",
+      "author": "Asleep-Requirement13"
+    },
+    {
+      "title": "Ai generated transcript",
+      "url": "https://www.reddit.com/r/artificial/comments/1w98k1x/ai_generated_transcript/",
+      "published": "2026-09-06T21:18:02+00:00",
+      "summary": "Why do some videos generate this exact transcript on muted videos? It’s so bizarre as there are no spoken words in the video when unmuted. This exact transcript will appear on other videos agnostic to the content. Does anyone know why this happens or what’s causing it? This video is not mine and I have left their username in the video for credit. submitted by /u/brushedteeth [link] [comments]",
+      "author": "brushedteeth"
+    },
+    {
+      "title": "Testing a new workflow for rapid environmental VFX",
+      "url": "https://www.reddit.com/r/artificial/comments/1w8zxi7/testing_a_new_workflow_for_rapid_environmental_vfx/",
+      "published": "2026-09-06T15:57:36+00:00",
+      "summary": "Original drone footage [bottom] alongside four alternative environmental takes; fire, rain, snow, and floral. All created inside Uisato Studio , and accessible to everyone. More experiments, project files, and tutorials, through YouTube , Instagram , and Patreon . submitted by /u/Chuka444 [link] [comments]",
+      "author": "Chuka444"
+    },
+    {
+      "title": "Built a deterministic reasoning engine from part of a failed AI project 🤯",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9adne/built_a_deterministic_reasoning_engine_from_part/",
+      "published": "2026-09-06T22:32:33+00:00",
+      "summary": "Over the last month, in my spare time, I’ve been experimenting with two separate ideas: some recurrent-network maths as a possible GRU/LSTM substitute, and a separate transformerless AI project. The transformerless project eventually became too slow to properly train and debug on the hardware I have, so I started pulling it apart to see if any individual pieces were worth keeping. One part was: the structured memory/reasoning section. It kept behaving well in small tests, so I separated it out and turned it into its own project: THREADS. In simple terms, THREADS is a deterministic memory and reasoning engine. You give it structured facts and relationships, and it can follow them, track changes over time, answer historical questions, handle retractions and contradictions, and keep provenance for how it reached an answer. Some current test results: - 200,000-hop reasoning chain — exact final answer - 1,000,000 irrelevant events — a 128-hop query still returned the exact answer - 50,000 s",
+      "author": "WAMFT"
+    },
+    {
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w8mzqg/can_ai_design_circuit_boards_yet/",
+      "published": "2026-09-06T05:14:52+00:00",
+      "summary": "submitted by /u/tw1st3d_m3nt4t [link] [comments]",
+      "author": "tw1st3d_m3nt4t"
+    },
+    {
+      "title": "Nvidia and CrowdStrike Develop New Cybersecurity AI Models",
+      "url": "https://www.reddit.com/r/artificial/comments/1w8q5xa/nvidia_and_crowdstrike_develop_new_cybersecurity/",
+      "published": "2026-09-06T08:13:16+00:00",
+      "summary": "Nvidia and CrowdStrike are addressing what they see as one of cybersecurity’s biggest gaps: the need for cyber defenders to harness AI at the velocity of cyber attackers. submitted by /u/israelavila [link] [comments]",
+      "author": "israelavila"
+    },
+    {
+      "title": "Rip...",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9e4di/rip/",
+      "published": "2026-09-07T01:20:34+00:00",
+      "summary": "submitted by /u/Admirable_Street19 [link] [comments]",
+      "author": "Admirable_Street19"
+    },
+    {
+      "title": "What is the main underlying bias of ai skeptics?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9e6uv/what_is_the_main_underlying_bias_of_ai_skeptics/",
+      "published": "2026-09-07T01:24:00+00:00",
+      "summary": "As time goes on I am more and more perplexed by adamant AI skeptics. There are still many objectively smart people basically echoing the stochastic parrot (\"just a next token predictor\", \"its just spewing out the training data\") argument trying to downplay (or even deny) progress of AI. I get the financial arguments, it does seem super terrible and tech companies do have a history of overhyping or even lying, but looking at the tech i just cant understand how they cant see the capabilities and more importantly how they cant extrapolate the progress (which starts to look exponential in my opinion). So what is their conscious/unconscious motivation for being anti ai? Fear? Sunken-cost fallacy? Belief in human superiority/specialness? Obviously there are just straight out grifters, but im not asking about them rather the honestly anti-ai people. submitted by /u/drndr21 [link] [comments]",
+      "author": "drndr21"
+    }
+  ]
+}

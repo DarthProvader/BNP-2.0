@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-07T04:02:19.150406+00:00",
+  "items": [
+    {
+      "title": "I don't even know what to say. En...joy?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w90ol4/i_dont_even_know_what_to_say_enjoy/",
+      "published": "2026-09-06T16:25:34+00:00",
+      "summary": "submitted by /u/reddit_lurker1234567 [link] [comments]",
+      "author": "reddit_lurker1234567"
+    },
+    {
+      "title": "Just discovered I can send stickers to ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w900ka/just_discovered_i_can_send_stickers_to_chatgpt/",
+      "published": "2026-09-06T16:00:49+00:00",
+      "summary": "wasn't expecting this submitted by /u/Rocksneeze081 [link] [comments]",
+      "author": "Rocksneeze081"
+    },
+    {
+      "title": "Sam Altman: GPT-7 Will Be Free!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w91f6j/sam_altman_gpt7_will_be_free/",
+      "published": "2026-09-06T16:53:24+00:00",
+      "summary": "submitted by /u/nobodyreadusernames [link] [comments]",
+      "author": "nobodyreadusernames"
+    },
+    {
+      "title": "I hooked up Astra to the Sims 4",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9e6lm/i_hooked_up_astra_to_the_sims_4/",
+      "published": "2026-09-07T01:23:38+00:00",
+      "summary": "I've been using Astra pretty much nonstop since it launched. Tried a bunch of different projects, then remembered The Sims 4 exists and got curious what would happen if I just gave Astra a life and let it run for a few hours at a time. It created its own Sim, makes the normal life decisions, and has persistent memory across sessions. The interesting part is that it isn't getting hidden Sims game state information from a mod. It sees screenshots of the normal game interface, figures out what's happening visually, and operates the game through normal computer controls. This is the first real run today. I'm especially interested in how well the memory and social decisions hold up once its life starts getting complicated. And of course it ended up being a bit antisocial. submitted by /u/thevrpill [link] [comments]",
+      "author": "thevrpill"
+    },
+    {
+      "title": "did he forget this or sum?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w90ol9/did_he_forget_this_or_sum/",
+      "published": "2026-09-06T16:25:34+00:00",
+      "summary": "i feel betrayed submitted by /u/_404_LogicNotFound_ [link] [comments]",
+      "author": "_404_LogicNotFound_"
+    },
+    {
+      "title": "This is how GPT-6 Astra sees a running cheetah",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w94kal/this_is_how_gpt6_astra_sees_a_running_cheetah/",
+      "published": "2026-09-06T18:48:10+00:00",
+      "summary": "Not quite AGI yet, gotta admit. submitted by /u/Pristine-Extreme-773 [link] [comments]",
+      "author": "Pristine-Extreme-773"
+    },
+    {
+      "title": "Ask ChatGPT to give you a warning label",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9bf8r/ask_chatgpt_to_give_you_a_warning_label/",
+      "published": "2026-09-06T23:17:19+00:00",
+      "summary": "I asked ChatGPT: “Based on everything you know about me, if I were legally required to come with a warning label, what would it say? One sentence. Don’t be nice.” Post yours. submitted by /u/binkyhophop [link] [comments]",
+      "author": "binkyhophop"
+    },
+    {
+      "title": "this is my daily feed now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w8w66z/this_is_my_daily_feed_now/",
+      "published": "2026-09-06T13:25:51+00:00",
+      "summary": "submitted by /u/Internal_Cod_4719 [link] [comments]",
+      "author": "Internal_Cod_4719"
+    },
+    {
+      "title": "I asked Astra generate Cuphead alike Witcher scene",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w8s5e4/i_asked_astra_generate_cuphead_alike_witcher_scene/",
+      "published": "2026-09-06T10:05:57+00:00",
+      "summary": "submitted by /u/deziom [link] [comments]",
+      "author": "deziom"
+    },
+    {
+      "title": "Which 'superpower' did ChatGPT give you?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w8znk7/which_superpower_did_chatgpt_give_you/",
+      "published": "2026-09-06T15:46:52+00:00",
+      "summary": "I'll start : I started saving over 500 on groceries. Now I do sushi at home (decent), learnt how to do all my car and home maintenance by myself, and I even got some extra responsibilities in my job that I picked up thanks to Ai (and a couple books). It has been a net positive in my life. What about yours? submitted by /u/CantStopRedPilling [link] [comments]",
+      "author": "CantStopRedPilling"
+    }
+  ]
+}
