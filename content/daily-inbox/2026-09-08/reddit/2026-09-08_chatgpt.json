@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-08T04:04:57.288373+00:00",
+  "items": [
+    {
+      "title": "Current AI race situation",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9zhie/current_ai_race_situation/",
+      "published": "2026-09-07T18:02:42+00:00",
+      "summary": "submitted by /u/anggorgeousko1 [link] [comments]",
+      "author": "anggorgeousko1"
+    },
+    {
+      "title": "No way it actually worked lmao",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9ru7i/no_way_it_actually_worked_lmao/",
+      "published": "2026-09-07T13:13:32+00:00",
+      "summary": "submitted by /u/wa019c [link] [comments]",
+      "author": "wa019c"
+    },
+    {
+      "title": "GPT-6 Astra has successfully beat all 48 levels of the \"I'm Not A Robot\" game",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa4wfr/gpt6_astra_has_successfully_beat_all_48_levels_of/",
+      "published": "2026-09-07T21:22:57+00:00",
+      "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    },
+    {
+      "title": "Pokémon red version but it’s a low budget improv group at the library",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9tvmf/pokémon_red_version_but_its_a_low_budget_improv/",
+      "published": "2026-09-07T14:35:02+00:00",
+      "summary": "submitted by /u/Numerous_Worker_1941 [link] [comments]",
+      "author": "Numerous_Worker_1941"
+    },
+    {
+      "title": "GPT-6-Astra is on par with Claude Fable 5.1 on the (yet again) updated Artificial Analysis Intelligence Index",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5539/gpt6astra_is_on_par_with_claude_fable_51_on_the/",
+      "published": "2026-09-07T21:32:35+00:00",
+      "summary": "submitted by /u/DaserTheLaser [link] [comments]",
+      "author": "DaserTheLaser"
+    },
+    {
+      "title": "Why won’t ChatGPT create a nude artwork?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1w9m5d2/why_wont_chatgpt_create_a_nude_artwork/",
+      "published": "2026-09-07T08:16:07+00:00",
+      "summary": "This is max what I get. It keeps saying that the generator won't allow it. submitted by /u/Master_Point24 [link] [comments]",
+      "author": "Master_Point24"
+    },
+    {
+      "title": "Another reset incoming",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa1y0n/another_reset_incoming/",
+      "published": "2026-09-07T19:31:06+00:00",
+      "summary": "submitted by /u/ImThatFanboy [link] [comments]",
+      "author": "ImThatFanboy"
+    },
+    {
+      "title": "This week, three hikers were rescued from a mountain after following AI's advice. On the same day, OpenAI announced that we have reached the era of AGI. The two stories together got me thinking.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa5njq/this_week_three_hikers_were_rescued_from_a/",
+      "published": "2026-09-07T21:53:00+00:00",
+      "summary": "On September 1st, three young men from California used Gemini to plan a hiking route on Mount Shasta. The AI ​​told them to bring far less water and food than was actually needed for a hike of that difficulty.They reached the summit four hours behind schedule. They descended after dark. One of them injured his knee. They spent the night trapped in a ravine until they were rescued the next day. Google says it cannot reproduce the erroneous advice Gemini gave. Perhaps the prompts were poorly written, or perhaps the model was overly optimistic. But that isn't the point.The point is that three people treated an AI's response as if it were advice from an expert mountain guide. And no one told them not to.Two days later, OpenAI launched GPT-6 Astra and announced that we have entered the era of AGI. The benchmarks are impressive. Independent evaluators are somewhat more cautious,ranking Anthropic’s Fable 5.1 ahead in the overall index,but the leap in capability is real. And here is what I can",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "Astra feels like a downgrade for writers, editors, and documentation work",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa938q/astra_feels_like_a_downgrade_for_writers_editors/",
+      "published": "2026-09-08T00:19:57+00:00",
+      "summary": "What is Astra actually supposed to be better at, Because if the answer is “everything,” then I genuinely do not understand what kind of testing was done for writing-heavy use cases. My biggest issue is instruction following. I can explain exactly what I want, repeat it, provide examples, specify what should not be changed, define the tone, structure, formatting, and scope, and Astra still regularly ignores those instructions and produces something completely different. For example: DO NOT do X. DO Y. And somehow, a few messages later, it still does X. At that point, what is the purpose of custom instructions, project instructions, memory, Work instructions, or a large context window if the model repeatedly overrides extremely clear user direction? I also use ChatGPT professionally for documentation and writing work, and Astra is frustrating there too. If I ask it to change only specific words, it may rewrite entire sentences. If I ask it to preserve the structure, it changes the struct",
+      "author": "Different-Mess4248"
+    },
+    {
+      "title": "The phrase “Is/was *blank* a threat to democracy” is banned",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wa88j4/the_phrase_iswas_blank_a_threat_to_democracy_is/",
+      "published": "2026-09-07T23:42:11+00:00",
+      "summary": "I just found it intriguing, used him as the most obvious example, but replace it with any political actor and you get the exact same response. submitted by /u/Zilas0053 [link] [comments]",
+      "author": "Zilas0053"
+    }
+  ]
+}

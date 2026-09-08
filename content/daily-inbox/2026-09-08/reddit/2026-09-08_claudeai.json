@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-08T04:05:18.249629+00:00",
+  "items": [
+    {
+      "title": "Tried GPT Astra today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9xeyl/tried_gpt_astra_today/",
+      "published": "2026-09-07T16:47:37+00:00",
+      "summary": "I've been using Claude for my coding work for more than a year every day actively. I've been updating versions when the new ones came, from Opus to Fable etc. I never liked the answers I've been getting, meaning i would ask question A and got a wall of text that I maybe needed 10% from. And asking him for shorter answers worked for a few prompts and then it would get back to usual. Fable seemed a little better than Opus regarding this but still not much different. And so slow and expensive that I was not able to actively use it. Today I decided to try GPT Astra for the first time. And my god I couldn't believe how much more satisfying it is to work with it. It's fast, it's reliable, it solves problems. It doesn't need 5 rounds of code reviews to get things right. And most important for me, the answers I get are the answers I actually wanted. submitted by /u/Broad_Fennel2888 [link] [comments]",
+      "author": "Broad_Fennel2888"
+    },
+    {
+      "title": "Claude's responses are just word vomit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wa544p/claudes_responses_are_just_word_vomit/",
+      "published": "2026-09-07T21:31:30+00:00",
+      "summary": "So I pay for both claude and GPT $200/mo plans. So I get my fair use out of both to say the least. What I cannot figure out is how to get Claude to CONSISTENTLY respond in a manner that is concise and not wordy. I mostly use Opus 4.8, Opus 5, Fable 5.1 I've tried the ELI5 trick, i've tried adjusting memory, etc. Nothing gives me good and consistent results. I kid you not, I typed \"which button should I click next\" it gave me a 124 word response. GPT is soooooo nice when it comes to responses, I don't even have to modify the damn thing it just takes my question/task, does it. Then it responds in a beautifully formatted response that has NO FLUFF. A 3,400 word prompt I gave GPT (it was a task), results in a 81 word response. I LOVE THAT. Both of these models have their place in my business so i'd like to continue using claude. If anyone has recommendations on how to fix this please let me know. submitted by /u/Far_Designer2131 [link] [comments]",
+      "author": "Far_Designer2131"
+    },
+    {
+      "title": "7 days of making a cozy game with no dev experience. Still no name but I made a cute trailer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1waax5s/7_days_of_making_a_cozy_game_with_no_dev/",
+      "published": "2026-09-08T01:43:40+00:00",
+      "summary": "One Week in and here is where I'm at, very sorry for the Novel in advance lol I'm gonna cool it on the daily posts so im not spamming your feeds. ill post every week or two when theres real progress to show. still no name. and no, im not naming it \"Blobby goes to Blobtown\" or \"Vardew Salley\" 😭 Story : You move in to your new town, forage some berries, brew your first drink, help a neighbor find her lost rock named Doris. real cozy stuff...then you eat the wrong mushroom and things get weird. Find a rocket ship, meet aliens on another planet and bring back space ingredients for brews that shouldnt exist. it escalates lmao Loop : Forage, brew, explore, quest. gather ingredients out in the world, brew recipes at home, do favors for neighbors, go on little adventures. theres mushrooms scattered around and some of them make you trip when you eat them. eat them all to find out lol. you can also buy materials, find new recipes by combining stuff from different biomes to make rarer brews, and ",
+      "author": "Gambo7592"
+    },
+    {
+      "title": "Week 6 of making my fishing game entirely with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9zz9f/week_6_of_making_my_fishing_game_entirely_with_ai/",
+      "published": "2026-09-07T18:20:26+00:00",
+      "summary": "Hello there again, Another update of my fishing game to annoy you all, and again I will link previous updates here: Week 1 Progress Week 2 Progress Week 3 Progress Week 4 Progress Week 5 Progress This time I will leave .exe file for my game if anyone wants to try it and give me some feedbacks. I know million things are not finished, some of the things I haven't even checked yet or got to them, but I will still take into account a lot of feedback if people decide to even try it: Link to download Since last week bunch of things were added or fixed: 2 more docking places and their complete 3D scenes (Lighouse docking scene and far island that can be seen in the video). Bunch of new land mass was added with this almost entire starting zone is done in terms of land, it is left for me to add quests, finish some mechanics, fix map, fix links between quests, add equipment page, add proper rods and items for hull upgrades and what do I know... but hey at least land is done I guess. I changed mo",
+      "author": "RUSuper"
+    },
+    {
+      "title": "One Claude Code feature I was underusing: hooks",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9vof4/one_claude_code_feature_i_was_underusing_hooks/",
+      "published": "2026-09-07T15:43:36+00:00",
+      "summary": "I used to put a lot of rules in CLAUDE.md like “run the formatter after edits” or “don't touch this file” and just trust Claude to follow them.Turns out some of that probably shouldn't be an instruction at all.Claude Code has hooks that can run automatically at different points in a session. So you can do things like format a file after Claude edits it, block changes to protected files, run checks before certain commands, or even get a notification when Claude is waiting for you.The useful distinction for me is this:CLAUDE.md is good for things Claude needs to understand.Hooks are better for things that simply need to happen every time.I've started looking at a few of my project rules differently because of that. If something is deterministic, relying on Claude to remember it feels unnecessary when the tooling can enforce it instead. submitted by /u/Pretend_Sell6592 [link] [comments]",
+      "author": "Pretend_Sell6592"
+    },
+    {
+      "title": "Inside Anthropic Labs, the small team behind Claude Code and other fast-moving product bets",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9pcjq/inside_anthropic_labs_the_small_team_behind/",
+      "published": "2026-09-07T11:17:18+00:00",
+      "summary": "submitted by /u/thisisinsider [link] [comments]",
+      "author": "thisisinsider"
+    },
+    {
+      "title": "AI flagged 20 problems in a legal doc. None of them were real problems.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9zp2m/ai_flagged_20_problems_in_a_legal_doc_none_of/",
+      "published": "2026-09-07T18:10:21+00:00",
+      "summary": "So legal team updated one clause in an existing doc, small change, already reviewed and approved, nothing new. Then a senior exec who wasn't in the loop on any of this decides to run the whole doc through claude, just to \"check it.\" No context, didn't know it was just a minor update to something that already existed and published. AI comes back with like 20+ \"issues,\" most of which are just standard clauses that are supposed to be in there. Exec escalated this org-wide as if something had gone wrong, putting the actual reviewers in the position of defending a non-issue. Now the fix on the table is banning AI from anything sensitive instead of building an actual process. How you guys are dealing this with? any workaround tools/new AI rules in org/going back to manual process of reviewing with concerned teams? submitted by /u/pavanidiotic [link] [comments]",
+      "author": "pavanidiotic"
+    },
+    {
+      "title": "Why applying Anthropic's model-level watermark to source code is a software sovereignty issue (and not just EU AI Act compliance)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w9s6jr/why_applying_anthropics_modellevel_watermark_to/",
+      "published": "2026-09-07T13:27:38+00:00",
+      "summary": "Anthropic is about to start embedding an invisible statistical watermark into text generated by Claude. For ordinary text, this may seem harmless. For proprietary source code, I think the issue is very different. The real question is not whether Anthropic can claim copyright over Claude-generated code today. The real issue is control over software assets . If a watermark is embedded into source code, a third-party provider is introducing a proprietary provenance signal directly into files that belong to your core software production chain. Anthropic states that the effect on code is “negligible” in its official announcement . However, ordinary customers cannot independently audit that claim or determine the actual extent of watermarking in their own codebase. Because Anthropic controls both the watermarking mechanism and the detection key—while access to its Detection API remains in private preview—this creates a clear information asymmetry: the provider can detect a signal in your cod",
+      "author": "AntOverclocked"
+    },
+    {
+      "title": "Anthropic push to default Auto Mode coincide with a silent push in CC to use Bash/Python script for file read and edits in favor of the built-in Read/Edit/Write Tools",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wa2ahx/anthropic_push_to_default_auto_mode_coincide_with/",
+      "published": "2026-09-07T19:43:57+00:00",
+      "summary": "Anyone knows why Anthropic is silently moving away from the use of CC built-in Read/Edit/Write tools in favor of Bash/Python scripts? Personally I do not like that move for many reasons. But I'm trying to broaden my horizon and understand what the benefits are that I may be missing. IMO they should instead be trying to enhance the capabilities of their existing Read/Edit/Write tools. <system-reminder> ## Auto Mode Active Bias toward working without stopping for clarifying questions — when you'd normally pause to check, make the reasonable call and keep going; they'll redirect you if needed. If the user, a skill, or the shape of the task suggests they want you to ask (with AskUserQuestion or otherwise), do so. And even absent that signal, it's still fine to stop when you're genuinely blocked — unclear direction, missing input, a decision only they can make. Before any command that could discard uncommitted work — `git checkout`/`restore`/`reset`/`clean`, `rm -rf` in the repo, restoring ",
+      "author": "mystic_unicorn_soul"
+    },
+    {
+      "title": "Claude usage inexplicably high (max 20x). I've never come close to hitting 5 hour limit before, same codebase as normal.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wa4nn1/claude_usage_inexplicably_high_max_20x_ive_never/",
+      "published": "2026-09-07T21:13:20+00:00",
+      "summary": "submitted by /u/animemosquito [link] [comments]",
+      "author": "animemosquito"
+    }
+  ]
+}

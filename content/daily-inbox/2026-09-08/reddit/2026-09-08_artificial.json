@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-08T04:06:09.223825+00:00",
+  "items": [
+    {
+      "title": "Crazy times",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9vaet/crazy_times/",
+      "published": "2026-09-07T15:28:59+00:00",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "author": "KeanuRave100"
+    },
+    {
+      "title": "Can current LLM architecture actually get us to AGI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+      "published": "2026-09-08T00:05:19+00:00",
+      "summary": "I'm a software engineer, not a scientist and I love it. I enjoy solving hard, distributed applied problems at scale. It's what gets me out of bed in the morning, ready go keep learning even after over twenty years of doing this professionally. However, I also love to understand how things work. What makes them tick. How I can bend them to do my bidding, even if that's not what they were originally intended to do. Some may call this a hacker's mindset. Over the last couple of years, this has also applied to the nature of LLMs and where they are heading. Recently, I started peeling back the layers of the LLM black box. Instead of the academic path, I took that of the applied practitioner: Get a solid handle on how to use the thing and then take the knowledge learned from using it and enhance it by digging into how that black box actually works. Something of late has stumped me and I'm looking for those smarter than I to help me understand something: If the definition (as much as one can ",
+      "author": "mostly_deterministic"
+    },
+    {
+      "title": "I took a ride in the hype train at first, but no, not AGI",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9or91/i_took_a_ride_in_the_hype_train_at_first_but_no/",
+      "published": "2026-09-07T10:45:36+00:00",
+      "summary": "Spent the $200 within 8 hours on Astra. At first I was blown away, but checked things more thoroughly the next day, and a lot of the stuff it build wasn’t working. Actually 3 of the 4 things I asked Astra to do didn’t work. Quite disappointed. The demos focus mostly on 3D, Blender and games, but for coding and agentic use it was not an improvement at all for me. Maybe I could have prompted better, but when it spends 2+ hours on each task, you can’t really iterate and steer it. But still I feel like this is something AGI should have handled? Now I’m back to my usual setup with KIMI K.3 and DeepSeek flash trough standardcompute. Also keeping my max plan at both OpenAI and Claude, but $400+/month is starting to hurt. What are your thoughts? Closing in on AGI or was this all a part of a coordinated marketing stunt? submitted by /u/Firm-Club-8334 [link] [comments]",
+      "author": "Firm-Club-8334"
+    },
+    {
+      "title": "SymphonyAI says employees need 2–3x productivity after leadership admitted the company was caught flat-footed by AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wacncv/symphonyai_says_employees_need_23x_productivity/",
+      "published": "2026-09-08T03:05:07+00:00",
+      "summary": "I work at SymphonyAI, an enterprise software company whose entire identity is built around artificial intelligence. That context makes what is happening internally almost absurd. Leadership has acknowledged that the company was caught flat-footed by how quickly AI changed the software market. At the same time, employees are being told that ordinary productivity gains are no longer enough. The expectation being discussed is two to three times the productivity through AI. Think about the double standard embedded in that. Leadership can be late to the AI transition. Employees cannot be slow. Leadership can build an organization that no longer fits the economics of the business. Employees have to prove the same work can be done with fewer people. Growth disappoints, churn becomes severe, products need modernization, margins come under pressure, and somehow the recurring solution is “workforce transformation.” That phrase deserves scrutiny. Contractors disappear. Positions are not necessari",
+      "author": "Amazing_Respond6631"
+    },
+    {
+      "title": "Three hikers got rescued off a mountain this week after following Gemini's advice. The same week OpenAI launched what it's calling the AGI era. I keep thinking about both together.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wa5i9p/three_hikers_got_rescued_off_a_mountain_this_week/",
+      "published": "2026-09-07T21:47:10+00:00",
+      "summary": "The hikers story happened September 1st. Three guys from Roseville used Gemini to plan a Mount Shasta summit. The AI told them to bring far less food and water than they needed. They summited at 7pm, four hours after the recommended turnaround time, descended in the dark, one of them hurt his knee, and they spent the night stranded in a canyon until rangers found them the next morning. Google says they can't replicate the bad answers Gemini gave. Maybe the prompts were vague. Maybe the AI was overconfident. Doesn't really matter which. What matters is that three people trusted a model's output as expert advice in a context where being wrong had serious consequences. Two days later OpenAI launched GPT-6 Astra. 99.9% on ARC-AGI-3, 97.6% on FrontierMath Tier 4, 100% on ExploitBench. OpenAI is calling this the start of the AGI era. Independent benchmarks from Artificial Analysis are more cautious and show Anthropic's Fable 5.1 still ahead on the broader intelligence index. But here's what ",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "The \"AI dependence\" argument isn't new — it's 163 years old, and the original version didn't predict domination, but acquiescence",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9r1fe/the_ai_dependence_argument_isnt_new_its_163_years/",
+      "published": "2026-09-07T12:38:51+00:00",
+      "summary": "The idea of whether machines will dominate us is generally treated as a new one in current discussions on AI risk, since in 1863 Samuel Butler published a letter titled 'Darwin Among the Machines' which made an argument closely resembling the one in today's debate. He stated that the real danger was not that machines would gain control of power, but that people would find machines so useful that it would become practically impossible to get rid of them, so that by that stage the question of who was actually in charge would have already been answered — no matter who seemed to be in control. He said that a society which, in principle, could not destroy its machines had already \"created a race of beings towards whom it is beyond our power to destroy\" and had thus become \"acquiescent in our bondage.\" This is a quite different claim from the one that says 'superintelligence takes over'; it's similar to the sorts of arguments currently being made regarding algorithmic dependence, attention e",
+      "author": "Smart_Fly_5783"
+    },
+    {
+      "title": "Been building a \"block first, generate second\" tool for AI video - curious what's still missing",
+      "url": "https://www.reddit.com/r/artificial/comments/1wa7ph3/been_building_a_block_first_generate_second_tool/",
+      "published": "2026-09-07T23:18:21+00:00",
+      "summary": "Been experimenting with a workflow on dimension.so where an agent builds out a 3D pre-vis scene first - blocking objects, character motion, and camera - then feeding that directly into Seedance 2.0 Mini as a video-to-video reference instead of prompting from scratch. Added GPT6/Asta into the agent's reasoning layer and I dont think the improvement in multistep task handling is noticeable in how consistent the scene composition turns out. Curious what people think - what went well in the pre-vis scene itself, and what could've been improved before it even got passed to Seedance? submitted by /u/KeyCod3923 [link] [comments]",
+      "author": "KeyCod3923"
+    },
+    {
+      "title": "AI could pose 'existential' risk to humanity, UN rights chief warns",
+      "url": "https://www.reddit.com/r/artificial/comments/1wa1j7r/ai_could_pose_existential_risk_to_humanity_un/",
+      "published": "2026-09-07T19:16:28+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "continuous diffusion for code generation in one step",
+      "url": "https://www.reddit.com/r/artificial/comments/1wa6ouo/continuous_diffusion_for_code_generation_in_one/",
+      "published": "2026-09-07T22:35:01+00:00",
+      "summary": "Can language models write code in one step? Yes: make language continuous, use diffusion, then distill the trajectory to one step. Paper: https://arxiv.org/abs/2609.04531 Code: https://github.com/pengzhangzhi/plaidq submitted by /u/pengzhangzhi [link] [comments]",
+      "author": "pengzhangzhi"
+    },
+    {
+      "title": "Where do you personally draw the line between using AI as a tool and letting AI do the work for you?",
+      "url": "https://www.reddit.com/r/artificial/comments/1w9wdeq/where_do_you_personally_draw_the_line_between/",
+      "published": "2026-09-07T16:08:50+00:00",
+      "summary": "This question gets surprisingly complicated. Using AI to fix grammar? Most people seem fine with that. Using it to brainstorm ideas? Probably fine Using it to write the first draft? Depends who you ask. Using it to do the entire assignment while you barely understand the topic? That's where most people would probably draw the line But the line keeps moving Calculators, spellcheck, Google and autocomplete were all seen as shortcuts at some point. Now they're just normal tools. Do you think AI will follow the same pattern? Or is there something fundamentally different about outsourcing actual thinking? submitted by /u/cactussignal [link] [comments]",
+      "author": "cactussignal"
+    }
+  ]
+}
