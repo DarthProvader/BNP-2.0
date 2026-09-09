@@ -1,0 +1,40 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-09-09T04:01:04.273353+00:00",
+  "items": [
+    {
+      "title": "GPT-6 Astra is Unbelievable",
+      "url": "https://www.youtube.com/shorts/GK0LIn0u_qA",
+      "published": "2026-09-08T21:00:02+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "As you might have heard, GPT-6, Astra, is here. And it's not just, you know, better at doing typical tasks, it does a whole new category of things. How about a three-dimensional city? This thing is essentially like SimCity. Check this out. It's called New Haven, and you have so much functionality. I'm kind of just going through these different areas. Now I can design, and I could go to the towers. Let's build a tower here. Oh, construction is beginning. Can you believe that all of this has been made by AI? Look at all these functionalities here on the left. Your city at a glance. Healthcare is doing good, but you can check this out as it moves along. Things happen here. There's a urgent police call that I can check out and deal with. There's a reported crime in this building. Oh my god, what's happening? I think you see the point. You can play around with this. There's a ton here. It's just this complexity that is impressive. And also, this looks really good.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "Claude Skills Explained: Grilling",
+      "url": "https://www.youtube.com/shorts/kLAttkwBHYc",
+      "published": "2026-09-08T18:00:28+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Even the most advanced users of AI shifted to using way more skills. >> They're free. We're going to chat GPT Cloud. Let's get to it. And I'll start with the one called Grilling. And it's a skill created by a fellow creator called Matt. It just asks questions until it has clarity on an idea that you want to pursue, okay? So, often times you might have a direction in mind. If you grill the idea, well, the skill might hit you over the head with 25 questions. Luckily, it always has a suggested answer, so you can kind of just say, \"Yeah, I agree with all the recommendations.\" But it does take some work. In some cases, I had up to 50 questions to clarify something. Usually, it's between 15 and 25.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "Claude Skills Explained: ELI5",
+      "url": "https://www.youtube.com/shorts/h8gKU5DboVs",
+      "published": "2026-09-08T14:00:08+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Even the most advanced users of AI shifted to using way more skills. They're free, work in ChatGPT Cloud. Let's get to it. Next one is a skill that became popular on Twitter over the past few weeks because a lot of Anthropic staff uses it internally to explain things like you're five in a visual way. It creates a HTML that really shows off complicated ideas in a super super simple way. So when you're learning new things, ELI5 is actually super useful. So look, here I did /ELI5 explain the US tax system. And then this skill created this beautiful visual that shows you where your paycheck goes. It shows you, \"Hey, if you make 60K, this is basically how things land. This is the federal income tax with the different levels.\" And you just get these simplified visuals to understand it.",
+      "transcript_lang": "en"
+    }
+  ]
+}

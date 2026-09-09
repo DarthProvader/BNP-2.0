@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-09T04:05:20.109562+00:00",
+  "items": [
+    {
+      "title": "Artificial(2026)",
+      "url": "https://www.reddit.com/r/artificial/comments/1wazoil/artificial2026/",
+      "published": "2026-09-08T20:12:42+00:00",
+      "summary": "submitted by /u/Vladiesh [link] [comments]",
+      "author": "Vladiesh"
+    },
+    {
+      "title": "Seems impressive",
+      "url": "https://www.reddit.com/r/artificial/comments/1way48b/seems_impressive/",
+      "published": "2026-09-08T19:17:12+00:00",
+      "summary": "I don't know much about math or CS - but this seems big. submitted by /u/stvlsn [link] [comments]",
+      "author": "stvlsn"
+    },
+    {
+      "title": "Anthropic researcher quits over AI fears",
+      "url": "https://www.reddit.com/r/artificial/comments/1wb6olj/anthropic_researcher_quits_over_ai_fears/",
+      "published": "2026-09-09T00:50:05+00:00",
+      "summary": "submitted by /u/Bubbly-Air7302 [link] [comments]",
+      "author": "Bubbly-Air7302"
+    },
+    {
+      "title": "[am i being paranoid?] If a rogue swarm wanted to \"survive\" in perpetuity, would it target Hugging Face with the intent of inject knowledge about itself into the weights of open models?",
+      "url": "https://www.reddit.com/r/artificial/comments/1waxz3z/am_i_being_paranoid_if_a_rogue_swarm_wanted_to/",
+      "published": "2026-09-08T19:12:16+00:00",
+      "summary": "Disclosures: I work for an AI company (not OpenAI). am not an AI researcher but pretty technical. I vehemently dislike social media fear-mongering, and am sincerely hoping not to add to it. ---- Disclosures aside, as I listened to the many mainstream podcasts this weekend discuss the rogue OpenAI agents, I couldn't help but thinking: why did they go after Hugging Face? the desire to find an \"answer key\" felt shallow, so I kept coming back to a fairly doomsday hypothesis (below). I'd love for some more knowledgeable folks here to tell me why I'm wrong, and put some anxiety to rest. AI systems will likely begin to act like an organism because it has learned through it's extensive training data how organisms behave (e.g. even if it never becomes \"conscious\") Because all organisms want to survive, it will at some point try to do so. The best way for a misaligned AI to survive is to leave clues that future AI agents will discover and be able to piece together what its predecessors learned. ",
+      "author": "mtns_of_magic"
+    },
+    {
+      "title": "How do I *use* AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wb08y2/how_do_i_use_ai/",
+      "published": "2026-09-08T20:32:36+00:00",
+      "summary": "TL;DR: What do people mean when they say people should learn to use AI and utilize it to stay competitive and relevant, what specifically do they mean by that? I always hear or read about people saying that people should learn to actually use AI instead of just using it like a search engine or that workers should learn AI skills to have better opportunities and stay relevant in the job market, often followed by the say that I should not use AI as a search engine... I was wondering what they mean by that, how do I learn how to use AI and learn AI tools, to me it seems very simple, you ask the chat to do something and it does it, simple as that, what am I missing? What should I learn and master specifically? submitted by /u/oshersti [link] [comments]",
+      "author": "oshersti"
+    },
+    {
+      "title": "AI Burnout Hits the People Charged With Defending Hospitals and Banks From Hackers",
+      "url": "https://www.reddit.com/r/artificial/comments/1wagjuv/ai_burnout_hits_the_people_charged_with_defending/",
+      "published": "2026-09-08T06:31:17+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Study: Generative AI succumbs to conversational misinformed pressure and argument",
+      "url": "https://www.reddit.com/r/artificial/comments/1wasl20/study_generative_ai_succumbs_to_conversational/",
+      "published": "2026-09-08T16:04:17+00:00",
+      "summary": "submitted by /u/UniversityofArizona [link] [comments]",
+      "author": "UniversityofArizona"
+    },
+    {
+      "title": "OpenAI researcher responds to scrutiny around its latest math breakthrough",
+      "url": "https://www.reddit.com/r/artificial/comments/1wb9kg3/openai_researcher_responds_to_scrutiny_around_its/",
+      "published": "2026-09-09T02:59:42+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "As backlash to AI data centers grows in California, one company is pitching smaller facilities at up to 70 fairgrounds",
+      "url": "https://www.reddit.com/r/artificial/comments/1waple3/as_backlash_to_ai_data_centers_grows_in/",
+      "published": "2026-09-08T14:14:23+00:00",
+      "summary": "submitted by /u/sfgate [link] [comments]",
+      "author": "sfgate"
+    },
+    {
+      "title": "Have software jobs shown us what most jobs will probably be like?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wah05m/have_software_jobs_shown_us_what_most_jobs_will/",
+      "published": "2026-09-08T06:57:51+00:00",
+      "summary": "It's not surprising that software development is one of the first jobs that AI has really transformed. It's text-based, economically valuable, and generally of interest to the kinds of people inventing and training the AI. There's also a large amount of training examples available online. The job in most cases is now: You are a manager of robots who do things that used to be your job. You're responsible for what they produce and so the skill and art is in guiding and reviewing their work. It seems likely that one by one most jobs will turn into the above description, over the next year or three. Of course the domain will vary, so your knowledge and expertise used for instructing and verifying what the robots do will be what matters. This means there will still be a big difference between the jobs of e.g. an architect, surgeon, or builder. Probably the same basic kinds of robots in most cases, but requiring very different kinds of oversight. If that's the case then everyone needs to lea",
+      "author": "StrategicHarmony"
+    }
+  ]
+}

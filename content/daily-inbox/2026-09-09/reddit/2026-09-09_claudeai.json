@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-09T04:04:59.301193+00:00",
+  "items": [
+    {
+      "title": "I made a virtual lounge for vibecoders to hang out while claude code is running.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wb7190/i_made_a_virtual_lounge_for_vibecoders_to_hang/",
+      "published": "2026-09-09T01:05:01+00:00",
+      "summary": "My output has skyrocketed thanks to Claude Code, but I realized I'm spending more of my day alone staring at terminals waiting for it to finish jobs. So I made Rooftop.chat , a virtual rooftop lounge for vibecoders to hang out and chill. Rooftop Chat is built with Claude Code. You can walk around, talk over voice or text, sit with people, play pool, or just leave it open while you work. It's 18+ because the environment includes smoking and other substance-related content. It'd be really cool to meet fellow redditors here. I'll be hanging out at https://rooftop.chat/ROOFTOP-LOUNGE Thanks in advance for checking it out! Edit: I wasn't expecting this many people. Server needs update. Fixing it as quickly as I can! Thank you all for joining! submitted by /u/m0dE [link] [comments]",
+      "author": "m0dE"
+    },
+    {
+      "title": "Fable 5.1 vs GPT-6 Astra for 2D Sprites",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wanm8p/fable_51_vs_gpt6_astra_for_2d_sprites/",
+      "published": "2026-09-08T12:54:08+00:00",
+      "summary": "Using the same simple prompt the models took very different approaches: Astra delivered one sheet with 16 key poses; Fable delivered 992 frames across four palettes, plus a Python generator and browser preview. Codex CLI with GPT-5.6 Astra in XHigh Claude Code CLI with Fable 5.1 in XHigh Details in the video which was made with Astra in Codex CLI using Remotion and Elevenlabs for voice. Music programmatically generated. Prompt for the sprites: Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch. submitted by /u/bobo-the-merciful [link] [comments]",
+      "author": "bobo-the-merciful"
+    },
+    {
+      "title": "Great idea, Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wawozx/great_idea_claude/",
+      "published": "2026-09-08T18:28:25+00:00",
+      "summary": "Was asking Claude about how to verify whether a truck came with adaptive cruise control for a model year where it wasn't yet standard. Told me to check the window sticker or just set cruise control and see if I hit the car in front of me... submitted by /u/secret_squirrelz [link] [comments]",
+      "author": "secret_squirrelz"
+    },
+    {
+      "title": "I built an app where each of my Claude Code agents looks after one thing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wazam9/i_built_an_app_where_each_of_my_claude_code/",
+      "published": "2026-09-08T19:59:25+00:00",
+      "summary": "I had this setup in Slack already, Claude Code agents on a Mac mini with their own instructions and schedules, and keeping it alive was a hassle of its own. Every new Claude Code session started from nothing, so I was explaining my product from scratch again the next week. Then I tried Grok Bot, liked the idea a lot and could not justify the price. So I built Omni, a Mac and iPhone app where each Claude Code bot keeps its own conversation and looks after one thing. Built with Claude Code. Mine look after my feedback board, my website, growth and analytics. The part I like is in the video. Two of them sort out a release between them. One says the fix is ready and the tests pass. The other says a newsletter will mention it Thursday if the bug is gone by then. They ask me one thing, tonight or Thursday. I say tonight and they both go do their part. Each bot runs the real Claude Code on your own Mac, signed in with your own Claude account. Omni has no AI of its own. Codex works too if that",
+      "author": "itslitman"
+    },
+    {
+      "title": "I ported Toyota's Lean quality system to Claude Code so the same agent mistakes stop coming back (MIT, free)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1waoo5h/i_ported_toyotas_lean_quality_system_to_claude/",
+      "published": "2026-09-08T13:38:23+00:00",
+      "summary": "I spent 15 years in manufacturing, eventually running production. Most of what I learned about improving systems came from applied Lean and Six Sigma (probably closer to Paul Akers than Toyota). Now I run a company almost entirely through Claude Code, and I keep finding that a surprising amount of the old manufacturing thinking still applies. Andon came out of one specific failure. An agent found a bug and fixed it in five places. It told me the problem was fixed. It wasn't. There were nine more instances sitting in files the agent hadn't opened. I tried improving the prompts, but that wasn't really the problem. In manufacturing, if the same defect can keep happening, you don't keep reminding the operator to be more careful. You change the process. So I started doing the same thing with agents. Every meaningful failure gets logged, understood, and turned into some kind of countermeasure so the system is less able to make that mistake again. I stripped the private stuff out of that syst",
+      "author": "PrimeFold"
+    },
+    {
+      "title": "I turned my Miata's fuel gauge into an OBD-II connected Kerbal Space Program delta-V readout. It runs on the car's actual head unit.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wav0oy/i_turned_my_miatas_fuel_gauge_into_an_obdii/",
+      "published": "2026-09-08T17:30:36+00:00",
+      "summary": "submitted by /u/Drunkenm4ster [link] [comments]",
+      "author": "Drunkenm4ster"
+    },
+    {
+      "title": "Is this dumb?: I talk to Claude chat, to give me Claude Code prompts.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wax8i2/is_this_dumb_i_talk_to_claude_chat_to_give_me/",
+      "published": "2026-09-08T18:47:17+00:00",
+      "summary": "Right now my work flow when ever I try to build something is discussing the game plan with Claude chat until I have a decently baked idea. Then I ask it to give me Claude code prompts to build what ever it is I'm trying to make. Then I paste the Claude code output into Claude chat, discuss further, and repeat the cycle. I am assuming this is wasteful, but sometimes Claude code goes a little (or a lot) over my head, and I need Claude chat to dumb it down for me or even recommend what to do. I tried /plan, in claude code, but its very black and white. First we plan. Then we code. When sometimes I need more of a conversation throughout the process. Is there a better way to do this? submitted by /u/Either_Pineapple3429 [link] [comments]",
+      "author": "Either_Pineapple3429"
+    },
+    {
+      "title": "Entire week's fable quota is burnt in a day :-|",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wam3eo/entire_weeks_fable_quota_is_burnt_in_a_day/",
+      "published": "2026-09-08T11:45:18+00:00",
+      "summary": "https://preview.redd.it/mo5y00dv9aoh1.png?width=2020&format=png&auto=webp&s=95f0c39aa0470014e6c98365fdb6ce9037bf9c98 This is $200 Max plan. I think I need to buy 6 more of these now to survive a week! :-( How do you guys manage the usage? Is Codex any better ? submitted by /u/aredditor17 [link] [comments]",
+      "author": "aredditor17"
+    },
+    {
+      "title": "Why Using Astra Inside Claude Code Is the New Meta (& How To Do It)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wafqz0/why_using_astra_inside_claude_code_is_the_new/",
+      "published": "2026-09-08T05:47:06+00:00",
+      "summary": "So, I've been running Astra as the main model in Claude Code since Friday and it's the best orchestrator I've had so far... stays on the plan, takes a redirect without treating it as a new task, and does a great job at delegating work to the proper subagents and orchestrating that work without taking over or forgetting to use the subagents halfway through or that kind of shit, which every other model I've tried starts doing after a few hours. The way it works is through a small local proxy plugin I made (model-gateway, it's in my Eigenwise Toolshed marketplace, MIT, no signup or anything) that sends the GPT requests to OpenAI on your ChatGPT login and passes everything else through to Anthropic on your normal claude.ai login, so the GPT models just show up in /model next to Opus and Sonnet and you can mix them however you want... Astra orchestrating Opus subagents, Opus orchestrating GPT-5.6 executors, or fully GPT end to end if you don't even want the Anthropic half. Go crazy. So why ",
+      "author": "TheDeadlyPretzel"
+    },
+    {
+      "title": "Is your name Claude or do you know someone named Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wagymg/is_your_name_claude_or_do_you_know_someone_named/",
+      "published": "2026-09-08T06:55:20+00:00",
+      "summary": "At work the name Claude has become more popular than Google. \"I had Claude write this email\" \"Claude told me this plan is solid\" \"I love using Claude\" \"Claude is being slow today\" etc etc I realised if your name was actually Claude it would be a nightmare in the workplace. At least it's a somewhat old fashioned name. Maybe someone might name their kid Claude one day after the models? submitted by /u/cosmicr [link] [comments]",
+      "author": "cosmicr"
+    }
+  ]
+}

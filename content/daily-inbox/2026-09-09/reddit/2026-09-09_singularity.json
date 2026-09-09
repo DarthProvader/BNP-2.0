@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-09T04:02:47.011822+00:00",
+  "items": [
+    {
+      "title": "ChatGPT Images 2.5",
+      "url": "https://www.reddit.com/r/singularity/comments/1waxm7z/chatgpt_images_25/",
+      "published": "2026-09-08T19:00:11+00:00",
+      "summary": "submitted by /u/FateOfMuffins [link] [comments]",
+      "author": "FateOfMuffins"
+    },
+    {
+      "title": "I only like human-solved secrets of the universe",
+      "url": "https://www.reddit.com/r/singularity/comments/1wazg2q/i_only_like_humansolved_secrets_of_the_universe/",
+      "published": "2026-09-08T20:04:23+00:00",
+      "summary": "submitted by /u/toni_btrain [link] [comments]",
+      "author": "toni_btrain"
+    },
+    {
+      "title": "Anthropic Researcher Quits Over AI Safety Fears: \"I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb7ml2/anthropic_researcher_quits_over_ai_safety_fears_i/",
+      "published": "2026-09-09T01:31:30+00:00",
+      "summary": "submitted by /u/randomquestion11111 [link] [comments]",
+      "author": "randomquestion11111"
+    },
+    {
+      "title": "Insane times we live in",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb3yc0/insane_times_we_live_in/",
+      "published": "2026-09-08T22:53:54+00:00",
+      "summary": "Read full thread here: https://x.com/douglasyaody/status/2097377733466800489 Edit: In tweet 5 he wrote “When administered to mice…” ngl I don’t even wanna ask/findout if he did this part in collaboration with a proper lab or if he was just in his basement catching/breeding mice and yolo’d that part too submitted by /u/offgramercy [link] [comments]",
+      "author": "offgramercy"
+    },
+    {
+      "title": "A Solution to the Navier-Stokes Millennium Prize Problem",
+      "url": "https://www.reddit.com/r/singularity/comments/1wauqbz/a_solution_to_the_navierstokes_millennium_prize/",
+      "published": "2026-09-08T17:20:21+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Sam Altman on Room Temperature Superconductors & Anthropic: \"Let's try that.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb5et4/sam_altman_on_room_temperature_superconductors/",
+      "published": "2026-09-08T23:55:48+00:00",
+      "summary": "Source: https://x.com/sama/status/2097450412995735755 submitted by /u/TheGoldenLeaper [link] [comments]",
+      "author": "TheGoldenLeaper"
+    },
+    {
+      "title": "Today is a historical moment.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wawkq5/today_is_a_historical_moment/",
+      "published": "2026-09-08T18:24:25+00:00",
+      "summary": "That is all. The AI age had been dawning upon us for a long time, but if today's provided solution of the Navier-Stokes problem by OpenAI holds, then this is, beyond any doubt , an intellectual feat that definitively surpassed the abilities of all mankind; or at least a hallmark of the problems considered by mankind to be a crown jewel of intellectual thought, one which was so far not yet bested by our brightest minds. Though arguably a moderate and a mild skeptic by the standards of this sub, I wish to invite all members and visitors - regardless of their skepticism and/or concern over AI capabilities, or their enthusiasm and/or excitement about it - to acknowledge the historicity of this day, for better or worse; and how it arguably marked the dawn of the Machine Age in earnest. EDIT: SOLUTION, not proof, sorry guys. I mistyped. It was 1 AM where I was when I posted this submitted by /u/No-Head-Royal [link] [comments]",
+      "author": "No-Head-Royal"
+    },
+    {
+      "title": "Embodied Astra paints the Golden Gate bridge",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb4brl/embodied_astra_paints_the_golden_gate_bridge/",
+      "published": "2026-09-08T23:09:22+00:00",
+      "summary": "Source: @cdngdev \"i gave astra a robot, a paint brush, and a camera then asked it to paint the golden gate bridge in real life! it figured out how to control the robot, and progressively got better throughout its attempts. the timelapse is sick\" submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "Chris Combs, professor of Aerospace engineering, throws some cold water on OpenAI’s NS solution",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb05u0/chris_combs_professor_of_aerospace_engineering/",
+      "published": "2026-09-08T20:29:40+00:00",
+      "summary": "“Some thoughts on the Navier-Stokes news from a professor of aerospace engineering: 1) take a deep breath 2) posts indicating we \"solved Navier-Stokes\" are incorrect and overblown. A very specific mathematical proof involving a niche scenario for Navier-Stokes has *potentially* been shown (that a perfectly smooth incompressible initial condition with finite energy could produce a singularity--note the assumptions here piled on to an equation set that already involves some assumptions). 3) there is no general closed form solution for N-S and that's not what this news is about 4) this is more of a mathematical curiosity than anything else and could matter a lot to mathematicians but basically changes nothing in the way N-S are used in practice 5) there are already very useful exact solutions to Navier-Stokes that greatly simplify the equation set with the right boundary conditions/geometry like laminar flow through a pipe or a 2D Taylor-Green vortex 6) in aerospace, we already treat N-S ",
+      "author": "Mindrust"
+    },
+    {
+      "title": "[Alignment Science lead at Anthropic] Evan Hubinger : \"....we really do earnestly believe AI could kill all humans! I personally think it is >10% within the next decade ...... we do not yet have a plan to solve alignment for superintelligence and are not clearly on track to.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb99y5/alignment_science_lead_at_anthropic_evan_hubinger/",
+      "published": "2026-09-09T02:45:51+00:00",
+      "summary": "submitted by /u/No-Meringue5867 [link] [comments]",
+      "author": "No-Meringue5867"
+    }
+  ]
+}
