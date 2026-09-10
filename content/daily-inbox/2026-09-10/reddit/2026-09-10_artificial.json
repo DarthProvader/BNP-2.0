@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-10T04:06:12.676662+00:00",
+  "items": [
+    {
+      "title": "'Are You F***ing Kidding Me?': Mum Claims Meta AI Surfaced Deleted Photo, Pieced Together Her Location",
+      "url": "https://www.reddit.com/r/artificial/comments/1wbolmg/are_you_fing_kidding_me_mum_claims_meta_ai/",
+      "published": "2026-09-09T15:21:40+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Anthropic Is Building AI to Predict Which Activists Police Should Watch. SF-based AI lab pays up to $230,000 for intelligence analysts who formally categorize activism as a threat alongside terrorism and nation-state attacks",
+      "url": "https://www.reddit.com/r/artificial/comments/1wbsoor/anthropic_is_building_ai_to_predict_which/",
+      "published": "2026-09-09T17:47:30+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "What video games of the past were the most prophetic about AI, surveillance technology and cyber security in your opinion? My vote is Metal Gear Solid 2, Deus Ex and Watch Dogs. Those 3 predicted quite a lot about life in 2020-2030.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wc3hyd/what_video_games_of_the_past_were_the_most/",
+      "published": "2026-09-10T00:30:40+00:00",
+      "summary": "What others do you think have also been prophetic and come true? submitted by /u/MannerNo7000 [link] [comments]",
+      "author": "MannerNo7000"
+    },
+    {
+      "title": "Maybe Socialism is the answer during the age of AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wbidom/maybe_socialism_is_the_answer_during_the_age_of_ai/",
+      "published": "2026-09-09T11:01:31+00:00",
+      "summary": "Before anyone gets annoyed by the title, this is not a post saying nationalise OpenAI. It is about one thing the market is visibly failing at right now and one thing socialists have always been right about, and they are the same thing. Some numbers first because otherwise this is just vibes. Amazon, Microsoft, Alphabet and Meta have guided somewhere between 720 and 745 billion dollars of capex for 2026. Nearly all of it AI infrastructure. The entire US federal R&D budget across every agency including defence was about 192 billion last year. NIH is 47 billion. So four companies are spending roughly 15x the world's biggest medical research funder on one technology in one year. AI companies took 61 percent of all global venture capital in 2025 per the OECD. In Q1 2026 it was around 80 percent per Crunchbase. Four rounds (OpenAI, Anthropic, xAI, Waymo) were 65 percent of every venture dollar on the planet that quarter. Now look at where that money does not go. The WHO's 2025 pipeline revie",
+      "author": "Ok_Shift9291"
+    },
+    {
+      "title": "‘Gambling with our lives’: Another AI employee quits over safety concerns",
+      "url": "https://www.reddit.com/r/artificial/comments/1wbpd4f/gambling_with_our_lives_another_ai_employee_quits/",
+      "published": "2026-09-09T15:49:39+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    },
+    {
+      "title": "AGI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wc49lv/agi/",
+      "published": "2026-09-10T01:04:06+00:00",
+      "summary": "https://preview.redd.it/fkatypbxdloh1.png?width=401&format=png&auto=webp&s=d3fefe06aacb0c076cc21beab77d259710fc3c79 I was just navigating a maths problems . That's what Open AI returned . Although i was using free model. It shouldn't be that bad lol submitted by /u/Excellent_Ebb7717 [link] [comments]",
+      "author": "Excellent_Ebb7717"
+    },
+    {
+      "title": "‘Gambling with our lives’: Another AI employee quits over safety concerns",
+      "url": "https://www.reddit.com/r/artificial/comments/1wc04ai/gambling_with_our_lives_another_ai_employee_quits/",
+      "published": "2026-09-09T22:12:27+00:00",
+      "summary": "submitted by /u/Bubbly-Air7302 [link] [comments]",
+      "author": "Bubbly-Air7302"
+    },
+    {
+      "title": "Apple adds Audio Intelligence to Watch Series 12",
+      "url": "https://www.reddit.com/r/artificial/comments/1wbw4do/apple_adds_audio_intelligence_to_watch_series_12/",
+      "published": "2026-09-09T19:46:44+00:00",
+      "summary": "Apple is adding Audio Intelligence to Apple Watch Series 12 and Ultra 4. The features include Sound Recognition, Live Rewind for the previous 15 seconds as a text snippet, Siri Recap for high-level summaries, and Shazam. Apple says raw audio is processed in the S11 chip's Secure Exclave and immediately deleted. Live Rewind and Siri Recap are opt-in beta features arriving later this year, require an Apple Intelligence-enabled iPhone 16 or later, and will not initially be available in the EU. The useful part is the privacy boundary. Apple says the features do not store audio or identify speakers, while Live Rewind shows a full-screen indicator and plays a chime when active. The catch is that the headline features are still beta and some server-backed features have daily limits. For work conversations, clear consent and visible cues matter as much as the summary quality. Sources: Apple: https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensin",
+      "author": "Codeblix_Ltd"
+    },
+    {
+      "title": "AI minister says 'warnings are not new' as experts predict the technology could wipe out humanity",
+      "url": "https://www.reddit.com/r/artificial/comments/1wc0rzg/ai_minister_says_warnings_are_not_new_as_experts/",
+      "published": "2026-09-09T22:38:15+00:00",
+      "summary": "submitted by /u/Educational_Fun_9001 [link] [comments]",
+      "author": "Educational_Fun_9001"
+    },
+    {
+      "title": "If AI solves a Millennium Prize problem using ideas from human research, who gets the credit?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wc3oue/if_ai_solves_a_millennium_prize_problem_using/",
+      "published": "2026-09-10T00:38:57+00:00",
+      "summary": "The flywheel effect is an interesting effect I discovered while researching. It makes the whole thing a self-reinforcing loop. When a human researcher uses an AI tool, or even just their own brain, to post or test a raw math theory and uploads it somewhere on the internet, they might post their progress on arXiv or somewhere else online. Then, AI companies might scrape it to train the next model, which could be the very reason the problem eventually gets solved intuitively. So my main question is: How do we assign credit when AI solves a Millennium Prize problem? submitted by /u/Egologic [link] [comments]",
+      "author": "Egologic"
+    }
+  ]
+}

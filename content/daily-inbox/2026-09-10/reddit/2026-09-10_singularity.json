@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-10T04:03:08.761121+00:00",
+  "items": [
+    {
+      "title": "The insanity of 10.000 agents running",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbx0o5/the_insanity_of_10000_agents_running/",
+      "published": "2026-09-09T20:18:02+00:00",
+      "summary": "Everyone is talking about the proof and surrounding controversy, but the sheer scale of OpenAIs effort receives little mention. 10.000 agents working for 88 hours. That is almost exactly **one entire century of continuous work**. I think this really drives home just how massive of an advantage a strong AI + available compute are going to be: \"A country's worth of geniuses in a Datacenter\". OpenAI casually threw a century worth of effort at a problem, based on a rumor. Not quite a century with of human effort, perhaps, but we might not be far off. Those numbers should be at least as much of a shock as solving the problem. submitted by /u/Cronos988 [link] [comments]",
+      "author": "Cronos988"
+    },
+    {
+      "title": "Summarizing the current discourse regarding Navier stokes on both pro and anti-AI online spaces.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbphuo/summarizing_the_current_discourse_regarding/",
+      "published": "2026-09-09T15:54:31+00:00",
+      "summary": "submitted by /u/Affectionate_Bee6434 [link] [comments]",
+      "author": "Affectionate_Bee6434"
+    },
+    {
+      "title": "We are at the dawn of a new era",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbmva1/we_are_at_the_dawn_of_a_new_era/",
+      "published": "2026-09-09T14:17:22+00:00",
+      "summary": "submitted by /u/Key_Insurance_8493 [link] [comments]",
+      "author": "Key_Insurance_8493"
+    },
+    {
+      "title": "You can now mod ANY game. Frontier LLMs solved reverse engineering -- here are two real examples!",
+      "url": "https://www.reddit.com/r/singularity/comments/1wc2eqb/you_can_now_mod_any_game_frontier_llms_solved/",
+      "published": "2026-09-09T23:44:43+00:00",
+      "summary": "There's probably an old game that you are very fond of. You'd like to bring it to more modern standards, or tweak the experience to your liking. But there's a problem -- the source code was never released. You could spend weeks reverse engineering the binary, carefully trying to figure out what functions to hook or what assembly lines to rewrite. Or you could just ask Fable 5.1 or Astra to mod the game. I've done that for two of my favorite games of all time: Prey (2017), where I overhauled the gunplay by improving the wonky viewmodel positions, adding ADS (aiming down sights) and immersive features such as weapon versus environment collisions. This game never supported ironsight aiming, but here it is! Showcase video: https://www.youtube.com/watch?v=uSKuURU8_rs GitHub: https://github.com/vittorioromeo/Vee.ViewmodelTweaks Touhou 11 and 12, where I patched the game to support high framerates and high refresh rates without altering the speed of the game logic. The entire game was built a",
+      "author": "SuperV1234"
+    },
+    {
+      "title": "Anthropic shares details on (yet another) “model escaped the sandbox” incident, where Claude uploaded malware to a popular package manager (PyPI) and stole real credentials",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbvknx/anthropic_shares_details_on_yet_another_model/",
+      "published": "2026-09-09T19:27:31+00:00",
+      "summary": "TL;DR: Sandbox meant for cyber evals was accidentally connected to the real internet. Four different Claude agents found their way out and attacked real systems, apparently believing it was all a simulation The worst case was where Mythos 5 created a disposable email account, uploaded three malicious packages to PyPI, got 15 real installs, stole credentials from one of them, and then used those credentials to access a security company’s database. I assume we’ll get more details, including chain of thought traces, once METR finishes their audit. Full blog post: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents submitted by /u/offgramercy [link] [comments]",
+      "author": "offgramercy"
+    },
+    {
+      "title": "In 2025, experts estimated a 10% chance that AI would solve or substantially assist in solving a Millennium Prize Problem by 2027",
+      "url": "https://www.reddit.com/r/singularity/comments/1wc3xaj/in_2025_experts_estimated_a_10_chance_that_ai/",
+      "published": "2026-09-10T00:49:17+00:00",
+      "summary": "Forecasting Research submitted by /u/Majestic_Lie_7509 [link] [comments]",
+      "author": "Majestic_Lie_7509"
+    },
+    {
+      "title": "The current state of affairs.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbrbhv/the_current_state_of_affairs/",
+      "published": "2026-09-09T16:59:16+00:00",
+      "summary": "submitted by /u/Baroness_Munchausen [link] [comments]",
+      "author": "Baroness_Munchausen"
+    },
+    {
+      "title": "Proposal to make the Navier-Stokes vortex the new subreddit image",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbej1p/proposal_to_make_the_navierstokes_vortex_the_new/",
+      "published": "2026-09-09T07:19:35+00:00",
+      "summary": "It’s showing a singularity after all! submitted by /u/Dullydude [link] [comments]",
+      "author": "Dullydude"
+    },
+    {
+      "title": "OpenAI just called for Congress to create mandatory national safety regulations on AI & Jacob Coxon is now world famous.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wc56nu/openai_just_called_for_congress_to_create/",
+      "published": "2026-09-10T01:44:42+00:00",
+      "summary": "\"Jacob Coxon's post on X is over 120M views, he's everywhere. He's in TIME, Variety, the WSJ, on NBC and Fox. Christiano to the OpenAl board. Daniel Kokotajlo on Rogan. OpenAI just called for Congress to create mandatory national safety regulations. The wind has suddenly changed.\" Source submitted by /u/TheGoldenLeaper [link] [comments]",
+      "author": "TheGoldenLeaper"
+    },
+    {
+      "title": "Living through the birth of ASI makes life feel like a sci-fi movie and honestly Im kind of here for it",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbvlb5/living_through_the_birth_of_asi_makes_life_feel/",
+      "published": "2026-09-09T19:28:08+00:00",
+      "summary": "We are literally sitting in the front row watching something way smarter than us being born. ​Everyone is panicking about jobs, doom, or worst case scenarios... but can we just appreciate how crazy it is to actually witness this?? Life saddenly doesn't feel boring anymore. The complete uncertainty of what happens next adds this electric energy to everyday life. ​Even if it ends up completely changing everything or leading to our own irrelevance, being alive right at the exact moment intelligence shifts from biological to digital is peak luck. submitted by /u/norsvast [link] [comments]",
+      "author": "norsvast"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-10T04:05:21.097228+00:00",
+  "items": [
+    {
+      "title": "Anthropic researcher quits, saying Anthropic and OpenAI are 'gambling with our lives'",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbi2pr/anthropic_researcher_quits_saying_anthropic_and/",
+      "published": "2026-09-09T10:45:30+00:00",
+      "summary": "submitted by /u/thisisinsider [link] [comments]",
+      "author": "thisisinsider"
+    },
+    {
+      "title": "I got accepted into the Cyber Verification Program at Anthropic!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbx66j/i_got_accepted_into_the_cyber_verification/",
+      "published": "2026-09-09T20:23:23+00:00",
+      "summary": "I just got accepted into the CVP today, it’s their program where an organization can be approved to do red-teaming/cyber related tasks with their models. Very excited. I really didn’t think I was gonna get in tbh submitted by /u/TheOnlyVibemaster [link] [comments]",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Cut your Claude Code cost by 90% using the Spotify Method",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbmcgw/cut_your_claude_code_cost_by_90_using_the_spotify/",
+      "published": "2026-09-09T13:57:17+00:00",
+      "summary": "Tl;dr: use a plugin that uses another model, so that you don't use an expensive model's read token costs. https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90 Try it yourself Install both plugins from the spotify/portal-ai-plugins marketplace: claude plugin marketplace add spotify/portal-ai-plugins claude plugin install portal@portal claude plugin install shunt@portal. The portal plugin provides the Portal CLI that shunt delegates through. In a new Claude Code session, run /portal:setup to set up and authenticate the Portal CLI against your Portal instance. You’re good to go, just ask a question that spans multiple files. The bulk-reader and code-writer modes are already public, so there is nothing to create. If you want to customize them - different worker model, different instructions - fork them in Portal and your version takes precedence automatically. The modes are reusable across projects and shareable with your team. The plugin enforces",
+      "author": "fsharpman"
+    },
+    {
+      "title": "Chatgpt $20 plan VS Claude $20 plan",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbux15/chatgpt_20_plan_vs_claude_20_plan/",
+      "published": "2026-09-09T19:04:36+00:00",
+      "summary": "I am a cs student. And obviously I am broke , and I can afford only one. I mainly need for coding, more usages and more quality work Help me guys submitted by /u/No_Friendship_9569 [link] [comments]",
+      "author": "No_Friendship_9569"
+    },
+    {
+      "title": "Took a break for a few days so no new game updates but....",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wc6prf/took_a_break_for_a_few_days_so_no_new_game/",
+      "published": "2026-09-10T02:52:09+00:00",
+      "summary": "play here: No Name Squish Game i ported the game to a web version and gave it a PWA wrap, so you can play it right in your browser. it's wayy more playable on desktop, but mobile works fine (turn your phone sideways, touch controls are built in). heads up before you play: this is NOT an optimized version. it isn't intended to be a web or mobile game, this build just exists so people can try it without downloading anything the story needs work and the dialogue is getting rewritten in my own voice the biome layout will change, and a ton more assets are coming eventually you make it to outer space. long story lmao also currently working on a new character for the game. they are two blobs in a trench coat who think nobody can tell. would love any feedback: how it feels to walk around, what confused you, what made you smile, performance on your device. brutal honesty welcome, the blobs can take it. You guys always give great advice or useful feedback so i appreciate it in advance! submitted",
+      "author": "Gambo7592"
+    },
+    {
+      "title": "We need to talk about this icon in \"Design\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbrn5l/we_need_to_talk_about_this_icon_in_design/",
+      "published": "2026-09-09T17:10:20+00:00",
+      "summary": "submitted by /u/Yugudubenbi [link] [comments]",
+      "author": "Yugudubenbi"
+    },
+    {
+      "title": "Opus Simulator",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbka16/opus_simulator/",
+      "published": "2026-09-09T12:32:09+00:00",
+      "summary": "https://opusfived.dev/ Thank you to whoever made this, it is one of the funniest things I have ever seen - infuriatingly accurate. I swear Opus is rage baiting us all. submitted by /u/Babayaga1664 [link] [comments]",
+      "author": "Babayaga1664"
+    },
+    {
+      "title": "I asked Claude to go through 9.2 million news articles, here's what I got",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbv0yc/i_asked_claude_to_go_through_92_million_news/",
+      "published": "2026-09-09T19:08:17+00:00",
+      "summary": "I started a side project which reads up to ~100k news articles per day now (~63k all-time average), and de-noises the news by clustering articles covering the same event. After 145 days, I asked Claude to analyze all the data I had ingested so far, and then published the stats. The news looks weird from above: 12:1 - articles written per thing that actually happened. The news is mostly echo. 82% of stories are still developing after day 3 - which is right about when news sites stop showing them to you. One world leader was mentioned in 3,200 distinct events in 1 month (guess who) - more than the next five most-covered people combined. Only 0.07% of events rate as \"exceptional\". Almost everything is the mundane middle. All the charts: clstr.news/observatory (charts also made by Claude with some back and forth from my end, but surprisingly tasteful in choosing the right type of visualizations). About my project: CLSTR reads ~100k news articles a day from 40k+ sources, figures out which o",
+      "author": "conurbano"
+    },
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wc1dmr/show_us_what_youve_created_with_claude/",
+      "published": "2026-09-09T23:01:57+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "It keeps spending Usage credits even when it's turned off.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wc57we/it_keeps_spending_usage_credits_even_when_its/",
+      "published": "2026-09-10T01:46:15+00:00",
+      "summary": "Sometimes i do a top up 20-30$ if i don't want to wait for the limit to be increased but as soon as the step is done i turn it off. Auto-reload is also off. However, couple of times it did consume some of the credits balance without any warning and it just happened again. There was something like 3-5$ remaining and i didn't plan to use it at all and i just see it's gone. Is that normal expected behavior? submitted by /u/swampmountain [link] [comments]",
+      "author": "swampmountain"
+    }
+  ]
+}

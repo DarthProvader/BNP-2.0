@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-10T04:05:00.157771+00:00",
+  "items": [
+    {
+      "title": "\"helping GPT6 Astra become agi\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbhzjh/helping_gpt6_astra_become_agi/",
+      "published": "2026-09-09T10:40:32+00:00",
+      "summary": "submitted by /u/salinx27 [link] [comments]",
+      "author": "salinx27"
+    },
+    {
+      "title": "Wake me up when...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbxnhj/wake_me_up_when/",
+      "published": "2026-09-09T20:40:31+00:00",
+      "summary": "submitted by /u/Confident_Salt_8108 [link] [comments]",
+      "author": "Confident_Salt_8108"
+    },
+    {
+      "title": "Codex just saved me from spending $2,000 on an internet problem I’ve had for 8 years",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbpbxz/codex_just_saved_me_from_spending_2000_on_an/",
+      "published": "2026-09-09T15:48:26+00:00",
+      "summary": "The photos I sent Codex while we figured this out. Eight years of slow internet upstairs, and the fix was hiding behind the furniture. I spent $300 earlier this year trying to fix my internet, and now I feel so stupid. For the entire eight years I’ve lived in this house, the internet on the bedroom level has been a problem. The router is in the basement. My office is two floors up. I tried a Verizon extender, wasn’t happy with it, and bought a Google mesh system earlier this year. Today my office PC was getting about 22 Mbps down and 15 up. I’m doing more livestreams now, so I really needed to figure this out. I opened Codex. Here’s how the conversation went, shortened and paraphrased in places. Me: Something is wrong with my internet. Can you check my PC? We started troubleshooting and comparing connections. Eventually we restarted the Google mesh points and tested again. That got my office connection up to around 219 down and 106 up. Much better, but by then I was thinking about a pe",
+      "author": "Northern_Virginia"
+    },
+    {
+      "title": "based",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbl0oy/based/",
+      "published": "2026-09-09T13:04:18+00:00",
+      "summary": "submitted by /u/Zestyclose-Salad-290 [link] [comments]",
+      "author": "Zestyclose-Salad-290"
+    },
+    {
+      "title": "Amazing Images made by image gen 2.5!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wc297w/amazing_images_made_by_image_gen_25/",
+      "published": "2026-09-09T23:38:16+00:00",
+      "summary": "Big improvement to the image gen model! submitted by /u/FlawlessArc [link] [comments]",
+      "author": "FlawlessArc"
+    },
+    {
+      "title": "Image 2.5 is a major improvement",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbm8gm/image_25_is_a_major_improvement/",
+      "published": "2026-09-09T13:53:03+00:00",
+      "summary": "2.0 was already pretty good about carrying character and background detail from scene to scene but 2.5 stepped it up with faster generation and more accuracy and prompt adherence. Had some fun making an unwelcome visit from Momo here. Link to full chat in comments. submitted by /u/Optimus_Spider07 [link] [comments]",
+      "author": "Optimus_Spider07"
+    },
+    {
+      "title": "A guy dropped a computer into the simulation his Astra agents live in. One agent sat down and built a simulation of his own, with its own agents living inside. Simulations all the way down.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbcahf/a_guy_dropped_a_computer_into_the_simulation_his/",
+      "published": "2026-09-09T05:15:43+00:00",
+      "summary": "Source: mattshumer_ on X. He added more context: \"The agents are powered by Astra, and had full autonomy to make their simulation whatever they wanted it to be (via code). Of course, this is a somewhat leading setup… by giving the agents a computer that can run a simulation, obviously, they are going to do that. But the agent still made its own choices in designing the sim. It’s still crazy to think we’re at a point where models can pull this off. Simulation theory doesn’t sound so crazy after all.\" submitted by /u/Confident_Salt_8108 [link] [comments]",
+      "author": "Confident_Salt_8108"
+    },
+    {
+      "title": "ChatGPT, create a map of the US showing what every state stereotypically stands for.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbmftd/chatgpt_create_a_map_of_the_us_showing_what_every/",
+      "published": "2026-09-09T14:00:45+00:00",
+      "summary": "Full prompt: \"Please create a map of the US that shows, in every state, a single word of what that state is stereotypically known for, but in a ridiculously over-the-top way, alongside one small image next to that text representing something of that stereotype. Write out the full state name, but in a different color. Don't sugar-coat please, this is for fun. Thanks!\" submitted by /u/Philipp [link] [comments]",
+      "author": "Philipp"
+    },
+    {
+      "title": "What do you actually make of OpenAI’s Navier-Stokes result?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wc3ft4/what_do_you_actually_make_of_openais_navierstokes/",
+      "published": "2026-09-10T00:28:15+00:00",
+      "summary": "I came across the Navier-Stokes announcement and I’m honestly curious what people here think about it. I understand the basic idea of the problem, but I’m nowhere near qualified enough to judge the proof itself. Do you see this as a major milestone for AI in mathematical research, or do you think it’s better to wait for independent verification before calling it a breakthrough? I’m especially interested in how people here view the role of AI in a result this significant. submitted by /u/CuriousAnyway [link] [comments]",
+      "author": "CuriousAnyway"
+    },
+    {
+      "title": "And they say chatgpt isn't reliable...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wbda00/and_they_say_chatgpt_isnt_reliable/",
+      "published": "2026-09-09T06:09:28+00:00",
+      "summary": "submitted by /u/ad240pCharlie [link] [comments]",
+      "author": "ad240pCharlie"
+    }
+  ]
+}
