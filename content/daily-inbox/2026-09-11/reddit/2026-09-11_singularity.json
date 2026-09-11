@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-11T04:03:42.575367+00:00",
+  "items": [
+    {
+      "title": "Huggingface security txt after the OpenAI incident",
+      "url": "https://www.reddit.com/r/singularity/comments/1wclhgv/huggingface_security_txt_after_the_openai_incident/",
+      "published": "2026-09-10T14:54:09+00:00",
+      "summary": "submitted by /u/skolnaja [link] [comments]",
+      "author": "skolnaja"
+    },
+    {
+      "title": "First time?",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcynv9/first_time/",
+      "published": "2026-09-10T22:57:17+00:00",
+      "summary": "First time? submitted by /u/tryingeasy [link] [comments]",
+      "author": "tryingeasy"
+    },
+    {
+      "title": "Open Letter from 1000 mathematicians against AI use for math",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcxwn7/open_letter_from_1000_mathematicians_against_ai/",
+      "published": "2026-09-10T22:25:44+00:00",
+      "summary": "submitted by /u/Charuru [link] [comments]",
+      "author": "Charuru"
+    },
+    {
+      "title": "Amazing Navier Stokes evolving vortex is going viral",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcoyof/amazing_navier_stokes_evolving_vortex_is_going/",
+      "published": "2026-09-10T17:00:34+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "After Astra's stealth nerf last night, we really need benchmarks to do a re-bench 1 week after any model release. This is ridiculous.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcu0fj/after_astras_stealth_nerf_last_night_we_really/",
+      "published": "2026-09-10T19:57:59+00:00",
+      "summary": "2 days ago Astra was 1 shotting AAA game level models and now today even after reprompting on xhigh effort several times the results are completely terrible. Hundreds of users on X have noticed the same https://x.com/wholyv/status/2097985903830741439 It is ridiculous that these frontier labs will just quietly diminish a model's capabilities to save compute after probably tens of thousands of people bought Pro subscriptions based on the initial results. The FTC should get involved. submitted by /u/Flope [link] [comments]",
+      "author": "Flope"
+    },
+    {
+      "title": "All according to plan",
+      "url": "https://www.reddit.com/r/singularity/comments/1wd05zw/all_according_to_plan/",
+      "published": "2026-09-11T00:00:34+00:00",
+      "summary": "submitted by /u/fzem [link] [comments]",
+      "author": "fzem"
+    },
+    {
+      "title": "President Trump on AI risks: “It's going to be fine. We'll always have something to stop them. We'll have a little gear. Boom. I really don't like that robot. We’ll stop”",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcnfjm/president_trump_on_ai_risks_its_going_to_be_fine/",
+      "published": "2026-09-10T16:05:16+00:00",
+      "summary": "submitted by /u/offgramercy [link] [comments]",
+      "author": "offgramercy"
+    },
+    {
+      "title": "Qwen, Kimi and DeepSeek ran industrial Claude distillation: Alibaba 151M exchanges, Moonshot 23M, DeepSeek 12M in 14 days. Kimi and DeepSeek also secretly served Opus to their own users and harvested the chain-of-thought",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcw6m0/qwen_kimi_and_deepseek_ran_industrial_claude/",
+      "published": "2026-09-10T21:18:24+00:00",
+      "summary": "submitted by /u/likeastar20 [link] [comments]",
+      "author": "likeastar20"
+    },
+    {
+      "title": "GPT-6 Sol Appeared on the OpenAI API",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcqwj9/gpt6_sol_appeared_on_the_openai_api/",
+      "published": "2026-09-10T18:08:12+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "“I turned the fly bisexual”",
+      "url": "https://www.reddit.com/r/singularity/comments/1wcw4al/i_turned_the_fly_bisexual/",
+      "published": "2026-09-10T21:15:58+00:00",
+      "summary": "https://x.com/nicochristie/status/2098106823970828606 submitted by /u/AugusteToulmouche [link] [comments]",
+      "author": "AugusteToulmouche"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-11T04:02:39.305208+00:00",
+  "items": [
+    {
+      "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+      "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
+      "published": "2026-09-10T22:28:42+00:00",
+      "summary": "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.",
+      "author": "Maxwell Zeff"
+    },
+    {
+      "title": "Is AI Actually Going to Kill Us All?",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/",
+      "published": "2026-09-10T19:30:37+00:00",
+      "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election.",
+      "author": "Brian Barrett, Leah Feiger, Will Knight"
+    },
+    {
+      "title": "Everything New You Can Do With Siri AI",
+      "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
+      "published": "2026-09-10T09:30:00+00:00",
+      "summary": "When iOS 27 arrives, it will bring with it a fully revamped assistant for your iPhone.",
+      "author": "David Nield"
+    },
+    {
+      "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+      "url": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/",
+      "published": "2026-09-10T09:00:00+00:00",
+      "summary": "InquiryIQ, a previously unreported prototype, tested a model from xAI, maker of Grok, to surface associates, social accounts, and other information about people identified through Clearview.",
+      "author": "Dhruv Mehrotra"
+    }
+  ]
+}

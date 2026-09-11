@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-11T04:06:15.819171+00:00",
+  "items": [
+    {
+      "title": "AI companies pursue the Boromir strategy to deal with the control problem. \"It's dangerous. But let that be me. I know what to do with it.\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcwues/ai_companies_pursue_the_boromir_strategy_to_deal/",
+      "published": "2026-09-10T21:43:57+00:00",
+      "summary": "submitted by /u/florinandrei [link] [comments]",
+      "author": "florinandrei"
+    },
+    {
+      "title": "One cheeseburger has roughly the greenhouse gas emissions of 63,000 Gemini AI text prompts.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wd1dpf/one_cheeseburger_has_roughly_the_greenhouse_gas/",
+      "published": "2026-09-11T00:53:06+00:00",
+      "summary": "A 2024 University of Wisconsin–Madison paper estimates that \"one cheeseburger equates to 1.9 kg of CO₂e emissions\". Google’s 2025 research paper reports that \"a median Gemini Apps text prompt generates 0.03 gCO2e\". That's 1,900 grams of CO₂e emissions per cheeseburger. That’s 0.03 grams of CO₂e emissions per Gemini text prompt. 1,900 ÷ 0.03 ≈ 63,000 prompts. I'm just sharing this as a reality check. You could prompt Gemini every day 150 times a day for a year and it still wouldn't equal one cheeseburger. submitted by /u/recallingmemories [link] [comments]",
+      "author": "recallingmemories"
+    },
+    {
+      "title": "Anthropic published a model of its own product's effect on the labor market. The extreme scenario has cognitive unemployment at 17.9% and labor's share of GDP falling from 60% to 45%.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcjmg9/anthropic_published_a_model_of_its_own_products/",
+      "published": "2026-09-10T13:43:43+00:00",
+      "summary": "Three scenarios, explicitly not predictions, no probabilities attached. Modest is internet-sized at 1.6% GDP above the no-AI path by 2030. Substantial is 8.3%. Extreme is 32.4%. In the extreme case: cognitive unemployment 17.9%, overall 11.9%, which is past any postwar US peak. Cognitive wages 11.5% below trend on 21.5% fewer jobs. Labor's share of income falls from 60% to 45.2%. But wages in non-cognitive work go up 33.6%, so this isn't a story about everyone losing. It's a story about which half of the workforce you're in. The number that got me is in their Table 3. Total labor income ends up 0.5% above the no-AI path while GDP is a third larger. Capital income is up 81.4%. Essentially the entire gain goes to capital. Their own text says holding cognitive workers whole would take a transfer around 9% of GDP, about Social Security and Medicare combined, and that transfers at that scale in response to technology have no precedent. Worth knowing the extreme scenario assumes zero new hum",
+      "author": "ai-edition"
+    },
+    {
+      "title": "Genuine Question About Citizenship",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcdc90/genuine_question_about_citizenship/",
+      "published": "2026-09-10T08:39:50+00:00",
+      "summary": "submitted by /u/PravalPattam12945RPG [link] [comments]",
+      "author": "PravalPattam12945RPG"
+    },
+    {
+      "title": "Is AGI finally here?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcjkhd/is_agi_finally_here/",
+      "published": "2026-09-10T13:41:35+00:00",
+      "summary": "submitted by /u/TheOnlyVibemaster [link] [comments]",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "California enacts laws restricting chatbots and banning teens from ‘addictive’ social media",
+      "url": "https://www.reddit.com/r/artificial/comments/1wd2r40/california_enacts_laws_restricting_chatbots_and/",
+      "published": "2026-09-11T01:54:22+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Google makes $15B AI infrastructure investment in Finland",
+      "url": "https://www.reddit.com/r/artificial/comments/1wczcpk/google_makes_15b_ai_infrastructure_investment_in/",
+      "published": "2026-09-10T23:26:11+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "Challenge Accepted",
+      "url": "https://www.reddit.com/r/artificial/comments/1wclvgu/challenge_accepted/",
+      "published": "2026-09-10T15:08:00+00:00",
+      "summary": "The ignorance is incredible submitted by /u/PUBGM_MightyFine [link] [comments]",
+      "author": "PUBGM_MightyFine"
+    },
+    {
+      "title": "We need free market and foreign AI models to keep companies competitive",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcq4r8/we_need_free_market_and_foreign_ai_models_to_keep/",
+      "published": "2026-09-10T17:41:30+00:00",
+      "summary": "There’s a lot of talk from different AI companies that are pushing the narrative that AI is simply too dangerous to be distributed without severe regulations and reviews. While I agree with this, I have to point out that the solution isn’t shutting down access to Chinese models or heavily regulating the market into extintction this is just gonna cause larger corporations in the government to have a monopoly and be able to dictate what we can or cannot do. submitted by /u/Armored09 [link] [comments]",
+      "author": "Armored09"
+    },
+    {
+      "title": "I ran GPT-6 Astra against 7 real signup CAPTCHAs",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
+      "published": "2026-09-10T18:27:41+00:00",
+      "summary": "OpenAI put GPT-6 Astra into the API today, so now anyone can actually call it instead of waiting for the special-access rollout. Good timing too, since everyone's still reposting Sharif Shameem's video from a couple days ago, where GPT-6 Astra clears all 48 levels of Neal Agarwal's \"I'm Not a Robot\" game and gets its own \"Verified Human\" certificate. Comments are saying stuff like \"CAPTCHAs are officially dead,\" someone from OpenAI even hopped in on the thread. For a while now, I've wanted to run an agent through different services and have it self-register. My goal was to test Atomic Mail Agentic's OTP feature: does it work, how long does it take, how many tokens it burns. But then a convenient opportunity showed up to test all this with GPT-6 Astra, now that it's actually reachable through the API, since I got curious, like, whoa, now it can even solve CAPTCHAs? I picked 7 US services: Reddit, GitHub, Discord, Etsy, Indeed, Airbnb and Craigslist. Spoiler: 2 out of 7 actually went thr",
+      "author": "JanJanJaJa"
+    }
+  ]
+}
