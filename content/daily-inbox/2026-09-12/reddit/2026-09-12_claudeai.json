@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-12T04:05:58.317109+00:00",
+  "items": [
+    {
+      "title": "GPT-6 Astra takes the #1 spot on VerBench",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdvpma/gpt6_astra_takes_the_1_spot_on_verbench/",
+      "published": "2026-09-11T23:04:47+00:00",
+      "summary": "submitted by /u/nobodyreadusernames [link] [comments]",
+      "author": "nobodyreadusernames"
+    },
+    {
+      "title": "My first ever PCB, entirely designed by Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdgzue/my_first_ever_pcb_entirely_designed_by_claude/",
+      "published": "2026-09-11T13:54:55+00:00",
+      "summary": "I have been wanting to design a simple PCB for the last couple of years now. The thought of converting a design idea into a physical board and programming it to do things is fascinating to me. Long story short, I procrastinated until I tried to vibe-generate it with advanced models such as Opus 4.5 (up to 4.8) models. These models had no idea about the orientation of the components, they did not do any proper routing. I was disappointed and accepted the fact that these tools were not there yet. One Thursday evening, around 10 hours before my weekly reset for Claude, I decided to give it another try; this time with Fable 5. I had two rules: No manual edits or verification of the board. Every problem I face before manufacturing will be solved by Fable. This meant I was going to trust Fable with my wallet. I decided to describe the board I want it to generate, and I was not going to be involved in the design phase. I was the end customer. This was my exact prompt: I would like you to desi",
+      "author": "a6m--zero"
+    },
+    {
+      "title": "She doesn't know about my $100 AI companion",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdtdex/she_doesnt_know_about_my_100_ai_companion/",
+      "published": "2026-09-11T21:28:47+00:00",
+      "summary": "submitted by /u/Ill-Process-7232 [link] [comments]",
+      "author": "Ill-Process-7232"
+    },
+    {
+      "title": "New leaderboard just dropped",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wd7l4v/new_leaderboard_just_dropped/",
+      "published": "2026-09-11T05:53:20+00:00",
+      "summary": "submitted by /u/Miserable-Archer-631 [link] [comments]",
+      "author": "Miserable-Archer-631"
+    },
+    {
+      "title": "Vibecoders about to post the \"claude deleted my entire codebase\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdysoo/vibecoders_about_to_post_the_claude_deleted_my/",
+      "published": "2026-09-12T01:22:31+00:00",
+      "summary": "submitted by /u/StaticFanatic3 [link] [comments]",
+      "author": "StaticFanatic3"
+    },
+    {
+      "title": "ADD developers are moving like lightning with AI, normies beware",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1we0yw8/add_developers_are_moving_like_lightning_with_ai/",
+      "published": "2026-09-12T03:06:18+00:00",
+      "summary": "Even as a dev of 20 years, I now vibe code all day... In between the prompts to claude about the actual work I have for my job I run 6-12 parrallel conversations about my other projects. I context switch now at a rate that is utterly insane... When I was diagnosed with ADD I was 7, I remember I cried and told my Dad \"I don't want to be ADD\" and he told me that \"God gave you a gift and right now it is going to be hard but one day it will let you move faster than all of your peers.\" I really feel like that's true, and with the work I do now I feel built for this moment. I think it will be a brief moment for sure. The machines will soon run everything. Been ADD my whole life. Heavily medicated - dexededrine ( anyone else take it? )- since first grade. A lot of life is playing the hand you are dealt and I feel like I've been playing it awhile. It's not all roses and I miss things constantly but for the first time I feel like the models have caught up with my experience. submitted by /u/Int",
+      "author": "Interesting-Town-433"
+    },
+    {
+      "title": "If Anthropic cared to read some average chats 😂",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdfh5b/if_anthropic_cared_to_read_some_average_chats/",
+      "published": "2026-09-11T12:53:26+00:00",
+      "summary": "The screenshot is obviously fake, but Friday is Friday. Wishing everyone upcoming fast and smart Opus 5, cheaper Fable and daily limit resets. Amen. 🤌🏻 submitted by /u/Big_Selection_1242 [link] [comments]",
+      "author": "Big_Selection_1242"
+    },
+    {
+      "title": "Warning: Claude \"incognito\" chats with uploads CAN be listed and retrieved",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdyqmu/warning_claude_incognito_chats_with_uploads_can/",
+      "published": "2026-09-12T01:19:48+00:00",
+      "summary": "We all know incognito chats aren't safe from enterprise admins, but this is about personal accounts: If you upload a file (image, doc, etc) as part of an incognito chat, that file IS listed in User Settings > Privacy > Uploaded Files. Furthermore it shows a source \"Chat\" link which re-opens the original incognito chat in its entirety (!!!). This feels like a violation of the \"incognito\" concept and goes against their \"once an incognito chat is closed, it's lost\" advice and the expectation that it won't show up in any history lists, but Anthropic doesn't think it's a bug since you do have to be logged in to see it. You could imagine this could be a problem when using a shared account, or just wanting to make sure a sensitive document (health records, government document, personal photo, etc) isn't kept or made available any more than strictly necessary. On the bright side, the chat and its associated files does not seem to be visible to other chats, and you can delete the files manually",
+      "author": "danegnor"
+    },
+    {
+      "title": "Claude basically broke their \"Projects\" overnight and I’m pissed",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdli7f/claude_basically_broke_their_projects_overnight/",
+      "published": "2026-09-11T16:42:47+00:00",
+      "summary": "What the hell happened to Claude Cowork Projects? I had multiple local projects connected to folders with actual workflows set up. Claude would access websites, pull info, process it, then read/write to specific local folders. Worked great. Then they quietly changed the default setting to run project in cloud and basically broke the whole thing. First, my workflows suddenly couldn’t access the internet because apparently they were running in the cloud now. After wasting ages debugging it, I found the barely explained “Run on computer only” toggle is settings seems to fix it. But the bigger problem is that you apparently can’t create a project with a persistent local folders anymore. Previously I could attach another folder to the PROJECT (after project was already created, a different folder than the 'project folder'), and every Cowork session inside it had access to that folder. Now the project context only lets me add individual files. No folders. And yes, Claude Code exists. But Cla",
+      "author": "edgeXlendor"
+    },
+    {
+      "title": "Anthropic’s new report has no winners — and the part nobody is talking about is user privacy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdz975/anthropics_new_report_has_no_winners_and_the_part/",
+      "published": "2026-09-12T01:43:44+00:00",
+      "summary": "I've been reading Anthropic's new threat intelligence report, and I feel like the discussion is focusing almost entirely on \"Chinese labs were distilling Claude.\" But there's another side to this that seems much more important for normal users. According to Anthropic, Moonshot/Kimi and DeepSeek silently routed some of their users' requests to Claude without those users knowing. Some of those requests apparently contained internal company documents, live credentials, government-related data, surveillance information, etc. That's obviously bad. But then I had the opposite thought: How did Anthropic discover all of this? They weren't just able to say \"someone is distilling our model.\" They were able to identify specific campaigns, connect huge numbers of accounts, estimate which organizations were behind them, analyze millions of exchanges, and in some cases describe what kind of sensitive information was being sent through those requests. To be clear: I'm not saying \"Claude can spy on ev",
+      "author": "SiteSpecialist6295"
+    }
+  ]
+}

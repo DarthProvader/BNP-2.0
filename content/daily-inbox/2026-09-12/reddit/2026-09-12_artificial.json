@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-12T04:06:19.040545+00:00",
+  "items": [
+    {
+      "title": "Three Anthropic researchers went public this week saying AI might kill everyone. One of them quit to say it. Nobody seems to know what we're supposed to do with that.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
+      "published": "2026-09-11T18:46:15+00:00",
+      "summary": "Quick recap in case you missed it. Jacob Coxon resigned from Anthropic on Tuesday, specifically so he could say publicly that both OpenAI and Anthropic are \"gambling with our lives\" and racing toward self-improving superintelligence without acting responsibly. He'd spent three years doing pretraining research at both companies. Then it got stranger. Evan Hubinger, who currently runs alignment science at Anthropic, responded confirming it. His words: \"Jacob is correct here, we really do earnestly believe AI could kill all humans.\" He put it above 10% within the decade and said Anthropic doesn't have a plan for aligning superintelligence and isn't clearly on track to get one. Samuel Marks, who leads scalable oversight there, said something similar. So the safety team at the safety-focused lab publicly agreed with the guy who quit over safety. I've read a lot of takes on this over the last two days and most of them fall into two camps. Either it's marketing to make the tech sound more pow",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "Will AI help us cure cancer by 2030?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdz75c/will_ai_help_us_cure_cancer_by_2030/",
+      "published": "2026-09-12T01:41:03+00:00",
+      "summary": "What do you think? submitted by /u/Icy_Wishbone658 [link] [comments]",
+      "author": "Icy_Wishbone658"
+    },
+    {
+      "title": "James Cameron saw it in 1984 even with 128 KB of RAM and floppy disks",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdocnr/james_cameron_saw_it_in_1984_even_with_128_kb_of/",
+      "published": "2026-09-11T18:24:56+00:00",
+      "summary": "submitted by /u/absolut_st [link] [comments]",
+      "author": "absolut_st"
+    },
+    {
+      "title": "Polish developer builds app that detects nearby Meta smart glasses",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdcik5/polish_developer_builds_app_that_detects_nearby/",
+      "published": "2026-09-11T10:35:30+00:00",
+      "summary": "Polish developers made an iPhone app that can detect nearby Meta smart glasses Apparently a group of Polish developers created an iPhone app that can detect nearby Meta smart glasses. It’s an interesting idea especially with the privacy concerns around smart glasses and cameras. Knowing that someone nearby might be wearing one could be useful. At the same time I am curious how accurate the app actually is and whether it can reliably detect the glasses in real world situations. Would you guys actually use something like this? submitted by /u/Low-Honeydew6483 [link] [comments]",
+      "author": "Low-Honeydew6483"
+    },
+    {
+      "title": "UK lawmakers urge Burnham to back ban on superintelligent AI after chilling warnings | AI (artificial intelligence)",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdnd3u/uk_lawmakers_urge_burnham_to_back_ban_on/",
+      "published": "2026-09-11T17:49:34+00:00",
+      "summary": "submitted by /u/GenericNameRandomNum [link] [comments]",
+      "author": "GenericNameRandomNum"
+    },
+    {
+      "title": "Why does A.I suddenly seem awful at science? and are there decent A.I for science questions/research",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdxbsd/why_does_ai_suddenly_seem_awful_at_science_and/",
+      "published": "2026-09-12T00:15:07+00:00",
+      "summary": "Gemini is just incorrect most the time and has zero issue just making stuff up, then GPT refuses to say any specific and when called out for this it just HARD stops any conversation. I mean i swear they used to be better then they are now. Anyone got any recs though? With how terrible normal search engines are getting it seems impossible to find even foundational info without sifting through textbooks and papers. Also honestly if anyone's got a browser rec that can actually damn find stuff lmk. (yes ive seen the rules but this has been a self sustaining circle of shitty searches giving shitty answers and untimely failing to do something as basic as supply a tool name.) submitted by /u/Responsible-Ice6534 [link] [comments]",
+      "author": "Responsible-Ice6534"
+    },
+    {
+      "title": "Mathematicians confront the AI apocalypse",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdhp11/mathematicians_confront_the_ai_apocalypse/",
+      "published": "2026-09-11T14:21:43+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "Altman on GPT7",
+      "url": "https://www.reddit.com/r/artificial/comments/1we0le1/altman_on_gpt7/",
+      "published": "2026-09-12T02:48:03+00:00",
+      "summary": "submitted by /u/Popular_Slip_5311 [link] [comments]",
+      "author": "Popular_Slip_5311"
+    },
+    {
+      "title": "What if AI could keep working inside the experience it created.. and then you entered that creation as a character.. without re-running any code?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdtx3c/what_if_ai_could_keep_working_inside_the/",
+      "published": "2026-09-11T21:50:00+00:00",
+      "summary": "Most AI creation tools follow a generate preview regenerate loop. I wanted something more continuous. I built AskSary LiveLoop , where an AI can create an interactive experience, observe it while it runs, apply new requests without wiping its state, and repair failures inside the same session. In the demo, it modifies persistent worlds, 3D designs, and playable scenes while rendering continues. Instructions can also be queued, so the user can act more like a creative director than someone waiting for each prompt to finish. These are just examples of what you can do with it. You can take an idea from a sketch to fully built website without ever losing vision. You can create a world that starts off as observatory concept to then entering the world your self and navigate as one of the characters. This all happens live where you can queue your ideas up and watch them all come to life with the ability to download the current state at any given moment as a complete self contained file that r",
+      "author": "Beneficial-Cow-7408"
+    },
+    {
+      "title": "Alibaba Cloud and Cambricon just took Platinum seats on the PyTorch Foundation board",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdtoh7/alibaba_cloud_and_cambricon_just_took_platinum/",
+      "published": "2026-09-11T21:40:43+00:00",
+      "summary": "The PyTorch Foundation announced on September 8 at PyTorch Conference China in Shanghai that Alibaba Cloud and Cambricon joined as Platinum members. Each gets a seat on the Governing Board and one on the Technical Advisory Council. If you build on non-NVIDIA accelerators, the TAC seat is worth watching. Cambricon ships MLU processors into Chinese data centers, and their PyTorch backend has lived out of tree, meaning it can lag or break after major releases. A TAC seat gives them a direct channel to push backend support upstream rather than maintaining a fork. That is a real difference for anyone on that hardware. I want to be clear about what this does not change. A governance seat is not a benchmark, and the silicon itself is not suddenly matching an H100 on throughput. More than 250 Chinese organizations were already contributing to foundation projects before these seats existed. What changed is who has input on framework architecture decisions. Both companies that took those seats a",
+      "author": "OkCan8173"
+    }
+  ]
+}
