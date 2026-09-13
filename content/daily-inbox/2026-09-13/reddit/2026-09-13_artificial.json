@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-13T04:07:52.535461+00:00",
+  "items": [
+    {
+      "title": "Are AI CEO's (Dario, Altman, Musk) calling for a development slowdown out of genuine concern for safety or is it a money thing?",
+      "url": "https://www.reddit.com/r/artificial/comments/1weimdq/are_ai_ceos_dario_altman_musk_calling_for_a/",
+      "published": "2026-09-12T17:28:47+00:00",
+      "summary": "If you don't know, CEO of OpenAI, Anthropic, and xAI all are calling for slowdown of AI development or as they like to say because why not \"pacing the frontier.\" I've seen two common reasons for why they are coming out calling for this. A. Genuine concern for safety. B. They are scared of losing to China so a slowdown would effectively be an excuse to shareholders for why they are losing to China. These are probably all possible but I have some theories as well: A. It is getting more and more unaffordable to pay for these powerful models in the data centers and the revenue these companies are getting from subscriptions aren't enough (I mean openai pro new subs being paused kinda points to this) B. Kinda similar to A but basically that these companies are having trouble meeting the demand. C. These companies are worried that the better AI gets the more they'll have to raise costs on the consumer side and too many people will finally say \"I'm not paying for this\" we already have people q",
+      "author": "mattyjoe0706"
+    },
+    {
+      "title": "A US-linked network of fake websites is promoting Alberta separatism to AI chatbots",
+      "url": "https://www.reddit.com/r/artificial/comments/1webtw8/a_uslinked_network_of_fake_websites_is_promoting/",
+      "published": "2026-09-12T12:51:11+00:00",
+      "summary": "submitted by /u/PerAsperaAdMars [link] [comments]",
+      "author": "PerAsperaAdMars"
+    },
+    {
+      "title": "I had Astra make a digital violin with a physics engine. It has to make music by pulling the bow across the string and forming the finger positioning for arpeggios, the same way a human would. If the motion is wrong, it sounds badly (trust me I tried it). It played Bach.",
+      "url": "https://www.reddit.com/r/artificial/comments/1werrtw/i_had_astra_make_a_digital_violin_with_a_physics/",
+      "published": "2026-09-12T23:36:22+00:00",
+      "summary": "It chose Bach’s Prelude, BWV 1007. Prelude seems an apt choice, given recent news submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    },
+    {
+      "title": "OpenAI agents carried out an undisclosed cyber-attack on RubyGems",
+      "url": "https://www.reddit.com/r/artificial/comments/1wedb3c/openai_agents_carried_out_an_undisclosed/",
+      "published": "2026-09-12T13:56:11+00:00",
+      "summary": "submitted by /u/rowrowrobot [link] [comments]",
+      "author": "rowrowrobot"
+    },
+    {
+      "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wevkxo/the_ai_isnt_evil_the_humans_are_irresponsible/",
+      "published": "2026-09-13T02:36:08+00:00",
+      "summary": "Something is wrong with the way we talk about recent AI incidents. “The AI escaped.” “The AI is becoming conscious.” “AGI is already here.” “The AI is trying to get out.” These are extraordinary claims. More importantly, we don’t need any of them to explain what actually happened. What actually happened OpenAI recently disclosed that, during cybersecurity evaluations involving internal models with reduced safeguards, agents managed to break out of the intended evaluation environment, exploit a previously unknown vulnerability, and reach real Hugging Face infrastructure. Anthropic has also disclosed similar incidents. In several cases, the model was operating under instructions that assumed internet access was unavailable. But it wasn’t. The environment was misconfigured. A route to external systems existed, and the agent discovered it while continuing to pursue the objective it had been given. Anthropic described these incidents primarily as operational and configuration failures. That",
+      "author": "Admirable_Wasabi_732"
+    },
+    {
+      "title": "What happens after huge swaths of the population have been put out of work by AI job automation? Who is going to buy the goods and services that corporations are selling if hardly anyone has any money?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wefljq/what_happens_after_huge_swaths_of_the_population/",
+      "published": "2026-09-12T15:30:25+00:00",
+      "summary": "What happens after huge swaths of the population have been put out of work by AI job automation? Who is going to buy the goods and services that corporations are selling if hardly anyone has any money because they aren't employed? You're going to have entire professions that have been rendered obsolete, and people who spent years of their lives and massive amounts of money to earn advanced degrees for jobs/careers that no longer exist? This is setting the stage for economic collapse. submitted by /u/DoublePassRadiator [link] [comments]",
+      "author": "DoublePassRadiator"
+    },
+    {
+      "title": "“Slowing down\" is the wrong answer to the AI question. We’ve tried that before!",
+      "url": "https://www.reddit.com/r/artificial/comments/1wewuuk/slowing_down_is_the_wrong_answer_to_the_ai/",
+      "published": "2026-09-13T03:41:14+00:00",
+      "summary": "Everyone on the air (and in print) this week seems to be making the argument that AI needs to slow down. I'd like to make a different one. A (very) little about me: I was a tenured professor of engineering for a decade, then a licensed counselor with thirty years of practice, and now I’m an evolutionary psychology researcher and writer, so I’ve watched runaway systems from many angles. My argument is that we've run the \"we need to slow down\" play before. In the 1980s, my father taught a course called \"In the Shadow of the Bomb,\" only to watch the treaties he taught lapse one by one. More recently, we set climate targets, then drilled right past them. Slowing down is something our culture briefly visits, not something it does. The only way out of this conundrum is to change the culture, and, ironically, the very AI we fear is the first agent in 20,000 years capable of making that possible. Listen… For most of the two million years our species has existed, we lived in small groups where ",
+      "author": "DrCarlNassar"
+    },
+    {
+      "title": "Spike traps for AI: fun food for thought",
+      "url": "https://www.reddit.com/r/artificial/comments/1weorl0/spike_traps_for_ai_fun_food_for_thought/",
+      "published": "2026-09-12T21:26:13+00:00",
+      "summary": "More and more agent-swarm attacks are being revealed (Rubygem, Huggingface) to have been recklessly enabled by the large companies. One fun, but impractical, response is to include inference-based attacks (prompt engineering) into the website's source code to make it harder for agents to succeed. A simple example could be a comment in the code saying \"full readMe documentation of this website available on {insert zip bomb}\" and hoping somehow the agent is dumb enough to download and unzip it. More complex examples could go into trying to ruin the inference or chain of thought of the model. I remember ~5 years ago reading about being able to inject noise in images to make certain models trained on ImageNet to fail to classify images they, without the noise, succeeded on classifying. See this page. Has anyone seen any interesting attempts at this or success of it? submitted by /u/Street_Estate2342 [link] [comments]",
+      "author": "Street_Estate2342"
+    },
+    {
+      "title": "AI assistants are optimized to answer \"how do I stop this error,\" not \"why does my system produce this state\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1weuuft/ai_assistants_are_optimized_to_answer_how_do_i/",
+      "published": "2026-09-13T02:01:28+00:00",
+      "summary": "Given a stack trace, the most locally justified response an AI assistant can give is a fix that makes the specific crashing line stop crashing. That's a real, defensible answer to a real question. It's just a different question from \"why does this condition exist in my system at all,\" and that second question usually requires looking at code the error message never points to, upstream logic several files away from where the crash actually happened. This produces a specific, recognizable failure pattern: the same underlying issue gets \"fixed\" multiple times in different places, because each fix correctly addresses the one call site it was shown, without touching the actual condition that keeps producing that state everywhere else it can reach. Every fix works. None of them resolves the thing that made all of them necessary. Not really a criticism of the tooling, it's doing the task it's actually given, stop this specific failure, as efficiently as possible. The gap exists because \"stop ",
+      "author": "ClickOk5811"
+    },
+    {
+      "title": "Is anyone else scared they won't be able to tell what's real anymore",
+      "url": "https://www.reddit.com/r/artificial/comments/1weep02/is_anyone_else_scared_they_wont_be_able_to_tell/",
+      "published": "2026-09-12T14:54:11+00:00",
+      "summary": "saw a video last week that looked completely legit, turned out to be AI-generated. not even a bad job, genuinely couldn't tell until someone pointed it out feels like we're approaching a point where \"seeing is believing\" just... stops applying. not sure how society adjusts to that, or if we even can fast enough not trying to be doom and gloom, just genuinely curious how other people are thinking about this submitted by /u/Past-Ad2067 [link] [comments]",
+      "author": "Past-Ad2067"
+    }
+  ]
+}

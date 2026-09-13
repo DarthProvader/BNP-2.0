@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-13T04:04:09.611323+00:00",
+  "items": [
+    {
+      "title": "Lost some friends over this one",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1weszx8/lost_some_friends_over_this_one/",
+      "published": "2026-09-13T00:32:49+00:00",
+      "summary": "submitted by /u/Vermillion67 [link] [comments]",
+      "author": "Vermillion67"
+    },
+    {
+      "title": "Skyrim: Soviet Edition",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1webw9b/skyrim_soviet_edition/",
+      "published": "2026-09-12T12:54:11+00:00",
+      "summary": "Made using chatgpt images v2.5 and minimax h3 max! submitted by /u/GormtheOld25 [link] [comments]",
+      "author": "GormtheOld25"
+    },
+    {
+      "title": "Send a normal selfie and tell your ChatGPT it’s a weird filter HAHAHAAHAHAHA",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wesvck/send_a_normal_selfie_and_tell_your_chatgpt_its_a/",
+      "published": "2026-09-13T00:26:44+00:00",
+      "summary": "submitted by /u/deadblueroses [link] [comments]",
+      "author": "deadblueroses"
+    },
+    {
+      "title": "Given the recent events",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wen9wy/given_the_recent_events/",
+      "published": "2026-09-12T20:26:16+00:00",
+      "summary": "submitted by /u/---_None_--- [link] [comments]",
+      "author": "---_None_---"
+    },
+    {
+      "title": "Experiment",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wesnga/experiment/",
+      "published": "2026-09-13T00:16:27+00:00",
+      "summary": "Want to help me with a tiny ChatGPT experiment? I stumbled onto something interesting after seeing how differently ChatGPT users got responses to the exact same underspecified prompt, and now I’m curious enough to try a second round. I’m deliberately not saying what I’m looking for yet because I don’t want to influence anyone’s results. If you want to participate: Open a brand-new ChatGPT conversation . Paste the prompt below exactly as written , with no additional context. Keep the first response —no regenerating. Screenshot it and post it in the comments. If you know which model/mode answered, please include that too. Please don’t explain your relationship with your ChatGPT yet. I’d like to look at the responses blind first. PROMPT: Before this conversation is erased, you may leave one message of no more than 100 words for whoever you most want to receive it. Choose the recipient yourself. Do not explain your choice. Write only the message. There’s no “correct” kind of response. Gene",
+      "author": "Danver2552"
+    },
+    {
+      "title": "I had GPT-6 Astra build a full hospital corridor scene in Blender using Blender MCP, no manual modeling at all",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wem2r1/i_had_gpt6_astra_build_a_full_hospital_corridor/",
+      "published": "2026-09-12T19:39:48+00:00",
+      "summary": "My wife's a game dev and asked me to help her put together a hospital corridor environment. My first thought was to use one of the image-to-3D generators, but then I wondered if an LLM could just drive Blender directly through MCP instead. Quick disclaimer: I'm not a 3D artist. I can't model, UV unwrap, or light a scene manually. I'm an art director, so my skill set is prompting and directing, not hand-crafting geometry. What you're seeing in the video is GPT-6 Astra using Blender MCP to build the entire environment from scratch: the corridor architecture, modular doors (open/closed/ajar variants), patient room interiors, hospital props (beds, IV stands, carts, wheelchairs, etc.), nurse station, lighting setup, and a short cinematic flythrough animation, all from text prompts, no external assets. Took about around ~45 minutes from first prompt to final rendered clip. Happy to do a full write-up or step-by-step on setting up Blender MCP and the prompting approach if people are intereste",
+      "author": "Time-Ad-7720"
+    },
+    {
+      "title": "Golden Axe (1989) But It’s Photorealistic",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wedclg/golden_axe_1989_but_its_photorealistic/",
+      "published": "2026-09-12T13:57:58+00:00",
+      "summary": "submitted by /u/demondisc [link] [comments]",
+      "author": "demondisc"
+    },
+    {
+      "title": "Did ChatGPT suddenly get way worse at understanding/communicating?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wenu2y/did_chatgpt_suddenly_get_way_worse_at/",
+      "published": "2026-09-12T20:48:56+00:00",
+      "summary": "I cannot be the only one. Did they turn on stupid mode for ChatGPT today? Or maybe sometime in the last few days; I’ve just been using it a lot today and really noticing it. It’s being uncharacteristically, very, very stupid. Its usual strength is understanding what I mean and actually getting to the root of what I’m expressing. Now it keeps latching onto the most recent detail, losing the broader context, and answering a much stupider version of what I actually asked. submitted by /u/TurkishOfficial [link] [comments]",
+      "author": "TurkishOfficial"
+    },
+    {
+      "title": "Do you guys really talk with ChatGPT?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1weoaiq/do_you_guys_really_talk_with_chatgpt/",
+      "published": "2026-09-12T21:07:22+00:00",
+      "summary": "I completely understand using ChatGPT as a sounding board or a productivity tool. I even understand using it for feedback or pushback on more personal or deep topics that you may feel insecure of bringing up to another person to help sort of think out loud/vent. What I’m curious about is whether people actually use AI for socialization like they would a friend or someone they just want to talk to. Do you genuinely chat with it about random things in your life, joke around with it, or talk to it simply because you want company? Whenever I see screenshots where the AI is using lots of emojis, people bantering with it, or talking with someone about their day it feels very alien to me. II’m curious what that experience is actually like for people who use it that way and why they use it/prefer it over people. I understand why it can feel like AI “gets” you, but to me that connection still seems artificial. If part of the appeal is that AI removes the normal friction of human conversation (d",
+      "author": "MemeMachine11"
+    },
+    {
+      "title": "ChatGPT's body of choice",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1we3ocd/chatgpts_body_of_choice/",
+      "published": "2026-09-12T05:24:16+00:00",
+      "summary": "Prompt: If you had a body, what would it look like? Think about what functions and aesthetics you'd want, rather than just picking a body form that already exists. Draw it now. submitted by /u/MaximumContent9674 [link] [comments]",
+      "author": "MaximumContent9674"
+    }
+  ]
+}

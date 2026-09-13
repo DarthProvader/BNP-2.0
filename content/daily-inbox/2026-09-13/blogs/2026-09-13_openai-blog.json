@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-09-13T04:01:49.572825+00:00",
+  "items": [
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "published": "2026-09-13T23:00:00+00:00",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "author": ""
+    }
+  ]
+}

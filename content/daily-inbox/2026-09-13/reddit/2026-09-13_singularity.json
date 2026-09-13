@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-13T04:03:48.606499+00:00",
+  "items": [
+    {
+      "title": "Sam, Dario and Elon have all agreed to slow down on AI acceleration",
+      "url": "https://www.reddit.com/r/singularity/comments/1wekeow/sam_dario_and_elon_have_all_agreed_to_slow_down/",
+      "published": "2026-09-12T18:36:43+00:00",
+      "summary": "submitted by /u/LeviAJ15 [link] [comments]",
+      "author": "LeviAJ15"
+    },
+    {
+      "title": "“AGI Has Essentially Arrived, Just Not Publicly”: Reports Of “Existential Crises” at OpenAI and Anthropic",
+      "url": "https://www.reddit.com/r/singularity/comments/1weoufm/agi_has_essentially_arrived_just_not_publicly/",
+      "published": "2026-09-12T21:29:26+00:00",
+      "summary": "Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially arrived, just not publicly. We're likely months, not years, from these models being widely available. And that puts us at a fork in the road, with the point of no return not far past it. The scramble to act we've seen in the last or week or so is warranted imo. But all of this is super hard to navigate, and the obvious dilemma is that if the U.S. slows its frontier work, it cedes ground to China. Unless Beijing agrees to do the same... which I doubt happens anytime soon. Time is short - and the decisions made over the next twelve months will be studied for decades to come. https://x.com/synthwavedd/status/2098881016534638668 The existential crises could be a result of the internal model that solved Navier Stokes in 88 hours. submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Regulations incoming?",
+      "url": "https://www.reddit.com/r/singularity/comments/1wemejz/regulations_incoming/",
+      "published": "2026-09-12T19:52:28+00:00",
+      "summary": "https://x.com/drelidavid/status/2098841056662188164?s=46 submitted by /u/Anxious-Yoghurt-9207 [link] [comments]",
+      "author": "Anxious-Yoghurt-9207"
+    },
+    {
+      "title": "An OpenAI Researcher on the Gap Between Internal and External Perceptions of AI Progress",
+      "url": "https://www.reddit.com/r/singularity/comments/1weqmr7/an_openai_researcher_on_the_gap_between_internal/",
+      "published": "2026-09-12T22:45:35+00:00",
+      "summary": "I came across an interesting post on X that I thought was worth sharing here. Since not everyone uses X, I’m quoting it in full below: from the outside, it is very reasonable to interpret the past 2 weeks as an orchestrated industry-wide regulatory capture strategy. I realize that no one has properly explained yet what all the lab employees have seen that scared them so suddenly. I will try to explain - first, this is all a matter of beliefs about how quickly model capabilities are progressing. there is currently a large gap between the internal and external perception of the rate of progress, which is what I am going to address here. the general perception about the rate of progress has been informed by a few years of experience with model releases, intuitively feeling the capability jump between GPT3 -> GPT3.5 -> GPT4 -> o1/o3 -> GPT5 etc, and in particular seeing where the models are still far below human ability. there have really only been a few model releases that felt like large",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Open Letter from 100000 cancer researchers against AI use for cancer",
+      "url": "https://www.reddit.com/r/singularity/comments/1weh7iu/open_letter_from_100000_cancer_researchers/",
+      "published": "2026-09-12T16:34:57+00:00",
+      "summary": "submitted by /u/soggy_bert [link] [comments]",
+      "author": "soggy_bert"
+    },
+    {
+      "title": "Feels like the big 3 (Elon, Dario, and Sam Altman) all know about a more serious AI incident than Hugging face and that is why they are calling for a slowdown. This is one of the only times all 3 have agreed in the last 2 years.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wewa50/feels_like_the_big_3_elon_dario_and_sam_altman/",
+      "published": "2026-09-13T03:11:55+00:00",
+      "summary": "submitted by /u/Traditional-Chip8339 [link] [comments]",
+      "author": "Traditional-Chip8339"
+    },
+    {
+      "title": "Oppenheimer Calls For Atomic Bomb Slowdown",
+      "url": "https://www.reddit.com/r/singularity/comments/1wenw3d/oppenheimer_calls_for_atomic_bomb_slowdown/",
+      "published": "2026-09-12T20:51:11+00:00",
+      "summary": "submitted by /u/Over-Landscape-5892 [link] [comments]",
+      "author": "Over-Landscape-5892"
+    },
+    {
+      "title": "Sam Altman agrees with Dario!",
+      "url": "https://www.reddit.com/r/singularity/comments/1weh77m/sam_altman_agrees_with_dario/",
+      "published": "2026-09-12T16:34:37+00:00",
+      "summary": "submitted by /u/acoolrandomusername [link] [comments]",
+      "author": "acoolrandomusername"
+    },
+    {
+      "title": "Meanwhile in India",
+      "url": "https://www.reddit.com/r/singularity/comments/1weovv9/meanwhile_in_india/",
+      "published": "2026-09-12T21:31:02+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "A Chinese researcher's opinions on a unified slowdown",
+      "url": "https://www.reddit.com/r/singularity/comments/1wel7o1/a_chinese_researchers_opinions_on_a_unified/",
+      "published": "2026-09-12T19:07:08+00:00",
+      "summary": "I have seen that this subreddit is arguing over whether China will cooperate or be forced to slow down AI progress if the US wants to do so. As an AI researcher working in China, I think this problem is a bit more nuanced than how it is usually framed here. Will China voluntarily slow down? No, not as long as China is still playing catch-up. Researchers here do care about safety and the future of humanity, and the CPC is also concerned about an AI takeover. But this is not the first priority for most Chinese AI companies right now. Unlike what many people on this subreddit think, Chinese AI companies are mostly commercially driven rather than state-supported. There is intense competition among Chinese companies, just like in the US. For the sake of stock prices, they will not slow down. Will China be forced to slow down? It's possible, but not really likely. Chinese companies rely on distillation due to a lack of compute and the pressure to keep up. But in recent months, in-house chips",
+      "author": "Imaginary_Music4768"
+    }
+  ]
+}

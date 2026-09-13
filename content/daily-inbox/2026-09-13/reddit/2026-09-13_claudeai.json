@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-13T04:06:01.091489+00:00",
+  "items": [
+    {
+      "title": "Kimi routed to Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wef8x8/kimi_routed_to_claude/",
+      "published": "2026-09-12T15:16:04+00:00",
+      "summary": "submitted by /u/Far-Sock-3170 [link] [comments]",
+      "author": "Far-Sock-3170"
+    },
+    {
+      "title": "I have to say something as a chinese",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1weizes/i_have_to_say_something_as_a_chinese/",
+      "published": "2026-09-12T17:42:07+00:00",
+      "summary": "You need to know, as a chinese, we be teached don't say that much since we were kids or you will get in trouble unless you have to. As someone familiar with China’s AI community, I have a few thoughts on Anthropic’s recent accusations. A lot of the framing strikes me as either misleading or badly lacking context. A few points: First, the idea that a cheap model like DeepSeek would routinely have its requests forwarded to Claude makes little economic sense. It would be like ordering bottled water and being given wine for free. What often happens is the reverse. Because of Anthropic’s access policies, many Chinese users who need Claude rely on third-party API providers. Some shady providers “water down” the service by routing a fraction of requests to cheaper models to cut costs. So if ten requests are sent through a reseller, perhaps eight really go to Claude and two are silently diverted elsewhere. That kind of substitution is a real issue—but it points in the opposite direction from t",
+      "author": "Sea-Vegetable6593"
+    },
+    {
+      "title": "Dario Amodei — We Must Pace the Frontier",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wee42v/dario_amodei_we_must_pace_the_frontier/",
+      "published": "2026-09-12T14:29:43+00:00",
+      "summary": "submitted by /u/dayanruben [link] [comments]",
+      "author": "dayanruben"
+    },
+    {
+      "title": "Anyone else notice Claude suddenly using British spelling?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wenyuv/anyone_else_notice_claude_suddenly_using_british/",
+      "published": "2026-09-12T20:54:21+00:00",
+      "summary": "I'm in the U.S. and my settings are set to \"English (United States).\" I noticed about two weeks ago that Claude suddenly started using mostly British spelling in both its thinking summaries and responses. A few examples: Colour Recognise Enrolment Defence Analyse Behaviour I asked Claude why the spelling had changed, and it said it didn't know and described it as \"drift.\" It doesn't really affect anything, but I'm curious whether anyone else has noticed the same thing recently? EDIT: I'm not using a VPN. submitted by /u/Dizzy_Log2916 [link] [comments]",
+      "author": "Dizzy_Log2916"
+    },
+    {
+      "title": "Just took Anthropic's Architect Foundations exam",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1weg67m/just_took_anthropics_architect_foundations_exam/",
+      "published": "2026-09-12T15:54:08+00:00",
+      "summary": "So I just finished the Architect Foundations exam and figured I'd drop some notes here since I couldn't find much when I was prepping. TL;DR: don't go in thinking this is a \"read the docs for an hour\" cert. It's dense as hell, tons of reading, and it actually tests whether you understand how agentic systems work, not just whether you've used Claude Code a few times. Stuff that showed up (from memory, no guarantees lol): Agents/tools structured outputs (nullable vs optional, formatting rules) writing tool descriptions + few-shot examples that actually help tool selection chaining tool calls (using the ID/output from one call as input for the next) when to retry a failed tool call vs just surfacing the error MCP structured messages / structured error responses where MCP context actually gets loaded in a session Orchestration subagents, context flooding, resuming sessions forking a session plan → execute → review vs direct execution vs \"interview\" style, and which tasks actually benefit f",
+      "author": "SlayerC20"
+    },
+    {
+      "title": "Claude helped me make a custom e-book, and now I can play pokemon on any device with a web browser and use the display as a game dashboard!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wecd8d/claude_helped_me_make_a_custom_ebook_and_now_i/",
+      "published": "2026-09-12T13:15:12+00:00",
+      "summary": "The reader is an esp 32, with a cheap ($27) e-ink display + d pad (on the back) in 4 sheets of laser cut acrylic. The esp32 can broadcast wifi, so it serves an emulator to the browser and the rom, so processing is on device, but my save is persistent across devices. The e-ink ux is made from in game assets and sprites, and reads the memory position from the emulator to get all the game data. Total cost of the project is around $40, I did a full write up of the e-ink build here . I'm building out an open source hardware + software platform for games and stuff based around the eink + esp32 able to broadcast wifi to local devices without an app download or internet connection, I had this running on a $15 3.5\" e-ink display for v1. Super fun project Another proof of concept I have is Texas Hold'em where the cards are on the e-ink then players have their hands on their phones/devices. If you're interested I'm mostly posting about that on my insta if you want to know more. I'll be putting to",
+      "author": "Mescallan"
+    },
+    {
+      "title": "I trained a fruit fly to play my 3D browser tank game",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wemvl4/i_trained_a_fruit_fly_to_play_my_3d_browser_tank/",
+      "published": "2026-09-12T20:10:44+00:00",
+      "summary": "A couple of weeks ago, I posted Claude of Tanks , my multiplayer Three.js tank game with 120+ procedural vehicles, armor simulation, destructible maps, and guided missiles. Since then, I've been working on a slightly unserious fork called CoTFly, where a virtual fruit fly with a tiny tank helmet operates the game from a miniature cockpit! It can turn a steering wheel, scope in to aim, press fire buttons, switch ammunition, and repair equipment. You can literally sit back and watch the battle play out while seeing the fly's neural activity! The neural simulation uses 124 identified fruit-fly neurons and 1,106 measured anatomical connections from Fruitless’s reduced MaleCNS circuit. It runs a leaky integrate-and-fire model in 1 ms steps, tracking membrane voltage, spikes, inhibition, and refractory periods. The P1-related population’s firing rate modulates the driving gain of a motor controller, while a separate 24-channel recurrent network converts target bearings and obstacle inputs in",
+      "author": "BasedKetsu"
+    },
+    {
+      "title": "Week 7 of making my fishing game (almost) entirely with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wea7mp/week_7_of_making_my_fishing_game_almost_entirely/",
+      "published": "2026-09-12T11:32:28+00:00",
+      "summary": "Hello there again, Another week, another update I guess, previous updates: Week 1 Progress Week 2 Progress Week 3 Progress Week 4 Progress Week 5 Progress Week 6 Progress This update comes 2 days early for a simple reason that I have some things to do in upcoming 2-3 days which means nothing will progress from today at least until Tuesday. And this one is the longest video yet, almost 4 minutes long because I wanted to show all the new things I added as well as write about them (It is compressed so that it can get under 1GB from original 2GB file, so it might look a bit worse than it really is, for fullscreen in game images I will leave a link), I wanted this week update to be more like progress report of a sorts, since workflow, costs and similar questions are answered in previous updates. I will still write answers to some most asked questions. Images of the game - Imgur Anyway what this week update covered: First complete rebuild of water, I know people praised water a lot in previo",
+      "author": "RUSuper"
+    },
+    {
+      "title": "The First and Last Plugin You Should Ever Install in a Claude Code Project: Quartermaster, the Plugin That Turns Your Claude Code into a Continuously Self-Improving Machine",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wea386/the_first_and_last_plugin_you_should_ever_install/",
+      "published": "2026-09-12T11:25:57+00:00",
+      "summary": "A few months ago I wrote an article called The First Thing I Install in Every Claude Code Project about codebase-mapper. That title is already out of date... quartermaster goes in first now, because it sets up codebase-mapper for me, builds the map, adds a starter set of live rules pulled from how I actually work, picks the stack plugins and permissions that fit the project, and asks before touching any of it. Then it stays there and keeps the whole Claude Code setup improving as the project changes. You can drop it into an existing project too. It reads the actual session history and finds the missing stuff I'd probably never go looking for on my own: a capability I keep rebuilding by hand, a skill that's underperforming, a plugin from another marketplace, or something I installed months ago and never use. Then every recommendation gets graded on the next round. It checks whether I used it and whether the thing it targeted got better, then says keep it, improve it or roll it back. If ",
+      "author": "TheDeadlyPretzel"
+    },
+    {
+      "title": "Claude Opus is killing it... I don't get all the complaints",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wex8e1/claude_opus_is_killing_it_i_dont_get_all_the/",
+      "published": "2026-09-13T04:00:39+00:00",
+      "summary": "I'm not saying people aren't having issues with it. But I'm not, and I don't get it. Reskinned a website's design using only screenshots, had it built with code, and automated its own checks with headless Firefox on the VM. Planned a complete site data overhaul — tags and filters all generated from content — and documented the phases so it would run with minimal involvement on my part. Used the ops tools to SSH into the AI MCP server I built and set up jobs that prompt GPT, Claude, and Gemini with search, compare the results, and use the best one. Sent all the data and build prompts to the Claude Code session running on staging, instead of doing it manually like I used to. Wrote the deliverables for a client meeting. Recovered missing content from an old SQL dump to backfill post content. Issues that came up across the various VMs were resolved by Claude Code, running on my workstation as project manager — only prompting me for approvals or reviews. Multiple tasks ran in parallel acros",
+      "author": "tech_is______"
+    }
+  ]
+}
