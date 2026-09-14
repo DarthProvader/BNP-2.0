@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-14T04:05:05.292802+00:00",
+  "items": [
+    {
+      "title": "I asked Claude to build an operating system from scratch. A few days later it was running on a real laptop",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfpydl/i_asked_claude_to_build_an_operating_system_from/",
+      "published": "2026-09-14T01:40:12+00:00",
+      "summary": "I had an old Lenovo Yoga collecting dust and wanted to see how far Claude could go if I asked it to build a DOS-like operating system completely from scratch, something that would actually boot from USB on real hardware. The first usable build came surprisingly quickly, but it was nowhere near a one-shot success. Early versions had scrambled graphics, no mouse, no keyboard, no sound, and plenty of hard crashes. The basic workflow became: describe the goal → let Claude implement it → compile → boot real hardware → photograph/report the failure → iterate https://preview.redd.it/8kdrazpr5eph1.jpg?width=1600&format=pjpg&auto=webp&s=a36237a8309f8e5d28b9ca79246e0fe92bad1145 Over the next few days, that turned into an OS I now call EMBER . It currently has: its own boot process and graphical environment keyboard and USB mouse support touchpad support touchscreen support on-screen keyboard/tablet mode file manager audio player resource monitor DOS program compatibility Doom, Alley Cat, Prince ",
+      "author": "lensdigital"
+    },
+    {
+      "title": "Back to normal limit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wf65up/back_to_normal_limit/",
+      "published": "2026-09-13T12:18:19+00:00",
+      "summary": "submitted by /u/Low_Roll163 [link] [comments]",
+      "author": "Low_Roll163"
+    },
+    {
+      "title": "Day 12ish of making a cozy game with no game dev experience",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfnikw/day_12ish_of_making_a_cozy_game_with_no_game_dev/",
+      "published": "2026-09-13T23:47:36+00:00",
+      "summary": "Hey Everyone! update on No Name Squish Game, i'm about 80 hours in at this point. visually not a whole lot has changed since the last post but ive been grinding. The full story is finished with a mystery tying all the characters together. 27 characters each with their own backstory and secrets, six biomes with four fully built atm! Most of my time has been on the story, character quests, and how everyone connects. still testing my way through it all but dialogue is still completely claude written. been lazy tbh 😬 If anyones interested, I ported a web/mobile version if anyone wants to help playtest. it's not meant to be a web game so things will feel off but feedback helps me improve the real thing. No Name Squish Game FAQ is on my reddit page, you can also dm me. happy to answer whatever. still months to go but enjoying every moment of it so far! submitted by /u/Gambo7592 [link] [comments]",
+      "author": "Gambo7592"
+    },
+    {
+      "title": "I vibe coded 5 mobile games with Claude Code.Turns out, people actually enjoy playing them.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wf4r63/i_vibe_coded_5_mobile_games_with_claude_codeturns/",
+      "published": "2026-09-13T11:07:07+00:00",
+      "summary": "I vibe-coded 5 iOS games and let AdMob do the monetization No subscriptions. Just ASO + ads. Here’s what actually worked for me. I’ve been vibe coding mobile games for iOS, mostly word puzzles and casual 2D games. For monetization, I implemented Google AdMob ads and focused mainly on ASO to improve my App Store rankings. Most of the games started generating revenue through AdMob, and I’ve also been getting some really positive feedback from people playing them. I know a lot of developers are moving toward subscription-based strategies, so I wanted to share my experience. I tried subscriptions too, including monthly and yearly plans, but honestly, they didn’t work well for my games. For casual mobile games, ads have worked much better for me so far. Here are the games if you want to check them out: Perfect Block Fit Tune Beats: Brain Puzzle Perfect Shape Fit: EDM Game Word of Treasure: Word Search Find That Word: Fun Word Game Curious to hear from other developers: what monetization mod",
+      "author": "Dismal-Perception-29"
+    },
+    {
+      "title": "Claude can optimize my computer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wf7es1/claude_can_optimize_my_computer/",
+      "published": "2026-09-13T13:15:39+00:00",
+      "summary": "Maybe this is obvious or I'm late to this but I didn't know Claude Code could optimize your computer. This all started with my PC, which I use for gaming. It was stuttering so I had it check my home network first. Then it looked at my video game settings and optimized the ones I was using, and it found some BIOS settings that were underutilizing the hardware I already had, which I had no idea about. It actually did quite a bit and my gaming performance improved pretty drastically after that. I also had it go into my MacBook and it looked at all the program files I haven't been using for a while. It looked at old project and worktree files that I haven't touched in a while and cleaned up quite a bit of storage. It also noticed some redundant programs running and helped me decide what to uninstall. Maybe this is obvious for people to do on their own. I don't know, but I was just surprised at how surgical it was across both my PC and my MacBook. Anyway, in the end I also had it go through",
+      "author": "Jinks-b"
+    },
+    {
+      "title": "Sol Low managing Opus Medium - “I’m not publishing that”",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfq5y5/sol_low_managing_opus_medium_im_not_publishing/",
+      "published": "2026-09-14T01:50:06+00:00",
+      "summary": "After a couple of weeks in August I refer to as the OpusOcalypse where my entire coding process melted into oblivion I started using Sol to send jobs to Opus 5 medium with some well crafted prompt guidance.. 90% of the time it works brilliantly, far less expensive than using fable for the same job Today however it gave opus a simple job to do and the resulting output from Sol made me smile, so I thought I’d share For those of you on mobile this is the text “The implementation is functionally green, but it overshot the agreed simplicity: 407 added lines for a three-path change. I’m not publishing that. Most of the excess is explanatory prose and redundant test narration, not mechanism. I’m cutting it back to the positive rule and a compact parametrized refusal matrix before review.” Maybe it’s just me, but I can hear the frustration inside that snippet submitted by /u/crankbird [link] [comments]",
+      "author": "crankbird"
+    },
+    {
+      "title": "Its very difficult to work with SVGs with Fable and Opus, Astra is way ahead.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfg65f/its_very_difficult_to_work_with_svgs_with_fable/",
+      "published": "2026-09-13T18:52:00+00:00",
+      "summary": "So I'm working on this procedurally animated agent avatar project, where a mascot SVG gets turned into a full set of emotions with physics-based animations. I spent almost half my Sunday wrangling Opus and Fable 5.1, but the SVGs they generated were much worse, so I just used GPT-2.5 to imagine the mascot and Astra to generate the SVG, and it came out way more polished. Next up I'm planning to ship it as a skill you can drop into your project or into Claude Code, so the avatar sits on your desktop and reacts while Claude works. Idle when it's waiting, thinking when it's reasoning, working when it's editing files. Have a look. - Fable output at the end of the video. submitted by /u/prakashTech [link] [comments]",
+      "author": "prakashTech"
+    },
+    {
+      "title": "Has Anyone Successfully Vibe-Coded an iOS App using Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wf9yg1/has_anyone_successfully_vibecoded_an_ios_app/",
+      "published": "2026-09-13T14:58:32+00:00",
+      "summary": "I made an app years ago and published on Google Play. The Apple App Store had more rigorous standards. I’m curious if any of you have made something with Claude and published it in the Apple App Store. Cheers! Edit: Holy smokes! You have all been super productive. Thanks for sharing all your works here. it’s been very motivating. And I especially appreciate the comments about the Apple App Store being saturated. Much to think about submitted by /u/NoDesk9564 [link] [comments]",
+      "author": "NoDesk9564"
+    },
+    {
+      "title": "Unique ideas for Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfjmj6/unique_ideas_for_claude/",
+      "published": "2026-09-13T21:02:10+00:00",
+      "summary": "I’m curious what everyone is doing with AI outside of typical work and vibe coding. I listen to a lot of audiobooks during my commute and play video games in my free time, so I started combining the two. I use Opus 5 High to turn video games into novels by pulling from game wikis, walkthroughs, and YouTube videos. It usually produces chapters of around 5,000 words and a finished book of roughly 150,000 words, complete with chapter and scene breaks and formatted in Markdown for later use. Once the book is finished, I have GPT 5.6 Sol High review the Markdown files as a copy editor, checking the story, continuity, grammar, and anything else that seems off. I send its notes to Claude for a rebuttal, then back to GPT for another pass. Claude handles the final review and corrections, and I stop once both models agree that no more changes are needed. Claude then uses Kokoro to create the audiobook, and the results have honestly been more than acceptable. It isn’t perfect, but it catches a lo",
+      "author": "HighSeasArchivist"
+    },
+    {
+      "title": "Multiple accounts now on iOS",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfewmw/multiple_accounts_now_on_ios/",
+      "published": "2026-09-13T18:05:14+00:00",
+      "summary": "When did this appear? The Claude iOS app now lets you add more accounts. submitted by /u/tulensrma [link] [comments]",
+      "author": "tulensrma"
+    }
+  ]
+}

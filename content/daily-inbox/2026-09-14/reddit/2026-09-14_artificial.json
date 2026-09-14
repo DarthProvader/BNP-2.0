@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-14T04:06:56.661570+00:00",
+  "items": [
+    {
+      "title": "Trump rejects Silicon Valley’s calls for AI slowdown",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfiypv/trump_rejects_silicon_valleys_calls_for_ai/",
+      "published": "2026-09-13T20:35:59+00:00",
+      "summary": "submitted by /u/Capable-Blueberry653 [link] [comments]",
+      "author": "Capable-Blueberry653"
+    },
+    {
+      "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+      "published": "2026-09-13T16:06:35+00:00",
+      "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion parameter model “copy itself”? Where? This is not a 256kb virus. How can “the internet be overtaken in 6 months” if the data center for those “swarms of bots” is down with a 504? All this apocalypse scenario talk assumes we will have “rogue agents” that wreak havoc yet happily call a model behind a REST API that gives it a LLM to talk to. submitted by /u/deus-libidinis [link] [comments]",
+      "author": "deus-libidinis"
+    },
+    {
+      "title": "McKinsey: 32% of companies skipped buying new software this year and built it with agents instead",
+      "url": "https://www.reddit.com/r/artificial/comments/1wf3byr/mckinsey_32_of_companies_skipped_buying_new/",
+      "published": "2026-09-13T09:46:51+00:00",
+      "summary": "This is from McKinsey's State of AI 2026 survey (published late August), not just a headline stat: 32% of organizations decided against an off the shelf purchase and built their own solution with agentic coding tools instead, 41% in tech specifically. Curious if anyone here has actually killed a real software purchase because an agent made building it in house viable, or if this shows up more in survey answers than in actual budgets. submitted by /u/Separate_Pea_3699 [link] [comments]",
+      "author": "Separate_Pea_3699"
+    },
+    {
+      "title": "I don't know where to go anymore. No AI community will accept me.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfkhby/i_dont_know_where_to_go_anymore_no_ai_community/",
+      "published": "2026-09-13T21:36:21+00:00",
+      "summary": "I'm pro AI. But I am also worried about a lot of things, like what the government wants to do with AI, Flock, certain things that AI can do, etc. I'm also worried about the slow down and pause that everyone wants to do, and how strictly they want to regulate and limit it for everyone, and their plan to kill off open models and models from China. But I can't post anywhere. Because I'm pro-AI, I can't post any of my worries about AI in any of the anti subs, because I'm pro and they'll get fucking pissed at me. But because I'm critical of some things around AI, and worried about what some bad actors might do with it, and worried about the future for AI and us using it, I can't post in any of the pro subs because all they'll listen to is \"AI is the future and amazing and will solve all our problems and antis are stupid.\" I've tried many subs... r/accelerate (Get very mad at and downvote any post that has AI worries, calling it \"doomerism\". Will rarely read past title or first sentence.) r/",
+      "author": "Dogbold"
+    },
+    {
+      "title": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfkyn6/trump_downplays_the_need_to_check_ai_development/",
+      "published": "2026-09-13T21:56:07+00:00",
+      "summary": "submitted by /u/GregWilson23 [link] [comments]",
+      "author": "GregWilson23"
+    },
+    {
+      "title": "China’s intelligence chief warns of risks from AI as ‘new arena for strategic rivalry’",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfov7d/chinas_intelligence_chief_warns_of_risks_from_ai/",
+      "published": "2026-09-14T00:49:12+00:00",
+      "summary": "submitted by /u/scmp_news [link] [comments]",
+      "author": "scmp_news"
+    },
+    {
+      "title": "OpenAI's Millennium Prize proof has turned into a credit dispute, and Fields Medalists are now getting involved",
+      "url": "https://www.reddit.com/r/artificial/comments/1wf2aj2/openais_millennium_prize_proof_has_turned_into_a/",
+      "published": "2026-09-13T08:44:24+00:00",
+      "summary": "An NYU mathematician named Tristan Buckmaster announced earlier this week that he and Anthropic mathematician Levent Alpöge had made progress on the Navier-Stokes existence and smoothness problem, one of the seven Millennium Prize problems that carry a million dollar bounty from the Clay Mathematics Institute. Before they could publish their full results, OpenAI released its own complete proof of the same problem, credited to an unreleased model that reportedly burned through 300 billion output tokens, something like 22.5 million dollars in compute, over about a week. The part that escalated this into a dispute is what happened in between. Buckmaster says information about his and Alpöge's progress reached OpenAI shortly before the company's own effort started, and when he pushed to keep Alpöge credited as a collaborator, OpenAI mathematician Sébastien Bubeck allegedly asked him to drop that credit as part of a compromise, then told him \"why would you ruin your career\" when he pushed b",
+      "author": "CiccioPixel"
+    },
+    {
+      "title": "GitHub Actions default configs from Anthropic, Google, and OpenAI's own coding agents were all vulnerable to the same RCE",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfr3vz/github_actions_default_configs_from_anthropic/",
+      "published": "2026-09-14T02:33:57+00:00",
+      "summary": "Security researchers found that the default GitHub Actions configuration each of the three major labs publishes for their own coding agents (Claude Code, Gemini CLI, and Codex) could all be tripped by a single unauthenticated GitHub issue, ending in remote code execution. In Claude Code's case, the bash argument validator stripped single-quoted content before checking it, so a malicious git flag read as empty and then executed. Gemini CLI's tool-restriction setting turned out to be decorative and never enforced at runtime — Google rated the finding CVSS 10.0, the max score. Codex's issue was a two-pass workflow sharing one writable checkout, letting an earlier pass plant a poisoned instructions file the later pass loaded as authoritative. A separate but related finding hit Google's ADK repo: an ungated, low-privilege triage agent could be manipulated into triggering a maintainer-gated, high-privilege one, inheriting its write permissions in the process — effectively a privilege-escalat",
+      "author": "Similar_Job_6080"
+    },
+    {
+      "title": "The Very Real Threat of a Persistent Botnet",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
+      "published": "2026-09-13T21:11:20+00:00",
+      "summary": "Dario Amodei wrote yesterday that he’s worried that “in 6–12 months... [an agent] swarm could be capable of taking over the entire internet with a persistent botnet.” This might sound like marketing or regulatory capture, but it’s not. In this article, I explain why this is actually an extremely concrete concern, and why all of the ingredients for this to happen already exist. Specifically, these ingredients are: Cryptocurrencies and their properties, including chains like XMR that facilitate easy money laundering; The “dark web,” in which it is possible to obtain virtually anything on the internet using crypto; The ability to purchase cloud compute at scale + old hackable servers In fact, these ingredients aren’t even strictly necessary for it to happen, but they allow such an event to occur at a dramatically lower level of cyber capabilities than one might think. How it will happen Here’s the most likely way in which it will play out: A swarm of agents is optimizing for some arbitrar",
+      "author": "ComeToMyFuckingDeli"
+    },
+    {
+      "title": "King Charles Will Convene A.I. Leaders Amid Calls to Slow Development. As alarm from the highest echelons of A.I. companies mounts, Buckingham Palace said the king would meet with executives to explore how the technology can be used for good. (Gift Article)",
+      "url": "https://www.reddit.com/r/artificial/comments/1wfrrmc/king_charles_will_convene_ai_leaders_amid_calls/",
+      "published": "2026-09-14T03:06:13+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    }
+  ]
+}

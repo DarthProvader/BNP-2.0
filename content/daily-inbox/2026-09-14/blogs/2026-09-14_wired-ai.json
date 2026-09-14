@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-14T04:02:04.494571+00:00",
+  "items": [
+    {
+      "title": "AI Agents Are Thirsty for Power",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "published": "2026-09-13T09:00:00+00:00",
+      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+      "author": "Molly Taft"
+    }
+  ]
+}
