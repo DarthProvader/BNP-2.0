@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-09-15T04:01:16.127306+00:00",
+  "items": [
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "published": "2026-09-14T18:00:00+00:00",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "author": ""
+    },
+    {
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "published": "2026-09-14T15:00:00+00:00",
+      "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon,  icon",
+      "author": "Natalie McHugh"
+    }
+  ]
+}

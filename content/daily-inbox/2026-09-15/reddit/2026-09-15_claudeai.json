@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-15T04:05:55.404131+00:00",
+  "items": [
+    {
+      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
+      "published": "2026-09-14T19:55:03+00:00",
+      "summary": "The fact that Siri AI is not available in Europe and China yet has been in the news around WWDC a few months ago. The European Union's Digital Markets Act and the European Commission want Siri AI to open up to other model providers, delivering equal access to competitors. Before or at the time of WWDC, Apple seemingly only wanted an exception of the gatekeeper rule to bring Siri AI to the EU. The Commission didn't allow that. As it seems, Apple is quite far into coding an integration of other models and providers, making it possible to use Siri AI with Claude as a basis, be it as a \"ask Claude\" option or replacing Apple's model altogether. submitted by /u/TBT_TBT [link] [comments]",
+      "author": "TBT_TBT"
+    },
+    {
+      "title": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+      "published": "2026-09-14T17:43:57+00:00",
+      "summary": "I recently saw a post on X about painting the Golden Gate bridge by giving control of the SO-101 arm to GPT 6 Astra. I thought I should replicate it with Claude on the same robot arm but instead of setting up an image as a benchmark, I changed the task to filling the shapes with a single color. The resulting painting from two models seem similar in terms of how well the shapes were filled but there is some discussion to be had around which one did a better job. Showed the results to a few friends and I was surprised by where the consensus was going. Curious about how would people on here evaluate it. submitted by /u/KungRaLeo [link] [comments]",
+      "author": "KungRaLeo"
+    },
+    {
+      "title": "Claude keeps naming things after the mistakes I told it not to make. So I built a hook for it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
+      "published": "2026-09-14T22:00:16+00:00",
+      "summary": "Tell Claude to make a grilled cheese. It adds ketchup. You say no ketchup. It names the file grilled_cheese_no_ketchup.md. In a real repo: git commit -m \"Add retry logic (without exponential backoff)\" Nobody asked for backoff. Claude tried it, I said no, and now \"without backoff\" is in git history forever. Same thing shows up in comments (// iterative, as you asked), test names (test_parser_without_regex) and PR bodies. I collected a bunch of these to figure out the cause. It is not about negation. Half of them have no \"no\" in them at all: \"as discussed\", \"per your feedback\", \"fixed version\", \"sorry, previous commit\". What they share is that Claude is still talking to me instead of writing for whoever reads the file later. That person was never in the chat, so none of these lines make sense to them. So the fix is: write for the reader of the file, not the person in the chat. ship-the-result does that in three pieces: 1）A SKILL.md with the rule and a quick test: would this line make sen",
+      "author": "chufan_shi"
+    },
+    {
+      "title": "Claude Helped Me Build A Dynamic Weather System",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
+      "published": "2026-09-14T23:48:41+00:00",
+      "summary": "WORKFLOW -> I integrated Claude into the Unity game engine to build a dynamic weather system. There are three main systems that are all interacting with each other, a 24-hour day and night system, a weather system, and a foliage reactivity system. Integrating Claude into Unity helped develop this system a lot. The whole game has been coded 99% through Claude - I can't really remember the last time I had to open the editor. Integrating Claude gives me the ability to create custom tools inside the game engine as well. This will be used for my game - GRIMLIFE, an open world survival RPG coming to Steam! I'll try to answer any questions in the comments! Any feedback is appreciated 🤓 Project Link -> https://store.steampowered.com/app/5197820/GRIMLIFE/ submitted by /u/Arkitech-RG [link] [comments]",
+      "author": "Arkitech-RG"
+    },
+    {
+      "title": "I built a handwriting canvas where AI can see what you're writing, and then I added a Tom Riddle diary for some reason",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcuh6/i_built_a_handwriting_canvas_where_ai_can_see/",
+      "published": "2026-09-14T19:07:56+00:00",
+      "summary": "I've always liked writing things down when I'm trying to understand something. Especially physics and math. I usually have a notebook or a whiteboard covered in equations, arrows, diagrams, and half-finished ideas. But when I got stuck, asking AI for help was a little awkward. I had to type everything out or take a picture of my work and explain what I was trying to do. I started wondering whether I could build something where I could just write naturally and have AI interact with what was on the page. That's how PlotEveryday started. I wanted to see if I could make a canvas where AI could understand handwritten equations, diagrams, and the context of what I was working on. The idea was to make learning feel more like having someone sitting beside you rather than opening another chat window. I started with a basic writing canvas and gradually added the AI interaction. Then I kept experimenting with what else could be done when the AI could see and interact with the canvas. Now you can ",
+      "author": "whizzkidme"
+    },
+    {
+      "title": "Anthropic should follow suit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgloco/anthropic_should_follow_suit/",
+      "published": "2026-09-15T00:56:18+00:00",
+      "summary": "submitted by /u/brandybuckferryman [link] [comments]",
+      "author": "brandybuckferryman"
+    },
+    {
+      "title": "Anthropic says Russian and Chinese threat actors used Claude for drone-swarm software and other weapons work",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wg6zf9/anthropic_says_russian_and_chinese_threat_actors/",
+      "published": "2026-09-14T15:43:02+00:00",
+      "summary": "submitted by /u/thisisinsider [link] [comments]",
+      "author": "thisisinsider"
+    },
+    {
+      "title": "I don't see how to upskill any further",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wg7rcl/i_dont_see_how_to_upskill_any_further/",
+      "published": "2026-09-14T16:10:59+00:00",
+      "summary": "At least 90% of my work already happens inside Claude Code. Coding, architecture, system design, documentation, tickets, research, you name it. I try to broaden my skills and knowledge as much as possible, take on more responsibility, and regularly push into areas I haven't worked in before, but what's the point in the long term? I'm increasingly feeling like I'm the bottleneck because there's only so much time and mental energy I have to understand different contexts, make decisions, and constantly switch between them. Meanwhile, Claude keeps getting better at handling more and more of the actual work. I'm not sure what the supposed \"next layer of abstraction\" for a software engineer is. \"Move up the stack,\" \"focus on architecture,\" \"learn the business,\" \"take ownership,\" or \"become better at system design.\" I'm trying to do all of those things. But why wouldn't AI catch up with those skills sooner rather than later as well? There must be a point where there won't be any potential for",
+      "author": "AddressNew5619"
+    },
+    {
+      "title": "I made arcade games that play above your Claude Code prompt while it works",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgera0/i_made_arcade_games_that_play_above_your_claude/",
+      "published": "2026-09-14T20:15:35+00:00",
+      "summary": "Built a Claude Code plugin , /dino, /shooter, /racer, /breakout , that render right above the prompt so you've got something to do during longer turns instead of staring at a spinner. They're not just idle games either .. they react to what Claude does while you play..a passing test clears the road ahead, a failing test throws a hazard at you, a commit hands you a shield or bomb. No tokens spent playing, it's all handled client-side. Needs Claude Code 2.1.269+ with function hooks enabled (early access feature, instructions in the README) Built on top of cc-arcade by sezaakgun ..credit to them for the original hooks structure and board helpers. GitHub: https://github.com/mohi-devhub/claude-games submitted by /u/youngdumbbbroke [link] [comments]",
+      "author": "youngdumbbbroke"
+    },
+    {
+      "title": "Simulation: what if you could throw anything into a black hole?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfyjrh/simulation_what_if_you_could_throw_anything_into/",
+      "published": "2026-09-14T09:24:48+00:00",
+      "summary": "wrote a little 2D gravity sandbox, never finished it and forgot about it. used Opus 5 to complete what was missing and finally release it. Paint rocks, gas, planets, stars and black holes, drag to throw them, and watch what gravity does: gas collapses and ignites, rocks pile into worlds, stars burn out and black holes devour everything. Then select a world and land on it. Made with three.js, hosted on antics games. Try it (works on mobile): antics.gg/p/first-light-03197a Disclaimer: This picks fun over scientific accuracy, it is not a real simulation of space. It might grow into a game later. submitted by /u/Altruistic_Series258 [link] [comments]",
+      "author": "Altruistic_Series258"
+    }
+  ]
+}

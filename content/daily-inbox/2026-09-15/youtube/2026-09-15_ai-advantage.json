@@ -1,0 +1,40 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-09-15T04:00:52.830624+00:00",
+  "items": [
+    {
+      "title": "Claude Skills Explained: Unslop",
+      "url": "https://www.youtube.com/shorts/MkrwxIJS0_o",
+      "published": "2026-09-14T21:00:04+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Even the most advanced users of AI shifted to using way more skills. They're free, work in ChatGPT and Claude. Let's get to it. This one I just found. It's called Unslop. So, what this one does is very simple. Again, it's just text here, but it basically scans for various patterns and it adds soul and it audits for certain recurring AI words. And I just saw this and I was like, yes, this is right. I like it. Have opinions, vary rhythm, use I when it fits, all things that AI basically avoids in its writing. And then you have all of these patterns that it detects and fixes. Like, of course you have classic stuff like EM dashes in here, but there's way more. It scans for all of these 31 things for you and I'll show you how I would install a skill that, well, even in this case is meant for agents, but I'll just put it into my Claude cuz I want to use that on the go and easily all the time. I'm just going to copy this and this time I'm going to do it in ChatGPT. I'm going to say at template creator, that will be {slash} skill creator in Claude. I'm just going to say save this Unslop skill and then paste this in. And there it is. Unslop is created. Now I could say add Unslop at any time and that's pretty much how you do it.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "url": "https://www.youtube.com/shorts/ja8hDC1_5ss",
+      "published": "2026-09-14T16:53:39+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Chat GPT image 2.5 is here and honestly some of the results are pretty damn good. But the part that gets really crazy is what happens when you combine it with GPT6 Astra. Because we basically started with two ordinary photos, used images 2.5 to create and edit the visuals, then Astra took it over to Canva, created the whole poster, exported it for print, uploaded it to the online printing service. All of that just worked.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "Claude Skills: Report Generator",
+      "url": "https://www.youtube.com/shorts/PgYD_y_Jba8",
+      "published": "2026-09-14T10:00:07+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Even the most advanced users of AI shifted to using way more skills. >> They're free. We're going to chat between Claude. Let's get to it. Professional reports generator. This is a generic version. You would want to customize the skill to the kind of reports that you're creating, but this is a really great one to create any sort of report. If I click the skill, you can always open it up and see what's inside. First, it clarifies the scope, then it searches the web, and then it plans the report structure, and only then does it write the content. And finally, we end with a docx file. You can change the file format there. But you can see how this is a multi-step process where it only delivers in step six rather than just giving you a report right away. Look at it asking me questions. It sort of has a mini version of grilling built in. But yeah, it's just a age-old technique to let AI ask clarifying questions before you move on. This skill has that built in. So, if you're creating reports, I recommend this one. We have versions of this customized to our own templates internally. Super good and easy win if you create reports regularly.",
+      "transcript_lang": "en"
+    }
+  ]
+}

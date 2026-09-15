@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-15T04:01:20.995553+00:00",
+  "items": [
+    {
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "published": "2026-09-14T20:04:32+00:00",
+      "summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "author": "Dan Goodin"
+    }
+  ]
+}

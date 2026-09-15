@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-15T04:01:11.425334+00:00",
+  "items": [
+    {
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "published": "2026-09-14T15:04:16+00:00",
+      "summary": "At 1:09:00 we talk about the rise of AI x Finance, and AIE NYC is one month away - our hotel block is 97% sold out, get tix & travel ASAP - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomberg, A24 (yes the movie studio) Labs, Two Sigma, Apollo Global, and more soon!From helping pioneer core ideas in NLP to now building AI systems that can automate AI research itself, Richard Socher is betting that the next major step in AI is recursive self-improvement. He is the founder of You.com, AIX Ventures, and now Recursive, which has assembled some of the best open-endedness (& self improving agent) researchers in the world and raised a $4.65B seed round.In this episode, Richard joins Latent Space to unpack his vision for the “Eureka Machine”: a superintelligence that can improve the process of invention itself, accelerate AI research, and eventually tackle major problems across science",
+      "author": "Latent.Space"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-09-15T04:00:54.441891+00:00",
+  "items": [
+    {
+      "title": "Your App Crashed. Now AI Gets to Work.",
+      "url": "https://www.youtube.com/shorts/JP9_clebjDE",
+      "published": "2026-09-12T13:00:11+00:00",
+      "summary": "Check out the full video: https://youtu.be/9SDkU5VDQEQ\n\nOur interview with DHH: https://youtu.be/_CuibYl_Fh0",
+      "author": "NetworkChuck",
+      "transcript": "If any application in Amachi crashes, we're going to pop up a little window says Nautilus crashed, click to diagnose with AI. You click that little thing, we have a skill to diagnose any crashes of any application that then loads up into your preferred harness, whether you use Pi or MP or [music] just plot or open code or whatever. It'll open up into that, it'll load the skill, it'll get the information about the crash, and it'll start [music] diagnosing it. And then it gets even better. Once it's done with that full diagnosis, it will load another skill that's about [music] reporting the issue. And they'll go, is this actually an Amachi issue? Have you found a bug in Amachi? Go through these steps if you have. Check if the user has set up the GitHub CLI, which we invite everyone to do when you you start up with it, and it [music] will report the bug straight to our repo on GitHub. And then, the best part of course is we will receive these bug reports, and then I will have an agent review [music] that and turn it into a PR if it replicates. And this is how we're going to just turbocharge this new age where we can iterate over the operating system itself at a completely different pace.",
+      "transcript_lang": "en"
+    }
+  ]
+}
