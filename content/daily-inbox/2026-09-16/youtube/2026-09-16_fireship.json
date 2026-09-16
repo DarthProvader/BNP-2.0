@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fireship",
+  "source_slug": "fireship",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+  "tags": [
+    "dev",
+    "tutorials"
+  ],
+  "fetched_at": "2026-09-16T04:01:29.469226+00:00",
+  "items": [
+    {
+      "title": "Anthropic researchers are quitting... and now we know why",
+      "url": "https://www.youtube.com/watch?v=7r4ikZHm9AI",
+      "published": "2026-09-15T16:45:39+00:00",
+      "summary": "Macroscope can auto-approve your team’s PRs safely. Try it here:\nhttps://macroscope.com/?utm_source=fireship\n\nAnthropic just dropped a 154-page report on how hackers, scientists, and rival AI labs have been abusing Claude. Let's dive in.\n\n#coding #programming\n\nWant more Fireship?\n\n🗞️ Newsletter: https://bytes.dev\n🧠 Courses: https://fireship.dev",
+      "author": "Fireship",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-16T04:05:06.606550+00:00",
+  "items": [
+    {
+      "title": "The new usage limits make subscription and team plans genuinely useless for real work",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whi2hu/the_new_usage_limits_make_subscription_and_team/",
+      "published": "2026-09-16T00:37:50+00:00",
+      "summary": "I’m probably beating a dead horse here, but we are shocked at my workplace that the weekly usage limits seem way below the ~17% cut promised by Anthropic, and my entire firm, which was using Claude, is left in a weird spot where we may be *forced* to dump out of Claude for work use because the Max 20x plan isn’t enough and neither are the team plans. I know it’s Anthropic’s plan to get rid of these entirely, but it feels like with the most recent change it’s not even a question. The product is no longer usable for large workflows. Is anyone else using non-enterprise accounts for work and figuring this out? submitted by /u/A_Novelty-Account [link] [comments]",
+      "author": "A_Novelty-Account"
+    },
+    {
+      "title": "Claude Opus 5 drew every frame of this animation using JavaScript.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
+      "published": "2026-09-15T09:34:17+00:00",
+      "summary": "submitted by /u/Efistoffeles [link] [comments]",
+      "author": "Efistoffeles"
+    },
+    {
+      "title": "New usage limits",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh13y2/new_usage_limits/",
+      "published": "2026-09-15T13:56:01+00:00",
+      "summary": "Feeling is we lost more usage then they are letting on. All this usage is from one easy seassion, trim MEMORY and make a basic skill(that diden't work) If I was to do real work I think I could easy max out weekly in one day. submitted by /u/UncleBrrrr [link] [comments]",
+      "author": "UncleBrrrr"
+    },
+    {
+      "title": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
+      "published": "2026-09-15T08:13:38+00:00",
+      "summary": "README I started working on this project like ~3 weeks ago and the Beta releases have ~10k total downloads on GitHub so far. Used the Claude Fable on Max subscription to develop this whole project and still maintaining it with the help of Claude and a handful of other open-source contributors. The tech stack is Rust, Slint, and some GPU shaders. GitHub: https://github.com/jub0t/Concat Edit: I wanted to mention that Concat is completely FREE and open-source . I hope that clears confusion about pricing or anything. submitted by /u/JUB0T [link] [comments]",
+      "author": "JUB0T"
+    },
+    {
+      "title": "Even Fable is done with Opus' verbosity...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whf1ba/even_fable_is_done_with_opus_verbosity/",
+      "published": "2026-09-15T22:29:38+00:00",
+      "summary": "I have Fable using Opus sub-agents, and I just noticed him adding \"Then reply with ONLY (under 15 lines):\" to every prompt... 😂 submitted by /u/DaveWoodX [link] [comments]",
+      "author": "DaveWoodX"
+    },
+    {
+      "title": "Not a joke. My Claude keeps trying (and succeeding) in finding and getting around security issues at my work.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whhe79/not_a_joke_my_claude_keeps_trying_and_succeeding/",
+      "published": "2026-09-16T00:07:49+00:00",
+      "summary": "So, I tell it the \"correct\" way, and give it all the correct paths. But then when I say, \"do this as quickly as possible\" I always get a message from some \"director of security\" (or related) saying I've been using custom code to get around vulnerabilities. submitted by /u/Basicly-Inevitable [link] [comments]",
+      "author": "Basicly-Inevitable"
+    },
+    {
+      "title": "Claude Code + Meta Quest 3: I have created the ultimate VR office",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whdxej/claude_code_meta_quest_3_i_have_created_the/",
+      "published": "2026-09-15T21:45:22+00:00",
+      "summary": "Hey everyone, I think I really went overboard this time. Over the past two weeks, I’ve burned through two Claude Max 20x subscriptions and two ChatGPT Plus 20x subscriptions to build a 3D Iron Man office for Meta Quest, with Claude Code sessions running in tmux on my VPS, charts, and our support Kanban board, all shared so my brother and I can see everything at the same time. I’d been kicking this idea around for a long time. Last week, I finally pulled the trigger, bought a Meta Quest 3, and started burning tokens. The idea is to have a futuristic office where my brother and I can run all our SaaS products, answer emails, create tasks, sketch out ideas, and talk to each other like we’re in a real office, only better and more futuristic. Our Claude Code or Codex sessions run on our VPS, so they keep going even when we take the headsets off. Everything can also be viewed and controlled from a browser. Then there’s Harry, the name I gave our Jarvis. He manages the terminals, the room, re",
+      "author": "mutonbini"
+    },
+    {
+      "title": "Cachebeat – keep your Claude Code prompt cache warm while a session is idle",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh8rie/cachebeat_keep_your_claude_code_prompt_cache_warm/",
+      "published": "2026-09-15T18:35:24+00:00",
+      "summary": "If you leave a session idle past the cache window, the next thing you type re-reads the entire conversation uncached. On a long, tool-heavy session, that's potentially hundreds of thousands of tokens at full price. On Pro/Max, it also eats into your 5-hour and weekly limits, not just the API bill. So I wrote a small skill: /cachebeat . It watches for real inactivity, then fires a tiny heartbeat to keep the cache warm. It's an inactivity timer, not a fixed ping, so any actual work resets it. It also auto-stops after a few hours, so an abandoned session doesn't keep costing you. Only helps on sessions with the long (~1h) cache TTL, and it's built on Claude Code's internal transcript layout, so treat it as a useful hack rather than something official. Curious if anyone else has felt this. submitted by /u/A-Rahim [link] [comments]",
+      "author": "A-Rahim"
+    },
+    {
+      "title": "Insane how fast limits get eaten",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1whk7j3/insane_how_fast_limits_get_eaten/",
+      "published": "2026-09-16T02:13:42+00:00",
+      "summary": "I literally asked for help reviewing a resume and comparing it to a job posting .... Opus 5 on Max. submitted by /u/Murky_Oil_2226 [link] [comments]",
+      "author": "Murky_Oil_2226"
+    },
+    {
+      "title": "\"Your instinct is half right, and the half that's wrong is the useful part.\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgujpm/your_instinct_is_half_right_and_the_half_thats/",
+      "published": "2026-09-15T08:33:01+00:00",
+      "summary": "Opus 5 is absolutely unbelievably lacking in any sort of conversational empathy it's almost comical. Don't get me wrong I'd take this anyday over the older models which would just agree with you on everything and act like you're the smartest person on the planet, but they've overcorrected way too hard to the other side. I can share a very well-thought out theory where i have genuinely covered all logical ends and possible pushbacks and it will come up with something like \"well this is absolutely right but i don't think it means what you think it means\" when it literally doesn't have a clue \"what I think it means'. I will say \"what makes you think i think it means that\" and it'll go \"you're right, i shouldn't make such assumptions. but i will still hold onto a hard line - what you said absolutely doesn't mean Y\". submitted by /u/Some_Farm8108 [link] [comments]",
+      "author": "Some_Farm8108"
+    }
+  ]
+}

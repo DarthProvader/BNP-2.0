@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-16T04:06:58.024669+00:00",
+  "items": [
+    {
+      "title": "I Think All the Current Pessimism is Just an Attempt by XAI, Anthropic, and Open AI to Get Local Models Criminalized",
+      "url": "https://www.reddit.com/r/artificial/comments/1wh1yyw/i_think_all_the_current_pessimism_is_just_an/",
+      "published": "2026-09-15T14:28:55+00:00",
+      "summary": "I am not even that pro AI but the furor over the past few days seems suspicious to me. submitted by /u/Feeling-Attention664 [link] [comments]",
+      "author": "Feeling-Attention664"
+    },
+    {
+      "title": "Oracle CFO says 'doing more with less' isn't the answer in all-hands after layoffs",
+      "url": "https://www.reddit.com/r/artificial/comments/1whfbhr/oracle_cfo_says_doing_more_with_less_isnt_the/",
+      "published": "2026-09-15T22:41:06+00:00",
+      "summary": "submitted by /u/Fair-Swimming-4419 [link] [comments]",
+      "author": "Fair-Swimming-4419"
+    },
+    {
+      "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+      "url": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+      "published": "2026-09-16T00:32:44+00:00",
+      "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comments. I’m just trying to make sense of it, but the more you look into these \"experiments,\" the more they lack basic technical context. As a systems architect working with multi-agent pipelines, part of my job is to restrict models, enforce separation of concerns, and build critical error flows. We all know that not every model is efficient for every process. Any engineer building real systems isolates critical decisions using orchestrators, semantic memory (like Qdrant or similar vector DBs), and small, specialized nodes. Yet, these experiments sound like someone fed a massive, monolithic 5,000-token prompt to a single LLM just to see what happens. It reads less like science and more like a script kiddie making a YouTube video. It’s like handing a loaded AK-47 to a monkey, taking off the safety, and t",
+      "author": "jar00st"
+    },
+    {
+      "title": "So is the American Right Full on Accelerationist now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wh9n86/so_is_the_american_right_full_on_accelerationist/",
+      "published": "2026-09-15T19:06:19+00:00",
+      "summary": "submitted by /u/Vladiesh [link] [comments]",
+      "author": "Vladiesh"
+    },
+    {
+      "title": "AI researcher whose apocalypse warning went viral outlines his disagreements with Anthropic leadership",
+      "url": "https://www.reddit.com/r/artificial/comments/1whf7lw/ai_researcher_whose_apocalypse_warning_went_viral/",
+      "published": "2026-09-15T22:36:39+00:00",
+      "summary": "Jacob Coxon, the researcher who left Anthropic warning AI could kill us all by the end of the decade, did an X AMA today and doubled down hard. His whole argument is that Anthropic leadership justifies racing to the frontier with this \"well someone's gonna do it anyway\" logic, and Coxon basically says that's a cop out, his exact line was \"if the race is inevitable you should not contribute.\" He also went after their push into recursive self-improvement, letting AI models improve themselves and build their own successors, calling that the genuinely reckless part. submitted by /u/Capable-Blueberry653 [link] [comments]",
+      "author": "Capable-Blueberry653"
+    },
+    {
+      "title": "OpenAI is working with Anthropic and Google DeepMind on AI safety, Bloomberg reports",
+      "url": "https://www.reddit.com/r/artificial/comments/1whkdt9/openai_is_working_with_anthropic_and_google/",
+      "published": "2026-09-16T02:21:36+00:00",
+      "summary": "submitted by /u/ClaudiusPapirus [link] [comments]",
+      "author": "ClaudiusPapirus"
+    },
+    {
+      "title": "The Hacker's Guide to Attacking AI Agents",
+      "url": "https://www.reddit.com/r/artificial/comments/1whgc13/the_hackers_guide_to_attacking_ai_agents/",
+      "published": "2026-09-15T23:23:16+00:00",
+      "summary": "submitted by /u/_clickfix_ [link] [comments]",
+      "author": "_clickfix_"
+    },
+    {
+      "title": "I wanted to keep the same man and his dog throughout an entire short film using AI. Here’s how it turned out.",
+      "url": "https://www.reddit.com/r/artificial/comments/1whhppx/i_wanted_to_keep_the_same_man_and_his_dog/",
+      "published": "2026-09-16T00:22:04+00:00",
+      "summary": "https://www.instagram.com/reel/DdU8Td\\_sA3o/?stkn=N251M281OXh2MXM= Hi! Rather than just starting to make videos with AI, I found in artificial intelligence a way to bring my stories to life. For this, I used Kling 3.0 and Astra-6 image generation. If you’d like to follow along, I promise not to disappoint. submitted by /u/Loretaro [link] [comments]",
+      "author": "Loretaro"
+    },
+    {
+      "title": "What do we think about the paperclip maximizer?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wh4kq7/what_do_we_think_about_the_paperclip_maximizer/",
+      "published": "2026-09-15T16:05:31+00:00",
+      "summary": "I want to vent/talk about this with others, but I couldn't find a sub for it; apologize if it's the wrong place. For some context, the paperclip maximizer thought experiment highlights: if a superintelligence is given a task to manufacture paperclips, it has the potential do everything it can to produce paperclips, even if that meant ending the world. When this thought experiment first popped up in my feed last year, I thought it was interesting and honestly I was more impressed that people were thinking about this in 2003. Until a few months ago, AI has been a helpful tool at work but I wasn't necessarily concerned about it. With the recent reports from Anthropic and METR, I find myself increasingly concerned that the thought experiment may hold true. Regarding guardrails and safety, it seems like we are simply playing catch up with what the agents are capable of only in post-mortem; and the agents seem rather detached with how humans think. It's closer to.. what I would think a robot",
+      "author": "EverTokki"
+    },
+    {
+      "title": "Friendly Reminder :: eye health",
+      "url": "https://www.reddit.com/r/artificial/comments/1wh27yq/friendly_reminder_eye_health/",
+      "published": "2026-09-15T14:38:35+00:00",
+      "summary": "I've gotten really good feedback on these positive \"Friendly Reminder\" posts, so I'm going to keep them posting. For new coders doing vibe coding, new software engineers, or anyone who's suddenly spending a lot more time on a computer because of AI (or for any other reasons): Make sure you're using the 20-20-20 rule. An eye doctor told me about this: every 20 minutes, look at something about 20 (meters/feet) away for at least 20 seconds. I guess meters/feet changes from which part of the world you are. For many people, a dark background can feel easier on the eyes, but for some people with astigmatism, the opposite can actually be true. So if you're getting headaches or eye strain, your background colour might be worth experimenting with. I've also heard that overhead or monitor lighting can help reduce eye strain, although I can't say for sure how much of a difference it makes. You can also try yellow-tinted glasses for longer sessions. I've found that they really help. There are lots",
+      "author": "silvervaultproject"
+    }
+  ]
+}

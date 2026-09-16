@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-16T04:03:54.172230+00:00",
+  "items": [
+    {
+      "title": "Dario, we are looking at you.",
+      "url": "https://www.reddit.com/r/singularity/comments/1whhhfr/dario_we_are_looking_at_you/",
+      "published": "2026-09-16T00:11:46+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "TIME's latest cover",
+      "url": "https://www.reddit.com/r/singularity/comments/1wh2i82/times_latest_cover/",
+      "published": "2026-09-15T14:49:44+00:00",
+      "summary": "submitted by /u/CremeSubject7594 [link] [comments]",
+      "author": "CremeSubject7594"
+    },
+    {
+      "title": "Scott Aaronson says that labs, \"having been burned by the hostile response to the Navier-Stokes proof, are now sitting on solutions to some very major problems until they figure out a better way to handle things\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1whbpqz/scott_aaronson_says_that_labs_having_been_burned/",
+      "published": "2026-09-15T20:21:11+00:00",
+      "summary": "submitted by /u/spryes [link] [comments]",
+      "author": "spryes"
+    },
+    {
+      "title": "Continual learning in the fruit fly brain has been decoded, the missing piece for true AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1wh68ii/continual_learning_in_the_fruit_fly_brain_has/",
+      "published": "2026-09-15T17:06:06+00:00",
+      "summary": "submitted by /u/skolnaja [link] [comments]",
+      "author": "skolnaja"
+    },
+    {
+      "title": "He is nicer than usual",
+      "url": "https://www.reddit.com/r/singularity/comments/1whga47/he_is_nicer_than_usual/",
+      "published": "2026-09-15T23:21:00+00:00",
+      "summary": "submitted by /u/Extension-Mastodon67 [link] [comments]",
+      "author": "Extension-Mastodon67"
+    },
+    {
+      "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
+      "url": "https://www.reddit.com/r/singularity/comments/1wh9j9u/gemini_38_live_gemini_38_live_extended_thinking/",
+      "published": "2026-09-15T19:02:25+00:00",
+      "summary": "submitted by /u/gibbonwalker [link] [comments]",
+      "author": "gibbonwalker"
+    },
+    {
+      "title": "OpenAI's head of countries says Canada has the energy and land for data centres",
+      "url": "https://www.reddit.com/r/singularity/comments/1whc2kr/openais_head_of_countries_says_canada_has_the/",
+      "published": "2026-09-15T20:34:23+00:00",
+      "summary": "submitted by /u/joe4942 [link] [comments]",
+      "author": "joe4942"
+    },
+    {
+      "title": "Turns out that many current science-based LLM benchmarks have flaws in their answers. When corrected, the LLM benchmark scores rose significantly.",
+      "url": "https://www.reddit.com/r/singularity/comments/1whgoci/turns_out_that_many_current_sciencebased_llm/",
+      "published": "2026-09-15T23:37:57+00:00",
+      "summary": "Paper on Arxiv submitted by /u/Profanion [link] [comments]",
+      "author": "Profanion"
+    },
+    {
+      "title": "US government is using a Qwen embedding model for RAG lookup",
+      "url": "https://www.reddit.com/r/singularity/comments/1wh6g32/us_government_is_using_a_qwen_embedding_model_for/",
+      "published": "2026-09-15T17:13:26+00:00",
+      "summary": "Source: https://x.com/tleilax___/status/2099788133558546576/ submitted by /u/PsychologicalSoup251 [link] [comments]",
+      "author": "PsychologicalSoup251"
+    },
+    {
+      "title": "POTUS called the NVIDIA CEO at the All-In Summit to say AI and robots aren't taking over the world, it's all just a hoax",
+      "url": "https://www.reddit.com/r/singularity/comments/1wh7q1h/potus_called_the_nvidia_ceo_at_the_allin_summit/",
+      "published": "2026-09-15T17:58:59+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    }
+  ]
+}
