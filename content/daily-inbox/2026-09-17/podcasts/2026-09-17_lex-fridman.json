@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Lex Fridman Podcast",
+  "source_slug": "lex-fridman",
+  "feed_url": "https://lexfridman.com/feed/podcast/",
+  "tags": [
+    "interview",
+    "ai-research"
+  ],
+  "fetched_at": "2026-09-17T04:01:13.971320+00:00",
+  "items": [
+    {
+      "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
+      "url": "https://lexfridman.com/andrew-scull/?utm_source=rss&utm_medium=rss&utm_campaign=andrew-scull",
+      "published": "2026-09-16T23:40:49+00:00",
+      "summary": "Andrew Scull is a historian of psychiatry.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\nTranscript:\nhttps://lexfridman.com/andrew-scull-transcript\nCONTACT LEX:\nFeedback – give feedback to Lex: https://lexfridman.com/survey\nAMA – submit questions, videos or call-in: https://lexfridman.com/ama\nHiring – join our team: https://lexfridman.com/hiring\nOther – other ways to get in touch: https://lexfridman.com/contact\nEPISODE LINKS:\nAndrew’s Website (UCSD faculty page): https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html\nDesperate Remedies (book): https://amzn.to/4vmBquI\nMadness in Civilization (book): https://amzn.to/3SZhd0I\nSPONSORS:\nTo support this podcast, check out our sponsors & get discounts:\nWispr Flow: AI-powered voice dictation app.\nGo to https://wisprflow.ai/lex\nFin: AI agent for customer service.\nGo to https://fin.ai/lex\nLMNT",
+      "author": ""
+    }
+  ]
+}

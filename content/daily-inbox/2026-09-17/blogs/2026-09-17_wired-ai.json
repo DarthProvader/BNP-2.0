@@ -1,0 +1,41 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-17T04:01:33.656034+00:00",
+  "items": [
+    {
+      "title": "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
+      "url": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/",
+      "published": "2026-09-16T21:07:24+00:00",
+      "summary": "The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.",
+      "author": "Maxwell Zeff"
+    },
+    {
+      "title": "Washington Won’t Be Regulating AI Anytime Soon",
+      "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+      "published": "2026-09-16T20:00:00+00:00",
+      "summary": "Even with mounting concerns about AI models going rogue, legislation appears unlikely, and the White House is outright opposed to oversight.",
+      "author": "Hugo Lowell"
+    },
+    {
+      "title": "I Trained a Fly’s Brain to Generate WIRED Story Ideas",
+      "url": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas/",
+      "published": "2026-09-16T18:00:00+00:00",
+      "summary": "I used an open-source map of a fruit fly’s brain to vibe code a website called PitchFly. Its headline suggestions were delightfully bananas.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+      "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+      "published": "2026-09-16T08:30:00+00:00",
+      "summary": "The US and China agree that advanced AI poses serious risks. But Beijing is deeply skeptical of a deal that prioritizes keeping US companies ahead.",
+      "author": "Louise Matsakis"
+    }
+  ]
+}

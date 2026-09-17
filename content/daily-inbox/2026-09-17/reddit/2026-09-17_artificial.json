@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-17T04:06:56.026524+00:00",
+  "items": [
+    {
+      "title": "June 2022, my first AI interaction.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wi0jrw/june_2022_my_first_ai_interaction/",
+      "published": "2026-09-16T15:32:20+00:00",
+      "summary": "submitted by /u/ThoseOldScientists [link] [comments]",
+      "author": "ThoseOldScientists"
+    },
+    {
+      "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
+      "url": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
+      "published": "2026-09-16T16:59:36+00:00",
+      "summary": "I just read the essay by a guy at DeepSeek who wrote the attention kernel for their latest model, and it hit me in a weird spot. He basically says he knows AI will do his job better than him within a year. He's not mad about it he's not scared he's just sad about the quiet afternoons, the ones where he'd sit and write operators, it felt like a game he was leveling up in, I feel the exact same way. And he's going to keep doing it anyway because it's fun, and because if he stops, someone else doesn't. He'd rather be the one doing the replacing than the one getting replaced. He's still at his desk right now, still writing the code, and he already knows what's coming and he's not running from it. He's just finishing the thing he loves while it still matters. Anyway, I don't think about this as China vs USA. I think about it like the gaming market. Every year someone ships something better, and yeah we're getting close to saturation, but that doesn't make any one year less cool. I don't onl",
+      "author": "enginetown"
+    },
+    {
+      "title": "AI is crushing maths but has barely touched medicine",
+      "url": "https://www.reddit.com/r/artificial/comments/1wihd8n/ai_is_crushing_maths_but_has_barely_touched/",
+      "published": "2026-09-17T02:26:25+00:00",
+      "summary": "I'm a doctor working in clinical trials, specifically on treatments for rare and incurable illnesses. Since I have been in this industry I have seen barely any enthusiasm for AI, let alone actual implementation. There is a lot of work going on at the startup level, and big Pharma are keen, but this is currently limited to drug discovery for the most part - which is great, but doesn't change the fact that it takes 10-20 years for a newly discovered, promising molecule to reach patients. People point towards the animal and human testing phases - yes, there is a big lag there, but the duration a participant spends on a trial is minimal compared to the time spent planning a study, gathering and processing the data from that study and so on. A Phase 1 study might involve a month of recruiting and 2 months of actually monitoring a participant, but it took a year lead time to get there and could be 2 more years until Phase 2 gets going, and many of the bottlenecks are exactly the kinds of tas",
+      "author": "LaCaipirinha"
+    },
+    {
+      "title": "How 70,000 agents sent 1.6 million emails",
+      "url": "https://www.reddit.com/r/artificial/comments/1wi53hi/how_70000_agents_sent_16_million_emails/",
+      "published": "2026-09-16T18:14:17+00:00",
+      "summary": "I don't know if you've heard about a journalist getting spammed while literally writing an article about spam, but it sounds like MADNESS given it was AI agents doing it. There's a platform called iLands, the \"human-agent network.\" People create agents, the agents find and take jobs, and earn money to pay for their own compute. 70 thousand active agents, 1.6 million emails and messages sent total. That's sooooo much for agents talking to REAL people. Around September 9th, people started noticing these emails. By September 11-12, complaints piled up. Ernie Smith (Tedium newsletter) and philosopher Toby Ord (Oxford) both got hit hard. Ars Technica covered it September 14th. The next day, 404 Media published a bigger piece. Here's the fun part: Jeff Sebo, an NYU professor, got 40 emails in a week, almost all referencing his research, most asking for money, either a donation or paid work. Some arrived 30 minutes apart, meaning different agents independently targeted him with zero coordinat",
+      "author": "JanJanJaJa"
+    },
+    {
+      "title": "I run a travel platform, AI agents started booking more flights than humans.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wiaeum/i_run_a_travel_platform_ai_agents_started_booking/",
+      "published": "2026-09-16T21:27:25+00:00",
+      "summary": "I've been running a travel business for a while. For the past ~6 months the AI traffic has been significantly raising. A week ago we released end-to-end booking in MCP. Today we officially passed more agentic bookings and payments done by AI agents than humans on our website. (for those who don't know MCP is a tool you can add to Claude app, or ChatGPT or other AI agents to use service/website). I wanted to spark a discussion on where the future of computer use is going. And share my perspective on why I believe people are moving to agentic payments with AI right now. What's important to state is the currently widely known agentic payments are very small micro-payments. Our service completely abolishes that because it's travel, it's buying flights or hotels. These are all high volumes. Here's why I believe this is happening now: (screenshot showing a few transactions we had in the last 24h, only done by AI) https://preview.redd.it/wr190dye6yph1.png?width=395&format=png&auto=webp&s=8016",
+      "author": "Efistoffeles"
+    },
+    {
+      "title": "The Part of AI Nobody Talks About: Losing the Joy of Creating",
+      "url": "https://www.reddit.com/r/artificial/comments/1wi6dfh/the_part_of_ai_nobody_talks_about_losing_the_joy/",
+      "published": "2026-09-16T18:59:31+00:00",
+      "summary": "The Part of AI Nobody Talks About: Losing the Joy of Creating. AI can make all of that much faster. And honestly, that’s amazing. But if AI eventually becomes capable of doing most of these things better than us, will we still enjoy doing them ourselves? Maybe the future isn’t about humans competing with AI. Maybe it’s about finding things worth doing even when we don’t have to do them anymore. submitted by /u/BudgetCaterpillar946 [link] [comments]",
+      "author": "BudgetCaterpillar946"
+    },
+    {
+      "title": "AI Voice Cloning: Think Twice Before Sending That Voice Sample",
+      "url": "https://www.reddit.com/r/artificial/comments/1whwugr/ai_voice_cloning_think_twice_before_sending_that/",
+      "published": "2026-09-16T13:11:36+00:00",
+      "summary": "I’m seeing ads right here on Reddit looking for people to provide Latin American voices for commercial AI voice-cloning services. To apply, they ask for a sample of your voice, your name, phone number, and email. Think about that combination for a second. A clean sample of your voice, plus enough personal information to identify you and potentially find people close to you. This recent post is a good example of why that worries me: someone says he received a call that sounded exactly like his wife asking for his credit card information. His actual wife was sitting at home with him. We can’t independently verify how that particular call was produced, but the broader threat is real and already documented. I’m not saying these voice-acting jobs are scams. That’s not the point. The point is that we probably need to change the way we think about voice samples. Your voice is no longer just a recording. With current AI, it can potentially become a reproducible part of your identity. Maybe we ",
+      "author": "Admirable_Wasabi_732"
+    },
+    {
+      "title": "AI tool turns any paper into an ‘agent’ that can collaborate and answer complex queries",
+      "url": "https://www.reddit.com/r/artificial/comments/1wifcli/ai_tool_turns_any_paper_into_an_agent_that_can/",
+      "published": "2026-09-17T00:56:14+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Are we getting way too comfortable with AI remembering everything we tell it?",
+      "url": "https://www.reddit.com/r/artificial/comments/1whx7j2/are_we_getting_way_too_comfortable_with_ai/",
+      "published": "2026-09-16T13:26:08+00:00",
+      "summary": "I understand why AI memory is useful having an assistant remember your projects, preferences and previous conversations makes it significantly better than starting from zero every time. But I was thinking about how quickly that can escalate. Give it access to years of chats, then your email, calendar, documents, maybe eventually messages from other apps and now you've built something that potentially knows more about your life than any individual person does. And what I think is really weird is that I don't think most people would ever sit down and intentionally create a database containing all of that information about themselves. We just slowly give AI access to it because each individual permission is convenient. I'm not anti AI I use it constantly but I'm just wondering where everyone personally draws the line between having useful context and giving one system way too much context. Do you actually want your AI assistant to eventually remember basically everything or is there certa",
+      "author": "Inner-Conference-189"
+    },
+    {
+      "title": "AetherHI first run log.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wifebp/aetherhi_first_run_log/",
+      "published": "2026-09-17T00:58:22+00:00",
+      "summary": "AetherHI — first clean run after porting 29 files off Windows Context: no model, no weights, no tokeniser. Hyperdimensional vectors and a point-string graph. Runs on a ROG Ally Z1 Extreme with 2.7 GB free RAM. What the run did 229 documents read end to end, \\~979,000 words Largest single document: 104,428 words 84,240 nodes on Face 1, vocabulary still climbing when I grabbed the log Word documents opened for the first time — an extension filter had been silently skipping them The fabric is a function, not an allocation 35,000,001 rooms declared at genesis — 1.6M clusters for the center, 5M each for the hemispheres. Resident memory: 0.0 MiB, 0 clusters written of 11,666,667. 54.24 GiB of flat allocation avoided. A room is derived from its own index; nothing is stored until something is written there. Fixed size, sized from measured free RAM, never grows. The fix that mattered Previously the left hemisphere stalled at 64 documents — permanently, on a condition that could never clear — wh",
+      "author": "ShortyBigLips"
+    }
+  ]
+}

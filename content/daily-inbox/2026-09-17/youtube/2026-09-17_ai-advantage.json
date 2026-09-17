@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-09-17T04:00:49.460192+00:00",
+  "items": [
+    {
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "url": "https://www.youtube.com/shorts/I0eNp0FRJBw",
+      "published": "2026-09-15T13:00:02+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "OpenAI released images 2.5. They basically said that this images model brings sharper details, more natural lighting and textures, better reference image handling. That's a big one cuz you can make images of yourself or your friends and they actually look like them. And more precise editing. And finally, you can make multiple changes to the same image and it actually maintains that history. Additionally to that, they claim that this is about 50% faster than the previous model. It feels faster. I don't know if it's exactly 50%, but the most important question here is simple. What can you actually make with this up the interesting things with this",
+      "transcript_lang": "en"
+    }
+  ]
+}

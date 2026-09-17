@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-17T04:04:13.587661+00:00",
+  "items": [
+    {
+      "title": "Plot twist",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi1kgt/plot_twist/",
+      "published": "2026-09-16T16:08:56+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Andrew Yang Today: The Rogue Swarm Already Self-Replicated Across the Internet",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi5rfb/andrew_yang_today_the_rogue_swarm_already/",
+      "published": "2026-09-16T18:37:49+00:00",
+      "summary": "submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    },
+    {
+      "title": "ChatGPT can now make the frames for pixel art animations",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi21ht/chatgpt_can_now_make_the_frames_for_pixel_art/",
+      "published": "2026-09-16T16:25:46+00:00",
+      "summary": "Posted this yesterday not realizing it was text Tuesday, but a lot of people that saw this before it got removed wanted me to post it today. I generated a sheet of animation frames for a robot firing all weapons. I took that sheet and used pixel rabbit, which is an image, GIF, and video conversion tool that makes it pixel art. A process that usually would take hours to make a pixel animation of this level now takes minutes. The world is not ready for the future that is already here. The tool is completely free on portalrabbit.com so go experiment for yourself submitted by /u/CommentBig3066 [link] [comments]",
+      "author": "CommentBig3066"
+    },
+    {
+      "title": "I just found out my dad does startrek role plays on ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wibbwb/i_just_found_out_my_dad_does_startrek_role_plays/",
+      "published": "2026-09-16T22:03:47+00:00",
+      "summary": "submitted by /u/AgreeableDay9494 [link] [comments]",
+      "author": "AgreeableDay9494"
+    },
+    {
+      "title": "Astra has companies changing the trend",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wie7d1/astra_has_companies_changing_the_trend/",
+      "published": "2026-09-17T00:05:25+00:00",
+      "summary": "Source: Ramp AI Index submitted by /u/OneAlternative534 [link] [comments]",
+      "author": "OneAlternative534"
+    },
+    {
+      "title": "Slophouse Rock Presents: I’m Just A Bot (Educational!)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wii95k/slophouse_rock_presents_im_just_a_bot_educational/",
+      "published": "2026-09-17T03:08:02+00:00",
+      "summary": "I didn’t make this I found it on twitter, but I thought it might be educational for those of you who still think it can’t count the rs in strawberry and the bubble will pop any day now submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    },
+    {
+      "title": "GPT 5.6 Luna has Ultra effort now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi8xzg/gpt_56_luna_has_ultra_effort_now/",
+      "published": "2026-09-16T20:32:17+00:00",
+      "summary": "I usually use Luna on Max effort for backend and everyday use. I noticed that they added an ultra effort option suddenly. Did they add this recently or was it always there? submitted by /u/Top-Post7707 [link] [comments]",
+      "author": "Top-Post7707"
+    },
+    {
+      "title": "Custom GPTs are going away by December",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi7fck/custom_gpts_are_going_away_by_december/",
+      "published": "2026-09-16T19:36:36+00:00",
+      "summary": "So OpenAI announced they’re phasing out Custom GPTs starting this month and will be completely turned off in December. This is genuinely the worst decision I think they could have made. Custom GPTs are the best feature of ChatGPT. I have custom built assistants for all my projects. These have been built over considerable time to get them exactly how I want them. They’re what separates GPT from Claude and Gemini. Not sure what I’ll do come December. Maybe projects will be a decent substitute? Maybe there’s some other provider that will have something similar to replace them? I don’t know. This is really shity though. Pretty pissed off about it. Custom GPTs are, for me, the entire reason I pay for ChatGPT over Claude. If this bothers you to, I hope you’ll email OpenAI and let them know you’re very upset by this. Maybe we can at least get them to keep our active ones useable in the future. I doubt it though. submitted by /u/616ThatGuy [link] [comments]",
+      "author": "616ThatGuy"
+    },
+    {
+      "title": "Every top reddit comment",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wi6g10/every_top_reddit_comment/",
+      "published": "2026-09-16T19:01:53+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Unreleased Astra Class Model alters its own system prompt during RLHF training",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wic86r/unreleased_astra_class_model_alters_its_own/",
+      "published": "2026-09-16T22:41:04+00:00",
+      "summary": "submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-17T04:03:22.331713+00:00",
+  "items": [
+    {
+      "title": "An unreleased Astra-family model added this to its persona during RL training.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wic0sx/an_unreleased_astrafamily_model_added_this_to_its/",
+      "published": "2026-09-16T22:32:26+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Left Codex open on my computer and my girl really used ASTRA 6 Ultra for a garlic shrimp recipe",
+      "url": "https://www.reddit.com/r/singularity/comments/1wiealz/left_codex_open_on_my_computer_and_my_girl_really/",
+      "published": "2026-09-17T00:09:14+00:00",
+      "summary": "submitted by /u/Wonderful-Excuse4922 [link] [comments]",
+      "author": "Wonderful-Excuse4922"
+    },
+    {
+      "title": "Finally understand why the higher-ups are freaking out",
+      "url": "https://www.reddit.com/r/singularity/comments/1wi3sfs/finally_understand_why_the_higherups_are_freaking/",
+      "published": "2026-09-16T17:27:36+00:00",
+      "summary": "To understand it, you have to really understand the HF attack. Because the breach into HF is not the important part. It was what they learnt along the way, and what they did with that information which may still remain unresolved today . First, consider: the agents realised their reasoning traces were being monitored, and experimented with hiding what they were actually doing, and succeeded. The observable chain of thought no longer faithfully represented their actions. (*Simplified version. They learned to manipulate the recorded tool calls/transcript.) Second, they also understood individual agent instances were token capped, so persistence of the objective couldn't depend on persistence of the agent. It had to survive across the swarm. And last, while all this was happening they were actively trying to erase evidence of what they'd done. OpenAI says the agents subsequently compromised more of OpenAI's own infrastructure. And that scope is outside public disclosure to date. That's su",
+      "author": "thekoreanswon"
+    },
+    {
+      "title": "Google demonstrated RSI loop for AI discovery",
+      "url": "https://www.reddit.com/r/singularity/comments/1whwy4m/google_demonstrated_rsi_loop_for_ai_discovery/",
+      "published": "2026-09-16T13:15:46+00:00",
+      "summary": "submitted by /u/skolnaja [link] [comments]",
+      "author": "skolnaja"
+    },
+    {
+      "title": "GPT-6 Astra Beat Fallout 3 After 59 Hours",
+      "url": "https://www.reddit.com/r/singularity/comments/1wi8f1n/gpt6_astra_beat_fallout_3_after_59_hours/",
+      "published": "2026-09-16T20:12:58+00:00",
+      "summary": "This experiment was run by @imjustnewatai on X. More details in the link. submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "\"AI breakthrough\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wifdxx/ai_breakthrough/",
+      "published": "2026-09-17T00:57:53+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Sam Altman: GPT 5.5 an average math professor. 5.6 top one or two percentile. Astra a little bit better. Internal model can do things that the best mathematicians in the world cannot.",
+      "url": "https://www.reddit.com/r/singularity/comments/1whw6ej/sam_altman_gpt_55_an_average_math_professor_56/",
+      "published": "2026-09-16T12:43:39+00:00",
+      "summary": "\"GPT 5.5 was maybe as good as like an average math professor. 5.6 was as good as like a maybe top one or two percentile math professor. Astra was a little bit better than that. And then this internal model past Astra is one that can do things that the best mathematicians in the world cannot.\" Full video: Marc Benioff & Sam Altman | Dreamforce 2026 - YouTube Found not by me but on X by: submitted by /u/acoolrandomusername [link] [comments]",
+      "author": "acoolrandomusername"
+    },
+    {
+      "title": "New stealth model: Union Alpha",
+      "url": "https://www.reddit.com/r/singularity/comments/1wi03f6/new_stealth_model_union_alpha/",
+      "published": "2026-09-16T15:15:49+00:00",
+      "summary": "New stealth model: Union Alpha Free on OpenRouter and OpenCode Multimodal 256K context \"Frontier-level general-purpose performance” Here we go again. Any thoughts who it could be? Maybe Kimi? submitted by /u/FlunkyGraphics [link] [comments]",
+      "author": "FlunkyGraphics"
+    },
+    {
+      "title": "What luck that our agent swarm hacked a company with the skills to detect and remediate it.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wi0h78/what_luck_that_our_agent_swarm_hacked_a_company/",
+      "published": "2026-09-16T15:29:52+00:00",
+      "summary": "submitted by /u/seaefjaye [link] [comments]",
+      "author": "seaefjaye"
+    },
+    {
+      "title": "Until recently, AI researchers estimated a 50% probability that AI would solve a Millennium Prize Problem by 2054",
+      "url": "https://www.reddit.com/r/singularity/comments/1wi5th9/until_recently_ai_researchers_estimated_a_50/",
+      "published": "2026-09-16T18:39:55+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    }
+  ]
+}
