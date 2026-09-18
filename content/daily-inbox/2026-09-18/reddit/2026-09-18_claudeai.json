@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-18T04:05:07.097168+00:00",
+  "items": [
+    {
+      "title": "Opus 5 first refused to help me make this due to \"distaste\", got around it by calling it \"Horror themed GitHub project\" and I am happy with the result.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj18o8/opus_5_first_refused_to_help_me_make_this_due_to/",
+      "published": "2026-09-17T17:57:25+00:00",
+      "summary": "This was inspired by the recent posts on these fruit flies flying a plane and doom scrolling, and it kinda reminded me of \"I have no mouth and I must scream\" book, though its just an inspiration and instead of having a hateful supercomputer its just a fruit fly being forced to choose between 5 wires, and it is such that he can only use 2 of them, and he gets dopamine when he maxes out the voltage on a fly but also gets heated (not good) when any of the 5 flies fall below 50% voltage. Source - https://github.com/aravpanwar/amfly Opus 5 initially called it distasteful while being its usual condescending self but got around it by not using the words \"torture\" or \"hell\" and instead just \"Horror themed Project\". It somehow worked, though I had to personally spend a long time tweaking the 3d scene. submitted by /u/racialminority [link] [comments]",
+      "author": "racialminority"
+    },
+    {
+      "title": "Anthropic says its chatbot Claude is taking over the work of building its own successor",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjaev2/anthropic_says_its_chatbot_claude_is_taking_over/",
+      "published": "2026-09-17T23:54:29+00:00",
+      "summary": "submitted by /u/Evening_Bicycle3113 [link] [comments]",
+      "author": "Evening_Bicycle3113"
+    },
+    {
+      "title": "Claude saved me $800",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj3u0m/claude_saved_me_800/",
+      "published": "2026-09-17T19:32:07+00:00",
+      "summary": "Long story short, the company that made my EV charger went out of business and none of the default admin passwords worked. I paid the extra fees for Fable 5 but eventually it said no thanks, I'm not helping you. Maybe I used the word \"hack\" or \"crack\" too many times IDK. Wasted money and pissed me off. Anyway, Opus 4.8 was happy to help. After a long hacking session it got me into the admin console without a password. I was amazed. It would have cost me hundreds of dollars for a new charger and an electrician to install it, since it's hard wired into the electric panel. submitted by /u/jcgam [link] [comments]",
+      "author": "jcgam"
+    },
+    {
+      "title": "Sales pitch of the century.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1winf9r/sales_pitch_of_the_century/",
+      "published": "2026-09-17T07:45:17+00:00",
+      "summary": "Do you agree that a lot of this doomer talk is mostly hype and marketing? It also conveniently gives them, and OpenAI, a strong justification if growth starts slowing down before their IPOs. OpenAI once said GPT-2 was too dangerous to release. Dario said that AI could eliminate 50% of entry-level white-collar jobs within 1–5 years. We've heard increasingly dramatic predictions like these for years. I'm not saying these models cannot become dangerous. But the idea that adding a new learning technique, such as continuous self-improvement, will suddenly create \"gods\" seems very naive to me. It seems much more likely that these techniques will produce another significant boost, followed by convergence and diminishing returns, just like virtually every other optimization process we've seen. And I don't mean only in the history of AI. The same pattern appears throughout technology, biology, and evolution. submitted by /u/smith2008 [link] [comments]",
+      "author": "smith2008"
+    },
+    {
+      "title": "Claude's response to me pressing the \"quick answer\" button",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj6l0y/claudes_response_to_me_pressing_the_quick_answer/",
+      "published": "2026-09-17T21:15:20+00:00",
+      "summary": "submitted by /u/LinusOrri [link] [comments]",
+      "author": "LinusOrri"
+    },
+    {
+      "title": "JPMorgan is putting Claude Code inside a sandbox with no standing access to internal systems",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wit5yg/jpmorgan_is_putting_claude_code_inside_a_sandbox/",
+      "published": "2026-09-17T12:52:21+00:00",
+      "summary": "JPMorgan is rolling out a new environment called Devspace for some engineers using Claude Code. The interesting part isn’t really the $2,000 monthly spending cap. It’s how they’re handling agent permissions. Instead of letting Claude run directly on an employee machine with access to credentials and internal systems, Devspace runs it in a containerized AWS environment. The idea is that the agent has an identity, but basically no standing entitlements. Access gets granted based on what the task actually needs. This feels like a pretty realistic answer to the enterprise Claude Code problem. You probably don’t need to trust the agent enough to give it everything. You need an environment where it can be useful while the infrastructure limits the blast radius when it gets something wrong. Just want to know whether this eventually becomes the standard architecture for enterprise coding agents: isolated workspace, temporary permissions, logs, and human-controlled access to sensitive systems. ",
+      "author": "sunychoudhary"
+    },
+    {
+      "title": "Looking for the right Harness for Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj2ru2/looking_for_the_right_harness_for_claude_code/",
+      "published": "2026-09-17T18:53:47+00:00",
+      "summary": "I'm a software engineer with 10 years of experience. Been using Claude Code for a bit over a year now its great. I love the flexibility to use it for anything from cleaning up my mac, video editing, vibe coding ideas and of course to help with my actual software projects. But it feels like its missing something for software. Software is continuous and context really matters. - I've tried using MD files to track a todo list and claude messes up the structure, forgets to update it etc. - I've tried asking claude to update claude.md every-time we have a new feature or i make a long term decision, but again maintaining it is a pain. - Session auto compact.. is a pain. I have my max tokens set to 300k but when i hit that auto-compact point i have to scramble to re-explain what the project is, what we are working on today, and what we just did. Now i know stuff like Jira exist and even (paid) github has a kanban, but 1) Paying for my own project data to seems stupid 2) 3rd Party MCP servers ",
+      "author": "Little_Entrance_1661"
+    },
+    {
+      "title": "Sub-agents burning your Claude Code 5-hour window? Check their 5-minute prompt cache",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj4gs0/subagents_burning_your_claude_code_5hour_window/",
+      "published": "2026-09-17T19:55:47+00:00",
+      "summary": "I keep seeing posts about the 5-hour limit getting eaten in an hour or two, and I hit exactly that last week, so I dug into what was burning it. It turned out to be one thing, it is documented, there is a one-line fix, and I've got before and after numbers. TL;DR: on a subscription, your main conversation's prompt cache lives 1 hour, but every sub-agent's cache lives 5 minutes . Any tool call longer than that, such as a test run, build, or git hook, expires it, and the sub-agent's next request re-writes its entire context, often hundreds of thousands of tokens, at the expensive cache-write rate. Fix: \"subagentPromptCacheTtl\": \"1h\" in ~/.claude/settings.json , and do not let sub-agents sit inside long commands. It cut my cache writes by about 75% for the same work, measured below. The mechanism Claude Code caches your conversation on Anthropic's side so it does not re-send the whole thing on every request. Reads from that cache are cheap. Writes into it are not: a write into the 5-minut",
+      "author": "Schadz"
+    },
+    {
+      "title": "Claude Code's overreach is getting a bit severe",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjaeaq/claude_codes_overreach_is_getting_a_bit_severe/",
+      "published": "2026-09-17T23:53:44+00:00",
+      "summary": "I'm revoking Github perms on Claude Code from now on. I asked Claude with a simple prompt, \"Can you check in repo X, that is available locally and up to date with main, whether that's where the configs for what CPU runner an image is compatible for, and if it does live there, change Image Y so that its compatible for Blacksmith runners on both ARM64 and Linux-Ubuntu/AMD64.\" I tab out and work on other things. Tab back in after 10 minutes and noticed its used 80k tokens, still running. Bit weird. 15 minutes later it has done the following: - Couldn't find the image compatability config files in the Repo I specified. - Did find a list in a yaml file of all repo's that have images that Repo X consumes from. - Cloned locally every single Repo on that list from Github Enterprise (over 150 Microservices). - Created a Branch, PR and committed on every single Repo that had container images and added ARM64 runner compatability for those images (I only wanted it for 1 specific image). - Tried to",
+      "author": "therealwench"
+    },
+    {
+      "title": "I have to spend $60 on Fable in the next 2 days",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjb4ar/i_have_to_spend_60_on_fable_in_the_next_2_days/",
+      "published": "2026-09-18T00:25:17+00:00",
+      "summary": "I have money in my account that expires. What prompts can I give it to use this intelligently because I have no idea... I'm not using claude much besides claude code for video editing. I don't see what Fable can do that opus 5.0 can't. Sorry if it's a dumb question submitted by /u/forsaken3400 [link] [comments]",
+      "author": "forsaken3400"
+    }
+  ]
+}

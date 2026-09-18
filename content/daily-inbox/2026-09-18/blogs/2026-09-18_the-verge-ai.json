@@ -1,0 +1,48 @@
+{
+  "source_type": "blogs",
+  "source_name": "The Verge AI",
+  "source_slug": "the-verge-ai",
+  "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "tags": [
+    "news",
+    "consumer"
+  ],
+  "fetched_at": "2026-09-18T04:01:30.495735+00:00",
+  "items": [
+    {
+      "title": "The AI Superintelligence Slowdown",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "published": "2026-09-17T18:28:24+00:00",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time [&#8230;]",
+      "author": "Sean Hollister"
+    },
+    {
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "published": "2026-09-17T17:58:05+00:00",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: [&#8230;]",
+      "author": "Stevie Bonifield"
+    },
+    {
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "published": "2026-09-17T13:00:00+00:00",
+      "summary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&#160; It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Microsoft just published a [&#8230;]",
+      "author": "Nilay Patel"
+    },
+    {
+      "title": "AI is feared globally as the destroyer of jobs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+      "published": "2026-09-17T13:00:00+00:00",
+      "summary": "Pew Research has published a new global survey that sheds light on how people view AI, including its impact on jobs, life in general, and income inequality. The survey questioned 42,151 people across 37 countries from February 8th to May 13th - well ahead of recent apocalyptic warnings. A majority sees AI as a threat [&#8230;]",
+      "author": "Thomas Ricker"
+    },
+    {
+      "title": "Inside the suddenly explosive world of AI safety",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "published": "2026-09-17T10:30:00+00:00",
+      "summary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly [&#8230;]",
+      "author": "Hayden Field"
+    }
+  ]
+}

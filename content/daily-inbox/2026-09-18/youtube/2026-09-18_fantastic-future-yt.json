@@ -1,0 +1,31 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-09-18T04:00:25.847569+00:00",
+  "items": [
+    {
+      "title": "Robokachna od Hugging face🦆🤖",
+      "url": "https://www.youtube.com/shorts/U_ZGfC-Oc6E",
+      "published": "2026-09-17T17:48:40+00:00",
+      "summary": "Microduck je open-source robot od Hugging face, který má robotiku zpřístupnit i lidem, co ji nikdy předtím nedělali 🦆\n\nMáte už svoji robotickou kachnu objednanou? 👀\n\n#microduck #huggingface #fantasticfuture",
+      "author": "Fantastic Future Podcast",
+      "transcript": "Zatím jsem neobjednával takovejdle hezkej budíček. >> Udělalo to Huging Face, který moc dobře znám i Thomase Wolfa. Jako je to roztomilý, všechno super. Teď vlastně huging face začlo vyrábět eh i roboty. Myslím si, že už předtím měli nějaký pokusy. Todle vydali, stalo se to virální, myslím, že úplně zcela zaslouženě. Celej ten point za za tímhle za touhlectou kachnou. Bylo to konstruované tak, aby tys to mohl vibe codit, že už to není tak, že musíš jako bejt hardcore robotickej člověk, abys mohl s tím něco udělat, ale že už vyloženě by to mělo být relativně jednoduchý ovládat a měl by to bejt takovj entry level do robotiky. >> Co k tomu víc? Já jsem to viděl a říkal jsem si, jo, to je dobrý a objednal jsem to. Takže mně se to líbilo. [smích] >> [hudba]",
+      "transcript_lang": "cs"
+    },
+    {
+      "title": "Vstoupili jsme do éry AGI?🤔",
+      "url": "https://www.youtube.com/shorts/5pbJGs_m9rg",
+      "published": "2026-09-17T08:51:03+00:00",
+      "summary": "Modely dnes v některých testech drtí průměrného člověka. V těch širších už ale pořád mají limity.\n\nTak kde vlastně končí „jen hodně chytrá AI“ a začíná skutečná obecná inteligence?\n\nMyslíte, že už jsme tu hranici překročili? 👇\n\n#agi #astra #gpt6 #fantasticfuture",
+      "author": "Fantastic Future Podcast",
+      "transcript": "Co je vlastně AGI? Kde jsou ty hranice? Nemyslím si, že Arc AGI nezbytně jako zná tu odpověď, ale je to nějakj jako sumary toho, co by hypoteticky už se mohlo brát, že ten model nějakým způsobem dokáže sám přemejšlet a tydle věci. Rezult Astri je 99,9 %, kterej dostal v tomhlectom benchmarku. Realita je, že to není 99,9 %. To se stalo, ale jako v hodně specifický oblasti. pro jako víc širší užití to má něco kolem 60 %. >> Průměrnej člověk, tak v tom testu e dosáhne nějakých 48%. Takže vlastně to, co už z toho v tuhle chvíli padá, tak je dvakrát lepší než průměrný člověk napříč celým tím spektrem. e",
+      "transcript_lang": "cs"
+    }
+  ]
+}

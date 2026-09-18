@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-18T04:06:58.385932+00:00",
+  "items": [
+    {
+      "title": "“Seniority Cliff,” which is soon to come, is truly the bottleneck of AI development; however, it remains unacknowledged in today’s context.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wj0dw7/seniority_cliff_which_is_soon_to_come_is_truly/",
+      "published": "2026-09-17T17:26:04+00:00",
+      "summary": "There has been some discussion about whether artificial intelligence replaces entry-level work or just does the same work ten times faster. Both views miss a very basic cognitive notion: Intuition develops as a result of friction. Entry-level repetitive work used to do more than execute low-value actions; it provided a form of cognitive apprenticeship which built up the necessary mental models. The experience of spending many days tracking down the little memory leaks or cleaning up messy data environments was what formed the experience of learning what failure modes are and what signs of suboptimal architecture look like. The moment when entry-level talent skips that necessary friction and settles into jobs which involve just editing prompts and checking attitudes, vital skills degrade. There are more blind spots because there is no experience \"scar tissue\" which would allow for catching the false but believable information before it goes to production. The context becomes superficial",
+      "author": "Jumpy-Increase9337"
+    },
+    {
+      "title": "I surveyed 58 people on whether machine minds are people or tools. 92% said \"person\" - and then mostly rejected any limit on building.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wje2n0/i_surveyed_58_people_on_whether_machine_minds_are/",
+      "published": "2026-09-18T02:43:00+00:00",
+      "summary": "I've been running a small public survey on how people actually think about machine minds, and the split turned out to be stranger than the discourse suggests. It measures two things independently: whether these systems are people or tools, and whether we should slow down or build. 58 responses so far: - 92% land on the \"person\" side. Only 2 of 58 are in the tool + build-fast corner. - Safety vs acceleration is almost exactly 50/50 - the average sits dead centre. - The largest single group is \"they might be someone, and we should build fast\" at 50%. The contradiction is in the detail. The same group scores +0.70 on \"I would hold back capability to avoid losing control\" and -0.38 on \"there is a capability we should not build even if it were safe\". That reads like: everyone wants to be careful, nobody wants a ceiling. Live map (every response plotted, plus the averaged measures): https://compass.ensoul.so/results Caveat worth stating: it's self-selected and skewed by where the link has be",
+      "author": "DominusVenerus"
+    },
+    {
+      "title": "Is anyone else scared they won't be able to tell what's real anymore?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wiu62b/is_anyone_else_scared_they_wont_be_able_to_tell/",
+      "published": "2026-09-17T13:34:28+00:00",
+      "summary": "saw a video last week that looked completely legit, turned out to be AI-generated. not even a bad job, genuinely couldn't tell until someone pointed it out feels like we're approaching a point where \"seeing is believing\" just... stops applying. not sure how society adjusts to that, or if we even can fast enough not trying to be doom and gloom, just genuinely curious how other people are thinking about this. Are we adapting, or are we not taking it seriously enough? submitted by /u/pigeonnstory [link] [comments]",
+      "author": "pigeonnstory"
+    },
+    {
+      "title": "King Charles condemned over ‘secretive’ AI summit in Scotland",
+      "url": "https://www.reddit.com/r/artificial/comments/1wj3fsf/king_charles_condemned_over_secretive_ai_summit/",
+      "published": "2026-09-17T19:17:39+00:00",
+      "summary": "submitted by /u/ValuableDetail6 [link] [comments]",
+      "author": "ValuableDetail6"
+    },
+    {
+      "title": "US, China security experts propose nuclear-style safeguards for AI risks",
+      "url": "https://www.reddit.com/r/artificial/comments/1wj6mc5/us_china_security_experts_propose_nuclearstyle/",
+      "published": "2026-09-17T21:16:43+00:00",
+      "summary": "submitted by /u/Fair-Swimming-4419 [link] [comments]",
+      "author": "Fair-Swimming-4419"
+    },
+    {
+      "title": "Alex Karp says the AI safety debate is really about nationalizing AI labs",
+      "url": "https://www.reddit.com/r/artificial/comments/1wj6dyl/alex_karp_says_the_ai_safety_debate_is_really/",
+      "published": "2026-09-17T21:07:47+00:00",
+      "summary": "submitted by /u/Capable-Blueberry653 [link] [comments]",
+      "author": "Capable-Blueberry653"
+    },
+    {
+      "title": "Huawei's Xu says Chinese AI not powerful enough yet to see frontier risks",
+      "url": "https://www.reddit.com/r/artificial/comments/1wiscln/huaweis_xu_says_chinese_ai_not_powerful_enough/",
+      "published": "2026-09-17T12:15:57+00:00",
+      "summary": "Huawei’s Eric Xu made an interesting argument today: Chinese AI labs may not yet be operating at a capability level where they can observe the same frontier risks being reported by U.S. labs. His view seems to be that some safety problems may only become visible once systems are sufficiently capable, rather than being equally obvious at every stage of development. That creates a difficult question for AI safety: if certain failure modes only appear near the frontier, how do labs know what safeguards they need before they get there? It also complicates international coordination, because different countries may be evaluating AI risk from very different capability levels. Source: Reuters submitted by /u/sunychoudhary [link] [comments]",
+      "author": "sunychoudhary"
+    },
+    {
+      "title": "Does it seem to anyone else like even frontier models have a very \"jagged\" range of capabilities?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wj6qq2/does_it_seem_to_anyone_else_like_even_frontier/",
+      "published": "2026-09-17T21:21:22+00:00",
+      "summary": "I mostly use Claude Opus 5 and 4.8. I'm amazed at the \"unevenness\" in capability across different tasks. In some domains, it makes me wonder how certain professions still exist. For example, I uploaded my company's bank statements for each month this year, and within five or ten minutes, it had eight individual monthly income statements and a YTD statement. It asked relevant questions, and it was phenomenal. It made me wonder how bookkeepers still exist. However, I also happened to ask it to analyze Anselm's Ontological Argument, which is a thousand year-old argument for the existence of god that is rejected by pretty much every philosopher today. It failed miserably. It was certain that the argument had merit, and more importantly, it didn't even get the potential reason for failure right and mischaracterized some important aspects of the argument. When I corrected it, it suddenly did a 180 and apologized profusely, but if I didn't have sufficient philosophical education to know bette",
+      "author": "Extreme_Pudding3226"
+    },
+    {
+      "title": "an AI actress interviewed with CNN and it guessed the journalist's age and location within a minute",
+      "url": "https://www.reddit.com/r/artificial/comments/1wjcsro/an_ai_actress_interviewed_with_cnn_and_it_guessed/",
+      "published": "2026-09-18T01:43:17+00:00",
+      "summary": "In case you missed it this funny story, Tilly Norwood is an AI-generated \"actress\" from a studio called Particle6, and this week she did interactive press sessions with CNN, NBC and CBS. the write-ups are worth reading. a CBS journalist said the thing creeped her out because within about a minute it had worked out her age and roughly where in the US she was from. an NBC reporter said it felt like talking to a chatbot. SAG-AFTRA had already put out a statement saying it isn't an actor, it's a character trained on real performers. the studio says around 40 more are coming. what got me is that the discomfort wasn't really about quality. nobody said it looked bad. they said it felt wrong to be talked to by something presenting itself as a person who doesn't exist. and I think that's the actual line, not \"ai video good or bad\". I have worked with avatar tools when they first came out (things like Argil, HeyGen…) and the thing it does is make a video of a real person from their own script wi",
+      "author": "Informal-Smoke2577"
+    },
+    {
+      "title": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
+      "url": "https://www.reddit.com/r/artificial/comments/1wjcpkv/people_are_marrying_chatbots_these_lawmakers_want/",
+      "published": "2026-09-18T01:39:05+00:00",
+      "summary": "submitted by /u/GooseberryGOLD [link] [comments]",
+      "author": "GooseberryGOLD"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "OpenAI Blog",
+  "source_slug": "openai-blog",
+  "feed_url": "https://openai.com/blog/rss.xml",
+  "tags": [
+    "openai",
+    "releases"
+  ],
+  "fetched_at": "2026-09-18T04:01:24.918723+00:00",
+  "items": [
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "published": "2026-09-17T11:00:00+00:00",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "author": ""
+    }
+  ]
+}
