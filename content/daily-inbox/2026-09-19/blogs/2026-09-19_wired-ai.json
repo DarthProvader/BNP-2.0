@@ -1,0 +1,62 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-19T04:02:19.572964+00:00",
+  "items": [
+    {
+      "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
+      "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/",
+      "published": "2026-09-18T18:21:09+00:00",
+      "summary": "Even if big AI companies agree to a pause, ensuring that nobody tries to sneak ahead could prove tricky.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
+      "url": "https://www.wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race/",
+      "published": "2026-09-18T14:00:08+00:00",
+      "summary": "The reliably Republican South Dakota senate seat has an incumbent on the ballot. But PACs associated with AI labs and investors have already spent more money on the race than actual residents have.",
+      "author": "Hugo Lowell"
+    },
+    {
+      "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
+      "url": "https://www.wired.com/story/if-the-ai-industry-followed-its-own-research-it-might-have-paused-already/",
+      "published": "2026-09-18T14:00:00+00:00",
+      "summary": "Anthropic’s CEO says that safety hinges on understanding how AI “thinks.” So far the evidence is disturbing.",
+      "author": "Steven Levy"
+    },
+    {
+      "title": "Adopt This Data Center Plushie and Hear Its Piercing Scream",
+      "url": "https://www.wired.com/story/adopt-this-data-center-plushie-and-hear-its-piercing-scream/",
+      "published": "2026-09-18T12:30:00+00:00",
+      "summary": "The satirical collaboration between a creative studio and the music producer behind Big Data, “Bezzy” is a cute little doll that spews the sounds of real data centers.",
+      "author": "Boone Ashworth"
+    },
+    {
+      "title": "The Leftist Split Over AI Doom",
+      "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
+      "published": "2026-09-18T09:15:00+00:00",
+      "summary": "The left wants AI regulation. They just can’t agree on what it should look like or how concerned they should be.",
+      "author": "Vittoria Elliott, Molly Taft"
+    },
+    {
+      "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+      "url": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/",
+      "published": "2026-09-18T08:15:00+00:00",
+      "summary": "Once the music industry’s biggest headache, Napster’s next act is bringing AI to the classroom.",
+      "author": "Iain Akerman"
+    },
+    {
+      "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+      "url": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity/",
+      "published": "2026-09-18T08:00:00+00:00",
+      "summary": "Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+      "author": "Kate Knibbs, Emily Mullin"
+    }
+  ]
+}

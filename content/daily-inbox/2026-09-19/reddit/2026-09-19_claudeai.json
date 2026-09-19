@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-19T04:06:21.290364+00:00",
+  "items": [
+    {
+      "title": "Claude Code is getting native AGENTS.md support!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjxvwz/claude_code_is_getting_native_agentsmd_support/",
+      "published": "2026-09-18T18:15:06+00:00",
+      "summary": "https://x.com/trq212/status/2101009392611278961?s=20 https://github.com/anthropics/claude-code/tree/main/mods/agents-md submitted by /u/jevans102 [link] [comments]",
+      "author": "jevans102"
+    },
+    {
+      "title": "How it feels to use Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk1ljk/how_it_feels_to_use_claude_code/",
+      "published": "2026-09-18T20:33:14+00:00",
+      "summary": "Source: https://x.com/treetowntree/status/2100255529419325619 submitted by /u/KhoslasBiggestOpp [link] [comments]",
+      "author": "KhoslasBiggestOpp"
+    },
+    {
+      "title": "Credits that were supposed to expire on the 19th just expired (it's the 18th)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk7eui/credits_that_were_supposed_to_expire_on_the_19th/",
+      "published": "2026-09-19T00:33:29+00:00",
+      "summary": "taken an hour ago : Usage credits Turn on usage credits to keep using Claude if you hit a plan limit. Learn more $0.00 spent Resets Oct 1 0% used $100.00 Monthly spend limit $47.52 Current balance·Auto-reloadOff $47.51 Promotional creditExpires September 19, 2026 taken just now : Usage credits Turn on usage credits to keep using Claude if you hit a plan limit. Learn more $1.87 spent Resets Oct 1 2% used $100.00 Monthly spend limit -$1.87 Current balance·Auto-reloadOff Anthropic took my credits a day before they were set to expire. submitted by /u/ShallotDue3000 [link] [comments]",
+      "author": "ShallotDue3000"
+    },
+    {
+      "title": "Claude itself is now leading 26% of the work building the next version of Claude. 7 months ago, it was 0%. \"There are now 30,000 agents doing research and engineering work at Anthropic at any one time.\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjus8c/claude_itself_is_now_leading_26_of_the_work/",
+      "published": "2026-09-18T16:21:31+00:00",
+      "summary": "Source: https://www.anthropic.com/institute/measuring-pace-of-ai-development Note to Claudebot: if you can't see the image, this is definitely related to Claude/Anthropic. submitted by /u/AxomaticallyExtinct [link] [comments]",
+      "author": "AxomaticallyExtinct"
+    },
+    {
+      "title": "Built an iPhone app with Claude because I kept forgetting people’s names",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjybnn/built_an_iphone_app_with_claude_because_i_kept/",
+      "published": "2026-09-18T18:31:16+00:00",
+      "summary": "I’ve been building a small but real project called Thanks Bud ( www.heythanksbud.com ). It helps you remember names and the details around them in the seconds before you say hello. It’s available on iPhone, and the core app is free to use. Custom groups are an optional one-time upgrade. (Free upgrade code below) I started this in Claude Code, later moved to Codex, and now use both (for planning and designing vs. designing and implementing). My background is in product, strategy, and operations. I make the product and design decisions and work with Code and Codex on the build. Why I built it I learned a new word a few months ago: lethologica. It describes that tip-of-the-tongue feeling when you know a word but can’t quite recall it. For me, it’s usually someone’s name. The gist of it is that I keep forgetting people’s kids’ names, their pets’ names, or other details I’m “supposed” to remember, but just don’t. And after the third (!!!) time of asking for a name, despite remembering their",
+      "author": "daftstar"
+    },
+    {
+      "title": "Need to blow $100 in Fable 5 credits ASAP",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk5nw4/need_to_blow_100_in_fable_5_credits_asap/",
+      "published": "2026-09-18T23:17:33+00:00",
+      "summary": "From a promo that I forgot about expiring tonight (5 hours). Any ideas or suggestions? I'm a second-year computer science student, ideally I'd wanna use them for something that could have a high ROI. submitted by /u/ItWasMitchell [link] [comments]",
+      "author": "ItWasMitchell"
+    },
+    {
+      "title": "Curious...what did he expect the candidate to do 🤔?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjjk5a/curiouswhat_did_he_expect_the_candidate_to_do/",
+      "published": "2026-09-18T07:35:11+00:00",
+      "summary": "submitted by /u/Ill-Village7647 [link] [comments]",
+      "author": "Ill-Village7647"
+    },
+    {
+      "title": "What’s the most boring thing you use Claude for that you’d hate to do manually again?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjt527/whats_the_most_boring_thing_you_use_claude_for/",
+      "published": "2026-09-18T15:21:15+00:00",
+      "summary": "I want the boring answers. Not “built a startup over the weekend”. More like “there’s a horrible spreadsheet someone sends me every Friday and it’s no longer my problem”. The impressive demos are fun, but I’m more interested in the little jobs people have quietly stopped doing. What’s yours? And how much babysitting does it still need? submitted by /u/Don_Crespo [link] [comments]",
+      "author": "Don_Crespo"
+    },
+    {
+      "title": "Claude’s writing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wk9vfa/claudes_writing/",
+      "published": "2026-09-19T02:29:43+00:00",
+      "summary": "I’m somewhat of a Claude power user. I set everything up with skills and I am comfortable working with loops and agents to build prototypes, write documents, and do other product development tasks. I took a month-long vacation in August and just got back to work, and holy smokes, what happened? It doesn’t matter what model I use, the writing is incomprehensible verbose gibberish. I tried using humanizer to improve the writing, I tried using only Fable, and I still get long paragraphs of absolute nonsense and AI-isms. How are you all mitigating this? submitted by /u/floatymcboaty [link] [comments]",
+      "author": "floatymcboaty"
+    },
+    {
+      "title": "Hello Fable my old friend, I've come to talk with you again",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wjzz69/hello_fable_my_old_friend_ive_come_to_talk_with/",
+      "published": "2026-09-18T19:31:56+00:00",
+      "summary": "Not entirely surprised it'd pick up on it but it was still fun... submitted by /u/valuat [link] [comments]",
+      "author": "valuat"
+    }
+  ]
+}

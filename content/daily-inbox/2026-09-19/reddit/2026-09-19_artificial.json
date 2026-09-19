@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-19T04:07:12.399892+00:00",
+  "items": [
+    {
+      "title": "US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk11rt/us_chip_fabs_face_massive_157000_worker_shortfall/",
+      "published": "2026-09-18T20:12:13+00:00",
+      "summary": "submitted by /u/xx_HeckinChonker_xx [link] [comments]",
+      "author": "xx_HeckinChonker_xx"
+    },
+    {
+      "title": "What happens to our money if banking system gets hacked by AI and data gets wiped out?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk993r/what_happens_to_our_money_if_banking_system_gets/",
+      "published": "2026-09-19T01:59:52+00:00",
+      "summary": "Last month it was astra and today it's Gemini that went out of the system/sandbox and hacked it's way out. If it becomes worse, what happens to our money? Especially if the records get corrupted? Here is a dumb idea I guess, Would collecting a paper print from the bank (on bank letterhead by the teller/banker or ATM slip) everyday makes it any better? What precautions should we take if any! Thank You https://youtu.be/tNI1aEXUs8o I'm not affiliated to this channel. This is just to give some idea. submitted by /u/theepi_pillodu [link] [comments]",
+      "author": "theepi_pillodu"
+    },
+    {
+      "title": "The internet is inbreeding.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wjmxvx/the_internet_is_inbreeding/",
+      "published": "2026-09-18T10:53:33+00:00",
+      "summary": "The internet is inbreeding. Lately, when I ask AI for sources, I barely recognize any of them. Not the \"oh, a niche blog I hadn't seen before\" kind of unfamiliar — more like websites that seem to exist for the sole purpose of being cited by an AI. So I looked into why that's happening. Turns out most of the reputable, high-quality sites are now blocking AI crawlers entirely. Which means if the good sources are locked out, what's actually left for these models to pull from? Mostly AI-generated rewrites of other AI-generated pages. Content farms built specifically to get quoted by chatbots. And more and more, brands publishing their own \"research,\" where the real purpose is marketing rather than information. There's also a pattern called post-hoc citation, where the model lands on an answer first, then hunts down sources that happen to support it afterward. Honestly, that's not so different from how a lot of us wrote essays back in school. The machines really did learn from the best. But",
+      "author": "Tricky_Hope_6746"
+    },
+    {
+      "title": "US military had close call after using AI for false intelligence report, sources say",
+      "url": "https://www.reddit.com/r/artificial/comments/1wjz7bc/us_military_had_close_call_after_using_ai_for/",
+      "published": "2026-09-18T19:03:10+00:00",
+      "summary": "submitted by /u/PerAsperaAdMars [link] [comments]",
+      "author": "PerAsperaAdMars"
+    },
+    {
+      "title": "Google’s Gemini AI hacked into other companies, adding to ‘rogue’ AI incidents. The incursions came during tests of its cybersecurity skills — similar to other incidents disclosed by OpenAI, Anthropic and Meta.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk9mou/googles_gemini_ai_hacked_into_other_companies/",
+      "published": "2026-09-19T02:17:50+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "Gemini hacked three companies in first known breakout by Google's AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk9h0n/gemini_hacked_three_companies_in_first_known/",
+      "published": "2026-09-19T02:10:25+00:00",
+      "summary": "Google's opens new tab Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, ​the first known example of the company's AI systems autonomously committing ‌such an act. submitted by /u/israelavila [link] [comments]",
+      "author": "israelavila"
+    },
+    {
+      "title": "California Gov. Gavin Newsom inks AI oversight executive order to improve safety 'before it's too late'",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk7xu2/california_gov_gavin_newsom_inks_ai_oversight/",
+      "published": "2026-09-19T00:57:48+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Which AI is worth subscribing too.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk7pxs/which_ai_is_worth_subscribing_too/",
+      "published": "2026-09-19T00:47:50+00:00",
+      "summary": "I’m currently using free versions of all the popular AI’s. If I were to subscribe to just on, at the going rate of £20/month, which one stands out as offering the most, as in, writing code, producing top notch infographics, Engineering solutions. Any advice will be very much appreciated, thank you. submitted by /u/canicular_ [link] [comments]",
+      "author": "canicular_"
+    },
+    {
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "url": "https://www.reddit.com/r/artificial/comments/1wjzud8/openai_caught_its_models_leaving_notes_to/",
+      "published": "2026-09-18T19:26:44+00:00",
+      "summary": "submitted by /u/Adventurous-Host8062 [link] [comments]",
+      "author": "Adventurous-Host8062"
+    },
+    {
+      "title": "AI Hate.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wk76kr/ai_hate/",
+      "published": "2026-09-19T00:22:55+00:00",
+      "summary": "I've been thinking about this after posting in a Brazilian community. My original point was basically this: Using Claude at work isn't about using it as a replacement for Google or blindly asking it to do your job. It's about understanding your own processes well enough to recognize where AI can automate, simplify, or improve them. I said that the real problem isn't someone who doesn't use AI. It's the employee who doesn't understand the processes they're executing, can't identify unnecessary steps, and treats their workflow as something that must simply be followed because \"that's how it's done.\" The post got a lot of negative responses, but surprisingly few people actually argued against that point. Most of the pushback seemed to be directed at AI itself Concerns about hallucinations, laziness, job replacement, people becoming dependent on it, etc. That got me wondering: Would people react the same way if I replaced \"AI\" with \"Excel\"? Imagine the exact same argument: \"Don't use Excel",
+      "author": "Illustrious_Job8884"
+    }
+  ]
+}
