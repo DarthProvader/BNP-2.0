@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-20T04:04:14.623540+00:00",
+  "items": [
+    {
+      "title": "Victory By Any Means (educational!)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkyt22/victory_by_any_means_educational/",
+      "published": "2026-09-19T21:55:56+00:00",
+      "summary": "Because if we don’t build it first, those fellows on the red team will build it! submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    },
+    {
+      "title": "I swear one of them died from AIDS…",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkuowb/i_swear_one_of_them_died_from_aids/",
+      "published": "2026-09-19T19:08:48+00:00",
+      "summary": "submitted by /u/iamjohncarterofmars [link] [comments]",
+      "author": "iamjohncarterofmars"
+    },
+    {
+      "title": "AI is getting out of hand.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkryl0/ai_is_getting_out_of_hand/",
+      "published": "2026-09-19T17:21:26+00:00",
+      "summary": "submitted by /u/No_Tomatillo1695 [link] [comments]",
+      "author": "No_Tomatillo1695"
+    },
+    {
+      "title": "Researchers found a \"pain\" signal in AI brains. When they crank it up, the AIs desperately try to make it stop. They gave the AIs a \"relief\" button to turn down the pain, which was sometimes fake - and the AIs could tell if it was real.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wklite/researchers_found_a_pain_signal_in_ai_brains_when/",
+      "published": "2026-09-19T12:54:57+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "chatgpt generated porn when i asked for ui icons",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1ept/chatgpt_generated_porn_when_i_asked_for_ui_icons/",
+      "published": "2026-09-19T23:50:13+00:00",
+      "summary": "i needed to get some quick ui elements for a quick mockup, thought of asking chatgpt to give me a cohesive set instead of wasting time myself, this was the exchange submitted by /u/w__flac [link] [comments]",
+      "author": "w__flac"
+    },
+    {
+      "title": "The Chiseled and the Beautiful: Part 3",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wl1a10/the_chiseled_and_the_beautiful_part_3/",
+      "published": "2026-09-19T23:44:10+00:00",
+      "summary": "submitted by /u/Darri3D [link] [comments]",
+      "author": "Darri3D"
+    },
+    {
+      "title": "GPT Solved ~350GB of \"System Data\" on my Mac.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkqso2/gpt_solved_350gb_of_system_data_on_my_mac/",
+      "published": "2026-09-19T16:35:22+00:00",
+      "summary": "Been tracking down why my Mac has had ~350GB of system data for the last month and have had a hell of a time trying to figure it out. A friend suggested I try GPT and so I did. I told it what was going on and it gave me all the prompts to run in terminal with good explanations at every step. Ended up finding that my podcasts were bugged out and it thought there were 300gb of downloaded episodes. I got it fix and man I am a believer now. submitted by /u/elloguvner [link] [comments]",
+      "author": "elloguvner"
+    },
+    {
+      "title": "I hate how ChatGPT has the LONGEST responses so I added this",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkzf1h/i_hate_how_chatgpt_has_the_longest_responses_so_i/",
+      "published": "2026-09-19T22:21:51+00:00",
+      "summary": "In Settings > Personalization > Custom Instructions: I strongly prefer extremely concise responses. Give me the answer first. Default to 1–3 short paragraphs or a few bullets. Do not restate my question. Do not give long introductions or summaries. Do not explain obvious background information. Avoid exhaustive lists unless I explicitly ask for them. Prioritize the 20% of information that gives me 80% of the value. When there are many options, give me the best few rather than every possibility. For technical work, tell me what matters, what you recommend, and what to do next. Assume I can ask for more detail if I want it. If a response can be 100 words instead of 500, make it 100. Never make an answer longer simply to appear comprehensive. submitted by /u/Rare_Guide_9830 [link] [comments]",
+      "author": "Rare_Guide_9830"
+    },
+    {
+      "title": "How many rs are in “Superior, Extreme, Supreme Intelligence?”",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wkwsur/how_many_rs_are_in_superior_extreme_supreme/",
+      "published": "2026-09-19T20:32:47+00:00",
+      "summary": "Bubble popping any day now submitted by /u/Short-Patient7772 [link] [comments]",
+      "author": "Short-Patient7772"
+    },
+    {
+      "title": "What’s the most profitable thing by $ value you did with ChatGPT?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wky5rv/whats_the_most_profitable_thing_by_value_you_did/",
+      "published": "2026-09-19T21:28:09+00:00",
+      "summary": "Would be fun to hear some nice success stories that usually go unnoticed. submitted by /u/apexmars [link] [comments]",
+      "author": "apexmars"
+    }
+  ]
+}

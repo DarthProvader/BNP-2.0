@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-20T04:05:05.943625+00:00",
+  "items": [
+    {
+      "title": "Asked Claude to waste my remaining usage before weekly reset. Very satisfied with the result.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkqszd/asked_claude_to_waste_my_remaining_usage_before/",
+      "published": "2026-09-19T16:35:44+00:00",
+      "summary": "Didn't want the last of my $20 to go to waste, so I sent Claude to Opus 5 Max and sent this singular message: \"Quick, waste the rest of my weekly limit on something ridiculous, you have 10 minutes.\" When I came back, I had... RockOps? Here's what Claude said about it: \"Made it. RockOps™ is enterprise-grade observability for exactly one rock: a live CCTV feed, a real-time movement chart that's perfectly flat, an event log, AI insights, and an org chart where the rock reports to itself. You can pet it, deploy it to production (it was already there), escalate to Senior Rock (out of office until the next glacial period), or try to move it. I don't recommend that last one.\" Normally I wouldn't share links to internal dev tools like this, but I think I can trust you guys: https://claude.ai/artifact/LdrzxwUe6uQNsp1o15xw3P submitted by /u/AlexiGingerov [link] [comments]",
+      "author": "AlexiGingerov"
+    },
+    {
+      "title": "gave sonnet 5, opus 5, astra and fable 5.1 the same \"lighthouse at night\" svg prompt. then fable did it again today and… what?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wl2w73/gave_sonnet_5_opus_5_astra_and_fable_51_the_same/",
+      "published": "2026-09-20T00:59:17+00:00",
+      "summary": "So i've been running the same little test on the latest Sonnet, Opus, Astra and Fable models. The prompt isn't the typical pelican bicycle test, but basically I asked these models to make a svg of a lighthouse on a rocky headland at night, moonlit sea, sweeping beam, stars where it looks beautiful, not clip-art. it's all code, no image generation involved. The model writes the svg and renders it. All of these models were on MAX reasoning. Pic 1 is all of them compared side by side - Sonnet 5, Opus 5, Astra 6, Fable 5.1 from two days ago, as well as Fable 5.1 today. Listen, i'm not exactly a painter, but look at the last one (on pic 1) compared to the others. It feels like it's on a whole other level. That's the one Fable 5.1 made today. It is noticeably different from how Fable 5.1 made it just days ago. the consistency in depth, the quality, the decisions it made in how certain effects were done such as the lighting, the moon's shine, the ripples in the ocean, the sky... it was able t",
+      "author": "LegitimateSwordfish8"
+    },
+    {
+      "title": "Code just deleted 48k files. This can't be real.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wl5cgo/code_just_deleted_48k_files_this_cant_be_real/",
+      "published": "2026-09-20T03:00:18+00:00",
+      "summary": "I'm speechless submitted by /u/thisisbubby [link] [comments]",
+      "author": "thisisbubby"
+    },
+    {
+      "title": "What is the best way to use LLMS's in 2026? I feel like a caveman with the way I use them?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkvqxc/what_is_the_best_way_to_use_llmss_in_2026_i_feel/",
+      "published": "2026-09-19T19:50:50+00:00",
+      "summary": "I'm still using LLM's the 2022/23 way of doing everything manually from the chat box. I copy and paste everything manually into the box and ask the AI to explain or do something, such as pasting code and pictures etc. And likewise copy and paste everything back that the AI produces. I feel like a caveman lol, it is very inefficient I can tell. Likewise with prompting, I use such basic entirely human written prompts with such little automation. How can I improve the way I use LLM's? The main mode of using it these days seems to be agentic. What exactly is this and how do I set up agents? I've seen people have like multiple agents working together on a project as though they are a bunch of employees on a team acting autonomously. Likewise, people use connectors and plugins to connect all their different applications together and use those agents to run big tasks and pull resources automatically. So what is the best way to use LLM's today, not just for coding but various purposes such as ",
+      "author": "PhoenixMaster123"
+    },
+    {
+      "title": "Sonnet 5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkp0h1/sonnet_5/",
+      "published": "2026-09-19T15:23:03+00:00",
+      "summary": "It looks like something happened with the Sonnet 5 models. For some reason, they’ve suddenly become really good at 3D work in Blender-significantly better than Opus 5. Has anyone else noticed this? Prompt: Create a striking, highly detailed medieval castle on an island in the open Blender scene, surrounded by a water-filled moat: stone walls with battlements, four corner towers, a central keep, a gate, and a bridge across the moat. Add rocks, grass, flags, expressive materials, warm evening lighting, and a beautiful perspective camera. First, check the available tools for controlling Blender. Preserve the user’s existing work; do not delete or overwrite it. If possible, create a separate scene and save the result as a separate .blend file in the outputs folder of the current task. Check the result and show an image of the finished scene. If Blender access is unavailable, state the exact limitation and do not pretend that the work has been completed. You are responsible for creating the",
+      "author": "GreedyWorry4167"
+    },
+    {
+      "title": "Told Claude Code to build a YouTube plugin, it decided on its own to Rickroll me",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wl1r7t/told_claude_code_to_build_a_youtube_plugin_it/",
+      "published": "2026-09-20T00:05:24+00:00",
+      "summary": "I keep Claude Code running on a second laptop and Parsec into it from my main machine. Parsec pipes audio along with video, so anything that box plays lands in my headphones. I was watching a YouTube video on my main machine when Rick Astley started blasting over the top of it. Between the two laptops I had five browsers open (Edge, Firefox and Opera GX on the main PC, Opera GX and Edge on the work laptop), each with dozens of tabs. A couple of minutes of frantic tab-hunting later, I had confirmed that none of them were the source, and I was thoroughly mystified. Then I remembered I had set Opus 5 on a task to build a browser plugin for YouTube for my personal media tracker project. I never asked it to run anything or open a video. It decided on its own that it needed one, spun up a headless browser, and picked one. No URL in my prompt, nothing pointing at it. Of every video on YouTube, it went with that one. Its explanation, for the record. submitted by /u/Razorfiend [link] [comments]",
+      "author": "Razorfiend"
+    },
+    {
+      "title": "Is the $20 per month worth it?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkn781/is_the_20_per_month_worth_it/",
+      "published": "2026-09-19T14:07:52+00:00",
+      "summary": "I'm a Virtual Assistant with a $250 salary monthly. My client just indirectly told me to spend $20 for the Opus type of claude. I'm hesitating because it's a bit pricey. I wanna know if aside from the work stuff is claude worth the $20? submitted by /u/bruceythesharky [link] [comments]",
+      "author": "bruceythesharky"
+    },
+    {
+      "title": "Claude Code effort level and model selection | Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkg2w8/claude_code_effort_level_and_model_selection/",
+      "published": "2026-09-19T07:56:41+00:00",
+      "summary": "submitted by /u/theleller [link] [comments]",
+      "author": "theleller"
+    },
+    {
+      "title": "I use CC $200 plan, decided to also try ChatGPT $100 plan. Data inside",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wksm10/i_use_cc_200_plan_decided_to_also_try_chatgpt_100/",
+      "published": "2026-09-19T17:47:34+00:00",
+      "summary": "A lot of people are talking about usage on Codex because OpenAI seems to have reduced it, but most comments seem to be vibes based rather than just pulling token #s and comparing. I figured I had the data, so would share mine. Just pulled the actual usage data with one of dozens of tools instead of trying to go on feel. I use npx [ccusage@latest](mailto:ccusage@latest). Can also use this to compare how much usage you were getting say a month ago on your plan. I have both a CC $200 plan and recently added GPT $100 plan. My CC $200 plan has used about $1400 in API this week since reset and I have used 74% of my weekly budget. 100% of my Fable budget is down because I accidently used it for a basic coding subagent project instead of saving it for the heavy planning steps. Woops, got to remember to flip selectors. And I came here (originally wrote this section for a response to someone on ChatGPT reddit), because this is my first time messing with ChatGPT much beyond occasional reviews on ",
+      "author": "Hopefullyanonymous2"
+    },
+    {
+      "title": "What are you guys building with max plans for Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkwg4y/what_are_you_guys_building_with_max_plans_for/",
+      "published": "2026-09-19T20:18:29+00:00",
+      "summary": "And how long it takes to vibecode each projects? Fable has been out for some time now, I wanna see if anyone else is getting their money worth. submitted by /u/mak252525 [link] [comments]",
+      "author": "mak252525"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-20T04:02:05.105845+00:00",
+  "items": [
+    {
+      "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+      "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+      "published": "2026-09-19T10:00:00+00:00",
+      "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+      "author": "Matt Burgess, Lily Hay Newman"
+    },
+    {
+      "title": "Mathematicians Hate AI. They Can’t Quit It",
+      "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+      "published": "2026-09-19T09:00:00+00:00",
+      "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+      "author": "Isabella Ward"
+    },
+    {
+      "title": "Join the WIRED World Fair in Miami on November 4",
+      "url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/",
+      "published": "2026-09-19T08:00:00+00:00",
+      "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life.",
+      "author": "WIRED Staff"
+    }
+  ]
+}

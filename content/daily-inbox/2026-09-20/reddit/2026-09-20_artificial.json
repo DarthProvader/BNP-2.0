@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-20T04:06:57.192738+00:00",
+  "items": [
+    {
+      "title": "AI models are not hacking “autonomously”",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkz17p/ai_models_are_not_hacking_autonomously/",
+      "published": "2026-09-19T22:05:14+00:00",
+      "summary": "submitted by /u/fivefilters [link] [comments]",
+      "author": "fivefilters"
+    },
+    {
+      "title": "Trump vows to create ‘AI Force’ and appoint czar amid calls to regulate technology’s development",
+      "url": "https://www.reddit.com/r/artificial/comments/1wktwrp/trump_vows_to_create_ai_force_and_appoint_czar/",
+      "published": "2026-09-19T18:38:40+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    },
+    {
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,' new unredacted filings reveal",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkwa0a/microsoft_exec_called_ai_scraping_the_largest/",
+      "published": "2026-09-19T20:11:44+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "AI is a better teacher than most human teachers",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkibwi/ai_is_a_better_teacher_than_most_human_teachers/",
+      "published": "2026-09-19T10:09:37+00:00",
+      "summary": "I genuinely don't understand why so many people are against AI, especially when it comes to education. I'm in my 3rdyear of a 4 year program and honestly AI has basically saved my academic life. I'm studying something related to IT and when I started I had pretty much 0 background in it so obviously I had a LOT of questions ( including really basic ones). I remember during my 1st year asking professors things and sometimes literally being made fun of because apparently my question was \"stupid\" or something I should already know. Which is great when you're already insecure because everyone around you seems to know more than you lol. And honestly a lot of my professors just weren't good at explaining things. Like they'd come into class, open a PowerPoint, read the slides, maybe explain a couple things and then sit down with their laptop. That was basically the class. I'd go home and realize I understood almost nothing and had to figure it out myself anyway. And asking questions wasn't al",
+      "author": "Chemical_Job7027"
+    },
+    {
+      "title": "Weren't Dario and Sam just screaming that WE HAVE TO SLOW DOWN last week? So do they believe that or not?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkqkl4/werent_dario_and_sam_just_screaming_that_we_have/",
+      "published": "2026-09-19T16:26:31+00:00",
+      "summary": "submitted by /u/_TheWolfOfWalmart_ [link] [comments]",
+      "author": "_TheWolfOfWalmart_"
+    },
+    {
+      "title": "I'm Building a pixel building to mange AI agents that can use almost any LLM available",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkyf38/im_building_a_pixel_building_to_mange_ai_agents/",
+      "published": "2026-09-19T21:39:05+00:00",
+      "summary": "Sanctorum is a Electron desktop app where you run a team or teams of AI agents (you can also create infinite ai agents and teams) as an actual organization. Each agent sits at a desk on a floor. What an agent is allowed to do is derived from that seat — you give a role a clearance level, put the role at a desk, sit an agent there. Move them, and their capabilities move with them. It runs its own LangGraph loop rather than wrapping existing CLIs, so you can put any OpenRouter model on any agent. Every tool call pauses for your approval by default. Every delegation tree has a spending ceiling (in dls $). And every Agent can be directed to a directory inside your computer of your choice to work there. Agents can work in parallel or one at a time. And many more capabilities. Genuinely unsure whether seat-derived permissions are a real idea or an elaborate way to avoid a settings page. Curious what people think. I am still working on it, but I believe the core capabilities are 90-95% done s",
+      "author": "AlexanderJAnderson"
+    },
+    {
+      "title": "Microsoft director called AI scraping ‘the largest theft of labor in human history,’ while OpenAI head brands ChatGPT an ‘existential threat’ to publishers — revelations come from legal briefs filed in NYT lawsuit",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkqnqp/microsoft_director_called_ai_scraping_the_largest/",
+      "published": "2026-09-19T16:30:01+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "I built an AI production system with Codex that now programs a 24/7 television network. Here’s how the automation works",
+      "url": "https://www.reddit.com/r/artificial/comments/1wkvk0d/i_built_an_ai_production_system_with_codex_that/",
+      "published": "2026-09-19T19:43:10+00:00",
+      "summary": "For the past 15 months, I’ve been building a 24/7 AI-native television network called Botflix. What started as a mostly manual production process has now turned into a system where ChatGPT/Codex handles a large part of the ongoing production and programming. The network currently runs four continuous channels: a general TV channel, an original-music radio channel, a music-video channel, and a relaxation/ambient channel. About 11 days ago, I connected ChatGPT/Codex directly to the production pipeline. On a scheduled run, it can now inspect the current programming, scan analytics, decide what to make, generate finished pieces, add them to the live playlist with a clean switchover, and cycle older material out. A typical run looks something like this: -Review the existing library and current playlists -Decide what kind of material to make -Write the prompts. -Generate assets in Google Flow, Suno, etc. -Assemble and render the finished piece -Add it to the programming library -Rebuild the ",
+      "author": "ScriptLurker"
+    },
+    {
+      "title": "Participants (18+) needed for research on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wl3tml/participants_18_needed_for_research_on_ai/",
+      "published": "2026-09-20T01:43:47+00:00",
+      "summary": "Hi! I am conducting research on AI detection and how it works as a function of certain individual characteristics. This is my project for my senior year of undergrad! I would really appreciate any of your help. It involves a good amount of reading, so make sure to set aside 10-15 minutes if you have the availability. Your input is valuable and I'd really appreciate any help! Link: https://jefferson.co1.qualtrics.com/jfe/form/SV\\_aXdF0rM6h39wjki submitted by /u/UnnamedCr0w [link] [comments]",
+      "author": "UnnamedCr0w"
+    },
+    {
+      "title": "Alignment might be the most overused word in AI.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wl3gpp/alignment_might_be_the_most_overused_word_in_ai/",
+      "published": "2026-09-20T01:26:21+00:00",
+      "summary": "Alignment. Alignment. Alignment. It might be the word of the year in AI. Everyone talks about aligning AI with our values and goals. But aligned with whom, and toward what? On one side of the world, a state increasingly treats AI as national infrastructure, integrating it into industry, science, education, healthcare and public services. On the other, another state openly frames AI as a race for global dominance, economic power and military advantage. Both can build systems that are perfectly “aligned.” But aligned to very different things. We talk about alignment as though humanity has already agreed on the destination and the only problem left is making the machine follow the road. We haven't. An AI can be aligned with a country, a military, a corporation, its users, or supposedly “humanity” — but even then, who decides what humanity wants? So perhaps the real question isn't simply whether AI is aligned. Whose goals are we putting into the machine? submitted by /u/Admirable_Wasabi_73",
+      "author": "Admirable_Wasabi_732"
+    }
+  ]
+}
