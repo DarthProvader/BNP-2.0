@@ -30,6 +30,12 @@ logger = logging.getLogger("social")
 PYTHON = sys.executable
 SOCIAL_DRAFTS_DIR = PROJECT_ROOT / "content" / "social-drafts"
 
+# LinkedIn je kritický kanál: když selže, běh je failed (exit 1).
+# Nekritické platformy (X/Twitter) běh neshazují — u X může dojít kredit
+# (HTTP 402 credits depleted) a pipeline kvůli tomu nemá hlásit failed,
+# dokud LinkedIn normálně publikuje.
+CRITICAL_PLATFORMS = {"linkedin"}
+
 
 def drafts_path_for(target_date: str) -> Path:
     return SOCIAL_DRAFTS_DIR / target_date / "drafts.md"
@@ -120,6 +126,11 @@ def run(
                 "article_slug": drafts_slug(target_date),
                 "published": {k: v for k, v in results.items() if v},
                 "failed": [k for k, v in results.items() if not v],
+                "degraded": [
+                    k
+                    for k, v in results.items()
+                    if not v and k not in CRITICAL_PLATFORMS
+                ],
                 "published_at": datetime.now(timezone.utc).isoformat(),
                 "drafts_source": "cursor-sdk",
             },
@@ -131,9 +142,19 @@ def run(
     logger.info("Audit log: %s", published_path.relative_to(PROJECT_ROOT))
 
     failed = [k for k, v in results.items() if not v]
-    if failed:
-        logger.error("Některé platformy selhaly: %s", ", ".join(failed))
+    degraded = [k for k in failed if k not in CRITICAL_PLATFORMS]
+    critical_failed = [k for k in failed if k in CRITICAL_PLATFORMS]
+
+    if critical_failed:
+        logger.error("Kritické platformy selhaly: %s", ", ".join(critical_failed))
         return 1
+    if degraded:
+        published = ", ".join(k for k, v in results.items() if v) or "-"
+        logger.warning(
+            "Nekritické platformy selhaly: %s | publikováno: %s | běh se počítá jako OK",
+            ", ".join(degraded),
+            published,
+        )
     logger.info("Hotovo. URLs: %s", results)
     return 0
 
