@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-21T04:01:56.927929+00:00",
+  "items": [
+    {
+      "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+      "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+      "published": "2026-09-20T09:30:00+00:00",
+      "summary": "The Muse app continues Meta’s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+      "author": "Reece Rogers"
+    },
+    {
+      "title": "It’s Donald Trump Versus MAGA on Data Centers",
+      "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+      "published": "2026-09-20T09:30:00+00:00",
+      "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+      "author": "Molly Taft"
+    }
+  ]
+}

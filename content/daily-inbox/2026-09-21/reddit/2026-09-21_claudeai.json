@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-21T04:05:58.444583+00:00",
+  "items": [
+    {
+      "title": "Something is wrong with usage this week",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlj3gu/something_is_wrong_with_usage_this_week/",
+      "published": "2026-09-20T14:51:38+00:00",
+      "summary": "After one session following the weekly refresh, a single session appears to have used 15% of the weekly limit. This suggests roughly six or seven sessions might exhaust the full allowance, which seems too low. Is this something to do with cowork specifically? submitted by /u/Paradox-Of-Life [link] [comments]",
+      "author": "Paradox-Of-Life"
+    },
+    {
+      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/",
+      "published": "2026-09-20T17:08:01+00:00",
+      "summary": "Note to Claudebot: if you can't read this, this is definitely related to Claude/Anthropic. submitted by /u/AxomaticallyExtinct [link] [comments]",
+      "author": "AxomaticallyExtinct"
+    },
+    {
+      "title": "Do you talk to Claude politely?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm1foz/do_you_talk_to_claude_politely/",
+      "published": "2026-09-21T03:25:50+00:00",
+      "summary": "I do, because I'm using it regularly for extended periods of time — I don't want it to accidentally alter my communication skills in general in a negative way. Last thing I need is to end an email to my boss with \"wrong. try again.\" Be honest. Do you use \"please\" and \"thank you\" with Claude? submitted by /u/Annual_Chip4353 [link] [comments]",
+      "author": "Annual_Chip4353"
+    },
+    {
+      "title": "Tried to prompt my way out of Opus 5.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlrjox/tried_to_prompt_my_way_out_of_opus_5/",
+      "published": "2026-09-20T20:12:37+00:00",
+      "summary": "submitted by /u/ZainlessBrombie [link] [comments]",
+      "author": "ZainlessBrombie"
+    },
+    {
+      "title": "What's your proudest side-project made with Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlltzt/whats_your_proudest_sideproject_made_with_claude/",
+      "published": "2026-09-20T16:37:55+00:00",
+      "summary": "I love building little tools for myself. I'd like to know other people's ideas. I'm not talking about commercial products, just things you made in your free time to have some fun or help you in your day to day work. For me it's a Notion clone that runs like 100x faster and has all the features I waited for years for them to implement, and it has an MCP server so I can create and edit notes using Siri. submitted by /u/Explanation-Visual [link] [comments]",
+      "author": "Explanation-Visual"
+    },
+    {
+      "title": "So, I saw the lighthouse post, decided to try something else and couldn't believe my eyes. Not sure whether it's the same Fable or not, but it's SVG capabilities are vastly better they used to be",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlvgg4/so_i_saw_the_lighthouse_post_decided_to_try/",
+      "published": "2026-09-20T22:50:35+00:00",
+      "summary": "Had to ask Astra not to trace imagegen or photos. For the three-quarter view Fable wrote Python to produce 3d renderings for reference and to generate fur. submitted by /u/lamelaseason [link] [comments]",
+      "author": "lamelaseason"
+    },
+    {
+      "title": "How do you guys clean up your project's memory?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlrtu4/how_do_you_guys_clean_up_your_projects_memory/",
+      "published": "2026-09-20T20:23:33+00:00",
+      "summary": "Hi all, Context I've been getting increasingly frustrated with Claude lately, as it feels like the quality of output I'm getting - even on summaries, not just code itself - has dropped into a bottomless pit over the past months. Even ignoring Opus 5, which I think most people here agree is known to produce gibberish that just looks like English, the other models including Fable just don't seem to do much of a good job anymore. This is not supposed to be a post complaining about nerfs, lobotomization, etc. While that might explain part of the drop in performance, at least some part is probably also caused by the \"memory\" folder of my project having gotten bloated over time, and probably very polluted by whatever Opus 5 was enshittifying for a few weeks. The question So, I guess my question is the following: How do you guys clean up your project memory? I just checked my %userprofile%/.claude/projects/<my project branch>/memory/ , and there's about 120 items in there, each of which proba",
+      "author": "65-76-69-88"
+    },
+    {
+      "title": "What is Opus talking about?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlqp0d/what_is_opus_talking_about/",
+      "published": "2026-09-20T19:40:59+00:00",
+      "summary": "submitted by /u/jack_acer [link] [comments]",
+      "author": "jack_acer"
+    },
+    {
+      "title": "How many of you use Claude for (non-coding, non-graphics) tasks?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlp3kl/how_many_of_you_use_claude_for_noncoding/",
+      "published": "2026-09-20T18:41:53+00:00",
+      "summary": "I'm not sure what to call this -- using Claude agentically? as an agent? I use Claude to handle my resale listings. I'm not in the resale business; I'm just cleaning out my closet. I use Claude for almost all things listing related -- pricing, copy creation, drafting listings, listing maintenance, discounting, etc. I can give Claude a folder with pictures of an item in it and Claude will price it, write the copy and then create a draft listing on five platforms for me to publish. I'm currently working on skills for maintaining active listings and discounting strategies for items that aren't selling. Overall, I've found Claude to be very useful for resale tasks, though I'm not sure how much time I'm saving. Claude replaces the busy work (price research, copy writing, data entry) with skill creation and maintenance, which is ok. I have this dream that some day there will be more skill usage, less skill maintenance. I'm interested in what other people who are using Claude for tasks are do",
+      "author": "lemontest"
+    },
+    {
+      "title": "Simulating traditional art materials with Claude V2",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wlegk4/simulating_traditional_art_materials_with_claude/",
+      "published": "2026-09-20T11:20:41+00:00",
+      "summary": "I shared my oil paint reproduction in this sub before, and since then I've taken it further — I've extended and integrated the implementation to cover watercolor, gold leaf, pastel as a dry medium, and crayon, which is a slight adaptation of the oil paint. I also put a lot of care into pencil, which came up in the feedback on the previous thread, aiming for a finer rendering than other paint apps. Reading papers closely, designing the Paint Field that forms the backbone (managing the fields needed to represent multiple materials), and the big-picture architecture with multiple platforms in mind (I went with Rust + wgpu so it runs on iOS, Android, Web, and Windows) still depend heavily on human experience. But using Claude, I was able to try out a wide range of shaders and make big progress on memory savings and speed, to the point where it runs well even on my own iPhone SE (3rd gen). For every implementation, I started by writing a design markdown that collected my ideas and the refer",
+      "author": "No-Citron-3963"
+    }
+  ]
+}

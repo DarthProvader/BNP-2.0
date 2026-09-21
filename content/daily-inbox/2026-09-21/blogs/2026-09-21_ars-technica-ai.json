@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-21T04:01:53.590797+00:00",
+  "items": [
+    {
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+      "published": "2026-09-20T10:07:00+00:00",
+      "summary": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+      "author": "Andy Greenberg, WIRED.com"
+    }
+  ]
+}

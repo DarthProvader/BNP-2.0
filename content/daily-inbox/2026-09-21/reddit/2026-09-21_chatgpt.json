@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-21T04:04:06.611030+00:00",
+  "items": [
+    {
+      "title": "ChatGPT sees a shirtless man behind my excel spreadsheet…",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlec9y/chatgpt_sees_a_shirtless_man_behind_my_excel/",
+      "published": "2026-09-20T11:14:22+00:00",
+      "summary": "I was working on a homework assignment in a chat for a while and when I uploaded an additional screenshot of my excel sheet chatgpt claims that it sees a shirtless man in the image instead of anything related to a spreadsheet and proceeded to describe the man in details and the descriptions are lowkey sexual… for context i have never talked ab anything other than my assignment in this exact chat, and have never mentioned a guy remotely similar to what it was describing in the message or any guy at all sexually. when I started pressing chatgpt more it then claimed that it can now see the spreadsheet but there is a man overlaid behind it, and after i continued to say there was no man it changed its description and says it made a mistake. this rlly spooked me out, wondering if it was a bug or actually smth sus? have never heard of smth like this happen to anyone before submitted by /u/TackleSea1293 [link] [comments]",
+      "author": "TackleSea1293"
+    },
+    {
+      "title": "Ran screen shots of Rick and Morty s9 e1 and told ChatGPT to make them realistic",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlzklt/ran_screen_shots_of_rick_and_morty_s9_e1_and_told/",
+      "published": "2026-09-21T01:55:38+00:00",
+      "summary": "submitted by /u/Tenchi2020 [link] [comments]",
+      "author": "Tenchi2020"
+    },
+    {
+      "title": "Mathematician Terence Tao: \"We have to slow down AI. The pace is insane, and there's no reason to be this fast - no reason at all.\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlnr87/mathematician_terence_tao_we_have_to_slow_down_ai/",
+      "published": "2026-09-20T17:51:16+00:00",
+      "summary": "submitted by /u/AxomaticallyExtinct [link] [comments]",
+      "author": "AxomaticallyExtinct"
+    },
+    {
+      "title": "Aged like milk",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wloc87/aged_like_milk/",
+      "published": "2026-09-20T18:13:16+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Two different sides of the internet",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wle3ks/two_different_sides_of_the_internet/",
+      "published": "2026-09-20T11:01:20+00:00",
+      "summary": "submitted by /u/ExpensiveCoat8912 [link] [comments]",
+      "author": "ExpensiveCoat8912"
+    },
+    {
+      "title": "GPT-6 Astra + Unreal + Blender = Faster Game Development",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wljrn8/gpt6_astra_unreal_blender_faster_game_development/",
+      "published": "2026-09-20T15:18:17+00:00",
+      "summary": "I used GPT-6 Astra to help rebuild the scene and handle most of the repetitive setup. For the 3D side, I connected Blender + Tripo AI , so Astra could move between generating assets, editing them in Blender, and bringing everything into Unreal. Some of the environment assets were generated with Tripo P2, while Blender was mainly used for cleanup and adjustments. I also used Dream-loop skills during the workflow. For the lighting, I basically showed Astra a reference image and told it “I want something like this” , then iterated from there. After that I changed the trees, lighting, and a few environment details manually. Still pretty rough, but this was the result. submitted by /u/Delicious-Shower8401 [link] [comments]",
+      "author": "Delicious-Shower8401"
+    },
+    {
+      "title": "I used ChatGPT to balance my budget and I was so amazed, I cant recommend it enough.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlgze6/i_used_chatgpt_to_balance_my_budget_and_i_was_so/",
+      "published": "2026-09-20T13:22:23+00:00",
+      "summary": "I gave it all the facts, and what I hoped to get out of it. It took days of brainstorming to remember every single solitary monthly expense from many bills, taxes, meds, haircuts, gifts, to date night. I told it my holiday plans, home improvements, dentist, everything. It took about 3 days as I kept remembering more expenses. In the end, I had monthly sheets, well drawn out plans, and hope. The results just had me in such complete awe, I cried, I had a doable working plan right in front of me. Incredible. And what's extra fantastic, is editing is a breeze, it just does it all again and asks if I want a new monthly printout. Highly recommend! submitted by /u/OriginalTraining [link] [comments]",
+      "author": "OriginalTraining"
+    },
+    {
+      "title": "Finance Plugin - I'll elaborate.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlz845/finance_plugin_ill_elaborate/",
+      "published": "2026-09-21T01:39:01+00:00",
+      "summary": "I thought that Finance was a well-known well-used feature in ChatGPT, so I assumed a lot of you knew about it. My previous post was had some angry boys for me being \"vague.\" I'll elaborate on why I'm so impressed. I have a few different retirement accounts. I have several sources of income as well as my wife who is paid via PayPal (no, it's nothing nefarious. Social media monetization). I connected all of my accounts to ChatGPT (it uses Plaid, so I am okay-ish with this). After everything connected, it laid it out in a nice clean format with a dashboard, segmented net worth, etc. I could then just start... asking questions. For example, I asked \"If I were to retire on X year and our income remains as it is in 2026, and our retirement account contributions continue, what am I looking at?\" I asked, \"give me an overview of my wife's social media monetization performance- use PayPal as her income. Go back to 2024,\" and bam- it gave me a ton of insight. It really feels like a financial advi",
+      "author": "Used_Physics8464"
+    },
+    {
+      "title": "It’s over.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wm11yv/its_over/",
+      "published": "2026-09-21T03:06:52+00:00",
+      "summary": "ChatGPT is going downhill. The end is coming. For real - I think they have plenty of compute but they prioritize military, government, their own usage to improve the models and do things like pwn mathematicians, businesses, API users - consumers and subscriptions users probably at the bottom of their priority list hence the reductions in usage and more restrictive limits being imposed. This was for the 20x MAX PLAN. ludicrous restrictions on Chat, didn’t even use up codex yet. submitted by /u/BopSupreme [link] [comments]",
+      "author": "BopSupreme"
+    },
+    {
+      "title": "We can't led those red fellows win",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wlhyr1/we_cant_led_those_red_fellows_win/",
+      "published": "2026-09-20T14:04:40+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    }
+  ]
+}

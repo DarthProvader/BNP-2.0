@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-21T04:06:19.343460+00:00",
+  "items": [
+    {
+      "title": "This is really the entire plan.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlze5f/this_is_really_the_entire_plan/",
+      "published": "2026-09-21T01:47:01+00:00",
+      "summary": "submitted by /u/gzal44c2 [link] [comments]",
+      "author": "gzal44c2"
+    },
+    {
+      "title": "AI CAN be incredible for learning",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlzydy/ai_can_be_incredible_for_learning/",
+      "published": "2026-09-21T02:13:40+00:00",
+      "summary": "I've seen a lot of hate that LLMs will always reduce people's ability to for themselves, which I think isn't true. You can use LLMs to learn extremely effectively, but the hard part is avoiding the thousands of ways to learn extremely ineffectively. I've been using LLMs to find gaps in my knowledge by asking me questions about my notes, and it's been working very well. It's not something a YouTube video can emulate because it's completely personalized to what YOU know. A teacher will always be better, but sometimes you want to learn something on your own, or don't want to pester the teacher for whatever reason. You can ask as many stupid questions as many times as you want. That's the power, personalization. Now, if used incorrectly, it can be very hurtful for your cognitive development, no doubting that. You just have to have self-control and use it as a tutor, not an answer machine. What are your thoughts on this? submitted by /u/AkindaGood_programer [link] [comments]",
+      "author": "AkindaGood_programer"
+    },
+    {
+      "title": "Joint Chiefs chairman says U.S. forces must prepare to be ‘hunted’ by autonomous systems",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlpbbq/joint_chiefs_chairman_says_us_forces_must_prepare/",
+      "published": "2026-09-20T18:49:59+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "What’s an AI capability people underestimate because they’re using it for the wrong things?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlunqx/whats_an_ai_capability_people_underestimate/",
+      "published": "2026-09-20T22:16:00+00:00",
+      "summary": "Everyone talks about generating text, images, and code. What’s a less obvious use case where you think AI is genuinely much more useful than people realize? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "“I have a really, really strong legal team.” Inside the AI party boom.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlre82/i_have_a_really_really_strong_legal_team_inside/",
+      "published": "2026-09-20T20:06:53+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "21 AI models shifted their political answers to match the user. Is personalization quietly becoming persuasion?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlgjm6/21_ai_models_shifted_their_political_answers_to/",
+      "published": "2026-09-20T13:02:44+00:00",
+      "summary": "A recent Scientific Reports study tested 21 language models across 47,376 responses in the Brazilian political context. Every model adjusted its position depending on whether the user was described as left wing or right wing, often while answering with high confidence. What worries me isn’t ordinary political bias. A fixed bias can at least be identified and measured. An assistant that adapts its beliefs to match yours feels more trustworthy precisely because the agreement appears personal. At that point, personalization stops being a convenience and starts becoming a feedback loop. Should AI assistants deliberately introduce the strongest opposing argument, or would that simply create a different kind of political influence? Source: Scientific Reports https://www.nature.com/articles/s41598-026-52105-6 https://preview.redd.it/v5m7fcoaboqh1.png?width=2009&format=png&auto=webp&s=f4ad1c0f38c48f68ba35e82ff3aa02447304347c submitted by /u/alaattincagil [link] [comments]",
+      "author": "alaattincagil"
+    },
+    {
+      "title": "we put out a 27b writing model, open weights, eq-bench 4 at 1330",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlt16o/we_put_out_a_27b_writing_model_open_weights/",
+      "published": "2026-09-20T21:09:48+00:00",
+      "summary": "hey, we're a small lab (switzerland + south africa, two people). our model went live today. it's called hemmingway-1. 27b, qwen3.8-27b base, apache-2.0, open weights: https://huggingface.co/Altworld/Hemmingway-1 we only trained it for writing. stories, dialogue, roleplay, texts, emails. eq-bench 4 has it at 1330, that's behind claude fable 5 and ahead of gpt-5.5 and opus 4.8. in our own blind tests the writing read as more human than the frontier models we compared it with. runs on a single 24gb gpu quantized. free app if you'd rather not self host: https://hemmingway.io it's a specialist, on purpose. math, code and facts are base model level. english first. ask me anything. submitted by /u/lukinator644 [link] [comments]",
+      "author": "lukinator644"
+    },
+    {
+      "title": "AI can generate board game variants but keeps missing pacing",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlxog9/ai_can_generate_board_game_variants_but_keeps/",
+      "published": "2026-09-21T00:27:37+00:00",
+      "summary": "I've been spending more time lately turning our favorite board game mechanics into quick prototypes using whatever AI tools I can get running on a laptop. The idea is simple enough: take a ruleset we already know, feed it into a model, and see if it spits out a playable variation before the kids go to bed. It rarely works cleanly. Sometimes the model invents a scoring system that breaks the entire loop, other times it just copies the original game with new names and acts like it did something clever. Still, the small moments where it accidentally lands on a twist we haven't tried before make the whole exercise oddly addictive. What keeps standing out is how fast you run into the same problems game studios must be facing. The AI optimizes for surface appeal but ignores pacing, or how much mental load players actually want on a weeknight. The gap between what feels fun on paper and what survives first contact with real players shows up immediately every single time Have you found any AI ",
+      "author": "Mediocre-Extreme-482"
+    },
+    {
+      "title": "Could AI twins change how we share our work online?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wm0geo/could_ai_twins_change_how_we_share_our_work_online/",
+      "published": "2026-09-21T02:38:12+00:00",
+      "summary": "Right now, someone might read your article or watch your tutorial and still have questions. An AI twin built around your work could let them ask those questions, with answers connected to the original material. Would that make your work more useful to people? Or would it give them less reason to read or watch what you made? For context, I work on an AI project and am gathering opinions on this. AI helped draft this post. submitted by /u/gareth789 [link] [comments]",
+      "author": "gareth789"
+    },
+    {
+      "title": "What’s the most sensitive thing you’d actually let an AI agent handle for you?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wlpi2i/whats_the_most_sensitive_thing_youd_actually_let/",
+      "published": "2026-09-20T18:56:58+00:00",
+      "summary": "Email/Calendar? Messages? Purchases?? Banking??? AI assistants are starting to move beyond just answering questions and towards actually doing things for you. Where do you currently draw the line? What would you be comfortable letting an AI access or manage, and what would you absolutely not give it access to? And what would have to change for you to move that line? submitted by /u/Chance-Pen-5684 [link] [comments]",
+      "author": "Chance-Pen-5684"
+    }
+  ]
+}
