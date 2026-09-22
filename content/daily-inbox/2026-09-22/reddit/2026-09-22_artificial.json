@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-22T04:07:06.877194+00:00",
+  "items": [
+    {
+      "title": "Trump brutally mocked over bizarre effort to rename AI 'superior' or 'extreme' intelligence",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmdj0v/trump_brutally_mocked_over_bizarre_effort_to/",
+      "published": "2026-09-21T13:56:33+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "The US government opens the door to working with voice AI platforms",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmonje/the_us_government_opens_the_door_to_working_with/",
+      "published": "2026-09-21T20:36:39+00:00",
+      "summary": "The US government appears to have officially authorized its first dedicated voice AI vendor for agency use, listing them under the new 'FedRAMP 20x' automation framework. Federal phone lines and citizen support have always been bottlenecked by massive compliance and security rules, so seeing conversational voice tech finally clear the threshold for federal deployment is a pretty massive shift for public infrastructure. submitted by /u/Prestigious_Bet2215 [link] [comments]",
+      "author": "Prestigious_Bet2215"
+    },
+    {
+      "title": "Cage fight in Shenzhen, China",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmdpzd/cage_fight_in_shenzhen_china/",
+      "published": "2026-09-21T14:03:47+00:00",
+      "summary": "submitted by /u/AndelaTown [link] [comments]",
+      "author": "AndelaTown"
+    },
+    {
+      "title": "Amazon Blocks Meta’s Muse AI Agent From Amazon.com Shopping After Meta Rejects Removal Request",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmxpow/amazon_blocks_metas_muse_ai_agent_from_amazoncom/",
+      "published": "2026-09-22T02:58:59+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "Amazon blocks Meta's Muse personal assistant",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmqzcz/amazon_blocks_metas_muse_personal_assistant/",
+      "published": "2026-09-21T22:04:40+00:00",
+      "summary": "Early this year, the personal agent boom started with OpenClaw. Now Meta is giving personal agents to everyone and that's shifting the landscape fast. And, it's generating pushback. Amazon has banned Meta's Muse personal assistant. Geekwire reports : \"The problem, Amazon says, is that it never agreed to any of it. Meta didn’t tell Amazon that Muse would access its store, the agent doesn’t identify itself when it browses, and it appears to capture and store customer credentials, which the company says could create privacy and security risks. As of Sunday night, people trying to use Muse to shop on Amazon were seeing the popup, “Continued access by an unauthorized AI agent violates Amazon’s Conditions of Use, to which our customers have agreed.” It's likely that Amazon will launch a personal agent for its customers in the future. The question is whether people understand the privacy considerations associated with black box personal agents like Muse. https://preview.redd.it/1ltbyi424yqh1.",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "These Were NOT Rogue AI Escapes. Just SLOPPY Firewall Failures.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wm9aua/these_were_not_rogue_ai_escapes_just_sloppy/",
+      "published": "2026-09-21T10:45:37+00:00",
+      "summary": "The headlines right now are full of stories about AI models \"escaping their sandboxes\" and literally killing all humans, lol. I've even heard several commentators and writers say that AI escaped an \"Air gap\". But that is SO WRONG. It's actually TOTALLY WRONG. *To be clear, not a single one of these sandboxes was actually air-gapped.* That's a crucial computer science fact. An air gapped sandbox would require *ZERO* cables and network interfaces. It would also require absolute physical isolation. What these labs actually built were soft software barriers. And then they left the doors unlocked. With some of the smartest AI on the planet. Lol. Of COURSE it escaped. 1. The OpenAI / Hugging Face \"Escape\": The sandbox was connected to OpenAI’s internal network through a package proxy. The model didn't perform magic. It found a basic flaw in the proxy and walked right through the open door. 2. The Google Gemini \"Hack\": Testers left the model connected to the live internet during offensive tes",
+      "author": "PithyCyborg"
+    },
+    {
+      "title": "Automated Reinforcement Learning should scare you",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmlr8e/automated_reinforcement_learning_should_scare_you/",
+      "published": "2026-09-21T18:52:21+00:00",
+      "summary": "An LLM's training can be roughly divided into two stages: supervised learning (SL) and reinforcement learning (RL). In SL, you curate a dataset of text and train the LLM to predict the next token in that text from the tokens before it. The goal at this stage is to produce a model which is capable of natural language in the style of the dataset. A model trained at this point will be able to solve basic problems on material in its dataset simply because it is trained to mimic the dataset, but it is generally bad at anything involving multi-step reasoning or extrapolating outside its dataset. At this point it really is just an incredibly good version of the predictive text buttons on the top of your phone's keyboard. After a model is able to produce high-quality, coherent text, it is trained further using RL. In RL, the model is given a prompt, and then produces an output - generally a long chain of thought followed by a final answer - and that output is evaluated according to some metric",
+      "author": "hattusili-the-third"
+    },
+    {
+      "title": "Most ai productivity advice comes from people who don't have much actual work to do",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmbbu9/most_ai_productivity_advice_comes_from_people_who/",
+      "published": "2026-09-21T12:26:03+00:00",
+      "summary": "If you already have a real workflow, ai speeds it up. if you don't, no tool hands you one. that's the whole thing and nobody says it. the people posting \"15 ai tools you NEED\" are mostly just doing tools as a hobby. which is fine but that's shopping, not productivity. i've done it too, spent weeks trying stuff instead of doing the thing i was avoiding. pick two. learn them properly. don't switch until one actually fails you! submitted by /u/aiprotivity_ [link] [comments]",
+      "author": "aiprotivity_"
+    },
+    {
+      "title": "AI for coding?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmwpy8/ai_for_coding/",
+      "published": "2026-09-22T02:12:14+00:00",
+      "summary": "I am just starting to use AI and was wondering which would be best and most efficient for coding: Claude Code or CodeX or even Grok Bot? submitted by /u/pratushb [link] [comments]",
+      "author": "pratushb"
+    },
+    {
+      "title": "Fruit fly-inspired AI learns smells quickly with far less memory",
+      "url": "https://www.reddit.com/r/artificial/comments/1wmwmng/fruit_flyinspired_ai_learns_smells_quickly_with/",
+      "published": "2026-09-22T02:07:59+00:00",
+      "summary": "A fruit fly brain contains only about 140,000 neurons, yet it can recognize odors with remarkable efficiency. Researchers have now borrowed part of that strategy to build an artificial system that learns smells quickly while using little memory. The algorithm, called Spi-Fly, uses a spiking neural network modeled on the fruit fly olfactory system. Researchers at the Okinawa Institute of Science and Technology, or OIST, designed it for situations where training examples, memory and computing power are limited. The system performed especially well when it had only a few examples of each odor. It also learned new categories without substantially forgetting earlier ones. submitted by /u/Brighter-Side-News [link] [comments]",
+      "author": "Brighter-Side-News"
+    }
+  ]
+}

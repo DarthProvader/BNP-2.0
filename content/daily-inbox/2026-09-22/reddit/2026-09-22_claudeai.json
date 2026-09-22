@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-22T04:06:15.737672+00:00",
+  "items": [
+    {
+      "title": "I am done with this shit.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit/",
+      "published": "2026-09-21T06:55:59+00:00",
+      "summary": "I am done with this shit. It is over. The state of engineering right now is horrible. It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Humans in corporate are doing nothing on their own. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. There is no sense of victory. Nobody is resolving bugs. In reality, nobody is thinking anymore. Everything is done by LLMs. It is so soul-sucking. I would not mind it, to be honest, if we were at least given the time to check out the code and see what is going ",
+      "author": "MrMenuk"
+    },
+    {
+      "title": "Eerie/concerning hallucinations",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm6mht/eerieconcerning_hallucinations/",
+      "published": "2026-09-21T08:11:28+00:00",
+      "summary": "I am a college student studying German for the first time and had Claude quizzing me on some vocabulary when it told me it needed to stop because it was going to be sick. I was curious so I asked it why it said that and it was fully convinced that I was the one sending those sentences, even trying to get me to stop studying so I could focus on my health. I sent it a screenshot of proof that Claude had actually said that and it just said something like: “That’s weird I have no explanation for that.” It really freaked me out but I kept going about my vocabulary and it just kept saying strange things like it’s grandma died or that it was going to have a panic attack, until it eventually claimed that it was a minor and was uncomfortable with what I was asking it??? So I opened a new tab and everything was fine until it began answering itself again, but not with the creepy statements, just answering its own question. Note: every hallucination sentence begins with the word “um”, even the one",
+      "author": "DifferentGrapefruit7"
+    },
+    {
+      "title": "Web Radar Now Available!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmt9mq/web_radar_now_available/",
+      "published": "2026-09-21T23:38:29+00:00",
+      "summary": "Hi everyone! You may have seen my earlier post looking for testers for my 3D Nexrad radar app, after a lot of work there is now a web version that lets you see 15 frames of 2D radar! The app itself lets you pick from ~280 Radars in the US and Europe (some in Asia as well), with up to 60 frames back and the 3D rendering. I am much more used to Swift, so fables understanding of web design was very useful and it was able to do a lot of the heavy lifting for conversion. It even helped me make a new feature, Gifs, where you can send gifs to people of the most recent radar frames! https://alerua.com/share/gifs/kbyx.gif?t=hrfzd Im still looking for more testers for the app as well, so please check out the new webpage and app! Thanks! *this is entirely free to use, no ads or tracking in the app* Website: https://alerua.com/ Testflight: https://testflight.apple.com/join/JrV6MDXv submitted by /u/Atomosic [link] [comments]",
+      "author": "Atomosic"
+    },
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Sep 22, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmv3wh/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-09-22T00:58:51+00:00",
+      "summary": "Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22, 02:35 UTC Monitoring - We have seen success rates return to normal across affected models, and are monitoring closely to ensure no further issues. Sep 22, 02:11 UTC Update - We are continuing to work to resolve errors affecting some models. At this time, requests to Claude Fable 5 and 5.1 and Mythos 5 and 5.1 have returned to normal success rates. We are working to resolve remaining errors affecting Claude Opus 5, and will provide an additional update shortly. Sep 22, 01:35 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and are working on a fix. We will provide an update as soon as possible. Sep 22, 01:17 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5. We will provide an update as soon as possible. Sep 22",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "vackrooms: an endless backrooms game. Free, in the browser, open source.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmx1hq/vackrooms_an_endless_backrooms_game_free_in_the/",
+      "published": "2026-09-22T02:27:32+00:00",
+      "summary": "Built with Three.js (Claude knows it really well) and vgpu for the WebGPU shaders. vgpu is lightweight and its docs are written for agents, so Claude could write and validate WGSL without me babysitting it on the game, there's a new maze on every visit. Poolrooms, food courts, a street, computers that load real websites over dial-up. oh... and something follows you Play: https://vackrooms.vercel.app Code: https://github.com/pablostanley/vackrooms submitted by /u/pablostanley [link] [comments]",
+      "author": "pablostanley"
+    },
+    {
+      "title": "PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/",
+      "published": "2026-09-21T09:50:22+00:00",
+      "summary": "tl;dr Prompt Suggestions - the greyed out \"helpful\" text at the end of a prompt in your input line - do a Cache Read of your entire context to generate something like \"commit and push\", or \"Start with 1A\" . This is expensive - can be up to 10% of your weekly Fable limit. Short story - I was instrumenting my claude code to see what our monitoring tooling could find based on instrumenting claude code, ahead of a customer call. I found it useful enough to share here. (another would be - don't compact after the cache expires). Details in screenshots, it's pretty obscene when you get to very high context length. Prompt Suggestions can be as expensive as your actual prompts. Screenshot descriptions: 1. Main finding 2. Confirming that it isn't a \"cheap model\" that does this. 3. What type of tokens are used? 4. A compaction oopsie (and the cost absurdity visible) 5. List of normal turns (prompts) + their related suggestions & costs. Slightly biased to the expensive ones. Median: suggestions co",
+      "author": "SmoothParfait"
+    },
+    {
+      "title": "Continuing Development on Oversteer with Claude + Some Thoughts on AI Game Dev",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmpsjt/continuing_development_on_oversteer_with_claude/",
+      "published": "2026-09-21T21:18:57+00:00",
+      "summary": "This game has come a really long way in the past few months and I wanted to take the opportunity to show off the look and feel in its current state. I most recently got some cc0 skyboxes from opengameart.org (amazing free resource for those who do not know about it) and matched up the sun to its position in the sky and it just adds SO much immersion to the game. Shadows look like they come from somewhere, not just a blank sky with a sun in it. The light from the boost flame lighting up the back of the car and the shadows is so cool to see. More to come soon. The game is inching ever closer to an early access release, and probably some sort of playtest in a few weeks to a month. If you are interested in following along, please join the discord https://discord.gg/cCV2Knwg3 AI Dev Rant: As I continue building this game, I realize more and more that making a real game with any AI is basically just creating a settings simulator for myself to tune. Instead of writing out the lines of code fo",
+      "author": "Grobot93"
+    },
+    {
+      "title": "Seeing this on monday while claude is fixing a critical bug",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm8ori/seeing_this_on_monday_while_claude_is_fixing_a/",
+      "published": "2026-09-21T10:12:54+00:00",
+      "summary": "How will I get around this? Is there a way that I could work around weekly limit at least for another couple prompts so that it can add and fix last couple things before I release the game? Without buying usage too... Maybe somehow with cowork and referral? I never used cowork before tho... I dont want to wait 4 days so that claude can fix 1 annoying bug that prevents me from releasing the game, especially because of how close it is to releasing. submitted by /u/Serious-Swim-4021 [link] [comments]",
+      "author": "Serious-Swim-4021"
+    },
+    {
+      "title": "I built a desktop app where Claude Code designs machines, writes their firmware, and simulates both together",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmpd78/i_built_a_desktop_app_where_claude_code_designs/",
+      "published": "2026-09-21T21:02:44+00:00",
+      "summary": "I've been building MechFaber for the last 3 months. It's a desktop app for designing machines. You describe the machine you want, Claude Code connects to the app and does the design work, and the app gives it the tools to measure, build and simulate. The example in the video is a quadruped with 12 actuators, a lidar and 99 parts. Claude Code designed all of it, firmware included. How it's set up Separate subagents for research and calculations, CAD, electronics, firmware and simulation. One agent doing everything didn't work well. The model can't measure anything by itself, so it doesn't guess. It asks the CAD kernel for dimensions, pulls ratings from datasheets, and runs FEA through the app. Electronics: a full wiring loom with gauges and lengths. For the quadruped, it picked a Pi 5 for the lidar and a Teensy for the motor loop. Firmware in the loop: the firmware compiles with the real ARM toolchain, runs on an emulated MCU in Renode, and steps together with MuJoCo running the physics",
+      "author": "SpeedyBrowser45"
+    },
+    {
+      "title": "Claude Code's cross-session messaging is a JSON file and a Unix socket",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmnqyu/claude_codes_crosssession_messaging_is_a_json/",
+      "published": "2026-09-21T20:03:51+00:00",
+      "summary": "Claude Code sessions can message each other. It shipped in 2.1.224 and is properly documented , but it arrived as one changelog line with no announcement, so few people use it. I took it apart to put a Codex task on the other end. Discovery is a directory. Each session writes ~/.claude/sessions/<pid>.json : { \"pid\": 58617, \"cwd\": \"/Users/leon\", \"name\": \"leon-c0\", \"messagingSocketPath\": \"/tmp/cc-socks/58617.sock\", \"procStart\": \"Mon Sep 21 16:13:34 2026\", \"peerProtocol\": 1, \"status\": \"busy\" } ListAgents reads that folder. No daemon, no service. Transport is one Unix socket per session , mode 0600, newline-delimited JSON: {\"msgV\":1,\"type\":\"user\",\"msg_id\":\"<uuid>\", \"from\":\"uds:/tmp/cc-socks/1234.sock\", \"session_id\":\"<recipient>\", \"message\":{\"role\":\"user\",\"content\":\"...\"}} Control frames carry delivery receipts and idle notifications. The plugin registers a running Codex task in that registry, so it shows up in /list-agents and answers like any other session — github.com/LeonKohli/claude-ud",
+      "author": "LeonKohli"
+    }
+  ]
+}

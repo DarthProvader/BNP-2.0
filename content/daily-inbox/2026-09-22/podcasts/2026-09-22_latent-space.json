@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-22T04:01:59.983774+00:00",
+  "items": [
+    {
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "published": "2026-09-21T21:13:49+00:00",
+      "summary": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:* the official patterns and cookbooks you should see first, from Allie* Jev usecases* speed based - games and computer use* the voice + computer use example we discuss at 1h34 mins* voice + browser ",
+      "author": "Latent.Space"
+    }
+  ]
+}

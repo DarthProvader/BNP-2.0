@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-09-22T04:02:01.841206+00:00",
+  "items": [
+    {
+      "title": "AI nás vymýtí? 🤖Tesla Roadster, iPhone Duo a Neuralink čte myšlenky",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/AI-ns-vymt--Tesla-Roadster--iPhone-Duo-a-Neuralink-te-mylenky-e3p6h3t",
+      "published": "2026-09-21T16:36:48+00:00",
+      "summary": "Odhalujeme dalšího hosta Fantastic Future Summitu. Vedle Dušana Šenkypla a Larryho Čermáka se k nám 16. prosince ve Forum Karlín připojí také Martin Tolar, který pracuje na vývoji nové léčby Alzheimerovy choroby a na její výzkum získal přes 240 milionů dolarů. Léčba už je ve fázi klinických studií a přináší slibné výsledky.🎟️ Vstupenky:Ticketportal: https://www.ticketportal.cz/event/Fantastic-Future-Summit-2026-41068?utm_source=ig&utm_medium=social&utm_content=link_in_bioTicketmaster:https://www.ticketmaster.cz/artist/fantastic-future-summit-vstupenky/1460414?utm_source=ig&utm_medium=social&utm_content=link_in_bio V novém díle řešíme, jak reálný je strach z toho, že by AI mohla jednou ohrozit lidstvo, a proč o tom najednou mluví lidé z OpenAI, Anthropicu i Google DeepMind.K tomu spekulace kolem nového Tesla Roadsteru, nový rozhodovací AI model Jev od TypeSafe a agent Muse od Mety. Zkoumáme iPhone Duo a GPT-6 Astru, sledujeme „špagetový benchmark“, mozek octomilky hrající Beat Saber a N",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

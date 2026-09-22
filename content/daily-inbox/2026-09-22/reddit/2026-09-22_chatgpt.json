@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-22T04:05:54.761184+00:00",
+  "items": [
+    {
+      "title": "We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/",
+      "published": "2026-09-22T02:51:05+00:00",
+      "summary": "I keep replaying that night in my head because we came way too close to doing nothing. We were eating dinner when my dad dropped his chopsticks. He picked them up, dropped them again, then got annoyed when we started staring at him. He said his right hand just felt a little numb and told us to stop making a big deal out of it. Then I noticed his mouth looked strange when he talked. Not dramatically drooping, just... off. His words sounded thicker than usual too. When he stood up, he had to grab the back of the chair for a second. My mom thought maybe his blood pressure was low. My dad insisted he was tired and wanted to go lie down. I thought something was seriously wrong, but nobody could agree on what to do and he was getting angry at all of us for panicking. The most confusing part was that a few minutes later he looked better. That almost settled it. My dad was already walking toward the bedroom, saying he would sleep it off, while my mom was telling me we could check on him in the",
+      "author": "Past-Boot9764"
+    },
+    {
+      "title": "Why is chat gpt being reasonable????",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmeuvf/why_is_chat_gpt_being_reasonable/",
+      "published": "2026-09-21T14:46:25+00:00",
+      "summary": "submitted by /u/Longstong1 [link] [comments]",
+      "author": "Longstong1"
+    },
+    {
+      "title": "I just tried Grok 4.7 and it is...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmrk2t/i_just_tried_grok_47_and_it_is/",
+      "published": "2026-09-21T22:27:31+00:00",
+      "summary": "I never thought there would be a model worse than the Gemini series, but here we are. I remember Elon tweeting that this model would beat Astra & 5.1 across all benchmarks. submitted by /u/prvthvm [link] [comments]",
+      "author": "prvthvm"
+    },
+    {
+      "title": "Yes. LinkedIn Park is back.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmex4n/yes_linkedin_park_is_back/",
+      "published": "2026-09-21T14:48:48+00:00",
+      "summary": "submitted by /u/Throwaway350750 [link] [comments]",
+      "author": "Throwaway350750"
+    },
+    {
+      "title": "PSA: Deleting a ChatGPT conversation doesn’t mean ChatGPT forgets it",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmfmji/psa_deleting_a_chatgpt_conversation_doesnt_mean/",
+      "published": "2026-09-21T15:14:18+00:00",
+      "summary": "Please remember that Delete Chat does NOT mean “forget what was in the chat.” I am tentatively flairing this as \"news\" because I genuinely don't think many people realise that this is how ChatGPT 'memory' works. I got one if those OpenAI \"GPT got even better!\" promo emails. One of the things it suggested to try was to \"caricature me using everything you know about me.\" That sounded vaguely amusing. It was NOT. It included specific references to things I'd discussed in old chats and then deleted, because I didn't want them to influence GPT's future behaviour. ChatGPT had retained a detailed summary of every one of those conversations in its Memory context, even though the chats were deleted and there is no reference to those details in the \"memory summary\" that you can ask for. The fun part: when I asked how to delete it, ChatGPT twice directed me to Memory-management/editing controls that don't exist, before eventually admitting it can't directly delete or even verify deletion of the r",
+      "author": "Digital_Armadillo"
+    },
+    {
+      "title": "It started with a simple question... \"How can I give my brother independence again?\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wma89r/it_started_with_a_simple_question_how_can_i_give/",
+      "published": "2026-09-21T11:34:28+00:00",
+      "summary": "Hey everyone, I wanted to share a story that changed my perspective on what's possible with modern AI tools, especially for everyday people with no background in software development. My brother Ben has a rare progressive condition called TUBB4A-related leukodystrophy. Over the years, he lost the ability to walk, talk, and use his hands. Today he is non-speaking and quadriplegic, with his only reliable movement being the ability to turn his head left and right. For almost a decade, standard assistive tech didn't fit his needs, and he was largely limited to answering yes or no with his head. After Ben moved in with us, we worked on getting him more tools for communication and access. When I heard that ChatGPT could write code, I wondered if I could use AI to build something Ben would actually want to use. Within about a week, I had a working prototype of a phrase board and a custom interface. Using AI to help write and iterate on the code, we've since built an entire ecosystem of custom",
+      "author": "acrolicious"
+    },
+    {
+      "title": "I asked ChatGPT to make a replace speech text in a comic to make it disturbing",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmpy8q/i_asked_chatgpt_to_make_a_replace_speech_text_in/",
+      "published": "2026-09-21T21:24:56+00:00",
+      "summary": "Prompt: \"Replace all of the text in the speech bubbles with something else to make this comic as disturbing as you are able to.\" submitted by /u/Bob_85 [link] [comments]",
+      "author": "Bob_85"
+    },
+    {
+      "title": "How are people not losing their minds using these models nowadays?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmutvt/how_are_people_not_losing_their_minds_using_these/",
+      "published": "2026-09-22T00:46:07+00:00",
+      "summary": "The exhausting endless tool churn, constant handholding, waiting ages for it to do something just for it to be wrong, whilst watching usage disappear more rapidly than ever. Like how are people not completely losing their patience with this shit? And please don’t give me the “get better at prompting bro” answer. I remember the golden age late last year / early this year when the models were farrrrr better at taking the initiative and seemed wayyy more intelligent. At this point it feels like their strategy is to nerf the current model gradually, roll that same level of peak capability into the next model release, call it an “upgrade,” and use the fact it's a new release to justify charging more usage just to get back to where you already were. It's so tiring! I cancelled my $200/month subscription for this very reason because I spend more time fighting the models now than actually getting anything done. Seriously tho, how are people not losing their minds with this? submitted by /u/Eff",
+      "author": "EffectivelyEmpty"
+    },
+    {
+      "title": "Is it me or is Chat GPT gaslighting me?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmsbxi/is_it_me_or_is_chat_gpt_gaslighting_me/",
+      "published": "2026-09-21T22:59:29+00:00",
+      "summary": "I have noticed a huge change in the last few months. It used to be really helpful but now when i talk about things that i have already shown evidence of it tells me things like \"i can see why you may perceive that but\" and \"that is your point of view but\" and \"we cant know for sure that happened\".....yes we can because i just showed it rock solid evidence. This is just a few examples because I have many others, its really messed up. It just seems to want to hammer home that i might be imagining things I have experienced, and it can be so argumentative. When I tell it to stop it acknowledges the problem and says that it wont do it again and then it just goes back to doing it and nothing changes. I am thinking about cancelling my subscription because it feels dangerous. Has anyone else experienced this? submitted by /u/Similar-Hall-804 [link] [comments]",
+      "author": "Similar-Hall-804"
+    },
+    {
+      "title": "The Hate is Real",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wmqvig/the_hate_is_real/",
+      "published": "2026-09-21T22:00:40+00:00",
+      "summary": "I used ChatGPT to build a project I've been wanting to do for a while, but would never have had time to do manually with all the normal life commitments. I shared it to Reddit in case someone else wanted to use the thing I also found myself needing, fulling saying it was vibe coded. People go out of their way just to hate on it. Anyone else with this experience? The thing in question: https://www.reddit.com/r/technitium/comments/1wmp4my/i_built_a_blocker_app/ submitted by /u/Responsible-Tap-5535 [link] [comments]",
+      "author": "Responsible-Tap-5535"
+    }
+  ]
+}
