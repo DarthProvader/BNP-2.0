@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-23T04:02:19.527790+00:00",
+  "items": [
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "published": "2026-09-22T18:45:47+00:00",
+      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+      "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+      "published": "2026-09-22T15:55:40+00:00",
+      "summary": "The English hospitals recovered patient care data only.",
+      "author": "Scharon Harding"
+    }
+  ]
+}

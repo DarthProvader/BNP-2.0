@@ -1,0 +1,76 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-23T04:02:22.996806+00:00",
+  "items": [
+    {
+      "title": "How to Claim Your Cut of Apple’s $250 Million Siri Settlement",
+      "url": "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
+      "published": "2026-09-22T17:19:13+00:00",
+      "summary": "Apple may pay out up to $95 for each eligible iPhone purchased by someone who felt misled about Siri’s release. You have until December 21 to submit a claim.",
+      "author": "Reece Rogers"
+    },
+    {
+      "title": "Rabbit Is Back, This Time With an AI Agent App",
+      "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+      "published": "2026-09-22T15:00:00+00:00",
+      "summary": "Two years after trying to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that lives on the screens you already use.",
+      "author": "Julian Chokkattu"
+    },
+    {
+      "title": "Viture’s Vonder Glasses Are Meant to Map Your Mind",
+      "url": "https://www.wired.com/story/viture-vonder-glasses-are-meant-to-map-your-mind/",
+      "published": "2026-09-22T12:00:00+00:00",
+      "summary": "No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record your daily musings.",
+      "author": "Boone Ashworth"
+    },
+    {
+      "title": "AI Models Built From Rat Brains Just Got Closer to Reality",
+      "url": "https://www.wired.com/story/ai-models-built-from-rat-brains-are-about-to-become-a-reality/",
+      "published": "2026-09-22T12:00:00+00:00",
+      "summary": "The Biological Computing Company is bringing its AI tools to Amazon Web Services in a major boost for a once-fringe field that aims to marry nature with code.",
+      "author": "Lauren Goode"
+    },
+    {
+      "title": "I Built AI Clones of My Coworkers. Things Got Weird",
+      "url": "https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/",
+      "published": "2026-09-22T09:30:00+00:00",
+      "summary": "Brian Bot loved talking about improv, while Sophie Bot wouldn’t stop calling me “big dog.” Welcome to the future of work.",
+      "author": "Kate Taylor"
+    },
+    {
+      "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
+      "url": "https://www.wired.com/story/big-interview-patti-harrison/",
+      "published": "2026-09-22T09:00:00+00:00",
+      "summary": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
+      "author": "Katie Drummond"
+    },
+    {
+      "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+      "published": "2026-09-22T09:00:00+00:00",
+      "summary": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+      "url": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
+      "published": "2026-09-22T08:30:00+00:00",
+      "summary": "In the hope of uncovering new details about ancient life, researchers have developed a large language model that fills in the gaps in papyrus fragments.",
+      "author": "Joel Khalili"
+    },
+    {
+      "title": "How to Use AI With Your Privacy Intact",
+      "url": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/",
+      "published": "2026-09-22T08:00:00+00:00",
+      "summary": "Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance. Here’s how you can protect yourself.",
+      "author": "Andy Greenberg"
+    }
+  ]
+}

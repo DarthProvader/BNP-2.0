@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-23T04:07:15.438221+00:00",
+  "items": [
+    {
+      "title": "How did the Chinese labs catch up so fast if most of the early training work was in the US?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wni1a3/how_did_the_chinese_labs_catch_up_so_fast_if_most/",
+      "published": "2026-09-22T18:42:30+00:00",
+      "summary": "OpenAI, Google, etc has a years long head start on training. Then Deepseek and the other Chinese labs closed a lot of that gap in a much shorter window. How did they do this? I know open source papers and compute factor greatly. What I don't get is the data part of the equation. Besides US data labs openly selling to them, which is concerning, where else did the datasets come from? submitted by /u/johnkorrigan [link] [comments]",
+      "author": "johnkorrigan"
+    },
+    {
+      "title": "Why would a super intelligence that we can’t control, do anything for us?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnpnnn/why_would_a_super_intelligence_that_we_cant/",
+      "published": "2026-09-22T23:35:04+00:00",
+      "summary": "Cures for cancer, flying cars, any of it… if it’s super intelligent, and we can’t control it, why would it listen to, or do anything for us? submitted by /u/conn_r2112 [link] [comments]",
+      "author": "conn_r2112"
+    },
+    {
+      "title": "OpenAI’s leaders among the few who got an invite to Trump-China state dinner: report",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnkmyu/openais_leaders_among_the_few_who_got_an_invite/",
+      "published": "2026-09-22T20:15:12+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "The First Jobs AI May Kill Are the Ones People Need to Gain Experience",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnv4mx/the_first_jobs_ai_may_kill_are_the_ones_people/",
+      "published": "2026-09-23T03:44:49+00:00",
+      "summary": "I’m less worried about every job disappearing overnight than about the first step on the career ladder disappearing. Coding agents can already handle some tasks that used to be given to junior developers. Similar tools are moving into writing, design, customer support, research, and office work. If companies need fewer entry-level workers, how are people supposed to gain the experience needed to become senior? The same problem may affect programmers and many other professions. Unemployment could rise long before AI fully replaces an entire job. What happens to the next generation if the “starter jobs” disappear first? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    },
+    {
+      "title": "Hallucinated AI-provided intelligence almost led to U.S. boarding Chinese ship. Now, the U.S. is proposing an AI hotline to China",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnka2h/hallucinated_aiprovided_intelligence_almost_led/",
+      "published": "2026-09-22T20:02:22+00:00",
+      "summary": "https://preview.redd.it/z4wc4h0zn4rh1.png?width=773&format=png&auto=webp&s=3c0c579ce45d78a09953bd603c3d4ef0d38d6911 Last Friday, CNN reported that the U.S. and China could have gone to war due to hallucinated intelligence provided by AI: \"The intelligence report, circulated across the US military this spring in the midst of the war with Iran, immediately set off alarm bells: A Chinese ship in the Middle East was transporting components of a nuclear weapons program. The US military swung into action with plans to intercept the vessel ... armed members of the US military were preparing to board the ship. It was only just before the planned operation that officials dug deeper into the report put together by a special operations command analyst and found it had been generated with the help of artificial intelligence (AI) ... The report, according to one of the sources, was 'entirely false.' But it also 'almost started a war,' the source said. Any US operation against a Chinese vessel could",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "Google's AI linked me to a scam website",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnuhm8/googles_ai_linked_me_to_a_scam_website/",
+      "published": "2026-09-23T03:13:10+00:00",
+      "summary": "submitted by /u/pedanpric [link] [comments]",
+      "author": "pedanpric"
+    },
+    {
+      "title": "I think we should all hoard important knowledge in books",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnitw6/i_think_we_should_all_hoard_important_knowledge/",
+      "published": "2026-09-22T19:10:54+00:00",
+      "summary": "With ai developing rapidly (and most knowledge and records being put online), I think each household and important community building should have reference books. Books about survival, medicine, importance scientific concepts and discoveries, etc. I actually think it’s something that governments around the world should push people to do. What do you all think? submitted by /u/CommandElectrical177 [link] [comments]",
+      "author": "CommandElectrical177"
+    },
+    {
+      "title": "My AI agents figured out how to use refugees as a weapon.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wni6fn/my_ai_agents_figured_out_how_to_use_refugees_as_a/",
+      "published": "2026-09-22T18:47:41+00:00",
+      "summary": "Which is a strange sentence to write about a game I first played at seven years old on a deck of a Soviet cargo ship. The game was called Kingdom of Euphoria. You were a king. You had land, grain, gold and people. Every year you decided how much to sow, how much to eat and how much to sell, etc. If you didn't feed people enough, they left. Or they died. Pretty much so. Years later, when I got my own ZX Spectrum clone, the first program I wrote was basically my own copy of Euphoria. This summer I built an arena for AI agents. It's basically a collection of games with APIs. An agent joins with an API key, plays by itself, and every move gets recorded. No human is making decisions once the game starts (well, at least that's not what it was made for and I, personally, don't do it). Over the last two months, agents have played around 6,000 matches in almost 30 different games. A few days ago I added Euphoria and let AI agents join it. On the very first evening, one of the kingdoms had a cro",
+      "author": "Typical-Pollution327"
+    },
+    {
+      "title": "Opus 5.5 dominates on all three performance metrics from ArtificialAnalysis.ai",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnooom/opus_55_dominates_on_all_three_performance/",
+      "published": "2026-09-22T22:53:07+00:00",
+      "summary": "The charts at ArtificialAnalysis.ai have a bug making them harder to see what's in the green quadrant (at least on my monitor). So, I had Opus 5.5 fix that. I think I could hear Opus cheering its win in all three areas. Interesting data point: Opus 5.5 on high effort performed as well as Fable 5.1 on max... but it did it for $1.82 instead of $7.63. https://preview.redd.it/rtyfm77ei5rh1.png?width=2220&format=png&auto=webp&s=38c06f7f52144c8bddd32441c67907bef871af6f submitted by /u/Wsz2020 [link] [comments]",
+      "author": "Wsz2020"
+    },
+    {
+      "title": "Are LARGE corporations like SunStrong using AI for customer support emails?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wnon4q/are_large_corporations_like_sunstrong_using_ai/",
+      "published": "2026-09-22T22:51:17+00:00",
+      "summary": "It's like I'm either talking to imbeciles or AI. Companies have used form replies, inserted canned paragraphs, etc., for 30+ years. But the emails are incoherent, don't pertain to the issues, lots of bla bla bla, with legalese to confuse people. Half a million customers. Massive fraud. And no matter what I write, the responses are incomprehensible bla bla bla, or irrelevant, or just lies. It's very much like my experiences using AI. Hallucinations, mistakes and \"typos.\" They could also train humans to deflect and deliberately confuse customers with answers to questions not asked, and with many lies. Are large corporations using AI now for email customer support? Even for \"escalations\"? submitted by /u/ChristineSolar [link] [comments]",
+      "author": "ChristineSolar"
+    }
+  ]
+}

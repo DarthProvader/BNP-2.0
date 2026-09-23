@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-23T04:04:11.929912+00:00",
+  "items": [
+    {
+      "title": "The race for AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1wnn1p8/the_race_for_agi/",
+      "published": "2026-09-22T21:45:54+00:00",
+      "summary": "submitted by /u/FalconsArentReal [link] [comments]",
+      "author": "FalconsArentReal"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://www.reddit.com/r/singularity/comments/1wngzou/introducing_gpt6_sol_and_luna/",
+      "published": "2026-09-22T18:04:48+00:00",
+      "summary": "submitted by /u/DemiPixel [link] [comments]",
+      "author": "DemiPixel"
+    },
+    {
+      "title": "Claude Opus 5.5 Benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1wneb1u/claude_opus_55_benchmarks/",
+      "published": "2026-09-22T16:29:34+00:00",
+      "summary": "submitted by /u/FalconsArentReal [link] [comments]",
+      "author": "FalconsArentReal"
+    },
+    {
+      "title": "Opus 5.5 built this",
+      "url": "https://www.reddit.com/r/singularity/comments/1wngd2w/opus_55_built_this/",
+      "published": "2026-09-22T17:42:45+00:00",
+      "summary": "From The_Alex on X: https://x.com/The_Alex/status/2102440678282412195 It also has 6 full worlds with 15 bosses. Was done using Opus 5.5 + Unreal submitted by /u/Gab1024 [link] [comments]",
+      "author": "Gab1024"
+    },
+    {
+      "title": "Introducing Claude Opus 5.5, 40% Cheaper and Smarter Than Ever Before",
+      "url": "https://www.reddit.com/r/singularity/comments/1wne89f/introducing_claude_opus_55_40_cheaper_and_smarter/",
+      "published": "2026-09-22T16:26:39+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Update on where we are currently",
+      "url": "https://www.reddit.com/r/singularity/comments/1wnfwet/update_on_where_we_are_currently/",
+      "published": "2026-09-22T17:26:26+00:00",
+      "summary": "Update on the original \"wait but why\" post in 2015... 11 years later we are now climbing the exponential. This is where it gets really interesting -- the dangers grow exponentially along with the capabilities. submitted by /u/yorkshire99 [link] [comments]",
+      "author": "yorkshire99"
+    },
+    {
+      "title": "GPT-6 Astra just made a leap in musical reasoning: it wrote a complex four-part Bach-style piece with no harmony-rule errors and techniques no previous AI managed",
+      "url": "https://www.reddit.com/r/singularity/comments/1wnjtqa/gpt6_astra_just_made_a_leap_in_musical_reasoning/",
+      "published": "2026-09-22T19:46:08+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Opus 5.5 makes a Lanterns Festival",
+      "url": "https://www.reddit.com/r/singularity/comments/1wnt8cj/opus_55_makes_a_lanterns_festival/",
+      "published": "2026-09-23T02:14:10+00:00",
+      "summary": "I am not certain that i have truly chosen the absolute best use-case to display Opus's full power, but i think the water, NPCs and light effects are definitely a step above what i have seen before for vibe coded 3D scenes. This took around 13% of my weekly claude 20x max budget, which is actually quite low for a project of this size. it took around 8 hours. It did it in 1 prompt, but then i asked it to add more vegetation and bigger fireworks. I think this not the ceiling of what this thing can do but i wanted to showcase my first test :) submitted by /u/Silver-Chipmunk7744 [link] [comments]",
+      "author": "Silver-Chipmunk7744"
+    },
+    {
+      "title": "Opus 5.5 jumps to 1st place on AA Intelligence Index",
+      "url": "https://www.reddit.com/r/singularity/comments/1wnezma/opus_55_jumps_to_1st_place_on_aa_intelligence/",
+      "published": "2026-09-22T16:54:29+00:00",
+      "summary": "submitted by /u/UnknownEssence [link] [comments]",
+      "author": "UnknownEssence"
+    },
+    {
+      "title": "POTUS: From now on, all of U.S. documents should use \"Super Intelligence\" instead of AI, since \"Artificial\" makes it sound fake, and it’s not.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wneb1h/potus_from_now_on_all_of_us_documents_should_use/",
+      "published": "2026-09-22T16:29:33+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    }
+  ]
+}
