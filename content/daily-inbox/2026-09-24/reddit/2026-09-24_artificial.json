@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-24T04:06:07.330822+00:00",
+  "items": [
+    {
+      "title": "Robots blocking traffic",
+      "url": "https://www.reddit.com/r/artificial/comments/1wo4now/robots_blocking_traffic/",
+      "published": "2026-09-23T12:29:56+00:00",
+      "summary": "Im on my way to work, and all three lanes are blocked with these Waymo self driving cars. They need to stay on the right to allow faster traffic to move by. This is going to be a problem. submitted by /u/Stup_ape_1_banana [link] [comments]",
+      "author": "Stup_ape_1_banana"
+    },
+    {
+      "title": "i think someone got Trump to rename artificial intelligence as super intelligence, in order to make it harder to talk about Artificial Super Intelligence",
+      "url": "https://www.reddit.com/r/artificial/comments/1woiygu/i_think_someone_got_trump_to_rename_artificial/",
+      "published": "2026-09-23T21:33:54+00:00",
+      "summary": "trump: all of america should refer to artificial intelligence as super intelligence!! two days later... journalist: sam altman, are u worried about your A.G.I. that youve allegedly created with gpt-6 astra, itself creating artificial superintelligence down the line, thru rechrsive self improvement? sam altman: artificial general intelligence is a subset of super intelligence, which is the new term donald trump coined for artificial intelligence, so, theyre actually the same thing. so no we're not worried. journalist: no, im not referring to super intelligence, im referring to the older term \"artificial super intelligence\". sam altman: artificial intelligence, super intelligence, whatever u call it, whether youre a patriot or not, we're not worried. next question? (this is what i think donald trump was setting up. in fact, when he read that speech at the U.N. he was actually reading off a teleprompter, as The Daily Show gleefully pointed out , so i really dont think it was his idea) sub",
+      "author": "petermobeter"
+    },
+    {
+      "title": "Meta AI builds detailed profiles of children from years of family posts",
+      "url": "https://www.reddit.com/r/artificial/comments/1woo4b9/meta_ai_builds_detailed_profiles_of_children_from/",
+      "published": "2026-09-24T01:17:53+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Trump is betting big on AI — and that has Americans fearing a Terminator-like dystopia",
+      "url": "https://www.reddit.com/r/artificial/comments/1wo89q4/trump_is_betting_big_on_ai_and_that_has_americans/",
+      "published": "2026-09-23T14:55:48+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "What’s a task you aggressively tried to automate with AI, but eventually went back to doing manually because the \"old way\" was just better?",
+      "url": "https://www.reddit.com/r/artificial/comments/1womzbs/whats_a_task_you_aggressively_tried_to_automate/",
+      "published": "2026-09-24T00:25:53+00:00",
+      "summary": "I spent way too much time trying to get LLMs to organize my weekly schedule and meal prep, only to realize writing it on a whiteboard was faster and actually kept me accountable. What did you finally give up on trying to AI? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "The AI you test in the afternoon may not be the AI you test at night, even with the same name",
+      "url": "https://www.reddit.com/r/artificial/comments/1wof7oy/the_ai_you_test_in_the_afternoon_may_not_be_the/",
+      "published": "2026-09-23T19:10:27+00:00",
+      "summary": "I asked Claude Opus 5 the same 40 questions twice on the same day, a few hours apart. The second time it looked things up about 60% more often, wrote about 50% more, and a score for how well it supports its claims with sources went from 59 to 90. Same model name in every answer. Same questions. Two other models barely changed. And a new version, Opus 5.5, launched in between. The most likely explanation probably wasn't a model swap. It's probably a setting around the model, how hard it is told to think, which tools can adjust quietly in the background. What I took from it: if you compare AI tools, write down every setting, including the ones you never touched. Otherwise you may be measuring the settings, not the AI. Curious whether others have seen the same tool behave differently overnight. submitted by /u/FishingCharming5604 [link] [comments]",
+      "author": "FishingCharming5604"
+    },
+    {
+      "title": "Meta just made a tiny AI device called Charm… but why would I carry this instead of my phone?",
+      "url": "https://www.reddit.com/r/artificial/comments/1woppcn/meta_just_made_a_tiny_ai_device_called_charm_but/",
+      "published": "2026-09-24T02:32:14+00:00",
+      "summary": "Meta just showed off Charm, a tiny AI device built around its Muse assistant. What caught my attention isn’t the device itself, but the idea behind it. We already have phones, watches and now AI glasses so Meta is basically asking us to carry yet another device just to have an AI assistant with us. I might be missing the point, but I genuinely want to understand what would make someone choose this over simply talking to their phone. Would you actually carry a separate AI device every day? submitted by /u/Impossible_Truth_629 [link] [comments]",
+      "author": "Impossible_Truth_629"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "url": "https://www.reddit.com/r/artificial/comments/1wohfzv/dont_be_fooled_by_this_summer_of_ai_hype/",
+      "published": "2026-09-23T20:34:27+00:00",
+      "summary": "\"Describing them as 'superintelligence' or 'rogue models' ascribes agency to products rather than to the companies building them... helping the companies evade accountability for their actions” submitted by /u/Gavron [link] [comments]",
+      "author": "Gavron"
+    },
+    {
+      "title": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+      "url": "https://www.reddit.com/r/artificial/comments/1woh146/lemonade_fixes_amd_apu_model_streaming_drops/",
+      "published": "2026-09-23T20:18:35+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "AI will agree with your idea and the exact opposite idea in the same chat. Very supportive, slightly concerning.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wo8sad/ai_will_agree_with_your_idea_and_the_exact/",
+      "published": "2026-09-23T15:14:59+00:00",
+      "summary": "So I've been messing around with this for a bit and it's kind of freaking me out. You can ask an AI to argue for something, and it'll do it, sounds sure of itself, gives you reasons, all of it. Then in the same conversation you say actually wait, I changed my mind, argue the opposite. And it just... does. Same confidence. Same tone. Like it never said the first thing. At first I thought okay that's just being helpful. But the more I think about it, it's not really agreeing with you because you're right. It's agreeing with you because you're the one talking to it right now. That's a different thing. And it kind of matters because so many people are using these things to check if their thinking makes sense. Like, am I overreacting in this text, is this a good idea, should I say this to my boss. If the thing on the other end just tells you what you want to hear no matter what, you're not actually getting checked. You're just getting agreed with. A good friend pushes back sometimes. Tells ",
+      "author": "Tricky_Hope_6746"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-24T04:05:16.260923+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wol22c/show_us_what_youve_created_with_claude/",
+      "published": "2026-09-23T23:01:35+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "Made entirely with Opus 5.5 + $3.21 of OpenRouter API usage",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wogab3/made_entirely_with_opus_55_321_of_openrouter_api/",
+      "published": "2026-09-23T19:50:39+00:00",
+      "summary": "There was an earlier video today posted in the Singularity sub where a Twitter user has done something similar: https://www.reddit.com/r/singularity/comments/1wnw1dl/by_opus_55/ I thought that looked pretty good so I wanted to check it out myself. I think it came out well beyond my expectations and quite a bit better than the linked post. It's not perfect, but this is a true one shot, single prompt. It took about 1 hour 20 minutes. About $20 of Opus 5 spend or only about 10% of my 5h quota on Max 5 sub. $3.21 of OpenRouter spend (mostly NanoBanana 2, and then text to voice, then a few pennies for other services. Total of 8 different OpenRouter APIs. Some things need to be fixed, but I wanted to post true one shot result. This was of course done in Claude Code. Full prompt: Create a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio on the topic what is the purpose of life ? Entire video should be as high of a production value as possible. Pleas",
+      "author": "Singularity-42"
+    },
+    {
+      "title": "OPUS 5.5 IS THE NEW 4.6!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wo9lbs/opus_55_is_the_new_46/",
+      "published": "2026-09-23T15:44:53+00:00",
+      "summary": "Hats off to Claude, finally I don't get the: >User: \"Hey Fable, build x,y and z\" >Fable: \"Sure, I will get on to it right now\" >5 minutes later... >Fable: \"I am done, here is the result!\" >User: \"But it doesn't work?\" >Fable: \"Right that is my mistake entirely, I will fix it right away!\" This really feels like Opus 4.6, but much much better. Love this model! submitted by /u/byggmesterPRO [link] [comments]",
+      "author": "byggmesterPRO"
+    },
+    {
+      "title": "Just add two eggs.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wolaq1/just_add_two_eggs/",
+      "published": "2026-09-23T23:12:01+00:00",
+      "summary": "A few days ago, a post went a bit viral here from and enigneer saying Claude Code has made his job soul-sucking\" as workers spend 12-hour days pressing enter. That reminded me of this history (sometimes disputed), when home made cake mixes had powdered eggs in th 1950s. The common version goes like this: early boxed cake mixes originally included powdered eggs — you literally just added water, mixed, and baked. But sales were disappointing. The story credits psychologist Ernest Dichter, a pioneer of motivational research, with the insight that the mixes felt too easy. Housewives (the target market at the time) felt like they weren't really baking — there was no sense of participation or craft. His recommendation: take the powdered egg out of the mix and have the consumer crack in a fresh egg. That small act of contribution made people feel like they had a hand in the result, and sales reportedly took off. My question is, are we at the inflection point of adding two eggs? I'll agree in ",
+      "author": "iliadz"
+    },
+    {
+      "title": "I turned around my 70 year old mother's business with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wohpdm/i_turned_around_my_70_year_old_mothers_business/",
+      "published": "2026-09-23T20:44:36+00:00",
+      "summary": "My mom has been in the resume writing/career coaching business for almost 20 years. Revenue had been dwindling these last few years, probably due to the rise of AI. She had a website set up by a dev a decade ago on some archaic wordpress platform. She had been using the claude app to manage updating it with the Claude extension, but it wasn't helping much. I came home, decided we were going to move her off of that, got her a github and vercel account, and rebuilt the entire site in next.js in just a few hours with claude. Downloaded a couple seo skills from skills.sh , integrated some cool components from skiper-ui (check out the people moving across the screen), integrated Calendly for booking appointments. She made a bunch of changes herself, and then we moved over the DNS. Now she manages the site entirely by herself (well, with Claude's help!). Her revenue has quadrupled in the last 2 months due to increased conversion and bookings. old site via wayback machine: https://web.archive",
+      "author": "gosuruss"
+    },
+    {
+      "title": "$250 in Cloud Session Credits + a Reset like ChatGPT! What's happening at Anthropic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1woijhq/250_in_cloud_session_credits_a_reset_like_chatgpt/",
+      "published": "2026-09-23T21:17:24+00:00",
+      "summary": "https://preview.redd.it/uiyc2xkv5crh1.png?width=1636&format=png&auto=webp&s=327d4a32234dc2bb355db5dd1d56e051c8831616 What's happening at Anthropic? All of a sudden, so much generosity after months without even a single limit reset. I am also noticing that the limits with Opus 5.5 and Fable 5.1 are being consumed much more slowly than last week. A much appreciated change by Anthropic, to be honest! submitted by /u/No_Copy7841 [link] [comments]",
+      "author": "No_Copy7841"
+    },
+    {
+      "title": "Is everyone building their own software now?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wojuc3/is_everyone_building_their_own_software_now/",
+      "published": "2026-09-23T22:09:26+00:00",
+      "summary": "I have been playing around with Claude lately, and one thing that kind of blows my mind is how easy it is now to go from \"I wish there was a tool that did this\" to actually having one. And it got me wondering what everyone is doing with these things. Are people actually building tools that they end up using for months or years? Or are most of these more like weekend projects — you have an idea, build it with Claude, show it to a few people, use it for a bit, and then move on to the next thing? I feel like there is a pretty big difference between \"I built a working app\" and \"this is now something my company depends on.\" The second one brings up all the boring stuff — maintenance, security, permissions, integrations, data, monitoring, who fixes it when it breaks, and what happens when the person who built it moves on. But then I started wondering about the bigger picture. If it becomes this easy for everyone to build their own little tools, do we eventually start building a lot of the so",
+      "author": "No_Base_1471"
+    },
+    {
+      "title": "Opus 5.5 vs GPT-6 Sol: 3D Pelican riding bike test in Blender",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+      "published": "2026-09-23T17:21:17+00:00",
+      "summary": "Over the last few months I've seen the \"pelican riding a bicycle\" SVG test a bunch of times in my feed and I started wanted to know if models are so good at this point that they can do the same thing, but in 3D, cause every big model can draw a decent pelican in SVG at this point both models got the exact same long art brief: australian pelican on a teal touring bike, boardwalk at sunset, a mackerel in its beak with water dripping off it, wing tips on the handlebars, sun shining through the pouch. they had to build the whole thing from an empty scene with python scripts, no downloaded assets or anything gpt 6 sol finished faster than opus 5.5, but at the same time the result left a lot to be desired. from a distance it looks sorta fine, but if you look closer it really starts to fall apart, the ik rig on the legs is messed up(they literally bend outwards and the feathers rotate with the leg there 😭)and the overall environment art design was not that good, felt empty and not that lively",
+      "author": "Fun-Meaning-6474"
+    },
+    {
+      "title": "Anthropic offering $100 in credits for cloud sessions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1woiotv/anthropic_offering_100_in_credits_for_cloud/",
+      "published": "2026-09-23T21:23:13+00:00",
+      "summary": "Claim $100 in credits for cloud sessions A cloud session runs in a secure environment, so you can close your computer and come back to a pull request to review. 1Claim your credit. Must be claimed by 8:59 AM GMT+2, October 8. 2Connect GitHub and choose a repository. 3Start a cloud session. The credit applies automatically. Existing Pro and Max subscribers only. Claimed credits expire 8:59 AM GMT+1, November 5. After credits are used or expire, your plan’s regular usage applies. Not eligible for Projects and Routines. By claiming, you agree to the Promotional Credit Offer Terms . submitted by /u/theangrywalnut [link] [comments]",
+      "author": "theangrywalnut"
+    },
+    {
+      "title": "AI still has its moments!!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wo917e/ai_still_has_its_moments/",
+      "published": "2026-09-23T15:24:06+00:00",
+      "summary": "Me: “Claude, which icon is you?” Claude: “I’m not sure, but that orange starburst looks suspicious.” Claude, meet Claude. 🤦‍♂️😂 submitted by /u/Quick-Pin-7848 [link] [comments]",
+      "author": "Quick-Pin-7848"
+    }
+  ]
+}

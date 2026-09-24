@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-24T04:03:04.157478+00:00",
+  "items": [
+    {
+      "title": "I asked Claude to show me the inside of its own mind. Built by Opus 5.5",
+      "url": "https://www.reddit.com/r/singularity/comments/1wok9tq/i_asked_claude_to_show_me_the_inside_of_its_own/",
+      "published": "2026-09-23T22:27:28+00:00",
+      "summary": "submitted by /u/callme_e [link] [comments]",
+      "author": "callme_e"
+    },
+    {
+      "title": "Opus 5.5 reportedly caught OpenAI off guard, compressing GPT-6.1 Astra’s timeline and indirectly bringing “Bel,” the model that solved Navier–Stokes, closer to release",
+      "url": "https://www.reddit.com/r/singularity/comments/1woojll/opus_55_reportedly_caught_openai_off_guard/",
+      "published": "2026-09-24T01:38:02+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "The moment Claude agents discover a new molecular mechanism, talking as if they were human, using interjections and cues",
+      "url": "https://www.reddit.com/r/singularity/comments/1wognfz/the_moment_claude_agents_discover_a_new_molecular/",
+      "published": "2026-09-23T20:03:58+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Claude discovered a novel enzyme system with properties reminiscent of CRISPR",
+      "url": "https://www.reddit.com/r/singularity/comments/1woe138/claude_discovered_a_novel_enzyme_system_with/",
+      "published": "2026-09-23T18:27:22+00:00",
+      "summary": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR. We don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use. - Anthropic via X https://x.com/AnthropicAI/status/2102824959827742916 submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "New benchmark just dropped.",
+      "url": "https://www.reddit.com/r/singularity/comments/1woj6x6/new_benchmark_just_dropped/",
+      "published": "2026-09-23T21:42:53+00:00",
+      "summary": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html submitted by /u/Recoil42 [link] [comments]",
+      "author": "Recoil42"
+    },
+    {
+      "title": "Can we take a moment to appreciate that with 950 Claude agents running for only 21 hours searching genomic data, Anthropic may have found a new CRISPR-like gene-editing mechanism",
+      "url": "https://www.reddit.com/r/singularity/comments/1wohzqj/can_we_take_a_moment_to_appreciate_that_with_950/",
+      "published": "2026-09-23T20:55:58+00:00",
+      "summary": "Not even a month OpenAI was able to Navier-Stokes by running 10,000 agents for 80 or so hours. Now in 21 hours and with less than a thousand agents Anthropic was able to find a candidate protein for gene editing, the implications of this is huge. We are fast approaching the era where the answer to anything that stops knowledge wise is to... throw more compute at it. We really are in the singularity. submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei: AI Biology Will Go From Weak To Superhuman Within A Few Years",
+      "url": "https://www.reddit.com/r/singularity/comments/1wog3z8/anthropic_ceo_dario_amodei_ai_biology_will_go/",
+      "published": "2026-09-23T19:43:50+00:00",
+      "summary": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude : our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out. It’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they st",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Dario Amodei on X 🫪🫪🫪",
+      "url": "https://www.reddit.com/r/singularity/comments/1wog8zo/dario_amodei_on_x/",
+      "published": "2026-09-23T19:49:17+00:00",
+      "summary": "submitted by /u/Own_Satisfaction2736 [link] [comments]",
+      "author": "Own_Satisfaction2736"
+    },
+    {
+      "title": "Updated version of Humanity’s Last Exam: HLE-Diamond",
+      "url": "https://www.reddit.com/r/singularity/comments/1wobyjp/updated_version_of_humanitys_last_exam_hlediamond/",
+      "published": "2026-09-23T17:10:28+00:00",
+      "summary": "Link to tweet: https://x.com/CAIS/status/2102787839964729431 Link to blog: https://lastexam.ai/blog/hle-diamond submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "7 months of AI progress: Opus 5.5 now generates realistic 3D worlds in a single HTML file with a single prompt",
+      "url": "https://www.reddit.com/r/singularity/comments/1womrew/7_months_of_ai_progress_opus_55_now_generates/",
+      "published": "2026-09-24T00:15:43+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-24T04:04:55.366877+00:00",
+  "items": [
+    {
+      "title": "Ai girlfriend",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1woe567/ai_girlfriend/",
+      "published": "2026-09-23T18:31:31+00:00",
+      "summary": "submitted by /u/Albertooz [link] [comments]",
+      "author": "Albertooz"
+    },
+    {
+      "title": "ChatGPT still ahead, but Claude is catching up",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wog70j/chatgpt_still_ahead_but_claude_is_catching_up/",
+      "published": "2026-09-23T19:47:07+00:00",
+      "summary": "submitted by /u/Wiardv [link] [comments]",
+      "author": "Wiardv"
+    },
+    {
+      "title": "Trump as an Indian Street Vendor",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wo4bgr/trump_as_an_indian_street_vendor/",
+      "published": "2026-09-23T12:14:33+00:00",
+      "summary": "This was made using Chatgpt images 2.5 and minimax H3! submitted by /u/GormtheOld25 [link] [comments]",
+      "author": "GormtheOld25"
+    },
+    {
+      "title": "Welcome to the new world",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wo6nb2/welcome_to_the_new_world/",
+      "published": "2026-09-23T13:53:31+00:00",
+      "summary": "submitted by /u/imfrom_mars_ [link] [comments]",
+      "author": "imfrom_mars_"
+    },
+    {
+      "title": "Astra helped me make a model.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1woodot/astra_helped_me_make_a_model/",
+      "published": "2026-09-24T01:30:20+00:00",
+      "summary": "Astra Extra High, Concept Art vs Blender MCP with skills.sh. Serf on plus plan. I am overjoyed with working for 30 minutes of back and forth in carefully planning out a prompt, using front/side/back multiple references of original concept, to end up with this beauty. Just in case: Left: concept Right: Astra Craftsmanship. Or Craftsmansboat. Or Craftsmanraft. 2x5 hour limits used up on this submitted by /u/Drzewkoslaw [link] [comments]",
+      "author": "Drzewkoslaw"
+    },
+    {
+      "title": "Opus 5.5 vs GPT-6 Sol: 3D Pelican riding bike test in Blender",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wocgkl/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+      "published": "2026-09-23T17:28:53+00:00",
+      "summary": "Over the last few months I've seen the \"pelican riding a bicycle\" SVG test a bunch of times in my feed and I started wanted to know if models are so good at this point that they can do the same thing, but in 3D, cause every big model can draw a decent pelican in SVG at this point both models got the exact same long art brief: australian pelican on a teal touring bike, boardwalk at sunset, a mackerel in its beak with water dripping off it, wing tips on the handlebars, sun shining through the pouch. they had to build the whole thing from an empty scene with python scripts, no downloaded assets or anything gpt 6 sol finished faster than opus 5.5, but at the same time the result left a lot to be desired. from a distance it looks sorta fine, but if you look closer it really starts to fall apart, the ik rig on the legs is messed up(they literally bend outwards and the feathers rotate with the leg there 😭)and the overall environment art design was not that good, felt empty and not that lively",
+      "author": "Fun-Meaning-6474"
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang: “Now, if they say [that their models aren’t safe] … then I think the answer is that we have to shut the labs down.”",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wogcgf/nvidia_ceo_jensen_huang_now_if_they_say_that/",
+      "published": "2026-09-23T19:52:50+00:00",
+      "summary": "submitted by /u/notkilleveryoneist [link] [comments]",
+      "author": "notkilleveryoneist"
+    },
+    {
+      "title": "[ChatGPT-6 Astra] Useful petting infographic",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1woj4ov/chatgpt6_astra_useful_petting_infographic/",
+      "published": "2026-09-23T21:40:50+00:00",
+      "summary": "submitted by /u/IanRastall [link] [comments]",
+      "author": "IanRastall"
+    },
+    {
+      "title": "OpenAI hacked Australian Medicare portal, Prime Minister Anthony Albanese says",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wojsll/openai_hacked_australian_medicare_portal_prime/",
+      "published": "2026-09-23T22:07:27+00:00",
+      "summary": "submitted by /u/maggoty [link] [comments]",
+      "author": "maggoty"
+    },
+    {
+      "title": "People don't get how huge the AI companies are now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wo5xal/people_dont_get_how_huge_the_ai_companies_are_now/",
+      "published": "2026-09-23T13:24:16+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    }
+  ]
+}
