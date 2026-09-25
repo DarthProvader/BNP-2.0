@@ -1,0 +1,24 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-09-25T04:01:29.039004+00:00",
+  "items": [
+    {
+      "title": "you need to try Paperclip RIGHT NOW!",
+      "url": "https://www.youtube.com/watch?v=7RVf25Rg0Mc",
+      "published": "2026-09-24T12:00:30+00:00",
+      "summary": "Try Flare for free: https://ntck.co/flare\n\n\nI gave my AI agents a company with Paperclip. Paperclip is an open-source app for managing a team of AI agents, with shared goals, assigned tasks, budgets, and human oversight. Their first job: figure out why flushing the studio toilet keeps disconnecting everyone from the NAS. I hired a Claude Code CEO, brought in my existing Hermes agents, and added Codex and agents running local models to build an IT department that can actually work together. Then I handed them the ticket and watched them investigate my real network, question each other's work, and come back with a verdict I still want to blame on the toilet.\n\nIn this video you'll learn how to install Paperclip, connect remote Hermes agents, build a team across different AI harnesses, automate checks with routines, and use approval gates and watchdog agents to review decisions and check whether stopped tasks are genuinely finished or blocked. Whether you're trying your first AI agent or a",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

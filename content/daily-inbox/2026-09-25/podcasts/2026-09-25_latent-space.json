@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-25T04:01:55.031845+00:00",
+  "items": [
+    {
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "published": "2026-09-25T00:30:00+00:00",
+      "summary": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it generates over time.One new feature in particular caught our eye: WorldPrompt, a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment — including the first frame — and then create a series of timestamped events. The events, or actions, can even be prompted in real-time.To understand the implications of WorldPrompt, we spoke to Kamil Sindi, Runway’s CTO, and Robin Kahlow, its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis, co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him.Who’s building real-time interactive world mod",
+      "author": "Richard MacManus"
+    }
+  ]
+}

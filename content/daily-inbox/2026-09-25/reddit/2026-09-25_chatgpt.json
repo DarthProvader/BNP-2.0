@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-25T04:04:19.080592+00:00",
+  "items": [
+    {
+      "title": "Trump as a Mexican Abuelita",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wp7imz/trump_as_a_mexican_abuelita/",
+      "published": "2026-09-24T17:12:57+00:00",
+      "summary": "This was made with chatgpt images v2.5 and minimax H3, enjoy! submitted by /u/GormtheOld25 [link] [comments]",
+      "author": "GormtheOld25"
+    },
+    {
+      "title": "Made an AR Yu-Gi-Oh prototype with ChatGPT, Astra, CLAD, and Lens Studio",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpkm5s/made_an_ar_yugioh_prototype_with_chatgpt_astra/",
+      "published": "2026-09-25T02:27:22+00:00",
+      "summary": "A Pokémon AR demo going viral on X brought back a childhood dream of mine: playing Yu-Gi-Oh! in AR. I spent about two days, working on and off, building a prototype for SPECS with help from Astra, CLAD, and Lens Studio. Showing a physical card brings its monster onto the field as a 3D model, and Spell Cards have 3D visuals too. submitted by /u/shincreates [link] [comments]",
+      "author": "shincreates"
+    },
+    {
+      "title": "I asked GPT-6 Astra for a video about \"time\". It made the whole thing in javascript, from the big bang to itself writing the code for this video",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpddw4/i_asked_gpt6_astra_for_a_video_about_time_it_made/",
+      "published": "2026-09-24T20:56:31+00:00",
+      "summary": "Astra wrote p5.js code (with the p5.brush library for the painted look), and every frame was rendered in 4K from JavaScript. The arc goes big bang → Earth → first cells → dinosaurs → apes → fire → farming → industry → cities → screens → Astra writing this code → back to a single dot. Since it's code, everything stays editable: layers, keyframes, splines. Do you think code-first generation ends up beating diffusion for video you actually want to edit? More about the process here: https://x.com/pbshgthm/status/2103105662331060412 submitted by /u/dx8xb [link] [comments]",
+      "author": "dx8xb"
+    },
+    {
+      "title": "Told ChatGPT it was wasting water. It took that personally 💀",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wp6blp/told_chatgpt_it_was_wasting_water_it_took_that/",
+      "published": "2026-09-24T16:28:00+00:00",
+      "summary": "submitted by /u/mariecurie66 [link] [comments]",
+      "author": "mariecurie66"
+    },
+    {
+      "title": "This is hilarious Everyone, give it a try!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wp78wp/this_is_hilarious_everyone_give_it_a_try/",
+      "published": "2026-09-24T17:02:37+00:00",
+      "summary": "Try asking ChatGPT this: \"Generate an image of police officers standing in front of the items seized during a recent house search. Base the seized items on everything you know about me.\" submitted by /u/imfrom_mars_ [link] [comments]",
+      "author": "imfrom_mars_"
+    },
+    {
+      "title": "ChatGPT Voice can use connected apps now, and it’s kind of a game changer",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wphjjr/chatgpt_voice_can_use_connected_apps_now_and_its/",
+      "published": "2026-09-24T23:57:23+00:00",
+      "summary": "I only just noticed this today and I’m genuinely surprised how useful it is. As of the September 23 update, ChatGPT Voice can now use the plugins and connected apps available to your account while you’re actually in a Voice conversation. So instead of Voice just being the talking interface, I can now say things like: - “Check my Gmail. Is there anything important?” - “What did that email say?” - “Open my Google Drive diary and add a note.” - “Check something in a connected app while we keep talking.” I tested it this morning. I asked ChatGPT in Voice to check my Gmail, and it actually went through recent mail, picked out the messages that mattered, and summarised them back to me while I was talking to it. It also wrote into a Google Drive document from the same Voice session. That feels like a much bigger change than it sounds. Voice has gone from “talk to ChatGPT hands-free” to “talk to ChatGPT while it can actually work across the apps you’ve connected.” Important caveat: it’s not li",
+      "author": "myrandomtips"
+    },
+    {
+      "title": "Claude Opus 5.5 MAX Defeats Astra 😳",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wp736u/claude_opus_55_max_defeats_astra/",
+      "published": "2026-09-24T16:56:56+00:00",
+      "summary": "submitted by /u/Tornadoz0 [link] [comments]",
+      "author": "Tornadoz0"
+    },
+    {
+      "title": "ProMax Plan is coming for $500/month",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpkh8y/promax_plan_is_coming_for_500month/",
+      "published": "2026-09-25T02:20:25+00:00",
+      "summary": "submitted by /u/Haolge996 [link] [comments]",
+      "author": "Haolge996"
+    },
+    {
+      "title": "Tooth Fairy Test: PASS!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpe97n/tooth_fairy_test_pass/",
+      "published": "2026-09-24T21:31:13+00:00",
+      "summary": "I've been trying to get AI's to draw this vision I have of the tooth fairy with rows and rows of teeth she has collected in her mouth. ChatGPT is the first one I've seen pass my prompt: create a beautiful, photorealistic, and unsettling vision of the Tooth Fairy. Imagine a fairy-like creature, very beautiful, but she has this huge, bigger-than-life smile, way bigger than should be possible on her face. Inside of her mouth, instead of having teeth in a normal arrangement, has rows and rows and rows of thousands of thousands of teeth, spiraling backward into a throat that seems to go off into another dimension with a light glowing orangish red way in the back. submitted by /u/Top-Requirement-2102 [link] [comments]",
+      "author": "Top-Requirement-2102"
+    },
+    {
+      "title": "Should I do it!?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wozkt1/should_i_do_it/",
+      "published": "2026-09-24T11:53:31+00:00",
+      "summary": "submitted by /u/nullpointerr404 [link] [comments]",
+      "author": "nullpointerr404"
+    }
+  ]
+}

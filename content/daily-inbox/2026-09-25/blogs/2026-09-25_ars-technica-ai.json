@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-09-25T04:02:05.127801+00:00",
+  "items": [
+    {
+      "title": "There's a new way to break RSA that's faster than anything we've seen before",
+      "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+      "published": "2026-09-24T10:15:44+00:00",
+      "summary": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

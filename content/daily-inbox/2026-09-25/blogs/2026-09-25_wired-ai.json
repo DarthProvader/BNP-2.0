@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-25T04:02:08.868627+00:00",
+  "items": [
+    {
+      "title": "I Think I Found an AI Agent Worth the Risk",
+      "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+      "published": "2026-09-24T18:36:35+00:00",
+      "summary": "Instinct saved me $550, booked my restaurant reservations, and warned me about a phishing scam. It also wasted $64 and might be a security nightmare.",
+      "author": "Zoë Schiffer"
+    },
+    {
+      "title": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
+      "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
+      "published": "2026-09-24T15:00:00+00:00",
+      "summary": "Call for Me—a feature that’s exclusive to the Pixel 11 series—gives robocalls a new meaning.",
+      "author": "Julian Chokkattu"
+    },
+    {
+      "title": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
+      "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+      "published": "2026-09-24T09:46:56+00:00",
+      "summary": "The country’s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
+      "author": "Isabella Ward"
+    }
+  ]
+}
