@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-26T04:06:13.265001+00:00",
+  "items": [
+    {
+      "title": "I made this playable Pokémon battle demo using Opus 5.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqb1ur/i_made_this_playable_pokémon_battle_demo_using/",
+      "published": "2026-09-25T23:20:40+00:00",
+      "summary": "Hi all, Like many others, I'm blown away with how good the new Opus model is. I was inspired by this tweet and decided to see if I could turn it into something playable. A couple of hours later, I was able to make this demo! Check it out! -> https://pokemon-battle-sim-1vq.pages.dev/ I used an image model to create the background but pretty much everything else was made with Opus on high including the SFX, music, and animations. I was able to create the assets by prompting it to recreate the pixel sprites from some reference images and then tweaked stuff on the margins from there. (disclaimer: not affiliated with Nintendo/Pokemon, this is just a fun, free demo made by a fan) submitted by /u/Chemical_Deer_512 [link] [comments]",
+      "author": "Chemical_Deer_512"
+    },
+    {
+      "title": "Aight I get it, Opus 5.5 is actually peak",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqcara/aight_i_get_it_opus_55_is_actually_peak/",
+      "published": "2026-09-26T00:18:15+00:00",
+      "summary": "I didn't understand what everybody was talking about, it felt better and stopped pushing back artificially like previous models, but the quality of the code and the model's understanding didn't seem that special... Tonight I was bored and asked it to do a product video for the thing I've been building for a few months and I was shocked by the results. Aside from the first few seconds this is legit high quality marketing material. The craziest part is that this is with a simple prompt. I'm used to direct every step with Claude but this time I just told it \"Use every asset from the current project you want to make a marketing video\" and after 30 minutes it blew me away. I can't imagine what iteration and actually directing it can end up producing. submitted by /u/CutBulkMaintain [link] [comments]",
+      "author": "CutBulkMaintain"
+    },
+    {
+      "title": "Your AI games suck, and it's not the AI's fault",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wpzqxn/your_ai_games_suck_and_its_not_the_ais_fault/",
+      "published": "2026-09-25T15:44:54+00:00",
+      "summary": "You've got tools now that do basically everything for you. Code, art, sound, all of it. So what do a lot of you do with that? Type one prompt, dump whatever comes out and post it like it's a finished game. And it shows. It screams AI. It plays terribly. And the ones that actually look good? Usually not even playable. There's no real game behind the screenshots. You don't even have to program anymore. The least you could do is sit down for a while and actually play your own game. Test it. Figure out what's boring, what's broken, what's annoying. Fix it. Then do it again. The AI can write your code. It can't tell you whether your game is fun. That part is still on you. What really gets me is how much potential is being wasted. With AI, an amateur could make a genuinely good game in a few weeks or a couple of months. And somehow even that's too much to ask. submitted by /u/Lazy_Assistance_1137 [link] [comments]",
+      "author": "Lazy_Assistance_1137"
+    },
+    {
+      "title": "GPT user here. Tried Opus 5.5. It’s insane.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqbd5u/gpt_user_here_tried_opus_55_its_insane/",
+      "published": "2026-09-25T23:35:14+00:00",
+      "summary": "I subscribed to Claude because my Codex subscription had honestly become pretty unusable for me, and I also wanted to give Opus a try. I'm genuinely impressed. It really does feel almost magical. It constantly notices things in the code I never even asked about, points out potential issues, understands how they relate to what I'm working on, and even offers to fix them separately in another worktree. Literally reads my mind, It doesn't just follow the prompt. It feels like it's actually building a mental model of the codebase and everything going on around the task. I've been trying Claude on and off since Sonnet 3.5, and there's always been something about these models that's hard to describe. The situational awareness is just insanely good. GPT models have always felt more lobotomized and overly prompt driven to me. submitted by /u/Funny-Strawberry-168 [link] [comments]",
+      "author": "Funny-Strawberry-168"
+    },
+    {
+      "title": "Testing Claude for 3D creation. Max took a whole hour, but just look at the result 👀",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wpq8by/testing_claude_for_3d_creation_max_took_a_whole/",
+      "published": "2026-09-25T07:46:28+00:00",
+      "summary": "Which version do you think is the best? Prompt: “Create a low-poly 3D horse running in a seamless loop using Three.js. Build it procedurally from primitive geometry, animate the legs, body, head, and tail, and return a single self-contained HTML file.” submitted by /u/bursinru [link] [comments]",
+      "author": "bursinru"
+    },
+    {
+      "title": "Claude Opus evolution is getting out of hand 😭",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wprgxw/claude_opus_evolution_is_getting_out_of_hand/",
+      "published": "2026-09-25T09:09:11+00:00",
+      "summary": "https://preview.redd.it/h5o92i7ttmrh1.png?width=1206&format=png&auto=webp&s=195c2d05614fc45b1f7d04e8730485a4e64a92e8 The Opus character development is insane submitted by /u/ramcodes [link] [comments]",
+      "author": "ramcodes"
+    },
+    {
+      "title": "Opus 5.5 built my dream project: an interactive ASCII replica of the universe where every pixel is a text character",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wq5c0x/opus_55_built_my_dream_project_an_interactive/",
+      "published": "2026-09-25T19:22:29+00:00",
+      "summary": "submitted by /u/callme_e [link] [comments]",
+      "author": "callme_e"
+    },
+    {
+      "title": "What exactly is an \"agent\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wq7rqb/what_exactly_is_an_agent/",
+      "published": "2026-09-25T20:59:35+00:00",
+      "summary": "Simple question - when people say they are doing \"agentic\" stuff or using an \"agent\" do they just mean a single instance of an LLM? Like an API query or web session? submitted by /u/throwaway3113151 [link] [comments]",
+      "author": "throwaway3113151"
+    },
+    {
+      "title": "Claude Code Wrap Up Allowance!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wpxur6/claude_code_wrap_up_allowance/",
+      "published": "2026-09-25T14:30:09+00:00",
+      "summary": "https://support.claude.com/en/articles/17040437-claude-code-wrap-up-allowance What it is If Claude Code reaches your plan’s five-hour usage limit partway through a response, it may keep working briefly so it can reach a reasonable stopping point rather than stopping mid-step (the “Wrap-Up Allowance”). While this is happening, you’ll see a message like “Usage limit reached · wrapping up.” The Wrap-Up Allowance is a small, capped amount of additional usage that varies by plan. It is not unlimited, and it may not be enough to complete the task Claude was working on. When it runs out, the response ends and your plan’s normal usage limits apply until they reset. Fantastic news! submitted by /u/TemporaryLevel922 [link] [comments]",
+      "author": "TemporaryLevel922"
+    },
+    {
+      "title": "Anthropic signs $11.6B cloud deal with Akamai",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wpto23/anthropic_signs_116b_cloud_deal_with_akamai/",
+      "published": "2026-09-25T11:18:56+00:00",
+      "summary": "submitted by /u/Vast_Hope_7185 [link] [comments]",
+      "author": "Vast_Hope_7185"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-09-26T04:01:16.849812+00:00",
+  "items": [
+    {
+      "title": "Your AI App Works. Can You Sell It?",
+      "url": "https://www.youtube.com/shorts/d1i1V4StMVI",
+      "published": "2026-09-25T13:00:04+00:00",
+      "summary": "Get $1,000 off Vanta when you go to https://vanta.com/chuck",
+      "author": "NetworkChuck",
+      "transcript": "You just built something with AI, and a big company wants to buy it. And they ask just one question that stops the entire deal. Not how good is your product, or how good is your model. It's are you SOC 2 compliant? Now, the deal's just sitting there. The engineer who built the thing is now pulled off the road map to get screenshots for an auditor. Every enterprise call turns into a fire drill, because trust is what closes these deals, and you don't have it ready. This is Vanta. [music] They call it an agentic trust platform. I know, that was marketing speak. But here's what it gets ready for you. It means you get compliant fast. SOC 2, ISO 27001, HIPAA, GDPR. And then it keeps a watching your controls to make sure you stay compliant. So next time a big customer ask you, you're ready. You already have the answer. Now, this isn't a theory, a real customer went through this. Hyperbound, AI startup, Y Combinator, two founders, and >> [music] >> no security team. But they got compliant with Vanta during YC before any big customer showed up. There was one deal that required ISO 27001, a million and a half dollars in under 3 months. [music] They got Fortune 100 customers inside a year. And this is probably my favorite part, the Vanta agent lives where you are, cloud code, and cursor now, too. So you can fix this stuff without ever leaving the terminal. So hey, get compliant before your customers start lining up. So when they say, \"Hey, are you SOC 2 compliant?\" You just go, \"Yeah, I am.\" Don't waste any time, check it out vanta.com/chuck. You'll get a [music] thousand dollars off.",
+      "transcript_lang": "en"
+    }
+  ]
+}

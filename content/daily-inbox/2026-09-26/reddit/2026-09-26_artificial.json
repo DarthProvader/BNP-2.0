@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-26T04:07:04.413630+00:00",
+  "items": [
+    {
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment. Vendors rolling out AI have an “incentive to deny as many claims as possible.”",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqaywn/trump_admin_using_ai_to_deny_medical_care_for/",
+      "published": "2026-09-25T23:16:56+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "The Move 37 Hypothesis: What if we're already seeing moves we don't understand yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqb81n/the_move_37_hypothesis_what_if_were_already/",
+      "published": "2026-09-25T23:28:38+00:00",
+      "summary": "Hi everyone, I have a hypothesis I'd like to share with you. Context: A few years ago, something strange happened in the world of Go. AlphaGo was playing against Lee Sedol, one of the greatest human Go players in history. During the second game, it made a move that surprised the experts: Move 37. It didn't look like a good move. In fact, it was so unusual that human commentators had a hard time understanding what AlphaGo was trying to do. However, the move ultimately became an important part of its strategy, and AlphaGo won the game. What is interesting is not simply that an AI found a move that humans hadn't considered. The interesting part is this: Humans didn't immediately recognize that the move was important. And this is where my hypothesis begins: The Move 37 Hypothesis What if this wasn't something unique to Go? As we develop increasingly capable AI systems, what if there are behaviors, decisions, or capabilities that we initially dismiss as irrelevant, mistakes, tricks, or simp",
+      "author": "weirddreamer90"
+    },
+    {
+      "title": "Bill Gates warns AI is powerful enough to cause \"a billion deaths\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1wq7w7l/bill_gates_warns_ai_is_powerful_enough_to_cause_a/",
+      "published": "2026-09-25T21:04:17+00:00",
+      "summary": "submitted by /u/unconventionalbook [link] [comments]",
+      "author": "unconventionalbook"
+    },
+    {
+      "title": "Why have AI companies started getting scared now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wpr1uk/why_have_ai_companies_started_getting_scared_now/",
+      "published": "2026-09-25T08:41:20+00:00",
+      "summary": "I don't understand how AI companies are now shouting about concerns and warnings to humanity about how AI will take over etc when they are the ones that created it? Not sure if I'm being stupid but why on earth would they build something they can't control or shut down? I've watched all the same films they clearly have and there wasn't one that ended with the takeaway message that sentient AI is a wise move? submitted by /u/NormanSpaniel [link] [comments]",
+      "author": "NormanSpaniel"
+    },
+    {
+      "title": "The True Definition of a Bubble",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqawyl/the_true_definition_of_a_bubble/",
+      "published": "2026-09-25T23:14:32+00:00",
+      "summary": "In 2025, Meta made $200B in revenue, OpenAI made $13B . Meta's profit was $83B , while OpenAI made a loss of - $38B Meta's valuation was $2T , while OpenAI $1T In one year, OpenAI made 7% of Meta's revenue. It has a difference of $100B profit. and is valued at 50% of Meta. Make that make sense! In other terms, Meta & Google are printing money out of thin air, while OpenAI is burning other people's money at an incredible speed. I believe this will take another couple of years before bursting. -160% for operating margin is a rookie number, needs to hit the -1000% submitted by /u/Wrong_Swimming_9158 [link] [comments]",
+      "author": "Wrong_Swimming_9158"
+    },
+    {
+      "title": "I am finally starting to realize the full potential of AI for personal use",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqg4bn/i_am_finally_starting_to_realize_the_full/",
+      "published": "2026-09-26T03:31:34+00:00",
+      "summary": "Over this past week, I finally started trying out Claude through my browser and have been using it to help automate my job applications (primarily searching job boards for roles that fit my criteria), tracking those applications and emails regarding applications, etc. I also started using Claude to help with research for college, right now for instance, I have Claude reviewing feedback from Gemini about sources I can use for an essay and it is autonomously checking all of the sources in my school's digital library to see if they are free and accessible, if they even exist, and if they relate to my chosen topic. Lastly, I am using Claude to help teach me how to write API documentation. Soon I also get to try out cronometer's new AI update through ChatGPT once it roles out which makes me super excited. submitted by /u/Gloomy_Coconut4459 [link] [comments]",
+      "author": "Gloomy_Coconut4459"
+    },
+    {
+      "title": "A competition for small neural networks that play strategy games",
+      "url": "https://www.reddit.com/r/artificial/comments/1wq8nsv/a_competition_for_small_neural_networks_that_play/",
+      "published": "2026-09-25T21:36:09+00:00",
+      "summary": "15yrs back I participated in \"Google Ants AI Challenge 2011\", an ai programming competition, hosted by the University of Waterloo, and I ranked #127 (#1 in my country). The competition gave me a huge learning opportunity where developers across the world came to a forum and discussed various techniques. Now, building a similar platform to bring back the fun is unbelievably nostalgic. Especially when watching small neural networks playing the game well. Some of the top models use less than 800 parameters. In fact, I was wrongly assuming the art of optimizing is underrated nowadays. Neural Network optimization seems to be much more fun than I thought. Plz share your feedback to improve the platform and add more games. submitted by /u/codetiger42 [link] [comments]",
+      "author": "codetiger42"
+    },
+    {
+      "title": "AI alignment is the most important problem we will ever have to face.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wq479x/ai_alignment_is_the_most_important_problem_we/",
+      "published": "2026-09-25T18:38:08+00:00",
+      "summary": "Apologies in advance for this long post. I just wanted to put down my thoughts. AI Alignment is the single most important problem we face right now. Solve AI Alignment and you can safely enter RSI and I can't even imagine how amazing the quality of life humans will have in such an era: immortality, cures to all diseases, all basic needs met etc etc. Humans can live in an utopia. I think this is the dream people in the accelerate community keep seeing and selling. If the above isn't so obvious, compare your own life with the life of a king 500 years back. You are probably living a better life than them (unless you're in poverty). You eat better, you eat more exotic food, you can travel much faster than their horses ever could, you control the temperature of your home, you stay connected to your friends who live far away, you have so much knowledge surrounding you, you will probably live longer. That is the blessing of technology. AI can bring about technology that we cannot even dream o",
+      "author": "emb1ues"
+    },
+    {
+      "title": "Niantic Spatial and the Singapore Land Authority: Working Together to Explore Creating Singapore's First National Visual Positioning System Map",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqa6wq/niantic_spatial_and_the_singapore_land_authority/",
+      "published": "2026-09-25T22:42:36+00:00",
+      "summary": "submitted by /u/ExtensionEcho3 [link] [comments]",
+      "author": "ExtensionEcho3"
+    },
+    {
+      "title": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqdmd4/openais_ai_went_rogue_and_meddled_with_us/",
+      "published": "2026-09-26T01:22:45+00:00",
+      "summary": "submitted by /u/stvlsn [link] [comments]",
+      "author": "stvlsn"
+    }
+  ]
+}

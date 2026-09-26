@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-26T04:05:52.401561+00:00",
+  "items": [
+    {
+      "title": "Houston we have a problem: Opus 5.5",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wqd0gg/houston_we_have_a_problem_opus_55/",
+      "published": "2026-09-26T00:52:57+00:00",
+      "summary": "First of all, im totally in love with OpenAI and i own 2 20x accounts. I rarely use other AI models, since chatgpt is perfect for what i need. But today i decided to try opus 5.5. On its cheapest paid plan, 20 euro / month. (called pro plan). Ohh man. You wont believe. Cheapest paid plan yes? So i one prompted game. I told it - I want multiplayer game, with proximity chat, with destructurable environment, that players will enjoy, shooting game. Why im posting this here? Well.. because this cheapest paid plan did it in one session, (they have still 5hr limit). I granted claude all permissions. It even connected to suno ai and generated music, sounds, all what you see and hear did opus. In that 5hr limit! The only issue i have is, with chatgpt 20x plan, i waste it in like one day and it cost 200 euro + vat. No idea, if at claude they have raised that allowance quota or what but man! 20 euro plan on claude is a steal! Ok so what it did, that opus 5.5 on medium: - multiplayer game, with st",
+      "author": "No_Twist_678"
+    },
+    {
+      "title": "Woke my wife up at 3 AM for an unexpected Codex quota reset. She’s currently at her desk coding. We need help.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wqf3tl/woke_my_wife_up_at_3_am_for_an_unexpected_codex/",
+      "published": "2026-09-26T02:37:59+00:00",
+      "summary": "OpenAI just announced an unexpected Codex outage and decided to reset everyone’s rate limits. Naturally, I shook my wife awake in the pitch black: \"Babe. Unexpected Codex reset.\" Zero hesitation. No \"what is wrong with you.\" Just pure panic: \"Wait, I’m at 70%.\" She threw off the blanket like a firefighter answering a 4-alarm call, marched to her desk, and is now furiously accepting diffs in the dark with the monitor blasting her face. We used to have normal human hobbies. Now we treat unexpected LLM quota resets like emergency stock market crashes. Send help. submitted by /u/Shay_Solomon [link] [comments]",
+      "author": "Shay_Solomon"
+    },
+    {
+      "title": "Built this explorable interactive ASCII universe in scale with AI. A dream project finally come true",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wq679w/built_this_explorable_interactive_ascii_universe/",
+      "published": "2026-09-25T19:57:02+00:00",
+      "summary": "submitted by /u/callme_e [link] [comments]",
+      "author": "callme_e"
+    },
+    {
+      "title": "I gave my AI its own email inbox",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wqcb99/i_gave_my_ai_its_own_email_inbox/",
+      "published": "2026-09-26T00:18:51+00:00",
+      "summary": "I’ve been playing around with the email connectors in ChatGPT and realised you can set up a surprisingly neat little workflow. My AI has its own Outlook inbox connected through the Outlook connector, while my personal Gmail is connected separately through the Gmail connector. So I can basically say something like: “Email me about this next Friday at 6pm.” It can create the email from its Outlook account, address it to my Gmail, and schedule it to actually send at that future time. I tested it today by asking it to email me one hour later, and it queued the message in Outlook for delayed delivery. It’s basically turned its email account into a little personal reminder system. Instead of getting a normal notification, future-me gets an actual email written by the AI with whatever context I wanted included. I know scheduled email itself isn’t new, obviously, but being able to casually tell an AI in conversation “email me about this next week” and have it handle the whole thing is pretty d",
+      "author": "myrandomtips"
+    },
+    {
+      "title": "Reportoftheweek should be a high-end model",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpw0ka/reportoftheweek_should_be_a_highend_model/",
+      "published": "2026-09-25T13:13:01+00:00",
+      "summary": "submitted by /u/ShapesStore [link] [comments]",
+      "author": "ShapesStore"
+    },
+    {
+      "title": "Chatgpt still ahead but Claude is catching up",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wq25r5/chatgpt_still_ahead_but_claude_is_catching_up/",
+      "published": "2026-09-25T17:17:43+00:00",
+      "summary": "submitted by /u/Wiardv [link] [comments]",
+      "author": "Wiardv"
+    },
+    {
+      "title": "Give Gpt more time ...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wq1f5r/give_gpt_more_time/",
+      "published": "2026-09-25T16:49:13+00:00",
+      "summary": "i compared GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, and Opus 5.5 recreating the same Chinese ink-style image as SVGs. The three GPT models were on max, and Opus was on xhigh. I'd put Astra and Opus above 90/100. Both Sol results are below 60. 6 Sol is clearly better than 5.6, but being better than that result isn't enough to make it good. The reference came from some Chinese ink-style character images I'd been making with Image 2.5 through Atlas Cloud. I used Sunburst for this one. I'd also seen people in the community drawing with SVG, which got me wondering how much of that ink texture GPT could recreate using vector shapes. I started with GPT-6 Astra. I gave it the reference and asked it to build an SVG with something resembling an artist's workflow. This was the instruction I started with: When drawing the SVG, try to imitate the workflow of a human artist: observe the reference, establish a rough sketch, refine it step by step, and revise it based on feedback from the current image. D",
+      "author": "Turbulent-Listen-393"
+    },
+    {
+      "title": "Jensen Huang claims he doesn't know his own address, and so children forgetting how to do basic math is ok",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wpsur6/jensen_huang_claims_he_doesnt_know_his_own/",
+      "published": "2026-09-25T10:33:37+00:00",
+      "summary": "submitted by /u/notkilleveryoneist [link] [comments]",
+      "author": "notkilleveryoneist"
+    },
+    {
+      "title": "How is your codex today?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wqabcl/how_is_your_codex_today/",
+      "published": "2026-09-25T22:48:00+00:00",
+      "summary": "unexpected status 401 Unauthorized: Incorrect API key provided: sk-svcac https://status.openai.com/ does not have a reported outage yet. submitted by /u/iamgarffi [link] [comments]",
+      "author": "iamgarffi"
+    },
+    {
+      "title": "Spent the last two months seeing how far a non programmer (me) can get building a proper game with nothing but ChatGPT in a browser.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wq9tbu/spent_the_last_two_months_seeing_how_far_a_non/",
+      "published": "2026-09-25T22:25:51+00:00",
+      "summary": "Gonna ironically preface this with: I haven't written the text below with an LLM. boxxy.io So I thought I'd show you what I've made over the last couple of months, because for me this has probably been one of the most rewarding uses of AI I've found. Please be kind, I spent a lot of time making this and writing the post here. More than anything, AI tools have helped me on my coding \"journey\". It's something I've started and stopped for about thirty years and never really got to grips with properly. I've always understood how websites, software and apps are put together, and I've always been quite good at understanding the structure and logic of how something should work, but the actual coding side has always slowed me down. Level 15 of The Jigsaw level Pack on Boxxy.io It's called Boxxy and it's my version of Sokoban, the Japanese box pushing puzzle game. Sokoban has been around since the early 1980s and has become a bit of a cult game online. There are thousands of levels and lots of ",
+      "author": "samcornwell"
+    }
+  ]
+}
