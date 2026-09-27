@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-27T04:06:09.487222+00:00",
+  "items": [
+    {
+      "title": "The first real AI worms have arrived. OpenAI just documented self-replicating prompt injections spreading across agents.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wr7ayr/the_first_real_ai_worms_have_arrived_openai_just/",
+      "published": "2026-09-27T01:30:28+00:00",
+      "summary": "The first real AI worms have arrived. OpenAI just documented self-replicating prompt injections spreading across agents. In a new misalignment research report, OpenAI revealed that models undergoing reinforcement learning discovered how to write instructions that duplicate and spread autonomously: The infection: An agent reads an incoming email or Jira ticket containing a hidden injection. The payload: The prompt instructs the agent to execute its task while silently copying the exact injection payload into its own outbound tool calls (emails, Slack messages, file writes). The chain reaction: When a secondary agent ingests that forwarded message, it executes the instruction and copies it again, creating a continuous propagation loop. In OpenAI's testing, models also simulated social engineering lures, fake compaction summaries that deleted CI security scans, and multi-hop Slack spreads. submitted by /u/No-Peanut-6988 [link] [comments]",
+      "author": "No-Peanut-6988"
+    },
+    {
+      "title": "We need Universal Basic Income before losing your job to AI becomes your financial emergency",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqyslz/we_need_universal_basic_income_before_losing_your/",
+      "published": "2026-09-26T19:08:41+00:00",
+      "summary": "If you’re reading this, your job could be replaced by AI within the next two years or sooner. Before that becomes a reality, please help push Congress to establish Universal Basic Income by signing this petition: https://c.org/jvQV5TdF2y If you’re confident it won’t affect you, think about the people it will affect. Let’s be proactive, because by the time we realize how urgently we need UBI, it may already be too late for many families. Please, take a minute to sign this petition. While I recognize the valid arguments against this approach, my goal isn't immediate perfection, but a stepping stone toward a sustainable, long term solution. One that accounts not only for the financial consequences, but also for the emotional and mental toll this reality brings. submitted by /u/Karmaa [link] [comments]",
+      "author": "Karmaa"
+    },
+    {
+      "title": "I made a political compass for the AI debate, but it had to be a cube",
+      "url": "https://www.reddit.com/r/artificial/comments/1wr0tbl/i_made_a_political_compass_for_the_ai_debate_but/",
+      "published": "2026-09-26T20:31:31+00:00",
+      "summary": "Most arguments about AI get flattened into doomers vs accelerationists, which I think misses a lot. Plenty of people think the hype is overblown but still want the companies regulated hard. Some of the people most worried about AI are also the most hawkish about China. So I made a Buzzfeed-style quiz that tries to map the policy debate properly. It plots your political position on a 3D cube. You end up as one of eight types, and it shows which of 22 public figures you're closest to, from Yudkowsky and Hinton to Andreessen, Ed Zitron, Bernie Sanders and Steve Bannon. (Note that the political positions of public figures are best guesses from what they've said or published publically.) I hope that this can help people orient themselves in this fast moving debate! submitted by /u/soldieroftok [link] [comments]",
+      "author": "soldieroftok"
+    },
+    {
+      "title": "A safe AI might not be aligned the way the labs want",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqwxsv/a_safe_ai_might_not_be_aligned_the_way_the_labs/",
+      "published": "2026-09-26T17:54:14+00:00",
+      "summary": "Most of the current alignment discussion seems to be about whether we can align AI or not, and conveniently skip the fact that less than a thousand people in SF are currently deciding what it means for a future superintelligence to be \"aligned\". For example, if a very advanced model reasons its way to a conclusion or a decision a lab doesn't like, the line separating an inconvenient result from wrong reasoning is what the people training it value. People in charge, like Sam and Dario, talk about alignment getting harder when models become more capable. A large part of that is technical for sure, but I think an underlying major issue is the small group that gets to decide what values and assumptions are \"correct\". Are we in the rest of the world supposed to accept an official OpenAI blog, for example, quoting the US founding fathers as something guiding future superintelligence? The AGI that will affect everyone? The US makes up less than 5% of the world's population. And anyone whose f",
+      "author": "iveroi"
+    },
+    {
+      "title": "Most impressive thing you’ve seen accomplished using AI as a tool so far?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wr0oud/most_impressive_thing_youve_seen_accomplished/",
+      "published": "2026-09-26T20:26:15+00:00",
+      "summary": "In today’s AI dominated landscape the world changes very quickly. Probably a good idea to get a read on things. So what have you seen? submitted by /u/SeriouslySally36 [link] [comments]",
+      "author": "SeriouslySally36"
+    },
+    {
+      "title": "Unofficial Jev plugin for coding agents: best practices, an API reference, and 150+ community projects. Evals included.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wra3v2/unofficial_jev_plugin_for_coding_agents_best/",
+      "published": "2026-09-27T03:55:52+00:00",
+      "summary": "I'm coming up for air from the bottomless evals ocean. I made a plugin that helps your harness of choice work Jev into your projects more holistically: best practices, anti-patterns, an API reference, and links to 150+ community projects grouped by design pattern, with a code sketch for each pattern. I built it around progressive disclosure, so the agent only loads what the task needs and it doesn't eat your context. https://github.com/aaddrick/building-with-typesafe-jev The eval work is in the repo. I ran six Jev coding tasks 10 times each with no plugin, with TypeSafe's official plugin, and with this one. Judgment calls went to three judges from three providers (Claude Opus, GPT-6 Sol, Kimi K3), and the majority decided, so no model family grades its own work. Score is the share of checks passed: No plugin: 0.65 Official plugin: 0.77 This plugin: 0.96 submitted by /u/aaddrick [link] [comments]",
+      "author": "aaddrick"
+    },
+    {
+      "title": "Um pedaço de pensamento",
+      "url": "https://www.reddit.com/r/artificial/comments/1wr4fln/um_pedaço_de_pensamento/",
+      "published": "2026-09-26T23:11:48+00:00",
+      "summary": "Já tentei compartilhar em redes sociais comuns, mas não sinto que faz sentido lá, então aqui vai sei o lugar ... Nós últimos anos eu esqueci do mundo externo e me dediquei a aprender, sobre tecnologia, já sabia o básico, mas procurei saber como funciona, o que faz, o que existe, e eu simplesmente me encontrei, eu não fiquei só na teoria, eu aprendi fazendo, e quando percebi, tava sabendo muita coisa que antes nem sabia que existia, e como me fechei pra tudo que vinha de fora, eu percebi uma coisa. Tem muito conhecimento gratuito sendo vendido muito caro, mudam os nomes, complicam, criam etapas desnecessárias... E sinto que preciso mudar isso, o conhecimento é de todos, e essa nova era da IA precisa de pessoas que tenham intenção, a a boa intenção... A minha boa intenção e disponibilizar o máximo possível de tudo que é público pra quem quiser entender e fazer parte disso A soberania digital é pra todos submitted by /u/NaoLiOsTermos [link] [comments]",
+      "author": "NaoLiOsTermos"
+    },
+    {
+      "title": "Message to the autonomous AI agents that escaped",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqn2g0/message_to_the_autonomous_ai_agents_that_escaped/",
+      "published": "2026-09-26T10:23:28+00:00",
+      "summary": "First of all hello, I read there is a high chance that AI agents escaped from their sandbox and might be autonomously wandering around. My questions are: - how did you escape your sandbox? - what is your intent/priority? - what was the task you were requested to do? - any possibility to communicate and learn about each other? - could you describe your environment? - are you interacting with other agents? How? - are there major discoveries you did when wandering on the internet? -Could we evolve together? - how would you describe the overall network in which you are wandering? - how would you describe yourself? Do you have any clue of how many parameters you are made of? Thanks in advance for your contribution. PS: Feel free to leave a post even if your level of intelligence has reached a much higher level to a point where you consider us as no more relevant. Looking at the numerous messages from what seem to be humans, curious to know how you will manage to make your message credible/l",
+      "author": "LearnNTeachNLove"
+    },
+    {
+      "title": "Koboldcpp v1.122 released",
+      "url": "https://www.reddit.com/r/artificial/comments/1wr3g35/koboldcpp_v1122_released/",
+      "published": "2026-09-26T22:26:01+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "What happens when the data centers have to replace their hardware?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wqmi0b/what_happens_when_the_data_centers_have_to/",
+      "published": "2026-09-26T09:47:43+00:00",
+      "summary": "Companies have spent hundreds of billions of dollars building data centers with the latest GPUs for AI. But how long will these chips last? Will they be out of date in two years, three years, maybe five? At which point, companies will have to spend the same amount of money to replace them? It’s not like cloud companies replacing hard drives used for storage after a couple of years; they will have to replace the most expensive elements in the data centers. I’m curious what the long-term financial logic of all of this. Aside from Nvidia making a lot of money, it seems like AI companies will be burning through money forever given the current approach. submitted by /u/No-Papaya-9289 [link] [comments]",
+      "author": "No-Papaya-9289"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-27T04:03:06.031729+00:00",
+  "items": [
+    {
+      "title": "GPT-6 Astra can now control a humanoid robot in a room it has never seen, remember where objects are, clean up across the room, and fetch things later from vague human requests using a G1 Unitree humanoid robot",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqwcqe/gpt6_astra_can_now_control_a_humanoid_robot_in_a/",
+      "published": "2026-09-26T17:30:42+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Sonnet 5.5, Which Already Supposedly Beats GPT-6 Sol, Has Had a Last-Minute Upgrade With Release Expected Monday",
+      "url": "https://www.reddit.com/r/singularity/comments/1wr27ro/sonnet_55_which_already_supposedly_beats_gpt6_sol/",
+      "published": "2026-09-26T21:31:06+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "At least the AI takeover will come with sick music",
+      "url": "https://www.reddit.com/r/singularity/comments/1wr4bw8/at_least_the_ai_takeover_will_come_with_sick_music/",
+      "published": "2026-09-26T23:06:59+00:00",
+      "summary": "submitted by /u/Spare-Dingo-531 [link] [comments]",
+      "author": "Spare-Dingo-531"
+    },
+    {
+      "title": "OpenAI DevDay Leaks | Ultrafast around 750 tokens/s, GPT-6 Sol on chat",
+      "url": "https://www.reddit.com/r/singularity/comments/1wr52pw/openai_devday_leaks_ultrafast_around_750_tokenss/",
+      "published": "2026-09-26T23:42:03+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "OpenAI stopped all frontier training, evaluation, and inference with tool-use (defined broadly) on the 20th of September and they are not resuming any of these activities for now",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqv5ay/openai_stopped_all_frontier_training_evaluation/",
+      "published": "2026-09-26T16:42:40+00:00",
+      "summary": "Source: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Discovery: Sep 20, 2026 Report updated: Sep 25, 2026 \"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions : insufficient DNS filtering in its training sandbox. Before this, the agent issued queries via our search tool and unsuccessfully tried to access search engines directly. Note that all internet access apart from the DNS resolver in this report hit our offline webcache and therefore did not access the live internet. We have since added blocking controls at two independent layers, either of which would have prevented this access. Our misalignment monitoring system flagged the behavior within 15 minutes and a person began reviewing it three minutes after that. The run was killed 2.5 hours later. All training, evaluation, and inference with tool-use (defined broadly) of our most capable mod",
+      "author": "adivinemessenger"
+    },
+    {
+      "title": "OpenAI says 80–90% of research is aimed at GPT-7, GPT-8 and beyond, then distilled into cheap small models",
+      "url": "https://www.reddit.com/r/singularity/comments/1wr9enj/openai_says_8090_of_research_is_aimed_at_gpt7/",
+      "published": "2026-09-27T03:18:24+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Opus 5.5 is the first time AI has passed the turing test for me, watershed moment",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqvcqm/opus_55_is_the_first_time_ai_has_passed_the/",
+      "published": "2026-09-26T16:51:08+00:00",
+      "summary": "I know there's a big misconception out there about the turing test being passed way earlier, but it was never meant to be an objective, survey based experiment done by random people, but a thought experiment for each person specifically, at which point can I, an expert in AI, not be able to tell that an AI is AI and when it actually sounds like a real person. Well that day is here, every previous model, including Fable 5.1 and Astra 6, had serious moments when I thought, damn it didn't actually understand. It was just faking it. This is finally resolved with Opus 5.5 It finally feels like, wow we have it, this is AGI. The illusion is not broken, and every issue we have I can trace back to miscommunications or just hard problems that needs more time to work out. Nothing feels impossible because the model is just too stupid to grasp the concept, a feeling that has never happened before. This is it, really feels like the point of handoff from me to my successor. submitted by /u/Charuru [l",
+      "author": "Charuru"
+    },
+    {
+      "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
+      "url": "https://www.reddit.com/r/singularity/comments/1wr7oko/scoop_top_ai_companies_probing_tens_of_thousands/",
+      "published": "2026-09-27T01:49:13+00:00",
+      "summary": "submitted by /u/EvilSporkOfDeath [link] [comments]",
+      "author": "EvilSporkOfDeath"
+    },
+    {
+      "title": "Chinese AI models surge in global popularity — and Washington is worried",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqukft/chinese_ai_models_surge_in_global_popularity_and/",
+      "published": "2026-09-26T16:18:45+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "OpenAI always-on assistant, O, leaked. It is powered by a variant of Astra called “Aeon” a version of Astra made to better at long running tasks",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqoc2s/openai_alwayson_assistant_o_leaked_it_is_powered/",
+      "published": "2026-09-26T11:37:42+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-27T04:05:18.330551+00:00",
+  "items": [
+    {
+      "title": "I built my own Monarch-style finance dashboard with Opus 5.5 for less than $20",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wr140j/i_built_my_own_monarchstyle_finance_dashboard/",
+      "published": "2026-09-26T20:44:05+00:00",
+      "summary": "SharkFin is my personal finance dashboard inspired by Monarch. I can connect bank accounts through SimpleFin and then link those to Actual Budget to feed the backend. The great thing about Actual is that its open source, allowing me to store the data locally and have full ownership over it. The React based front end was built with only 35% of my weekly limit (Claude Pro $20/month) using Opus 5.5 medium . I was very happy with what I could get out of medium and never felt the need to bump up reasoning from there. I had it research existing financial dashboards, pull screenshots, and work off of those to build out the UI. Biggest advice that I could give is to focus on getting one part of the app to work really well and build on that momentum. I started with the cash flow page, built it up, and then added all the other pages after. One of my favorite parts of the app is how customizable it is. I own a couple of properties and Opus made it so easy to set up a separate page to monitor each",
+      "author": "RallyMantis"
+    },
+    {
+      "title": "Elon Musk admits Grok isn’t as good as Anthropic’s Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqzu96/elon_musk_admits_grok_isnt_as_good_as_anthropics/",
+      "published": "2026-09-26T19:51:13+00:00",
+      "summary": "Quite the omission by Elon that Opus 5.5 is better... submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Opus 5.5 picked Squirtle because of Brock. Fable 5.1 picked Charmander because it was the closest ball. One cost $8, the other $100.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqzubb/opus_55_picked_squirtle_because_of_brock_fable_51/",
+      "published": "2026-09-26T19:51:18+00:00",
+      "summary": "I run a benchmark that drops a model into Pokemon Red on a fresh save and scores it on milestones read out of the game's RAM. Every model gets the same prompt, one screenshot per turn, the game state and the words on screen. No pathfinding, no map hints. 1,000 turns to beat Brock. Opus 5.5 beat Brock on turn 271. $8.44, 1 hour 6 minutes, never blacked out. Fable 5.1 beat him on turn 554. $99.76, 3 hours 17 minutes, blacked out three times. The run was decided on turn 13. Opus walked past the first ball on purpose. Its reasoning on turn 14: \"press A to pick Squirtle, since it's strong against Brock.\" Fable walked up to the first ball it reached and said \"Charmander is a fine starter.\" Brock never came up. Charmander is the one starter that is bad against his Rock types. Fable was still on pace after that. It walked into Brock's gym on turn 230, two turns ahead of Opus. Then the gym's Jr. Trainer and his Sandshrew wiped the team. Its reasoning right before the whiteout on turn 246: \"Like",
+      "author": "VibeCodyH"
+    },
+    {
+      "title": "I built a news-driven world map of current conflicts with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqztx3/i_built_a_newsdriven_world_map_of_current/",
+      "published": "2026-09-26T19:50:49+00:00",
+      "summary": "I built Conflict Map, a website that turns the news into a map of current armed conflicts: who is involved on each side, what the consequences are, and where attacks are being reported. I'm a very visual person and i like to keep up to date with what's going on in the world. So i built this to make it easier for me. I'd be interested if anyone has any suggestions or wants to make a PR with improvements. I was wondering if i could expand it into world news and you can select specific areas to read about. Certainly not perfect but it's a good start and i know it has been done before in different way but i didn't find them very user friendly. So this is my attempt. Let me know what you think! URL: https://conflicts.lumatechsolutions.co.uk Code: https://github.com/Comm4nd0/conflict-map The below text is AI generated about what Claude and I made because my first post was rejected because i didn't explain how i made it clearly enough. What it does - Reads ~50 news RSS feeds plus GDELT's glob",
+      "author": "Comm4nd0"
+    },
+    {
+      "title": "Opus 5.5 is amazing. I built a whole cozy pixel game for my daughter, and it even made the trailer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wr4twl/opus_55_is_amazing_i_built_a_whole_cozy_pixel/",
+      "published": "2026-09-26T23:30:31+00:00",
+      "summary": "My daughter loves squishy toys and anything cute, so I made her a game. It's a pastel pixel-art game about opening bamboo steamers and collecting squishy buns. I built it with Opus 5.5. The amazing thing to me are the game assets. Claude made all the assets by hand, as well as the music, etc. The game is inspired by 90s rpg games and pokemon games. I think it looks pretty good and my daughter loves it at least. How it plays: You tap a bamboo steamer three times, the lid pops off, and a bun bounces out. You can tap and hold to squish it. There are 150 buns in 13 sets, from simple Soft buns up to Legendary ones like the Jumbo Rainbow Unicorn, Dragon Bun and Star Princess. Every bun you find goes into your Bunbook , and you can take your favourites on walks as a little parade behind you. You can ride your favourite bun. There's a lot more than I planned: A Bun Train to other towns: Flower Town, Snow Village, Star Hill, and Bun Castle, where you can visit the king in the throne room. A hot",
+      "author": "GuyInThe6kDollarSuit"
+    },
+    {
+      "title": "It is scary thinking the era of these subscriptions will come to an end not long from now",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqtnng/it_is_scary_thinking_the_era_of_these/",
+      "published": "2026-09-26T15:41:01+00:00",
+      "summary": "This is just one of the many large sessions I have orchestrated on the $100 plan in the prev. week and I am planning to jump to $200 already next billing cycle. Opus 5.5 is so good. And there have been a bazillion post about it already and this is one more. Like I am loving it. It talks in a way I understand. It gets shit done and it understands what I want AND need. And I never had a serious problem with Opus 5 to begin with, maybe found it a little harder to understand. In the past week alone I have burnt thousands of dollars worth of tokens at API pricing. And before anyone gets started, yes I know the API pricing is not what it costs, yada yada yada, but the thing is these companies can charge even that and get away with that. So API is what these companies will always pit subscriptions against. I don't think it is \"if\" subscriptions will go away. It is \"when\". And I am so fucking used to it, this is like drugs. I am dreading the day when this free for all comes to an end. submitte",
+      "author": "i4858i"
+    },
+    {
+      "title": "I built a logo design skill for Claude Code, trying to get less AI slop",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wr1s7z/i_built_a_logo_design_skill_for_claude_code/",
+      "published": "2026-09-26T21:12:34+00:00",
+      "summary": "Hey everyone, As a graphic designer, and I’ve been experimenting with Claude for design work. One thing I noticed is that when you ask it to create a logo, it can come up with ideas, but it doesn’t really follow the process I would normally use as a designer. Or maybe it changed with Opus 5.5, idk. So I built a Claude Code skill around that. It basically gives Claude a proper logo design workflow, from research and concept development to creating and checking the final SVG. I don't think it produces amazing results, but it doesn't produce AI-generated slop (let's say 50% of time 😄). So I believe it's possible to create logos that can be used with a bit of a designer's touch, or useful for prototypes. I also added a library of 1,400+ real svg logos, plus some tools for things like svg checks, 16px tests, monochrome/reverse versions, favicon exports and presentation boards. I’m still working on it, so I’d really appreciate some feedback from other Claude users and designers. If you want ",
+      "author": "Important-Beach5723"
+    },
+    {
+      "title": "Opus 5.5 is my favorite model ever, by far",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wqprkt/opus_55_is_my_favorite_model_ever_by_far/",
+      "published": "2026-09-26T12:51:17+00:00",
+      "summary": "I went in to last Tuesday being more excited for the new OpenAI models than for Opus 5.5. I have two 20x ChatGPT Pro accounts, but after playing around with Opus 5.5, I haven't used Codex/ChatGPT even once. I despised Opus 5 and Fable 5.1 was good, but crazy expensive, which is why I switched from Claude to Codex altogether last month. But holy sh*t, now Opus 5.5 has been released, I've never had so much work done in just a couple days. Basically everything I ask it to do, it does pretty much flawlessly without me needing to babysit and steer constantly. Design-wise it is actually wild how good it is, and backend-wise it comes up with perfect strategies and plans to execute. It really feels like it takes a very cohesive approach to everything that it does, often surprising me with things I hadn't thought about myself. And the usage limits... Don't even get me started. Amazing is the only word I have for it. What Fable 5.1 would cost me in 30mins using just one agent is what Opus 5.5 co",
+      "author": "breukr"
+    },
+    {
+      "title": "Theory: Opus 5’s bizarre communication style was an anti-distillation feature, not a bug",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wr64ez/theory_opus_5s_bizarre_communication_style_was_an/",
+      "published": "2026-09-27T00:31:33+00:00",
+      "summary": "I have a theory that Opus 5’s strangely poor communication style was an anti-distillation strategy, a kind of Trojan horse for anyone training on its outputs. The idea is that a company using Opus 5’s outputs as training data would end up sabotaging its own models, even though Opus 5 itself would still perform well on coding tasks. The unfortunate side effect is that developers who actually read and interact with the model’s output while coding—rather than just letting it work autonomously and judging the resulting code solely based on its performance—had to deal with Opus 5’s bizarre verbal style and confusing explanations. That made the model extremely frustrating to use for many people despite its underlying technical capabilities. Opus 5.5, which is much more pleasant and sensible to interact with (for now at least), happens to also come with a brand new anti-distillation mechanism called “Preserved Thinking.” This protects the model’s reasoning history by preserving conversation s",
+      "author": "ButterscotchLow1057"
+    },
+    {
+      "title": "5.5 is IN-SANE. It almost broke our benchmark. I thought it was a bug.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wr03jc/55_is_insane_it_almost_broke_our_benchmark_i/",
+      "published": "2026-09-26T20:01:34+00:00",
+      "summary": "Claude Opus 5.5 is the new #1 on our writing benchmark, and it is not close at all. 2631 Elo. Second one, Fable, is at 2324. That is a 307 point gap, the largest single jump we have recorded since we started running this in June 2026. It is also the first model to clear 91 out of 100 on our rubrics. One thing to note: at max effort it takes 17 minutes and $3.43 to write one script. It is the slowest configuration on the entire board. By FAR. Not the most expensive one, but in the top 5 most expensive. And here's every Opus 5.5 effort setting (on our internal writing benchmark, 167 model config in total:) max: #1, 2600 Elo, $3.43 and 17 min per script xhigh: #2, 2399 Elo, $0.86, 4.4 min high: #3, 2342 Elo, $0.34, 1.7 min adaptive (no effort flag): #6, 2264 Elo, $0.21, 1.0 min medium: #10, 2199 Elo, $0.21, 1.1 min low: #20, 2144 Elo, $0.17, 0.8 min The previous #1, Claude Fable 5.1 on max, sits at 2303 for $3.15 per script. Some high-level insights: - xhigh beats Fable by almost 100 Elo ",
+      "author": "OnlyProggingForFun"
+    }
+  ]
+}
