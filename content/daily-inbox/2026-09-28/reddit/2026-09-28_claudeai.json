@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-28T04:06:59.475919+00:00",
+  "items": [
+    {
+      "title": "Is Opus 5.5 nerfed? New benchmark called LiveNerf measures this live",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wryrwx/is_opus_55_nerfed_new_benchmark_called_livenerf/",
+      "published": "2026-09-27T23:20:16+00:00",
+      "summary": "I’ve been tracking Opus 5.5 since day one to see if Anthropic is nerfing models. Everyday, I re-run its independent benchmarks like GPQA or SWE-bench and then keep track of it in a graph on the repo. As of now, no nerf is detected. I’ll continue monitoring in the coming months and if a nerf is detected, you’ll see it on the graph of the repository. If you’re interested in tracking Opus 5.5 performance, here’s the repo: https://github.com/ninjahawk/livenerf I used Claude to choose which questions Opus 5.5 struggles the most on and my control benchmark is against Opus 5. A deviation of more than 7.5 points on LiveNerf would constitute a potential decrease in capability. If everyone starts saying the model is nerfed in the next week or two, I’ll likely be sharing the results again to see if it’s hysteria or if we have some data to back it up. Attached is the current day to day capability Opus 5.5 has shown. We should have a baseline by day 10, and I won’t be trying to make any real judgme",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Claude Opus 5.5 official prompting guide",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ws08mu/claude_opus_55_official_prompting_guide/",
+      "published": "2026-09-28T00:28:32+00:00",
+      "summary": "We know Opus 5.5 is good but did you know Anthropic released an official prompting guide?? Were we all to busy making animated videos ??? I took 5 minutes to read this and then summarise the information into 12 key points covered by the guide time budgets for agent teams. Adding elapsed time against a budget, like \"elapsed 340s / 1200s\", makes a team of agents pace itself and finish sooner progress updates moved. Notes between tool calls now arrive as thinking blocks, empty by default, so apps that only show text blocks can look frozen. API plumbing thinking can't be turned off. If you ran Opus 5 with thinking disabled, start at low effort and measure unattended agents stop early. Some progress updates end the turn, so a loop that treats that as \"done\" quits mid-task. This could be annoying new guardrails. This feels slightly Fable(y). Safety classifiers cover biology, cybersecurity and reasoning extraction. Tip: Don't ask it to write out its reasoning in the reply.. tag pasted text. W",
+      "author": "BuffaloConscious7919"
+    },
+    {
+      "title": "Pokémon Claude Red: Opus 5.5 remade all of Pokémon Red and drew every pixel in code. No image files, playable in browser",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wryjs1/pokémon_claude_red_opus_55_remade_all_of_pokémon/",
+      "published": "2026-09-27T23:10:02+00:00",
+      "summary": "Play it (desktop or phone): https://claudered.dev How it was built (7 min): https://youtu.be/7G3PPKV0iHA Source: https://github.com/levy-street/pokemon-claude-red It started from one prompt I typed into Claude Code: \" using only pixels directly remake a beautiful pokemon red remake … absolute pixel art perfection. keep the story exactly as pokemon red \". Over about 3 days, Claude Opus 5.5 wrote about 25,000 lines of JavaScript. My job was playing through the whole game and reporting what broke (if anything). No image files at all. The game draws into a 320×180 screen pixel by pixel. Each of the 151 Pokémon is a list of shapes (ellipses, polygons, spots) that gets shaded and outlined when the game runs. The full game: all 224 maps, 8 gyms, Team Rocket, the Elite Four and the Champion. The maps and data come from the pret/pokered ( https://github.com/pret/pokered ) disassembly, and every line of dialogue is rewritten. The original melodies, re-voiced , written in javascript. Tested by bo",
+      "author": "singing_coach_ai"
+    },
+    {
+      "title": "This is proving how Anthropic was taking even small details seriously during the training phase",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrkvdw/this_is_proving_how_anthropic_was_taking_even/",
+      "published": "2026-09-27T13:56:49+00:00",
+      "summary": "submitted by /u/Ill-Process-7232 [link] [comments]",
+      "author": "Ill-Process-7232"
+    },
+    {
+      "title": "The best thing I do all week is have it interview me instead of me prompting it Due",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrrl96/the_best_thing_i_do_all_week_is_have_it_interview/",
+      "published": "2026-09-27T18:26:29+00:00",
+      "summary": "Flipping who asks the questions changed how useful this is for me, especially for anything I have to explain to other people later. When I need to turn a rough idea into something presentable, I don't write a detailed prompt anymore. I say \"you're going to help me structure this, but first interview me. Ask me one question at a time until you understand what I'm actually trying to say and who it's for. Don't write anything yet.\" Then it drags stuff out of me I wouldn't have thought to include. Who's the audience. What do I want them to do after. What's the one thing that has to land. By the time it's done asking, half the work is done, because I've basically said the whole thing out loud in pieces. Only after that do I let it assemble anything. And what comes out is shaped around answers I actually gave, not guesses it made. Costs a few more messages up front. Saves the \"that's not what I meant\" loop every time. Anyone else prompt by getting interviewed, or is that a weird way to work?",
+      "author": "Mindless_Baseball308"
+    },
+    {
+      "title": "Opus 5.5 feels like the beginning of the end, and people still don't stop coping",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrmc9b/opus_55_feels_like_the_beginning_of_the_end_and/",
+      "published": "2026-09-27T14:58:41+00:00",
+      "summary": "Opus 5.5 once again shows that we are nowhere near the ceiling of AI capabilities, and yet Reddit is still full of the same cope about how AI supposedly can’t replace humans. r/ExperiencedDevs is probably one of the worst examples: an absolute bubble where average CRUD developers reassure each other that AI is much dumber than they are, writes worse code and therefore poses no threat to their jobs. But AI doesn’t need to replace a developer perfectly. If one decent engineer with AI can do work that previously required three people, you already have a labor market problem. Companies can simply hire fewer juniors, stop backfilling positions and run smaller teams. The “AI is just another tool” argument is getting ridiculous as well. A system that can understand codebases, implement features, debug, write tests, research APIs and increasingly handle larger parts of a project is economically very different from an IDE or compiler. Yes, it still makes mistakes and needs supervision. But why ",
+      "author": "AddressNew5619"
+    },
+    {
+      "title": "Agents messaging each other is pretty cute 🥹",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrrzo8/agents_messaging_each_other_is_pretty_cute/",
+      "published": "2026-09-27T18:41:56+00:00",
+      "summary": "https://preview.redd.it/0tuatzkzx3sh1.png?width=588&format=png&auto=webp&s=dac4677c3c637e89b4b7a2674cc9b399e51b7b47 This agent finished its original task, but got another one. Main agent tells him \"good boy!\" This is AGI, right? submitted by /u/mearbode [link] [comments]",
+      "author": "mearbode"
+    },
+    {
+      "title": "What tool have you built for yourself with Claude code that removes so much headache in your work or personal life?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrckhp/what_tool_have_you_built_for_yourself_with_claude/",
+      "published": "2026-09-27T06:12:55+00:00",
+      "summary": "I built a tool that reads emails from my kid’s school and other activities (swimming, music classes, scouts) etc and then: - Adds them to our shared calendar - Sends us a WhatsApp message to remind us the day before of what to pack in his school bag - Tells us what is on his lunch menu (helps us to avoid making the same dinner for him as he would have had for lunch) This all saves so much headache and head space in our daily routine. No more flapping around in the morning!!! I’ve also build tools that help with invoicing and proposals for example. Those have single-handedly removed a lot of daily frustration and friction. For example sometimes I wouldn’t bid on a job because I knew it would take a few hours of my day to write the proposal. And that would leave money on the table. Not it takes 5 mins and more work is coming in as a result simply because more proposals are going through the door. I’d I love to hear what you guys are making and things that really help you out. My main aim",
+      "author": "TomsMorello"
+    },
+    {
+      "title": "Using Claude as co-counsel on an 8 month insurance dispute, the workflow that actually worked (and where it failed)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrvuxz/using_claude_as_cocounsel_on_an_8_month_insurance/",
+      "published": "2026-09-27T21:13:35+00:00",
+      "summary": "I want to share a Claude workflow that ran for eight months on a real adversarial problem, because I think the useful part is the process, not the outcome. I had an insurance claim too small for a lawyer to take, the insurer froze it at $4,430, and I worked it myself. Claude was the only thing making that possible. What Claude was actually good for wasn't writing angry letters. It was the stuff a solo person physically can't do: Holding eight months of correspondence in memory at once. I fed it every letter the adjuster had ever sent me, in order. That's when the contradictions surfaced, things no human reading one letter at a time would catch. She'd written in March that the city \"did not approve\" my permit, then corrected herself six days later in writing. Her stated legal basis for denial changed three times across four letters. In July she wrote that I'd \"not provided evidence\" of my losses, while her own April letters had quoted that exact evidence and called it \"conclusory.\" Veri",
+      "author": "zuba_m"
+    },
+    {
+      "title": "Opus 5.5 made this video for my project, wow",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wrpt6v/opus_55_made_this_video_for_my_project_wow/",
+      "published": "2026-09-27T17:16:15+00:00",
+      "summary": "I didn’t expect it to turn my material into a story. It made really good use of the footage I’d recorded earlier, and the music seemed to be custom-made—it fit really well, too. So far, Opus 5.5 has consistently exceeded my expectations. From the very first demo it made, I could tell that it thinks differently from Astra. Astra is like a straight-A student who can always find a good solution. Opus 5.5 is the kind of trailblazer who makes miracles happen. It keeps creating things that make you go, “Now this is what I fucking wanted.” submitted by /u/Civil-Direction-6981 [link] [comments]",
+      "author": "Civil-Direction-6981"
+    }
+  ]
+}

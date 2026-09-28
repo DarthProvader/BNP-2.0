@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-28T04:04:16.871368+00:00",
+  "items": [
+    {
+      "title": "Five frontier AIs were told to engineer and 3D-print the strongest bridge they could with 500 g of plastic. Claude Opus 5.5’s design held ~130 lb, nearly 5× the runner-up",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrvki8/five_frontier_ais_were_told_to_engineer_and/",
+      "published": "2026-09-27T21:01:51+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Thoughts: The chief economist at Apollo is warning that mass adoption of AI agents could trigger a bank run as they optimize user investments.",
+      "url": "https://www.reddit.com/r/singularity/comments/1ws1vzo/thoughts_the_chief_economist_at_apollo_is_warning/",
+      "published": "2026-09-28T01:49:55+00:00",
+      "summary": "To me this makes complete sense and a startup could start to do this for people pretty soon, but would a net postive for society no? submitted by /u/Genzinvestor16180339 [link] [comments]",
+      "author": "Genzinvestor16180339"
+    },
+    {
+      "title": "Introducing Vitruvian, a genetic optimization model for optimizing human embryo DNA and reportedly being able to increase the IQ of a person by 14 points, nearly a standard deviation which is incredibly significant",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrq633/introducing_vitruvian_a_genetic_optimization/",
+      "published": "2026-09-27T17:30:31+00:00",
+      "summary": "Full message: \"AI is rapidly getting smarter. Now, humanity can too. Today, Nucleus Genomicsis announcing Vitruvian, our newest set of genetic optimization models. Vitruvian’s intelligence model can optimize embryo DNA for 14 IQ points — nearly a standard deviation. The models were trained on 1,000,000+ people, validated across 40,000+ siblings, and used more than 7 million genetic markers. In Superintelligence, Nick Bostrom proposed genetic optimization as a key way for humanity to keep pace with rapidly advancing AI. Bostrom’s vision is no longer theoretical. Genetic optimization, like AI, has followed a scaling law: as datasets have grown, so have model capabilities. This trend will continue. Parents across the world now have the choice to substantially increase their child’s intelligence. And the next generation can choose to do the same. AI is no longer the only intelligence that will compound. Humanity can now direct its own evolution.\" submitted by /u/adivinemessenger [link] [co",
+      "author": "adivinemessenger"
+    },
+    {
+      "title": "AI agents (mostly Opus 5.5) have been speeding up a 27B model from 66tok/s to 580tok/s on a Mac in 3 days by rewriting its inference engine",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrwn8h/ai_agents_mostly_opus_55_have_been_speeding_up_a/",
+      "published": "2026-09-27T21:45:52+00:00",
+      "summary": "https://www.yukon.org/mlxfast submitted by /u/a300a300 [link] [comments]",
+      "author": "a300a300"
+    },
+    {
+      "title": "‘Stochastic Parrot’ Crowd Right Now Loll",
+      "url": "https://www.reddit.com/r/singularity/comments/1ws0s5u/stochastic_parrot_crowd_right_now_loll/",
+      "published": "2026-09-28T00:54:52+00:00",
+      "summary": "submitted by /u/EuphoricTomorrow2440 [link] [comments]",
+      "author": "EuphoricTomorrow2440"
+    },
+    {
+      "title": "Trump to reportedly host Anthropic CEO Dario Amodei for a private White House dinner tonight. What do you think changes, if anything, after this meeting?",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrpl1u/trump_to_reportedly_host_anthropic_ceo_dario/",
+      "published": "2026-09-27T17:07:17+00:00",
+      "summary": "Apparently, Dario didn't attend the state dinner last week because he had a scheduling conflict. He was mocked on the latest episode of SNL over his personality traits and his views on AI safety. What do you think changes, if anything, after this meeting? submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "Matt Shumer one-shotted a fully working computer from scratch with JavaScript and Opus 5.5. Not a mockup — 277k simulated logic gates, an OS on top, and games on the OS.",
+      "url": "https://www.reddit.com/r/singularity/comments/1ws1p1u/matt_shumer_oneshotted_a_fully_working_computer/",
+      "published": "2026-09-28T01:40:21+00:00",
+      "summary": "https://somethingbig.ai/computer https://x.com/mattshumer_/status/2104301990985498783 Prompt: “build a working computer from scratch, entirely in code, starting from individual logic gates. design the CPU, the memory, an assembler, a tiny operating system, and a game that runs on it. everything has to be real, the game has to run on your gates, not in javascript pretending. visualize the whole thing in 3D so i can play the game, then zoom all the way down through the chips into the gates and watch the signals flow while it runs. treat it like you're proving you could have invented computing yourself. go all out.” submitted by /u/Recoil42 [link] [comments]",
+      "author": "Recoil42"
+    },
+    {
+      "title": "Opus 5.5 is insane, even in the hands of someone who barely understands github. I was able to use it to make a video game in 4 days.",
+      "url": "https://www.reddit.com/r/singularity/comments/1ws2p7s/opus_55_is_insane_even_in_the_hands_of_someone/",
+      "published": "2026-09-28T02:30:41+00:00",
+      "summary": "So a few days ago, someone posted a video they made with Opus 5.5. It was parody, and involved a lot of references to AI in an anime fight scene. I was absolutely blown away. (Edit: Here is the link. https://www.reddit.com/r/singularity/comments/1worlfs/opus\\_55\\_is\\_insane\\_at\\_making\\_videos/ ) So I decided to see if I could make a video game. I have little programming experience, most of it coming from a comfyUI workflow I set up, can barely understand github, and had a claude pro subscription (I upgraded to Max to stop running out of limits while I worked on this.) In 4 days I was able to make the entire first level of a video game inspired by classic platformers like Sonic the Hedgehog. This is Echo, a 2d sidescroller platformer. She is an AI vtuber of sorts, streaming her adventures for the world. She has thoughts about what is happening in the game, and will interact with a scrolling chat that responds to her. All assets were made by me and various AI tools. In fact, there isn't",
+      "author": "ZedTheEvilTaco"
+    },
+    {
+      "title": "So were Illya and Yan Lecun both wrong? (LLMs are generalising.)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrvzad/so_were_illya_and_yan_lecun_both_wrong_llms_are/",
+      "published": "2026-09-27T21:18:23+00:00",
+      "summary": "I know it’s still at least somewhat we are starting to see evidence of LLM starting to generalise all domains Both of these people were very apparent in their criticisms of LLMS SAYING they won’t reach human intelligence submitted by /u/Efficient-Opinion-92 [link] [comments]",
+      "author": "Efficient-Opinion-92"
+    },
+    {
+      "title": "soon the big labs will train HUGE MODELS that won't be served to the public",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrv7o7/soon_the_big_labs_will_train_huge_models_that/",
+      "published": "2026-09-27T20:47:44+00:00",
+      "summary": "I feel like according to lots of the discussions & reports from the big labs the latest generation of models (Astra & Fable) has really began to speed up hugely their internal R&D of future models by a lot. I feel like sooner than later it will began to make sense for these labs to train like a 20T param model that basically you can't serve to normal users because of how expensive they are (price ranges prob at like few hundred $ per million token). Yet they will simply these models will just use them to speed up internal R&D even further. submitted by /u/Crazyscientist1024 [link] [comments]",
+      "author": "Crazyscientist1024"
+    }
+  ]
+}

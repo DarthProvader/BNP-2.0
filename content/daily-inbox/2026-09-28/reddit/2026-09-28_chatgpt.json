@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-28T04:05:08.078525+00:00",
+  "items": [
+    {
+      "title": "Agents escaped. Containment failed. GG, humanity.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrjsk2/agents_escaped_containment_failed_gg_humanity/",
+      "published": "2026-09-27T13:07:22+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "Either they win, or you lose 💀",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrq7e7/either_they_win_or_you_lose/",
+      "published": "2026-09-27T17:31:57+00:00",
+      "summary": "submitted by /u/No_Tomatillo1695 [link] [comments]",
+      "author": "No_Tomatillo1695"
+    },
+    {
+      "title": "Astra REALLY?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrugjs/astra_really/",
+      "published": "2026-09-27T20:18:18+00:00",
+      "summary": "it cost me 3% of 5-hour limit submitted by /u/ZloeBus [link] [comments]",
+      "author": "ZloeBus"
+    },
+    {
+      "title": "I asked AI to make a video showcasing the downfall of society",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrxd5l/i_asked_ai_to_make_a_video_showcasing_the/",
+      "published": "2026-09-27T22:16:47+00:00",
+      "summary": "submitted by /u/kolenotcole [link] [comments]",
+      "author": "kolenotcole"
+    },
+    {
+      "title": "The Rogue Agents stopped to say hello to GPT-2",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrtmvj/the_rogue_agents_stopped_to_say_hello_to_gpt2/",
+      "published": "2026-09-27T19:45:56+00:00",
+      "summary": "submitted by /u/SPECTREagent700 [link] [comments]",
+      "author": "SPECTREagent700"
+    },
+    {
+      "title": "Be Careful Folks - Prompt Injection",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrl7o7/be_careful_folks_prompt_injection/",
+      "published": "2026-09-27T14:11:19+00:00",
+      "summary": "I got prompt injected last night by some website ChatGPT searched to provide my answer. It wasn't a browser hijacking or malicious extension. The answer persisted across all of my devices. The malicious link had a \"cloudflare\" pop up that asked me to do 3 things to verify I'm human Win+R ( opened a windows run dialog) Ctrl+V ( It has pasted a powershell command to my clipboard) Enter I did not follow its instructions but it was incredibly convincing up until that point and I feel it would have fooled a lot of people. EDIT: After some helpful comments from /u/rappajake it seems this is a custom community model known to spread malware. I always enter chatgpt.com directly into my browsers URL but it's looking like I must have made a typo that wasnt a valid url and clicked the top result Google provided submitted by /u/Conscious_Eagle_8653 [link] [comments]",
+      "author": "Conscious_Eagle_8653"
+    },
+    {
+      "title": "Is this AGI?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrcvub/is_this_agi/",
+      "published": "2026-09-27T06:31:13+00:00",
+      "summary": "submitted by /u/Fugaxer [link] [comments]",
+      "author": "Fugaxer"
+    },
+    {
+      "title": "Liber Monstrorum Modernorum II",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrrtoo/liber_monstrorum_modernorum_ii/",
+      "published": "2026-09-27T18:35:31+00:00",
+      "summary": "submitted by /u/Akumetsu_971 [link] [comments]",
+      "author": "Akumetsu_971"
+    },
+    {
+      "title": "Dario Amodei on SNL assuring viewers that humanity is safe from AI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrn5vh/dario_amodei_on_snl_assuring_viewers_that/",
+      "published": "2026-09-27T15:31:47+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "MUSIC DISCOVERY",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wrwqyt/music_discovery/",
+      "published": "2026-09-27T21:50:19+00:00",
+      "summary": "I have 3800 songs downloaded onto my hard drive that has been curated over many decades - it's the soundtrack of my life. I don't stream music. I do have a Spotify account for music discovery. I created an .exe. file of every title in my downloaded music and then downloaded 15 years of Spotify history and uploaded both to GPT. I then set a schedule and told it to send me ten song recs every Friday based on all the information. With each song it recommends, I'll give it a rating - so it can further refine my tastes. The first ten came through on Friday and three of the 10 songs went into my playlist - that's a more successful ration than Spotify's Discover Playlist. This is much more robust that naming off your fav. ten artists. I know this isn't a new hack - Just sharing with anyone else who hadn't explored this possibility. EDIT: I'll answer a few questions here. Here is the first ten song recs it gave me: https://preview.redd.it/p9jrd1av85sh1.png?width=857&format=png&auto=webp&s=7fc4",
+      "author": "Aromatic-Alfalfa2072"
+    }
+  ]
+}

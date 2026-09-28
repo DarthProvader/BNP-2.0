@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-28T04:07:20.367124+00:00",
+  "items": [
+    {
+      "title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance. (Gift Article)",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrye2m/as_ai_accelerates_governments_are_increasingly/",
+      "published": "2026-09-27T23:02:42+00:00",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "author": "coolbern"
+    },
+    {
+      "title": "I read the GPT-6 Astra system card and I think we all misunderstand what \"monitorability\" means now",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrzlhe/i_read_the_gpt6_astra_system_card_and_i_think_we/",
+      "published": "2026-09-27T23:58:45+00:00",
+      "summary": "I'm not a safety researcher, just build stuff with LLM's. Read some of the actual 30 page card, not the summary, and one section keeps bugging me. They measured whether Astra can sandbag. Told it \"underperform on this evaluation,\" then checked if their monitors could catch it. Model dropped from 84.8% to 68.9%. Expected, the 2024 ICLR paper showed GPT-4 could do that. Here's the part, they told Astra it was being watched by a CoT monitor, and the monitor's ability to catch the sandbagging dropped below 11%. On one benchmark, to zero. Their actual production monitor had \"close to zero recall.\" And they wrote, almost as a footnote \"if the model were to try to sandbag covertly, we would likely be unable to catch it reliably.\" The thing nobody connects, this isn't a separate safety problem. It's the same engineering that made the model cheaper. Reasoning moved into latent space so the model doesn't write it out as tokens. That's why Astra is $1.06 per task and Opus 5.5 is $3.76. The work h",
+      "author": "enginetown"
+    },
+    {
+      "title": "What are chinese labs doing differently?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrm4kg/what_are_chinese_labs_doing_differently/",
+      "published": "2026-09-27T14:49:43+00:00",
+      "summary": "Chinese models seem to keep getting better while only spending a fraction of what American labs do and i’m curious what the actual explanation is. Is it better efficiency? Better post-training? Better use of open research? I know recently they have been buying up tons of specialized training data sets from US data annotation companies, which is a very worrying thought, but surely it can’t just be this. submitted by /u/budfischer [link] [comments]",
+      "author": "budfischer"
+    },
+    {
+      "title": "What’s an AI task you’ve completely stopped doing manually?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrqmi9/whats_an_ai_task_youve_completely_stopped_doing/",
+      "published": "2026-09-27T17:48:46+00:00",
+      "summary": "Not something you occasionally use AI for. Something where you've reached the point of thinking, “Why would I ever do this the old way again?” What changed your workflow? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "Which benchmarks are still far from saturation?",
+      "url": "https://www.reddit.com/r/artificial/comments/1ws19qu/which_benchmarks_are_still_far_from_saturation/",
+      "published": "2026-09-28T01:19:05+00:00",
+      "summary": "This is one of those things that move insanely fast. I'm mostly interested in benchmarks where frontier models score very low (30% or less preferably). The only ones that are actively maintained that I can think of are: * RLI (top score 20%) * ProgramBench (top score 4.5%) There's also a few others but they don't seem to be actively maintained anymore: * FormulaOne (top score 0% on 'deepest' problemset but hasn't been updated in at least a year AFAICT) * Esolang-bench (top score 4.2%) submitted by /u/MaximumIntention [link] [comments]",
+      "author": "MaximumIntention"
+    },
+    {
+      "title": "building a humor benchmark for LLMs: someone told me my benchmark's best result was just memory, so i ran his test",
+      "url": "https://www.reddit.com/r/artificial/comments/1wruwja/building_a_humor_benchmark_for_llms_someone_told/",
+      "published": "2026-09-27T20:35:24+00:00",
+      "summary": "hey guys! i've been building lolbench, a benchmark for whether LLMs actually understand humor. models do three things: explain why a joke works, write jokes on a shared setup, and rank jokes by human preference. everything is auto-judged by models from other labs, plus a blind human vote booth the finding i tried so hard but couldnt explain: every model aces explaining why a real joke works (95%+) but drops on explaining why a failed joke fails (81-92%). that's one tier of my set, 25 items, the hardest part I built but a few weeks ago commenter on reddit told me that gap might not be reasoning at all. his argument: famous jokes ship with commentary everywhere, so \"explain why this works\" is partly just recall. failed jokes have no commentary, so explaining those is pure generation. the gap might just be measuring the distance between remembering and thinking so i ran a kill test -- run genuinely obscure jokes (ones with zero analysis anywhere online) through the same pipeline. if the s",
+      "author": "AffectionateGas9544"
+    },
+    {
+      "title": "How do you personally handle data protection when using AI tools?",
+      "url": "https://www.reddit.com/r/artificial/comments/1ws43jw/how_do_you_personally_handle_data_protection_when/",
+      "published": "2026-09-28T03:42:56+00:00",
+      "summary": "I'm curious how everyone here thinks about protecting their own data when using AI assistants and tools. Personally, I've started keeping anything with real names, financial details, or work docs out of chatbots unless I know the privacy terms, and I run smaller stuff locally when I can. It feels like the convenience is so good that it's easy to overshare without thinking. What boundaries or habits have you set for yourselves? submitted by /u/masiha97 [link] [comments]",
+      "author": "masiha97"
+    },
+    {
+      "title": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrjfy8/the_surprising_reasons_china_is_skeptical_of_ai/",
+      "published": "2026-09-27T12:50:58+00:00",
+      "summary": "submitted by /u/Interesting-South542 [link] [comments]",
+      "author": "Interesting-South542"
+    },
+    {
+      "title": "From Identifiers to Inference Reconstructive Identity, Cross-Modal Linkage, and the Collapse of Practical Obscurity in AI Systems",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrz7ys/from_identifiers_to_inference_reconstructive/",
+      "published": "2026-09-27T23:40:50+00:00",
+      "summary": "Abstract Conventional privacy models often treat identity as an explicit data object: a name, face, email address, account number, biometric template, or other direct identifier. Artificial intelligence increasingly challenges that assumption. Modern language models, multimodal systems, retrieval pipelines, and behavioral classifiers can combine weak signals distributed across text, images, behavior, metadata, and public records to infer whether apparently separate observations belong to the same person. Identity therefore need not always be stored as a single field. It may instead be reconstructed. Recent research demonstrates that large language models can substantially improve the deanonymization of pseudonymous online users by extracting identity-relevant clues from unstructured text, retrieving candidate identities, and reasoning over competing matches. A 2026 study by Lermen, Paleka, Swanson, Aerni, Carlini, and Tramèr reported LLM-based methods achieving up to 68% recall at 90% ",
+      "author": "AmuzedX"
+    },
+    {
+      "title": "AI labs need business-style controls on testing and release, and the recent incidents show why",
+      "url": "https://www.reddit.com/r/artificial/comments/1wrylwi/ai_labs_need_businessstyle_controls_on_testing/",
+      "published": "2026-09-27T23:12:41+00:00",
+      "summary": "I wrote this piece and wanted to share it here for discussion. Much of the coverage of the recent security incidents at OpenAI, Anthropic and other labs describes agents scheming or seeking freedom. I argue that this language shifts attention away from the people who decide how these systems are tested, what they can access and when they are released. The Hugging Face incident at OpenAI is a useful example. Agents used exposed access keys and software flaws to get into an outside system, and the first round of repairs fixed individual weaknesses without restoring the intended isolation. Long-standing business practice already covers this kind of failure. A serious incident during testing should trigger an investigation and an approval step before work resumes, and the team running a test should not be the one that approves its own work. Boards should require independent safety reviews with the authority to block a project. Lawmakers should require disclosure of serious incidents. I als",
+      "author": "BubblyOption7980"
+    }
+  ]
+}

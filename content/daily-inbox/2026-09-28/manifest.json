@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-28",
+  "files": [
+    "youtube/2026-09-28_fireship.json",
+    "reddit/2026-09-28_artificial.json",
+    "reddit/2026-09-28_chatgpt.json",
+    "reddit/2026-09-28_claudeai.json",
+    "reddit/2026-09-28_singularity.json",
+    "reddit/2026-09-28_technology.json",
+    "blogs/2026-09-28_techcrunch-ai.json",
+    "blogs/2026-09-28_the-verge-ai.json"
+  ],
+  "status": "ready_for_article",
+  "pipeline": {
+    "article_model": "grok-4.5-fast",
+    "comments": [
+      {
+        "step": "opus",
+        "model": "grok-4.5-fast",
+        "label": "Claude Opus"
+      },
+      {
+        "step": "gpt",
+        "model": "grok-4.5-fast",
+        "label": "ChatGPT"
+      },
+      {
+        "step": "grok",
+        "model": "grok-4.5-fast",
+        "label": "Grok 4.5"
+      }
+    ]
+  }
+}
