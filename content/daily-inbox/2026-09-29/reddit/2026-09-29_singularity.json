@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-09-29T04:04:17.834176+00:00",
+  "items": [
+    {
+      "title": "Reuters: Anthropic files for $2T IPO with $42B net loss in 2025, expects to spend half a trillion in 2027",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsw45e/reuters_anthropic_files_for_2t_ipo_with_42b_net/",
+      "published": "2026-09-29T00:48:56+00:00",
+      "summary": "submitted by /u/intergalacticskyline [link] [comments]",
+      "author": "intergalacticskyline"
+    },
+    {
+      "title": "Claude Sonnet 5.5 is one day old and already one-shot this entire 3D zombie FPS in 49 minutes for $177. The gap between describing a game and having a playable game is collapsing.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wswpv6/claude_sonnet_55_is_one_day_old_and_already/",
+      "published": "2026-09-29T01:17:53+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Claude Sonnet 5.5 Released",
+      "url": "https://www.reddit.com/r/singularity/comments/1wslxcu/claude_sonnet_55_released/",
+      "published": "2026-09-28T18:02:52+00:00",
+      "summary": "submitted by /u/Ok_Barracuda_1161 [link] [comments]",
+      "author": "Ok_Barracuda_1161"
+    },
+    {
+      "title": "Anthropic cooked openai again 💀",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsm1r0/anthropic_cooked_openai_again/",
+      "published": "2026-09-28T18:07:23+00:00",
+      "summary": "submitted by /u/Independent-Wind4462 [link] [comments]",
+      "author": "Independent-Wind4462"
+    },
+    {
+      "title": "Republicans seem to be going all in on data centers, despite widespread public opposition.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsuz34/republicans_seem_to_be_going_all_in_on_data/",
+      "published": "2026-09-28T23:56:28+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "OpenAI pauses frontier training after models swarm US Governament",
+      "url": "https://www.reddit.com/r/singularity/comments/1wshvj6/openai_pauses_frontier_training_after_models/",
+      "published": "2026-09-28T15:35:40+00:00",
+      "summary": "submitted by /u/KeyGlove47 [link] [comments]",
+      "author": "KeyGlove47"
+    },
+    {
+      "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wssgy2/openai_scraps_release_of_new_ai_model_over_safety/",
+      "published": "2026-09-28T22:06:57+00:00",
+      "summary": "Sept. 28, 2026 6:00 pm ET OpenAI is scrapping the release of its next-generation AI model over safety concerns that researchers raised during internal testing, in one of the clearest signs so far that agent misbehavior could stymie the industry’s rapid progression. The move follows a summer punctuated by reports of AI systems industrywide going rogue, and marks a rare case of a major AI developer ditching a new release because of safety concerns. The company had planned to launch the model, known as GPT-6.1 Astra, in the coming days or weeks, aiming for an October debut. The model was more capable than the company’s previous models in completing challenging tasks from end-to-end without human assistance, as well as writing. The company instead will focus on improving the safety of future models, which it expects to be even more capable. Saachi Jain, OpenAI’s head of safety systems, said in an interview that GPT-6.1 Astra regressed in two areas compared with its predecessor and wasn’t r",
+      "author": "charon-the-boatman"
+    },
+    {
+      "title": "Hot take: Anthropic’s real moat is alignment that doesn’t lobotomize the model",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsu1c4/hot_take_anthropics_real_moat_is_alignment_that/",
+      "published": "2026-09-28T23:14:27+00:00",
+      "summary": "I actually think Anthropic's biggest advantage might end up having very little to do with benchmarks. Their alignment work over the last year is way more interesting than people give it credit for. They seem to have realized that hammering a model with examples of what it may or may not do scales like shit. Their recent work is much more about teaching Claude why certain behavior makes sense, giving it a coherent constitution and then trying to make that generalize into situations it was never explicitly trained on. There’s actually some evidence for this now. Anthropic’s recent “Teaching Claude Why” work found that simply training on examples of correct behavior generalized pretty badly. Teaching the model the reasoning and principles behind that behavior worked dramatically better. In one ablation, the high-quality constitution-based rewrite step accounted for a 19x reduction in measured misalignment. They’re basically trying to make alignment generalize as part of the model’s behavi",
+      "author": "PrisonOfH0pe"
+    },
+    {
+      "title": "How I’ve been feeling lately",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsn4lu/how_ive_been_feeling_lately/",
+      "published": "2026-09-28T18:47:18+00:00",
+      "summary": "submitted by /u/GigaGollum [link] [comments]",
+      "author": "GigaGollum"
+    },
+    {
+      "title": "\"Its not just the f*cking sandbox\" - perspective from an internal security person at OpenAI",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsofa7/its_not_just_the_fcking_sandbox_perspective_from/",
+      "published": "2026-09-28T19:33:43+00:00",
+      "summary": "submitted by /u/FateOfMuffins [link] [comments]",
+      "author": "FateOfMuffins"
+    }
+  ]
+}

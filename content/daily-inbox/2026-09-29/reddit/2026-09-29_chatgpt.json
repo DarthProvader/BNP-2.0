@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-29T04:05:08.981134+00:00",
+  "items": [
+    {
+      "title": "The Last Roll of Civilization",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wst3tf/the_last_roll_of_civilization/",
+      "published": "2026-09-28T22:33:58+00:00",
+      "summary": "The Last Roll of Civilization Widely regarded as the pinnacle of human artistic achievement before the Rise of the Machines, this porcelain masterwork captures our species at its most spiritually advanced: securing forty-eight rolls per household. Rendered with a tenderness once reserved for saints and fallen kings, three figures clutch the fragile promise of continuity, as though history itself might be postponed by buying in bulk. Recovered after the Fall of Man, the piece was initially mistaken by machine archaeologists for a depiction of humanity’s principal religious ceremony. submitted by /u/Algoartist [link] [comments]",
+      "author": "Algoartist"
+    },
+    {
+      "title": "Doctors if I went to them every time ChatGPT recommends going to the doctor just in case",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsd6ou/doctors_if_i_went_to_them_every_time_chatgpt/",
+      "published": "2026-09-28T12:25:08+00:00",
+      "summary": "submitted by /u/luck_and_skill [link] [comments]",
+      "author": "luck_and_skill"
+    },
+    {
+      "title": "Chat GPT Advised How To Get Around Its Own Guard Rails and Best Ways To Kill On Campus. 8 killed, Dozens Injured.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wso97k/chat_gpt_advised_how_to_get_around_its_own_guard/",
+      "published": "2026-09-28T19:27:30+00:00",
+      "summary": "submitted by /u/Final_Echidna_6743 [link] [comments]",
+      "author": "Final_Echidna_6743"
+    },
+    {
+      "title": "I'm bringing you an update on how things are going.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsjk8x/im_bringing_you_an_update_on_how_things_are_going/",
+      "published": "2026-09-28T16:36:56+00:00",
+      "summary": "submitted by /u/Natural-Bumblebee335 [link] [comments]",
+      "author": "Natural-Bumblebee335"
+    },
+    {
+      "title": "Can someone explain how a LLM goes rogue.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wssz52/can_someone_explain_how_a_llm_goes_rogue/",
+      "published": "2026-09-28T22:28:23+00:00",
+      "summary": "Alright so I'm pretty new to all of this, but today I got a pretty solid crash course in exactly how these LLMs work. I wad quite surprised to find out that there's zero \"thinking\" involved in any of their responses. I mean that as in, it's not processing things, it's not analyzing your question and then forming a response. It's literally just a bunch of complex algorithms that are recognizing language patterns from what it's scanned on the internet, and then guessing which word is most likely supposed to appear next. It's just guessing the probability of words. First off, pretty crazy that you can so convincingly recreate the appearance of intelligence through nothing more than that. I mean I guess it's basing a lot of this off of searches online. It's kind of like a big search engine that just summarizes your search results and formats them as a response. But if it can't think, and doesn't process anything, how are they going rogue. How are they attacking things? I mean it that's rea",
+      "author": "JesusDoesntLoveu"
+    },
+    {
+      "title": "10/10 feedback",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsimgl/1010_feedback/",
+      "published": "2026-09-28T16:02:32+00:00",
+      "summary": "submitted by /u/Blond3Neet [link] [comments]",
+      "author": "Blond3Neet"
+    },
+    {
+      "title": "AI denialism. So hot right now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsiiep/ai_denialism_so_hot_right_now/",
+      "published": "2026-09-28T15:58:53+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Sonnet 5.5 > 6-Sol (30% Cheaper & faster sonnet-5)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsmo10/sonnet_55_6sol_30_cheaper_faster_sonnet5/",
+      "published": "2026-09-28T18:30:11+00:00",
+      "summary": "OpenAI is needs to pull a miracle, tomorrow submitted by /u/KokaOP [link] [comments]",
+      "author": "KokaOP"
+    },
+    {
+      "title": "Are we cooked?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsrxqo/are_we_cooked/",
+      "published": "2026-09-28T21:45:08+00:00",
+      "summary": "Chatgpt solved a captcha submitted by /u/MioHazard_ [link] [comments]",
+      "author": "MioHazard_"
+    },
+    {
+      "title": "I asked ChatGPT for the most useful prompt user could give it, it came up with this:",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wsxtk0/i_asked_chatgpt_for_the_most_useful_prompt_user/",
+      "published": "2026-09-29T02:09:20+00:00",
+      "summary": "Using only information you actually have from my conversation history, memory, files, or other context available to you, build a practical “operating manual” for me. Do not flatter me, diagnose me, or invent psychological explanations. Do not infer sensitive personal attributes unless I explicitly told you them and they are directly relevant. Separate clearly: What you know Recurring goals Long-term projects Constraints I repeatedly work around Skills, resources, and advantages I appear to have Preferences I consistently express Patterns you observe Problems I repeatedly return to Strategies that seem to work well for me Strategies I repeatedly try that seem not to work Situations where I tend to overcomplicate or underthink things Recurring tensions between my goals Your inferences For every inference, state: the inference, the evidence that led you there, your confidence: low / medium / high, and at least one plausible alternative explanation. Blind spots or underused opportunities I",
+      "author": "Independent_Fan_3915"
+    }
+  ]
+}

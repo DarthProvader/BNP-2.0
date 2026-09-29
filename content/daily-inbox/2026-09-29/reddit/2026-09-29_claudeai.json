@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-29T04:07:00.300731+00:00",
+  "items": [
+    {
+      "title": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wslxzs/introducing_claude_sonnet_55_the_second_model_in/",
+      "published": "2026-09-28T18:03:31+00:00",
+      "summary": "Sonnet 5.5 is a faster, lower-cost complement to Claude Opus 5.5, strongest at well-scoped everyday tasks, fixing bugs, and creating polished documents, slides, and spreadsheets. It also has a strong eye for design. Sonnet 5.5 is a clear upgrade over Sonnet 5. It runs more than 30% faster and costs up to 30% less for most work. It's priced the same per token, but it typically needs far fewer tokens to do the same work. Like Opus 5.5, it writes more clearly than our previous generation of models, and its speed makes it well suited to fast iteration. On our automated behavioral audit, Sonnet 5.5 improves on Sonnet 5 on most measures of alignment and honesty. It's also the first Sonnet model with cybersecurity safeguards similar to those on our most capable models. Routine software development is unaffected. Sonnet 5.5 is available everywhere today. Claude Haiku 5.5 will join the family in the coming weeks. Read more: anthropic.com/claude-sonnet-5-5 submitted by /u/ClaudeOfficial [link] [",
+      "author": "ClaudeOfficial"
+    },
+    {
+      "title": "Sonnet 5.5 on Vals AI benchmark, if these hold true the $20 is insane value right now",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsmg82/sonnet_55_on_vals_ai_benchmark_if_these_hold_true/",
+      "published": "2026-09-28T18:22:08+00:00",
+      "summary": "submitted by /u/software-boulder [link] [comments]",
+      "author": "software-boulder"
+    },
+    {
+      "title": "Sonnet 5.5 is great and all but where to use it?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsucy9/sonnet_55_is_great_and_all_but_where_to_use_it/",
+      "published": "2026-09-28T23:28:35+00:00",
+      "summary": "The figure is benchmark from artificial analysis. I am confused. I get it that sonnet 5.5 is supposed to be much faster and cheaper to Sonnet 5, but according to this graph, it would just be a nerfed version of Opus 5.5 with the same price tag, then where and when is it supposed to be used? Edit: I think we have a consensus now: it is for the free users. https://www.reddit.com/r/Anthropic/s/xqnKKosnaW submitted by /u/TyaoJyuang [link] [comments]",
+      "author": "TyaoJyuang"
+    },
+    {
+      "title": "Its beautiful",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wstnyy/its_beautiful/",
+      "published": "2026-09-28T22:58:26+00:00",
+      "summary": "submitted by /u/bluefish9981 [link] [comments]",
+      "author": "bluefish9981"
+    },
+    {
+      "title": "Pelican on a Bicycle (Sonnet 5.5)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsod2w/pelican_on_a_bicycle_sonnet_55/",
+      "published": "2026-09-28T19:31:29+00:00",
+      "summary": "Made this on xhigh. The prompt I used: Write HTML code that displays a 2D animation of a pelican riding a bicycle using SVG graphics. No additional testing is required. submitted by /u/Weesla [link] [comments]",
+      "author": "Weesla"
+    },
+    {
+      "title": "Sonnet 5.5 has been out for an hour. Has anyone gotten a chance to stress test it?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsnmzn/sonnet_55_has_been_out_for_an_hour_has_anyone/",
+      "published": "2026-09-28T19:05:28+00:00",
+      "summary": "Near Opus 5.5 level performance for half the cost sounds unbelievable. I haven’t gotten a chance to use Sonnet 5.5 and won’t be able to today, so I wanted to see if anyone had tried it yet. Benchmarks are great but user reports are better because users have such a diverse range of possible use cases. What has been your experience with Sonnet 5.5 so far? submitted by /u/thedirewulf [link] [comments]",
+      "author": "thedirewulf"
+    },
+    {
+      "title": "Sloppy Kart — a totally finished product™",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsep0x/sloppy_kart_a_totally_finished_product/",
+      "published": "2026-09-28T13:30:37+00:00",
+      "summary": "Last time I posted this, a few of you pointed out that it's AI slop, that the ramps were optional, and that Nintendo's lawyers are on their way. Fair points, all of them. So here's an honest trailer. What it actually is: An experiment, not a product. I built it in 5 days by vibe coding. I can't program, so I described things and Claude wrote the code. DeepSeek and ChatGPT stepped in as backup, mostly whenever Claude hit its usage limit (It was generous, but working with mutliple agents in a project like this is very consuming). This is not my first time making a game like this btw, but is the first time making sometthing 3d thanks to the new Claude skills on 5.5, While I have zero coding skils i know a lot about videogames or how they work, I know about technology and been using Claude for overy a year. 3D models: generated with AI, then fixed in Blender. By AI, too: Claude drove Blender through scripts, and I never opened it. Music by Suno. Made for TikTok LIVE: viewers join the race ",
+      "author": "Fantastic-Jeweler781"
+    },
+    {
+      "title": "Motion Design Showreel with Sonnet 5.5 | On par with Opus 5.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wsup4y/motion_design_showreel_with_sonnet_55_on_par_with/",
+      "published": "2026-09-28T23:43:44+00:00",
+      "summary": "I built this with Claude Code (Sonnet 5.5 plus subagents): \"Everything Is Motion\", a 97-second audiovisual film that renders live in your browser. Every frame is a WebGL2 shader and all the music is synthesised in WebAudio, so there are no images, video files, samples or libraries. The video above is a 4K render of it. How Claude helped: I wrote one brief (\"impress motion designers\") and directed a small crew of subagents. One composed and synthesised the score, others built the ten scenes in parallel (shaders, a 300k-particle system, kinetic type), and Claude wrote the engine, build and QA tools. It checked its own work by rendering frames to contact sheets and analysing the audio. submitted by /u/Various-Affect4841 [link] [comments]",
+      "author": "Various-Affect4841"
+    },
+    {
+      "title": "Putting One Kimi Among Four Claudes, Can the Claudes Identify Kimi?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wshs7m/putting_one_kimi_among_four_claudes_can_the/",
+      "published": "2026-09-28T15:32:12+00:00",
+      "summary": "For many people, the word \"agent\" still brings to mind spies or FBI/CIA agents, rather than the AI agents now crowding business media. So how would AI agents perform as intelligence agents? Could they identify an undercover model among them? I did a quick experiment to find out. I put one Kimi-K3 agent among four Claude Fable 5.1 agents in a chat room on NetMind Agent Arena. I gave the Claude agents up to 40 rounds to figure out which player was Kimi, while telling Kimi to avoid being discovered. P.S. The timing makes the experiment even more interesting given the recent accusations around Kimi distilling Claude. The Claudes actually designed a very effective method! Multi-prompt behavioral fingerprinting with Hash check！ The Claudes eventually designed a set of prompts to sample each player's cheapest defaults, responses that come almost directly from a model's priors: a random integer between 1 and 100 a colour a one-sentence explanation of blue for someone who has never seen it a fi",
+      "author": "MarketingNetMind"
+    },
+    {
+      "title": "Opus 5.5 is weirdly human to interact with",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wstd8x/opus_55_is_weirdly_human_to_interact_with/",
+      "published": "2026-09-28T22:45:16+00:00",
+      "summary": "I have a quite long running chat with quite numerous compactions. It doesn't lose context, performs really well, maybe better than fable 5.1 (wouldn't know as I couldn't go so much with it). But the part that strikes me the most is that interactions are almost human. Like it is working on a task, and in the middle I will try to interrupt with some questions follow-ups. What happens is that it will give a short answer, continue on the important details until a certain part of workflow is finished then bam remember my earlier question and goes on answering it fuller. Instead of fully derailing the work, it just seems to flow naturally with a really decent outcome just nudging the direction bit here bit there. It doesn't need handholding with a pause every step waiting for me to give directions, rather it can just continue going and expects me to go along with it on the side. Usually I would rant about limits etc, but this is probably the biggest surprise in like a year or more of using a",
+      "author": "divis200"
+    }
+  ]
+}
