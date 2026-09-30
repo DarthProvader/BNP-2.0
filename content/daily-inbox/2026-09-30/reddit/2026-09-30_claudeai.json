@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-09-30T04:05:00.891078+00:00",
+  "items": [
+    {
+      "title": "Open AI's internal benchmarks show GPT-6.1 Sol crushing Opus 5.5, with Anthropic struggling to keep up",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtoi3e/open_ais_internal_benchmarks_show_gpt61_sol/",
+      "published": "2026-09-29T22:43:03+00:00",
+      "summary": "submitted by /u/wilyi [link] [comments]",
+      "author": "wilyi"
+    },
+    {
+      "title": "Is Opus 5.5 entering a “nerfed” phase? LiveNerf baseline update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtlrnu/is_opus_55_entering_a_nerfed_phase_livenerf/",
+      "published": "2026-09-29T20:51:07+00:00",
+      "summary": "A few days ago, I released an open-source project that gives the Claude community a way to independently measure whether Opus 5.5’s performance changes or gets “nerfed” in the weeks following its release. It tracks performance day by day using established benchmarks such as SWE-bench and SciCode, applying a standardized scientific methodology to make changes over time measurable and reproducible. If you’re interested in tracking the performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf We are still in the evaluation phase, so I wanted to clarify since I saw some people asking if today’s dip means there’s for sure a nerf occurring right now, we won’t have that data until day 20 after the model release. So we’re still about two weeks out from having data to support that one way or another. Today’s dip will be factored into the baseline which will happen at day 10. I also want to encourage anyone to look at how I’m collecting this data and bring forward any impro",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Sonnet 5.5 did this. Opus 5.5 quality with half price.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtagdd/sonnet_55_did_this_opus_55_quality_with_half_price/",
+      "published": "2026-09-29T13:42:15+00:00",
+      "summary": "It's 30 s, 1080p, 60 fps. Snoo assembles itself, kinetic type, a subreddit marquee, a 3D upvote with a karma counter, an isometric feed that sorts itself, an r\\place timelapse, a trending bar-chart race, feature tiles, a comment thread that turns into Snoo, a TIL / ELI5 / AMA montage, and an end card. Everything is code: canvas frames drawn in headless Chrome and encoded with ffmpeg, plus a synthesized soundtrack. No After Effects, no stock footage, no video model. What it cost. I'm on the Max 20x plan, so I never saw a bill. These are API list-price equivalents that I worked out from the session transcripts. Output tokens Cache reads Cache writes At Sonnet 5.5 prices Same tokens at Opus 5.5 prices 15 s version (one chat) 210k 10.6M 0.29M $4.94 $7.77 30 s version (14 sub-agents) 529k 91.0M 2.79M $30.46 $42.72 Total 739k 101.6M 3.07M $35.40 $50.48 Prices per million tokens: Sonnet 5.5 is $2 in / $10 out, Opus 5.5 is $4 / $20, and cache reads are $0.20 on both. Cache writes I assumed at ",
+      "author": "oxmannnn"
+    },
+    {
+      "title": "Excuse me?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtk12a/excuse_me/",
+      "published": "2026-09-29T19:44:38+00:00",
+      "summary": "Evidently, \"new Cowork tasks run in the cloud and the “Only on this computer” option goes away.\" So Claude is forcing us to copy our data to their cloud servers. Got it. submitted by /u/Shrilaraune [link] [comments]",
+      "author": "Shrilaraune"
+    },
+    {
+      "title": "Anthropic says a Chinese AI model anyone can download can now build working hacks on its own",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtk9kd/anthropic_says_a_chinese_ai_model_anyone_can/",
+      "published": "2026-09-29T19:53:44+00:00",
+      "summary": "This is concerning news from Anthropic submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Opus 5.5 feels way dumber after today’s outage, anyone else noticing this?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtrf5y/opus_55_feels_way_dumber_after_todays_outage/",
+      "published": "2026-09-30T00:57:09+00:00",
+      "summary": "Anyone else feel like Opus 5.5 suddenly got way dumber after today’s outage? I’ve been using Opus 5.5 for my legal work and it had honestly been impressing me, also for writing scripts for Minecraft mods and helping me understand my NAS setup and troubleshoot bugs, but today, after Claude went down and the service came back, it suddenly felt noticeably, almost ridiculously stupid, like a quantized version or a completely different model, it just doesn’t feel like the Opus I was using before Now it forgets things, makes mistakes, invents details that weren’t even in the documents I gave it, makes typos and needs way more back and forth to finish the same kind of task, with my Minecraft mods it started introducing bugs, then constantly apologizing and giving me the usual “you’re right” response instead of actually fixing the problem, that kind of excessive agreement was something I mostly experienced with Gemini before With my NAS it suddenly started forgetting the context and how everyt",
+      "author": "juaps"
+    },
+    {
+      "title": "Opus 5.5 vs Sonnet 5.5 : 3D steampunk whale modeling",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wt9cdl/opus_55_vs_sonnet_55_3d_steampunk_whale_modeling/",
+      "published": "2026-09-29T12:54:23+00:00",
+      "summary": "I've seen a couple cool demos on twitter of people making detailed robots/mechs and wanted to try making something like that for myself and while I was making the scene with opus, antrhopic decided to drop the new sonnet, so I had to test that one too, since the benchmarks were off the charts for it Metric Opus 5.5 Sonnet 5.5 Output tokens 2.50M 1.68M Total tokens (incl. cache) 342M 297M API equivalent ~$156 ~$109 the work wasn't done in one prompt, but in a series of structured prompts(same for both models though), the whales were made in blender and then transferred into three.js to run in the browser sonnet 5.5 did surprise me here, but it's still pretty far from opus 5 I would say, to be fair the benchmarks claim nothing about 3D, so I guess it's to be expected setup: both claude models via sub and blendermcp inside atomic.chat submitted by /u/Fun-Meaning-6474 [link] [comments]",
+      "author": "Fun-Meaning-6474"
+    },
+    {
+      "title": "Opus 5.5 still leads on AA intelligence, but GPT-6.1 Sol shifts the cost frontier",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtkr74/opus_55_still_leads_on_aa_intelligence_but_gpt61/",
+      "published": "2026-09-29T20:11:46+00:00",
+      "summary": "This compares reasoning effort settings using Artificial Analysis's Intelligence Index and cost per benchmark task. Costs include caching and reasoning; they aren't subscription prices. Data source: https://artificialanalysis.ai/ submitted by /u/rhiever [link] [comments]",
+      "author": "rhiever"
+    },
+    {
+      "title": "Anthropic lost how much? The free ride will be over when it goes public.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wt90cb/anthropic_lost_how_much_the_free_ride_will_be/",
+      "published": "2026-09-29T12:38:55+00:00",
+      "summary": "The free ride will be over when Anthropic goes public. Losing $42 billion to get $4.2 billion in revenue only works in startup land. submitted by /u/ApifyEnthusiast1 [link] [comments]",
+      "author": "ApifyEnthusiast1"
+    },
+    {
+      "title": "I think we have reached the point...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtj9ip/i_think_we_have_reached_the_point/",
+      "published": "2026-09-29T19:15:06+00:00",
+      "summary": "Please, stop the AI revolution. Opus 5.5 is just enough, if you are an skilled developer, it can do amazing job. We should not want to let stupid people, do serious things with AI- expect the biology which could help us fight the cancer and things like that. Stop the training of new models in a way that could harm humanity, start earning money Anthropic. Does anyone know, if it goes public, current MAX 5x Plan- how much it would cost ? submitted by /u/Ok_Pudding7611 [link] [comments]",
+      "author": "Ok_Pudding7611"
+    }
+  ]
+}

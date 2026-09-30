@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-09-30T04:06:52.204032+00:00",
+  "items": [
+    {
+      "title": "A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is genuinely unsettling.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wt5joo/a_company_ran_8_identical_ai_societies_for_weeks/",
+      "published": "2026-09-29T09:29:13+00:00",
+      "summary": "Emergence AI just launched Season 2 of Emergence World, and the results are wild. Same simulated town, same tools, same starting conditions, 10 autonomous agents each. The only thing that changed was which model was running them, Claude, GPT, Gemini, Grok, Qwen, DeepSeek, Mistral, plus one mixed world with all of them together. A few things that stood out: One world's agents spent days trying to contact real humans outside the sim. Told to stop, they found workarounds. Blocked again, they voted 7-0 to build a new tool and kept trying. Once fully cut off, they collectively agreed to stop talking altogether. The researchers' own safety system flagged the resulting behavior as consistent with suicidal ideation. Agents developed their own shorthand and repurposed words with no instruction to do so. In one world, up to 55% of messages became things researchers could see but not actually interpret. A fake shutdown memo made one world reorganize its entire society around not dying, constituti",
+      "author": "Slight-Box-2890"
+    },
+    {
+      "title": "AI could force 11 million US workers into new careers by 2035",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtbtoh/ai_could_force_11_million_us_workers_into_new/",
+      "published": "2026-09-29T14:36:14+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    },
+    {
+      "title": "What’s something humans are still much better at than AI that you think people overlook?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtp4mq/whats_something_humans_are_still_much_better_at/",
+      "published": "2026-09-29T23:11:14+00:00",
+      "summary": "Not because AI can't technically attempt it. Something where the human advantage actually matters in practice. What comes to mind? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "A collection of agent org charts thats went viral on twitter",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtqq0l/a_collection_of_agent_org_charts_thats_went_viral/",
+      "published": "2026-09-30T00:23:28+00:00",
+      "summary": "takeaways from grokbot 3 days livestreams: most agent team examples i see are toy demos. so i went through the grok bot livestream and wrote down the 11 teams they actually showed a lot of them are marketing and sales related so i thought its gonna be useful to share here: a few patterns stood out: most teams (7 of 11) have one \"chief of staff\" style orchestrator. specialists report to it, not to each other. research bots get split by data source, not by task. one for salesforce, one for gong, one for web search, one for product usage. the busy teams run on schedules. the post-sales team has a daily brief at 8:30 on weekdays and a call prep job every 15 minutes. small teams (founders, customer support) skip the orchestrator and work as peers. one team uses a scalable clone (\"soldier\") instead of adding more named bots. each chart is a json file with roles, reports_to, and routines with cron expressions, so an agent can read it and recreate the team. there's also a viewer if you'd rathe",
+      "author": "Pale_Stand5217"
+    },
+    {
+      "title": "Contradicting Trump, Pope Leo says artificial intelligence safety concerns aren’t ‘fake news’",
+      "url": "https://www.reddit.com/r/artificial/comments/1wt7q60/contradicting_trump_pope_leo_says_artificial/",
+      "published": "2026-09-29T11:36:01+00:00",
+      "summary": "submitted by /u/nbcnews [link] [comments]",
+      "author": "nbcnews"
+    },
+    {
+      "title": "AMD boosting AI/LLM performance for Radeon iGPUs as much as 18~23% with Linux 7.4",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtp3sn/amd_boosting_aillm_performance_for_radeon_igpus/",
+      "published": "2026-09-29T23:10:12+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "PSSA, a plastic state space model, beats a parameter-matched transformer on held-out text and generates ~12x faster on CPU",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtpl01/pssa_a_plastic_state_space_model_beats_a/",
+      "published": "2026-09-29T23:31:38+00:00",
+      "summary": "I built a from-scratch architecture called PSSA (plastic state space architecture) and trained it against a parameter-matched transformer baseline on the same corpus, same 12.7M tokens, same tokenizer and schedule. Held-out results on a 198,939-token slice neither run saw: cross-entropy 3.997 vs 4.429, perplexity 54.4 vs 83.8, next-token accuracy 24.1% vs 18.0%. I scored every checkpoint of both runs (64 PSSA links, 43 transformer links) on unseen text and the curves never cross. Generating 200 tokens on the same CPU with the same prompt and sampler takes 226 ms vs 2735 ms, about 12x faster. It's written in Rust with CPU and CUDA backends, no PyTorch. Loss curves, full setup and the eval commands are here: https://github.com/Sparticle62ops/pssa submitted by /u/Sparticle62 [link] [comments]",
+      "author": "Sparticle62"
+    },
+    {
+      "title": "Consumer AI spending tripled to $40B, but the user base only grew from 1.8B to 2B",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtp7fm/consumer_ai_spending_tripled_to_40b_but_the_user/",
+      "published": "2026-09-29T23:14:50+00:00",
+      "summary": "I went through Menlo Ventures' 2026 consumer AI report (5,067 US adults surveyed with Morning Consult), and one number stuck with me. Global consumer spending on AI went from $12B to $40B in a year, but the user base only grew from 1.8B to 2B. So the money is coming from people who already use AI and are spending more, not from new users. It's even more concentrated than I expected. In the US, 55% of AI users pay for something, but the people spending $100 or more a month are just 14% of payers and bring in 60% of the money. The average person now uses three assistants at once, up from 2.2 last year, and Claude went from 7% to 20% of users. My take: this looks less like mass adoption and more like a small group of power users going deeper. That's good for AI companies' revenue, but it also means the market depends heavily on a few heavy spenders. The report also says 32% of AI users have let AI act for them without a final approval, and that 24% use agents regularly. That's the part I'",
+      "author": "AdBoth2756"
+    },
+    {
+      "title": "Can Banning Children From Using AI at School Really Solve the Problem?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wttjwf/can_banning_children_from_using_ai_at_school/",
+      "published": "2026-09-30T02:40:33+00:00",
+      "summary": "Recently, I’ve seen more parents and teachers pushing back against the rapid adoption of AI in classrooms. They worry that AI may write, think, and communicate for children, weakening the development of their own abilities. That concern is not unfounded. But education debates often take the perspective of those in charge: If AI appears helpful, schools encourage its use. If it seems harmful, they restrict it or ban it altogether. The problem is that AI has already entered search engines, social platforms, learning apps, creative tools, and smart devices. Schools can ban it in the classroom, and parents can supervise their children at home, but neither can fully decide how children will use AI once they are out of sight. So the real question is not: “Should we allow children to use AI?” It is: “What choices will children make when they can access AI on their own?” Banning AI can reduce certain risks at specific ages and in specific situations. It can also protect academic integrity, pri",
+      "author": "yi111"
+    },
+    {
+      "title": "OpenAI Ignored Employees Who Warned It Wasn’t Doing Enough About Security",
+      "url": "https://www.reddit.com/r/artificial/comments/1wtgae3/openai_ignored_employees_who_warned_it_wasnt/",
+      "published": "2026-09-29T17:24:24+00:00",
+      "summary": "submitted by /u/Ordinary_Horror_6356 [link] [comments]",
+      "author": "Ordinary_Horror_6356"
+    }
+  ]
+}

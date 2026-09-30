@@ -1,0 +1,48 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-09-30T04:02:00.372749+00:00",
+  "items": [
+    {
+      "title": "OpenAI Gets Sued Over the Hugging Face Hack",
+      "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+      "published": "2026-09-29T18:05:00+00:00",
+      "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
+      "published": "2026-09-29T17:03:01+00:00",
+      "summary": "“The experiments are still in the queue. The PR is already live,” says one expert.",
+      "author": "Emily Mullin, Anna Rogers"
+    },
+    {
+      "title": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+      "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+      "published": "2026-09-29T16:15:00+00:00",
+      "summary": "These cute agents are designed to connect to your apps and tackle multistep tasks.",
+      "author": "Reece Rogers"
+    },
+    {
+      "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+      "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+      "published": "2026-09-29T09:36:22+00:00",
+      "summary": "The company said its latest Astra model would undergo more work to meet safety standards, and issued an apology for the way it handled the hacking of an Australian government website.",
+      "author": "Isabella Ward"
+    },
+    {
+      "title": "Timnit Gebru Believes There Is No ‘Existential Threat’ From AI",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
+      "published": "2026-09-29T09:30:00+00:00",
+      "summary": "One of AI’s fiercest critics believes the doom talk is about founders making money, not saving humanity.",
+      "author": "Lauren Goode"
+    }
+  ]
+}

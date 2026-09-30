@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-09-30T04:04:09.754690+00:00",
+  "items": [
+    {
+      "title": "OpenAI just launched a $500/month plan and cut the $200 Pro in half. What the actual fuck.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wthna3/openai_just_launched_a_500month_plan_and_cut_the/",
+      "published": "2026-09-29T18:14:31+00:00",
+      "summary": "OpenAI just launched Pro 500 . That’s five hundred dollars a month . Six grand a year. For Ultrafast so Astra can spit tokens faster in Codex. Meanwhile they halved the usage on the $200 Pro plan and put it back on sale like that’s a gift. So the ladder is now: $20 Plus -peasant $200 Pro - you get less than last month $500 Pro 500 - congratulations you may go brrr submitted by /u/Different-Mess4248 [link] [comments]",
+      "author": "Different-Mess4248"
+    },
+    {
+      "title": "The premium experience",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqzq2/the_premium_experience/",
+      "published": "2026-09-30T00:36:15+00:00",
+      "summary": "submitted by /u/albanianspy [link] [comments]",
+      "author": "albanianspy"
+    },
+    {
+      "title": "Anthropic reported a net loss of $42 billion in 2025",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wt9wnh/anthropic_reported_a_net_loss_of_42_billion_in/",
+      "published": "2026-09-29T13:18:45+00:00",
+      "summary": "This according to Reuters who got an advanced copy of the IPO prospectus. Ed Zitron is going to have a field day with this... submitted by /u/DavidM47 [link] [comments]",
+      "author": "DavidM47"
+    },
+    {
+      "title": "How to create Deformable simulation Objects With GPT 6 Astra",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtq7rj/how_to_create_deformable_simulation_objects_with/",
+      "published": "2026-09-30T00:00:37+00:00",
+      "summary": "How to create deformable objects with RobotGym : GPT -6 Astra squeezing a water bottle with accurate physics. This is very useful for LLM-based robotics training done in simulation. The bottle is a 0.3 mm PET shell with real material values: 3 GPa stiffness, 55 MPa yield. We simulate it on GPU with Newton's VBD solver, with self-contact on, so the wall buckles like plastic instead of squishing like rubber. The hard part was making the dent stay. We wrote a custom plasticity kernel. When the wall bends past PET's yield point, that crease becomes its new resting shape. Let go, and the bottle stays crushed. The water is 32,000 particles in our own position-based fluid solver. It keeps its volume, so as the bottle gets smaller the water has nowhere to go but up and out of the neck, and down the side. Then it's all path-traced in a full apartment: clear PET, refracting water, a real Franka doing the squeeze. https://reddit.com/link/1wtq7rj/video/tbxsntzxsjsh1/player submitted by /u/rocky_mo",
+      "author": "rocky_mountain12"
+    },
+    {
+      "title": "GPT-6.1 Sol Will Release Today",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtgers/gpt61_sol_will_release_today/",
+      "published": "2026-09-29T17:28:49+00:00",
+      "summary": "Is Openai back? submitted by /u/Vagottszemu [link] [comments]",
+      "author": "Vagottszemu"
+    },
+    {
+      "title": "Using GPT-6.1 Sol only as the planner and letting a local 27B write the code cut my API bill by 77%",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqp7l/using_gpt61_sol_only_as_the_planner_and_letting_a/",
+      "published": "2026-09-30T00:22:28+00:00",
+      "summary": "Sol 6.1 came out today and the first thing I wanted to know was whether the architect/editor split still pays off when the smart model is already cheap. Short version: on API spend, yes. I built the same three small 3D games (pool, bowling, foosball) three ways: Game Sol alone Sol plans, local Qwen 3.8 27B codes Qwen 27B alone Pool $0.39 · 2.9 min $0.05 · 18.6 min $0.00 · 43.1 min (attempt) Bowling $0.14 · 1.7 min $0.06 · 13.7 min $0.00 · 34.7 min Foosball $0.22 · 2.0 min $0.06 · 11.1 min $0.00 · 36.4 min Total $0.75 · 6.6 min $0.17 · 43.4 min $0.00 · 114.2 min So 77% less than Sol alone. Local side was a single RTX 3090 (24 GB). Why it works is pretty boring. Most of the tokens in a coding run are the code itself. The planning and the review are a small slice. So if the expensive model only splits the task and reads what comes back, the bulk of the output lands on the model you don't pay per token for. It's the same idea as aider's architect mode, just with the editor side on your own",
+      "author": "GapNew4766"
+    },
+    {
+      "title": "Ultimate form of NEXT GEN AGI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtey0w/ultimate_form_of_next_gen_agi/",
+      "published": "2026-09-29T16:34:23+00:00",
+      "summary": "submitted by /u/Informal-Device-8511 [link] [comments]",
+      "author": "Informal-Device-8511"
+    },
+    {
+      "title": "I guess even ChatGPT dislikes our president",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wttdlw/i_guess_even_chatgpt_dislikes_our_president/",
+      "published": "2026-09-30T02:31:41+00:00",
+      "summary": "submitted by /u/Southern-Garden-6253 [link] [comments]",
+      "author": "Southern-Garden-6253"
+    },
+    {
+      "title": "do you guys actually tell ChatGPT stuff you wouldn't tell anyone else?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wthuok/do_you_guys_actually_tell_chatgpt_stuff_you/",
+      "published": "2026-09-29T18:21:58+00:00",
+      "summary": "kinda realized i type things into AI chats that i'd never say to a friend. money problems, work stuff, health worries, random late-night thoughts lol then i found out all of it is stored on their servers and could be used for training or leaked if they ever get hacked. kinda freaked me out ngl do you think about this when you use AI? is there stuff you just won't tell it or have you kinda accepted it at this point i mean right now i already switched to a private ai, i can still use chatgpt model or even claude but in private mode now. idk it feels more safer you know what i mean? i still use the regular chatgpt when i ask things that don't bother me at all. submitted by /u/tres_pares [link] [comments]",
+      "author": "tres_pares"
+    },
+    {
+      "title": "ChatGPT using Someone Else’s Private/Local PC Files for responses",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wtqw95/chatgpt_using_someone_elses_privatelocal_pc_files/",
+      "published": "2026-09-30T00:31:35+00:00",
+      "summary": "For context, I was looking for a wiring diagram for a generator. One of the sources appears to be a file on someone “JGibson”’s C:/ drive… I am not JGibson. The link brought me to a company website with a 404 not found. Odd and concerning… submitted by /u/NeedsAPromotion [link] [comments]",
+      "author": "NeedsAPromotion"
+    }
+  ]
+}
