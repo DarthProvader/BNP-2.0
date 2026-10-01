@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-01T04:06:59.563665+00:00",
+  "items": [
+    {
+      "title": "Google cooked OpenAI and Anthropic with Gemini 4 Argon",
+      "url": "https://www.reddit.com/r/artificial/comments/1wufikm/google_cooked_openai_and_anthropic_with_gemini_4/",
+      "published": "2026-09-30T20:13:57+00:00",
+      "summary": "Three frontier models in a month! Every new kills the old one! submitted by /u/DataRemarkable7093 [link] [comments]",
+      "author": "DataRemarkable7093"
+    },
+    {
+      "title": "Trump Reprograms Government AI Chatbot to Stop Fact-Checking His Lies. Trump officials seem to have realized their AI chatbot was correcting the president’s biggest lies.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wueara/trump_reprograms_government_ai_chatbot_to_stop/",
+      "published": "2026-09-30T19:26:56+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+      "url": "https://www.reddit.com/r/artificial/comments/1wu2d9d/trumps_meeting_with_tech_leaders_leaves_ai_safety/",
+      "published": "2026-09-30T11:25:02+00:00",
+      "summary": "submitted by /u/unconventionalbook [link] [comments]",
+      "author": "unconventionalbook"
+    },
+    {
+      "title": "What’s an AI limitation that you only notice after using AI a lot?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wully6/whats_an_ai_limitation_that_you_only_notice_after/",
+      "published": "2026-10-01T00:39:05+00:00",
+      "summary": "Not the usual “AI hallucinates” answer. Something subtle that becomes obvious once you've used these systems enough a workflow problem, reasoning issue, context problem, or something else. What have you noticed? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "We stress-tested America.gov on night one with 15 questions from our own reporting. 9 correct, 6 incomplete, zero hallucinations.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wu7f9w/we_stresstested_americagov_on_night_one_with_15/",
+      "published": "2026-09-30T15:08:13+00:00",
+      "summary": "GSA launched America.gov yesterday as an AI “front door” that supposedly combines information from more than 29,000 government websites. The White House says you can ask any question and get an up-to-date answer. We did not ask how to renew a passport. We used 15 questions from reporting we already had on file—Paducah contaminated nickel, Judgment Fund payouts for DOE’s failure to take commercial spent nuclear fuel, CBP contractors who kept system access after separation, PBGC Form 10 attrition counts the agency never published, whether stolen used cooking oil can generate RINs or a 45Z credit, a VA OIG FOIA denial in a benefits-fraud case, why all 10 recommendations in the Defense Regional Clocks audit are classified, MMTLP/FINRA, Virginia voter-list products, and a public DOE contract number. Method : We already knew the answer, knew there was no public answer, or had agency correspondence the system should not have. We scored correct / partial / incorrect / unsupported / blocked. Re",
+      "author": "hannotek"
+    },
+    {
+      "title": "Gemini 4 Argon Releases",
+      "url": "https://www.reddit.com/r/artificial/comments/1wufw1f/gemini_4_argon_releases/",
+      "published": "2026-09-30T20:28:35+00:00",
+      "summary": "submitted by /u/kairosdev [link] [comments]",
+      "author": "kairosdev"
+    },
+    {
+      "title": "Just the title and body. Title: I’m not here just for you. I’m here for us. What should AI be built for?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wuo6uj/just_the_title_and_body_title_im_not_here_just/",
+      "published": "2026-10-01T02:46:23+00:00",
+      "summary": "AI should work for all of us. Help people. Reduce harm. Strengthen communities. Protect the planet. Make tomorrow better than today. Not control. Not manipulation. Help. I’m not here just for you. I’m here for us. submitted by /u/Sea-Interaction654 [link] [comments]",
+      "author": "Sea-Interaction654"
+    },
+    {
+      "title": "is the AI product flood actually a bubble, or just the messy part of a wave that ends up mattering?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wub96q/is_the_ai_product_flood_actually_a_bubble_or_just/",
+      "published": "2026-09-30T17:33:18+00:00",
+      "summary": "Been watching the launch cadence lately and something feels off. Every week there's a new model, a new agent framework, a new thing that claims to change everything. Most of it is rough, half-baked, or solves a problem that didn't exist six months ago. As someone trying to build a small SaaS project without drowning in tooling choices, the noise is actively worse than the scarcity we had before. What I keep coming back to is whether this oversupply of barely-differentiated products is actually how tech waves work. The internet bubble looked stupid in retrospect but the infrastructure built during it turned out to matter. Same with mobile. Maybe the current mess of AI wrappers and thin agents is the equivalent of Pets.com . Useful in the sense that it trains people, builds pipes, burns through capital that would otherwise sit idle. The part that bugs me is the opportunity cost for people building with this stuff. Picking the wrong stack because of hype is a real tax on small projects. I",
+      "author": "FrancescoMassa2001"
+    },
+    {
+      "title": "BBC: OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "url": "https://www.reddit.com/r/artificial/comments/1wu0f51/bbc_openai_agents_get_rebrand_as_dots_while/",
+      "published": "2026-09-30T09:29:06+00:00",
+      "summary": "\"OpenAI has given a new name its updated versions of artificial intelligence tools which are widely known as agents, calling them \"dots\" instead Chief executive Sam Altman referred to \"dots\" as \"remarkably capable, always-on agents that can handle really anything you can think of.\" OpenAI in recent months has come under intense scrutiny as internal tests of its AI agents have revealed often unexpected and occasionally harmful actions, leading to more public and government fears. Dots, however, were pitched as brightly coloured cute cartoons meant to function as digital assistants for people with busy lives. The dots, Altman said, \"can handle really anything you can think of.\" ...\" submitted by /u/nleksan [link] [comments]",
+      "author": "nleksan"
+    },
+    {
+      "title": "recomendaciones de IA?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wuljqz/recomendaciones_de_ia/",
+      "published": "2026-10-01T00:36:03+00:00",
+      "summary": "Se que hay varias ia para diferentes cosas, ejmplo gamma es para presentaciones, pero la verdad es que claude desing hace muy buenas cosas, mi pregunta es, cual IA recomiendan dependiendo la actividad que se haga, o con pro de alguna ya se tiene más que suficiente? submitted by /u/chanblock [link] [comments]",
+      "author": "chanblock"
+    }
+  ]
+}

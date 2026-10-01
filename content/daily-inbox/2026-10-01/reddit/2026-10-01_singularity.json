@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-01T04:03:56.330850+00:00",
+  "items": [
+    {
+      "title": "Gemini 4 Argon solved hallucinations.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wuj72j/gemini_4_argon_solved_hallucinations/",
+      "published": "2026-09-30T22:46:33+00:00",
+      "summary": "Nobody is talking about this, but it looks like Google may have solved hallucinations. Gemini 4 Argon is a monster in this regard, and that’s really important. submitted by /u/drhenriquesoares [link] [comments]",
+      "author": "drhenriquesoares"
+    },
+    {
+      "title": "Gemini 4 from straight from the horses mouth",
+      "url": "https://www.reddit.com/r/singularity/comments/1wufaxm/gemini_4_from_straight_from_the_horses_mouth/",
+      "published": "2026-09-30T20:05:29+00:00",
+      "summary": "https://preview.redd.it/ckpyc9uxrpsh1.png?width=596&format=png&auto=webp&s=d5a1d32a847ad06ad628ecd7e520b880f5a40be9 googles back submitted by /u/Sea_Physics401 [link] [comments]",
+      "author": "Sea_Physics401"
+    },
+    {
+      "title": ", Gemini 4 Argon Benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1wufha8/gemini_4_argon_benchmarks/",
+      "published": "2026-09-30T20:12:34+00:00",
+      "summary": "submitted by /u/New_Equinox [link] [comments]",
+      "author": "New_Equinox"
+    },
+    {
+      "title": "Introducing Gemini 4 Argon",
+      "url": "https://www.reddit.com/r/singularity/comments/1wufeu8/introducing_gemini_4_argon/",
+      "published": "2026-09-30T20:09:54+00:00",
+      "summary": "submitted by /u/PandAlex [link] [comments]",
+      "author": "PandAlex"
+    },
+    {
+      "title": "AGI achieved boys",
+      "url": "https://www.reddit.com/r/singularity/comments/1wuhqta/agi_achieved_boys/",
+      "published": "2026-09-30T21:43:47+00:00",
+      "summary": "submitted by /u/GeneReddit123 [link] [comments]",
+      "author": "GeneReddit123"
+    },
+    {
+      "title": "White Collar Workers are in Big Trouble",
+      "url": "https://www.reddit.com/r/singularity/comments/1wuj0zi/white_collar_workers_are_in_big_trouble/",
+      "published": "2026-09-30T22:39:05+00:00",
+      "summary": "So I have both 200 dollars subscription to Claude and 200 dollars subscription to OpenAI. I use Claude Code and Codex for coding related stuff/execution, discussions involve Astra or Opus 5.5 on the problem at hand at important intervals, we summon two indepedent Astra and Fable models for guidance (would love to add the third with Google Gemini 4.0). Double checking for mistakes/errors in progress as well as internet searches also come from individual models. And with this, I spend about 2000 dollars to 3000 dollars total on LLMs (including API usage) per month. I am not a programmer but I do have roughly 20 people working under me. Now, here is the thing. I don't know what your setup is like and I don't claim to have an optimal setup here either but this type of setup has me 10x to 50x my productivity compared to 6 months ago and also, compared to this process being down with other people who work for me (all M.S. degrees higher and Ph.D.s), it is so much faster and also more accurat",
+      "author": "simmol"
+    },
+    {
+      "title": "Claude solves an important mathematical problem.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wu72qu/claude_solves_an_important_mathematical_problem/",
+      "published": "2026-09-30T14:54:49+00:00",
+      "summary": "Did you see that? 👀 Source: https://x.com/sciam/status/2105282283645112745 submitted by /u/drhenriquesoares [link] [comments]",
+      "author": "drhenriquesoares"
+    },
+    {
+      "title": "Introducing the world's most powerful model",
+      "url": "https://www.reddit.com/r/singularity/comments/1wugq7j/introducing_the_worlds_most_powerful_model/",
+      "published": "2026-09-30T21:02:08+00:00",
+      "summary": "submitted by /u/Opps1999 [link] [comments]",
+      "author": "Opps1999"
+    },
+    {
+      "title": "Google’s unreleased Gemini 4 Argon may have just leaked—and it tops 12 of 18 benchmarks against Fable 5.1, Opus 5.5 and GPT-6 Astra, including 19.6% vs GPT-6 Astra’s 5.4% on autonomous legal work",
+      "url": "https://www.reddit.com/r/singularity/comments/1wufdet/googles_unreleased_gemini_4_argon_may_have_just/",
+      "published": "2026-09-30T20:08:19+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "There Should Be Way More Backlash To OpenAI's $500/Month, $6,000 A Year Subscription",
+      "url": "https://www.reddit.com/r/singularity/comments/1wuahc7/there_should_be_way_more_backlash_to_openais/",
+      "published": "2026-09-30T17:04:36+00:00",
+      "summary": "This sets an extremely bad precedent. And very soon, all the other labs will adopt the same pricing schemes. Prices just keep going up and up. I remember a time when people thought $20/month was too expensive. Even if you can afford this, do not pay for it. If you do, it will only normalize this, and the next thing you know, there will be a new $1,000/month subscription that gives you the same usage you used to get with the $500/month subscription. That's exactly what happened to the previous $200/month subscription. Its usage allowance was cut in half, and now users paying $500/month are getting what users used to get for $200/month. Do not normalize AI subscriptions that cost as much as car payments and, eventually, mortgages. In leaked emails, Greg Brockman dreamed that OpenAI would make him a billionaire. He stated, \"I just want to get to one billion.\" AI has fulfilled his wildest dreams. His net worth is now over $30 billion. I am a hardcore accelerationist and optimist, but the c",
+      "author": "Neurogence"
+    }
+  ]
+}

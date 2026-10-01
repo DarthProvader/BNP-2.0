@@ -1,0 +1,31 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-10-01T04:00:19.663458+00:00",
+  "items": [
+    {
+      "title": "AI Made a Game I’d ACTUALLY Play",
+      "url": "https://www.youtube.com/shorts/c7twMUavy5Q",
+      "published": "2026-09-30T11:15:21+00:00",
+      "summary": "Opus 5.5 might be the best coding model you can use right now.\n\nI let it run my Megabonk game test for almost 20 HOURS… and the result is kind of insane.\n\nIt's also surprisingly affordable. Opus 5.5 is available on Claude’s Pro, Max, Team, and Enterprise plans, so you can access it starting with the $20/month Pro plan.\n\nIf you’re using the API, it’s $4 per million input tokens and $20 per million output tokens.\n\nThat price-to-performance ratio is pretty wild for a model this good at long-running coding tasks.\n\nHave you tried Opus 5.5 yet?\n\n#ai #ainews #claude #anthropic #vibecoding",
+      "author": "Matt Wolfe",
+      "transcript": "If you're looking for the absolute best, state-of-the-art coding model at a decent price, this is it. The leaderboards could be shifting again in a few days, but as of today, Opus 5.5, I ran my Mega Bonk test on [music] it, and well, it worked for almost 20 hours building, testing, building, testing, building, testing, and the result is pretty mind-blowing. [music] This is the version it made, and it is pretty close to the actual Mega Bonk game. Like, look at all these characters you can get. These are all actual characters from the original game. There's multiple tiers, [music] again, very similar to the real version of this game. This is just absolutely mind-blowing to me how good this all looks. I'm going to go ahead and unmute it for a second so you can actually hear it as well. Because the sound is pretty similar to the original game as well. Even the pause menu looks excellent. Like, there is so much detail in what Opus 5.5 did. I am insanely impressed with what this does in terms of, like, games.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "Jev - The New AI model that has people talking",
+      "url": "https://www.youtube.com/shorts/hx42whM7NsY",
+      "published": "2026-09-28T16:07:47+00:00",
+      "summary": "This AI model doesn’t use… WORDS?\n\nIt’s called Jev, from Typesafe AI, and instead of generating paragraphs or code text, it skips straight to making a decision.\n\nInstead of text, it’s outputs are things like:→ a choice→ a score→ true/false\n\nThat makes it insanely fast and ridiculously cheap. Input costs start at just 4¢ per million tokens, and outputs are free because they’re apparently too cheap to meter.\n\nWould you actually build with something like this?\n\n#ai #ainews #futuretech #aimodel",
+      "author": "Matt Wolfe",
+      "transcript": "There was something else causing a lot of buzz this week, and that's a model out of a company called Type-Safe AI [singing] called Jev. When you think [music] of like the GPT models, those create new text. Even when you ask it to make decisions for [music] you, it's still creating text and writing code that then [singing] goes and makes those decisions. Jev, on the other hand, just skips straight to the decision-making. The output from existing LLMs are, you know, strings and generated text. The outputs from Jev are structured values. And there's really three types of structured outputs. You can give it a choice, a score, or a null, which is basically, you know, true or false. And because it's not outputting just a ton of text, it's just making these decisions, it is insanely cheap to use. Input tokens at 4 cents per million tokens, or $42 per billion tokens. Output tokens are free because they're just too cheap to meter. It's also insanely fast. Steven Tay here made an app where you can plug in a destination URL and it detects whether or not it believes it's a malicious URL before you go to the link. You can literally go to Codex or Claude Code, tell it what you want Jev to do, and let it write the code to run Jev for you.",
+      "transcript_lang": "en"
+    }
+  ]
+}

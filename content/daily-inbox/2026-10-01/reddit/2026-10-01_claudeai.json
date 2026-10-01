@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-01T04:05:08.379350+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wujje8/show_us_what_youve_created_with_claude/",
+      "published": "2026-09-30T23:02:16+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "Gemini 4 is out: The competition has woken up",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wufk1u/gemini_4_is_out_the_competition_has_woken_up/",
+      "published": "2026-09-30T20:15:32+00:00",
+      "summary": "Do you think opus 5.5 will finally get some competition? submitted by /u/monsieurcliffe [link] [comments]",
+      "author": "monsieurcliffe"
+    },
+    {
+      "title": "Opus 5.5 naming files after all my responses are \"continue\", \"decide for yourself\", \"whatever, all good\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wu4rv6/opus_55_naming_files_after_all_my_responses_are/",
+      "published": "2026-09-30T13:19:59+00:00",
+      "summary": "Is it insulting me? submitted by /u/ihavenoyukata [link] [comments]",
+      "author": "ihavenoyukata"
+    },
+    {
+      "title": "Is Claude a Freak?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuh8vh/is_claude_a_freak/",
+      "published": "2026-09-30T21:23:12+00:00",
+      "summary": "https://preview.redd.it/7wqxtfnd4qsh1.png?width=713&format=png&auto=webp&s=6fa4d60a34abb6a96c9668f131a628702d42e42b I have never posted on reddit before but I was looking at overwatch characters in stadium and who gives the most healing, I thought it would take from reliable sources (probably should've specified). Why is this even something claude can search up, would \"the word\" not be flagged and skipped? Model: Opus 5.5 Reasoning: Max Prompt: Can you work out what healer and paired perks gives the most healing in overwatch stadium? I want you to find the most up-to-date information and calculate your workings with what other people have said. I also give me the information for brigitte and mercy as well as the person who heals the most constantly and also the person who heals the most in bursts. Also tell me any other very good healers for other situations. submitted by /u/Relevant-District585 [link] [comments]",
+      "author": "Relevant-District585"
+    },
+    {
+      "title": "Sonnet 5.5 30x more expensive than GPT 6.1 Sol on 3D tasks",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wu7ujz/sonnet_55_30x_more_expensive_than_gpt_61_sol_on/",
+      "published": "2026-09-30T15:24:36+00:00",
+      "summary": "saw openai just dropped gpt 6.1 sol and figured id throw it against sonnet 5.5, gave both the exact same prompt, a clear acrylic keyboard building itself key by key in threejs, basically like most keyboard commercials you see nowadays(hopefully you guys know what I mean) model GPT 6.1 Sol Sonnet 5.5 agents 4 19 time ~11 min 78 min input tokens 6.8M (6.6M cached) 206.8M (202.2M cache reads) output tokens 68K 516K api equivalent cost $1.78 $57.34 sol was done in like 11 min, sonnet split it into 19 agents and was cooking for more than an hour (for context both models were ran on ultracode) ngl the results look pretty similar, I like sonnet's colors and details slightly better, but for the price difference I would probably go with sol and just tweak some things, still would come out cheaper, can't really justify the 30x price difference(like goddamn, I'll go buy some pizza with the leftovers from sol, sonnet at those rate is gonna leave me bankrupt) setup: both models via sub (5x gpt and ",
+      "author": "Fun-Meaning-6474"
+    },
+    {
+      "title": "What's the one line in your CLAUDE.md that made the biggest difference ?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wu40t8/whats_the_one_line_in_your_claudemd_that_made_the/",
+      "published": "2026-09-30T12:47:03+00:00",
+      "summary": "Mine is \"When reporting information to me, be extremely concise and sacrifice grammar for sake of concision.\" Status updates went from paragraphs to a few lines I actually read. Looking for the weird ones that work, not the obvious \"write tests\" stuff. submitted by /u/Tough_Stretch_4045 [link] [comments]",
+      "author": "Tough_Stretch_4045"
+    },
+    {
+      "title": "Opus 5.5 created me a promotional video using the minecraft mod prompt",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuf6cv/opus_55_created_me_a_promotional_video_using_the/",
+      "published": "2026-09-30T20:00:35+00:00",
+      "summary": "I have been struggling to get a useful promotional video for the app I created. Opus 5.5 did this in 4 hours with only 1 correction prompt as it mentioned TicketMaster by name and under our contract I can't use them in promotional material. I pretty much just copied the prompt from that Minecraft Mod video earlier and tweaked it a tiny bit. Amazing. I couldn't imagine having just graduated graphics design right now... I also want to mention that this TicketMappr itself uses no AI generated content, but I did use Claude to help me develop the platform. Prompt used: Please create a 45 second pure javascript animation based on the website https://ticketmappr.com (to basically create a trailer). Entire trailer should be as high of a production value as possible. Please spend your time on this, its very important. Use high quality text-to-speech model for generation. You can use any tools you can find access to and resources on the internet. You can capture screenshots and video/sound captu",
+      "author": "civerooni"
+    },
+    {
+      "title": "Plot twist: Gemini 4 Argon tops Val AI benchmark on speed, cost and accuracy!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wufsth/plot_twist_gemini_4_argon_tops_val_ai_benchmark/",
+      "published": "2026-09-30T20:25:04+00:00",
+      "summary": "submitted by /u/software-boulder [link] [comments]",
+      "author": "software-boulder"
+    },
+    {
+      "title": "Opus 5.5 Comparison to last week",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wtzzm4/opus_55_comparison_to_last_week/",
+      "published": "2026-09-30T09:00:58+00:00",
+      "summary": "Hi, You can see for yourself the changes in Opus. Both videos are created with the same settings (Mid reasoning) and within the same project. The only difference is the date of creation (and a few art assets, but that is not relevant at all :) ) I think one of them is quite decent and the other not so much, what do you think? submitted by /u/skelzer [link] [comments]",
+      "author": "skelzer"
+    },
+    {
+      "title": "Is Claude Code leaking not published research?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wunxz2/is_claude_code_leaking_not_published_research/",
+      "published": "2026-10-01T02:33:44+00:00",
+      "summary": "I've using Claude Code for two months in my research, and recently the Opus 5.5 in high effort suggested a complementary idea to improve my project, which is actually very good. I asked if it was published somewhere, so I can also check it's validity. It answered that is not published. I began to suspect that this idea (as perhaps so many others?) are in fact being developed by other researchers around the world that are also users of Claude Code, which use these interactions to improve. Any thoughts? submitted by /u/ViktorFrobenius3978 [link] [comments]",
+      "author": "ViktorFrobenius3978"
+    }
+  ]
+}

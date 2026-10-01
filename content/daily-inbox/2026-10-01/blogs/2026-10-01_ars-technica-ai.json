@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-01T04:02:03.520647+00:00",
+  "items": [
+    {
+      "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+      "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+      "published": "2026-09-30T19:44:48+00:00",
+      "summary": "A simple email gives the attackers the ability to remotely inject OS commands.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+      "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+      "published": "2026-09-30T10:15:14+00:00",
+      "summary": "The move will be part of a major overhaul of the ecosystem for website authentication.",
+      "author": "Dan Goodin"
+    }
+  ]
+}
