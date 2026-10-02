@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-02T04:06:14.432423+00:00",
+  "items": [
+    {
+      "title": "Made a \"Destroy Any Website\" stickman game",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv2r73/made_a_destroy_any_website_stickman_game/",
+      "published": "2026-10-01T15:40:03+00:00",
+      "summary": "Final game project . I built my dream stickman sandbox game over the last weekend (big fan of Animator Vs. Animation). The game basically a destruction sandbox where you can input a website URL and turn the page into a level. Then, just destroy everything with weapons :D Tech stack: - Language: I'm a TS dev, so... raw engine & renderer built in TS, using simple Canvas 2D. - Multiplayer (yes!): Cloudflare DOs, I have experience building with them so it was my pick for rooms and game state syncs. - Hosting: Cloudflare Workers. Pretty cheap and fast. Also, usually it can bite with NPM packages compatibility but here I don't use many and they are running fine in Workers runtime. Let me know if you want some other details, I did some tricks for pixel art rendering, FX etc! How I used Claude Opus 5.5: - Brainstorming architecture and technical compromises. I had a pretty clear idea upfront, and turned it in to an implementation plan with the help of Claude. - Implementations for keeping desi",
+      "author": "HugoDzz"
+    },
+    {
+      "title": "Is Opus 5.5 Nerfed Now? LiveNerf Day 8 Update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvdt9p/is_opus_55_nerfed_now_livenerf_day_8_update/",
+      "published": "2026-10-01T22:54:58+00:00",
+      "summary": "A few days ago I posted LiveNerf, an open-source project I made to independently track Opus 5.5’s performance day by day and see whether there’s actually evidence of models getting “nerfed” after release. If you’re interested in tracking the performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf I wanted to give another update since the response to this was way bigger than I expected. The repo is now approaching 1,000 stars, it ended up reaching the front page of Hacker News, and a lot more people have started looking through the methodology and code than I ever expected when I started this. The most important update though is that we’re getting close to establishing the baseline. I’ve continued running the evaluation every day, and once we have enough data after the baseline period we can actually start testing whether later performance is meaningfully different instead of trying to interpret individual daily movements. I’ve also gotten some genuinely useful c",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Throwback to when Claude suggested I should deal drugs to make money.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuvxy7/throwback_to_when_claude_suggested_i_should_deal/",
+      "published": "2026-10-01T10:31:46+00:00",
+      "summary": "submitted by /u/1010011011-1 [link] [comments]",
+      "author": "1010011011-1"
+    },
+    {
+      "title": "Opus 5.5 nerfing - how to measure, how to spot, how to sue",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuw9bc/opus_55_nerfing_how_to_measure_how_to_spot_how_to/",
+      "published": "2026-10-01T10:50:13+00:00",
+      "summary": "Opus 5.5 was god-like in the first 5-6 days and couldn't put a foot wrong in my most complex work, (custom C++ 3D engines, soft body physics solvers, Blender MCP), then suddenly it fluffed something more simple and out of the blue said: \"Written for: you, as the reply on these three issues.\" in first line of the response. I had to look around the room to see who else it was writing for! Very abnormal and an outlier in terms of speech. After that canary in the coal mine it's never been the same since, and I have noticed this time and again. Fable 5.0 started off with Mythos like writing style, then suddenly over night collapsed into a style similar to Opus 5.0. You can always catch a nerf by the responses and writing style, not just the quality of code. I started to look into how to benchmark it periodically in the real world - the synthetic ones mean very little to me - and what the actual law (at least here in Europe) says about this obvious bait and switch going on. A strong recommen",
+      "author": "freedomfromfreedom"
+    },
+    {
+      "title": "100$ plan - holy sh*",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvdodf/100_plan_holy_sh/",
+      "published": "2026-10-01T22:48:38+00:00",
+      "summary": "This is for people who are on the fence, because I was in the same boat. Yesterday I bought the 100$ plan for a test and holy moly, it's amazing how much you get. I used the 20$ plan earlier. I used all the tricks to keep usage low, which became a habit, so now I can't spend it all. It's amazing xD. I run it next to a local Qwen Flash and it's awesome. If the 20$ plan is too low, give it a try :O I'm basically using Opus 5.5 medium all the time. I also tested 2x 20$ before this. It works, but you end up juggling two accounts and switching when one runs out, and Opus eats a 20$ plan pretty fast. With 100$ I just stopped thinking about usage, and that alone is worth it for me. If you keep your old habits and stay careful with usage, it will last you a very long time. If you keep hitting the 20$ limit, go for 100$. edit: people are asking how I keep usage low, so here are my tricks: Keep context low. I usually compact or move to a new session around 200k, sometimes I stretch it to 300k. U",
+      "author": "Majke_"
+    },
+    {
+      "title": "Procedural Pixel Creatures (Claude Code - Opus 5.5)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv8ogl/procedural_pixel_creatures_claude_code_opus_55/",
+      "published": "2026-10-01T19:22:26+00:00",
+      "summary": "Roughly 95% of this was built from a single prompt with Claude Opus 5.5. The remaining 5% came from a few follow-up prompts. It’s built with Godot .NET and C#. The creatures are generated entirely in code: body shapes, limbs, faces, colors, markings, rigs and movement. There are no premade creature sprites or AI-generated source images underneath it, and the finished application runs offline without an AI service. There are nine families: quadrupeds, humanoids, reptiles and dragons, arthropods, winged creatures, serpents, aquatic creatures, slimes/tentacled creatures, and plantfolk. The variation includes actual body structure. A horse, a heavy grazer and a fantasy beast can come out of the same family. Humanoids also get procedural clothing, armor and equipment. In the workshop you can edit individual genes, lock traits you want to keep, reroll the rest, and undo changes. A parent produces four animated offspring with adjustable mutation strength. You can also combine two compatible p",
+      "author": "idlerunner00"
+    },
+    {
+      "title": "I built a DAW ( Ableton ) with Claude Code, then put Claude inside it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvbh1l/i_built_a_daw_ableton_with_claude_code_then_put/",
+      "published": "2026-10-01T21:12:42+00:00",
+      "summary": "monody is a music app (a DAW) for macOS + Windows. I built it with Claude Code, usually with a few sessions on the same repo at once: Opus on the main work, Sonnet on searches and mechanical edits, and a different model (Fable) reviewing most bigger changes before they landed. One review found that a malformed Ableton file could crash the whole app, audio and all. Claude and me built this together! Inside the app you talk to Claude like a band mate: \"sit the hats back\", \"start a bassline that follows the kick\". It edits the real session (notes, devices, automation) and never makes audio of its own. Whatever it touched glows, and one switch flips the whole request back. Before the last latency pass, adding a bass track with a sound and a 4-bar line took 46 seconds. About two thirds of that was thinking, and every note cost around 35 output tokens because it repeated a 31-character clip id. Sending notes as [pitch, start, length, velocity] tuples, letting every tool carry the final reply",
+      "author": "ComfortableStill6735"
+    },
+    {
+      "title": "When people say Opus 5.5 never made a mistake on launch, I get scared.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvj0hv/when_people_say_opus_55_never_made_a_mistake_on/",
+      "published": "2026-10-02T03:04:59+00:00",
+      "summary": "So we’re back at nerf discussions again and as much as I think variation in performance is a real thing. I can’t help but think people who say opus 5.5 never made mistakes on launch, are not paying attention to what the model is doing behind the scenes. These models are great, especially if your use case is coding but to kind of think they judged on how well they one-shot prompts is insane to me. 5.5 definitely made mistakes or introduced bugs in my use case from launch. Not because it was being dumb but because bugs are a part of software development. You have to ask, why do bugs happen? Usually it’s because a requirement was missed, logic wasn’t fully fleshed out, a use case wasn’t considered to be plausible until a user did it or just bad code. The reason I struggle to believe a nerf has happened is that I more or less see the same performance and more importantly I never trusted 5.5 to not make mistakes, that just seems silly. People who are saying it didn’t either never revised it",
+      "author": "japt77"
+    },
+    {
+      "title": "PSA: you don't need Fable for everything. Set it as your /advisor instead",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv4cux/psa_you_dont_need_fable_for_everything_set_it_as/",
+      "published": "2026-10-01T16:40:29+00:00",
+      "summary": "EDIT: Originally I was aruging for fable as advisor. Better guidance when using this setup would be sonnet 5.5 high as main and /advisor opus or fable. claude --model sonnet --effort high --settings '{\"advisorModel\":\"opus\"}' ORIGINAL: Seeing a lot of \"Fable for everything burns my limits/sucks\" posts. There's a middle option most people miss: /advisor . Run /advisor and pick Fable. Your main model does the work, and Fable only gets consulted at the points that matter: before committing to an approach, when stuck, and before calling it done. It sees the full transcript, so there's no briefing to write. You get Fable's judgment without paying Fable for every file read and edit. My setup: Main thread: Opus 5.5, high effort Advisor: Fable 5.1 ( \"advisorModel\": \"fable\" in settings.json) Subagents: Sonnet 5.5 ( CLAUDE_CODE_SUBAGENT_MODEL=sonnet ) for searches and well-specified builds, bumped to Opus per call for the hard ones Escalation: Sonnet fails a task twice, it goes to Opus. Fable nev",
+      "author": "Marcus_Augrowlius"
+    },
+    {
+      "title": "Claude Macot in 28 art styles - all drawn by code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wv8mhr/claude_macot_in_28_art_styles_all_drawn_by_code/",
+      "published": "2026-10-01T19:20:29+00:00",
+      "summary": "I made a little gallery of the Claude Code mascot, drawn live in the browser with code: no image assets, no dependencies. It spans 28 art styles, from cave paintings and heraldry all the way to Bauhaus, pixel art, teletext, ASCII and Maze War. The mascot watches your cursor, and you can click to spin it or press W/D/H to wave, dance and hop. It builds on ChetasLua's original Claude Code mascot in Twenty Styles (their 20 styles and the 3D engine), and I added eight experimental coding/terminal styles. How I used Claude The eight new styles (Opus 5.5 in Claude Code): [e.g. I described each look I wanted, such as glyph tiles, phosphor streams or a teletext page, along with the reference it's based on. Claude wrote each one as a CM.style({...}) drawing function on top of the existing engine, and I iterated on the screenshots until they looked right.] One favourite is Code Poem : Claude had the picture build itself out of letters taken from its own source code. Free to try: it's MIT-license",
+      "author": "dagerika"
+    }
+  ]
+}

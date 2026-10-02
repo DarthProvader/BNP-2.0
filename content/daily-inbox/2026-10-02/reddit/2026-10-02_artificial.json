@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-02T04:07:05.595456+00:00",
+  "items": [
+    {
+      "title": "The AI industry has discovered intellectual property",
+      "url": "https://www.reddit.com/r/artificial/comments/1wv0l7i/the_ai_industry_has_discovered_intellectual/",
+      "published": "2026-10-01T14:15:49+00:00",
+      "summary": "OpenAI says Moonshot-linked operators used thousands of accounts to extract protected reasoning from its models for adversarial distillation. No encryption broken. No database compromised. Just systematic querying designed to make one model teach another. OpenAI says this is dangerous because competitors can reproduce capabilities without making the same investment in safety. Which is a serious security issue. But you have to appreciate the timing: after years of “we learned from the internet,” the frontier-model industry has reached the “please stop learning from us” phase. submitted by /u/Haunting_Ganache_850 [link] [comments]",
+      "author": "Haunting_Ganache_850"
+    },
+    {
+      "title": "Investors thought they were buying pre-IPO OpenAI and SpaceX shares. Their cash went to strip clubs, Bloomingdale’s, and shopping on Amazon, SEC alleges",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvdpdh/investors_thought_they_were_buying_preipo_openai/",
+      "published": "2026-10-01T22:49:58+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    },
+    {
+      "title": "Is the reason AI hasn't totally disrupted office work yet because of the kind of software applications we use?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvd4k2/is_the_reason_ai_hasnt_totally_disrupted_office/",
+      "published": "2026-10-01T22:23:43+00:00",
+      "summary": "I just had a thought about the kinds of desktop programs I use day to day, they don't necessarily have an API to hand over control to, and the GUI is instead designed to be used by a human using a keyboard and mouse. And maybe most corporations are unwilling to hand over control to the computer-use agents. submitted by /u/mymooh [link] [comments]",
+      "author": "mymooh"
+    },
+    {
+      "title": "What’s one thing about AI that sounded ridiculous 3 years ago but feels completely normal now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvfdmf/whats_one_thing_about_ai_that_sounded_ridiculous/",
+      "published": "2026-10-02T00:06:42+00:00",
+      "summary": "Not necessarily something huge. A tiny change in how you search, write, work, create, or interact with technology can say a lot about how quickly things are changing. What comes to mind? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "The neuroscience case for never delegating judgment to AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1wv6r9g/the_neuroscience_case_for_never_delegating/",
+      "published": "2026-10-01T18:10:26+00:00",
+      "summary": "I keep asking people a simple question: how many times has your gut been right — not the times you wish you had listened, the times you actually had the feeling and later found out whether it was correct? The answer comes back north of ninety per cent for almost everyone I ask. That is not a hunch. If a model gave me ninety per cent on a hard classification task, I would ship it. So I went looking for why, and ended up somewhere I did not expect. A gut feeling is not the absence of reasoning — it is reasoning you never got the transcript of. Your senses pick up far more than reaches conscious awareness (the birds stopping, the smell that was not there ninety seconds ago), and something nonconscious pattern-matches all of it against a lifetime of context and returns a single bit: right or wrong. Damasio's somatic marker hypothesis is the actual mechanism here, not mysticism, a documented one, backed by the Iowa Gambling Task. Which is the argument for a rule I think more people should t",
+      "author": "thewhyman007"
+    },
+    {
+      "title": "Exclusive: Google expands pilot program that pays developers and small businesses for proprietary, offline code (and other data)",
+      "url": "https://www.reddit.com/r/artificial/comments/1wv8qwd/exclusive_google_expands_pilot_program_that_pays/",
+      "published": "2026-10-01T19:25:02+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    },
+    {
+      "title": "Federal judge blocks New York's ban on algorithmic rent pricing",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvb8io/federal_judge_blocks_new_yorks_ban_on_algorithmic/",
+      "published": "2026-10-01T21:03:05+00:00",
+      "summary": "submitted by /u/news-10 [link] [comments]",
+      "author": "news-10"
+    },
+    {
+      "title": "New AI models used to arrive every 10 weeks, now it’s every 21 days, so much for slowing down.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wv3cl3/new_ai_models_used_to_arrive_every_10_weeks_now/",
+      "published": "2026-10-01T16:02:28+00:00",
+      "summary": "https://preview.redd.it/ny0kb1xqqvsh1.png?width=1285&format=png&auto=webp&s=d26d9ac7c3940147a33f8629843bc1aa77a618e2 New AI models used to arrive every 10 weeks, now it’s every 21 days submitted by /u/DependentCodd [link] [comments]",
+      "author": "DependentCodd"
+    },
+    {
+      "title": "Greg Brockman: How to build AI software that doesn't die when the next model ships",
+      "url": "https://www.reddit.com/r/artificial/comments/1wuzu7o/greg_brockman_how_to_build_ai_software_that/",
+      "published": "2026-10-01T13:45:15+00:00",
+      "summary": "TL;DR: Greg Brockman just named the exact test that kills most AI startups before they scale. The word “Trust” in this context, I think, is taking too much centre stage, without being properly defined on what it is. But after some thought, if we equate it with another word, “clarity”, then it made sense. When I said, “I trust you.”, I’m actually saying, I trust your clarity in your role, your experience, your profession, your judgement, etc. – I trust you know what you’re doing. You have good intentions, good motives. You’re clear in what you want to do – for my benefit. And therefore, I place my trust in you. That’s the word – clarity. I’m reminded of “The Sea”. Don’t know what it is? It’s a name being given to this large bronze basin, placed in the Temple courtyard, for the priests’ ceremonial washing. King Solomon commissioned a half-Israelite from the tribe of Dan to come fabricate it. His name was Hiram. Hiram was brilliant in his craftsmanship, so much so that his reputation prec",
+      "author": "cen6wkf"
+    },
+    {
+      "title": "The most trustworthy AI answer might be the one that slows down",
+      "url": "https://www.reddit.com/r/artificial/comments/1wuunei/the_most_trustworthy_ai_answer_might_be_the_one/",
+      "published": "2026-10-01T09:10:33+00:00",
+      "summary": "I’ve started noticing that I trust AI more when it pauses and tells me what it cannot tell from the information I gave it. A confident answer is convenient, but a useful answer should also show where the uncertainty is. Sometimes the difference between “this is probably true” and “this is definitely true” matters more than the answer itself. I wonder whether future AI systems will be judged by how well they communicate uncertainty, rather than how often they sound certain. Would you prefer an AI that gives fewer answers but labels its confidence honestly? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    }
+  ]
+}

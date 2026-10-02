@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-02T04:01:58.957944+00:00",
+  "items": [
+    {
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "published": "2026-10-01T23:28:04+00:00",
+      "summary": "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks!While we tend to cover industry on the pod, every so often we celebrate a clearly emerging superstar PhD. In 2024 we featured Shunyu Yao, who went on to build Operator at OpenAI and is now Chief AI Scientist of Tencent. In 2025 we featured Jack Morris, who went on to cofound Engram at $600m and is now a leading voice on continual learning. This year we are proud to feature the work of Alex Zhang of MIT.From GPU kernels and KernelBench to Recursive Language Models, Mismanaged Geniuses, and massive multi-agent swarms, Alex Zhang is exploring how much capability we’re leaving on the table by wrapping increasingly powerful models in primitive systems. RLMs took over the timeline early this year:and an RLM based harness was the first to ~solve ARC-AGI-3 before OpenAI’s Astra:and is even",
+      "author": "Latent.Space"
+    }
+  ]
+}

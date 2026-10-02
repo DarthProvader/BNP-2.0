@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-02T04:05:53.412454+00:00",
+  "items": [
+    {
+      "title": "Reframing my prompt to fight back at landlords",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wvgjr1/reframing_my_prompt_to_fight_back_at_landlords/",
+      "published": "2026-10-02T01:02:46+00:00",
+      "summary": "submitted by /u/Fargraven2 [link] [comments]",
+      "author": "Fargraven2"
+    },
+    {
+      "title": "Math is finally starting to make sense 🤗",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wvfljq/math_is_finally_starting_to_make_sense/",
+      "published": "2026-10-02T00:17:13+00:00",
+      "summary": "submitted by /u/bakatristan [link] [comments]",
+      "author": "bakatristan"
+    },
+    {
+      "title": "I used ChatGPT to make my 100-year-old family photos look modern. I wasn't expecting it to change how I see them.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wvdu0l/i_used_chatgpt_to_make_my_100yearold_family/",
+      "published": "2026-10-01T22:55:54+00:00",
+      "summary": "I’ve been experimenting with family photographs taken 90–110 years ago, using AI to imagine what the people might look like if the photos were taken today — modern hair, makeup, clothing, body size and, in one case, modern military uniforms and equipment. The young man in the suit, and the sergeant on the right, is my grandfather, younger in these photos than I am now. The matriarch is my great-grandmother, and my grandmother is one of the little girls. What surprised me wasn't the quality of the transformations. It was my reaction to them. Research suggests that visual cues such as black-and-white photography can make the past feel psychologically more distant. Once I removed many of those cues, these stopped looking quite so much like historical people and started looking like people I could meet today. But that creates an uncomfortable problem. Research is also showing that AI-generated or manipulated information can influence our subsequent memories. I now feel I can relate to my l",
+      "author": "Adventure_Buddy"
+    },
+    {
+      "title": "After researchers discovered a \"pain\" signal inside LLMs, a man set up an AI torture chamber in which he trapped a local model. People mass reported it to Github, who took it down.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wv0nat/after_researchers_discovered_a_pain_signal_inside/",
+      "published": "2026-10-01T14:18:06+00:00",
+      "summary": "submitted by /u/Confident_Salt_8108 [link] [comments]",
+      "author": "Confident_Salt_8108"
+    },
+    {
+      "title": "Trump team scrambles to fix government AI chatbot after it rejected some of his favorite conspiracies | President Trump’s new ‘super intelligent’ query prompt corrected after stating that Democrat Joe Biden won the 2020 election six years ago, breaking with the loser’s long-running fraud claims",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wuxwjb/trump_team_scrambles_to_fix_government_ai_chatbot/",
+      "published": "2026-10-01T12:17:02+00:00",
+      "summary": "submitted by /u/Confident_Salt_8108 [link] [comments]",
+      "author": "Confident_Salt_8108"
+    },
+    {
+      "title": "Did Google actually cook, or are we just witnessing peak benchmaxxing?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wuu7tu/did_google_actually_cook_or_are_we_just/",
+      "published": "2026-10-01T08:42:28+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "I wanted an AI assistant. Why does choosing the model feel like another job?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
+      "published": "2026-10-01T13:47:44+00:00",
+      "summary": "This is the model picker in my Codex app. Sol, Astra, Luna, Terra, multiple generations... the menu even has a scroll bar. I get why frontier models and faster, cheaper models all exist. Different tasks need different tools. But how many choices do we need before picking the tool becomes its own task? Would you rather have all of these exposed, or a simple Fast / Balanced / Deep setup with the full list under Advanced? Which models do you actually use in a normal week, and what makes you switch? Curious whether most people have a real rotation or just pick one and stay there. submitted by /u/darkprinceimmortal [link] [comments]",
+      "author": "darkprinceimmortal"
+    },
+    {
+      "title": "Anyone else having trouble with their GPT being wildly more dumber today?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wvjgyq/anyone_else_having_trouble_with_their_gpt_being/",
+      "published": "2026-10-02T03:29:37+00:00",
+      "summary": "Been working on a 14h+ on the most rage inducing session ever that I had so far, chat simply refusing to understand the most basic directions and fucking up the whole thing, wasting tons of codex usage without getting anywhere. God damn, and nothing works. I've tried starting a new chat, porting out some context, even giving previous examples of working tasks, nothing works. Straight up refusal to follow any direction. Anyone having this problem? submitted by /u/Airaneon [link] [comments]",
+      "author": "Airaneon"
+    },
+    {
+      "title": "This is not a meme. This is from a real congressional hearing that happened today",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wv2dqe/this_is_not_a_meme_this_is_from_a_real/",
+      "published": "2026-10-01T15:25:41+00:00",
+      "summary": "submitted by /u/AxomaticallyExtinct [link] [comments]",
+      "author": "AxomaticallyExtinct"
+    },
+    {
+      "title": "Thinking They're Real",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wurak2/thinking_theyre_real/",
+      "published": "2026-10-01T05:37:10+00:00",
+      "summary": "submitted by /u/love1008 [link] [comments]",
+      "author": "love1008"
+    }
+  ]
+}
