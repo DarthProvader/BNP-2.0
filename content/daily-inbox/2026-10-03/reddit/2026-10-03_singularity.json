@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-03T04:03:59.727030+00:00",
+  "items": [
+    {
+      "title": "Opus 5.5 recapped all of human history as if it were a 24-hour day in this one-shot animated video, with its own original score",
+      "url": "https://www.reddit.com/r/singularity/comments/1ww2o3o/opus_55_recapped_all_of_human_history_as_if_it/",
+      "published": "2026-10-02T19:21:41+00:00",
+      "summary": "Source: https://x.com/imjustnewatai/status/2106081142143168580/video/1?s=46 submitted by /u/jasteinerman [link] [comments]",
+      "author": "jasteinerman"
+    },
+    {
+      "title": "GPT-6 Astra helped decipher a Napoleonic military letter that remained unread for 217 years; it took just 6 hours",
+      "url": "https://www.reddit.com/r/singularity/comments/1ww7uga/gpt6_astra_helped_decipher_a_napoleonic_military/",
+      "published": "2026-10-02T23:02:16+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "OpenAI is now working directly with Lockheed Martin’s F-35 engineers to solve the math and physics behind advanced fighter-jet sensors",
+      "url": "https://www.reddit.com/r/singularity/comments/1ww9myb/openai_is_now_working_directly_with_lockheed/",
+      "published": "2026-10-03T00:28:11+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "GPT-6.1 sol (max) scores 100% in frontier math 4",
+      "url": "https://www.reddit.com/r/singularity/comments/1wvzs2k/gpt61_sol_max_scores_100_in_frontier_math_4/",
+      "published": "2026-10-02T17:28:15+00:00",
+      "summary": "https://epoch.ai/benchmarks/frontiermath-tier-4-v2?view=graph&tab=leaderboard submitted by /u/Southern-Break5505 [link] [comments]",
+      "author": "Southern-Break5505"
+    },
+    {
+      "title": "Google introducing tiered model access",
+      "url": "https://www.reddit.com/r/singularity/comments/1ww9zt9/google_introducing_tiered_model_access/",
+      "published": "2026-10-03T00:46:45+00:00",
+      "summary": "https://support.google.com/gemini/answer/17004136 submitted by /u/QH96 [link] [comments]",
+      "author": "QH96"
+    },
+    {
+      "title": "What the AI pain paper actually found (which I know because I read it)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wvx5f2/what_the_ai_pain_paper_actually_found_which_i/",
+      "published": "2026-10-02T15:43:26+00:00",
+      "summary": "submitted by /u/Drukarshar [link] [comments]",
+      "author": "Drukarshar"
+    },
+    {
+      "title": "Epoch AI: AI chips shipped through 2027 can support 1.9 billion agents running simultaneously, enough to equal the working hours of the entire human population",
+      "url": "https://www.reddit.com/r/singularity/comments/1ww6qw4/epoch_ai_ai_chips_shipped_through_2027_can/",
+      "published": "2026-10-02T22:11:05+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "GPT-6 Astra Dots used Blender on its own computer to build an entire 3D palace, 0 hours of human modeling",
+      "url": "https://www.reddit.com/r/singularity/comments/1wwcne4/gpt6_astra_dots_used_blender_on_its_own_computer/",
+      "published": "2026-10-03T03:08:13+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Day in the Life of Claude",
+      "url": "https://www.reddit.com/r/singularity/comments/1wwbel8/day_in_the_life_of_claude/",
+      "published": "2026-10-03T02:01:18+00:00",
+      "summary": "Source: Ishu Agrawal on X Animated with Fable 5.5. Some people are getting rerouted to it. submitted by /u/Successful-Earth678 [link] [comments]",
+      "author": "Successful-Earth678"
+    },
+    {
+      "title": "Google’s new Gemini 4 Argon is already hanging with Claude’s best on 3D game generation",
+      "url": "https://www.reddit.com/r/singularity/comments/1wvxh40/googles_new_gemini_4_argon_is_already_hanging/",
+      "published": "2026-10-02T15:56:31+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

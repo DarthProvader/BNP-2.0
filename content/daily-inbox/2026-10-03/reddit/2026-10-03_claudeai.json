@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-03T04:05:11.829610+00:00",
+  "items": [
+    {
+      "title": "Confirmed: Opus 5.5 has been nerded",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvyagq/confirmed_opus_55_has_been_nerded/",
+      "published": "2026-10-02T16:28:37+00:00",
+      "summary": "I haven't seen \"load-bearing\" since I stopped using Opus 5. EDIT: I meant \"nerfed\", not \"nerded\" 🤦 submitted by /u/JustChilling_ [link] [comments]",
+      "author": "JustChilling_"
+    },
+    {
+      "title": "Evidence - Opus 5.5 today vs launch regression with same prompt (Godot Engine)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvwipe/evidence_opus_55_today_vs_launch_regression_with/",
+      "published": "2026-10-02T15:19:11+00:00",
+      "summary": "On launch day Opus 5.5 kindly took up residence on my Mac. I ran some tests before trusting it on my big projects, it passed with flying colours. Lander, a game by Elite creator David Braben holds a special place in my soul due to it being the first game I played at school in the UK. With a cutting edge 3D engine for 1990 running on an Acorn Archimedes with RISC architecture (the first ARM chips) - what a time to be a young kid interested in computers. With Opus 5.5 I want to recreate it faithfully, short draw-distances and all. Well dear Claude I’ve been keeping receipts. In my notes, the exact prompt * and two original reference images of Lander. The resulting one-shot Godot repo (Mac OS, Metal rendering, C#) from 23rd September is kept separate on disk and isn't used as a reference. Today, 2nd October, in a fresh workspace from scratch the same prompt and reference images we fed in again. The result is truly depressing. Lander by gimped 5.5 has no redeeming features compared to the ",
+      "author": "freedomfromfreedom"
+    },
+    {
+      "title": "Team recently started using Claude. Sprints get cleared in a few days",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ww0u3i/team_recently_started_using_claude_sprints_get/",
+      "published": "2026-10-02T18:10:07+00:00",
+      "summary": "I lead the development team of a few enterprise systems mostly based around Python/Typescript, processing data at scale, with a ton of dev ops and micro services. At the title say, things are getting awkward. Sprints get cleared in days instead of weeks. We’re running out of work and product management are struggling to find us more to do. I’m spending most of my time in planning calls. Guesses of what happens next. submitted by /u/VinceEagle [link] [comments]",
+      "author": "VinceEagle"
+    },
+    {
+      "title": "I use Claude daily but I know I'm only using a fraction of what Claude can do. How do I actually maximize my use of Claude and build a system that runs my life?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ww9nq3/i_use_claude_daily_but_i_know_im_only_using_a/",
+      "published": "2026-10-03T00:29:15+00:00",
+      "summary": "Hey everyone, this is my first time posting here and it's a bit of a longer loaded one. Background on myself: I'm a college senior with my time spread across classes, gym / health, networking, learning AI, and more. My current stack: Claude (Pro Subscription), Claude Code, GitHub, Notion (PARA setup with relational databases and more like a CRM, etc), Google features like Calendar, Google Drive, Google Docs, Gmail, Otter for recording classes, plus Gemini and NotebookLM, etc. What I currently do: Claude Code: I'm building an analytics database (DuckDB) with no real significant coding background. It has automatic backups to Google Drive and status/handoff files and as well saves files to my Mac so sessions can pick up where they left off. Skills: I've built a few custom skills, but I feel I'm not maximizing them to the fullest extent. Connectors: Claude is connected to my Gmail, Google Calendar, GitHub, Drive, and Notion, and I'll have it create events or log things to Notion or read fi",
+      "author": "SnooShortcuts531"
+    },
+    {
+      "title": "Open Machine CEO Allie K. Miller says she takes \"Claude walks\" while using 34 AI agents to run her workday",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvsiey/open_machine_ceo_allie_k_miller_says_she_takes/",
+      "published": "2026-10-02T12:28:29+00:00",
+      "summary": "submitted by /u/thisisinsider [link] [comments]",
+      "author": "thisisinsider"
+    },
+    {
+      "title": "I built Claude Fables, a Claude Code mod that turns what Claude is doing into a little animated cartoon above the prompt",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ww2cn3/i_built_claude_fables_a_claude_code_mod_that/",
+      "published": "2026-10-02T19:09:14+00:00",
+      "summary": "I built Claude Fables , a mod for the Claude Code desktop app. While Claude works, it watches each tool call and each line Claude says. Every few seconds it retells the latest moment as a short art scene in the band above the prompt. A bug hunt becomes a nature documentary, a failing test makes Claude trip, and when the turn ends Claude naps in a moonlit village. What it does Claude appears as a small orange critter with 20 actions (sneak, dig, trip, shrug, celebrate, sleep…) across 7 hand-lit scenes. 11 visual styles, switched with /fables style <name> : pixel art, blueprint, ukiyo-e, golden age comic and more. Captions are color-coded like a terminal: files, functions, numbers, failures and successes each look different. How Claude helped build it I built the whole project with Claude Code (Opus 5.5) in Claude Code's cloud environments (I have barely any usage left from my weekly so I had to use the promotional credits 🤓), then tested it in local mode after I pulled the project from ",
+      "author": "dagerika"
+    },
+    {
+      "title": "Opus 5.5 burns subscription faster?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwaszm/opus_55_burns_subscription_faster/",
+      "published": "2026-10-03T01:29:07+00:00",
+      "summary": "Hi I used to burn 1-2 billion tokens a week no problem. This week I switched to opus 5.5 and hit the weekly cap at just 300M tokens, yet in principle Opus 5.5 is cheaper per token. I'm wondering if they finally cut down on subscriptions or if the issue is with my usage (I switched to working with lots of subagents, maybe its that). EDIT: This is getting lots of replies with completely opposite points of view; would you folks mind sharing how you use Claude and what your token usage is? submitted by /u/Chemical-Ad-7982 [link] [comments]",
+      "author": "Chemical-Ad-7982"
+    },
+    {
+      "title": "Interesting specs of Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ww6pgx/interesting_specs_of_claude/",
+      "published": "2026-10-02T22:09:22+00:00",
+      "summary": "submitted by /u/PaP3s [link] [comments]",
+      "author": "PaP3s"
+    },
+    {
+      "title": "I've worked in video for 20+ years. Claude made us a launch video entirely in code, soundtrack included, in one night. Motion design as we knew it, is cooked.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wvw1il/ive_worked_in_video_for_20_years_claude_made_us_a/",
+      "published": "2026-10-02T15:00:33+00:00",
+      "summary": "I used to direct music videos professionally, now I run a livestream company and needed a launch video for our new product, Hovercast Events. I pointed Claude at our website and asked for the kind of motion graphics launch video SaaS companies post on X. This is the result. **How it was made** - Every frame is code: HTML and GSAP animation, rendered frame by frame in a headless browser at 1080p60. No After Effects, no Premiere, no templates. - The soundtrack is code too. Every sound was synthesized in Python: drums, Rhodes, harp, strings, even the vocal chops. No samples, no stock music. - It pulled our logo, screenshots and hero reel from the site itself. I gave it clips from our real events. **How it went** - Five versions plus a round of final tweaks, all from plain-English notes. \"The music is a little cheesy, try something more like Four Tet or Burial.\" \"Add strings like Caribou's Home.\" - At the end it packaged the whole project with a README, so the film can be rebuilt from scra",
+      "author": "Dependent-Dish3384"
+    },
+    {
+      "title": "Jesus Christ, Opus has infinite more taste than Astra",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwbag6/jesus_christ_opus_has_infinite_more_taste_than/",
+      "published": "2026-10-03T01:55:25+00:00",
+      "summary": "I was a $200 sub user for OpenAI but recently Anthropic gave the 50% off deal to test their stuff out. So I got the 20x plan for $100. I usually use my plans for research as I'm a PhD student in theoretical physics, but I also like to game and play stuff like Minecraft. I had Astra make a Justice League mod. It was genuinely shit. I usually give Sol a prompt to make a prompt for Astra to make the mod, and it was genuinely bad. Like it gave talasmins that users had to wear to get powers. It gave just a speed effect for speedsters, shitty fast creative mode for flying. Opus 5.5 gave beautiful flying animations. It was super nice smooth, very realistic (in terms of minecraft progression and their comic book lore) way of getting and using their powers. It was genuinely so much more balanced and also taste-wise. It one-shotted excellent graphics and visuals for my paper and responded to reviews in such a proper way too. Fable seems to be a twidge less smart than Astra Ultra or Pro, but I do",
+      "author": "NewtonsThirdEvilEx"
+    }
+  ]
+}
