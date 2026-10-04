@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-10-04T04:00:43.929334+00:00",
+  "items": [
+    {
+      "title": "Roboti skáčou do pece, Tesla FSD je v Česku a AI už skoro nepoznáme od člověka 🤯",
+      "url": "https://www.youtube.com/shorts/wO6dRsP51pA",
+      "published": "2026-10-03T09:18:37+00:00",
+      "summary": "Tesla FSD dorazilo do Česka, OpenAI ukázalo proaktivního agenta Dots a Meta chystá vlastní AI zařízení. K tomu video Turing test, ve kterém 48 % lidí nepoznalo AI od člověka, a Figure AI roztavilo roboty ve stylu Terminátora podle nápadu Arnolda Schwarzeneggera.\n\nTo nejzajímavější z nového dílu Fantastic Future.",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "48 % lidí nerozeznalo AI od člověka 🤯 Tesla FSD konečně i v Česku a roboti skáčou do pece 🔥",
+      "url": "https://www.youtube.com/watch?v=sygJ9jDHVNE",
+      "published": "2026-10-03T09:04:06+00:00",
+      "summary": "V novém díle řešíme Dots od OpenAI, proaktivního AI agenta, který sám sleduje, co se kolem vás děje, a ozve se dřív, než se ho vůbec zeptáte. K tomu AI Tamagotchi od Mety, FSD v Česku, proč si Jarda nepořídil Ferrari Luce, nové VR brýle a svět, kde už AI není AI, ale Super Intelligence.\n\nA nakonec spekulujeme, jestli bude nový Tesla Roadster létat, řešíme video Turing test, ve kterém 48 % lidí nepoznalo AI od člověka, a humanoidy od Figure AI, kteří skáčou do pece pod dohledem Terminátora.\n\n0:00 Úvod\n5:52 ChatGPT Dots\n23:39 Muse Tamagotchi\n26:50 Evropské regulace AI\n28:34 Tesla FSD v Česku\n35:25 Proč Ferrari Luce nedává smysl?\n41:45 Rebrand AI na Super Intelligence\n48:14 Nové Meta VR brýle\n56:59 Konspirace kolem Tesla Roadster\n1:04:00 48 % lidí nerozeznalo AI od člověka\n1:06:27 Figure 02 Decommission s Terminátorem\n\n🎟️ Fantastic Future Summit - 16. 12. Forum Karlín\nTicketportal: https://www.ticketportal.cz/event/Fantastic-Future-Summit-2026-41068?utm_source=ig&amp;utm_medium=social&amp",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

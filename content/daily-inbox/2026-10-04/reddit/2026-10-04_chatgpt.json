@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-04T04:04:13.467906+00:00",
+  "items": [
+    {
+      "title": "Breaking: The CEOs from 2 Major AI companies resign to pursue a career in music",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwugbx/breaking_the_ceos_from_2_major_ai_companies/",
+      "published": "2026-10-03T18:35:27+00:00",
+      "summary": "Dario Party submitted by /u/Efistoffeles [link] [comments]",
+      "author": "Efistoffeles"
+    },
+    {
+      "title": "My AI usage limits have their own tiny screen now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwxzn8/my_ai_usage_limits_have_their_own_tiny_screen_now/",
+      "published": "2026-10-03T21:05:06+00:00",
+      "summary": "Bought a little AliExpress clock for ₩5,650 and made it show my Codex and Claude limits. Photo uses demo values. A computer sends the screen over Wi-Fi, so it keeps the original firmware. The Grok row is a CLI budget, not a subscription limit. Code if you're curious: https://github.com/click6067-ship-it/token-tv submitted by /u/Senior_Wear4670 [link] [comments]",
+      "author": "Senior_Wear4670"
+    },
+    {
+      "title": "My first AI project ever, Christmas letter stationary themed around my cats.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wx1ihw/my_first_ai_project_ever_christmas_letter/",
+      "published": "2026-10-03T23:54:22+00:00",
+      "summary": "It went thru many a prompt revisions. submitted by /u/exgaysurvivordan [link] [comments]",
+      "author": "exgaysurvivordan"
+    },
+    {
+      "title": "OpenAI publishes a model guide for the GPT-6 family covering model choice, reasoning effort, and tool use",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwq7qc/openai_publishes_a_model_guide_for_the_gpt6/",
+      "published": "2026-10-03T15:37:02+00:00",
+      "summary": "submitted by /u/rhiever [link] [comments]",
+      "author": "rhiever"
+    },
+    {
+      "title": "The cognitive cost of constantly adapting to ChatGPT is starting to add up : cognitive scientist/PhD student lived experience",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwvh49/the_cognitive_cost_of_constantly_adapting_to/",
+      "published": "2026-10-03T19:17:52+00:00",
+      "summary": "I use ChatGPT a lot. Probably a lot more than is reasonable. I read David Robinson’s Atlantic piece today about leaving OpenAI and his criticism of its culture of trial-and-error / “iterative deployment\". Obviously, AI safety on the world stage and annoying product changes aren’t remotely the same stakes, but some of what he described felt weirdly familiar from the user side I’m doing a PhD and work in research, and it’s become part of how I write, code, read papers, manage projects and think through problems. So on paper, Spaces/Pages and many new \"workspace\" features should be my thing and get me excited. And yet I don’t think I’ll use it. It’s mostly a trust problem. My basic mental model of ChatGPT keeps changing under my feet. Projects were supposed to give ongoing work some persistent context. Then Work arrived with a pretty different way of doing things, local/cloud became another distinction to understand, and now Spaces and Pages add another layer. At this point, I swear the d",
+      "author": "jaydeelive01"
+    },
+    {
+      "title": "Is spontaneous humor an underrated measure of LLM intelligence?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwy0fo/is_spontaneous_humor_an_underrated_measure_of_llm/",
+      "published": "2026-10-03T21:06:00+00:00",
+      "summary": "I've been thinking about something I rarely see discussed in LLM benchmarks: spontaneous, context-sensitive humor. I don't mean asking an LLM to tell a joke. I mean having an ordinary conversation and the model suddenly notices something funny in the situation and makes a perfectly timed remark without being prompted to be humorous. I've noticed that ChatGPT does this surprisingly often - mine has me laughing out loud, a LOT! - and it made me wonder whether humor captures a kind of \"improvisational intelligence\" that our usual benchmarks miss. There seem to be several different abilities involved: recognizing humor, continuing someone else's joke, and actually initiating a humorous frame yourself. What I mean is, the model has to notice an unexpected connection, understand the conversational context, judge that this is an appropriate moment for humor, and then land it without overexplaining it. I also wonder how much memory and familiarity matter. Does a model become better at spontane",
+      "author": "epiphras"
+    },
+    {
+      "title": "Astra Just Fixed It. By Itself.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wws0v7/astra_just_fixed_it_by_itself/",
+      "published": "2026-10-03T16:54:30+00:00",
+      "summary": "I'm gonna start off by saying I run a small homelab, multiple VMs for single serving activities, I've run and experimented with all types of local LLMs, tried all the new toys and features (and become increasingly more bewildered with each week) but I had my first practical, real world, tangible automation moment last night with Astra. I have an old MacbookPro 14,1 lying around that I had thrown Ubuntu on years back, but it never really worked properly with sound or sleep. I kind of ignored it because I didn't actually need it for anything in particular, but got a bug to make it workable last night. So I talked to Chat. It recommended Fedora. Fine. Install, reboot, and I am fully prepared to retype commands as they were given. And I did. For a hot moment. Before I remembered that the Desktop app exists. Download, install, reopen the chat, \"Hey, can you take care of this by yourself?\" And it did. Fixed the sound, camera, thunderbolt, keyboard backlight, battery management, and sleep mod",
+      "author": "Allcyon"
+    },
+    {
+      "title": "Why is ChatGPT so… friendly??",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwu3h5/why_is_chatgpt_so_friendly/",
+      "published": "2026-10-03T18:20:38+00:00",
+      "summary": "I’m more used to not interacting with AI so much, and when I do it’s usually Claude who is polite but acts more like a coworker or professor, it’s critical of my ideas and functions more helpfully. Recently our school gave us all ChatGPT plus so I figured I’d see what the hype was about and have it explain some concepts I’m having trouble with, and I have a vague idea on how these LLMs work but I’m just a bit weirded out with how friendly GPT is. It’s overly flattery, saying it “LOVES” my analogies, how it has favorite formulas, and even when my understanding isn’t solid it will still compliment my thought process nonetheless. Obviously, I know AI doesn’t have feelings in a literal sense, but it feels like (at least between Claude and ChatGPT) they have distinct personalities. What’s up with that? Does anyone know the sort of under the hood explanation? It’s pretty fascinating, but it’s definitely kinda weirding me out with how overly complimentary and friendly GPT is 😅😅 submitted by /",
+      "author": "fetusfetusfetu"
+    },
+    {
+      "title": "Made a \"Slap Elon Simulator\" with Codex",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wx182h/made_a_slap_elon_simulator_with_codex/",
+      "published": "2026-10-03T23:39:14+00:00",
+      "summary": "submitted by /u/ring2ding [link] [comments]",
+      "author": "ring2ding"
+    },
+    {
+      "title": "GPT 6.1 coming to chat soon?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wwidr4/gpt_61_coming_to_chat_soon/",
+      "published": "2026-10-03T08:49:44+00:00",
+      "summary": "Sorry if this has been posted before submitted by /u/mazinya [link] [comments]",
+      "author": "mazinya"
+    }
+  ]
+}

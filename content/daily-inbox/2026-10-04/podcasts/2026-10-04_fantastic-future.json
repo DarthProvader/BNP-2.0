@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-10-04T04:01:52.755706+00:00",
+  "items": [
+    {
+      "title": "48 % lidí nerozeznalo AI od člověka 🤯 Tesla FSD konečně i v Česku a roboti skáčou do pece 🔥",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/48--lid-nerozeznalo-AI-od-lovka--Tesla-FSD-konen-i-v-esku-a-roboti-skou-do-pece-e3pq66r",
+      "published": "2026-10-03T09:04:09+00:00",
+      "summary": "V novém díle řešíme Dots od OpenAI, proaktivního AI agenta, který sám sleduje, co se kolem vás děje, a ozve se dřív, než se ho vůbec zeptáte. K tomu AI Tamagotchi od Mety, FSD v Česku, proč si Jarda nepořídil Ferrari Luce, nové VR brýle a svět, kde už AI není AI, ale Super Intelligence.A nakonec spekulujeme, jestli bude nový Tesla Roadster létat, řešíme video Turing test, ve kterém 48 % lidí nepoznalo AI od člověka, a humanoidy od Figure AI, kteří skáčou do pece pod dohledem Terminátora.0:00 Úvod5:52 ChatGPT Dots23:39 Muse Tamagotchi26:50 Evropské regulace AI28:34 Tesla FSD v Česku35:25 Proč Ferrari Luce nedává smysl?41:45 Rebrand AI na Super Intelligence48:14 Nové Meta VR brýle56:59 Konspirace kolem Tesla Roadster1:04:00 48 % lidí nerozeznalo AI od člověka1:06:27 Figure 02 Decommission s Terminátorem🎟️ Fantastic Future Summit - 16. 12. Forum KarlínTicketportal: https://www.ticketportal.cz/event/Fantastic-Future-Summit-2026-41068?utm_source=ig&utm_medium=social&utm_content=link_in_bio%",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

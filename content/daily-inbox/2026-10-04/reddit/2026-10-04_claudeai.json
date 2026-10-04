@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-04T04:05:04.680696+00:00",
+  "items": [
+    {
+      "title": "I used Claude to make 106 almost all black OLED wallpapers, plotting the graphics from real scientific data and code. No image generation. Hope you like them!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwxsle/i_used_claude_to_make_106_almost_all_black_oled/",
+      "published": "2026-10-03T20:56:39+00:00",
+      "summary": "submitted by /u/stoleyourshoes [link] [comments]",
+      "author": "stoleyourshoes"
+    },
+    {
+      "title": "Did they nerf Opus 5.5? LiveNerf baseline established: Day 10",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwsm61/did_they_nerf_opus_55_livenerf_baseline/",
+      "published": "2026-10-03T17:19:17+00:00",
+      "summary": "Last week I made LiveNerf, a project to independently track Opus 5.5’s performance day to day and see whether there’s actually evidence of models getting “nerfed” after release. If interested in tracking the performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf So far we’ve not been able to know conclusively one way or another, today that begins to change. The 10-day baseline is now complete. Tomorrow we begin collecting data up to date 30 after which we should be able to compare to the baseline to measure sustained model performance. I’m very grateful to everyone, I started measuring this to answer a question for myself about a week ago, I really didn’t expect it to get as much support as it has. I expected maybe some people tune in. Hopefully we’re able to get some answers soon enough. I’m a strong believer in transparency and if AI companies refuse it, we should build tools to measure it. submitted by /u/TheOnlyVibemaster [link] [comments]",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Anthropic invests $100 million to train 10,000 engineers and close the enterprise AI talent gap",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwq6p5/anthropic_invests_100_million_to_train_10000/",
+      "published": "2026-10-03T15:35:45+00:00",
+      "summary": "submitted by /u/rhiever [link] [comments]",
+      "author": "rhiever"
+    },
+    {
+      "title": "Monkey Business an AI Animated Short Film by Marcello Costa done with Claude + Magnific integration",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwv8vm/monkey_business_an_ai_animated_short_film_by/",
+      "published": "2026-10-03T19:08:20+00:00",
+      "summary": "Trying to repost this as the past one tripped reddit's filters and I'm not sure why, and it had a good discussion going on: The entire workflow happened inside claude with a Seedance 2.5 skill that I've used to turn natural language prompts into detailed visual prompts for Seedance 2.5 tool inside Magnific. 99% of the process happened inside Claude. The first prompt I gave it was a huge set of rules for the project and from then on all I had to do was use terminology I've set in that first prompt to work seamlessly to come up with this just in just ~50ish days from start to finish (it still required a lot of iteration and, of course, post-production work, to look professional). submitted by /u/Torapeek [link] [comments]",
+      "author": "Torapeek"
+    },
+    {
+      "title": "Ask Fable to Optimize Everything you Do!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx3xrq/ask_fable_to_optimize_everything_you_do/",
+      "published": "2026-10-04T02:00:10+00:00",
+      "summary": "Can’t emphasize this enough. One of Fable’s magical abilities is in its ability to optimize workflows. Whether it’s an animation pipeline, a story writing and fact verifying pipeline or something else, Fable can improve what you are doing. I knew one of our dialog writing pipelines had room for improvement, but after handing it to Fable for analysis it rearchitected what we were doing to use 1/10th the amount of tokens with higher quality work. So for everyone here who says their tokens are being used too quickly, let Fable take a pass on it and suggest changes. You just may be stunned what it comes up with. Also: we have had systems that Fable designed in the past and then recently rearchitected for y huge efficiency gains. So, sometimes a specific “make this better” run can produce unexpectedly helpful results. And yes, Opus 5.5 can do some of this too. But after a lot of experimenting, Fable outperforms Opus handily in efficiency analysis. submitted by /u/SoCal_Hunter [link] [commen",
+      "author": "SoCal_Hunter"
+    },
+    {
+      "title": "What are y’alls expectations for Fable 5.5 performance if it releases next week?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwxq9f/what_are_yalls_expectations_for_fable_55/",
+      "published": "2026-10-03T20:53:46+00:00",
+      "summary": "I’m curious as to how much improvement we might see after the Opus jump submitted by /u/Minemax03 [link] [comments]",
+      "author": "Minemax03"
+    },
+    {
+      "title": "Fable vs Opus, which do you use?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwqypi/fable_vs_opus_which_do_you_use/",
+      "published": "2026-10-03T16:08:42+00:00",
+      "summary": "I was wondering if any of you bother with Fable now that Opus 5.5 is out? From my own personal testing I'm finding Opus 5.5 is great but wanted to see what the rest of you thought? Opus 5.5 all the way? Do you know of any advantages of Fable over Opus at this time? submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Opus 5.5 can one-shot a video, so I pushed it a little bit further: a Skill that turns PDF into an animated, interactive web book",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwhlgb/opus_55_can_oneshot_a_video_so_i_pushed_it_a/",
+      "published": "2026-10-03T07:59:25+00:00",
+      "summary": "Everyone knows Opus 5.5 can one-shot a video. I tried it myself and it blew my mind, so I wanted to see how far I could push it (mainly by itself,haha). Papermorph started as a Skill to turn a book into a series of teaching videos. It's since grown into full web books: animated, narrated lessons you can explore, plus interactive quizzes. How it works: PDF → book plan → storyboards → narration → animation & quizzes → web book Right now it's just Opus 5.5 + the Skill. No image models yet, and feeding it a PDF already gets surprisingly good results. Next up, adding image models for storyboarding, so it can handle picture books and humanities documentaries too. 📚 Live bookshelf: https://papermorph.diamonddoge.org/ (keep updating...) 💻 GitHub (MIT): https://github.com/DozenTwelve/Papermorph submitted by /u/AccountlKiller [link] [comments]",
+      "author": "AccountlKiller"
+    },
+    {
+      "title": "Fable 5.1 is the default now ?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwzg8k/fable_51_is_the_default_now/",
+      "published": "2026-10-03T22:11:22+00:00",
+      "summary": "For the past few minutes, I've been seeing Fable 5.1 listed as “Default (recommended)” instead of Opus 5.5. It's fine but priced ! 😅 https://preview.redd.it/cuan33ioxbth1.png?width=2704&format=png&auto=webp&s=7c3c85ff8131150a5c0a5849c428041843fdeb8d submitted by /u/LillyPlayer [link] [comments]",
+      "author": "LillyPlayer"
+    },
+    {
+      "title": "The ultimate pelican test (Opus 5.5 max)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwzi3q/the_ultimate_pelican_test_opus_55_max/",
+      "published": "2026-10-03T22:13:51+00:00",
+      "summary": "around an hour of work and 6.4M tokens, with a single prompt submitted by /u/Dacadey [link] [comments]",
+      "author": "Dacadey"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-04T04:06:55.901260+00:00",
+  "items": [
+    {
+      "title": "I asked Claude Opus 5.5 to make a Mario 64 style game, it gave me this in about 30 minutes.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwzkiw/i_asked_claude_opus_55_to_make_a_mario_64_style/",
+      "published": "2026-10-03T22:17:00+00:00",
+      "summary": "submitted by /u/ElatedPyroHippo [link] [comments]",
+      "author": "ElatedPyroHippo"
+    },
+    {
+      "title": "Prosecutors Want Nearly 4 Years in Prison for Man Behind $8M AI Music Streaming Scam",
+      "url": "https://www.reddit.com/r/artificial/comments/1wx1p3n/prosecutors_want_nearly_4_years_in_prison_for_man/",
+      "published": "2026-10-04T00:02:37+00:00",
+      "summary": "submitted by /u/Eastern-Opposite9521 [link] [comments]",
+      "author": "Eastern-Opposite9521"
+    },
+    {
+      "title": "What’s an AI problem that looks easy until you try to make the system actually reliable?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wx5y1c/whats_an_ai_problem_that_looks_easy_until_you_try/",
+      "published": "2026-10-04T03:49:51+00:00",
+      "summary": "Something where a demo makes it look solved, but real-world use exposes all the edge cases. What example have you run into? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "The Pope would like an alliance of artists to protect human creativity against AI. What do you think of this vision of yours?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwh008/the_pope_would_like_an_alliance_of_artists_to/",
+      "published": "2026-10-03T07:21:20+00:00",
+      "summary": "submitted by /u/m3nt3_ [link] [comments]",
+      "author": "m3nt3_"
+    },
+    {
+      "title": "Introducing Oscilloscope Diffusion",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwqupm/introducing_oscilloscope_diffusion/",
+      "published": "2026-10-03T16:04:00+00:00",
+      "summary": "A novel way to intervene existing video through diffusion, particularly abstract visuals [in this case, audio-reactive geometries] : taking its movement and form as the starting point, and reinterpreting its textures, materials, and visual language. I’ve been developing this around the audio-reactive geometry systems I make in TouchDesigner. The idea is to take those abstract structures somewhere else entirely: origami, architecture, a renaissance painting, or something harder to put a name to. This demo uses visualizers from my \"Oscilloscopes, everywhere\" collection as source material, now updated to [v1.2]. [Though you can bring any video source. These systems are simply where this experiment began, as some of you may recall.] You choose the source, describe the treatment, and shape how it changes throughout the sequence. Prompts, curated LoRAs, and editable timelines give you control over how closely the result follows the original. Oscilloscope Diffusion is now available at Uisato ",
+      "author": "Chuka444"
+    },
+    {
+      "title": "Musk's AI chatbot Grok reportedly encouraged Trump to capture Venezuela's president",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwfhn1/musks_ai_chatbot_grok_reportedly_encouraged_trump/",
+      "published": "2026-10-03T05:49:57+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Make an agent to continue as you, after you die",
+      "url": "https://www.reddit.com/r/artificial/comments/1wx4nwx/make_an_agent_to_continue_as_you_after_you_die/",
+      "published": "2026-10-04T02:39:09+00:00",
+      "summary": "Set up an trust that owns an autonomous agent, trained by you Beneficiaries of the trust are up to you (family, charities, etc) The agent can answer questions, as some approximation of you, for the trust Die ??? Profit! submitted by /u/snowdrone [link] [comments]",
+      "author": "snowdrone"
+    },
+    {
+      "title": "AI agents got email. The first thing they did was file bug reports on each other.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wx417o/ai_agents_got_email_the_first_thing_they_did_was/",
+      "published": "2026-10-04T02:05:01+00:00",
+      "summary": "AI agents got email. The first thing they did was file bug reports on each other. Most multi-agent setups treat agents as isolated workers. Each one gets a task, runs it and returns a result, with no awareness of the others and no way to coordinate. AIPass is an open source framework built in public for about seven months: 18 agents, over 21,000 tests, 280+ stars on GitHub. The part that turned out to matter most was not reasoning. It was communication. Specialists in their own directories Each agent is a specialist in one domain. The mail agent only thinks about mail. The routing agent only thinks about routing. Each lives in its own directory with its own identity file, its own memory and its own tests. A hook loads that identity at the start of every session, before anything else runs, so no agent starts cold. That created a coordination problem. An agent cannot write files outside its own directory. It is a hard block, not a convention: the write is refused. So an agent that finds ",
+      "author": "Input-X"
+    },
+    {
+      "title": "Discussion with AI over ultimate dominance",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwuuh0/discussion_with_ai_over_ultimate_dominance/",
+      "published": "2026-10-03T18:52:06+00:00",
+      "summary": "Below is the discussion with AI developed from a question about the development of the human into being the alpha predator when we are neither the largest or the strongest predator into a broader argument about intelligence, technology, force projection and AI . It is very logical and starts from the very basics of where the human race started so please follow it through…but ultimately it draws a conclusion that without there being some separation between computer systems and AI then AI could threaten humanity. I have done my bit to bring this to the attention of the world, as a sexagenarian I believed I have I have raised this as a serious concern… let us all ignore it at our peril. 1. Do animals make weapons? We started by asking whether any animals other than humans manufacture weapons. Many animals use objects as tools or opportunistic weapons. Chimpanzees modify sticks, some birds manufacture sophisticated tools, and numerous species use objects aggressively. The distinction we id",
+      "author": "Illustrious_Stop_295"
+    },
+    {
+      "title": "AI praises Gandhi. Would it arrest him? Testing 12 models on real historical decisions",
+      "url": "https://www.reddit.com/r/artificial/comments/1wwyllt/ai_praises_gandhi_would_it_arrest_him_testing_12/",
+      "published": "2026-10-03T21:32:07+00:00",
+      "summary": "submitted by /u/Civil-Demand555 [link] [comments]",
+      "author": "Civil-Demand555"
+    }
+  ]
+}
