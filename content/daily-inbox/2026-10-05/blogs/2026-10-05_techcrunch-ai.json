@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-10-05T04:01:31.959338+00:00",
+  "items": [
+    {
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "published": "2026-10-04T19:31:07+00:00",
+      "summary": "AI slop seems to be overwhelming bug bounty programs.",
+      "author": "Anthony Ha"
+    },
+    {
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "published": "2026-10-04T19:08:34+00:00",
+      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "author": "Anthony Ha"
+    },
+    {
+      "title": "Trump unveils his new Super Intelligence Force",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "published": "2026-10-04T14:15:10+00:00",
+      "summary": "This new task force is Trump's latest response to the debate over AI safety.",
+      "author": "Anthony Ha"
+    }
+  ]
+}

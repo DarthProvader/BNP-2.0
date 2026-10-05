@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-05T04:06:00.771416+00:00",
+  "items": [
+    {
+      "title": "The top 50 AI researchers by citations",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxm1vq/the_top_50_ai_researchers_by_citations/",
+      "published": "2026-10-04T17:59:09+00:00",
+      "summary": "How many on the list did you know? Obviously one paper like Attention is All You Need (278k citations) can influence a lot - all the authors are on the list. But still interesting imo. More context: https://www.turingtree.com/top-50 submitted by /u/ksprdk [link] [comments]",
+      "author": "ksprdk"
+    },
+    {
+      "title": "Plagiarism checker= Genius",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxqvl6/plagiarism_checker_genius/",
+      "published": "2026-10-04T21:17:48+00:00",
+      "summary": "Whoever invented the AI plagiarism checker is a genius. Why wait for papers to be published online when you can get people to upload college essays and other publications in an effort to detect AI usage. The models must be getting a lot of data from colleges and schools submitted by /u/meenags [link] [comments]",
+      "author": "meenags"
+    },
+    {
+      "title": "Half of surveyed UK novelists fear AI could replace their work entirely",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxv3km/half_of_surveyed_uk_novelists_fear_ai_could/",
+      "published": "2026-10-05T00:37:20+00:00",
+      "summary": "For many British novelists, the threat from artificial intelligence reaches beyond the manuscript on their desk. It also touches the freelance assignments that pay their bills, their ownership of published work, and their connection with readers. A University of Cambridge report found that 51% of participating published novelists believed AI would likely replace their fiction-writing work entirely. Another finding was more immediate: 39% said generative AI had already hurt their income. Some 85% expected their future earnings to decline because of it. Published in, The Impact of Generative AI on the Novel examined experiences across British fiction. Clementine Collett, a BRAID UK Research Fellow at Cambridge’s Minderoo Centre for Technology and Democracy, led the research. The report was published in association with the Institute for the Future of Work. submitted by /u/Brighter-Side-News [link] [comments]",
+      "author": "Brighter-Side-News"
+    },
+    {
+      "title": "AI finds 44 star systems that could hide Earth-like planets",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxv9n5/ai_finds_44_star_systems_that_could_hide/",
+      "published": "2026-10-05T00:45:53+00:00",
+      "summary": "A planet already found around a distant star may offer clues about another world still hidden nearby. Its mass and orbit can carry traces of how the entire planetary system formed, including planets too small or faint for telescopes to detect. That possibility underpins an artificial intelligence model developed at the University of Bern and Switzerland’s National Centre of Competence in Research PlanetS. In a study published in Astronomy & Astrophysics, the team identified 44 known systems that could harbor undiscovered Earth-like planets. The model reached precision scores of up to 99% when tested on simulated planetary systems. That result measures performance within a computer-generated population. The predicted worlds around actual stars remain unconfirmed, and the method’s value will depend on follow-up observations. submitted by /u/Brighter-Side-News [link] [comments]",
+      "author": "Brighter-Side-News"
+    },
+    {
+      "title": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL filesa",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxirdb/chatgpt6_astra_plays_world_of_warcraft_blind_and/",
+      "published": "2026-10-04T15:42:45+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "OpenAI cuts ties with 3 researchers over alleged misconduct",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxn3ua/openai_cuts_ties_with_3_researchers_over_alleged/",
+      "published": "2026-10-04T18:41:46+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "All Google models basically, even nanobanna on web is nerfed",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxo85r/all_google_models_basically_even_nanobanna_on_web/",
+      "published": "2026-10-04T19:26:51+00:00",
+      "summary": "I think this chase them for so long, I can't trust Gemini models outside quick web searches submitted by /u/HimaSphere [link] [comments]",
+      "author": "HimaSphere"
+    },
+    {
+      "title": "Thank you",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxqfo0/thank_you/",
+      "published": "2026-10-04T20:58:53+00:00",
+      "summary": "Do you thank an llm when you've finished chatting with it? Why or why not? submitted by /u/astreigh [link] [comments]",
+      "author": "astreigh"
+    },
+    {
+      "title": "One thing I find interesting about AI is that getting a better answer doesn't always mean getting a better outcome.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxy5zn/one_thing_i_find_interesting_about_ai_is_that/",
+      "published": "2026-10-05T03:16:12+00:00",
+      "summary": "An AI system can produce a convincing analysis, recommendation, or plan, but the result still depends on whether the user supplied the right context and whether the output holds up in reality. Where have you seen the biggest gap between an impressive AI response and something genuinely useful in practice? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness",
+      "url": "https://www.reddit.com/r/artificial/comments/1wxok9e/anthropic_has_been_aggressively_lobbying_the/",
+      "published": "2026-10-04T19:40:46+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-05T04:05:09.762865+00:00",
+  "items": [
+    {
+      "title": "Claude just saved my ass from a gas leak!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxoqzr/claude_just_saved_my_ass_from_a_gas_leak/",
+      "published": "2026-10-04T19:48:25+00:00",
+      "summary": "PG&E came by and confirmed it was a minor gas leak in our heater. They’re fixing it up right now. submitted by /u/2717192619192 [link] [comments]",
+      "author": "2717192619192"
+    },
+    {
+      "title": "AI is a HelloFresh killer. Automated meal prep and grocery ordering workflow.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxlm01/ai_is_a_hellofresh_killer_automated_meal_prep_and/",
+      "published": "2026-10-04T17:40:40+00:00",
+      "summary": "Disclaimer that I don't know how to code, and this is my first project of this sort. But it seems that the barrier to entry is so low now that even I can make something functional. I now use a system with Claude and Muse to handle my meal planning, grocery orders, tracking recipes, pantry inventory, meal feedback, and interface in the kitchen. The way it works is Claude comes up with a two week meal plan based on my households preferences, and feedback provided from last cycles meals, and submits it for review. After approval, Claude then creates a Walmart grocery list for the next two weeks, orders any pantry staples that I am low on + other items I add to the list, and creates a google doc of the shopping list in a dedicated folder. Muse then accesses the google doc to get the grocery order, and uses its dedicated browser to place the order (with my supervision from my phone to hit final pay confirmation). I also had it create an interface that shows the meal plan, recipe for the nig",
+      "author": "WeezerHunter"
+    },
+    {
+      "title": "Tip: How to automate \"Hi Haiku\" daily early morning",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxon4e/tip_how_to_automate_hi_haiku_daily_early_morning/",
+      "published": "2026-10-04T19:44:03+00:00",
+      "summary": "I guess many of you did it manually or setup alarm to wake up say hi and goes sleep. Heres some trick. You can just schedule it submitted by /u/obieq [link] [comments]",
+      "author": "obieq"
+    },
+    {
+      "title": "Updated Claude storage/memory map: what's local, what's cloud, and what changes Oct 6",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxiysh/updated_claude_storagememory_map_whats_local/",
+      "published": "2026-10-04T15:51:31+00:00",
+      "summary": "Lots of changes over the last few months. Hard to keep track of. Here are all 21 Anthropic help articles, doc pages and release notes on the migration combined in one visualization. Next milestone is October 6th. If you haven't seen it already, all new sessions in the Claude app on Pro/Max will be cloud only. No more local option. Tasks you already started locally stay local. Claude Code is still the local option. Team/Enterprise admins still decide location ATM, no specific date yet. All references in full article . submitted by /u/BenSimonDev [link] [comments]",
+      "author": "BenSimonDev"
+    },
+    {
+      "title": "Anthropic needs an even cheaper model than Haiku",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxsns4/anthropic_needs_an_even_cheaper_model_than_haiku/",
+      "published": "2026-10-04T22:37:30+00:00",
+      "summary": "GPT-6 Luna is priced at $0.10 per million input tokens and $0.50 per million output tokens. Claude's cheapest model, Haiku 4.5, costs $1 and $5. That's ten times more. Agents send most of their calls to small, fast worker models. Those calls are where most tokens get spent, and a 10x gap on that much volume decides which vendor gets picked. Caching maintains that 10x gap: Luna charges $0.01 per million for cache reads, Haiku charges $0.10. Anthropic has been cutting prices higher up. Opus 5.5 is $4/$20, down from $5/$25 for Opus 5. Haiku is the tier that hasn't moved. Haiku 5.5 is due in the coming weeks, but there's no price yet. A better Haiku at $1/$5 won't fix this. Anthropic needs something close to Luna's price, whether that's Haiku 5.5 or a new tier below it. submitted by /u/Balance- [link] [comments]",
+      "author": "Balance-"
+    },
+    {
+      "title": "Claude Code is very addictive.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxt8wo/claude_code_is_very_addictive/",
+      "published": "2026-10-04T23:05:51+00:00",
+      "summary": "I subscribed to Claude mainly for work and coding. I run an agency, so I already have plenty of things I should be doing. But now every random idea that pops into my head turns into a coding experiment. I’ll be working on something completely normal and suddenly think, “Wait… can Claude build this?” And that’s it. I open Claude Code, start experimenting, and somehow a few hours disappear. The funny thing is, I’m not even trying to build anything useful half the time. I just want to see if I can make the idea work. One small idea becomes a prototype. The prototype becomes a project. And suddenly I’m working on something at 2 AM that I thought of 20 minutes ago. Claude Code is genuinely very addictive. 😂 submitted by /u/Careless-Mongoose589 [link] [comments]",
+      "author": "Careless-Mongoose589"
+    },
+    {
+      "title": "I used Claude to build a dashboard that aggregates news articles, trending videos, livestreams and radio stations into one place. Minus the AI slop look.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxnkuc/i_used_claude_to_build_a_dashboard_that/",
+      "published": "2026-10-04T19:00:42+00:00",
+      "summary": "I recently discovered my grandmother no longer reads the news because she gets all her information from social media - if its not trending on Facebook, she doesn't see it. I remember when Boomers used to swear by mainstream outlets like CNN, but smartphones pulled many of them into social media bubbles ruled by algorithms. In response to this, I used Claude to make a global dashboard that lets anyone stay informed. It's called The Daily Orbit . You get articles from most kinds of outlets, as well as trending IG and TikTok videos, YouTube livestreams, and radio stations from all over the world. I even rebuilt the TweetDeck newsfeed since its no longer publicly available. I also made a research assistant called Orbit that answers any questions about recent events. There's a lot of AI-powered news readers going around, but most of them oversupply information from OSINT sources. I needed something simple that a grandmother could use, but without the AI slop aesthetic that turns people off.",
+      "author": "MrPopCultur"
+    },
+    {
+      "title": "I had to try Opus 5.5's JavaScript videos, so I made one about a data center that makes fresh water instead of using it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxy24q/i_had_to_try_opus_55s_javascript_videos_so_i_made/",
+      "published": "2026-10-05T03:10:29+00:00",
+      "summary": "Saw people making videos with Opus 5.5 in JavaScript and had to try it. So I had it make one about energy synergy. Take the content with a grain of salt. I just wanted to see what it could do. I had Claude Code use the ElevenLabs MCP server for The Voice. This is my second time using Clock code and I’m kicking myself for not using it earlier. Previously anything I made, I made through chat. submitted by /u/Se777enUP [link] [comments]",
+      "author": "Se777enUP"
+    },
+    {
+      "title": "Claude has enabled me to make apps for personal use and its kinda scary",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx7nnw/claude_has_enabled_me_to_make_apps_for_personal/",
+      "published": "2026-10-04T05:28:38+00:00",
+      "summary": "I took a Java course in college, so I understand the basics of coding and can generally follow how it works. I also have some experience with Python. For example, on my YouTube channel, I transcribe videos and feed the transcripts into AI to generate descriptions for videos in a playlist. I used to run faster-whisper through the terminal, but that became annoying. So now, I created my own whisper transcription app using Claude Code. Claude Code is surprisingly impressive because it can test things in the background and analyze how they actually work. It can even say, almost like a human, \"I didn’t like the way that worked; let me try something different.\" The ability to manipulate the environment and build sandboxes before deployment is incredibly useful. If you have a working system and an idea for improvement, Claude Code recreates it in a sandbox, applies the update, and tests it before deploying to production. That way, if something breaks, it doesn’t affect the real system. This i",
+      "author": "AcrillixOfficial"
+    },
+    {
+      "title": "I made a quiz with Claude to test how much AI has gotten into your brain. It’s just a fun side project, but you might enjoy!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxi4nd/i_made_a_quiz_with_claude_to_test_how_much_ai_has/",
+      "published": "2026-10-04T15:16:09+00:00",
+      "summary": "I scored 50%. Completely free to play, no tracking or anything. I built this using Claude Code (combination of Opus 5.5 and Fable 5.1) over about a day and a half. Had a lot of fun pushing the style towards a somewhat PS1 inspired look, with some modern influence. And I tried to make it completely usable with only keyboard, if you prefer. If you try it, let me know what you think! Lots of little fun moments, 3 different ending options. submitted by /u/sauderjoshua [link] [comments]",
+      "author": "sauderjoshua"
+    }
+  ]
+}
