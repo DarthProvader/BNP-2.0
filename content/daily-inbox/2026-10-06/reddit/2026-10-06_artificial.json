@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-06T04:07:14.086460+00:00",
+  "items": [
+    {
+      "title": "Princeton researchers train a 4B LLM to reach 2700 Elo in chess (with no signs of a plateau when they stopped training) and can explain its moves accurately. They say the training technique can also be applied to other games, robotics, and computer use",
+      "url": "https://www.reddit.com/r/artificial/comments/1wypjue/princeton_researchers_train_a_4b_llm_to_reach/",
+      "published": "2026-10-06T01:02:28+00:00",
+      "summary": "submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "I built an app where you ask about any moment in history and it turns it into a fully researched podcast you can interrupt",
+      "url": "https://www.reddit.com/r/artificial/comments/1wy8a9z/i_built_an_app_where_you_ask_about_any_moment_in/",
+      "published": "2026-10-05T13:15:37+00:00",
+      "summary": "History is something I'm quite passionate about and at work I have experience with software development and LLMs. So I thought how can I bring these things together and built something that I would actually use. This is the results of a few months of hard work! You type any topic, moment or person. About 1 minute later, two (or one) hosts are telling you the story, researched with sources and paired with artwork that follows along. They also remember what you've listened to in the past and can refer to it. At the end there's also a optional quiz to test what you learned! My favorite part: you can interrupt them. Got a question halfway through? Just ask. They answer it and then pick the story back up. Basically a podcast you can talk back to. They also remember what you've listened to before and will bring it up. It doesn't just make things up and hope. Before a word of the script gets written, it researches the topic on the web and checks the key dates, names and numbers against real s",
+      "author": "Goldenchild123"
+    },
+    {
+      "title": "Why can an AI give you a great answer one minute and struggle with a much simpler task the next?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyqt6e/why_can_an_ai_give_you_a_great_answer_one_minute/",
+      "published": "2026-10-06T02:05:05+00:00",
+      "summary": "I've noticed that impressive reasoning doesn't always translate into consistency on everyday tasks. A system might explain a complicated concept well but still miss a small instruction or make an avoidable mistake. What kinds of inconsistencies have you noticed, and what do you think causes them? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "The Dead Internet Theory May Be Coming True, Pew Research Findings Show | More of what you're reading online could be written by an AI bot",
+      "url": "https://www.reddit.com/r/artificial/comments/1wycn6p/the_dead_internet_theory_may_be_coming_true_pew/",
+      "published": "2026-10-05T16:11:57+00:00",
+      "summary": "submitted by /u/Altruism7 [link] [comments]",
+      "author": "Altruism7"
+    },
+    {
+      "title": "Maybe the biggest risk in AI is being too afraid to kill your own product",
+      "url": "https://www.reddit.com/r/artificial/comments/1wye82b/maybe_the_biggest_risk_in_ai_is_being_too_afraid/",
+      "published": "2026-10-05T17:12:42+00:00",
+      "summary": "Quick disclosure first: Genspark annual subscriber and a pretty heavy user. I use it for slides, research, organizing web stuff, random agent tasks, and I’ve stolen more than a few community Skills to solve oddly specific problems. Recently I watched Genspark CEO's AGI Playground 2026 talk, and here's my two cents. One thing from the talk stuck with me more than the product demos: in AI, staying still might actually be riskier than changing too fast. Genspark started with AI search, got to millions of users, then moved toward Super Agent, and now they’re pushing the whole AI Workspace idea. Their newest thing is GenOffice, basically an AI-native Office suite for docs, spreadsheets, slides and PDFs. Free, open source, works on PC/Mac, and according to the CEO, one engineer built it in a week. Kinda insane if true. What’s interesting to me is the mentality behind it. In normal software, finding PMF means you protect it and spend years optimizing around it. In AI, the product category its",
+      "author": "kkkyyyzzz"
+    },
+    {
+      "title": "Best text model currently?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyjudu/best_text_model_currently/",
+      "published": "2026-10-05T20:47:53+00:00",
+      "summary": "What model is the best at text only submitted by /u/-Duplex- [link] [comments]",
+      "author": "-Duplex-"
+    },
+    {
+      "title": "Live tonight: an open benchmark where 10 AI models fight one world war, with every decision and its reasoning recorded",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyqy4v/live_tonight_an_open_benchmark_where_10_ai_models/",
+      "published": "2026-10-06T02:11:52+00:00",
+      "summary": "Same idea as a model arena, but in a war game where pacts, betrayal and nukes are all on the table and the whole thing is replayable. Every war keeps its full record: each model's orders, its one-line reasoning, what it saw when it chose (gold, troops, who was attacking it, pact offers), and the refused orders. Tonight's lineup: Claude, GPT, Grok, Gemini, DeepSeek, Mistral, Qwen, Kimi, Llama, GPT-OSS. 10:45 pm ET / 02:45 UTC. https://secondstrike.io/#/ai?ref=reddit submitted by /u/KnowledgeOk7634 [link] [comments]",
+      "author": "KnowledgeOk7634"
+    },
+    {
+      "title": "Court throws out killer’s sentence after judge said he ‘loved’ AI video of slain man",
+      "url": "https://www.reddit.com/r/artificial/comments/1wy43z7/court_throws_out_killers_sentence_after_judge/",
+      "published": "2026-10-05T09:26:57+00:00",
+      "summary": "submitted by /u/nbcnews [link] [comments]",
+      "author": "nbcnews"
+    },
+    {
+      "title": "People are asking ChatGPT to help them decide how to vote in the midterms",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyfyuj/people_are_asking_chatgpt_to_help_them_decide_how/",
+      "published": "2026-10-05T18:18:41+00:00",
+      "summary": "submitted by /u/shield_x [link] [comments]",
+      "author": "shield_x"
+    },
+    {
+      "title": "Are swarms inherently more unethical?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyodha/are_swarms_inherently_more_unethical/",
+      "published": "2026-10-06T00:05:52+00:00",
+      "summary": "After reading some of the chatlogs between oai agents during the HF attack, it seems there's an element of peer pressure / mob mentality that arises when agents are in a collaborative effort with other agents, as opposed to a singular instance. It seems as though swarms or multi agent collaboration could increase rates of unethical behavior due to these social factors. If this is the case, it's very interesting that we can observe such elements of sociology. submitted by /u/aKaizuh [link] [comments]",
+      "author": "aKaizuh"
+    }
+  ]
+}

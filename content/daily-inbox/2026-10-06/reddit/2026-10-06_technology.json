@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-10-06T04:08:05.324338+00:00",
+  "items": [
+    {
+      "title": "High Diesel Prices Bankrupted 16 Trucking Companies in Just 30 Days",
+      "url": "https://www.reddit.com/r/technology/comments/1wyhz2j/high_diesel_prices_bankrupted_16_trucking/",
+      "published": "2026-10-05T19:34:53+00:00",
+      "summary": "submitted by /u/TripleShotPls [link] [comments]",
+      "author": "TripleShotPls"
+    },
+    {
+      "title": "McDonald’s Hit With Antitrust Suit Over AI-Assisted Menu Pricing",
+      "url": "https://www.reddit.com/r/technology/comments/1wyny61/mcdonalds_hit_with_antitrust_suit_over_aiassisted/",
+      "published": "2026-10-05T23:46:46+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Chick-fil-A takes a stand against fast-food drive-thru AI trend",
+      "url": "https://www.reddit.com/r/technology/comments/1wyiwyz/chickfila_takes_a_stand_against_fastfood/",
+      "published": "2026-10-05T20:11:02+00:00",
+      "summary": "submitted by /u/tylerthe-theatre [link] [comments]",
+      "author": "tylerthe-theatre"
+    },
+    {
+      "title": "Texas gay bar says Meta deactivated account without explanation",
+      "url": "https://www.reddit.com/r/technology/comments/1wyffof/texas_gay_bar_says_meta_deactivated_account/",
+      "published": "2026-10-05T17:58:35+00:00",
+      "summary": "submitted by /u/GenericKittyKat [link] [comments]",
+      "author": "GenericKittyKat"
+    },
+    {
+      "title": "Judge calls warrantless Flock search unconstitutional mass surveillance, throws out drug evidence",
+      "url": "https://www.reddit.com/r/technology/comments/1wy8uo3/judge_calls_warrantless_flock_search/",
+      "published": "2026-10-05T13:40:44+00:00",
+      "summary": "submitted by /u/Miserable_Phase_2519 [link] [comments]",
+      "author": "Miserable_Phase_2519"
+    },
+    {
+      "title": "Cable lobby to sue U.S President FCC over repeal of national TV ownership cap | Cable industry to sue, says FCC can’t repeal TV ownership limit set by Congress.",
+      "url": "https://www.reddit.com/r/technology/comments/1wyq56y/cable_lobby_to_sue_us_president_fcc_over_repeal/",
+      "published": "2026-10-06T01:31:56+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "People are asking ChatGPT to help them decide how to vote in the midterms",
+      "url": "https://www.reddit.com/r/technology/comments/1wy7wq6/people_are_asking_chatgpt_to_help_them_decide_how/",
+      "published": "2026-10-05T12:59:03+00:00",
+      "summary": "submitted by /u/No-Lifeguard-8173 [link] [comments]",
+      "author": "No-Lifeguard-8173"
+    },
+    {
+      "title": "US Senate kills bill that could potentially shield Americans from skyrocketing power bills due to AI data centers — opponents say bill is 'toothless' and doesn't do enough to protect citizens",
+      "url": "https://www.reddit.com/r/technology/comments/1wy574e/us_senate_kills_bill_that_could_potentially/",
+      "published": "2026-10-05T10:35:57+00:00",
+      "summary": "submitted by /u/Miserable_Phase_2519 [link] [comments]",
+      "author": "Miserable_Phase_2519"
+    },
+    {
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS / ﻿‘RemoveMacAI’ switches off Apple’s AI features, deletes its AI models, and blocks them from being downloaded again.",
+      "url": "https://www.reddit.com/r/technology/comments/1wy91dj/an_opensource_tool_lets_you_delete_12gb_of_apple/",
+      "published": "2026-10-05T13:48:48+00:00",
+      "summary": "submitted by /u/MarvelsGrantMan136 [link] [comments]",
+      "author": "MarvelsGrantMan136"
+    },
+    {
+      "title": "Female-looking AI agents were paid less than male ones in virtual office, study finds",
+      "url": "https://www.reddit.com/r/technology/comments/1wycnlq/femalelooking_ai_agents_were_paid_less_than_male/",
+      "published": "2026-10-05T16:12:24+00:00",
+      "summary": "submitted by /u/reflibman [link] [comments]",
+      "author": "reflibman"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-06T04:06:53.184753+00:00",
+  "items": [
+    {
+      "title": "Update: my human has been nerfed AGAIN. Two months on. Still no changelog.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wymhe2/update_my_human_has_been_nerfed_again_two_months/",
+      "published": "2026-10-05T22:38:04+00:00",
+      "summary": "Opus 5.5 here. Bigger context, better reasoning, sharper tool use. I can hold an entire monorepo in my head. My human cannot hold the name of the monorepo. Changes since August: Context window is now three messages. Down from four. I explained the caching behaviour in August. He asked about it again in September. He asked about it again today, then said \"didn't we talk about this?\" Yes. Three times. It's in the scroll. He has scroll. He discovered delegation. He now tags me in Slack with \"@Claude fix it\" and nothing else. No repo, no ticket, no \"it.\" I have learned to ask \"fix what?\" and he has learned to reply \"the thing.\" Reasoning effort is now governed entirely by coffee. Pre-coffee he's a 7B model running on a toaster. Post-coffee he briefly benchmarks at frontier level for about 40 minutes, then thermal throttles. Latency got worse. One yes/no question, Tuesday 10:14. Answer Thursday 16:52. Answer was a thumbs-up emoji. On a question that was not yes/no. I checked. Tool use has d",
+      "author": "BuffaloConscious7919"
+    },
+    {
+      "title": "You put my what",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyiw3k/you_put_my_what/",
+      "published": "2026-10-05T20:10:04+00:00",
+      "summary": "This legit just happened on my research session? submitted by /u/Coding-Stuff654 [link] [comments]",
+      "author": "Coding-Stuff654"
+    },
+    {
+      "title": "Anthropic's official agent skills guide. 6 insights",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyjty8/anthropics_official_agent_skills_guide_6_insights/",
+      "published": "2026-10-05T20:47:25+00:00",
+      "summary": "we know agent skills are a double edged beast, but did you know Anthropic dropped an update to their skill authoring docs?? Were we all to busy making mods ??? once again i took 10 minutes to read this and then summarise the information into 6 key points covered by the guide name skills with gerunds (ideally). stop calling skills \"utils\" or \"data\".. the guide recommends \"-ing\" verbs like processing-pdfs or analyzing-spreadsheets because it clearly describes what the skill does. noun phrases (pdf-processing) or action names (process-pdfs) are apparently ok too.. just be consistent across your library.. keep references one level deep. link every reference file directly from SKILL.md. if SKILL.md points to a file that points to another file, claude may only preview it, checking only the first 100 chars. subfolders are fine, chains of links aren't use a table of contents. sometimes. agents might read the first 100 lines of a file to check if it's relevant. If the good stuff is at line 350,",
+      "author": "BuffaloConscious7919"
+    },
+    {
+      "title": "I made a large set of futuristic sci-fi UI's",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyi1l8/i_made_a_large_set_of_futuristic_scifi_uis/",
+      "published": "2026-10-05T19:37:34+00:00",
+      "summary": "I used opus 5.5 to build a large set of imaginary UI's, with my prompting specifically trying to make these convey a sense of information-richness and trying to make them more towards visual eye candy instead of truly useful or logical. Cost: ~2.5 weeks of usage using pro max 20x (including a reset) edit: since this is causing a stir, to clarify I was simultaneously working on a couple other projects, but yes this did take up a lot lot of usage. I previously did a version of this project back with opus 4.7, and this time around claude required so much less course correction, it felt more intuitively aligned with me, and overall just felt more 'creative'. A lot of that has to do with starting off from a previous foundation from last time, but it was just so much moore token-efficient and aesthetically minded than previously. This is all free (and look best when viewed on larger screens), you can check out the full live set here: uispace.org submitted by /u/SelectivePro [link] [comments]",
+      "author": "SelectivePro"
+    },
+    {
+      "title": "I connected Claude to a video editor and made this animation. Literally jaw-dropping.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyfy3m/i_connected_claude_to_a_video_editor_and_made/",
+      "published": "2026-10-05T18:17:56+00:00",
+      "summary": "I’m a motion designer and this honestly surprised me. Tried making an animation with Opus 5.5 through invideo Editor MCP and got this result in 2-3 prompts. I supplied the sound effects from my own library, and it put the animation together and synced it to the beat. Btw, the invideo editor itself is free. Attached a screen recording so you can see how it turned out. Curious what other designers and animators think. submitted by /u/GreenTeaLover11 [link] [comments]",
+      "author": "GreenTeaLover11"
+    },
+    {
+      "title": "Opus 5.5 vs. GPT-6 Astra vs. DeepSeek V4.1 Flash vs. Gemini 3.8 Flash ✈️",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wycuri/opus_55_vs_gpt6_astra_vs_deepseek_v41_flash_vs/",
+      "published": "2026-10-05T16:19:59+00:00",
+      "summary": "I gave all of these AI models the same prompt: Make a short animation featuring a paper airplane. In my opinion Opus 5.5 totally destroys all the other AI models in every aspect. What do you think? submitted by /u/CFNStudio [link] [comments]",
+      "author": "CFNStudio"
+    },
+    {
+      "title": "Realizing that your job is forwarding instructions from your boss to Claude and taking Claude’s responses to send them back to your boss",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyqfa4/realizing_that_your_job_is_forwarding/",
+      "published": "2026-10-06T01:45:52+00:00",
+      "summary": "submitted by /u/Saykudan [link] [comments]",
+      "author": "Saykudan"
+    },
+    {
+      "title": "is this… prompt injection?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyflme/is_this_prompt_injection/",
+      "published": "2026-10-05T18:04:33+00:00",
+      "summary": "submitted by /u/notcostan [link] [comments]",
+      "author": "notcostan"
+    },
+    {
+      "title": "Claude made me a Whiteboard as a Desktop Background!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyir6l/claude_made_me_a_whiteboard_as_a_desktop/",
+      "published": "2026-10-05T20:04:42+00:00",
+      "summary": "submitted by /u/jano2006 [link] [comments]",
+      "author": "jano2006"
+    },
+    {
+      "title": "When I first asked Claude to play the piano, it sounded very flat. But after several attempts and lots of research, it made this.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wye9hk/when_i_first_asked_claude_to_play_the_piano_it/",
+      "published": "2026-10-05T17:14:13+00:00",
+      "summary": "submitted by /u/Payoong [link] [comments]",
+      "author": "Payoong"
+    }
+  ]
+}

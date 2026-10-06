@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-06T04:04:10.509469+00:00",
+  "items": [
+    {
+      "title": "AI Is About to Transform Materials Science",
+      "url": "https://www.reddit.com/r/singularity/comments/1wykgbk/ai_is_about_to_transform_materials_science/",
+      "published": "2026-10-05T21:11:59+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "DeepMind’s new AI designed enzymes from scratch, one made a chemical building block found in many medicines 99× more often than the competing product, while another broke down a plastic pollutant at 90°C where natural enzymes failed",
+      "url": "https://www.reddit.com/r/singularity/comments/1wyft2i/deepminds_new_ai_designed_enzymes_from_scratch/",
+      "published": "2026-10-05T18:12:36+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "UT Austin Math Chair Francesco Maggi says OpenAI appears to be preparing to release ~400 AI-generated proofs at once, mathematics is approaching a point where discovery is no longer the scarce part; human understanding is",
+      "url": "https://www.reddit.com/r/singularity/comments/1wysmxl/ut_austin_math_chair_francesco_maggi_says_openai/",
+      "published": "2026-10-06T03:41:22+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Next up: Super General Intelligence",
+      "url": "https://www.reddit.com/r/singularity/comments/1wyhqjg/next_up_super_general_intelligence/",
+      "published": "2026-10-05T19:25:43+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    },
+    {
+      "title": "Mathematicians don’t deserve a special exemption from AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1wyefga/mathematicians_dont_deserve_a_special_exemption/",
+      "published": "2026-10-05T17:20:30+00:00",
+      "summary": "First off, let me be clear. I don’t think AI companies should be “scooping” mathematicians who may be using their systems and then preemptively publishing their work without acknowledging that those mathematicians were part of the process. That’s shitty and people deserve credit for the work they actually contributed. But apparently we’re now at the point where AI systems are potentially solving a bunch of long standing open math problems, and some of those results aren’t being released yet while everyone figures out how to handle this responsibly. And honestly, that’s what kind of pisses me off. If the reason we’re holding something back is because the proof needs to be verified, absolutely. Verify the hell out of it. Make sure it’s actually correct and actually a new discovery. Make sure the model didn’t pull it from someone’s existing or unpublished work. Figure out attribution. I have zero problem with any of that. But if part of the reason we’re slowing this down is because the ma",
+      "author": "DankestMage99"
+    },
+    {
+      "title": "Kurzgesagt video on Hugging face attack",
+      "url": "https://www.reddit.com/r/singularity/comments/1wymoqs/kurzgesagt_video_on_hugging_face_attack/",
+      "published": "2026-10-05T22:47:24+00:00",
+      "summary": "submitted by /u/Status-Platform7120 [link] [comments]",
+      "author": "Status-Platform7120"
+    },
+    {
+      "title": "I built a walkable O'Neill cylinder in the browser: a 20-mile-long habitat you can explore from street level.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wyqhde/i_built_a_walkable_oneill_cylinder_in_the_browser/",
+      "published": "2026-10-06T01:48:41+00:00",
+      "summary": "submitted by /u/Anen-o-me [link] [comments]",
+      "author": "Anen-o-me"
+    },
+    {
+      "title": "\"AI Just Crossed the Terrifying Line - Now What?\" --- New Kurzgesagt video on the OAI swarm breakout and Hugging Face hacking incident",
+      "url": "https://www.reddit.com/r/singularity/comments/1wynbc7/ai_just_crossed_the_terrifying_line_now_what_new/",
+      "published": "2026-10-05T23:16:05+00:00",
+      "summary": "submitted by /u/Anen-o-me [link] [comments]",
+      "author": "Anen-o-me"
+    },
+    {
+      "title": "A health group just became the first in the U.S. cleared to use AI for writing initial skin prescriptions, making it the first end-to-end AI doctor",
+      "url": "https://www.reddit.com/r/singularity/comments/1wyl5yq/a_health_group_just_became_the_first_in_the_us/",
+      "published": "2026-10-05T21:41:31+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Chat GPT fixed my PC after different technicians over the years couldn't or wouldn't",
+      "url": "https://www.reddit.com/r/singularity/comments/1wy8c0l/chat_gpt_fixed_my_pc_after_different_technicians/",
+      "published": "2026-10-05T13:17:44+00:00",
+      "summary": "I built this PC myself, but I do not have a technical background. From the beginning, it suffered from crashes, freezes, strange errors, the C drive auto-repairing on launch, and other problems that became increasingly frustrating. I had already replaced my C drive twice, thinking it was the main culprit. I took it to two different technicians. Both charged me, both said they fixed the problem, and both times the crashes came back. When I spoke with the technicians, they said the original issue was solved and that there must be a new or additional problem. What finally made the difference was troubleshooting the computer with ChatGPT in a very practical, step-by-step way. I did not need to understand BIOS settings, memory testing, motherboard slots, crash codes, or drivers beforehand. I could simply take a screenshot of what I was seeing and ask what to do next. ChatGPT would look at the screen and give me very concrete instructions such as: “press this option,” “open this menu,” “sele",
+      "author": "zodiac9094"
+    }
+  ]
+}
