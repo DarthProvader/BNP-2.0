@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-07T04:04:17.806155+00:00",
+  "items": [
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzg6bt/sharing_ai_progress_in_mathematics/",
+      "published": "2026-10-06T22:25:31+00:00",
+      "summary": "OpenAI released 722 mathematical manuscripts across 372 families of related results, produced by an unreleased frontier model. Many have Lean proofs; others remain unverified. Average compute per result: roughly three hours of ChatGPT Pro thinking. They’re working toward releasing the model. Github: https://github.com/openai/math submitted by /u/AMBNNJ [link] [comments]",
+      "author": "AMBNNJ"
+    },
+    {
+      "title": "Europe finally takes the lead",
+      "url": "https://www.reddit.com/r/singularity/comments/1wze844/europe_finally_takes_the_lead/",
+      "published": "2026-10-06T21:03:00+00:00",
+      "summary": "Mistral has officially taken the lead submitted by /u/cheezeerd [link] [comments]",
+      "author": "cheezeerd"
+    },
+    {
+      "title": "Ex Anthropic Researcher: There Will Be No Jobs. There Will Be Universal High Income.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzfdk8/ex_anthropic_researcher_there_will_be_no_jobs/",
+      "published": "2026-10-06T21:50:22+00:00",
+      "summary": "https://x.com/hilbertspaess/status/2107535565159899600 In this interview I tried to argue that a post-scarcity society will benefit working people. It was largely a rhetorical failure. People don’t trust that the benefits will be distributed, and tech optimists have to fix this communications issue. I have a lot of new respect for Jacob Coxon now (he is the ex Anthropic researcher that went viral for resigning and saying there's a chance AI could kill us all). It was painful watching this. He tried to discuss the subject of Universal High Income in a serious manner, but the man interviewing him (Jon Stewart) completely mocked the idea and said that he and many people would die out of boredom if their jobs were automated away. Coxon correctly responded to him by saying that the vast majority of people do not get fulfillment from their jobs, and simply go to work so they can live. Jon Stewart is completely out of touch with the struggles of the average person. Jon Stewart is a multimilli",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Astra and Claude prove the best known square packing for 11 squares is optimal (formalized in Lean)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzf641/astra_and_claude_prove_the_best_known_square/",
+      "published": "2026-10-06T21:41:35+00:00",
+      "summary": "https://x.com/ManassehA06/status/2107508501610217640 submitted by /u/Hyperreals_ [link] [comments]",
+      "author": "Hyperreals_"
+    },
+    {
+      "title": "OpenAI publishes 722 mathematical proofs & manuscripts",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzio50/openai_publishes_722_mathematical_proofs/",
+      "published": "2026-10-07T00:22:25+00:00",
+      "summary": "OpenAl released 722 mathematical manuscripts across 372 families of related results, produced by an unreleased frontier model. Many have Lean proofs; others remain unverified. Average compute per result: roughly three hours of ChatGPT Pro thinking. They're working toward releasing the model. Github: https://github.com/openai/math submitted by /u/socialistshroom [link] [comments]",
+      "author": "socialistshroom"
+    },
+    {
+      "title": "Le chonk official launch video",
+      "url": "https://www.reddit.com/r/singularity/comments/1wz9xy6/le_chonk_official_launch_video/",
+      "published": "2026-10-06T18:17:46+00:00",
+      "summary": "They're fully giving in to the memes submitted by /u/NoFaithlessness951 [link] [comments]",
+      "author": "NoFaithlessness951"
+    },
+    {
+      "title": "Mathematicians today",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzla1y/mathematicians_today/",
+      "published": "2026-10-07T02:32:59+00:00",
+      "summary": "submitted by /u/drhenriquesoares [link] [comments]",
+      "author": "drhenriquesoares"
+    },
+    {
+      "title": "OpenAI plans to release hundreds of AI solved math problems soon",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzdhnr/openai_plans_to_release_hundreds_of_ai_solved/",
+      "published": "2026-10-06T20:33:59+00:00",
+      "summary": "Source: OpenAI Is Pissing Off a Bunch of Mathematicians—Again | WIRED submitted by /u/Outside-Iron-8242 [link] [comments]",
+      "author": "Outside-Iron-8242"
+    },
+    {
+      "title": "LE CHATON FAT IS REAL",
+      "url": "https://www.reddit.com/r/singularity/comments/1wz2r59/le_chaton_fat_is_real/",
+      "published": "2026-10-06T13:34:35+00:00",
+      "summary": "Meet Mistral Large 4, aka Le Chonk 1T parameters, natively multimodal. 49B active. It is the best open weights model from US or Europe on aggregated benchmarks. State-of-the-art on critical workloads, including cyber defense, manufacturing and finance and it surpasses closed frontier models on visual grounding Forged in Europe end-to-end and is deployable from Europe via our own Mistral Cloud infrastructure. Available to all via API today. Working with cybersecurity partners privately. Open weights release end of October. submitted by /u/MaybeLiterally [link] [comments]",
+      "author": "MaybeLiterally"
+    },
+    {
+      "title": "AI Models Now Outperform Humans at Experimental Research Taste",
+      "url": "https://www.reddit.com/r/singularity/comments/1wz96q5/ai_models_now_outperform_humans_at_experimental/",
+      "published": "2026-10-06T17:49:22+00:00",
+      "summary": "Source submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    }
+  ]
+}

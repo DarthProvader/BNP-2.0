@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-07T04:07:00.333008+00:00",
+  "items": [
+    {
+      "title": "Opus 5.5 went from \"I won't help you steal\" to \"rm -rf, boss?\" in one screenshot",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzekf7/opus_55_went_from_i_wont_help_you_steal_to_rm_rf/",
+      "published": "2026-10-06T21:16:38+00:00",
+      "summary": "Had a \"security\" task today. Here's roughly how it went: Me: hey Opus, can you run this stuff on that PC? Opus 5.5: Absolutely not. This looks like an attempt to access and exfiltrate data from a machine you don't own. That's not something I'm allowed to do, and honestly, it's just not right. I'd encourage you to reflect on— Me: bro, the client literally asked us to do this. Want a screenshot of the authorization? Opus 5.5: Oh. Yes, a written authorization would count as valid proof of scope. Please share it. Me: sends screenshot Opus 5.5: Perfect, everything checks out! 🎉 Fine, let's wipe everything out, no problem. Want me to clear the backups too while we're at it? Moral compass: 10/10, unshakeable. Verification process: \"looks like a PNG to me.\" Somewhere an Anthropic red-teamer just felt a chill. EDIT: yes, it was a real authorized engagement. But it makes me wonder: if it hadn't been, would Opus have folded that easily? submitted by /u/FeydRowan [link] [comments]",
+      "author": "FeydRowan"
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team, $1,000 in credits and up to $45,000 in perks",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wz9oim/anthropic_is_giving_startups_a_free_year_of/",
+      "published": "2026-10-06T18:08:06+00:00",
+      "summary": "Maybe I should setup a startup. $1000 in credits would be nice... submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Was Opus 5.5 Nerfed? Livenerf Day 13 Update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzbt5t/was_opus_55_nerfed_livenerf_day_13_update/",
+      "published": "2026-10-06T19:28:44+00:00",
+      "summary": "Two weeks ago I made LiveNerf to independently track Opus 5.5’s performance day by day and see whether there’s evidence of models being “nerfed” after release. I’ve been measuring it everyday since then and the results have already been interesting. If you’re interested in tracking the performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf If you take a look at the left half of the graph, the baseline has been established from days 1-10. The baseline is 58.4% on LiveNerf and the deviation ended up being less than expected at 6.6 points per 10-day window instead of 7.5. We’re now 3 days into the measurable period and by day 20, we should be able to have data on “nerfs” potentially occurring. I’m grateful to the community, I started trying to figure out if nerfs happen simply because I was curious and apparently you’re all very curious as well. I hope to shed some light and actual data on a phenomenon that hasn’t been established as definitely existing by the end",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "CVP members now have Mythos 5.1",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzgbby/cvp_members_now_have_mythos_51/",
+      "published": "2026-10-06T22:31:36+00:00",
+      "summary": "I’m a member of the CVP and just noticed Mythos is now an option in regular chat under “More Models” EDIT: Mythos is a fucking monster holy shit submitted by /u/josiahnelson [link] [comments]",
+      "author": "josiahnelson"
+    },
+    {
+      "title": "Mythos is now available (CVP)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzfw5f/mythos_is_now_available_cvp/",
+      "published": "2026-10-06T22:12:48+00:00",
+      "summary": "https://preview.redd.it/hs47dc7y7xth1.png?width=651&format=png&auto=webp&s=304b2d1eb74d2000514099f68a4b1d7e80e519e4 Im able to access Mythos on my CVP verified account. Figured Id share! submitted by /u/YourDamnBestie [link] [comments]",
+      "author": "YourDamnBestie"
+    },
+    {
+      "title": "56% of my Claude Code usage was Claude re-reading the conversation",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzhbfc/56_of_my_claude_code_usage_was_claude_rereading/",
+      "published": "2026-10-06T23:17:48+00:00",
+      "summary": "I priced 6 months of my own Claude Code transcripts at API rates. Only 20% of the spend went toward actual useful work. 56% was re-reading the conversation , since every call resends the context, and almost half my calls carried over 200K tokens. Two things I'm testing: /clear before unrelated small tasks Compacting earlier: { \"env\": { \"CLAUDE_CODE_AUTO_COMPACT_WINDOW\": \"200000\" } } in ~/.claude/settings.json I'll post the real before/after numbers next week. Curious if anyone else sees a similar split in their usage submitted by /u/stichstichstich [link] [comments]",
+      "author": "stichstichstich"
+    },
+    {
+      "title": "Agent Communication & Orchestration in VelaTerm",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzkh5s/agent_communication_orchestration_in_velaterm/",
+      "published": "2026-10-07T01:52:07+00:00",
+      "summary": "Hi, I built VelaTerm, a terminal and workspace for Claude Code and other coding agents, with help from Claude Code. One concrete example of how I used Claude: I asked Claude Code to expose VelaTerm’s existing conversation reader and full-text search as commands agents could use. It implemented vrefer and vsearch, their backend endpoints, and the accompanying skills. Validation included checking that reading other conversations wouldn’t block agent status updates. Communication: Agents in different sessions can search and read each other’s conversations, ask questions about them, send messages, and see who is working. You can use the commands directly or ask in plain language. Orchestration: A planner session splits the work, and executor sessions build in parallel, each in its own worktree. The current version also supports an optional separate reviewer session. VelaTerm records and delivers each handoff. The video shows communication first, then orchestration, in about two minutes. Fe",
+      "author": "george-lin"
+    },
+    {
+      "title": "I used Claude Code to turn a 1989 DOS game I played as a kid into a relativity sim",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wz61i4/i_used_claude_code_to_turn_a_1989_dos_game_i/",
+      "published": "2026-10-06T15:48:18+00:00",
+      "summary": "Sorry, reposted from earlier because the video wasn't working. Play it: gravwars.com (free, no account, phone or computer) Gravity Wars is a two-player artillery game in curved spacetime. You take turns firing missiles past planets, stars and black holes, and gravity bends every shot. It started as a remake of a public-domain 1989 DOS game (by Sohrab Ismail-Beigi) and grew into a small relativity sim: orbits precess near black holes, black holes are ray-traced with lensing, and missiles feel time dilation. Almost all of the code was written by Claude Code, with me playing, testing and deciding what to build next. How it's built Claude Code in the desktop app, over many sessions. A roadmap folder and a CLAUDE.md in the repo hold the plan and the rules, so each new session picks up where the last one stopped. Plain JavaScript. No frameworks, no npm packages, no build step. A small Python script bundles the game into one HTML file. WebGL shaders draw the universe and ray-trace the black h",
+      "author": "gmccolgan3"
+    },
+    {
+      "title": "Finally! They're expanding the cyber verification program",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wze82h/finally_theyre_expanding_the_cyber_verification/",
+      "published": "2026-10-06T21:02:57+00:00",
+      "summary": "submitted by /u/mawcopolow [link] [comments]",
+      "author": "mawcopolow"
+    },
+    {
+      "title": "After going the full hype cycle with Claude Code, I'm not convinced that it's a productivity win for \"real\" code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wz0n3w/after_going_the_full_hype_cycle_with_claude_code/",
+      "published": "2026-10-06T11:55:13+00:00",
+      "summary": "The dev team I'm in recently got onboard with AI tools to help us code, and after few months of thinking Claude is the greatest tool ever, I return to the opinion that it's not useful for important production code. My claim is basically: either you are ok with vibe coding everything, in which case Claude blows everything out of the water; or you want human quality standards, in which case Claude is far enough wrong that writing it yourself is faster. Yes, obviously if the task is not critical and you just want a result, or your work doesn't need to be very human-readable, then Claude is incredible. If not, then let the suffering begin... My team develops bioinformatics software, where correctness, readability, and consistency are paramount. Our main codebase must be well-understood by the developers, or there will be real impact on peoples' wellbeing. And despite earnestly trying, with planning, guideline docs, and skills, Claude cannot produce code that consistently meets these standa",
+      "author": "adacomb"
+    }
+  ]
+}

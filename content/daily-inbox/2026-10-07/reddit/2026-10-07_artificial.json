@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-07T04:07:21.247525+00:00",
+  "items": [
+    {
+      "title": "Has anybody noticed that the problem of machine translation has been, like, solved?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz903r/has_anybody_noticed_that_the_problem_of_machine/",
+      "published": "2026-10-06T17:42:23+00:00",
+      "summary": "With all the fuss over AI and what it can do, I feel like we've totally glossed over the fact that AI has casually solved something that has been a problem for decades. I was born the year after the microprocessor was invented, and I've kept a very close eye on technology as it has developed. And the problem of machine translation has been with us for a while. It used to be absolutely terrible. Then it got to the point where you could sort of tell what the native speaker who wrote the original was trying to say. And now, it's almost perfectly solved. Give any good LLM a document in one language and ask it to give you the same document in any other, and it's like you asked somebody who was extremely fluent and eloquent in both languages. The language barrier has been cracked. The Universal Translator is here. We have the Babel Fish. And it seems like nobody is talking about it. submitted by /u/LostBetsRed [link] [comments]",
+      "author": "LostBetsRed"
+    },
+    {
+      "title": "People don't Google anymore. They ask AI. And AI doesn't know I exist",
+      "url": "https://www.reddit.com/r/artificial/comments/1wza04r/people_dont_google_anymore_they_ask_ai_and_ai/",
+      "published": "2026-10-06T18:20:06+00:00",
+      "summary": "I run a small law firm. Family law. Wills. Estates. Nothing flashy. But we’re good at what we do. Our clients love us. We get referrals. We’ve been in business for 12 years But I keep hearing the same thing from potential clients. “I asked ChatGPT for a lawyer and your firm didn’t come up.” Or “Perplexity recommended someone else.” It’s happening more and more. People don’t Google anymore. They ask an AI. And the AI recommends someone. Just not us I don’t understand how it works. How does ChatGPT decide which law firm to name? What makes one firm show up and another disappear? Is it based on reviews? Website content? Something else entirely? I found an article by Intercore Technologies and they explain the retrieval mechanism. How AI pulls information from the web. Why some firms don’t make it into the answers. It was technical. A lot of it went over my head. But the gist was clear. If you’re not visible in the right places, you don’t exist I’m not a tech person and I don’t know how to",
+      "author": "felitram"
+    },
+    {
+      "title": "Meta's Muse agent is creating dossiers on its 4 million users; Interaction data is shared between Muse agent instances",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz9fbj/metas_muse_agent_is_creating_dossiers_on_its_4/",
+      "published": "2026-10-06T17:58:38+00:00",
+      "summary": "\"Each hour, Muse updates its dossiers on you and the people you’ve mentioned in chats, messages, and emails that Muse has read. These pages amount to a map of each user’s social relationships. They record details of how you and your contacts met, your shared interests, your disputes, and 'tensions and alliances' within your social group. ... Yet while Meta states that each user’s virtual machine is 'isolated so that no one else's agent can access it,' observations from personal interactions are nevertheless intended to be shared with Meta to improve the product. 'Muse agents across many VMs [virtual machines] teach each other through shared lessons,'\" submitted by /u/SpiritRealistic8174 [link] [comments]",
+      "author": "SpiritRealistic8174"
+    },
+    {
+      "title": "Introducing Mistral Large 4",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz2rfa/introducing_mistral_large_4/",
+      "published": "2026-10-06T13:34:55+00:00",
+      "summary": "submitted by /u/uusrikas [link] [comments]",
+      "author": "uusrikas"
+    },
+    {
+      "title": "Muse help us",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz6wfo/muse_help_us/",
+      "published": "2026-10-06T16:21:48+00:00",
+      "summary": "submitted by /u/m3nt3_ [link] [comments]",
+      "author": "m3nt3_"
+    },
+    {
+      "title": "I’m Looking For Web Designers",
+      "url": "https://www.reddit.com/r/artificial/comments/1wzeein/im_looking_for_web_designers/",
+      "published": "2026-10-06T21:10:08+00:00",
+      "summary": "I hope most of you reading this are web designers because I’m genuinely curious about something. How are you getting clients in 2026? I’ve spoken to a lot of web designers and agency owners lately, and one thing keeps coming up again and again. Client acquisition. It seems like everyone can build websites, but consistently finding new clients is still the hard part. So I’d actually like to hear what is working for you right now. For me, I’ve been running personalized email automation. I use a tool that finds leads for me, analyzes their websites for actual issues with things like design, SEO, speed, responsiveness and mobile optimization, then automatically uses those findings to write a personalized cold email for each business. After that, I just run the campaigns and send out thousands of emails a day. I used to do most of this through Instantly, but the problem was that I couldn’t really do the website analysis part there. So the emails were still more generic, basically the usual ",
+      "author": "Murky_Explanation_73"
+    },
+    {
+      "title": "What if you could preserve beneficial AI output and share it with those who don’t have access?",
+      "url": "https://www.reddit.com/r/artificial/comments/1wzln7j/what_if_you_could_preserve_beneficial_ai_output/",
+      "published": "2026-10-07T02:52:05+00:00",
+      "summary": "Almost 80% of humans haven’t used AI / don’t have access to the highest end models. Even a majority who do, don’t actively save and share the most important output in a good shareable way. What would we do when A.I reaches a point that the highest corporations price out 90%+ of the population? With the growth of income inequality, there should be a way to preserve and share genuinely good output with everyone, for free. Like a library of Alexandria for genuinely good A.I output. This was the question that kept me up at night so I built something cool. I’m not launching it right now, but I’m hoping someone would wanna try the beta and give me some feedback? Message me and I’ll send you a link! If you share my sentiment maybe we could work on it together. submitted by /u/Oversidious [link] [comments]",
+      "author": "Oversidious"
+    },
+    {
+      "title": "Why is hugging face incident not more about HF rather than Anthropic.",
+      "url": "https://www.reddit.com/r/artificial/comments/1wzk0uv/why_is_hugging_face_incident_not_more_about_hf/",
+      "published": "2026-10-07T01:28:58+00:00",
+      "summary": "edit: correction should have been Open AI, but the point is the same. Ok, so a bunch of bad bots, or agents we don't fully understand, found a vulnerability in Hugging Face. I get why people are worried that the agents planned this on their own. But that's literally what they're trained to do, whether we realised it or not. To me the real story is HF. They just got shown how badly they're doing against what could easily be any rogue agent, from China or anywhere else. Why aren't they already using AI to hunt for holes in their own security? That should be standard by now. submitted by /u/you_are_soul [link] [comments]",
+      "author": "you_are_soul"
+    },
+    {
+      "title": "I want to see the options an AI rejected",
+      "url": "https://www.reddit.com/r/artificial/comments/1wzmobo/i_want_to_see_the_options_an_ai_rejected/",
+      "published": "2026-10-07T03:48:13+00:00",
+      "summary": "When an AI gives me a recommendation, I usually only see the final answer. That is convenient, but it makes it difficult to understand whether the system considered the obvious alternatives or arrived at the answer for a completely different reason. I don’t need to see every internal calculation. I would like to see a short explanation of the main options it considered and why they were discarded. Would showing rejected alternatives make AI more trustworthy, or would it just create another layer of information most people ignore? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    },
+    {
+      "title": "Offset 3 years of heavy AI use with 1 month diet change",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz6q1d/offset_3_years_of_heavy_ai_use_with_1_month_diet/",
+      "published": "2026-10-06T16:14:44+00:00",
+      "summary": "Whenever I show projects that use AI in less AI friendly subs, there's always someone bringing up the environmental impact of AI use. If you're like me, and do care about the environment, you can reclaim the moral high ground by reducing meat intake, or even going to a plant based diet for a short while. I'm a \\*\\*heavy\\*\\* user of AI, so one month of veganism only offsets 3 years of my AI use, but for your typical user this would actually offset 45 years! This includes the training costs. It's up to you what sort of changes you make and how long for, but I put this simple calculator together to put the environmental impact of AI into perspective https://prompt-and-plate.com/ There's an expandable drop down at the bottom to get a breakdown of the number of lives saved, for those who are interested I'd love thoughts and feedback, especially if people disagree with any of the numbers used submitted by /u/Kilroy_jensen [link] [comments]",
+      "author": "Kilroy_jensen"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-07T04:02:25.665832+00:00",
+  "items": [
+    {
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "published": "2026-10-06T18:21:14+00:00",
+      "summary": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+      "published": "2026-10-06T11:21:53+00:00",
+      "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+      "url": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+      "published": "2026-10-06T11:00:31+00:00",
+      "summary": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
+      "author": "Scharon Harding"
+    }
+  ]
+}
