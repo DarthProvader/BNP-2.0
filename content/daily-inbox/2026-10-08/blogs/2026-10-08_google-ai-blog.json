@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-10-08T04:02:42.090505+00:00",
+  "items": [
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "published": "2026-10-07T11:00:00+00:00",
+      "summary": "Overview of Playground",
+      "author": "Maryam Karimzadehgan"
+    }
+  ]
+}

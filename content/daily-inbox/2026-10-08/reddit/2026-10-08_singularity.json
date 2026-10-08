@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-08T04:04:38.994637+00:00",
+  "items": [
+    {
+      "title": "Amazon packages now when you order 11 items.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x057bb/amazon_packages_now_when_you_order_11_items/",
+      "published": "2026-10-07T19:03:43+00:00",
+      "summary": "submitted by /u/Bitter-College8786 [link] [comments]",
+      "author": "Bitter-College8786"
+    },
+    {
+      "title": "Next time you solve unsolved math problems remember to ask for permission, mkay?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0f7yn/next_time_you_solve_unsolved_math_problems/",
+      "published": "2026-10-08T02:20:15+00:00",
+      "summary": "submitted by /u/koffee_addict [link] [comments]",
+      "author": "koffee_addict"
+    },
+    {
+      "title": "\"this is where i stop calling AI a tool. a tool doesnt do in one release what the best humans do in a lifetime\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1x02g1l/this_is_where_i_stop_calling_ai_a_tool_a_tool/",
+      "published": "2026-10-07T17:19:25+00:00",
+      "summary": "Link: Link: https://x.com/0xDepressionn/status/2107841981107909013 submitted by /u/BrennusSokol [link] [comments]",
+      "author": "BrennusSokol"
+    },
+    {
+      "title": "Introducing Claude Haiku 5.5",
+      "url": "https://www.reddit.com/r/singularity/comments/1x03oya/introducing_claude_haiku_55/",
+      "published": "2026-10-07T18:06:11+00:00",
+      "summary": "submitted by /u/AMBNNJ [link] [comments]",
+      "author": "AMBNNJ"
+    },
+    {
+      "title": "Prinz tweets that OpenAI’s new maths results show something more interesting than raw problem-solving ability: what mathematicians call “research taste”.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x030cj/prinz_tweets_that_openais_new_maths_results_show/",
+      "published": "2026-10-07T17:40:49+00:00",
+      "summary": "submitted by /u/Southern-Break5505 [link] [comments]",
+      "author": "Southern-Break5505"
+    },
+    {
+      "title": "Scott Aaronson on the Mathocalypse",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0ebzb/scott_aaronson_on_the_mathocalypse/",
+      "published": "2026-10-08T01:35:59+00:00",
+      "summary": "https://preview.redd.it/ppzkb075c5uh1.png?width=696&format=png&auto=webp&s=fa04e78e8ce6f86c0eb38c249757a158be8ccb0b I encourage people to read the whole post here , but it's refreshing to see this from a theoretical computer scientist - who's also on the front line of being obsoleted by AI. I find it much easier to empathize/sympathize with a person with the lucidity to face reality as it is. No call to exceptionalism or the like. submitted by /u/Redducer [link] [comments]",
+      "author": "Redducer"
+    },
+    {
+      "title": "Rumor from an NYU math professor that this was only batch #1 of 3 of OpenAI math solutions…",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzxpir/rumor_from_an_nyu_math_professor_that_this_was/",
+      "published": "2026-10-07T14:17:02+00:00",
+      "summary": "UPDATE: He has since deleted his tweet saying he is less sure: https://x.com/scottnarmstrong/status/2107874026341433455?s=20 Link to tweet: https://x.com/scottnarmstrong/status/2107826021160394944?s=20 submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "Interesting thoughts from an expert on a specific problem (#180 Barnette's Conjecture) from OpenAl solutions",
+      "url": "https://www.reddit.com/r/singularity/comments/1x035ne/interesting_thoughts_from_an_expert_on_a_specific/",
+      "published": "2026-10-07T17:46:14+00:00",
+      "summary": ">The \"aha\" insight for this is actually f**ing wild, it involves a complex valued exponential sum on the edges. I've seen a lot of clever counting arguments before in graph theory but this is the first time I've seen complex roots and annihilating terms like this, the symbolic manipulation tricks in this look like things out of quantum physics. I don't understand where this trick originated, I need to really digest this. submitted by /u/Anen-o-me [link] [comments]",
+      "author": "Anen-o-me"
+    },
+    {
+      "title": "Haiku 5.5 Fails the Lava Lamp Test",
+      "url": "https://www.reddit.com/r/singularity/comments/1x09bbq/haiku_55_fails_the_lava_lamp_test/",
+      "published": "2026-10-07T21:44:38+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "You Know That Anthropic Employee Who Quit Citing Risks to Humankind? These Strongly Appear to Be His Bizarre Old Tweets",
+      "url": "https://www.reddit.com/r/singularity/comments/1wzvdpb/you_know_that_anthropic_employee_who_quit_citing/",
+      "published": "2026-10-07T12:36:11+00:00",
+      "summary": "submitted by /u/UFOsAreAGIs [link] [comments]",
+      "author": "UFOsAreAGIs"
+    }
+  ]
+}

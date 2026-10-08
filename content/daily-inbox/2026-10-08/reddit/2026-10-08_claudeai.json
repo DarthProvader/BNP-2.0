@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-08T04:06:21.373088+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x09pjt/show_us_what_youve_created_with_claude/",
+      "published": "2026-10-07T22:01:07+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x03k4j/introducing_claude_haiku_55_the_cheapest_fastest/",
+      "published": "2026-10-07T18:01:28+00:00",
+      "summary": "Claude Haiku 5.5 is the cheapest, fastest, and most capable small model we’ve ever released. On average, it costs around 75% less to run than Claude Haiku 4.5. Haiku 5.5 is designed for high-volume, cost-sensitive tasks. It reliably handles quick, repetitive work like summaries and classification, and pairs well with Claude Opus 5.5 and Sonnet 5.5 as a sub-agent on coding work. It’s also fast enough for live customer support and browser use. It’s a significant step up over Haiku 4.5 across coding, computer use, and knowledge work. It’s also our first Haiku model with an adjustable effort setting, so you can decide whether to optimize for cost or intelligence on each task. Per token, it costs 90% less than Haiku 4.5 on tasks under 100,000 tokens, which make up around 90% of requests to our previous Haiku model. On longer tasks, it’s half the price. Haiku 5.5 is available now on all platforms, including Amazon Web Services, Google Cloud, and Microsoft Azure. We’re also halving the price ",
+      "author": "ClaudeOfficial"
+    },
+    {
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i/",
+      "published": "2026-10-07T13:15:47+00:00",
+      "summary": "Last month I was going through data from NASA's TESS telescope with Claude Code when one star started looking weird. https://preview.redd.it/zwekq4q0m1uh1.jpg?width=1728&format=pjpg&auto=webp&s=a396c3354234ae957337b4e9df3fa7578f85e1ce It's about 116 light-years away, and every 3.18 days it gets about 0.05% dimmer for roughly two hours. I first saw it in data from late 2025. So I went backwards. The same dip is there in completely separate TESS observations from 2020 . Then 2018 . If it's a planet, it's about 1.4× the size of Earth . To be clear: this is still a planet candidate, not a confirmed planet. The part that might be interesting to this subreddit is how I did the analysis. I used Claude Code with Opus 5.5 and Fable 5.1 for most of the actual work: downloading and parsing the TESS data, writing the search code, fitting the transits, checking nearby stars, looking for secondary eclipses and other false positives, generating plots, and rerunning things when a test failed. I chose ",
+      "author": "This_Cell_1829"
+    },
+    {
+      "title": "Claude fixed a bug in a DOS game from 1991 and now my kid can relive the magic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x06hmp/claude_fixed_a_bug_in_a_dos_game_from_1991_and/",
+      "published": "2026-10-07T19:58:41+00:00",
+      "summary": "This isn't on par with discovering new planets like some people are doing, but my minor success today had me quite literally (in the Merriam-Webster meaning of the word) giddy with laughter, so I wanted to tell you all this very brief story. I recently succumbed to temptation and bough an old Pentium 75 machine off FB Marketplace because I needed a way to read a dozen or so 5.25\" disks for personal data recovery and archiving, and because I'm a sucker for retro gaming. I figured a real period PC could kill two birds with one stone. I've had a lot of fun over the last week archiving the data (three cheers for magnetic media remaining stable for three decades!) and, of course, playing with old hardware. The snap and fade of a real CRT, the whirr of a mechanical hard drive, the buzz of operating floppy drives. It's magical. One of the games I cherished as a 10-year-old is Operation Neptune from The Learning Company. I've played it a few times using DOSBox over the years, but I figured it ",
+      "author": "jrowberg"
+    },
+    {
+      "title": "Claude Haiku 5.5 cost 12x more than GPT-6 Luna for the same voxel pagoda",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0agoh/claude_haiku_55_cost_12x_more_than_gpt6_luna_for/",
+      "published": "2026-10-07T22:33:24+00:00",
+      "summary": "haiku 5.5 just dropped, so I really wanted to see how it stacks up against its direct competitor, which is gpt-6 luna, chose the infamous voxel pagoda test. what I really wanted to see is if anthropic managed to make at least their cheapest model not be a token devourer(spoiler: they didn't) and make an actually cheap model to use model effort tokens in (cached) tokens out API-equivalent cost Claude Haiku 5.5 xhigh 268.8M (262.7M) 4.46M $24.96 GPT-6 Luna xhigh 64.5M (61.1M) 1.18M $1.96 haiku is definitely another token goblin, but the real reason it's that much more expensive is that it's API price quintuples after 100k context, so every request over 100k tokens is billed 5x and in an agent session almost every turn is over 100k. for luna that occurs at 272k context, but with the default config it auto-compacts at that limit anyway setup: both models via their respective subs in atomic.chat submitted by /u/Fun-Meaning-6474 [link] [comments]",
+      "author": "Fun-Meaning-6474"
+    },
+    {
+      "title": "I asked Opus 5.5 to generate an extremely realistic betta fish for my Mac wallpaper. Here's the result.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x02pno/i_asked_opus_55_to_generate_an_extremely/",
+      "published": "2026-10-07T17:29:53+00:00",
+      "summary": "submitted by /u/chasedev21 [link] [comments]",
+      "author": "chasedev21"
+    },
+    {
+      "title": "Well! If it matches GPT 6.1 Sol at Luna Pricing. Consider it's over for Open Ai",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0367g/well_if_it_matches_gpt_61_sol_at_luna_pricing/",
+      "published": "2026-10-07T17:46:47+00:00",
+      "summary": "submitted by /u/Existing_Hat_1064 [link] [comments]",
+      "author": "Existing_Hat_1064"
+    },
+    {
+      "title": "How to save hundreds of $$$ with Claude in places you didn't even imagine",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x02i4a/how_to_save_hundreds_of_with_claude_in_places_you/",
+      "published": "2026-10-07T17:21:41+00:00",
+      "summary": "I am an extreme pro AI believer. I used Claude in cases where it didn't even make sense. With my personal experience I believe there is 3 places that general people don't know about on how they can use their Claude to save money: Groceries - This saves a massive amount of time, but if you do it right, you save a lot of money too. I used to spend at least 3 hours a week buying groceries. Now, instead of manually checking apps or store flyers, I use a grocery MCP connector and ask Claude to optimize my whole list. I give Claude my meal plan or raw shopping list, and it searches nearby stores for current sales, checks unit prices (like store brands vs name brands), and calculates the lowest total basket cost for a single store. It even swaps in “buy one get one free” deals and adds everything straight into my online cart so I just do the final checkout. I end up saving around $40–$50 every trip on overpriced name brands and impulse buys without having to manually compare anything. Wheneve",
+      "author": "Calm_Cartographer324"
+    },
+    {
+      "title": "I Tested Haiku 5.5 vs Luna vs DeepSeek Flash vs Gemini 3.8 Flash on real-ish work stuff. Basically a tie on quality, big differences in speed",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x09xst/i_tested_haiku_55_vs_luna_vs_deepseek_flash_vs/",
+      "published": "2026-10-07T22:10:41+00:00",
+      "summary": "I have a very extensive fleet/orchestrator setup with a custom harness and i run essentially every single model from all the providers so whenever a new one comes out I have my own tests I like to run them through to see how they will stack up with my work , so I ran Haiku 5.5 vs the other small fast models I use (Luna vs DeepSeek Flash vs Gemini 3.8 Flash Through 86 questions across 11 categories: coding, bug fixes, code review, SQL, pulling data out of messy text, math, long docs, tool calling, customer explanations (English + Spanish), and safety. All made-up data that matches my typical work. I did 3 runs each. Graded automatically where possible; the open-ended stuff was graded blind by Opus. Overall scores out of 100: - DeepSeek Flash 86.6 - Luna 85.2 - Gemini 3.8 Flash 85.1 - Haiku 5.5 84.7 So quality is a wash. The difference is what each one is good at: - Haiku 5.5: fastest of the bunch (3.5s median). Near perfect on code, bug fixes, SQL and math. Weak at tool calling and safe",
+      "author": "NiagaraPeloton"
+    },
+    {
+      "title": "New perk free $100 Monthly API Credit a month!!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0f9gu/new_perk_free_100_monthly_api_credit_a_month/",
+      "published": "2026-10-08T02:22:27+00:00",
+      "summary": "https://preview.redd.it/g3o3cnowk5uh1.png?width=1167&format=png&auto=webp&s=c3a990308ee7266c40c72586bd3140edf65b8fa2 Hey guys, Just noticed a brand new perk, if you go to your billing section it'll let you link your plan to an 'organisation' After this these monthly credits are available to use via an API key for free every single month. Confirmed unfortunately not available on the Pro plan, only Standard $25 dollar seats get $20 of Usage. Edit: Some users have found it going to the manage my subscription section Max 5 you get $100 Max 20 gets $200. Premium Seats get $100 Standard Seats Get $20 Edit 2: Usage wise it MAY be worth using Opus over Sonnet on API prices Opus Low is cheaper than Sonnet Medium but more intelligence Opus Medium is way cheaper than Sonnet High & Extra high - similar intelligence as the latter Opus High is cheaper than Sonnet Extra High and more intelligent Opus Extra High is cheaper than Sonnet Max for similar intelligence SIDE NOTE - Fable 5.1 May be worth it ",
+      "author": "OddBig010"
+    }
+  ]
+}

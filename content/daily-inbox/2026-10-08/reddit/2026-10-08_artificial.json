@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-08T04:07:12.897817+00:00",
+  "items": [
+    {
+      "title": "Video game fan translator says AI output is better than their own translation, deletes 3 years of work on project - \"I was wasting my time\"",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0f99n/video_game_fan_translator_says_ai_output_is/",
+      "published": "2026-10-08T02:22:10+00:00",
+      "summary": "submitted by /u/PixelGray38 [link] [comments]",
+      "author": "PixelGray38"
+    },
+    {
+      "title": "Why Artificial Intelligence Is Impossible [USSR Perspective on AI from 1984]",
+      "url": "https://www.reddit.com/r/artificial/comments/1x099rd/why_artificial_intelligence_is_impossible_ussr/",
+      "published": "2026-10-07T21:42:53+00:00",
+      "summary": "From: https://archive.org/details/MarkovCyberneticsTodayMir1984/mode/1up Why Artificial Intelligence Is Impossible A. V. BRUSHLINSKY The desire of modern cyberneticists to answer positively the question “Can the computer think?” has taken various forms. One approach has resulted in attempts to create artificial or machine intelligence. Such attempts have been criticized by scientists from an extreme cybernetic point of view based on the philosophico-psychological proof of the impossibility of machine intelligence. This criticism, first voiced in the USSR in the late 1950s and early 1960s by S. L. Rubinstein, E. V. Ilyenkov, M. M. Rosental, and other researchers, involves the critical comparison of natural and artificial intelligence. Such an approach, in my opinion, should be continued as follows. Technology (for instance, artificial intelligence) and the mind (for instance, mental processes) are based on essentially different types of interconnection between their elements. Any machin",
+      "author": "jpqwerty"
+    },
+    {
+      "title": "Fields Medalist Terence Tao reposts statement from the Association for Human Mathematics urging mathematicians to stop working with OpenAI for continuing to solve open math problems against their recommendations",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0gpxr/fields_medalist_terence_tao_reposts_statement/",
+      "published": "2026-10-08T03:37:31+00:00",
+      "summary": "submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Scientists use generative AI to build better proteins for editing DNA",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0ahd1/scientists_use_generative_ai_to_build_better/",
+      "published": "2026-10-07T22:34:15+00:00",
+      "summary": "A protein designed with artificial intelligence doubled targeted DNA insertion in cultured cells when incorporated into an experimental gene-editing system. The result emerged from a search through thousands of genomes, followed by laboratory tests of natural and synthetic proteins. The study, involving Integra Therapeutics, Pompeu Fabra University and the Center for Genomic Regulation, appeared in Nature Biotechnology. It examines proteins called transposases, which move DNA between locations. The findings expand the available tools for inserting genes, including into human immune cells. They also expose an important distinction: improving one step of gene editing does not necessarily improve every application. submitted by /u/Brighter-Side-News [link] [comments]",
+      "author": "Brighter-Side-News"
+    },
+    {
+      "title": "The New AI Slop Is Calling Everything AI Slop",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0a90k/the_new_ai_slop_is_calling_everything_ai_slop/",
+      "published": "2026-10-07T22:23:56+00:00",
+      "summary": "For a while, AI slop was a useful phrase. It named something real: the flood of cheap, careless, machine-generated material pumped onto the internet with no reporting, no editing, no point of view, and often no concern for whether any of it was true. It described fake images with mangled hands, articles assembled from search results, made-up quotes, empty listicles, spam sites, and social posts produced at industrial scale because producing something had become cheaper than caring whether it was worth producing. That criticism mattered. It still does. But something strange has happened on the way to cleaning up the slop. The accusation itself has started turning into slop. Scroll through almost any comment section now and you can see the new drive-by ritual. Someone encounters a piece of writing that is polished, structured, unusually detailed, written in a tone they do not expect, or simply longer than the average social post. Then comes the verdict: “AI slop.” “ChatGPT wrote this.” “",
+      "author": "rmn_pub"
+    },
+    {
+      "title": "AI took my self esteem as a creator and I hate where this is going",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0cf7w/ai_took_my_self_esteem_as_a_creator_and_i_hate/",
+      "published": "2026-10-08T00:01:59+00:00",
+      "summary": "I don't know about this whole AI thing. I remember a few years ago I was so amused because I chatted with an AI chatbot who pretended to be Albert Einstein, or another one who could predict the winner of any given fight between two animals I suggested to it. Now I hear the word AI at least two times a day, it's everywhere, and you cannot escape the topic. I started to get addicted to getting more and more information about the world, and as soon as I have a question in my mind, I just ask AI. I'm studying architecture, so I naturally produce new ideas. I love using 3D modeling programs or analogue working techniques, but because I started to use AI as a dialogue partner for my design work, it feels like the projects kind of lost their identity. I used to write, but AI completely took my self esteem, and every time I finish a text (also this one here), I use AI to correct it. Right now I'm learning Blender. Yesterday I saw a video of AI creating a 3D world in seconds. I'm thinking about",
+      "author": "felixgnclvs"
+    },
+    {
+      "title": "How is AI accelerating progress in medicine, and when will it reach the level of impact it has already achieved in programming and mathematics?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0g3oy/how_is_ai_accelerating_progress_in_medicine_and/",
+      "published": "2026-10-08T03:04:42+00:00",
+      "summary": "Because of my own health issues, I now have to pay close attention to and hope for progress in this field. How is AI currently accelerating medical research and development? As LLMs continue to evolve, major AI companies shift more attention toward healthcare, and the necessary infrastructure is built, will this progress accelerate significantly? Or will AI’s impact on medicine remain relatively limited unless we achieve breakthroughs beyond LLMs, such as world models or even revolutionary robotics? submitted by /u/CaterpillarLonely199 [link] [comments]",
+      "author": "CaterpillarLonely199"
+    },
+    {
+      "title": "I think we're going to reach a point where getting an AI to do something isn't the hard part. Knowing what to ask it to do will be.",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0c68e/i_think_were_going_to_reach_a_point_where_getting/",
+      "published": "2026-10-07T23:50:45+00:00",
+      "summary": "If AI can handle more and more individual tasks, does the valuable skill become designing the overall process? Curious how other people see this. submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "Is this the brief window when independent engineers still get to define how AI is used?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0b5w7/is_this_the_brief_window_when_independent/",
+      "published": "2026-10-07T23:03:42+00:00",
+      "summary": "I’ve been thinking about a follow-up to my earlier question about what becomes scarce when coding gets cheap. I’m not looking at this as an industry analyst. I’m an engineer trying to figure out what to build, what to learn, and where an independent developer still has room to move. Something about the current moment feels unusual. AI tools are already good enough that individuals and very small teams can build things that would have required much larger organizations not long ago. At the same time, the professional structure around this work still feels unfinished. We have titles like AI engineer, agent engineer, FDE, applied AI engineer, etc., but the boundaries are still fuzzy. There isn’t yet a universally accepted stack of credentials, certifications, practices and career ladders around them. That reminds me a little of earlier periods in computing. There were times when individual game programmers, freeware authors, early web developers and small software shops could experiment b",
+      "author": "Kusamakura0467"
+    },
+    {
+      "title": "AI or SI? The US government now calls all AI \"Super Intelligence.\" Does the label mean anything?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0h4t7/ai_or_si_the_us_government_now_calls_all_ai_super/",
+      "published": "2026-10-08T03:59:59+00:00",
+      "summary": "On Sept 29 Trump signed an executive order telling federal agencies to say \"Super Intelligence\" (SI) instead of \"AI\" ( https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/ ). For now SI legally means the same thing AI already did, but the order gives the White House science office 60 days to propose a new federal definition. In research circles, superintelligence usually means a system that beats humans at almost everything, which nothing today does. So which is it for you: a fair name for where current models are heading, or a label that will make it harder to talk about the real thing if it ever shows up? submitted by /u/Acceptable_Truth4688 [link] [comments]",
+      "author": "Acceptable_Truth4688"
+    }
+  ]
+}
