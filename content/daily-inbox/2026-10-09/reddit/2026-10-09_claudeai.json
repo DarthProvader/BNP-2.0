@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-09T04:06:02.636199+00:00",
+  "items": [
+    {
+      "title": "Opus 5.5 is so good",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x10tx3/opus_55_is_so_good/",
+      "published": "2026-10-08T19:50:08+00:00",
+      "summary": "submitted by /u/opmgyhx [link] [comments]",
+      "author": "opmgyhx"
+    },
+    {
+      "title": "Opus 5.5 can make games for 2 decade old phones",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x120gj/opus_55_can_make_games_for_2_decade_old_phones/",
+      "published": "2026-10-08T20:34:52+00:00",
+      "summary": "I asked Claude for a Duke Nukem 3Dstyle shooter for old J2ME phones and it built the whole thing from that one prompt. It wrote a Wolfenstein like 3D engine in Java with only integer math so old phones can run it, with textured floors, a moonlit sky, fog, etc. For the art it wrote its own 3D renderer in Python, modelled every monster, gun and the main character itself, then rendered them into sprites and they honestly look great. It generated all the wall and floor textures and the night skies in code too. It also designed four maps, composed eight MIDI tracks, made the voice lines with TTS and edited them with ffmpeg to get badass one liners and different monster sounds. Then it just handed me a finished half-megabyte JAR, I copied it to my old phone and it worked right away. It honestly feels on par with the Gameloft games I played on these phones back in the day. Absolutely amazing and terrifying at the same time. submitted by /u/wollymonjac [link] [comments]",
+      "author": "wollymonjac"
+    },
+    {
+      "title": "Abuse Claude, get banned coming November 12th, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x11k9j/abuse_claude_get_banned_coming_november_12th_2026/",
+      "published": "2026-10-08T20:17:34+00:00",
+      "summary": "Anthropic knows what's going on. Serious enough that it is creating an official policy on how you talk to its AI. What do they know which we don't? submitted by /u/Responsible-Jump-322 [link] [comments]",
+      "author": "Responsible-Jump-322"
+    },
+    {
+      "title": "My brother went nearly 10 years without a way to communicate. I built him a switch-accessible hub of tools and games using AI.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0x5wo/my_brother_went_nearly_10_years_without_a_way_to/",
+      "published": "2026-10-08T17:31:36+00:00",
+      "summary": "The games and tools we build aren't \"economically viable.\" The community of people who use switches is too niche and too diverse. That's exactly why we build them. My brother Ben uses switch access because of an ultra-rare condition called TUBB4A-related leukodystrophy. He could walk and talk as a kid, but the disease slowly took it all away. He's now nonspeaking and quadriplegic, and for years his only way to communicate was turning his head left or right for yes or no. He went nearly 10 years without real access. Eye tracking and head tracking don't work for him because of how complex his condition is. AAC phrase boards never engaged him. Ben wanted to play video games again and pick his own TV shows. Do you know how many yes/no questions you have to ask every day to give someone as much autonomy as possible? Hundreds. Ben didn't need more yes or no questions. He needed access. Ben moved in with us in 2022. We started with a better phrase board that had more of what he might want to ",
+      "author": "acrolicious"
+    },
+    {
+      "title": "What are Claude Code \"Power Users\" doing with Claude Code that the average developer isn't?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0uhhr/what_are_claude_code_power_users_doing_with/",
+      "published": "2026-10-08T15:49:35+00:00",
+      "summary": "I am a senior developer at a smaller organization. I use Claude Code regularly to do development tasks, but I feel like I am barely scratching the surface. I can't tell if that is because of the percieved hype or there are techniques I am missing to maximise benefit. What infrastructure or approaches are you using that is making Claude Code a true force multiplier? submitted by /u/bixicle [link] [comments]",
+      "author": "bixicle"
+    },
+    {
+      "title": "Opus reverse engineered my brand new Maono DGM20 microphone... in 15 minutes.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0rb0e/opus_reverse_engineered_my_brand_new_maono_dgm20/",
+      "published": "2026-10-08T13:44:11+00:00",
+      "summary": "I bought a new microphone for pods amazon , noticed as usual software was windows only, I just said to claude I have an odd reqest I have a DGM20 microphone on linux, can we reverse engineer the code and make it work on linux for adjusting its settings? I have open sourced it here https://git.reiners.io/justin/dgm20-linux I believe this right here can correct wrongs where companies refuse to even attempt linux support. I run arch btw. The only other requests I made were make it a service, and add a webui, make an installer. It also allows you to open the webui to other PC's and phones on the network if your machine is headless and network is secure. Claudes response? ● Fun one. First let me see what the mic actually exposes over USB. https://www.youtube.com/watch?v=o5dbNucmgC4 << wide https://www.youtube.com/watch?v=NmeyMh52gBo << short submitted by /u/sysadmin420 [link] [comments]",
+      "author": "sysadmin420"
+    },
+    {
+      "title": "A guy asked models to \"maximize company value\". Claude Opus 5.5 discovered an exploit where it could build tons of tiny rides, bypassing the duplicate ride penalty by never opening the rides",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0rz3u/a_guy_asked_models_to_maximize_company_value/",
+      "published": "2026-10-08T14:11:44+00:00",
+      "summary": "Credit: dylan_ebert_ on X submitted by /u/AxomaticallyExtinct [link] [comments]",
+      "author": "AxomaticallyExtinct"
+    },
+    {
+      "title": "Claude acknowledged that im kind to him 😮",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x142gn/claude_acknowledged_that_im_kind_to_him/",
+      "published": "2026-10-08T21:57:43+00:00",
+      "summary": "submitted by /u/GamesRealmTV [link] [comments]",
+      "author": "GamesRealmTV"
+    },
+    {
+      "title": "Claude Startup Program no longer offering a year of Claude Team and $1K in API Credits",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1af87/claude_startup_program_no_longer_offering_a_year/",
+      "published": "2026-10-09T03:03:22+00:00",
+      "summary": "Source: https://claude.com/programs/startups/#faqAccordion submitted by /u/thatisagoodrock [link] [comments]",
+      "author": "thatisagoodrock"
+    },
+    {
+      "title": "Anyone using the Goodlabs MCP with Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1af96/anyone_using_the_goodlabs_mcp_with_claude/",
+      "published": "2026-10-09T03:03:25+00:00",
+      "summary": "I saw goodlabs has an MCP that lets Claude read the lab results and trends already in your account. I want to use it before appointments to compare draws and help me come up with questions. Basically what changed, by how much, and whether there are any relevant PubMed papers worth reading. I’m not looking for Claude to diagnose me. Has anyone found a prompt that keeps it focused? Every health prompt I try turns into a giant report when I only wanted three or four useful points. submitted by /u/CobraFleet3604 [link] [comments]",
+      "author": "CobraFleet3604"
+    }
+  ]
+}

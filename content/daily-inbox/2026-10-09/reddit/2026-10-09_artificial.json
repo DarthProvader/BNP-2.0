@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-09T04:07:53.934931+00:00",
+  "items": [
+    {
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0ydf8/anthropic_bans_abusive_or_cruel_behavior_toward/",
+      "published": "2026-10-08T18:17:36+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Trump declares anyone who uses the term Artificial Intelligence to be ‘The Enemy!’",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0wq2k/trump_declares_anyone_who_uses_the_term/",
+      "published": "2026-10-08T17:14:58+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "Wikipedia says rogue AI agents from OpenAI edited its private wikis and hammered its servers",
+      "url": "https://www.reddit.com/r/artificial/comments/1x14l4d/wikipedia_says_rogue_ai_agents_from_openai_edited/",
+      "published": "2026-10-08T22:20:09+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "OpenAI rolls out GPT-6 with Intelligent UI — ChatGPT answers can now include interactive tools",
+      "url": "https://www.reddit.com/r/artificial/comments/1x17pdr/openai_rolls_out_gpt6_with_intelligent_ui_chatgpt/",
+      "published": "2026-10-09T00:46:11+00:00",
+      "summary": "OpenAI started rolling out GPT-6 with Intelligent UI in ChatGPT this week. Instead of plain text, answers can now include interactive charts, forms, and mini tools — a savings calculator, a bill splitter, a road-trip map — generated right inside the conversation. It is a small but exciting shift: software that adapts to your task instead of you having to learn the software. submitted by /u/winer666 [link] [comments]",
+      "author": "winer666"
+    },
+    {
+      "title": "Why are people using ChatGPT for menu generation?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0y1d4/why_are_people_using_chatgpt_for_menu_generation/",
+      "published": "2026-10-08T18:04:34+00:00",
+      "summary": "Just wondering what's up with ChatGPT and the horrible/gross looking food menus. Example attached is from Gemini on a few items that usually look horrible on menus, it can do it just fine. Heck, open weight models can do this stuff as well. Why does everyone keep using a horrible model to produce their menus. I reside in Thailand and I see it in the wild all over the place. I tried to prompt Gemini to make me a bowl of ChatGPT rice, and think I got pretty close by asking it to \"generate a photo of a bowl of the rice looks like it was made out of fractals and aquarium rocks\". submitted by /u/sirebral [link] [comments]",
+      "author": "sirebral"
+    },
+    {
+      "title": "Mathematicians marvel, and grumble, at OpenAI’s trove of new results",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0zwf7/mathematicians_marvel_and_grumble_at_openais/",
+      "published": "2026-10-08T19:14:27+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "Researchers are already significantly improving on OpenAI’s recent math results, verified in Lean",
+      "url": "https://www.reddit.com/r/artificial/comments/1x0jls1/researchers_are_already_significantly_improving/",
+      "published": "2026-10-08T06:23:43+00:00",
+      "summary": "So much for the “we don’t learn anything from these slop proofs!” excuse https://github.com/CrocSwap/integer-mult-bounds submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+      "url": "https://www.reddit.com/r/artificial/comments/1x129a7/fraudster_jailed_for_using_10k_bots_and_ai_songs/",
+      "published": "2026-10-08T20:44:13+00:00",
+      "summary": "submitted by /u/Dances_With_Seagulls [link] [comments]",
+      "author": "Dances_With_Seagulls"
+    },
+    {
+      "title": "Think First and Let AI correct You",
+      "url": "https://www.reddit.com/r/artificial/comments/1x136mr/think_first_and_let_ai_correct_you/",
+      "published": "2026-10-08T21:20:58+00:00",
+      "summary": "We’re seeing some sort of « cognitive decline » especially among the younger generations. We’re probably entering an era of brand new brain diseases. Like a muscle, the brain needs to be used and if it fails to reach even the minimal threshold of usability, I predict it would die. Just like we saw a rapid spike in attention deficit due to short form videos and doom scrolling, we’re about to see a brain 🧠 rot. submitted by /u/Basaltic_rocks [link] [comments]",
+      "author": "Basaltic_rocks"
+    },
+    {
+      "title": "USA TODAY sues OpenAI over training on 19 publications",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1b3dh/usa_today_sues_openai_over_training_on_19/",
+      "published": "2026-10-09T03:38:47+00:00",
+      "summary": "submitted by /u/ryanmerket [link] [comments]",
+      "author": "ryanmerket"
+    }
+  ]
+}

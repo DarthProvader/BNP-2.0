@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-09T04:04:20.274006+00:00",
+  "items": [
+    {
+      "title": "Glad we’re focusing on the important things",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/",
+      "published": "2026-10-08T17:47:04+00:00",
+      "summary": "submitted by /u/Recent_Fox4339 [link] [comments]",
+      "author": "Recent_Fox4339"
+    },
+    {
+      "title": "Starting November 12th, 2026, abusive or cruel behavior towards Claude will be a violation of Anthropic's Usage Policy",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0x0o8/starting_november_12th_2026_abusive_or_cruel/",
+      "published": "2026-10-08T17:26:13+00:00",
+      "summary": "Anthropic is updating its usage policy for the first time in over a year. The new rules prohibit sustained \"abusive or cruel behavior\" towards Claude and add new restrictions about propaganda campaigns, surveillance & weapon development. no paywall Verge article: https://archive.ph/Tgtfd submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "One developer used Claude to reverse-engineer LG’s webOS media stack and build a native Rust Plex client from scratch—on the same 2019 TV it cuts the profile screen from ~30 seconds to ~3, runs at 60 FPS, and supports 4K, Dolby Vision and Atmos",
+      "url": "https://www.reddit.com/r/singularity/comments/1x18s0b/one_developer_used_claude_to_reverseengineer_lgs/",
+      "published": "2026-10-09T01:39:49+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Eye Cells May Have Been Rejuvenated for the First Time in People",
+      "url": "https://www.reddit.com/r/singularity/comments/1x17emy/eye_cells_may_have_been_rejuvenated_for_the_first/",
+      "published": "2026-10-09T00:31:04+00:00",
+      "summary": "submitted by /u/FomalhautCalliclea [link] [comments]",
+      "author": "FomalhautCalliclea"
+    },
+    {
+      "title": "Tom was the first layoff due to AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0ypnz/tom_was_the_first_layoff_due_to_ai/",
+      "published": "2026-10-08T18:30:07+00:00",
+      "summary": "submitted by /u/dolo937 [link] [comments]",
+      "author": "dolo937"
+    },
+    {
+      "title": "Art.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0xkcm/art/",
+      "published": "2026-10-08T17:46:23+00:00",
+      "summary": "submitted by /u/SoozlesNoodles [link] [comments]",
+      "author": "SoozlesNoodles"
+    },
+    {
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "url": "https://www.reddit.com/r/singularity/comments/1x18ywv/anthropic_bans_abusive_or_cruel_behavior_toward/",
+      "published": "2026-10-09T01:49:35+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    },
+    {
+      "title": "Two professions coping very differently",
+      "url": "https://www.reddit.com/r/singularity/comments/1x0v80q/two_professions_coping_very_differently/",
+      "published": "2026-10-08T16:17:37+00:00",
+      "summary": "submitted by /u/Sea_Physics401 [link] [comments]",
+      "author": "Sea_Physics401"
+    },
+    {
+      "title": "An open letter from the three OpenAl employees who were fired last week",
+      "url": "https://www.reddit.com/r/singularity/comments/1x10im0/an_open_letter_from_the_three_openal_employees/",
+      "published": "2026-10-08T19:38:00+00:00",
+      "summary": "submitted by /u/Ok_Display_3159 [link] [comments]",
+      "author": "Ok_Display_3159"
+    },
+    {
+      "title": "Put yourself in the shoes of a mathematician",
+      "url": "https://www.reddit.com/r/singularity/comments/1x17p8r/put_yourself_in_the_shoes_of_a_mathematician/",
+      "published": "2026-10-09T00:46:00+00:00",
+      "summary": "I'm incredibly critical of the behavior of Tao and other prominent mathematicians, but you really do have to marvel at what it must be like to be in their shoes for a moment. So far, all of the fields hit by AI, it has been a slow motion car crash. Using it for programming still requires a software lifecycle around it, using it for design still has an element of taste in selecting outputs and driving towards creative needs. For math, it's just over. There is no \"kind of\" in math. If you have a problem to solve, and AI solves it, and formalizes it in lean, that's it. There's no creative needs. There's no decision making. The problem is unsolved or it's solved. And not only that - this was hard for you to achieve. You have 8-12 years of grueling academia. Your relationship to math is so far beyond the ordinary person, that trying to help most people understand what you do would be like explaining baseball to a dog. It is a field that truly tests the limits of the human capacity for abstr",
+      "author": "Spunge14"
+    }
+  ]
+}

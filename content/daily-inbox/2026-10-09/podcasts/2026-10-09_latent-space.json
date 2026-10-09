@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-09T04:02:17.014728+00:00",
+  "items": [
+    {
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/p/periodic",
+      "published": "2026-10-08T15:27:54+00:00",
+      "summary": "It’s hard to believe that Periodic was only launched last September:One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout:Most people are familiar with the standard credentials of Liam and Dogus, but we found an incredible “talent slope” while learning more about Periodic, where each successive employee seems more impressive than the last:From building AI systems that reason over noisy physical experiments to creating laboratories where every instrument can become intelligent, Periodic Labs is betting that the next frontier of AI won’t come from simply training on more internet data, it will come from letting models experiment with the real world. In this episode, Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk join swyx and Brandon to explain why scientific discovery is fundamentally different from math and coding, and what it takes to build AI scientists that can actually discover",
+      "author": "Latent.Space"
+    }
+  ]
+}

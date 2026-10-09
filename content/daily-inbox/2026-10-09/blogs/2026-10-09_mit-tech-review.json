@@ -1,0 +1,34 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-10-09T04:02:29.280899+00:00",
+  "items": [
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "published": "2026-10-08T23:08:24+00:00",
+      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
+      "author": "MIT Technology Review"
+    },
+    {
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "published": "2026-10-08T08:00:00+00:00",
+      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
+      "author": "Jamie Condliffe"
+    },
+    {
+      "title": "Building a safer path to autonomous industrial AI",
+      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "published": "2026-10-08T07:17:32+00:00",
+      "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,&#8230;",
+      "author": "MIT Technology Review Insights"
+    }
+  ]
+}
