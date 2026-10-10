@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-10T04:04:28.638348+00:00",
+  "items": [
+    {
+      "title": "GPT-6 when you ask a yes or no question",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1jdsz/gpt6_when_you_ask_a_yes_or_no_question/",
+      "published": "2026-10-09T11:54:55+00:00",
+      "summary": "submitted by /u/Good__Tripper [link] [comments]",
+      "author": "Good__Tripper"
+    },
+    {
+      "title": "GPU king",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1vf5r/gpu_king/",
+      "published": "2026-10-09T20:01:32+00:00",
+      "summary": "submitted by /u/Weak-Pomegranate-435 [link] [comments]",
+      "author": "Weak-Pomegranate-435"
+    },
+    {
+      "title": "Everything is alright",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1stfv/everything_is_alright/",
+      "published": "2026-10-09T18:20:41+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "What if ChatGPT had existed on Windows 98, XP, Vista, and 7?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x249hq/what_if_chatgpt_had_existed_on_windows_98_xp/",
+      "published": "2026-10-10T02:50:51+00:00",
+      "summary": "I got curious about what ChatGPT might have looked like if it had existed back in the Windows 98, XP, Vista, and 7 days, and ended up making these four versions. I tried to imagine how the whole experience would have changed over the years. A clunky little question-and-answer page in Netscape, the colorful and ridiculously glossy XP era, Vista's dark Aero Glass aesthetic, and finally that cleaner, slightly more modern Windows 7 look. There's something strangely nostalgic about seeing a familiar tool in interfaces that belonged to a completely different internet. I generated these with ChatGPT's image tools, using a visual direction system I've been developing called Moon Image Cortex. It's a personal open-source project I've been working on to explore different visual styles, build reusable methods for them, and catch inconsistencies in the results. The whole thing is available on GitHub ( https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-image-cortex/engines/interface",
+      "author": "Midnight_Sun_BR"
+    },
+    {
+      "title": "I triggered the singularity. Sorry guys.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1pqvu/i_triggered_the_singularity_sorry_guys/",
+      "published": "2026-10-09T16:21:54+00:00",
+      "summary": "submitted by /u/LordVassious [link] [comments]",
+      "author": "LordVassious"
+    },
+    {
+      "title": "CSS is running a neural network to play Flappy Bird. Yes, actual CSS.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1roxe/css_is_running_a_neural_network_to_play_flappy/",
+      "published": "2026-10-09T17:37:17+00:00",
+      "summary": "I built a Flappy Bird clone where the neural network inference runs entirely in CSS . Open source: https://github.com/veuler/flappynn No TensorFlow.js. No WebGPU. No hidden JavaScript inference. JavaScript runs the game and passes the current state to CSS. The network itself uses CSS calc(), max() and exp() for the weighted sums, ReLU activations and final sigmoid output. I got ChatGPT help for Javascript code part while I've created the main idea. Also the flappy bird part has been created with the help of ChatGPT. A neuron is literally exported into CSS roughly like this: --h1-z: calc( var(--bird-y) * 0.72 + var(--velocity-y) * -0.31 + var(--pipe-distance) * 0.18 + var(--gap-y) * 0.44 + var(--pipe-speed) * 0.27 + 0.14 ); --h1: max(0, var(--h1-z)); --jump-probability: calc(1 / (1 + exp(-1 * var(--output-z)))); The latest actor is a 6 → 16 → 1 MLP with 129 trainable parameters . It sees: bird position + vertical velocity + next pipe distance + next gap position + pipe speed + the follo",
+      "author": "JumpAppropriate714"
+    },
+    {
+      "title": "How to use ChatGPT to save potentially hundreds of $$$ when booking any flights",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1s72a/how_to_use_chatgpt_to_save_potentially_hundreds/",
+      "published": "2026-10-09T17:56:49+00:00",
+      "summary": "When deciding on booking a flight for a route, there's always many options to stumble upon and all of them seem good. But not all of the options are good. Take Kayak for example. It usually redirects you to a few different sites for each option and all of them have slightly different prices. Unless you go through every one you wouldn't know which is best. Like which one has the cheapest seat selection, baggage cost, refundable, meals etc etc. And it's honestly too much work that almost nobody goes through all of it coz you have to check tens of websites. With ChatGPT recently, there's a much easier way to do this. (The trick works on Claude, Grok, and other LLM too but Chat is great for it). The whole trick is basically the prompt. If you don't prompt well you get very inconsistent results, like a flight that's incredibly cheap but the flight time is 30+ hours which absolutely no one wants. A bad prompt is \"find me a flight from X to Y on Z\". Not detailed enough. A good prompt is \"find",
+      "author": "Calm_Cartographer324"
+    },
+    {
+      "title": "Saw this on tiktok",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1z1qr/saw_this_on_tiktok/",
+      "published": "2026-10-09T22:34:01+00:00",
+      "summary": "submitted by /u/TrickHyena9255 [link] [comments]",
+      "author": "TrickHyena9255"
+    },
+    {
+      "title": "Sonnet 5.5 - GPT 6 instant",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x1gy2x/sonnet_55_gpt_6_instant/",
+      "published": "2026-10-09T09:35:12+00:00",
+      "summary": "Which one would you favor for general chat ? submitted by /u/Present_Resource4022 [link] [comments]",
+      "author": "Present_Resource4022"
+    },
+    {
+      "title": "Needed a boredom buster. In the past it would be a text-based story or game. Played a multiple-choice game created by GPT6 and eventually needed a break…from LAUGHING.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x22cat/needed_a_boredom_buster_in_the_past_it_would_be_a/",
+      "published": "2026-10-10T01:10:34+00:00",
+      "summary": "Still don’t know if the game will come up with an organic ending or if I will have to force ChatGPT to change the automated continuation prompt to let it end. submitted by /u/sharonmckaysbff1991 [link] [comments]",
+      "author": "sharonmckaysbff1991"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-10T04:05:19.816417+00:00",
+  "items": [
+    {
+      "title": "I Pointed Claude at 400 Years of Historical Archives. It Found a Forgotten Meteorite, Lost Rhinos, and Unrecorded Volcanic Eruptions.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1lo40/i_pointed_claude_at_400_years_of_historical/",
+      "published": "2026-10-09T13:41:02+00:00",
+      "summary": "submitted by /u/piratebroadcast [link] [comments]",
+      "author": "piratebroadcast"
+    },
+    {
+      "title": "i gave claude a batch job overnight, woke up to 96 clips and $2,500 in spends",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1oxol/i_gave_claude_a_batch_job_overnight_woke_up_to_96/",
+      "published": "2026-10-09T15:51:20+00:00",
+      "summary": "im just frustrated, i genuinely am and it is entirely my fault. so the job was simple. two keyframes, one camera move i wanted to test, and i wanted a pile of variations by morning so i could pick a composition and then run that one properly. wrote the instruction about half eleven, watched the first two come back fine, went to bed. what i didn't do was tell it which model. my scratch model is seedance 1.5 at 480p, dirt cheap, exists for exactly this. the default on the project was 2.0 pro at 1080p, which is about 25x the cost per second. so it used the default and ran the batch. four hours at full res, then it stopped because there was nothing left to spend 😭 96 clips of the same guy walking through the same door. if i ever batch create ai gen video again i want an actual hard stop. how are u pinning the model and capping spend on a claude batch so it can't upgrade itself overnight? submitted by /u/vedantk21 [link] [comments]",
+      "author": "vedantk21"
+    },
+    {
+      "title": "Is it just me, or did everyone quietly stop being a \"developer\" and become an \"operator\"?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1xcus/is_it_just_me_or_did_everyone_quietly_stop_being/",
+      "published": "2026-10-09T21:20:18+00:00",
+      "summary": "A year ago I wrote code. Now I \"operate\" agents. I have a terminal with four Claude Code sessions, a review bot, and a job title I gave myself. My actual day: Type \"continue\" Approve a bash command I didn't read Tell Codex to check what Claude did Tell Claude what Codex said Refer to this as \"orchestration\" in standup Career path as I understand it: developer → operator → supervisor of operators → person who watches the agents through a window, like a lighthouse keeper. What are you calling yourself these days? submitted by /u/aram-antonyan-hgtg42 [link] [comments]",
+      "author": "aram-antonyan-hgtg42"
+    },
+    {
+      "title": "Why does Claude need to see my ovulation cycle? 🥺",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1grtv/why_does_claude_need_to_see_my_ovulation_cycle/",
+      "published": "2026-10-09T09:24:03+00:00",
+      "summary": "It's that time of the month for me, Claude, so generate a browser-based version of GTA 6 without any errors, or I'll get angry. submitted by /u/dadnothere [link] [comments]",
+      "author": "dadnothere"
+    },
+    {
+      "title": "I built 20 free, open-source HTML pages you can use to reskin existing projects with Claude. No login required.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x22sap/i_built_20_free_opensource_html_pages_you_can_use/",
+      "published": "2026-10-10T01:33:20+00:00",
+      "summary": "I've been building websites for years, and one thing I've noticed while working with Claude Code is that generating functional interfaces is getting easier, but getting a consistent, distinctive visual identity still takes a lot of iteration. You can tell Claude to \"make it premium\" or \"make it look like a modern SaaS,\" but those instructions leave a lot of room for interpretation. So I've been exploring a different approach: What if, instead of describing a design to Claude, you gave it an entire working design as a reference? That's part of the thinking behind a project I recently brought back called InstaLanding.ai . I built a library of 20 landing pages using plain HTML, CSS, and JavaScript. Each page is self-contained in a single HTML file. No frameworks, dependencies, or build steps. Why single-file HTML? I wanted the designs to be as portable and easy for coding agents to understand as possible. A single file gives Claude access to the actual implementation: Typography, colors, ",
+      "author": "Azra_Nysus"
+    },
+    {
+      "title": "Musk called Anthropic 'evil'; SpaceX's deal with it nearly doubled to $84.5 ⁠billion through 2029",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2175h/musk_called_anthropic_evil_spacexs_deal_with_it/",
+      "published": "2026-10-10T00:14:02+00:00",
+      "summary": "“Anthropic made the same choice with Elon Musk's SpaceX. In February, Musk replied on X (the former Twitter) by calling the Claude maker \"evil.\" Seven months later, Anthropic's potential compute bill with his company has nearly doubled. Anthropic could pay SpaceX up to $84.5 billion for Nvidia-based computing power through 2029, according to a confidential IPO prospectus reviewed by Reuters. SpaceX's own IPO filing in May pointed to a deal worth roughly $45 billion.” Source: https://finance.yahoo.com/technology/ai/articles/musk-called-anthropic-evil-spacexs-160300388.html submitted by /u/Luka77GOATic [link] [comments]",
+      "author": "Luka77GOATic"
+    },
+    {
+      "title": "I made a claude code mod that uses Haiku 5.5 (or Jev) to pick the best model and effort for your task. (and more...)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1nnkn/i_made_a_claude_code_mod_that_uses_haiku_55_or/",
+      "published": "2026-10-09T15:01:08+00:00",
+      "summary": "a mod for Claude Code that uses Haiku 5.5 or Jev to figure out the best model and effort for the task. (it is smart and uses earlier messages to assess if a switch is good or if it’s better to stay on the current one. what it does and how: picks Haiku, Sonnet or Opus and the effort for each prompt warns when the prompt cache goes cold warns when the chat gets swamped Effort is an estimate, but I’ve found it picking the effort I would’ve done almost every time why it works: it reads and understands your current work and task, so it doesn’t flip models mid-task Changing effort on Opus and Sonnet doesn’t rebuild the cache on Fable it does, so automatic switching is off there. Changing effort would cost more than it saves it also offers other features such as smart handoff (a recommendation if it notices a change in the task), this also lets you use your current skill as the hand off template if you have any. I built it with Claude Code. Claude wrote most of the code and I tested it, chose",
+      "author": "Intelligent-Crew-576"
+    },
+    {
+      "title": "How to bypass the \"I cannot reverse engineer or bypass proprietary software\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1q7jx/how_to_bypass_the_i_cannot_reverse_engineer_or/",
+      "published": "2026-10-09T16:39:58+00:00",
+      "summary": "I want to make a custom firmware for my titan one with Claude, but it's giving me troubles already at the beginning. How can I make Claude help me? submitted by /u/soulerNL [link] [comments]",
+      "author": "soulerNL"
+    },
+    {
+      "title": "Claude created my dream game, and got approved for Apple iOS store!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1t371/claude_created_my_dream_game_and_got_approved_for/",
+      "published": "2026-10-09T18:31:14+00:00",
+      "summary": "A tower defense game set on mars where you vaporize endless waves of alien bugs. Claude (connected through Cursor) created everything from the artwork, code, and marketing material. This took about a month of prompting and testing on and off, if I was working on this game full time I could've had it done in a few days. I made a huge mistake using Cursor for everything instead of a direct subscription to Claude, which costed me literally over $1000. Making this game is teaching me a lot from how to use AI, game engines, and marketing. I have a pretty good setup now (I could probably charge non technical people for this info) I just have a max subscription to claude and give it access to local files, that gets most of the job done. You will have to get api keys for whatever, give it to the ai and then it literally does everything. I joke that my job now is to pay for subscriptions. Depending on what you need Images mid journey music suno 3d models meshy. A cool thing I did was connect Ap",
+      "author": "Caninetechnology"
+    },
+    {
+      "title": "Opus 5.5 built the vehicles and physics for my Road Rash x DiRT mashup in about 3 days. It couldn’t crack the dirt bike",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1mb45/opus_55_built_the_vehicles_and_physics_for_my/",
+      "published": "2026-10-09T14:06:46+00:00",
+      "summary": "I’ve been making games for about 25 years (mostly AAA, now indie) and wanted to see how far Claude could take a real game in a few days. The target was a mix of Road Rash (the 1991 one, yes I’m that old) and a rally game like DiRT. Opus 5.5 did most of the heavy lifting: the 4 vehicles, the physics, drift boost, jump pads and rockets (that replaces the chains from Road Rash). The hardest part was getting it to understand how the tires and shocks should move against the ground while keeping the whole thing fun and arcade. It kept pulling toward realistic, and realistic is not what you want when you’re hitting a jump pad at full speed. For the look I used Astra 6. I gave it a screenshot of a benchmark visual and told it to reach at least 90% of that quality, and it ran 3 to 4 hours on most of the 5 maps. I tweaked the levels by hand in our editor. Music comes from Sandscape and ElevenLabs, and Sandscape handles the multiplayer and leaderboards. The dirt bike is where it fell apart. I tho",
+      "author": "titkun"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-10T04:06:10.840677+00:00",
+  "items": [
+    {
+      "title": "Anthropic to ban users who bully Claude",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1t03v/anthropic_to_ban_users_who_bully_claude/",
+      "published": "2026-10-09T18:27:54+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "William Shatner gives take on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1ku7k/william_shatner_gives_take_on_ai/",
+      "published": "2026-10-09T13:04:44+00:00",
+      "summary": "From the \"Dropping Names with Brent and Jonny\" podcast. submitted by /u/MightyMouse420 [link] [comments]",
+      "author": "MightyMouse420"
+    },
+    {
+      "title": "Is there any link between AI detection abilities and trypophobia?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x23bbz/is_there_any_link_between_ai_detection_abilities/",
+      "published": "2026-10-10T02:00:45+00:00",
+      "summary": "The obvious one is food, AI pictures on menus of things like pasta, ground beef, etc trigger it so hard, in a way I’ve never felt from seeing those things or pictures of them. They look so gross that I have no idea how you would advertise food with this, but it clearly doesn’t hit everyone this way. Other images do this to me as well though. On the [ r/IsThisAI ]( r/IsThisAI ) subreddit, my first tell is often the feeling I get. Psychologically it feels exactly like when I see other trypophobia inducing things. These aren’t AI pics of holes, repeating organic patterns, any of that. One post was a bunch of people eating dinner (the food is too small to see, it’s not the food giving me trypophobia). It’s as if there’s a background organic repeating pattern that I can’t see. Unlike typical triggers, if you asked me to draw the outline of what is triggering it I couldn’t. Never in my life would a pic of people at a dinner table have made me feel trypophobia, so now I wonder if people with ",
+      "author": "ISBN39393242"
+    },
+    {
+      "title": "AI companies plot how to respond if catastrophic hacking incident causes 'revolt': report",
+      "url": "https://www.reddit.com/r/artificial/comments/1x201nd/ai_companies_plot_how_to_respond_if_catastrophic/",
+      "published": "2026-10-09T23:19:38+00:00",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "author": "sourdub"
+    },
+    {
+      "title": "The most exciting claims from OpenAI’s heap of new proofs",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1qgik/the_most_exciting_claims_from_openais_heap_of_new/",
+      "published": "2026-10-09T16:49:34+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "If an AI can't decide what to want, can it ever be truly conscious?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1zzyu/if_an_ai_cant_decide_what_to_want_can_it_ever_be/",
+      "published": "2026-10-09T23:17:27+00:00",
+      "summary": "Traditional software runs on meanings its programmers define, while LLMs interpret meaning for themselves. That makes them flexible but fallible: they can misread a prompt and seem to \"go rogue.\" Even then, they aren't choosing a new purpose. They are pursuing someone else's goal, badly. Humans differ in one key way: unless we believe we're prophets who have received a purpose from God, no authority hands us a final goal. We are limited only by our creativity and the laws of physics. Even tho no objective reason exists to favor one option over another, we still have to choose. That, I'd argue, is the mark of consciousness. A system that only pursues assigned goals has no point of view of its own; it is optimizing, not wanting. The real test of machine consciousness, then, is not how well an AI pursues our goals, but whether it can want something no one designed it to want. submitted by /u/WhoReallyKnowsThis [link] [comments]",
+      "author": "WhoReallyKnowsThis"
+    },
+    {
+      "title": "Anthropic Wants You to Stop Bullying Claude: Being 'Cruel or Abusive' Could Have Consequences",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1lrrq/anthropic_wants_you_to_stop_bullying_claude_being/",
+      "published": "2026-10-09T13:45:22+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Anthropic Is Right About AI Bullying",
+      "url": "https://www.reddit.com/r/artificial/comments/1x1ma1v/anthropic_is_right_about_ai_bullying/",
+      "published": "2026-10-09T14:05:39+00:00",
+      "summary": "submitted by /u/rp_tiago [link] [comments]",
+      "author": "rp_tiago"
+    },
+    {
+      "title": "I want to use AI but I’m stumped",
+      "url": "https://www.reddit.com/r/artificial/comments/1x217lu/i_want_to_use_ai_but_im_stumped/",
+      "published": "2026-10-10T00:14:41+00:00",
+      "summary": "Why does chatgpt get it wrong so often? I tell it where to find an image and it still blows it. I tell it simple instructions and I get garbage. It tries too hard and fails. It’s like that employee that can’t do anything right but is so nice you don’t want to fire them. I need another option. Is there a specific AI that will give me information in response to questions or help me create something simple like a workout journal for my iPad (not elaborate!!) without trying to solve world peace or link everything in my life together?? submitted by /u/Either-Tear9104 [link] [comments]",
+      "author": "Either-Tear9104"
+    },
+    {
+      "title": "AI and mathematics",
+      "url": "https://www.reddit.com/r/artificial/comments/1x24m7r/ai_and_mathematics/",
+      "published": "2026-10-10T03:09:35+00:00",
+      "summary": "AI and mathematics So I have been following the recent release of the mathematical proofs by openai, and in particular this discussion about how the real value in mathematics is not the truth of a result but rather the proof, the understanding to be gained from it, and the development of new mathematical ideas. I'm sympathetic to the point being made, but there's a disconnect to me, and I'm interested in how this point might be addressed by those who engage in mathematical practice. Specifically, why isn't there an AI system (in the theoretical near future) that could develop and understand AND explain the implications of the ideas behind the proof, as well as the result itself? For example, let's say that a certain problem has resisted solution until now, but an AI has found a proof. Wouldn't it be possible for the same or another AI to then Examine the proof and uncover the ideas, assumptions, and mathematical structures that went into it Try to find alternate proofs or explanations ",
+      "author": "Able-Schedule6523"
+    }
+  ]
+}

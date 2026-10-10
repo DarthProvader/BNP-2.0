@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-10T04:03:37.438773+00:00",
+  "items": [
+    {
+      "title": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1z0um/introducing_microsoftdecision1_our_model_for_fast/",
+      "published": "2026-10-09T22:32:47+00:00",
+      "summary": "submitted by /u/Greedyanda [link] [comments]",
+      "author": "Greedyanda"
+    },
+    {
+      "title": "AI Could Allow For 3-Day Workweeks And Single-Income Households, Bezos Claims",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1vo9t/ai_could_allow_for_3day_workweeks_and/",
+      "published": "2026-10-09T20:11:28+00:00",
+      "summary": "This is something I've been saying for a long time. But it's interesting that it's coming from the slavemaster general himself... ​​​ submitted by /u/Singularity-42 [link] [comments]",
+      "author": "Singularity-42"
+    },
+    {
+      "title": "A mathematician's perspective",
+      "url": "https://www.reddit.com/r/singularity/comments/1x22o0b/a_mathematicians_perspective/",
+      "published": "2026-10-10T01:27:10+00:00",
+      "summary": "As a math PhD student, I've been having a number of alarming conversations with my colleagues, none of which came to any concrete conclusion. I'm interested in some different takes, so for what it's worth I'll just share my thoughts and the thoughts of some of my colleagues. About me: I started my PhD in February It is in mathematical physics I'm not an AI die hard crank nor am I completely anti AI Scenarios for future maths research Scenario #1 : this moment right now is just the initial shock, AI is going to improve but as it finishes the human material for its training it's going to reach a plateau in terms of the quality of its output. At that point, when the dust settles, us mathematicians will learn to rely on its improved capabilities, publish more human-written papers, train the AI on those, then catch up and so on in a sort of tidal-wave dynamic. I think this is the most likely scenario honestly: if AI starts to train on its own material, which regardless of its correctness is",
+      "author": "DottorMaelstrom"
+    },
+    {
+      "title": "We've genuinely lost the plot",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1xqkn/weve_genuinely_lost_the_plot/",
+      "published": "2026-10-09T21:36:34+00:00",
+      "summary": "submitted by /u/badumtsssst [link] [comments]",
+      "author": "badumtsssst"
+    },
+    {
+      "title": "Hugo Duminil-Copin (2022 Fields Medalist): OpenAI's solving of 350 major problems feels as if I had been run over by trucks; all the problems (and thus research directions) that I used to mention in my talks, papers, and grant applications have been solved.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1mzkn/hugo_duminilcopin_2022_fields_medalist_openais/",
+      "published": "2026-10-09T14:34:01+00:00",
+      "summary": "submitted by /u/UndeadPrs [link] [comments]",
+      "author": "UndeadPrs"
+    },
+    {
+      "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1wadm/we_are_in_a_critical_phase_if_we_look_at_the_ai/",
+      "published": "2026-10-09T20:35:58+00:00",
+      "summary": "https://www.aifuturesmodel.com/p?v=2&base=daniel-08-16-26&acam=time-horizon To me it seems that Claude Opus 5 we got in July with an ECI score of 163 was a proto AGI system. By the paper its effective compute was 10^29 FLOPS and its coding time horizon is 6 hours. When we hit a system with a ECI score of 172 which we will in 3 to 5 months, and effective compute of 10^30 FLOPS its coding time horizon will correspond to 3 days, so a whole weekend. When we get to a system with ECI score 182 its coding time horizon will be a month. And a 191 corresponds to RSI essentially by this paper and a coding time horizon of a year. And if we look at revenue it corresponds perfectly so far also which is a big deal too, because by the end of next year the leading AI company will be in top 3 companies in the world by revenue. So the jumps in capability were big in the last 2 years every 3 to 4 months but now they will start to be insane. I mean this corresponds well with the situational awareness paper",
+      "author": "Snoo-75663"
+    },
+    {
+      "title": "New \"carbon\" model from google (opus like coding from early reports)",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1w15d/new_carbon_model_from_google_opus_like_coding/",
+      "published": "2026-10-09T20:25:39+00:00",
+      "summary": "submitted by /u/Independent-Wind4462 [link] [comments]",
+      "author": "Independent-Wind4462"
+    },
+    {
+      "title": "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1igx2/top_executives_at_anthropic_openai_and_other_ai/",
+      "published": "2026-10-09T11:04:55+00:00",
+      "summary": "submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "Seattle Becomes First City to Stop Grocery Stores from Using AI Based Personal Data to Set Prices - Office of the Mayor",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1kpmv/seattle_becomes_first_city_to_stop_grocery_stores/",
+      "published": "2026-10-09T12:59:23+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Watch as a vulnerability cybersecurity expert with 10 years of experience in the field becomes astonished by the reverse engineering powers of... GLM 5.3",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1ydft/watch_as_a_vulnerability_cybersecurity_expert/",
+      "published": "2026-10-09T22:04:00+00:00",
+      "summary": "Ladies and gentlemen the world is not ready, GLM 5.3 (ancient by LLM model standards) using the Ghidra MCP, reverse engineering a Dell monitor in 15 minutes, the possibilities are endless. I cannot wait for someone to do this with printers. submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

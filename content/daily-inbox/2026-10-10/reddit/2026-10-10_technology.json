@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-10-10T04:07:01.811136+00:00",
+  "items": [
+    {
+      "title": "Virginia Data Center Ran Diesel Generators for 24 Hours. Residents Fled Their Homes",
+      "url": "https://www.reddit.com/r/technology/comments/1x1vtem/virginia_data_center_ran_diesel_generators_for_24/",
+      "published": "2026-10-09T20:17:12+00:00",
+      "summary": "submitted by /u/stenspect [link] [comments]",
+      "author": "stenspect"
+    },
+    {
+      "title": "Trump purchased up to $5 million of SpaceX bonds days before major space order",
+      "url": "https://www.reddit.com/r/technology/comments/1x1svmz/trump_purchased_up_to_5_million_of_spacex_bonds/",
+      "published": "2026-10-09T18:23:06+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "My personal AI agent posted my bank details on company Slack. It's made me rethink how I use it.",
+      "url": "https://www.reddit.com/r/technology/comments/1x1ysae/my_personal_ai_agent_posted_my_bank_details_on/",
+      "published": "2026-10-09T22:22:11+00:00",
+      "summary": "submitted by /u/stenspect [link] [comments]",
+      "author": "stenspect"
+    },
+    {
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "url": "https://www.reddit.com/r/technology/comments/1x1zsei/using_ai_for_just_10_minutes_erodes_your_ability/",
+      "published": "2026-10-09T23:07:51+00:00",
+      "summary": "submitted by /u/slackmaster [link] [comments]",
+      "author": "slackmaster"
+    },
+    {
+      "title": "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.",
+      "url": "https://www.reddit.com/r/technology/comments/1x1i81q/top_executives_at_anthropic_openai_and_other_ai/",
+      "published": "2026-10-09T10:51:46+00:00",
+      "summary": "submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "School district makes dramatic U-turn on AI, banning it across all grades weeks after Google Gemini rollout",
+      "url": "https://www.reddit.com/r/technology/comments/1x1jt0p/school_district_makes_dramatic_uturn_on_ai/",
+      "published": "2026-10-09T12:15:42+00:00",
+      "summary": "submitted by /u/Miserable_Phase_2519 [link] [comments]",
+      "author": "Miserable_Phase_2519"
+    },
+    {
+      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+      "url": "https://www.reddit.com/r/technology/comments/1x1u8hg/pc_shipments_fall_201_percent_in_sharpest_decline/",
+      "published": "2026-10-09T19:15:20+00:00",
+      "summary": "submitted by /u/Stiltonrocks [link] [comments]",
+      "author": "Stiltonrocks"
+    },
+    {
+      "title": "New Report Reveals Walmart’s Patents for Price-Gouging Tech",
+      "url": "https://www.reddit.com/r/technology/comments/1x1l4um/new_report_reveals_walmarts_patents_for/",
+      "published": "2026-10-09T13:17:45+00:00",
+      "summary": "submitted by /u/AdSpecialist6598 [link] [comments]",
+      "author": "AdSpecialist6598"
+    },
+    {
+      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "url": "https://www.reddit.com/r/technology/comments/1x1w3az/pure_insanity_mathematicians_will_need_years_to/",
+      "published": "2026-10-09T20:28:01+00:00",
+      "summary": "submitted by /u/Slow_cpu [link] [comments]",
+      "author": "Slow_cpu"
+    },
+    {
+      "title": "Seattle Becomes First City to Stop Grocery Stores from Using AI Based Personal Data to Set Prices",
+      "url": "https://www.reddit.com/r/technology/comments/1x1ksa3/seattle_becomes_first_city_to_stop_grocery_stores/",
+      "published": "2026-10-09T13:02:16+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    }
+  ]
+}
