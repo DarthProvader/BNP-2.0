@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-11T04:03:17.646933+00:00",
+  "items": [
+    {
+      "title": "Slide from recent \"Math 2.0\" Lecture by Terrence Tao. This man has never met a terminal cancer patient in his life if he thinks no one would want to take this risk.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2kb5k/slide_from_recent_math_20_lecture_by_terrence_tao/",
+      "published": "2026-10-10T17:02:12+00:00",
+      "summary": "submitted by /u/Dry_Radio_761 [link] [comments]",
+      "author": "Dry_Radio_761"
+    },
+    {
+      "title": "We should stop defending jobs and start planning for a world without them",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2q7sf/we_should_stop_defending_jobs_and_start_planning/",
+      "published": "2026-10-10T21:11:24+00:00",
+      "summary": "Unless something truly unexpected stops AI progress, it looks increasingly clear to me that AI will probably surpass humans at every economically valuable task. If that happens, AI gets picked over a human for all or nearly all work. And not just single tasks. AI systems will solve problems autonomously and coordinate with each other across large projects. They’ll probably end up running entire companies, maybe entire industrial sectors, at a level of efficiency and productivity we can barely measure. At that point professions stop being necessary. Why hire a person to do something that’s already fully automated? That seems to be the trajectory we’re on. And if it is, the logical reaction as a society isn’t to dig in and defend the current system built around professions. It’s to work toward a system where people can live without working. That means changing the economic foundations of our society, not patching them. We could have the best quality of life in history without anyone havi",
+      "author": "ReporterCalm6238"
+    },
+    {
+      "title": "Terrence Tao is actually calling for significantly more compute hours of AI mathematics, yet is being misportrayed in this sub.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2w1ek/terrence_tao_is_actually_calling_for/",
+      "published": "2026-10-11T01:55:23+00:00",
+      "summary": "submitted by /u/SammaVaco [link] [comments]",
+      "author": "SammaVaco"
+    },
+    {
+      "title": "How compute time has shifted from pretraining to post-training over the last 2 years",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2na8q/how_compute_time_has_shifted_from_pretraining_to/",
+      "published": "2026-10-10T19:06:18+00:00",
+      "summary": "submitted by /u/japie06 [link] [comments]",
+      "author": "japie06"
+    },
+    {
+      "title": "If An Internal Model Discovers A New AI Architecture 1,000x Better Than Current Architectures, But No Human Can Understand It, Should We Refuse To Build It?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2ty7y/if_an_internal_model_discovers_a_new_ai/",
+      "published": "2026-10-11T00:07:41+00:00",
+      "summary": "Terrence Tao's recent post stating that it would be irresponsible for cancer patients to accept an AI discovered cancer cure (even if it works) if no humans can understand it made me realize that interpretability and the need to understand a models thought process will become impractical and impossible as we arrive near true ASI. Imagine an AI discovers a completely new architecture for building AI models. The resulting models (if built on the new architecture), are 1,000x more capable, dramatically faster, and cost a fraction as much to train and run. However, the reasoning that led to the model discovering this new architecture is impossible for humans to understand, just as it would be impossible for an Ape to understand how a transformer works. And, imagine that internal model cannot simplify/explain the reasoning mechanism for this new architecture, just as it would be impossible for any of you to explain to an Ape how the transformer works, even if you dumb it down as much as pos",
+      "author": "Neurogence"
+    },
+    {
+      "title": "being alive in this day and age is the best thing about my life",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2l1g9/being_alive_in_this_day_and_age_is_the_best_thing/",
+      "published": "2026-10-10T17:32:21+00:00",
+      "summary": "nearly all relatives passed away, dealing with problems which are mostly out of my control and im trying my best to keep on keeping on but it's hard. im sure many can relate. that said, im still feeling pretty lucky to be living in 2026. the fact there's a chance of AI supercharging the medical research and scientific progress (and according to some very reputable people such as Sir Demis Hassabis, there's a pretty good chance of that) really gives me some peace and motivation to keep trying and doing positive things daily. what a wild time to be alive really. when i was a kid i loved playing with Transformers and Bionicle and dreamt of the times 2030s are shaping up to be. hopefully we all make it and the future is good. had some old school dark chocolate and got in the mood to write this post. idk if it's allowed to ramble like that, remove if not np. submitted by /u/alexthroughtheveil [link] [comments]",
+      "author": "alexthroughtheveil"
+    },
+    {
+      "title": "China to launch initiative to boost employment amid AI advances",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2t07p/china_to_launch_initiative_to_boost_employment/",
+      "published": "2026-10-10T23:21:39+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2hl29/computer_scientist_david_silver_where_are_we/",
+      "published": "2026-10-10T15:07:52+00:00",
+      "summary": "Computer scientist David Silver: ‘Where are we going without AI?’t Summary FT Lunch with David Silver (AlphaGo/AlphaZero lead) on his new lab, Ineffable Intelligence Silver led DeepMind's game-playing breakthroughs and has now left Google to start Ineffable, which raised $1.1B at a ~$5.1B valuation (Sequoia, Lightspeed, Nvidia, Google, plus UK government money). It's the largest seed round in European history, for a company with no product yet. His thesis: today's chatbots are capped because they learn from human text and human feedback. He compares human data to a fossil fuel that's nearly used up. He wants a \"superlearner\" that learns purely by trial and error, the way AlphaZero taught itself chess from scratch, and he calls this the \"era of experience.\" His safety plan is to build and study it only inside simulation: a society of AI agents in a sandbox, where you watch them independently invent things like language, math and money. He gave the company a three-year runway to show sup",
+      "author": "Bobbie_Sacamano"
+    },
+    {
+      "title": "Reverse Engineer Anything is a great toolkit, what would you like to see reverse engineered?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2rrsi/reverse_engineer_anything_is_a_great_toolkit_what/",
+      "published": "2026-10-10T22:22:20+00:00",
+      "summary": "There are now many, many agentic reverse engineering toolkits available, REA in particular I think is fantastic. https://github.com/morluto/rea What hardware have you had that you'd like to see reverse engineered, and what would you like to do with it? submitted by /u/jazir55 [link] [comments]",
+      "author": "jazir55"
+    },
+    {
+      "title": "A startup built an 8,000-square-foot lab in just 30 days to test molecules proposed by AI, it can now measure how often they work in living organisms in about 72 hours",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2812g/a_startup_built_an_8000squarefoot_lab_in_just_30/",
+      "published": "2026-10-10T06:24:22+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

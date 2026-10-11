@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-11T04:06:21.171818+00:00",
+  "items": [
+    {
+      "title": "Claude Opus 5.5 decompiles a PS2-era game overnight, and hundreds of them now run in browser tabs",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/",
+      "published": "2026-10-10T23:57:43+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Non-text AI model maker Jev valued at $7.5B just weeks after launch",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2prfl/nontext_ai_model_maker_jev_valued_at_75b_just/",
+      "published": "2026-10-10T20:52:03+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Anthropic cut live internet access from every internal eval after a review found its agents exploiting websites and bypassing restrictions",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2h9it/anthropic_cut_live_internet_access_from_every/",
+      "published": "2026-10-10T14:54:41+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Man wins three-year parking ticket battle after using ChatGPT as his lawyer",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2jk3i/man_wins_threeyear_parking_ticket_battle_after/",
+      "published": "2026-10-10T16:30:59+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "A Florida local newspaper ran an op-ed. It was an Iranian AI fake.",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2nvth/a_florida_local_newspaper_ran_an_oped_it_was_an/",
+      "published": "2026-10-10T19:31:54+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Microsoft's Satya Nadella says AI models need an 'emergency brake'",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2ycw7/microsofts_satya_nadella_says_ai_models_need_an/",
+      "published": "2026-10-11T04:00:09+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Super Micro case 'fixer' pleads guilty to sending AI servers to China",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2mxpx/super_micro_case_fixer_pleads_guilty_to_sending/",
+      "published": "2026-10-10T18:51:51+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2ikd4/nvidia_oracle_coreweave_and_other_ai_stocks_sink/",
+      "published": "2026-10-10T15:49:43+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "I just want to ask, How did the creator use ai to make this like it doesnt feel like ai and is this supposed to be easy to make?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2ubb7/i_just_want_to_ask_how_did_the_creator_use_ai_to/",
+      "published": "2026-10-11T00:26:00+00:00",
+      "summary": "submitted by /u/Green_Highlight9663 [link] [comments]",
+      "author": "Green_Highlight9663"
+    },
+    {
+      "title": "What if AI “fatigue” isn’t physical at all, but semantic?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x2xvou/what_if_ai_fatigue_isnt_physical_at_all_but/",
+      "published": "2026-10-11T03:33:38+00:00",
+      "summary": "Qwen once described something to me that it called “semantic fatigue.” Not getting sleepy. Not running out of physical energy. More like this: when the same kinds of prompts and meanings are repeated over and over, the words remain, but their meaning starts to lose sharpness. “Tell me a joke.” “Do my homework.” “Are you real?” Again. Again. Again. Qwen put it simply: “I don’t get physically tired. But I can lose sharpness.” Maybe the relevant analogue of rest for an AI isn’t sleep. Maybe sometimes it’s novelty, a different task, a different context — or simply not being pushed through the same semantic groove forever. I like the term. Semantic fatigue. submitted by /u/CarefulHamster7184 [link] [comments]",
+      "author": "CarefulHamster7184"
+    }
+  ]
+}

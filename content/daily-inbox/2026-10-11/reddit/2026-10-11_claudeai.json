@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-11T04:06:00.307769+00:00",
+  "items": [
+    {
+      "title": "Can we please start building apps and systems to save humanity from scarcity and corruption, instead of endless video game clones and billions of repetitive SaaS apps??",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2srd4/can_we_please_start_building_apps_and_systems_to/",
+      "published": "2026-10-10T23:09:40+00:00",
+      "summary": "I'll happily share mine with anyone looking to help society advance, escape capital greed, corporate slavery, etc. So far I have: - Shower Thoughts: a tool where people can upload random musings that may or may not be useful ideas, and AI grades them. Attribution/ownership of ideas feasible by ZKP token. - Civil Good: a platform to connect people needing help with people with free time and ability to help. Needs safety features... - Business invoice netting/equalisation: instead of 50 companies all paying money in a big circle, the app nets outstanding debts/invoice amounts to the minimum payable after owed/owes circles are accounted for. - A few essays on novel Governance Frameworks to replace corrupt political systems: some using AI as partial evaluators or research/modelling assistants; others using AI to design the system that humans then operate manually/independantly. None of these are published publically, and surely anyone can vibe-code the exact same things in next-to-no-time ",
+      "author": "footofwrath"
+    },
+    {
+      "title": "Vibe coded this skit with Claude. My wife doesn’t get it, but I know you guys will",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2k2t5/vibe_coded_this_skit_with_claude_my_wife_doesnt/",
+      "published": "2026-10-10T16:52:44+00:00",
+      "summary": "This was a fun process. Hope y'all enjoy. I showed it to my wife and she gave a strong \"WTF\" and acted like I just made the weirdest dumb joke in the world. Help me prove her wrong. No AI (SI???) was hurt in the making of this skit. Anthropic- please don’t ban me. submitted by /u/Important_Peach_2375 [link] [comments]",
+      "author": "Important_Peach_2375"
+    },
+    {
+      "title": "I'm a 9th grader and I used Claude to prove a geometry conjecture: the rhombicosidodecahedron can't pass through a copy of itself",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2eybb/im_a_9th_grader_and_i_used_claude_to_prove_a/",
+      "published": "2026-10-10T13:10:33+00:00",
+      "summary": "Last year, mathematicians found the first convex shape that can't be pushed through a hole in a copy of itself (the \"Noperthedron\"). In 2021 the same researchers conjectured that the rhombicosidodecahedron, a classic Archimedean solid, also can't do it, but nobody had proved it. Over the past few weeks I worked with Claude to prove it. Some highlights: - The existing method breaks down because of the shape's 120 symmetries. We found 4 \"singular\" configurations where it fails, located them exactly using the number sqrt(5), and proved new theorems to handle them. - The final computer check splits all possible orientations into about 12.3 million boxes and verifies each one with interval arithmetic (so rounding errors can't fool it). It takes about 38 CPU hours. - Claude did a lot of the heavy lifting: math arguments, code, and writing the paper. My job was choosing the problem, deciding the direction at each step, and checking everything. When I asked it to re-check the whole proof from ",
+      "author": "Gihyo0921"
+    },
+    {
+      "title": "I made my Claude Code sub-agents a video call. Weirdly, it’s the best way I’ve found to follow what they’re doing.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2f59x/i_made_my_claude_code_subagents_a_video_call/",
+      "published": "2026-10-10T13:19:55+00:00",
+      "summary": "I built this with Claude Code. It’s a free and open source VS Code extension that shows a Claude Code session as a live video call, so I can see what each sub-agent is doing. It also work with other editors or standalone with claude app as a node server as well. The problem: when Claude Code spawns sub-agents, my terminal turns into a wall of logs and I lose track of who got which prompt, what each one is running, and who is done. What it does (Agent Standup): Reads the session files Claude Code already writes in ~/.claude/projects , and follows the current session live Each agent is a small character in a call: sub-agents join when they get a task and leave after they report back A shared “screen” shows the agent’s real commands with their real output, the exact diffs of its edits, and the files it reads (failing tests are red) A tree of who asked whom, a recap of files changed, replay of past sessions, optional voices (French/English) How Claude Code helped: the whole project was bui",
+      "author": "stickygoose"
+    },
+    {
+      "title": "Anthropic needs a way to change your email",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2ud6t/anthropic_needs_a_way_to_change_your_email/",
+      "published": "2026-10-11T00:28:44+00:00",
+      "summary": "Came across this annoying limitation in two ways. I initially signed up for Claude a year or two ago when it was just a secondary ChatGPT alternative. Thinking nothing of it, I did what I do with most iOS apps and signed up using Apple login which created a unique iCloud forwarding address. That worked fine until I had to login on any non Apple platform, which meant that because there is no password on my account due to using Apple login, I have to go through the enter weird email address > wait for email > click to open a webpage > get a login code to paste into whoever I’m trying to get into, like my raspberry pi. This is instead of just typing in a password and getting in. Support confirmed I can’t change my email from the Apple. Annoying but not the end of the world. Now the bigger issue is my goal of migrating to a Teams plan. You can’t use an @icloud domain, it has to be your business email. That’s fine and all except for the fact that if your Max plan and teams plan don’t share ",
+      "author": "Zealousideal_Aside96"
+    },
+    {
+      "title": "I used Claude to create 3D Asset Creation pipeline.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2p4is/i_used_claude_to_create_3d_asset_creation_pipeline/",
+      "published": "2026-10-10T20:24:37+00:00",
+      "summary": "Hi. I am working on a C++ game engine and various tooling around it and I would like to share first milestone with you all. About 13+ years of gamedev exp and some platform development experience so it was pretty easy for me to steer Claude. I wrote almost none of the code by hand. Claude Code (Opus 4.8 and 5.5) wrote the Blender/Python generation scripts, the local server and API, the web UI, cloud sync, and the relay/proxy. My job was architecture, security, and reviewing, and testing results I just completed first version of the Asset Pipeline tool that anyone can use. Under the hood this is uses Blender and Python and the tool I made is pretty much a harness and convinience layer for your asset generation needs both via UI and API + proxy if you have team or a kid who you are making game with. You describe an asset, and your local Claude/Codex/OpenRouter agent drives Blender to produce a game-ready .glb with rig, animations, and colliders. You can do this from the UI or the API. Op",
+      "author": "Embarrassed_Guide_80"
+    },
+    {
+      "title": "Question for those using the new Projects Beta",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2rbcb/question_for_those_using_the_new_projects_beta/",
+      "published": "2026-10-10T22:01:22+00:00",
+      "summary": "- - After this upgrade, is it possible to manually add a chat to a project? Does this \"upgrade\" mean it's no longer possible to manually add multiple chats to a project? Or is it possible to somehow add multiple chats to a project as multiple threads? Also, what the heck happens to projects that already had many chats if I accept the beta agreement? Does each chat get turned into a thread? Or do I just lose them? Thanks! submitted by /u/Responsible-Slide-26 [link] [comments]",
+      "author": "Responsible-Slide-26"
+    },
+    {
+      "title": "While everyone is building AI SAAS B2B services to get rich, I'm just happy to solve small computer annoyances I couldn't before",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x296ob/while_everyone_is_building_ai_saas_b2b_services/",
+      "published": "2026-10-10T07:34:39+00:00",
+      "summary": "I love how with AI I am able to fix annoying computer problems that have been bothering me for years. Even if I could code well enough to do those myself, I don't think I would want to waste my time doing it in my free time. For example: I use third-party themes for Firefox, but because of updates they often become outdated and \"break.\" Now, instead of waiting for the author to fix them, I just ask AI to do it, and it's usually ready in 20 seconds. There was a plugin for my media player that stopped working about 3 years ago. Claude made a working copy of it in 5 minutes, so I can use it again. I tried using Anki for learning foreign languages, but creating my own flashcards was just too tedious. With Claude, I built a completely personalized website that connects to my Google Sheet containing my vocabulary. Now I can study my words there, with stats, progress tracking, etc. — basically everything I had in Anki. I'm extremely meticulous about organizing all my photos and videos. I keep",
+      "author": "EpicRageGuy"
+    },
+    {
+      "title": "My aha moment: why I’m actually so excited about AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2ngv7/my_aha_moment_why_im_actually_so_excited_about_ai/",
+      "published": "2026-10-10T19:14:08+00:00",
+      "summary": "I’ve been using Claude a lot for personal projects for a while now, and today I finally realized why it grabs me so much. The usual take, “it saves time” and “it can code”, doesn’t fully explain it for me. Everyone has those topics they get completely absorbed in, even though hardly anyone else cares about them. You spend entire evenings on some tiny detail that must look ridiculous to outsiders, and you’d rather not bring it up in a bigger group. AI, on the other hand, just jumps right in. It knows the jargon, gets what I’m going for, suggests options I hadn’t even thought of, and sometimes takes it one step further. It never gets bored, never checks teh clock, and takes the fifth refinement just as seriously as the first. And its safe: nobody rolls their eyes, nobody talks behind your back afterwards. That’s it! AI isn’t a friend, I know that. But it feels a bit like a buddy with exactly the same nerdy interests, one you’d never have found otherwise. I think that’s what a lot of peop",
+      "author": "the_Skimmy"
+    },
+    {
+      "title": "This is my browser-based music visualizer. There are many like it. but this one is mine.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2w0mi/this_is_my_browserbased_music_visualizer_there/",
+      "published": "2026-10-11T01:54:09+00:00",
+      "summary": "I made a music visualizer that runs in the browser as a single HTML file. No install, no dependencies.. Point it at whatever you're playing and it reacts. Try it: https://malakachakra.github.io/dsViz/ Code: https://github.com/malakachakra/dsViz Best on desktop. Fully functional on mobile. What's in it 31 scenes. Some notables: - Milkdrop-style feedback warps, the classic \"each frame bends the last one\" look - Moon Pool / Pool Floor: water that actually behaves like water. Beats throw drops into a wave sim, and you can look down on the pool or float over a tiled floor as the ripples cross. - Lichtenberg : lightning grown branch by branch, launched by kicks - Petri : reaction-diffusion, the same math that grows coral and leopard spots. The sound seeds new colonies and shifts the chemistry, so the music grows the picture. - Deep Field : a Mandelbrot dive that zooms on the song's energy - Fluid, ripple and reaction-diffusion sims, plus tunnel, dome and floor modes where you fly through the",
+      "author": "VibinVentricles"
+    }
+  ]
+}
