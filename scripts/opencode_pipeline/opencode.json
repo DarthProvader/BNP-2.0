@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "bnp-writer": {
+      "description": "BNP daily writer: reads the repo and edits its output files; no shell, web or outside paths.",
+      "mode": "primary",
+      "permission": {
+        "*": "deny",
+        "read": "allow",
+        "edit": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "list": "allow",
+        "external_directory": "deny"
+      }
+    }
+  }
+}
