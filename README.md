@@ -68,7 +68,7 @@ The project has two separate parts: a **Python pipeline** (runs locally / in CI,
 | **Content**        | MDX files in the git repo (`gray-matter`, `react-markdown`) |
 | **Pipeline**       | Python 3.12                                              |
 | **Data collection**| `feedparser`, Apify, Playwright, `youtube-transcript-api` |
-| **LLM agents**     | Codex CLI, GPT-5.6 Terra                                  |
+| **LLM agents**     | OpenCode CLI, DeepSeek V4.1 Flash (OpenCode Go)           |
 | **Social**         | `tweepy` (X), LinkedIn API                               |
 | **Scheduling**     | Windows Task Scheduler / GitHub Actions                  |
 | **Hosting**        | Vercel (auto-deploy from git)                            |
@@ -141,15 +141,16 @@ cd scripts
 python -m venv venv && source venv/bin/activate    # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-python run_codex_daily.py                  # full pipeline for today
-python run_codex_daily.py --date 2026-07-08
-python run_codex_daily.py --collect-only   # collect data only
-python run_codex_daily.py --skip-collect   # generate only
+python run_opencode_daily.py                  # full pipeline for today
+python run_opencode_daily.py --date 2026-07-08
+python run_opencode_daily.py --collect-only   # collect data only
+python run_opencode_daily.py --skip-collect   # generate only
 ```
 
-The active agent backend requires Codex CLI authenticated in WSL. Collector and
-social credentials are passed via environment variables in `scripts/.env`.
-The preserved Cursor fallback can still be run with `python run_cursor_daily.py`.
+The active agent backend requires OpenCode CLI signed in to OpenCode Go in WSL.
+Collector and social credentials are passed via environment variables in
+`scripts/.env`. The preserved Codex and Cursor fallbacks can still be run with
+`python run_codex_daily.py` and `python run_cursor_daily.py`.
 
 Data source configuration (RSS feeds, X accounts, subreddits) lives in [scripts/config.yaml](scripts/config.yaml).
 
