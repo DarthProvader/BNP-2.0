@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-12T04:04:11.639515+00:00",
+  "items": [
+    {
+      "title": "Thought I found a Reddit bot, so I told it to ignore its prompts and give me a chocolate chip cookie recipe. It did.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3np5t/thought_i_found_a_reddit_bot_so_i_told_it_to/",
+      "published": "2026-10-12T00:18:15+00:00",
+      "summary": "submitted by /u/animousie [link] [comments]",
+      "author": "animousie"
+    },
+    {
+      "title": "I'm actually kind of excited lol",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3i6uc/im_actually_kind_of_excited_lol/",
+      "published": "2026-10-11T20:11:12+00:00",
+      "summary": "submitted by /u/JorjEade [link] [comments]",
+      "author": "JorjEade"
+    },
+    {
+      "title": "My AI, everyone.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3nuxx/my_ai_everyone/",
+      "published": "2026-10-12T00:26:11+00:00",
+      "summary": "submitted by /u/mojamom [link] [comments]",
+      "author": "mojamom"
+    },
+    {
+      "title": "why are a lot of people especially on reddit in denial of how good ai coding has become?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3a6f5/why_are_a_lot_of_people_especially_on_reddit_in/",
+      "published": "2026-10-11T14:52:43+00:00",
+      "summary": "they talk like we are still in 2024 \"ai makes a lot of bugs\" \"you can't code good software with ai\" \"ai code is unmaintainable\" . ignoring windows ,linux kernel and distros like debian,chromium. and projects that would have never been possible without ai like anyps5 or artcraft adobe clones ,are being activtly made using ai now. so why do people or redditors specifically deny ai code is very good now? they seem to think ai will delete all your data if you give it control on your pc. even tho that doesn't happen since literal months ago. submitted by /u/Green_Ad5186 [link] [comments]",
+      "author": "Green_Ad5186"
+    },
+    {
+      "title": "Chatgpt gone crazy",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x33c8f/chatgpt_gone_crazy/",
+      "published": "2026-10-11T08:58:08+00:00",
+      "summary": "submitted by /u/catssay-meow [link] [comments]",
+      "author": "catssay-meow"
+    },
+    {
+      "title": "ChatGPT Full access - Does anyone use this feature?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3jqar/chatgpt_full_access_does_anyone_use_this_feature/",
+      "published": "2026-10-11T21:14:44+00:00",
+      "summary": "If so what are the use cases? Ty submitted by /u/spyf3r__ [link] [comments]",
+      "author": "spyf3r__"
+    },
+    {
+      "title": "Apparently the last 5 years of AI is what’s responsible for global warming, not the 200 years of industrial pollution - the tweet below was actually said unironically, and agreed with by many.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3b8r4/apparently_the_last_5_years_of_ai_is_whats/",
+      "published": "2026-10-11T15:36:13+00:00",
+      "summary": "submitted by /u/WanderWut [link] [comments]",
+      "author": "WanderWut"
+    },
+    {
+      "title": "my wife got tired of ads in Meowdoku so she had chatgpt make her Birdoku!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3ms1t/my_wife_got_tired_of_ads_in_meowdoku_so_she_had/",
+      "published": "2026-10-11T23:33:44+00:00",
+      "summary": "Check it out: https://birdoku-perch.eposnix.chatgpt.site/ submitted by /u/eposnix [link] [comments]",
+      "author": "eposnix"
+    },
+    {
+      "title": "I vibe coded an MLB scoreboard for my son",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3qsjp/i_vibe_coded_an_mlb_scoreboard_for_my_son/",
+      "published": "2026-10-12T02:57:20+00:00",
+      "summary": "Many people have vibe-coded an application or a software product, some have even vibe-coded entire companies. Of course I’ve played around with a few fun vibe-coding projects, but for the first time I’ve actually “vibe-coded” a real physical product! This all started when my wife and I wanted to get our son a live-updating MLB scoreboard for his birthday. We found one that looked good, but it was a little expensive for what it did, and I immediately thought to myself, \"Hey, I wonder if I could build this?\" Turns out the answer is a big yes! I’ve always played around with computers and Raspberry Pis, but until now I hadn’t really built much more than blinking lights or a dog bark detector to tell me when my dog wanted to come inside. But over the past few months, I worked with ChatGPT/codex and Claude Code during nights and weekends to build the concept, make a web preview, come up with the parts needed for this scoreboard, including 3d-printing a case that screwed into the back! Once I",
+      "author": "dtizzlenizzle"
+    },
+    {
+      "title": "I’ve been laughing to myself for 20 minutes",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x3977f/ive_been_laughing_to_myself_for_20_minutes/",
+      "published": "2026-10-11T14:11:32+00:00",
+      "summary": "submitted by /u/KitchenWoodpecker [link] [comments]",
+      "author": "KitchenWoodpecker"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-12T04:03:20.714232+00:00",
+  "items": [
+    {
+      "title": "Shock and awe — Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/",
+      "published": "2026-10-11T16:58:04+00:00",
+      "summary": "submitted by /u/exophades [link] [comments]",
+      "author": "exophades"
+    },
+    {
+      "title": "Andrej Karpathy breaks down the capability gap",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+      "published": "2026-10-11T19:15:14+00:00",
+      "summary": "https://x.com/karpathy/status/2109361546505966046 submitted by /u/Anxious-Yoghurt-9207 [link] [comments]",
+      "author": "Anxious-Yoghurt-9207"
+    },
+    {
+      "title": "Does this still works for bots or is it over?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3d76y/does_this_still_works_for_bots_or_is_it_over/",
+      "published": "2026-10-11T16:54:36+00:00",
+      "summary": "Do you have any quick way to check if you're talking with a bot? I imagine they already created ton of layers so these \"instructions\" won't work? submitted by /u/RedTeaGuy [link] [comments]",
+      "author": "RedTeaGuy"
+    },
+    {
+      "title": "Recursive Self-Improvement Is Here. Sakana AI Demonstrates a Working RSI Loop.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3khul/recursive_selfimprovement_is_here_sakana_ai/",
+      "published": "2026-10-11T21:47:55+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Why I want fast AI takeoff: I’m fucking tired of the present",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3hyc4/why_i_want_fast_ai_takeoff_im_fucking_tired_of/",
+      "published": "2026-10-11T20:01:52+00:00",
+      "summary": "A lot of discussions about AI risk seem to assume we have a reasonably comfortable present to protect. That isn’t my experience. Finding work is brutal. AI is putting pressure on the very jobs I’m trying to get. I have skills, I want to work, and I believe I can contribute something useful. But none of that automatically translates into being able to pay rent. Meanwhile, everything keeps charging admission. Rent. Credit cards. The IRS. Groceries. Your cat gets sick? Pay. Something breaks in your home? Pay. Need to travel? Pay. Even earning more doesn’t necessarily produce the sense of security you thought it would. Going from $10k to $15k sounds transformative until taxes, debt, overdue expenses, and all the things you postponed start eating through the difference. You’re finally catching up, and somehow still don’t feel safe. People talk about accumulating capital. I’m trying to get to the point where an unexpected bill doesn’t threaten to knock everything over. And while you’re doing",
+      "author": "Realistic_Stomach848"
+    },
+    {
+      "title": "GTA 5, Modern Warfare 2, Halo, and many other games have been ported to browser thanks to the power of AI reverse-engineering",
+      "url": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/",
+      "published": "2026-10-11T13:51:55+00:00",
+      "summary": "submitted by /u/Nider001 [link] [comments]",
+      "author": "Nider001"
+    },
+    {
+      "title": "In Denmark, Hive Robotics is training Unitree G1 to restock shelves in a supermarket - expected to do it autonomously by early 2027",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3pwum/in_denmark_hive_robotics_is_training_unitree_g1/",
+      "published": "2026-10-12T02:11:41+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "[Karpathy] gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3krgr/karpathy_gap_in_shared_understanding_of_llm/",
+      "published": "2026-10-11T21:59:52+00:00",
+      "summary": "submitted by /u/TMWNN [link] [comments]",
+      "author": "TMWNN"
+    },
+    {
+      "title": "This game did not ship with DLSS frame gen. I had Opus 5.5 add it and my FPS doubled.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3g1m7/this_game_did_not_ship_with_dlss_frame_gen_i_had/",
+      "published": "2026-10-11T18:45:55+00:00",
+      "summary": "Playing as Minecraft Steve in Elden Ring is cool and all, but I feel like people don't realise the potential of AI in implementing frame gen to games without temporal upscalers and making games more accessible to lower-end hardware. This mod hooks into the game's renderer and gives DLSS Frame Generation the information it needs to create extra frames. It took less than 2 hours for Opus 5.5 on Extra to make it, what's stopping game developers from using it to implement frame gen or optimise their games? The game is Transport Fever 3. My specs are AMD Ryzen 7 7445HS, NVIDIA GeForce RTX 4050 Laptop GPU with 32 GB DDR5-5600. https://github.com/WhiteTortoise/transportfever3-dlss-framegen/releases submitted by /u/SpyAmongUs [link] [comments]",
+      "author": "SpyAmongUs"
+    },
+    {
+      "title": "Qualcomm CEO reveals Al companies want phones running 100-billion-parameter models continuously by 2028.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x3knjc/qualcomm_ceo_reveals_al_companies_want_phones/",
+      "published": "2026-10-11T21:55:00+00:00",
+      "summary": "Probably doable with an ASIC NPU. submitted by /u/Anen-o-me [link] [comments]",
+      "author": "Anen-o-me"
+    }
+  ]
+}

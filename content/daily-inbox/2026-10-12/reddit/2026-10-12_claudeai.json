@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-12T04:05:03.124229+00:00",
+  "items": [
+    {
+      "title": "Opus 5.5 is INSANE at decompilation / ports",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+      "published": "2026-10-12T00:12:14+00:00",
+      "summary": "Just decompiled and natively ported StarFox, StarFox 2 and Sonic CD to Windows, Mac and Linux, using Opus 5.5 without REA or similar skills. Claude analyzed the games' roms, built high level hardware runtimes, and added quality of life improvements (resolution, framerate, audio, full controller support, etc.), Even going as far as editing the game's extracted source code to implement features (SuperFX overclocking, True16:9 in Sonic CD) Projects are here, if you wanna try it out ;) https://github.com/carlosrmz009/littleplanet https://github.com/carlosrmz009/arwing https://github.com/carlosrmz009/arwing2 Prompt was simply: Create a full decompilation of *GAME*, so it can run natively in my PC. Game ROM is at */path/* True16:9 gameplay Custom launcher with options This is getting insane bro 😭🙏 EDIT: Fair correction on the terminology: I used \"decompilation\" too loosely. My actual goal was to see if I could get these games running as native desktop builds and add modern features. At least",
+      "author": "CarlosGOAT09"
+    },
+    {
+      "title": "I made a free Minecraft mod where Claude builds whatever you describe",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3olix/i_made_a_free_minecraft_mod_where_claude_builds/",
+      "published": "2026-10-12T01:03:54+00:00",
+      "summary": "I made a Minecraft mod for Claude Code and it's free You press K in game and tell it what you want like a medieval castle with a moat and Claude builds it in your world while you keep playing. Don't like it and one click undoes everything I built it myself and used Claude Code a lot along the way for the code the tests and the debugging. I decided what to build and tested it in the game Under the hood the mod launches your own Claude Code on your PC and it builds by calling 20 tools that run inside Minecraft. Nothing goes through a server of mine To try it you need a Claude Pro or Max sub with Claude Code installed plus Minecraft Java 26.3 and Java 25. The mod itself is free with no account. Grab the jar at https://www.craftai.world/ and drop it in your mods folder (works with Fabric or Forge or NeoForge) and the guide there has the steps It's a beta. Biggest build I timed was a 34k block castle in around 15 minutes Would love to know what you'd ask it to build ! submitted by /u/DutyOn",
+      "author": "DutyOnly4308"
+    },
+    {
+      "title": "Does anyone still use Fable 5.1 these days?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3lzc0/does_anyone_still_use_fable_51_these_days/",
+      "published": "2026-10-11T22:55:40+00:00",
+      "summary": "After the release of Opus 5.5, I've almost entirely switched to it. It seems to be very smart, very thorough, works hard, and is so much cheaper than Fable that I can barely overrun the weekly quota these days. Is there any reason to still use Fable 5.1 before the eventual 5.5 bump? submitted by /u/Dacadey [link] [comments]",
+      "author": "Dacadey"
+    },
+    {
+      "title": "The day we can run Sonnet-level AI locally on a regular PC will be insane",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x35dqe/the_day_we_can_run_sonnetlevel_ai_locally_on_a/",
+      "published": "2026-10-11T11:01:28+00:00",
+      "summary": "I genuinely think this will be one of the biggest turning points in AI. Imagine having Claude Sonnet-level coding, reasoning, and agent capabilities running entirely on your own PC. No subscriptions, no API limits, no cloud dependency. Just your hardware and a model you actually control. And I'm not talking about needing a $10,000 workstation. I mean a normal consumer PC with a decent GPU. The capabilities we're getting from Claude today are already incredible. Having that level of intelligence available locally would completely change how we build software and interact with computers. The question is, how far away are we really? 2 years? 5 years? Or is there some fundamental bottleneck that makes this much harder than we think? Curious what people here think submitted by /u/JumpAppropriate714 [link] [comments]",
+      "author": "JumpAppropriate714"
+    },
+    {
+      "title": "Claude saved my marriage. 😂💀",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x395p7/claude_saved_my_marriage/",
+      "published": "2026-10-11T14:09:42+00:00",
+      "summary": "My wife and I share the same Claude account. Lately, I noticed she’d been asking Claude a LOT of questions about our relationship issues. So, I set up custom instructions for our account, and now things are more than sorted. 😂 Thanks, Claude, for this feature! submitted by /u/crafts_man_89 [link] [comments]",
+      "author": "crafts_man_89"
+    },
+    {
+      "title": "I built a fake live cable TV network out of the Internet Archive's ephemeral media",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3cqlv/i_built_a_fake_live_cable_tv_network_out_of_the/",
+      "published": "2026-10-11T16:35:59+00:00",
+      "summary": "It’s called spelunkr . 24 channels (so far) of forgotten videos organized into themed \"cable tv channels\" that play on a synced schedule 'round the clock. The entire collection so far is about 2,700 hours of video, running around the clock. You tune in and land in the middle of whatever is on, at the same moment as everyone else watching, the way TV used to work. Codebase is about 87,000 lines, made up of 24,000 of app code, 13,000 of CSS, 28,000 of tooling scripts, 16,000 of tests and 5,000 of SQL. 670 commits over 8 months, and we run over 850 unit tests and 160 browser tests. It's been a real passion project for me, really my first idea of what to build with Claude and has just been growing slowly as I've had time to work on it. I've been plugging away at this off and on for the past 8 months, about 30 days of \"total\" work across that time, nearly all of it done with Claude Code. Here's how it works under the hood: All videos on the website are streamed directly from the Internet Ar",
+      "author": "thetalkinghawk"
+    },
+    {
+      "title": "Using Claude Code for the first time, it feels like discovering LLMs for the first time again.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3ovg1/using_claude_code_for_the_first_time_it_feels/",
+      "published": "2026-10-12T01:17:52+00:00",
+      "summary": "Just, holy shit. I’m a very heavy AI user for work and personal life, but as I’m in marketing I’ve never thought to try using it to build anything with code. It still seemed technical and I don’t know how to code. But now that I’ve finally tried it out and seen how it works, how it fixes things I need fixed and doesn’t fuck up things around it in the process — I am giddy. I’m just making a personal pixel art music video I’ve had in my head for years, and it’s doing it amazingly. I can’t believe I slept on this technology so long because I thought it was kinda technical. I’m just bubbling with excitement and ideas. submitted by /u/pukeykratomtaste [link] [comments]",
+      "author": "pukeykratomtaste"
+    },
+    {
+      "title": "Claude and I built a 'video' format so Claude (and other LLMs) could 'watch' videos!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x39bpi/claude_and_i_built_a_video_format_so_claude_and/",
+      "published": "2026-10-11T14:16:54+00:00",
+      "summary": "Has this ever happened to you? You're talking with your LLM and you mention a video or a gif and lament that you can't share it? Maybe not! But it happened for me! So my studio and I made Frame-grid! Claude and I workshopped how we could break a video up into a legible format Claude could ingest, without requiring external dependencies or servers, everything happening client side. I can't code a single line to save my life, but Claude can and can code quite well (or at least I think so!), and so I designrd the rough spec and then Claude and I workshopped it and Claude did all the coding. We have this thing we call the Xinu philosophy (the inverse of Unix). We look at the thing built to do one thing and do it well and ask 'what else can it do?'. It has evolved to mean we apply the constraint of single file, offline, browser based, zero external dependencies. The constraint is the source of innovation and invention, not a limitation. I digress! What is Frame-Grid you ask yourself? Which ",
+      "author": "Khamubro"
+    },
+    {
+      "title": "HD-2D RPG in Three.js built with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3f29z/hd2d_rpg_in_threejs_built_with_claude_code/",
+      "published": "2026-10-11T18:07:47+00:00",
+      "summary": "Most of this was built from an initial prompt: \"create a 3D pixel-art game using Three.js ... here are some results other have achieved: [screenshot] ... orchestrate sub agents using appropriate models and effort. Take as long as needed.\" I use a 20x plan for work and had tokens to spare last weekend. The \"take as long as needed\" turned out to be about 12 hours, with my first prompt at 11:26 AM on Oct 4, with no messages from me until it finished around 11:25 PM. I expected a short tech demo. Claude Code split the work across sub-agents, ran on its own for about 12 hours, and came back with a playable RPG: a village, a forest and a dungeon to explore, a party of four, and turn-based battles with weaknesses, shield breaks and boosts. Since that initial prompt, I've played it through a few times, cleaned up rough edges through follow up prompts, added anonymous logging (which enabled finding and resolving shader issues on machines I don't have) and various small fixes. The game has no im",
+      "author": "EdgarDruin"
+    },
+    {
+      "title": "I vibe-coded an MLB Scoreboard for my son",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3r5h0/i_vibecoded_an_mlb_scoreboard_for_my_son/",
+      "published": "2026-10-12T03:16:06+00:00",
+      "summary": "Many people have vibe-coded an application or a software product, some have even vibe-coded entire companies. Of course I’ve played around with a few fun vibe-coding projects, but for the first time I’ve actually “vibe-coded” a real physical product! This all started when my wife and I wanted to get our son a live-updating MLB scoreboard for his birthday. We found one that looked good, but it was a little expensive for what it did, and I immediately thought to myself, \"Hey, I wonder if I could build this?\" Turns out the answer is a big yes! I’ve always played around with computers and Raspberry Pis, but until now I hadn’t really built much more than blinking lights or a dog bark detector to tell me when my dog wanted to come inside. But over the past few months, I worked with ChatGPT/codex and Claude Code during nights and weekends to build the concept, make a web preview, come up with the parts needed for this scoreboard, including 3d-printing a case that screwed into the back! Once I",
+      "author": "dtizzlenizzle"
+    }
+  ]
+}

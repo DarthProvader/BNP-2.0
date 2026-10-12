@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-12T04:06:54.367916+00:00",
+  "items": [
+    {
+      "title": "The Internet is wild😂😂",
+      "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
+      "published": "2026-10-11T12:20:27+00:00",
+      "summary": "submitted by /u/Sevives [link] [comments]",
+      "author": "Sevives"
+    },
+    {
+      "title": "A solo developer rebuilt Word, Excel and PowerPoint as free open-source apps using Claude — and says he's earning 4x more per employee than Google",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3jidz/a_solo_developer_rebuilt_word_excel_and/",
+      "published": "2026-10-11T21:05:19+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Anthropic says its AI agents found a CRISPR-like enzyme family in viral DNA; a researcher notes his team had been studying the same enzymes since 2022",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3i1e5/anthropic_says_its_ai_agents_found_a_crisprlike/",
+      "published": "2026-10-11T20:05:11+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "There’s a reason billionaires keep bending the knee to Trump. After the president changed the term to “super intelligence,” the richest Americans rushed to use it.",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3g0ev/theres_a_reason_billionaires_keep_bending_the/",
+      "published": "2026-10-11T18:44:37+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Jeff Bezos says AI will deliver a 3-day work week — while Amazon cuts 30,000 jobs",
+      "url": "https://www.reddit.com/r/artificial/comments/1x36hoz/jeff_bezos_says_ai_will_deliver_a_3day_work_week/",
+      "published": "2026-10-11T12:02:52+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Creators of an AI-generated sci-fi series said it took $38,000 in AI credits and 8 to 10 generations per shot",
+      "url": "https://www.reddit.com/r/artificial/comments/1x37ox5/creators_of_an_aigenerated_scifi_series_said_it/",
+      "published": "2026-10-11T13:03:04+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3i1g8/nicolas_cage_says_he_wont_work_with_amazon_again/",
+      "published": "2026-10-11T20:05:15+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "Top Agentic AI development companies worth knowing about",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3qieq/top_agentic_ai_development_companies_worth/",
+      "published": "2026-10-12T02:42:50+00:00",
+      "summary": "Agentic AI is moving past chatbots into systems that plan, use tools, and complete multi-step work. Getting these into production takes more than a good model: it needs solid engineering, governance, and integration with real business systems. Here’s a starting list of firms with agentic AI or applied AI experience, in alphabetical order, plus the criteria I’d use to evaluate any of them. This isn’t exhaustive, so please add others in the comments. What agentic AI projects usually involve Designing autonomous and multi-agent workflows LLM integration and tool/API orchestration Guardrails, governance, and human-in-the-loop design RAG pipelines and knowledge integration Evaluation, monitoring, and cost control Moving agents from prototype to production Companies GeekyAnts (Bengaluru, India, founded 2006): Product engineering and consulting company with an agentic AI practice, including production RAG work and embedded AI engineering teams. Endava (London, UK, founded 2000): Technology se",
+      "author": "Tendernessllable_877"
+    },
+    {
+      "title": "The smallest languages may teach us what AI is really optimizing for",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3q1q3/the_smallest_languages_may_teach_us_what_ai_is/",
+      "published": "2026-10-12T02:18:40+00:00",
+      "summary": "Large models are impressive in widely spoken languages. The experience is very different for smaller languages and regional dialects. When a language has less training data, AI may produce translations that are technically understandable but culturally strange. It may also push people toward the dominant language because that is where the tools work best. Preserving a language is not the same as putting it into a model, but AI could still become a useful tool for documentation and teaching. Should AI companies be expected to support smaller languages even when there is little immediate commercial return? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    },
+    {
+      "title": "Continued widespread VFX studio failure in making a solution to animate characters has led to the overwhelming takeover of AI video and collapse of film and games industry",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3hqeh/continued_widespread_vfx_studio_failure_in_making/",
+      "published": "2026-10-11T19:53:24+00:00",
+      "summary": "Think about it, no tools in Blender to create realistic looking characters with correct physically accurate deformation and running quickly even 20+ years into the program. Other DCC's like houdini, maya, same thing. Everything takes ages to set up and eventually doesn't work to get an animated human or human face that actually looks real. AI videos destroy any traditionally polygonally animated output. I've tried for years to do well. Some cgi studios think they have solutions, but they are still far too time and hardware intensive. Honestly, I don't know where programs like blender and others will be in 2 or 3 years time. What do you think will happen to films, games, vfx studios if they can't come up with a solution? submitted by /u/blackSeedsOf [link] [comments]",
+      "author": "blackSeedsOf"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-10-12T04:02:16.326087+00:00",
+  "items": [
+    {
+      "title": "I Made Terrible Games With Google’s AI Playground",
+      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+      "published": "2026-10-11T10:30:00+00:00",
+      "summary": "A long day’s haul in the video game slop mines.",
+      "author": "Boone Ashworth"
+    }
+  ]
+}
