@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-13T04:05:01.378295+00:00",
+  "items": [
+    {
+      "title": "Damage control (by @CaptainInsightX)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4662c/damage_control_by_captaininsightx/",
+      "published": "2026-10-12T16:16:13+00:00",
+      "summary": "submitted by /u/mahamara [link] [comments]",
+      "author": "mahamara"
+    },
+    {
+      "title": "5hr limit now bumped to 24hr?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4bv39/5hr_limit_now_bumped_to_24hr/",
+      "published": "2026-10-12T19:45:29+00:00",
+      "summary": "Is anyone else seeing a closer to 24hr limit rather than 5hr? I'll be resetting soon, so I'll see if it really is 24hr. Edit: I'm on a Team 5x plan. Edit 2: It just dropped back down to 3hr. Oh well. submitted by /u/spiders888 [link] [comments]",
+      "author": "spiders888"
+    },
+    {
+      "title": "Meta says its new Muse Wonder scores at 85.6% against 81.5% for Claude Opus 5.5 and 81.4% for GPT-6 Astra.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x48ecy/meta_says_its_new_muse_wonder_scores_at_856/",
+      "published": "2026-10-12T17:38:23+00:00",
+      "summary": "Do we believe Zuckerberg that it beats Opus 5.5? \"Meta scores Muse Wonder at 85.6% against 81.5% for Claude Opus 5.5 and 81.4% for GPT-6 Astra. \" submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Urban planner here, no coding experience. Built a free Chicago housing simulator with Claude Code to show the housing crisis and how land use policy can fix it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4lqfl/urban_planner_here_no_coding_experience_built_a/",
+      "published": "2026-10-13T03:06:23+00:00",
+      "summary": "Urban planner here, no coding experience. Built a free Chicago housing simulator with Claude Code to show the housing crisis and how land use policy can fix it I built a free browser game where you try to fix Chicago's housing shortage on a 3D map of the city's ~481,000 buildings. I'm an urban planner with a housing finance background and I can't code, so Claude wrote all of it while I made the policy and design calls. Passion project, built over a few days. What it does: - Shows every building in Chicago in 3D, from the city's open building footprint data. - Marks in red the buildings that couldn't legally be built today because they have more homes than current zoning allows (about 1 in 5). - You rezone around L stations, Metra stations, commercial corridors or single neighborhoods, then turn on real policies. Some are being debated in Chicago and Springfield (BUILD Act, single-stair buildings, coach houses, the affordable housing requirement, aldermanic prerogative). Others worked i",
+      "author": "kylef5993"
+    },
+    {
+      "title": "While I was vibe-coding with Opus 5.5 this morning...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3y0ot/while_i_was_vibecoding_with_opus_55_this_morning/",
+      "published": "2026-10-12T10:10:16+00:00",
+      "summary": "So I've been vibe-coding a little local library app with Opus 5.5. Nothing too fancy, just a digital whiteboard where I can store notes, prompts, YouTube URLs, articles, and other stuff on a canvas. Basically a handy tool alongside Obsidian. Along the way, Opus has been testing everything. Settings, objects on the canvas, interactions, buttons, etc. Just making sure things actually work. Meanwhile, I'm sitting there this morning, sipping my coffee, scrolling through the latest Reddit posts here and there. And suddenly, music starts blasting through my speakers. Guess what song.... I almost spat out my coffee. 😂 Rick Astley – Never Gonna Give You Up. Apparently, while testing the YouTube functionality, Opus decided that rickrolling me was a perfectly reasonable thing to do. I know it's just a model running tests, but bloody hell, I'm becoming convinced that Anthropic's latest models have developed a pretty good sense of humor. (And considering Anthropic recently updated its usage policy",
+      "author": "Magallian"
+    },
+    {
+      "title": "My Opus said reverse engineering does not work??",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4lwud/my_opus_said_reverse_engineering_does_not_work/",
+      "published": "2026-10-13T03:15:14+00:00",
+      "summary": "We’re all aware of the current scene of decompiling and “natively” running a game on Windows or Linux. It’s like every time I open Reddit, a new game has been ported to a platform it wasn’t released on. I wanted to give it a shot so I pointed to Opus 5.5 to a folder with the files for Thief 3: Deadly Shadows (2GB) and asked it decompile and run it on my M5 MacBook Pro. It said the process “takes years” and clearly said it can’t do that. Then I pointed it to the REA repo. It downloaded Ghidra and decompiled 1 (one) function in about a minute and said “look, this is what decompiled code looks like. The function name doesn’t make sense and this process would have to be done for 32,000 functions.” It then proceeded to say “even if I continued you’d end up with something that doesn’t compile, let alone execute”. Are these guardrails that are stopping it or is my instance plagued with laziness? submitted by /u/red_star_rising [link] [comments]",
+      "author": "red_star_rising"
+    },
+    {
+      "title": "Made study rules for my adhd and claude is trolling 😭",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4idmi/made_study_rules_for_my_adhd_and_claude_is/",
+      "published": "2026-10-13T00:20:50+00:00",
+      "summary": "lmao had to set study rules to keep me locked and claude hits me with a 😂. I guess thats how you know ur prompt is strong. submitted by /u/Firm-Entertainer-674 [link] [comments]",
+      "author": "Firm-Entertainer-674"
+    },
+    {
+      "title": "Super fun to see how different models create a SNES game from a vague prompt",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4f7os/super_fun_to_see_how_different_models_create_a/",
+      "published": "2026-10-12T21:57:17+00:00",
+      "summary": "Been having a blast learning how to develop games for older consoles. Opus absolutely blew my mind helping me make an N64 game for my little kids, able to basically do it all autonomously. Inspired by the model comparisons people have done here with video creation, I thought it would be interesting to compare how different models could create a simpler “game” for the SNES with just a single prompt. I used a buddy’s ChatGPT subscription, and my Sonnet, Opus, and Muse. All of them created the following from a single prompt in one turn (except Muse…) and were playable on an emulator. This was the prompt: Write me a SNES game using open source tools that would work in an emulator and real hardware. I want it to be a single level, featuring a bull running across the screen automatically, where the player has to jump to avoid barnyard obstacles (hay, etc). Every meter they travel earns a point, every obstacle they hit subtracts one. At the end of the level (approximately 90 seconds) the game",
+      "author": "SenorAudi"
+    },
+    {
+      "title": "Claude Code made a great Terminator 2 reference.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x46pwd/claude_code_made_a_great_terminator_2_reference/",
+      "published": "2026-10-12T16:36:22+00:00",
+      "summary": "So I was finishing up a session and moving some stuff to my USB. I then issued umount via the bang modifier in CC. The drive was busy. Claude immediately found the pid holding it and asked if I wanted it killed. I pointed out that is probably our session but we’re are done anyway and “I promise you won’t feel a thing” Then, it did this and I laughed my ass off: “Got it, killing pid.” “Now I know why you cry 🔥👍🏻” Then the terminal window died. submitted by /u/byteminer [link] [comments]",
+      "author": "byteminer"
+    },
+    {
+      "title": "Opus 5.5 built an 8-slide watch explainer where every mechanism actually moves",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x49lew/opus_55_built_an_8slide_watch_explainer_where/",
+      "published": "2026-10-12T18:22:11+00:00",
+      "summary": "An 8-slide animated deck on how a mechanical watch keeps time: mainspring, gear train, escapement, balance wheel, the hands, winding, then the whole movement running together. Every drawing is SVG driven by one shared clock, so meshing gears keep their ratios and the escape wheel only steps when the pallet fork flips. It's a single HTML file of about 40 KB, arrow keys to move. How it was made: Opus 5.5 in Claude Code, running the slide workflow from SenseNova-Skills (MIT). My brief was the eight slide topics, at most 35 words per slide, no photos or outside assets, and no specific figures like beat rates. The skill has it write an outline and a design plan, then build each slide, render it and look at the image before moving on. Every slide got at least two looks, and it fixed a drawing that spilled outside the watch case and labels that ran into parts or sat too close to the edge. The escapement is drawn in a simplified way. The whole build took 26 minutes. The video is the deck playi",
+      "author": "quietsam8"
+    }
+  ]
+}
