@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-14T04:05:18.414535+00:00",
+  "items": [
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5b5ek/redesigning_source_control_at_anthropic/",
+      "published": "2026-10-13T22:47:36+00:00",
+      "summary": "Anthropic annonces internal Scion replacing git submitted by /u/Key-Cranberry6537 [link] [comments]",
+      "author": "Key-Cranberry6537"
+    },
+    {
+      "title": "We're cooked",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4zm61/were_cooked/",
+      "published": "2026-10-13T15:25:08+00:00",
+      "summary": "I haven't coded in a year, AI is geting better and better.. I log in to work, do 30 mins of work aka prompting claude & reviewing it's code + meetings.. and I'm off to work on personal projects, wtf am I supposed to do? I've sacrified everything to become a good dev, should I go for a plumber license? electrician? How much time do we think we have? I finish 2x as many story points as the next guy, and my manager thinks I'm a 10x engineer... WTF is going on :D companies catched-on, but I guess it takes time to reflect on us, what will we do? edit: some people are asking for examples of projects I'm working on, this is the most recent one https://www.youtube.com/@DebriefReconstructed help me get 1000 subscribers to get monetized 🥲 submitted by /u/BuddhistMonkey1 [link] [comments]",
+      "author": "BuddhistMonkey1"
+    },
+    {
+      "title": "Anthropic says unkillable small models may be months away from self-replicating across the internet",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4zp6s/anthropic_says_unkillable_small_models_may_be/",
+      "published": "2026-10-13T15:28:12+00:00",
+      "summary": "Report: https://www.anthropic.com/research/self-replicating-ai submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Fable 5.5 should be released any moment",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5145b/fable_55_should_be_released_any_moment/",
+      "published": "2026-10-13T16:20:43+00:00",
+      "summary": "https://preview.redd.it/0x60rjipf9vh1.png?width=1268&format=png&auto=webp&s=a728dbd94c1abbe9a07481cf031ef867d5388ce7 See the picture EDIT: Link for good measure - https://github.com/BerriAI/litellm/blob/main/litellm/model_prices_and_context_window_backup.json EDIT2: Also more details here: https://huggingnews.com/ai/microsoft-azure-lists-claude-fable-55-as-generally-available-1b1e8dd7 submitted by /u/Braintelligence [link] [comments]",
+      "author": "Braintelligence"
+    },
+    {
+      "title": "Does anyone else feel like Opus 5.5 is on a completely different level from every other model?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x51hk1/does_anyone_else_feel_like_opus_55_is_on_a/",
+      "published": "2026-10-13T16:34:35+00:00",
+      "summary": "I’ve been using Opus 5.5 for coding, and honestly it feels like it’s in a different league compared to other models like Sol and Astra, and even Opus 5.0. Before Opus 5.5, if my expectations for an AI coding task were a 10/10, I’d usually get something like an 8 or 9. That was still a huge help, and I was genuinely impressed. But with Opus 5.5, it often feels more like a 15/10. It regularly goes way beyond what I expected, and I’m blown away a lot of the time. It often comes up with solutions or suggestions I hadn’t even thought of. At this point I honestly don’t feel like using any other model. Anyone else feel the same? submitted by /u/XZ585a [link] [comments]",
+      "author": "XZ585a"
+    },
+    {
+      "title": "Someone used Claude to get a years-old pothole fixed in two days",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4s9hp/someone_used_claude_to_get_a_yearsold_pothole/",
+      "published": "2026-10-13T09:41:02+00:00",
+      "summary": "My favorite Claude story this week is about a pothole. Years of complaints by a Dutch office, zero action. Then a person gave Claude 6 photos. It rebuilt the hole in 3D and simulated a 30 km/h hit. Video went to city hall. Fixed in 2 days. Petitions are for people without Claude. What would you fix this way? Here is the original: https://x.com/yelkhayami/status/2108227066621465007?s=20 submitted by /u/Ok-Motor-9812 [link] [comments]",
+      "author": "Ok-Motor-9812"
+    },
+    {
+      "title": "PSA: Claude Code wrote me an uncapped test loop, ran it in the background, told me it was “idle,” then hit its daily usage limit. It ran 17 hours and cost about $2.1K",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x540si/psa_claude_code_wrote_me_an_uncapped_test_loop/",
+      "published": "2026-10-13T18:06:37+00:00",
+      "summary": "Posting publicly to check whether others have experienced this as I am a lost rn on what do next given this large bill. Claude Code proposed and I accepted to run verification tests against Claude Haiku 4.5 on AWS Bedrock. It launched them as background processes. That evening the session hit its usage limit and stopped responding. The processes kept making paid calls for about 17 hours: roughly 60,000 calls and about $2.1k most of it after the cutoff. My normal Bedrock spend is a few dollars a day. Nothing warned me the processes were still running, and the last thing the assistant said about them, in the same minute as the limit notice, was that the process looked “idle... waiting, not looping.” The next morning when the session limit was lifted, the job was killed. Anthropic’s support AI (Fin) told me a thread at its usage limit “is designed to wait and resume automatically when the limit resets,” called the background calls during that wait “a gap between that intended behavior and",
+      "author": "nymma19"
+    },
+    {
+      "title": "Are we early adopters?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5c232/are_we_early_adopters/",
+      "published": "2026-10-13T23:28:51+00:00",
+      "summary": "Hey guys, like most of you here, I use Claude as much as possible, like 24/7. I implement it on my work and on my personal life. My question for you is, are we still a small circle of early adopters? Have you ever asked to your friends / family if they use AI and if they use it, which type of tasks they do? Because I have the sensation that most of the people still don’t use AI, and the ones that use AI are like only using the chat. submitted by /u/Disastrous_Table_365 [link] [comments]",
+      "author": "Disastrous_Table_365"
+    },
+    {
+      "title": "Meta's new Muse Wonder cost $96 on Pokémon Red and never got past the first forest. Opus 5.5 cost $8.44 and beat Brock.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x53dea/metas_new_muse_wonder_cost_96_on_pokémon_red_and/",
+      "published": "2026-10-13T17:43:15+00:00",
+      "summary": "Muse Wonder came out, so I ran it live. It got its starter by turn 20 and reached Viridian City by turn 59, close to the fastest models. It made it into Viridian Forest on turn 208 and spent the last 792 turns there. It cost $96.06. Opus 5.5 is billed the same per token and beat Brock in 271 turns for $8.44. Leaderboard and full turn logs: https://pokebench.tv The full 6 hour run: https://www.youtube.com/watch?v=XW70Y6Fk8fo submitted by /u/VibeCodyH [link] [comments]",
+      "author": "VibeCodyH"
+    },
+    {
+      "title": "Does Claude Code find new bugs every time you ask it to review your code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4ssct/does_claude_code_find_new_bugs_every_time_you_ask/",
+      "published": "2026-10-13T10:13:14+00:00",
+      "summary": "Hey guys! Does anyone else experience this with Claude Code? Every time I ask Claude to review my code, it finds around 3–4 bugs. I fix them, ask it to review the code again, and somehow it finds another 3–4 bugs. This keeps happening even after multiple review sessions. I'm curious, is Claude actually finding new issues each time, or is it just being overly critical? How do you guys handle code reviews with Claude Code? submitted by /u/Negative-Constant968 [link] [comments]",
+      "author": "Negative-Constant968"
+    }
+  ]
+}

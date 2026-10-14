@@ -1,0 +1,31 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-10-14T04:00:47.176788+00:00",
+  "items": [
+    {
+      "title": "Dočkáme se létající Tesly?👀",
+      "url": "https://www.youtube.com/shorts/dnAvo8lzJz4",
+      "published": "2026-10-13T16:05:27+00:00",
+      "summary": "Zácpa na silnici? Tak ji prostě přeletíš 😁\n\nCo myslíte, dočkáme se létající Tesly? 👀\n\n#teslaroadster #tesla #fantasticfuture",
+      "author": "Fantastic Future Podcast",
+      "transcript": "Tak jo. Tak Lubo, pojď. Jak si myslíš, že budou demonstrovat to lítání? >> Bude mít zrychlení z nuly na 100 pod jednu vteřinu prezentovaný Ilonem Muskem. To neznamená, že reálně to pod jednu vteřinu bude. >> Jako proč zrovna todle? V čem ti to jako? Jedno. Hlavně, že to lítá jako kers jako >> tak si představ case. Jedeš po silnici, seš v zácpě, tak prostě na chvilku vyletíš, předletíš všechny a pak zase to sedneš a jedeš dál. Ty jo, to by stálo za to tam letět, jako jestli to bude na jezeře, tak jet k tomu jezeru a prostě tam kempit a buď to uvidíš UFO, nebo uvidíš Teslu jako. Ale kdyby tohle bylo, tak to je fakt. Yeah.",
+      "transcript_lang": "cs"
+    },
+    {
+      "title": "Vyhubí AI lidstvo?😳",
+      "url": "https://www.youtube.com/shorts/7TVwPzeGTDg",
+      "published": "2026-10-05T16:48:29+00:00",
+      "summary": "Kdy začne být AI opravdu nebezpečná?\n\nJe recursive self-improvement moment, kdy bychom měli začít mít opravdu strach? 👀\n\n#ai #agi #fantasticfuture",
+      "author": "Fantastic Future Podcast",
+      "transcript": "Jako když ti někdo řekne, že ta technologie může zničit lidstvo, tak si myslím, že by to měli brát všichni jako smrtelně vážně, ale ta realita, když jako se vrátíš zase zpátky na zem, nic není tak horký, jak se zdá. Jo. A rozhodně nejsme ještě ve fázi, kdy AI by bylo na úrovni, kde kdy jako něco takovýdlo, si myslím, že je pravděpodobný. Teď určitě s modelama, který máme dneska, tak 100% ne. V budoucnosti je to možný. Pro mě největší benchmark toho, jak jako pokračovat dál, tak je ve chvíli, kdy recursive self improvement, neboli když ty modely budou samy schopný sebe zlepšovat aniž bez jakéhokoliv zásahu lidí. [hudba] Yeah.",
+      "transcript_lang": "cs"
+    }
+  ]
+}

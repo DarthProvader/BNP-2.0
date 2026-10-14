@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-14T04:04:27.197284+00:00",
+  "items": [
+    {
+      "title": "Chatgpt Astra has been gutted. That's what the people living in the walls tell me.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x51o4q/chatgpt_astra_has_been_gutted_thats_what_the/",
+      "published": "2026-10-13T16:41:20+00:00",
+      "summary": "It's confirmed. OpenAI has been secretly replacing Astra with increasingly shit models since release. My evidence is overwhelming. Three Reddit comments, a benchmark that fluctuated 4%, and a guy who said the model felt different after he asked it the same question seventeen times. Yesterday Astra completed a complicated task. Today it misunderstood something I said. The only reasonable explanation is that Sam Altman personally intervened and redirected my requests to a lobotomized hamster running on a server rack. The people living in my walls have been investigating this for weeks. They say OpenAI gives you the real model for the first fourteen days, then gradually replaces its intelligence with a sprawling web of statistical diarrhea until you're paying $200 a month to interrogate an electronic vegetable. And don't tell me about independent benchmarks or controlled testing. I've been using this model for three weeks. I know when something feels different. Sometimes it gives me an ex",
+      "author": "AI_is_ok_i_guess"
+    },
+    {
+      "title": "OpenAI Employee Uses \"Unnamed Chatbot\" to Spy on OpenAI, Gets Arrested by FBI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5g0u0/openai_employee_uses_unnamed_chatbot_to_spy_on/",
+      "published": "2026-10-14T02:41:56+00:00",
+      "summary": "OpenAI is in the news again. This time, it’s due to a recent incident involving corporate espionage. According to a statement the AI lab released on 13th October, the company discovered a “sophisticated recording device” at one of its offices. The company quickly detected it and soon realized an employee had planted the device. After discovering the attempt, the company handed the case to the FBI and thanked the (human) agents for quickly arresting their employee. While being arrested by the FBI is rarely a happy moment, this incident feels quite funny, and it gets funnier the more you learn about it. The employee in question is a national of the Kingdom of Saudi Arabia and is also listed as a partner at a venture capital firm focused on the Middle East and North Africa. The Department of Justice has not released any motive, but it has released a lot of information that provides a clearer picture of what transpired in this case: https://decodingvibes.com/blog/openai-employee-uses-unnam",
+      "author": "bakraofwallstreet"
+    },
+    {
+      "title": "ChatGPT is an amazing private tutor!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+      "published": "2026-10-13T14:38:27+00:00",
+      "summary": "A lot of people say that AI makes people dumb or whatever, and while it might be true, AI is a tool. You have to use it properly. In my case, I currently use ChatGPT to make lecture notes, plan my study routine, help me make flashcards, generate lesson summaries for me to print before I start class, and I'm currently in the top class when I had previously struggled with motivation. Yes, obviously if you make him write EVERYTHING for you, of course you won't learn. However, if you use him as a private tutor, write your own stuff, and ask him to correct it and give feedback, you will definitely improve without spending hundreds a month for private lessons. submitted by /u/RiceCookerPEPSI [link] [comments]",
+      "author": "RiceCookerPEPSI"
+    },
+    {
+      "title": "huh? Why is chatgpt using 18GB of ram on Firefox...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x52u6h/huh_why_is_chatgpt_using_18gb_of_ram_on_firefox/",
+      "published": "2026-10-13T17:23:55+00:00",
+      "summary": "https://preview.redd.it/unip58gyq9vh1.png?width=2320&format=png&auto=webp&s=1f5c476ba87a89494a03a7fad58e9f50faf887aa Why is chatgpt.com using 18GB of ram on Firefox... submitted by /u/Sub2TheZeme [link] [comments]",
+      "author": "Sub2TheZeme"
+    },
+    {
+      "title": "IS GPT 6 DOWN ? WHY AM I GETTING THIS EACH TIME I USE GPT 6 ?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5d12y/is_gpt_6_down_why_am_i_getting_this_each_time_i/",
+      "published": "2026-10-14T00:13:25+00:00",
+      "summary": "Since yesterday each time I open a new chat tab and send a message while GPT 6 is selected as the model, it gives me \"this response couldn't load\" although sometimes it does show the answer then immediately it goes away and can never be seen again; However not with the other models where everything seems fine the answers stay shown and no issues; see below. I am on pro X10 https://preview.redd.it/34vvsxkaqbvh1.png?width=1920&format=png&auto=webp&s=30343e62c02b14de5ba872debedd82e54c37f240 submitted by /u/InnerComfortable7741 [link] [comments]",
+      "author": "InnerComfortable7741"
+    },
+    {
+      "title": "Spent nearly a year building my game",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hfnc/spent_nearly_a_year_building_my_game/",
+      "published": "2026-10-14T03:57:10+00:00",
+      "summary": "I can't code, codex and Claude have done all the coding. It was really rough in the beginning of this year and took forever to make progress. Every month developing this to life got a bit easier. When Sol came and then the big one was Astra progress per week sky rocketed. I max my weekly tokens every week. I handle all the tuning for the visuals, ui, story, mechanics, balance, audio, features. Game is made up of 1 million lines of code atm- 400k is game code which is made up of about 40% comments. I allow codex and claude to go nuts on comments and after every commit they clean the comments up for false statements in comments. I use agents.md for codex and claude to talk to each other. I have over 100 live editor so i move dials around that codex has made me over months. Every vfx is made in these live editors, same with audio levels, planet rotation, essentially anything visual or audible has a live editor. I'm using the godot engine as it can be ran headlessly. I have a free demo up ",
+      "author": "BestStorage6608"
+    },
+    {
+      "title": "ChatGPT GPT6 not loading",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5hat4/chatgpt_gpt6_not_loading/",
+      "published": "2026-10-14T03:49:28+00:00",
+      "summary": "What is happening with ChatGPT GPT6? Because I've recently been getting errors like \"This response couldn't load\" whenever I try to type a message on ChatGPT. I refreshed it multiple times and even reload the page but I am still experiencing the same thing. Has this happened to anyone else? submitted by /u/Fairy-Fox [link] [comments]",
+      "author": "Fairy-Fox"
+    },
+    {
+      "title": "Repeated ChatGPT edits kept making my images look dirty, so I made a cleanup tool",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5aktu/repeated_chatgpt_edits_kept_making_my_images_look/",
+      "published": "2026-10-13T22:21:48+00:00",
+      "summary": "I’m working on a game and kept running into this with the art: after several rounds of edits in ChatGPT, images would pick up grain, blotches, and weird light or dark fringes around outlines. I’d finally get the design how I wanted it, but the image itself would look increasingly messy. So I made a small tool called AI Image Rehab to help clean that up. It runs locally on your computer with a browser interface. You’ll need Python to launch it, but the basic automatic cleanup doesn’t need a GPU, and your images aren’t uploaded anywhere. For me, the best order is automatic cleanup first, then upscaling, then fixing individual spots manually inside the tool. After that, ideally, an artist would do a final touch-up pass. There’s still work to do afterward. It helps with the grain and fringes, but won’t automatically fix bad anatomy, inconsistent details, or something the generator drew wrong. Those problems still need attention. Also, watch out for over-smoothing. Detailed backgrounds and ",
+      "author": "Kiko_Production"
+    },
+    {
+      "title": "chatgpt ads manager took $100 from my bank, anyone else?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x584w0/chatgpt_ads_manager_took_100_from_my_bank_anyone/",
+      "published": "2026-10-13T20:41:18+00:00",
+      "summary": "signed up for chatgpt ads manager last week, added my card and $100 was gone instantly. nobody told me anything about a $100 hold. haven't run a single ad. their billing page says \"authorization hold\" but my bank says it's a normal charge and nothing's been refunded. support keeps saying it'll be released and just asks for IDs. anyone else get hit by this? did you ever get your money back? submitted by /u/Jazzlike_Damage_3856 [link] [comments]",
+      "author": "Jazzlike_Damage_3856"
+    },
+    {
+      "title": "My internet seems to not work at all during long-running codex tasks",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5ezbn/my_internet_seems_to_not_work_at_all_during/",
+      "published": "2026-10-14T01:49:34+00:00",
+      "summary": "Has anyone else had this experience of Codex using all available internet bandwidth during long running tasks? for what, I do not know. i have fast internet but often at times my other devices can’t get any data. only ever happens when running a long running codex task. EDIT: In addition to throttling my other apps and devices, it also does this \"Reconnecting 3/5\" thing, seemingly blocking its own traffic. Not on separate runs but on the same run. Perhaps due to having multiple sub-agents running and one or more of them hogging the bandwidth. Who knows. submitted by /u/Illustrious-Egg5459 [link] [comments]",
+      "author": "Illustrious-Egg5459"
+    }
+  ]
+}

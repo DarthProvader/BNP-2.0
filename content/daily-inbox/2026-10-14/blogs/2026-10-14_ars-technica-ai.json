@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-14T04:02:28.950614+00:00",
+  "items": [
+    {
+      "title": "Topgolf saved over $11.3 million after leaving VMware",
+      "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+      "published": "2026-10-13T20:33:43+00:00",
+      "summary": "Topgolf and VMware \"ran deep\" before the migration.",
+      "author": "Scharon Harding"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-14T04:03:36.064822+00:00",
+  "items": [
+    {
+      "title": "OpenAI employee planted a bug in an office, arrested by FBI",
+      "url": "https://www.reddit.com/r/singularity/comments/1x56x7s/openai_employee_planted_a_bug_in_an_office/",
+      "published": "2026-10-13T19:54:34+00:00",
+      "summary": "submitted by /u/AlyoshaV [link] [comments]",
+      "author": "AlyoshaV"
+    },
+    {
+      "title": "Google's Gemini 4 Argon taught a humanoid robot to play cornhole from a single human video. It built its own physics simulator, trained the throws, and refined them on the real robot. Apollo then landed 7 shots in a row. Google says this cuts weeks of robotics engineering down to hours.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x58mbn/googles_gemini_4_argon_taught_a_humanoid_robot_to/",
+      "published": "2026-10-13T21:00:44+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Google's Gemini 4 Argon autonomously built an entire photorealistic pagoda temple complex in Blender from a single prompt, with zero human intervention, using multiple AI agents to critique and refine its own work",
+      "url": "https://www.reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
+      "published": "2026-10-13T17:46:11+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "I plugged a local 2B decision model into Halo CE for split-screen co-op 😂",
+      "url": "https://www.reddit.com/r/singularity/comments/1x5bcby/i_plugged_a_local_2b_decision_model_into_halo_ce/",
+      "published": "2026-10-13T22:56:28+00:00",
+      "summary": "So i got bored and asked GPT to plug Intern-Decision-2B into OpenCE. It gets the game state as text, player/NPC positions, health, ammo, etc and some raycast to help it detect obstacles and it then predicts actions that are translated into game input. I also added an in-game text box so I can prompt it while playing. It has a short history of its recent actions and an aim-assist toggle. I tried multiple iterations, getting a few decisions per second depending on the setup, running locally on my RTX 4060 laptop. I love how the whole experience somehow works while also being completely broken. I had a lot of fun messing around with it and trying some abstract instructions as you can see 😌 submitted by /u/CurtisSawtooth [link] [comments]",
+      "author": "CurtisSawtooth"
+    },
+    {
+      "title": "Welcome back: Gemini 2.5 Pro",
+      "url": "https://www.reddit.com/r/singularity/comments/1x51puo/welcome_back_gemini_25_pro/",
+      "published": "2026-10-13T16:43:06+00:00",
+      "summary": "submitted by /u/Present-Boat-2053 [link] [comments]",
+      "author": "Present-Boat-2053"
+    },
+    {
+      "title": "Saudi spy",
+      "url": "https://www.reddit.com/r/singularity/comments/1x582df/saudi_spy/",
+      "published": "2026-10-13T20:38:24+00:00",
+      "summary": "submitted by /u/Tricky_Rule_4565 [link] [comments]",
+      "author": "Tricky_Rule_4565"
+    },
+    {
+      "title": "Argon produced video",
+      "url": "https://www.reddit.com/r/singularity/comments/1x5cbvp/argon_produced_video/",
+      "published": "2026-10-13T23:41:20+00:00",
+      "summary": "submitted by /u/Jaguar_2454 [link] [comments]",
+      "author": "Jaguar_2454"
+    },
+    {
+      "title": "Gemini 4 Argon Benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1x53r9g/gemini_4_argon_benchmarks/",
+      "published": "2026-10-13T17:57:13+00:00",
+      "summary": "submitted by /u/Overflame [link] [comments]",
+      "author": "Overflame"
+    },
+    {
+      "title": "Anthropic co-founder Jack Clark moves his recursive AI self-improvement prediction up to 2027. Claude Opus 5.5 is already outperforming human AI researchers on experimental tasks at 1/30 the cost, while AI research judgment doubles every three months. The race to build smarter AI could soon be drive",
+      "url": "https://www.reddit.com/r/singularity/comments/1x566l8/anthropic_cofounder_jack_clark_moves_his/",
+      "published": "2026-10-13T19:26:31+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "This AI video about the upcoming Ballon d'Or ceremony is going viral on X right now.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x4v401/this_ai_video_about_the_upcoming_ballon_dor/",
+      "published": "2026-10-13T12:19:16+00:00",
+      "summary": "https://x.com/bluehorizon_ai/status/2109716362419446271 https://x.com/ErlingRoIe/status/2109778450101813301?s=20 A lot of people are saying it's the best AI video they've seen yet. And to be honest, I never really believed in the whole 'AI is going to take over Hollywood' thing, but damn, i'm not so sure anymore. Among other things, I'm mind-blown by how accurate the faces are, even with different lighting/angles/expressions. It's really insane how much AI-generated videos have improved in just 2-3 years. submitted by /u/Mephistophilis44 [link] [comments]",
+      "author": "Mephistophilis44"
+    }
+  ]
+}

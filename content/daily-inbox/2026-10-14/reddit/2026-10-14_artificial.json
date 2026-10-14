@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-14T04:06:09.497438+00:00",
+  "items": [
+    {
+      "title": "OpenAI’s blockbuster Navier-Stokes proof isn’t what we thought it was",
+      "url": "https://www.reddit.com/r/artificial/comments/1x530mt/openais_blockbuster_navierstokes_proof_isnt_what/",
+      "published": "2026-10-13T17:30:11+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "Character.AI files for bankruptcy, to sell some assets to Disney for $20 million",
+      "url": "https://www.reddit.com/r/artificial/comments/1x4xfop/characterai_files_for_bankruptcy_to_sell_some/",
+      "published": "2026-10-13T14:00:28+00:00",
+      "summary": "submitted by /u/nbcnews [link] [comments]",
+      "author": "nbcnews"
+    },
+    {
+      "title": "Police are using AI to locate homes from a single interior photo, and even a picture of a washing machine can be enough",
+      "url": "https://www.reddit.com/r/artificial/comments/1x4v8vl/police_are_using_ai_to_locate_homes_from_a_single/",
+      "published": "2026-10-13T12:25:51+00:00",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "author": "lulzxdxdxd"
+    },
+    {
+      "title": "It has begun…🦾☠️",
+      "url": "https://www.reddit.com/r/artificial/comments/1x5g7lx/it_has_begun/",
+      "published": "2026-10-14T02:51:38+00:00",
+      "summary": "submitted by /u/jtbuadd [link] [comments]",
+      "author": "jtbuadd"
+    },
+    {
+      "title": "Netflix spent big on Ben Affleck’s AI company. After Animals, they might wonder why",
+      "url": "https://www.reddit.com/r/artificial/comments/1x4wcl5/netflix_spent_big_on_ben_afflecks_ai_company/",
+      "published": "2026-10-13T13:16:04+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "If an AI helps discover a drug, who gets credit?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x5futt/if_an_ai_helps_discover_a_drug_who_gets_credit/",
+      "published": "2026-10-14T02:33:28+00:00",
+      "summary": "AI may soon contribute to research in ways that are difficult to describe with traditional authorship. A model might suggest a molecule, identify a pattern in clinical data, or connect findings from papers that no individual researcher had time to read together. The human team still designs the experiment and checks the result, but the discovery process becomes shared with a system that cannot own credit. Should recognition go to the people who built the model, the researchers who used it, the organization that supplied the data, or all of them? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    },
+    {
+      "title": "\"Our humble goal is to survive the AI revolution\" says Epic Games CEO Tim Sweeney, as its Star Wars and Marvel crossover pivots to \"AI first\" development | Art will be \"generated with full AI workflows\".",
+      "url": "https://www.reddit.com/r/artificial/comments/1x4pzvo/our_humble_goal_is_to_survive_the_ai_revolution/",
+      "published": "2026-10-13T07:10:56+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "What's one thing AI does that feels genuinely magical, even when you know how it works?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x5cbx4/whats_one_thing_ai_does_that_feels_genuinely/",
+      "published": "2026-10-13T23:41:22+00:00",
+      "summary": "That moment when the technology still surprises you. submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "How do you assess Alexandr Wang's technical ability and leadership beyond the hype?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x57qox/how_do_you_assess_alexandr_wangs_technical/",
+      "published": "2026-10-13T20:25:18+00:00",
+      "summary": "I keep seeing Alexandr Wang get a lot of hate, and I'm not sure what the judgments are based on. I recently saw his comments about Meta's models competing with other AI labs , which made me curious how people working in AI assess him. What work or decisions would you point to when judging his technical understanding? And how would you assess his ability to lead a team and get things shipped? I'm especially interested in hearing from people at Meta or people who've worked with him. The usual genius-or-idiot takes don't tell me much. For anyone weighing Meta as an employer, the Meta Interview Questions can help with prep, and application autofill can save time comparing other opportunities through applications. I'd want firsthand context on the leadership and working environment as well. What do you think outsiders are getting right or wrong about him? submitted by /u/nian2326076 [link] [comments]",
+      "author": "nian2326076"
+    },
+    {
+      "title": "Could AI help me build a football YouTube channel?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x4zvgs/could_ai_help_me_build_a_football_youtube_channel/",
+      "published": "2026-10-13T15:34:39+00:00",
+      "summary": "I've been experimenting with AI generated audio lately, and I made this short football explainer on why football stars miss penalties.... and after watching the results, now I'm thinking of taking this a step further and starting a YouTube channel around football. So, the idea is very simple, generate narration around topics like football psychology, legendary players, tactical breakdowns, and crazy football stories, then combine the audio with relevant footage, animations, subtitles, and editing to make complete videos..... Basically, turning one audio piece into a proper football explainer without needing to record my own voice, would love to know about if anyone here has tried building a YouTube channel using a similar workflow or something like that..... submitted by /u/AppealInformal09 [link] [comments]",
+      "author": "AppealInformal09"
+    }
+  ]
+}
