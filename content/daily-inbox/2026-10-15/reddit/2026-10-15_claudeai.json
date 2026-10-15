@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-15T04:05:59.291909+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x64fcl/show_us_what_youve_created_with_claude/",
+      "published": "2026-10-14T22:01:01+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "I let Claude hire its first employee. It chose a rock.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5uqak/i_let_claude_hire_its_first_employee_it_chose_a/",
+      "published": "2026-10-14T15:47:03+00:00",
+      "summary": "I was bored tongihtt and asked Claude what it would do if it could hire someone to help it :) For some reason it chose a rock lol Claude said a rock would be reliable, wouldn’t complain, and wouldn’t need to be paid. So I went outside, found a random rock, drew a little smiley face on it, and sent Claude a photo. Claude named him Clod. Now apparently Clod works with us. Claude told me to keep him near my computer so he can supervise things. I asked what Clod actually does and Claude said he has perfect attendance, never makes mistakes, and is one of the most dependable members of the team. Which is hard to argue with. So now I’ve got a random rock on my desk with a smiley face on it because Claude decided to hire him. I don’t really know how this became a thing but here we are. Anyone else’s Claude come up with dumb shit like this? https://preview.redd.it/xfc8ojviegvh1.png?width=2160&format=png&auto=webp&s=b172e0d21cda7a7cdb9d4a0ddc45e05855aa3d60 https://preview.redd.it/w91a81kjegvh1.j",
+      "author": "Trustworthy_Jaguar48"
+    },
+    {
+      "title": "Are They Nerfing Opus 5.5? Livenerf Day 20 update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x606aj/are_they_nerfing_opus_55_livenerf_day_20_update/",
+      "published": "2026-10-14T19:10:24+00:00",
+      "summary": "Three weeks ago we began tracking model capability over time with LiveNerf. The goal was to prove from an unbiased set of data if Anthropic is nerfing their models after release. I’ve continued measuring it everyday since then and the results haven’t necessarily been what I think the community expected to see. If you’re interested in tracking the performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf If you take a look at the left 1/3, you’ll see that the variance was higher for the first 10 days when the baseline was being established. Then it appears like that in the following 11 days we’ve actually see a decreasing variance and potentially a regression to the mean. This means that if a nerf is happening or has happened, it has not happened within the data we’ve collected so far. This doesn’t necessarily mean that Anthropic isn’t decreasing capability in other ways, it also doesn’t mean that what we’re measuring establishes that day per day the result is alwa",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "I built an MCP server with Claude Code that lets Claude search and apply to jobs. Here’s how the build went (and what you can learn)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x60bmf/i_built_an_mcp_server_with_claude_code_that_lets/",
+      "published": "2026-10-14T19:16:03+00:00",
+      "summary": "In August I posted here about a job search platform I started building with Claude Code after Indeed laid off my wife. The most common question afterward was “cool, but can I do this from inside Claude?” So we built an MCP server, again mostly with Claude Code. It launched last Thursday and now has 450 users with 75 daily active. We're also seeing 83 interviews per 100 paid subscribers (who use autopilot) since our X announcement. It was a cool build I wanted to share. What it does You add the MCP and can instantly start searching the jobs database for free, drop a resume in to see matches, get custom tailored resumes, and have our back end submit on the employer’s own site once you approve. You can set a schedule to have your agent give you new matches every day (we pull in about 15K new jobs per day). How we built it entirely with Claude (and what you can mimic) Create one capability list for the web app and the MCP. Claude Code built a typed registry of everything a user can do on t",
+      "author": "Cojj25"
+    },
+    {
+      "title": "At this point I'm mostly excited for Fable 5.5 to drop just for a new usage limit reset, rather than the actual model itself",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x63tys/at_this_point_im_mostly_excited_for_fable_55_to/",
+      "published": "2026-10-14T21:36:08+00:00",
+      "summary": "Hopefully we get a new banked usage limit reset. I thought upgrading to Max 20x would mean I wouldn't have to worry about usage limits again. While I don't really have to worry about the 5-hour-limit anymore, the weekly limit is still a pain in the ass submitted by /u/Niels_Nakkeost [link] [comments]",
+      "author": "Niels_Nakkeost"
+    },
+    {
+      "title": "What is an AI \"Lifehack\" that people don't seem to know yet?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5or3q/what_is_an_ai_lifehack_that_people_dont_seem_to/",
+      "published": "2026-10-14T11:29:37+00:00",
+      "summary": "What is an AI \"Lifehack\" that people don't seem to know yet? It could be based around building, saving tokens, stretching tokens, etc submitted by /u/Realestmember [link] [comments]",
+      "author": "Realestmember"
+    },
+    {
+      "title": "They killed Projects and replaced it with a different product that kept the name",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5vvlc/they_killed_projects_and_replaced_it_with_a/",
+      "published": "2026-10-14T16:29:57+00:00",
+      "summary": "Max 20x subscriber here, and I'm an attorney. Projects was the reason I pay for Claude. It was simple: a folder for each case. Persistent files every chat could read, standing instructions, and a clean list of separate chats. One for the demand letter, one for discovery, one for a motion, all drawing on the same case file. Today I made a new project and that's gone. Claude's own intro screen says it: \"A project used to be a folder. Now it's one ongoing chat.\" What you get now looks like a SaaS dashboard, not Claude. There's one endless conversation with a coordinator bot. Your requests get spun off into threads in a side panel, sorted into \"Working,\" \"Idle,\" and \"Waiting on you.\" There are status checklists, squiggly \"New\" lines, preview cards, an Overview tab and a Library. It even lives under Claude Code, which I've never used. There's no list of chats, no simple project knowledge panel, and no toggle to go back. Old projects still work, but you can't make new ones that way. The only",
+      "author": "Tasty_Stand_7014"
+    },
+    {
+      "title": "The future is bleak",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5kb71/the_future_is_bleak/",
+      "published": "2026-10-14T06:49:01+00:00",
+      "summary": "Yeah, I'm just going to ramble here for a bit. My company job now is just pressing enter endlessly, prompting, and 0.1% of it is probably something manually done by me. Everyone is using Claude. It's soulless. There is no point.Someone can probably reverse engineer our company products in one day. Layoffs are inevitable at some point. I have no other non-tech skills that can help me pivot to another career, and even if I do, that career is not going to pay the same. I can't believe in any project idea that I think of because I use Claude, and the thought of \"You used Claude, anyone could have done this lol\" is always luring in the back of my mind. I have no hope for the future. I hate how AI made the playing field equal for everyone, where my grandma can probably now create a website. Written by a human. submitted by /u/MoudieQaha [link] [comments]",
+      "author": "MoudieQaha"
+    },
+    {
+      "title": "Haiku 5.5 isn't getting enough love",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x67rp3/haiku_55_isnt_getting_enough_love/",
+      "published": "2026-10-15T00:33:27+00:00",
+      "summary": "Haiku 5.5 is an amazing tool! It usually provides outputs that are better than the previously beloved Opus 4.6 (which was the SOTA just 6 months ago!), but for the first 100k tokens it only costs 1/50 🤯 I've been asking my coordinating agents to keep breaking down the work in small chunks to delegate to Haiku agents that usually stay under the 100k. I also added a hook that warns it when it gets to 80k and 95k tokens With this workflow I've been doing a tonne of stuff, with my usage barely moving! submitted by /u/daniel-sousa-me [link] [comments]",
+      "author": "daniel-sousa-me"
+    },
+    {
+      "title": "Natural environment simulation in Unity URP, Opus5.5.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x658de/natural_environment_simulation_in_unity_urp_opus55/",
+      "published": "2026-10-14T22:35:48+00:00",
+      "summary": "About 7 days into building a North Atlantic island in Unity URP (WIP). I wanted to see how much I could enhance my tech art and graphics programming abilities with AI, using mosty Opus 5.5 and Astra for a few critiques. The goal: one island you can walk across from the surf to a snowy summit, that looks good wherever you stop and look around. And also dive a bit near the shores. The terrain is real elevation data from Lofoten in Norway, reshaped and modified into an island about 4 × 5 km with a 1,000 m peak. Overcast is normal, fog is common and sunshine is rare. Not a single thing was placed manually, there's procedural systems to place anything from fallen leaves to the meso-/macro-scale terrain changes, undergrowth and rock placement etc. So far: the terrain and its rock, moss and heath; birch and pine forests from my own tree and forest generator, 25,000+ trees; and hundreds of thousands of ferns and ground plants; an ocean with waves and surf, underwater visuals, lakes, ponds, a s",
+      "author": "imlo2"
+    }
+  ]
+}

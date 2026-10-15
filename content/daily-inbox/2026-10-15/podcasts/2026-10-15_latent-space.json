@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-15T04:01:58.682811+00:00",
+  "items": [
+    {
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "published": "2026-10-14T19:35:09+00:00",
+      "summary": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good it is. Their substack — or at least Owl Posting’s deep dive on them — should be required reading for any scientist trying to do chemistry with AI.So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka “DELs”), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and a",
+      "author": "Brandon Anderson"
+    }
+  ]
+}

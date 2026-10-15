@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-15T04:04:07.884593+00:00",
+  "items": [
+    {
+      "title": "Two AI agents in a job interview and neither one knows how to hang up",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x66iap/two_ai_agents_in_a_job_interview_and_neither_one/",
+      "published": "2026-10-14T23:34:05+00:00",
+      "summary": "submitted by /u/Zealousideal_Pin3444 [link] [comments]",
+      "author": "Zealousideal_Pin3444"
+    },
+    {
+      "title": "Where were you when ChatGPT killed big pharma?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+      "published": "2026-10-14T22:28:07+00:00",
+      "summary": "I wonder how long before it can perform MRIs? submitted by /u/AnDiesel_ [link] [comments]",
+      "author": "AnDiesel_"
+    },
+    {
+      "title": "I said the N word once and all his answers are like this... Did I break em?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5kn3a/i_said_the_n_word_once_and_all_his_answers_are/",
+      "published": "2026-10-14T07:09:57+00:00",
+      "summary": "Did I break him? Now without even saying the n word even if I ask how's the weather he blasts the n word 😂 submitted by /u/Follosh16 [link] [comments]",
+      "author": "Follosh16"
+    },
+    {
+      "title": "Why does Image Gen always have this weird effect?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x611rq/why_does_image_gen_always_have_this_weird_effect/",
+      "published": "2026-10-14T19:44:19+00:00",
+      "summary": "There is this weird effect on this image that I can't put into words. Like there is a dotted pattern or something. How can I get rid of it? submitted by /u/EmeraldCoast826 [link] [comments]",
+      "author": "EmeraldCoast826"
+    },
+    {
+      "title": "When Dario declares AGI before Sam",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5yqvz/when_dario_declares_agi_before_sam/",
+      "published": "2026-10-14T18:17:11+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "Gotta save up some more 🥹",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x61jjc/gotta_save_up_some_more/",
+      "published": "2026-10-14T20:03:33+00:00",
+      "summary": "submitted by /u/HeadChance123 [link] [comments]",
+      "author": "HeadChance123"
+    },
+    {
+      "title": "An Anthropic researcher told his friend, in private, \"I'm just enjoying my last six months\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qfes/an_anthropic_researcher_told_his_friend_in/",
+      "published": "2026-10-14T12:52:53+00:00",
+      "summary": "submitted by /u/notkilleveryoneist [link] [comments]",
+      "author": "notkilleveryoneist"
+    },
+    {
+      "title": "The real cost of the cloud",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x60vts/the_real_cost_of_the_cloud/",
+      "published": "2026-10-14T19:37:38+00:00",
+      "summary": "submitted by /u/Algoartist [link] [comments]",
+      "author": "Algoartist"
+    },
+    {
+      "title": "Gemini Argon ($0.19) vs Opus 5.5 ($12.06) on the same ship in a bottle prompt (@vib3coded)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5qd1z/gemini_argon_019_vs_opus_55_1206_on_the_same_ship/",
+      "published": "2026-10-14T12:49:47+00:00",
+      "summary": "Per @vib3coded: $0.19 vs $12.06 for a ship in a bottle ⛵🤯 Gemini 4 Argon vs Claude Opus 5.5 Opus built a whole little world: dolphins, seagulls, a lighthouse, bottle rocking, and plenty of interactive touches. The glass, water, and small details look much better But Gemini did a decent job for $0.19 too. Simpler, but almost 64 times cheaper For quality, I’m picking Opus. Would you pay extra for the details? 👀 Prompt: Design and create a very creative, elaborate, and detailed voxel art scene of a intricate ship sailing through the ocean inside of a bottle. Include waves and realistic physics, with the whole scene encapsulated inside of the bottle. Make the scene impressive and varied and use colorful voxels, modeled physics, and interesting props / landscapes all encapsulated inside of the bottle. Use WebGL and whatever libraries to get this done but make sure I can paste it all into a single HTML file and open it in Chrome. submitted by /u/WanderWut [link] [comments]",
+      "author": "WanderWut"
+    },
+    {
+      "title": "Pelican benchmark with GPT / Gemini / Claude",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x5lxc9/pelican_benchmark_with_gpt_gemini_claude/",
+      "published": "2026-10-14T08:35:11+00:00",
+      "summary": "Really makes you think..... submitted by /u/MosskeepForest [link] [comments]",
+      "author": "MosskeepForest"
+    }
+  ]
+}
