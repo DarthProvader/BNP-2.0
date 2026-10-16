@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-16T04:05:56.367551+00:00",
+  "items": [
+    {
+      "title": "That is an awesome toddler-level explanation.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6tpki/that_is_an_awesome_toddlerlevel_explanation/",
+      "published": "2026-10-15T18:35:46+00:00",
+      "summary": "submitted by /u/Garaad252 [link] [comments]",
+      "author": "Garaad252"
+    },
+    {
+      "title": "Just got access to mythos!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6vn7r/just_got_access_to_mythos/",
+      "published": "2026-10-15T19:49:15+00:00",
+      "summary": "Pretty neat model, Tried it out on a relatively small but spread out task last night. It was pretty competent and even left a note to opus 5.5 on how it should improve its workflow to stop over-engineering and committing the same mistakes it’s been doing every session. Very excited to use this model in the future. submitted by /u/Legitimate_Pop_7557 [link] [comments]",
+      "author": "Legitimate_Pop_7557"
+    },
+    {
+      "title": "Clod Update: Claude promoted him after 1 million views",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6ra9v/clod_update_claude_promoted_him_after_1_million/",
+      "published": "2026-10-15T17:04:17+00:00",
+      "summary": "So somehow my original post about Clod, the random rock Claude hired, has reached over a million views lmao. I've been reading through all the comments and apparently MOST people, love this stupid rock. A few people even pointed out that Clod is probably more qualified than most actual employees xD Anyway, I figured Clod deserved a performance review after all the attention he's been getting. So I asked Claude if Clod should get a promotion. Apparently he does. Clod's performance review: Attendance: 100% Complaints: 0 Mistakes: 0 Actual work completed: 0 Despite that last part, Claude still thinks he's doing an excellent job. So Clod has officially been promoted to management. I even made him a tiny black tie out of paper to make him look more professional. Took me longer than I'd like to admit. I also asked Claude if Clod deserved a pay rise. Apparently he doesn't need one because he has no living expenses. Which is fair enough I guess. So now I've got a rock with a smiley face and a ",
+      "author": "Trustworthy_Jaguar48"
+    },
+    {
+      "title": "I've spent the last ten months building a project with Claude, and tonight I asked it to show me a bit of the code that he thinks is very clever and he's proud of",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x73jfn/ive_spent_the_last_ten_months_building_a_project/",
+      "published": "2026-10-16T01:37:06+00:00",
+      "summary": "I'll pick the barcode scanner listener, src/hooks/useLabelScan.ts. It's about 50 lines, and one of them does nearly all the work: // A scanner's keys come well under this apart; a person's, well over. const GAP_MS = 60; const onKey = (event: KeyboardEvent) => { if (typingIn(event.target) || event.ctrlKey || event.metaKey || event.altKey) return; const now = performance.now(); if (now - last > GAP_MS) typed = ''; // ← this line last = now; if (event.key === 'Enter') { const code = typed.length >= 2 ? readLabelCode(typed) : null; typed = ''; ...navigate to the ticket or device } if (event.key.length === 1) typed = (typed + event.key).slice(-16); }; Here's why I love it. A USB barcode scanner isn't really a device the app can talk to. As far as the computer is concerned, it's a keyboard. There's no driver, no AP and no pairing. It just \"types\" T7001 and presses Enter. So the app can't ask \"was that a scan?\" It can only watch keystrokes, and a scan looks exactly like you typing on the Tick",
+      "author": "GodRaine"
+    },
+    {
+      "title": "The anti vibe-coding cult is going to be on wrong side of history",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6nfto/the_anti_vibecoding_cult_is_going_to_be_on_wrong/",
+      "published": "2026-10-15T14:40:22+00:00",
+      "summary": "Some facts (not an opinion): - At its best Claude is faster at coding than any human. - Opus 5.5. is technically more able and more bilingual in terms of programming languages than probably 99.9% of developers coding stuff all by themselves. Were I a tech company boss choosing between a vibe coding expert with a strong portfolio and someone who (as a purist coder) rejects vibe coding as 'slop' after all that has happened in 2026 I know who I'd hire. - I had a soft body car simulation physics engine in C++ optimised by Fable that performs countless millions of calculations per second - the idea that a model of Opus 5.5 standard can't write optimised code is disproven by all the hot paths. If it only wrote slop - it would show up in the extreme hot paths like that. - A \"slop-machine\" is the responsibility of the human. - Anti AI sentiment is being fuelled online by Russian and Chinese disinformation bots. China especially has skin in the game, and Stasi-led Russia has a keen decades-long",
+      "author": "freedomfromfreedom"
+    },
+    {
+      "title": "Claude Code on desktop got a serious glow up, here's what's new",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6w0a5/claude_code_on_desktop_got_a_serious_glow_up/",
+      "published": "2026-10-15T20:02:47+00:00",
+      "summary": "Honestly it's way better now. If you use it on desktop, try these: Saved environments – save a few folders, an SSH host or cloud as one setup, start sessions there. Worktree per folder – parallel sessions don't mess with each other anymore. Nested sessions – ask for parallel tasks, each one reports back to the main thread. /btw (Cmd+;) – side question opens in its own tab, main session keeps working. One-click follow-ups – Claude suggests next task, one click, runs as its own session. Sidebar status – see which sessions are working and which need you. Recap cards + live to-do list – come back to a session and catch up in seconds. Hard to pick one, they all sound great. What about you? submitted by /u/emarkosov [link] [comments]",
+      "author": "emarkosov"
+    },
+    {
+      "title": "3D recreation of Neo apartment from The Matrix, built 100% using Claude via MCP Blender",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6x6x7/3d_recreation_of_neo_apartment_from_the_matrix/",
+      "published": "2026-10-15T20:49:09+00:00",
+      "summary": "3D recreation of Neos apartment from The Matrix, built 100% using Claude via MCP connected to Blender. It’s not a perfect 1:1 recreation due to creative liberties and limited reference material. Inspired by hirokazu yokohara project, I tackled this workflow with one main difference: mine is 100% modeled by Claude from scratch, no Image-to-3D tools like Meshy or Tripo were used. It took roughly 5 days part-time. Creating an environment like this traditionally would easily take 1 to 2 months. I used Claude Opus 5.5 alongside parallel agents with Sonnet and Haiku. Claude handled execution, modeling, UVs, camera, materials, and compositing, guided heavily by my drawn annotations and feedback. Working within a basic $20 plan was the main hurdle, requiring strict token management and waiting out 5-hour resets. A higher-tier subscription is definitely recommended for heavy workflows. Producing a scene like this requires solid 3D fundamentals and art direction; a simple prompt isnt enough. Tex",
+      "author": "Repulsive-Rush3505"
+    },
+    {
+      "title": "A Github tweet leaked the EAP (early access program) name for what is likely the next model: Odango",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6iocw/a_github_tweet_leaked_the_eap_early_access/",
+      "published": "2026-10-15T11:02:17+00:00",
+      "summary": "tweet here with the video leaking the name: https://x.com/github/status/2110085117041594750?s=46&t=yaGDk1YT21oDc8\\_\\_lo\\_nug submitted by /u/Illustrious-Meal-838 [link] [comments]",
+      "author": "Illustrious-Meal-838"
+    },
+    {
+      "title": "Claude let me build something I wanted for almost a decade",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6hef5/claude_let_me_build_something_i_wanted_for_almost/",
+      "published": "2026-10-15T09:47:20+00:00",
+      "summary": "Sooo 10 years ago a much younger self wanted to built a very complicated energy sim / tycoon game. On my original reddit post a bunch did want to join me and the post gained traction but I was neither a developer back then nor did I have the time creating such a game really. Now? Thanks to claude, my educational path, job history in energy and a lot of feedback from other players and friends I finally was able to built something I can play myself. Oh another AI slop game You may be thinking that, but I genuinely believe that what I've created together with the community would have taken a solo developer or even a game studio an enormous amount of time to build, especially for such a niche audience. And to me, that's one of the best use cases for AI-assisted game development: making it possible to create something incredibly specific for a relatively small audience that otherwise might never have existed. How I used claude: I almost exclusivly used claude code for the development. I set",
+      "author": "Electricvid"
+    },
+    {
+      "title": "I used Claude (Opus 5.5) to crack a 30-year-old Super Mario 64 mystery: the unreadable courtyard plaque",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6lz8p/i_used_claude_opus_55_to_crack_a_30yearold_super/",
+      "published": "2026-10-15T13:42:03+00:00",
+      "summary": "Side project that got out of hand. The plaque in Mario 64's courtyard is a 32×32 texture that fans have argued about since the 90s (\"L is real 2401\"). No upscaler can read it because the pixels aren't there. What Opus did: - wrote a forward model of how a 1996 artist made the texture (font → canvas → resize → blur → stone), then a GPU search over fonts, sizes, kerning and words - built a dictionary search (K-best DP over 17.7k words) for line 2 and a simulation harness that plants known text in fake plaques to measure how often the method is fooled - wrote the 40-page LaTeX report and the open-source package What went wrong along the way: a word-gap bug that let overlapping words double-count ink, and an early overclaim about the capital S that the joint test didn't actually support. Being strict about held-out tests mattered more than anything. Result: \"Eternal Star / We hope so\", in Adobe's 1990 Palatino Bold Italic. code + report: github.com/supermochi64/sm64-plaque-decode submitted",
+      "author": "decorator"
+    }
+  ]
+}
