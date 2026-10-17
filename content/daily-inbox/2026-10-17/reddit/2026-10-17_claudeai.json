@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-17T04:05:21.709920+00:00",
+  "items": [
+    {
+      "title": "This is 61 KB HTML file 🤯",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7v7gj/this_is_61_kb_html_file/",
+      "published": "2026-10-16T23:24:42+00:00",
+      "summary": "I built a real-time ocean simulation with Claude Code (Opus 5.5) What it is: a single 61 KB HTML file that renders a sunset ocean in your browser with WebGPU. It has an FFT wave simulation, whitecaps, a physically based sky with clouds, and sun glitter. You fly around with WASD and the mouse. How I used Claude Code: I gave it one prompt: make the most realistic water scene it could, in WebGPU, with a floating camera. It wrote the renderer from scratch with no engine or libraries. It took screenshots of its own output and had separate subagents critique the screenshots, so it wasn't judging its own work. The whole thing took about 30 minutes. Free to try: ocean-noniv.vercel.app , preferably in Chrome. It needs a WebGPU-capable GPU, and on laptops you have to force Chrome onto the dedicated GPU. Otherwise the performance might be bad or it might not run at all. On RTX 5070 Ti I get ~260 FPS at 2560×1440 resolution. Click the canvas to look around, WASD to move, H for a settings panel. Re",
+      "author": "Any-Reputation8118"
+    },
+    {
+      "title": "Friday mode",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7w5dv/friday_mode/",
+      "published": "2026-10-17T00:09:04+00:00",
+      "summary": "submitted by /u/AnnaOwner2084 [link] [comments]",
+      "author": "AnnaOwner2084"
+    },
+    {
+      "title": "I built a free Windows widget for Claude usage limits with Claude Code — pixel Clawd reacts to your sessions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7o895/i_built_a_free_windows_widget_for_claude_usage/",
+      "published": "2026-10-16T18:36:32+00:00",
+      "summary": "I built a small Windows widget (floating window + tray icon) that shows my Claude plan limits: the same numbers as /usage in Claude Code — current session, weekly and Fable limits — refreshed every minute. It also lists running Claude Code sessions (working / waiting for input / idle), shows Anthropic service status and tells you when a Claude Code update is out. How it works: it runs `claude -p \"/usage\"` headless, which returns the server-side percentages for your existing login without calling the model, so it spends no tokens. Sessions come from the registry Claude Code keeps in ~/.claude/sessions. Plain PowerShell 5.1 + WPF, nothing to install besides Claude Code. Clawd lives in the window and reacts to the data: sleeps in a burrow when nothing runs, runs while a session works, waves with a \"?\" when one is waiting for you, sweats near the limit and lies belly-up at 100%. The hearts in the header are the session limit left. How Claude Code helped build it: - I built the whole thing ",
+      "author": "venhed"
+    },
+    {
+      "title": "That didn't take long - Claude Haiku 4.5 is leaving the model selector October 29th",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7rzpe/that_didnt_take_long_claude_haiku_45_is_leaving/",
+      "published": "2026-10-16T21:04:44+00:00",
+      "summary": "submitted by /u/sussyslayer365 [link] [comments]",
+      "author": "sussyslayer365"
+    },
+    {
+      "title": "Anthropic employee says resistance is futile",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7hsp6/anthropic_employee_says_resistance_is_futile/",
+      "published": "2026-10-16T14:31:20+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "I’m 100% blind. I made a piece of software that lets fully blind people use commercial 3D printers along with their 3D slicers.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7r7ul/im_100_blind_i_made_a_piece_of_software_that_lets/",
+      "published": "2026-10-16T20:33:19+00:00",
+      "summary": "My name is Edis, and I am 100% blind. I used a Perkins Braille typewriter in school 25 years ago. Today, I own several 3D printers, and used Claude to make them accessible. In 2023, I participated in a workshop on 3D printing organized by the Danish Institute for the Blind and Visually Impaired. Needless to say, I got consumed. The funny thing was that no blind or visually impaired people were participating. It was about how sighted people can make something for blind people. I bought a Bambu Lab X1 Carbon as my first printer. I now run a consultancy working with web accessibility and, funnily enough, physical accessibility through 3D printing. 3D printing has huge potential for blind people. Not just fidgets and toys, but real, practical, and sometimes life-saving applications. Imagine being blind in a hotel when a fire breaks out. You haven’t learned the emergency plan because it is inaccessible. Now imagine a 3D-printed plan with raised lines, Braille, contrast colours, and normal p",
+      "author": "Mrblindguardian"
+    },
+    {
+      "title": "100% of my 5-hour limit equals 14% of my weekly limit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7w46m/100_of_my_5hour_limit_equals_14_of_my_weekly_limit/",
+      "published": "2026-10-17T00:07:31+00:00",
+      "summary": "I'm on Claude's $100 Max 5x plan. Using 100% of my 5-hour limit consumes 14% of my weekly limit. That means I can hit the 5-hour limit about 7 times before reaching my weekly limit. 7 × 14% = ~100% I'm curious, for those on the $200 Max 20x plan, what percentage of your weekly limit does using 100% of your 5-hour limit consume? submitted by /u/nobodyreadusernames [link] [comments]",
+      "author": "nobodyreadusernames"
+    },
+    {
+      "title": "What have you built with AI that actually made your job easier?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7jf72/what_have_you_built_with_ai_that_actually_made/",
+      "published": "2026-10-16T15:34:40+00:00",
+      "summary": "I have created a few tools that help to investigate new projects and now half of the team use it. I am not talking about skill or agents but real app or simple program. What did you build? What problem does it solve? And how much time or effort has it saved you? Would love to hear some real examples. Maybe we can all steal a few good ideas from each other. submitted by /u/Otherwise-Report1848 [link] [comments]",
+      "author": "Otherwise-Report1848"
+    },
+    {
+      "title": "Mind blown by Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7zi8k/mind_blown_by_claude/",
+      "published": "2026-10-17T03:03:33+00:00",
+      "summary": "Not sure what flair to add here, my bad. And, sorry, I yap a lot. Although I've always been fascinated with AI, and consider myself somewhat of a tech nerd/enthusiast, I had never owned a computer until recently and even then, I barely know how to use it, so I guess I never quite got the hype with AI + coding, I just don't understand what a lot of the stuff means but I thought I was pretty aware of the level AI is at. This past week I've seen many posts and videos I watch and read mention that guy that basically said something along the lines (on god don't quote this from me) that \"we're in a bubble and the average AI user barely touches it and doesn't know the full potential\" or something like that. That made me think for a moment. \"Well I've been reading every newsletter and release out there for years...\" \"Surely not me\" ←famous last words I got the Claude $20 plan because it's what I can afford. Set it to Opus 5.5, high. Looked around the room for a while thinking how could I test ",
+      "author": "Spiritual_Self6583"
+    },
+    {
+      "title": "I made my first game: A multiplayer RTS. Today is the 7th day working on it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7yp2b/i_made_my_first_game_a_multiplayer_rts_today_is/",
+      "published": "2026-10-17T02:19:59+00:00",
+      "summary": "BLUF Free to play right on your browser: www.frontlinezero.com Hey all. I made a game called Frontline Zero. It's a multiplayer RTS where you can play as either Ukraine or Russia in the ongoing war. I wanted to bring back the nostalgia of late '90s RTS games while mixing in modern RTS mechanics and elements of today's warfare. The gameplay is inspired by Red Alert 2, with a zone-based economy similar to Company of Heroes and a UI that takes inspiration from C&C and StarCraft. At the same time, I wanted the game to reflect how warfare has evolved, with traditional air support being easily denied, drones dominating the skies, and electronic warfare playing a major role. The goal was to bring all of this together while keeping that classic RTS feel. I'd love for you all to give it a try. The game is completely free to play. I only added a paid version in case it takes off and some of you want to help cover the costs of running the online infrastructure. Thanks and have fun! --- Frontline ",
+      "author": "Savings-Theme4022"
+    }
+  ]
+}

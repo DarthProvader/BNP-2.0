@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-10-17T04:01:28.808649+00:00",
+  "items": [
+    {
+      "title": "Claude Code 3.0 is CRAZY!",
+      "url": "https://www.youtube.com/watch?v=8nh1dcH4uJU",
+      "published": "2026-10-16T08:15:13+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll go through the big new update to the Claude Code desktop app, which is all about running many sessions at the same time. I'll show the new session screen with recent folders, saved environments and a worktree per folder, then the biggest change: nested sessions that run tasks in parallel and send their results back to your main session. After that, I'll cover follow-up suggestions you can start with one click, the /btw side tabs, the new sidebar status groups, and the live to-do list, recap card and side rail inside a session. Finally, I'll go through what people are saying in the replies, the usage-limit problem, the new idle compaction feature from Lydia Hallie, and my honest opinion on the whole update.\n\n--\nKey Takeaways:\n\n🚀 The Claude Code desktop app update makes it easier to run many sessions at the same time.\n📁 The new session screen shows your recent folders, so you c",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Agent-Native + Claude Code: Finally! Apps Your AI Agent Can Actually Work In (Open Source)",
+      "url": "https://www.youtube.com/watch?v=jouKaJ4qlAg",
+      "published": "2026-10-15T08:15:02+00:00",
+      "summary": "Agent-Native: https://www.agent-native.com/\nGitHub: https://github.com/BuilderIO/agent-native\nSlides docs: https://www.agent-native.com/docs/template-slides/\n\nIn this video, I'll walk through Agent-Native, an open-source TypeScript framework from Builder for building apps where you and an AI agent work in the same interface. I'll start with their Slides app: picking a template, editing it by hand, generating a six-slide deck, and then asking the agent to continue from my manual edits, including a targeted Revise with AI edit, Present mode and export. After that, I'll set up my own copy with the create command, look at how actions and context fit into the code, and use Claude Code to add a review checklist that both the interface and the embedded agent can use. Finally, I'll cover the limitations and where I think this approach is actually useful.\n\n--\nKey Takeaways:\n\n🧩 Agent-Native is an open-source TypeScript framework for building agents with interactive interfaces: React, your own mo",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

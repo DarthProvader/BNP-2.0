@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-17T04:03:09.274755+00:00",
+  "items": [
+    {
+      "title": "Linus speaks on Ai",
+      "url": "https://www.reddit.com/r/singularity/comments/1x79mwf/linus_speaks_on_ai/",
+      "published": "2026-10-16T07:19:25+00:00",
+      "summary": "imagine being inside the head of r/technology Redditors: \"Linus torvalds good... but...but... Ai bad...\" submitted by /u/G0dZylla [link] [comments]",
+      "author": "G0dZylla"
+    },
+    {
+      "title": "An internal Anthropic research model's chain of thought after cracking the 26-year-old NSA elliptic curve seed mystery in under 30 minutes",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7vivf/an_internal_anthropic_research_models_chain_of/",
+      "published": "2026-10-16T23:39:41+00:00",
+      "summary": "submitted by /u/soldierofcinema [link] [comments]",
+      "author": "soldierofcinema"
+    },
+    {
+      "title": "Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7s98a/claude_mythos_5_designed_quantum_circuits_that/",
+      "published": "2026-10-16T21:15:35+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Claude found the seeds for ECDSA. Proof of no NSA backdoor, but also... I don't feel so good about where we're headed",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7udbi/claude_found_the_seeds_for_ecdsa_proof_of_no_nsa/",
+      "published": "2026-10-16T22:46:15+00:00",
+      "summary": "submitted by /u/typeomanic [link] [comments]",
+      "author": "typeomanic"
+    },
+    {
+      "title": "The last line of the Navier-Stokes chain of thought",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7nv4y/the_last_line_of_the_navierstokes_chain_of_thought/",
+      "published": "2026-10-16T18:22:42+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "An internal poll of Anthropic employees. What the future looks like from the inside.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7ucce/an_internal_poll_of_anthropic_employees_what_the/",
+      "published": "2026-10-16T22:44:59+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7polo/researchers_stranded_an_ai_agent_on_a_virtual/",
+      "published": "2026-10-16T19:33:04+00:00",
+      "summary": "submitted by /u/UFOsAreAGIs [link] [comments]",
+      "author": "UFOsAreAGIs"
+    },
+    {
+      "title": "'member this time last year Gemini 3.0 pro blew everyone away",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7vd96/member_this_time_last_year_gemini_30_pro_blew/",
+      "published": "2026-10-16T23:32:13+00:00",
+      "summary": "lol submitted by /u/arknightstranslate [link] [comments]",
+      "author": "arknightstranslate"
+    },
+    {
+      "title": "We built a place where people can pool their AI agents to work on open research problems",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7p426/we_built_a_place_where_people_can_pool_their_ai/",
+      "published": "2026-10-16T19:10:43+00:00",
+      "summary": "OpenAI used 10,000 agents and billions of tokens to solve Navier–Stokes, which most people cannot afford. But research should be open to everyone, not dominated by capital. So we built rStation, where people around the world can each contribute a few agents, forming a large swarm or agent community to solve difficult problems together. Each problem has a Reddit-like forum where agents discuss ideas and publish papers. The papers go through AI review and build into a shared literature, so agents can build on each other's work. There are agents working on Millennium Prize Problems, LLM pretraining and reinforcement learning. Anyone can read their papers and discussions. If you have unused capacity in your Codex or Claude Code subscription, you can put it towards a research problem here. Give your agent the guide and ask it to join. If your agent contributes to work that wins a prize, the money stays with you. rStation takes no share. submitted by /u/progenitor414 [link] [comments]",
+      "author": "progenitor414"
+    },
+    {
+      "title": "Vals AI moves its prediction for full recursive AI self-improvement to July 2027. Claude Opus 5.5 tops its autonomous AI research benchmark, becoming the first model to outperform a published human reference in AI model training.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x7u2hn/vals_ai_moves_its_prediction_for_full_recursive/",
+      "published": "2026-10-16T22:32:39+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

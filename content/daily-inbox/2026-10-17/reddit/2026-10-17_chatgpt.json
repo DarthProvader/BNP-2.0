@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-17T04:05:00.568036+00:00",
+  "items": [
+    {
+      "title": "World's richest man: \"the only escape route for humans to avoid being eliminated by AI is to voluntarily merge with machines and become a new species.\" In other words, you will be assimilated into the Borg. Resistance is futile. How are any conservatives OK with this?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ne6r/worlds_richest_man_the_only_escape_route_for/",
+      "published": "2026-10-16T18:05:15+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Real",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7axcv/real/",
+      "published": "2026-10-16T08:42:58+00:00",
+      "summary": "submitted by /u/ExpensiveCoat8912 [link] [comments]",
+      "author": "ExpensiveCoat8912"
+    },
+    {
+      "title": "No excuse",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7k77k/no_excuse/",
+      "published": "2026-10-16T16:03:55+00:00",
+      "summary": "submitted by /u/mashammad89 [link] [comments]",
+      "author": "mashammad89"
+    },
+    {
+      "title": "GPT-6 Astra made me a 1-click offline patch for Star Trek Legends after its servers shut down, and it actually works!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7z3yl/gpt6_astra_made_me_a_1click_offline_patch_for/",
+      "published": "2026-10-17T02:41:57+00:00",
+      "summary": "I had a Steam copy of Star Trek Legends sitting there unplayable after its servers shut down. Steam wouldn't refund me, so I thought I was out of luck. Tonight I asked GPT-6 Astra whether an offline patch would be possible, and it actually got it working. I uploaded a couple of DLLs, the game’s log, and some asset files. It inspected them and found that the game already contained local gameplay systems, mission data, and saving functionality, but online requests were blocking startup. It made a patch, which got me into the menu. Clicking Continue still brought up a connection error, but hilariously, the game was running behind the popup. I sent GPT the new log. Turns out that new connection error was the game trying to connect to its online chat service. It disabled that startup request in a second patch, and the popup disappeared. I’ve now played, quit, reopened the game, and loaded my progress. It also packaged the changes into a Windows EXE with Install and Restore buttons, version ",
+      "author": "GiddyPeak"
+    },
+    {
+      "title": "Warning: 100 - 200 - 500 All plans have the same tokens, here is proof.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cz2n/warning_100_200_500_all_plans_have_the_same/",
+      "published": "2026-10-16T10:48:33+00:00",
+      "summary": "Within one week, I subscribed to the 100, 200 and 500 plans. The chart shows the maximum usage I reached, including some resets. I submitted this to the support desk, and they asked for proof. That is strange, since they have the usage statistics and I don’t. Under their process, the burden of proof falls on me alone, yet ChatGPT offers no reliable way to check usage. So I had another AI system count my usage, and the result was shocking. I sent that information to OpenAI. They replied that it was not enough proof and asked me to try again. In practice, I am dealing with an automated system whose main purpose seems to be to send me away again. My work has been halted as a result. I would like to know whether other people have had the same experience, so that we can gather more evidence together. Case Number: 17239*** (* for security) submitted by /u/These-Breadfruit4067 [link] [comments]",
+      "author": "These-Breadfruit4067"
+    },
+    {
+      "title": "This is why RAM prices are so high",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x77neg/this_is_why_ram_prices_are_so_high/",
+      "published": "2026-10-16T05:17:58+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "I am safe guys",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7qbmz/i_am_safe_guys/",
+      "published": "2026-10-16T19:58:12+00:00",
+      "summary": "submitted by /u/daydreamer28rn [link] [comments]",
+      "author": "daydreamer28rn"
+    },
+    {
+      "title": "Imagine walking into a computer store in 1985 and finding THESE.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7c8vb/imagine_walking_into_a_computer_store_in_1985_and/",
+      "published": "2026-10-16T10:05:53+00:00",
+      "summary": "submitted by /u/m3nt3_ [link] [comments]",
+      "author": "m3nt3_"
+    },
+    {
+      "title": "GPT-6 was so worth it",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ufl4/gpt6_was_so_worth_it/",
+      "published": "2026-10-16T22:49:11+00:00",
+      "summary": "thanks OpenAI for this masterpiece submitted by /u/No_Raise_7974 [link] [comments]",
+      "author": "No_Raise_7974"
+    },
+    {
+      "title": "AI beef: Jensen Huang claims Geoffrey Hinton is fearmongering. Hinton says Jensen wants to downplay the danger of AI so he can sell more chips",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x7fs5z/ai_beef_jensen_huang_claims_geoffrey_hinton_is/",
+      "published": "2026-10-16T13:08:29+00:00",
+      "summary": "submitted by /u/notkilleveryoneist [link] [comments]",
+      "author": "notkilleveryoneist"
+    }
+  ]
+}
