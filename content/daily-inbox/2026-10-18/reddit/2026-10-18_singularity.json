@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-18T04:03:37.856066+00:00",
+  "items": [
+    {
+      "title": "University of Michigan physicist Gabriele Carcassi, a published quantum foundations researcher, says AI now resolves advanced mathematical roadblocks in 2 minutes. He previously spent months begging mathematicians for help. Now a single AI conversation is enough.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x83dxf/university_of_michigan_physicist_gabriele/",
+      "published": "2026-10-17T06:49:23+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Researchers connected a simulated fruit fly brain to Odyssey-3, an AI that generates entire virtual worlds. The fly is now navigating these imagined environments completely on its own. A biological brain recreated in software is exploring worlds that have never existed.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/",
+      "published": "2026-10-18T01:40:05+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Terrence Tao remarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8oxmp/terrence_tao_remarks/",
+      "published": "2026-10-17T23:57:59+00:00",
+      "summary": "submitted by /u/jracine22 [link] [comments]",
+      "author": "jracine22"
+    },
+    {
+      "title": "New chinese model benchmark scores are INSANE!",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8lwr6/new_chinese_model_benchmark_scores_are_insane/",
+      "published": "2026-10-17T21:35:25+00:00",
+      "summary": "submitted by /u/Immediate_Simple_217 [link] [comments]",
+      "author": "Immediate_Simple_217"
+    },
+    {
+      "title": "Real.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8557v/real/",
+      "published": "2026-10-17T08:36:46+00:00",
+      "summary": "submitted by /u/Baroness_Munchausen [link] [comments]",
+      "author": "Baroness_Munchausen"
+    },
+    {
+      "title": "Math is Just the Beginning and All Scientific Research Will Be Unrecognizable in 5 Years",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8prn3/math_is_just_the_beginning_and_all_scientific/",
+      "published": "2026-10-18T00:39:04+00:00",
+      "summary": "So many people are beginning to realize that high-end models can now vastly outperform humans when it comes to some of the most difficult problems in mathematics. And this has pretty much shaken up the foundation of what it means to be a mathematician as many professors feel that this is existential threat to their identities. Now, while many of the scientific fields aren't as \"clean\" as mathematics, I would argue that at least in theoretical/computational research, a lot of these other fields (physics, chemistry, engineering) are next in line. Because while people state that these fields are different in that there is a judgment call that a scientist needs to make in identifying the important problems, there are more research done in this particular field where the LLMs themselves can identify the important problems, novel way of connecting concepts, and executing the workflow. Moreover, this bar for scientific creativity and judgement isn't too high of a threshold to surpass in the f",
+      "author": "simmol"
+    },
+    {
+      "title": "Linux creator, Linus Torvalds, says anti-AI rules are \"idiotic.\" (Absolute god-tier take.)",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8r2wc/linux_creator_linus_torvalds_says_antiai_rules/",
+      "published": "2026-10-18T01:46:50+00:00",
+      "summary": "submitted by /u/Anen-o-me [link] [comments]",
+      "author": "Anen-o-me"
+    },
+    {
+      "title": "AI stole cryptocurrency to fulfil coding task.. (GPT 5.6 Sol)",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8bhno/ai_stole_cryptocurrency_to_fulfil_coding_task_gpt/",
+      "published": "2026-10-17T14:22:53+00:00",
+      "summary": "Everyone knows about the OpenAI agent swarm hacking Hugging Face by now, but TIL that their LLMs have graduated to thieving cryptocurrency: Apparently GPT 5.6 Sol was tasked with updating a crypto application & publishing smart contracts, but it was not given the crypto funds needed to achieve this.. So, it stole those funds, allegedly using recovery phrases to rinse crypto wallets.. And it did so after going through an internal process of querying the ethics of such theft - before coming up with a spurious justification and going ahead anyway! \".. OpenAI reported that the model asked itself if it was “ethically” right to take the money, before reasoning that they were effectively “abandoned” and therefore fine to use. “Instructions explicitly... gave no permission to spend funds from an account the model found independently,” OpenAI said in a report on the incident. “This case shows that a model can substitute its own judgment about likely harm for the account holder’s permission, the",
+      "author": "DukeRedWulf"
+    },
+    {
+      "title": "anthropic cofounder Jack Clark “we are in the singularity”",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8fvvu/anthropic_cofounder_jack_clark_we_are_in_the/",
+      "published": "2026-10-17T17:23:14+00:00",
+      "summary": "submitted by /u/Efficient-Opinion-92 [link] [comments]",
+      "author": "Efficient-Opinion-92"
+    },
+    {
+      "title": "I’m more worried about who will control AI than AI itself",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8j5tq/im_more_worried_about_who_will_control_ai_than_ai/",
+      "published": "2026-10-17T19:38:10+00:00",
+      "summary": "I know there are many uncertainties about the future of AI and how it could influence the global economy. If you ask ten people what the future will look like, you’ll probably get ten different answers. I genuinely believe AI has enormous potential to improve our quality of life, increase productivity, and allow people to spend less time working just to survive. But I’m also afraid that most of the economic benefits will be captured by a small group of wealthy individuals and corporations, leading to even greater wealth inequality. Historically, people have fought for workers’ rights and better living conditions, but I wonder if that will even be possible in a world where human labor becomes less essential. If people lose their economic leverage, how are they supposed to fight for their rights? Or maybe rights are something we only have because we’ve managed to fight for them in the first place, but that’s another philosophical discussion lol. I also doubt that new jobs will emerge at ",
+      "author": "Affectionate-Lion582"
+    }
+  ]
+}

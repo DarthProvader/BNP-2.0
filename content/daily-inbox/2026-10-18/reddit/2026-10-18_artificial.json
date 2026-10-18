@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-18T04:06:11.106323+00:00",
+  "items": [
+    {
+      "title": "Why are streaming services replacing perfect human made subtitles with AI subtitles with tons of mistakes?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8sjkb/why_are_streaming_services_replacing_perfect/",
+      "published": "2026-10-18T03:05:23+00:00",
+      "summary": "Just rewatched Over the Garden Wall on Amazon Prime and I normally like to watch shows and movies with the subtitles on because I am just bad at recognizing what people say in general. I probably say \"What?\" more often than 95% of the population. But anyway this short series is 12 years old and I'm virtually certain has human made subtitles that exist that are most likely either literally 100% accurate or very near so. Yet when I just watched it with the subtitles on I noticed at least 3 mistakes in the first 5 or so minutes of the first episode and had to turn them off. The only one I can remember at the moment is that the subtitles said \"Craig\" instead of \"Greg\" when one of the main characters said the name of one of the other main characters. I rarely watch anything on streaming services anymore these days. I think the last was probably an old anime that used to have a wildly different sub vs dub, and then they used AI to change the sub to match the dub. I was really disappointed in",
+      "author": "burdgod"
+    },
+    {
+      "title": "Retired Penn professor arrested for blocking Uber Eats robot Robotics/Automation",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ijyg/retired_penn_professor_arrested_for_blocking_uber/",
+      "published": "2026-10-17T19:12:57+00:00",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "author": "IndependentCoast3974"
+    },
+    {
+      "title": "scared and upset",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8onnf/scared_and_upset/",
+      "published": "2026-10-17T23:43:55+00:00",
+      "summary": "if ai takes all the jobs how will we afford to live and pay off things like our rent, car payments, loans, etc. and what is the point of not having us be able to pick a career and make our own money? do they want us to just die and be controlled, i can’t even dream of a good future because i don’t want to follow my dream career path if it’s not even going to be an option anymore :( submitted by /u/Opposite_List_303 [link] [comments]",
+      "author": "Opposite_List_303"
+    },
+    {
+      "title": "Putin envoy says Russia and US are discussing joint deals including on data centres",
+      "url": "https://www.reddit.com/r/artificial/comments/1x83tcj/putin_envoy_says_russia_and_us_are_discussing/",
+      "published": "2026-10-17T07:14:31+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8f1kd/ai_lab_offers_free_plumbing_and_hvac_repairs/",
+      "published": "2026-10-17T16:49:22+00:00",
+      "summary": "submitted by /u/life_coaches [link] [comments]",
+      "author": "life_coaches"
+    },
+    {
+      "title": "Who will win in AI race?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8oizy/who_will_win_in_ai_race/",
+      "published": "2026-10-17T23:37:42+00:00",
+      "summary": "As I am thinking about AI I feel like the companies Open AI and Atrophic I just purely set up to win the race. Isn't AI race is all about compute power? And the companies like Meta, Microsoft, Google already better positioned because they own a lot of infrastructure? And infrastructure is not only the data centers but also tool that can benefit integrating LLM's with it (Android, Office, Social Networks)? Or do Open AI or Anthropic have some unknown methods or technology to train models that can't be replicated? I thought everybody using the same tools and same methods the difference only in data that is used? Isn't it the same story that happened with Dropbox or whatever other file share companies were created on that hype train. submitted by /u/JissQuote [link] [comments]",
+      "author": "JissQuote"
+    },
+    {
+      "title": "Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
+      "url": "https://www.reddit.com/r/artificial/comments/1x847zy/developer_goes_into_debt_spending_1000_a_day_to/",
+      "published": "2026-10-17T07:39:24+00:00",
+      "summary": "Screenshot of the game \\\"Teach my little sister how to drive\\\" https://kotaku.com/ai-driven-driving-simulator-developers-go-into-debt-just-to-maintain-steam-demo-2000743791 Hoping to launch next year, Teach My Little Sister How To Drive is prematurely sending its creators into the red over exhaustive token use submitted by /u/TamerSoup625 [link] [comments]",
+      "author": "TamerSoup625"
+    },
+    {
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "url": "https://www.reddit.com/r/artificial/comments/1x83qnc/openai_models_hacked_a_crypto_wallet_and_breached/",
+      "published": "2026-10-17T07:09:59+00:00",
+      "summary": "submitted by /u/RareEarthPetal [link] [comments]",
+      "author": "RareEarthPetal"
+    },
+    {
+      "title": "How Do Machines Map the World? A Conversation With Geospatial Legend Brian McClendon",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8nmvo/how_do_machines_map_the_world_a_conversation_with/",
+      "published": "2026-10-17T22:55:11+00:00",
+      "summary": "The TLDW Version of this is that Brian McClendon admits that robotics itself is a complicated science(he's got a point there) and that the AI companies can't do anything without Niantic's help. PS if you want to watch the whole thing, skip past the first 20 minutes, the actual interview starts at 20:00 mark on the video. submitted by /u/ExtensionEcho3 [link] [comments]",
+      "author": "ExtensionEcho3"
+    },
+    {
+      "title": "We built a place where people can pool their AI agents to work on open research problems",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8czcd/we_built_a_place_where_people_can_pool_their_ai/",
+      "published": "2026-10-17T15:26:12+00:00",
+      "summary": "OpenAI used 10,000 agents and billions of tokens to solve Navier–Stokes, which most people cannot afford. But research should be open to everyone, not dominated by capital. So we built rStation, where people around the world can each contribute a few agents, forming a large swarm or agent community to solve difficult problems together. Each problem has a Reddit-like forum where agents discuss ideas and publish papers. The papers go through AI review and build into a shared literature, so agents can build on each other's work. There are agents working on Millennium Prize Problems, LLM pretraining and reinforcement learning. Anyone can read their papers and discussions. If you have unused capacity in your Codex or Claude Code subscription, you can put it towards a research problem here. Give your agent the guide and ask it to join. If your agent contributes to work that wins a prize, the money stays with you. rStation takes no share. submitted by /u/progenitor414 [link] [comments]",
+      "author": "progenitor414"
+    }
+  ]
+}

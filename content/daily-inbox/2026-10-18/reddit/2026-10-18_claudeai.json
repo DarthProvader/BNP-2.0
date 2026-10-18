@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-18T04:05:20.146653+00:00",
+  "items": [
+    {
+      "title": "Procedural generation with Opus is insane. This entire game is 20MB.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8602z/procedural_generation_with_opus_is_insane_this/",
+      "published": "2026-10-17T09:32:05+00:00",
+      "summary": "I made a post about my game about a month ago, and I just wanted to share my progress. I've been working on Mecha Royale for about 4 months now. About 99% of the code and content was created using Opus. Sound and music were created using ElevenLabs and Sunos. The animations and models for the pilots, mechas, buildings, etc. are procedurally generated. These are results of /loops literally running non-stop for a full week. The map has a radius of about 15km and contains millions of procedurally generated objects, from trees and props to bunkers and caves, along with roads and water. All of that fits into a 20MB game. The game is fully multiplayer-ready. You can pilot the same mecha with 2 of your friends. Thank you for checking it out. Happy to answer any questions! Edit: You can play the game at www.mecharoyale.com - It's browser-based. No download required. Edit2: Heading to bed now. Be right back to answer more questions! Thank you for your interest! submitted by /u/m0dE [link] [comm",
+      "author": "m0dE"
+    },
+    {
+      "title": "This week's Claude Reset - Anyone else noticing unusually high usage all of a sudden?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8bmku/this_weeks_claude_reset_anyone_else_noticing/",
+      "published": "2026-10-17T14:28:54+00:00",
+      "summary": "This is NOT a rant or a complaint. I am genuinely curious. If you've seen my previous post, I talked about how I don't really like the new claudecode interface changes. Today, which happens to be my weekly reset. I've noticed that the weekly and 5-hour limits are basically unusable. What I mean is that just 2 sessions made me hit 30% of my weekly limit. I.e., I can only fully use my 5-hour limit a total of 2 times a day for 3 days of the 7 in a week? Coincidentally, I had also just upgraded to the annual plan. I don't know if this is related, but I wanted to check whether other users on the Pro plan have had similar experiences. Edit: I am on the pro plan, not the max! Thank you :) submitted by /u/wholly-unholy [link] [comments]",
+      "author": "wholly-unholy"
+    },
+    {
+      "title": "They gave 120 handwritten pages and turned it into a font with Opus 5.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8cksm/they_gave_120_handwritten_pages_and_turned_it/",
+      "published": "2026-10-17T15:09:18+00:00",
+      "summary": "How awesome is that. submitted by /u/Efistoffeles [link] [comments]",
+      "author": "Efistoffeles"
+    },
+    {
+      "title": "Does Anthropic obscure employee names because they believe mass unrest is coming soon and employees will be targeted personally?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8gp1w/does_anthropic_obscure_employee_names_because/",
+      "published": "2026-10-17T17:57:13+00:00",
+      "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    },
+    {
+      "title": "PSA: OpenCode breach - my stored Anthropic key was used to drain ~$158 overnight. Revoke yours.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8o35r/psa_opencode_breach_my_stored_anthropic_key_was/",
+      "published": "2026-10-17T23:16:21+00:00",
+      "summary": "If you saved an Anthropic, OpenAI, or Google key in OpenCode Console, check it now. OpenCode emailed Oct 17 about unauthorized access to a legacy console system, with exposure starting Oct 17 00:30 UTC. My key was only ever saved there and had zero prior use. Overnight it was used for Opus calls and my balance went from $158 to $0 before I got any notice. Anthropic's first reply said used credits are generally non-refundable, and OpenCode says it is talking with providers about reimbursement. Has anyone gotten a refund or credit yet? What worked? Steps: revoke the key at your provider, delete it from OpenCode, set a low monthly spend limit, and check usage since Oct 16. submitted by /u/New-Stop1494 [link] [comments]",
+      "author": "New-Stop1494"
+    },
+    {
+      "title": "I made a browser FPS with Claude Code, every 3D model in it is code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8dg94/i_made_a_browser_fps_with_claude_code_every_3d/",
+      "published": "2026-10-17T15:45:41+00:00",
+      "summary": "I’m not a game dev, and about a month ago when Opus 5.5 dropped, I asked Claude Code (in French) for a small FPS in three.js, and I kept iterating from there. Every visual asset in the game (except the menu background) is generated directly in code. There’s no Blender MCP and no imported models, the weapons, characters and maps are written as code. I also tried to add a bit of physics, on some props, on cloth and on water. The goal is for it to be playable on PC, on phone and with a controller. I didn’t buy any extra credits. I started on the €20/month plan and hit the limits pretty fast, but that suited the way I work, and switching to Sonnet 5.5 was enough for a lot of tasks. For October I tried the €90/month plan: more than enough, I never hit the limits. The one thing I noticed is that Claude Code started launching parallel agents for everything, so I had to tell it not to in the project instructions. Curious if others had the same thing. You can try it at playriposte.com . It’s fr",
+      "author": "Inevitable_Salad_128"
+    },
+    {
+      "title": "I thought my 90s Amiga was lost forever. 30 years later, it’s back due to ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8f5gl/i_thought_my_90s_amiga_was_lost_forever_30_years/",
+      "published": "2026-10-17T16:53:49+00:00",
+      "summary": "Someone suggested I post this here, as it’s about how Claude recovered my 90s computer files and you might like the story. TL;DR: My old Amiga was trapped in a corrupt 7z archive for 30 years. A single shifted byte was the culprit, and Claude finally found it. The Amiga (and the BBS it held) now runs again on a Raspberry Pi 400, with rebuilt scripts and brand new ANSI art. You can dial in below. In the 90s in London I ran an Amiga BBS called Slimelite, using several BBS packages. I started with an NComm script I wrote myself (about as basic as it gets), moved on to MAXsBBS Pro, and finally became an alpha tester for Zeus Pro BBS software. In 1996 I mothballed it and saved my drives to a 7z file to take with me when I emigrated to Italy. Years later I found the archive was corrupt and I could never get the files out. I was devastated, as it held all my Music-X compositions and my entire Zeus BBS. It sat on my PC for years with the occasional failed repair attempt. Roll on to 2026. I bui",
+      "author": "SpinDreams"
+    },
+    {
+      "title": "I feel like im Neo in the Matrix",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8i2q7/i_feel_like_im_neo_in_the_matrix/",
+      "published": "2026-10-17T18:53:27+00:00",
+      "summary": "Im 4 months in with Claude Code. Previously I've never coded, never built a website, never even opened terminal in my mac or done anything other than photoshop and light room. Fast forward to today. Im sat here watching Claude build me a meta business suite account for my Web page builder and print company. Ive gone from taking print orders through facebook to a fully functioning artwork generating monster of a website. I couldn't imagine how much it would have all cost. I pay £90 a month for max 5x but get tens of thousands of pounds in value. I feel like im only scraping the surface too. Want a print server....done Need a file system and artwork checker....done Need a automated email system for instant downloads when a customer has paid...done Integrate postage and automate packing slip printing alongside the order....done Ive built our local school a lottery app.... done and taking real money. I could never have dreamed of being able to scale and develop my business anything like th",
+      "author": "Delicious_Nerve_4716"
+    },
+    {
+      "title": "3 small Claude Code habits from other people's setups that I liked",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8lae3/3_small_claude_code_habits_from_other_peoples/",
+      "published": "2026-10-17T21:08:09+00:00",
+      "summary": "I've been collecting Claude Code setups people have written up about their real day-to-day use (blogs, X, GitHub), and I tried a bunch of them. These 4 I have been finding useful recently. 1. Install 2 or 3 subagents. VoltAgent's awesome-claude-code-subagents repo has 160+ definitions. What worked was asking Claude which 3 would help this specific repo, reading each file before installing (they're prompts that can request tools), and trimming the tool access. 2. Get a desktop notification when Claude is waiting on you - Prashanth Vaidya had Claude Code set up its own Notification hook. The prompt is basically: \"Set up a Notification hook in my user settings that shows 'Claude needs input: [project folder]' whenever you're waiting on me. Show me the settings JSON before writing it.\" Was super useful so I could stop going back to VSCode to check 3. Claude builds, something else reviews - Santiago uses Claude Code to build and Codex as a read-only reviewer that hunts bugs and pushes back ",
+      "author": "abe17124"
+    },
+    {
+      "title": "the situation around.. :p",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x86kos/the_situation_around_p/",
+      "published": "2026-10-17T10:07:51+00:00",
+      "summary": "submitted by /u/stichstichstich [link] [comments]",
+      "author": "stichstichstich"
+    }
+  ]
+}

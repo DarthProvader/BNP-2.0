@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-10-18T04:02:22.315139+00:00",
+  "items": [
+    {
+      "title": "Létající Tesla Roadster 🚀 OpenAI řeší „mimozemskou“ matematiku a v kanceláři našli špiona",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/Ltajc-Tesla-Roadster--OpenAI-e-mimozemskou-matematiku-a-v-kanceli-nali-piona-e3qkuu3",
+      "published": "2026-10-17T08:54:11+00:00",
+      "summary": "V novém díle rozebíráme nový Tesla Roadster, který zvládá létání, extrémní akceleraci i backflip, a porovnáváme ho s novým Porsche Mission S. K tomu Apple Home View, iPhone Duo a spekulace o prvním dotykovém MacBooku.Řešíme taky proaktivní AI agenty v praxi – Jarda nechal Boba naplánovat celé výročí a agent sám zavolal do restaurace, aby domluvil překvapení. OpenAI mezitím tvrdí, že jeho interní model vyřešil stovky matematických problémů, řeší vlastní špionážní aféru a v Dánsku unikla data téměř devíti milionů lidí kvůli údajnému heslu „123456“.Na závěr odhalujeme další speakerku pro Fantastic Future Summit. Do Fora Karlín dorazí Barbara Paldus (CEO Codex Labs) s vhledem do propojování biotechu, longevity a tvrdého byznysu. Zážitek na místě doplní káva od Doubleshotu, Cans a náš Experience partner VISA.Pro týmy a boardy jsme spustili zvýhodněné B2B balíčky. A pokud máte o víkendu chvíli, přečtěte si článek na Hrot24, který shrnuje, co v prosinci v Karlíně chystáme.00:00 Úvod02:45 Léta",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}
