@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-19T04:05:10.342056+00:00",
+  "items": [
+    {
+      "title": "Adobe, Office, Outlook, ElevenLabs: AI is cloning all of it in Rust",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9dl1f/adobe_office_outlook_elevenlabs_ai_is_cloning_all/",
+      "published": "2026-10-18T20:31:44+00:00",
+      "summary": "(Made a lil trailer for this, starring the apps themselves. Every clip is the real app running btw.) BrowseCraft : a small web browser written in Rust, with tabs, a built-in ad blocker, and its own rendering engine. (They built their own HTML/CSS layout & rendering engine in Rust, plus a Brave-style ad blocker. In the trailer it's literally rendering remade.wiki with it!) How We Got Here (In Case You Missed the Last 2 Weeks) The Adobe Massacre: It all started when @storytold went viral with I've created Open Source 100% Rust replacements for 7 of Adobe's apps (now at 168,000+ combined GitHub stars , PhotoCraft alone at 67k). The Microsoft 365 Weekend Speedrun: A week later, we got pure Rust Word, Excel and PowerPoint (90% core functionality and 501/523 Excel formulas, according to the readme). Someone even vibe-coded craft-vba so the Excel clone runs legacy corporate VBA macros. 100+ Enterprise Monopolies on a Hit List: And now there are 100+ paid apps clean-room reimplemented in Rust,",
+      "author": "Numerous-Campaign844"
+    },
+    {
+      "title": "Anthropic at $2 Trillion vs. 35 SaaS Companies at $948 Billion — Are AI Valuations Getting Out of Control?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9ain3/anthropic_at_2_trillion_vs_35_saas_companies_at/",
+      "published": "2026-10-18T18:29:34+00:00",
+      "summary": "​ This comparison is absolutely insane. According to this graphic: Anthropic valuation: $2 trillion 35 SaaS companies combined: $948 billion Anthropic quarterly revenue: $11.5 billion 35 SaaS companies' combined quarterly revenue: $53.4 billion That means Anthropic is supposedly valued at more than 2x the combined market cap of 35 SaaS companies, despite generating roughly 4.6x less revenue. We're talking about established software giants like Salesforce, Adobe, SAP, ServiceNow, Intuit, and many others. I understand that AI has massive growth potential, but this valuation gap raises some serious questions. Are investors pricing in an entirely new economic revolution, or are we witnessing another massive tech bubble? Genuinely curious what everyone thinks: Can AI companies realistically justify these valuations? Is traditional SaaS being undervalued because of AI disruption fears? Are we entering a new era of software, or repeating the dot-com bubble? What's your take? Is AI really wort",
+      "author": "Soggy_Perspective776"
+    },
+    {
+      "title": "A Super Mario 64 demake for the GBA built with Claude. Mario’s physics are bit-identical to the original",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x99sel/a_super_mario_64_demake_for_the_gba_built_with/",
+      "published": "2026-10-18T18:00:42+00:00",
+      "summary": "I built this with Claude as an experiment: how far can an LLM take a demake if I steer it but don’t write the code? I chose the project, the direction and the trade-offs. Claude wrote the code, the tests and the tooling. Repo: https://github.com/Kodoque1/sm64-gba (MIT, free) What it is SM64’s movement and collision code running under GBA constraints: a 16.8 MHz ARM7 with no FPU. A playable demo: 4 levels, software 3D, Mario animated with the game’s own animation data. An optional libsm64-style import: it reads your ROM to build in Mario’s real model and the real level meshes. The repo contains nothing from Nintendo. How Claude was used My instructions were short (“bit-exact first”, “now optimize”, “make a fluid demo, degrade gracefully”). Claude worked in an agentic session with a toolchain and a headless emulator, profiling, rewriting and checking on its own. The design discussions were the best part. When I asked whether an animated Mario was possible, Claude declined to draw Mario’s",
+      "author": "Nervous_Cold8493"
+    },
+    {
+      "title": "My side project made $130 in its first month. A few thoughts",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9668n/my_side_project_made_130_in_its_first_month_a_few/",
+      "published": "2026-10-18T15:35:45+00:00",
+      "summary": "It’s been a month since I launched my website, and honestly I’m surprised it made any money at all. It runs on affiliate links, and almost all of the traffic comes from Reddit. Link: https://shapefinder.cc/ Some background: I’ve been a UI/UX designer for 8 years. AI lets me build small projects that I never could have pulled off on my own before. The idea came from my own frustration and from questions my friends kept asking me. I’m pretty deep into PC peripherals, so I get “is this mouse/keyboard any good?” a lot. One evening I decided to build a really simple tool to help with that. I posted it on Reddit, and to my surprise people really liked it. I’m not going to pretend it’s some massive success, but it makes me really happy that people actually get something out of it. I built the whole thing in Claude Code, and it’s been constant iteration: tweaking the UI, reworking the matching algorithm, adding features. Feedback from actual users helped me more than anything. A lot of what’s ",
+      "author": "don_gustavo"
+    },
+    {
+      "title": "So this is who Claude talks like",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9htl4/so_this_is_who_claude_talks_like/",
+      "published": "2026-10-18T23:40:39+00:00",
+      "summary": "Retroactive abortion notwithstanding. Or is it just me? submitted by /u/ferrum_salvator [link] [comments]",
+      "author": "ferrum_salvator"
+    },
+    {
+      "title": "Claude solved a 25 year old NSA cryptography mystery in 30 minutes. Its first reaction was to throw shade at us 🥲 \"is it suspicious that such an obvious thing wasn't discovered in 25 years?\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/",
+      "published": "2026-10-18T05:31:08+00:00",
+      "summary": "Source: https://www.anthropic.com/research/ecdsa-curve-origins submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    },
+    {
+      "title": "Anthropic is putting 5% of its shares into a new Public Benefit Fund",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9knze/anthropic_is_putting_5_of_its_shares_into_a_new/",
+      "published": "2026-10-19T02:01:34+00:00",
+      "summary": "Anthropic announced yesterday they're committing 5% of company shares to a new Public Benefit Fund, pending stockholder approval. Details so far: - Board can add another 2% for every 50% increase in company value above some baseline (not disclosed) - Structured as an LLC, they say for flexibility in how the money gets used - Could go to nonprofit donations, direct distributions, or programs for workers affected by AI - More on governance and the valuation milestones \"in the coming months\" Timing is interesting, Q3 revenue was reportedly $16.8B and the IPO is rumored for November. At a ~$1.5-2T valuation 5% is a lot of money. Curious what people think. Real commitment or IPO PR? submitted by /u/emarkosov [link] [comments]",
+      "author": "emarkosov"
+    },
+    {
+      "title": "Accenture just capped Claude spend at $29/person after some staff hit $1,000 months. Most companies are wasting the same money.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9itd3/accenture_just_capped_claude_spend_at_29person/",
+      "published": "2026-10-19T00:28:22+00:00",
+      "summary": "This week Accenture told staff the company will only centrally fund about $29 a month per person for Claude. Some people had been running $500–$1,000 months. That is what a \"successful\" rollout looks like when nobody knows what Claude is for: seats get used for slides, emails, and summaries, the bill climbs, finance slams a cap, and the people who were actually doing real work get cut with everyone else. Anthropic already said why this happens. In their Economic Index last year they wrote that deploying AI for complex work \"might be constrained more by access to information than on underlying model capabilities.\" In my experience after doing 100+ Claude Rollouts, there's 5 key things to make sure you are making the most out of Claude when dealing with a company rollout: Stop reporting weekly active users. Report whether a handoff stopped happening by hand. One shared Project per recurring job — not one Project called \"Finance.\" Finish connector setup Turn how your best people work into",
+      "author": "Panic_Lion"
+    },
+    {
+      "title": "Claude designed quantum circuits up to 39x cheaper than the best published ones",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/",
+      "published": "2026-10-18T14:54:30+00:00",
+      "summary": "The rate of progress is just insane submitted by /u/mawcopolow [link] [comments]",
+      "author": "mawcopolow"
+    },
+    {
+      "title": "Anthropic is on track to stop hiring technical juniors next year",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x90vwp/anthropic_is_on_track_to_stop_hiring_technical/",
+      "published": "2026-10-18T11:27:05+00:00",
+      "summary": "submitted by /u/Confident_Salt_8108 [link] [comments]",
+      "author": "Confident_Salt_8108"
+    }
+  ]
+}

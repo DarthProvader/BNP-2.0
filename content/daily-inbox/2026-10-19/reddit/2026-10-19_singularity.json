@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-19T04:03:58.113988+00:00",
+  "items": [
+    {
+      "title": "Anthropic creates a public benefit fund, pledging 20% of its shares to the public good, with another 2% potentially added for every 50% increase in its valuation",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9a50t/anthropic_creates_a_public_benefit_fund_pledging/",
+      "published": "2026-10-18T18:14:32+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Yann Lecun: Tesla \"Flying\" Roadster Is A Marketing Stunt",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9m4a7/yann_lecun_tesla_flying_roadster_is_a_marketing/",
+      "published": "2026-10-19T03:17:32+00:00",
+      "summary": "I'm definitely not anti-achievement and never criticized real achievements, including by Elon. I even own two Teslas. I do expose marketing stunts that, while cool on the surface, are not the achievements they are claimed to be. Compressed air thrusters might give you acceleration boosts in any direction. They might even make your car hover for a couple of seconds if you accept replacing the passenger seat by a 400 liter high-pressure air tank. But they are not a path to actual flying cars. The same way Burt Rutan's SpaceshipOne was never going to be a path to orbital flights (just bunny hops out of the atmosphere). I am anti-Musk when it comes to politics. His political actions, the massive dissemination of disinformation through X and other channels, and his support for authoritarian regimes and racist ideas have the effect of weakening democracy and weakening human decency and social progress around the world. https://x.com/ylecun/status/2111880905891414253 submitted by /u/Neurogenc",
+      "author": "Neurogence"
+    },
+    {
+      "title": "Six frontier AIs competed to design and 3D-print egg-protecting capsules. Claude Opus 5.5's egg survived a 20-foot drop without a crack. GPT-6 Astra failed at 8 feet, while Gemini 4 Argon, Grok 4.7, Qwen 3.8-Max, and Muse Wonder failed at 4 feet. Claude dominates another real-world engineering chall",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9m4gs/six_frontier_ais_competed_to_design_and_3dprint/",
+      "published": "2026-10-19T03:17:48+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9hhxw/deepseek_v41_flash_1017_beats_larger_rivals_in/",
+      "published": "2026-10-18T23:24:50+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "AI is getting better at doing real science while becoming dramatically cheaper. GPT-6 Astra takes #1 in scientific research, beating Claude Sonnet 5.5 while using 22× fewer tokens. GPT-6.1 Sol also beats Sonnet at nearly 1/10th the cost. Scientific research is starting to scale with compute.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9gr8k/ai_is_getting_better_at_doing_real_science_while/",
+      "published": "2026-10-18T22:48:57+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Chinese researchers solve 3D Ghys conjecture with homegrown AI model",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9d9hk/chinese_researchers_solve_3d_ghys_conjecture_with/",
+      "published": "2026-10-18T20:18:33+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.reddit.com/r/singularity/comments/1x8ztaj/how_employment_is_changing_at_anthropic/",
+      "published": "2026-10-18T10:23:12+00:00",
+      "summary": "submitted by /u/soldierofcinema [link] [comments]",
+      "author": "soldierofcinema"
+    },
+    {
+      "title": "How much further ahead is the gap between what we have versus the labs have internally?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9eiur/how_much_further_ahead_is_the_gap_between_what_we/",
+      "published": "2026-10-18T21:10:56+00:00",
+      "summary": "Curious what the gap between what OpenAI and Anthropic have in the labs versus we have as publicly available models. Sometimes listening to these researchers talk makes it seem like they’re hyping their product but they claim what they have is significantly more powerful. In Ai 2027 they hold onto models internally for basically half the year. What’s likely true? submitted by /u/shadowt1tan [link] [comments]",
+      "author": "shadowt1tan"
+    },
+    {
+      "title": "AI Safety Is Not A Corporate Plot",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9j3ot/ai_safety_is_not_a_corporate_plot/",
+      "published": "2026-10-19T00:42:56+00:00",
+      "summary": "submitted by /u/SammaVaco [link] [comments]",
+      "author": "SammaVaco"
+    },
+    {
+      "title": "Ramifications of mechanistic interpretability",
+      "url": "https://www.reddit.com/r/singularity/comments/1x98jz5/ramifications_of_mechanistic_interpretability/",
+      "published": "2026-10-18T17:12:01+00:00",
+      "summary": "submitted by /u/spinozasrobot [link] [comments]",
+      "author": "spinozasrobot"
+    }
+  ]
+}

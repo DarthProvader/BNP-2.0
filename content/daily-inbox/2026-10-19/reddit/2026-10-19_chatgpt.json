@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-19T04:04:19.116190+00:00",
+  "items": [
+    {
+      "title": "Harari warns AI could soon reduce humans to the cows of the future",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9jq9i/harari_warns_ai_could_soon_reduce_humans_to_the/",
+      "published": "2026-10-19T01:14:05+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "Literally",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x91mlr/literally/",
+      "published": "2026-10-18T12:07:45+00:00",
+      "summary": "submitted by /u/ExpensiveCoat8912 [link] [comments]",
+      "author": "ExpensiveCoat8912"
+    },
+    {
+      "title": "It is what it is 💀",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9ajll/it_is_what_it_is/",
+      "published": "2026-10-18T18:30:36+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "NPCs can talk back now | from universal modder on X: \"Introducing NPCTalk: make the NPCs of any game talk in realtime. I made every NPC in GTA V answer to me in character, in their own cloned voice, in under 1s, and they act on what you say.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x93coy/npcs_can_talk_back_now_from_universal_modder_on_x/",
+      "published": "2026-10-18T13:33:30+00:00",
+      "summary": "Packaged all the skills Claude learned into a single repo, built on open models: NVIDIA Nemotron ASR for transcription, Qwen 3.8 27B for realtime dialogue, and Fish Audio Drama 3 for the cloned voices, self-hosted on a serverless GPU. \" submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "PSA: Do NOT connect your gmail and drive with your Dots at the moment",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9ik3x/psa_do_not_connect_your_gmail_and_drive_with_your/",
+      "published": "2026-10-19T00:15:38+00:00",
+      "summary": "Currently, phishers are sending mass emails with prompts and instructions to your agents, that's connected to your gmail, pc, drive, etc., to send them personal information or install malicious malware to your PC that they have attached with the email. They take the prompt as your own and just follow the instructions. So, until this issue has been addressed, I would not use Dots with access to your accounts. submitted by /u/PremierOW [link] [comments]",
+      "author": "PremierOW"
+    },
+    {
+      "title": "Glitch",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9lq2t/glitch/",
+      "published": "2026-10-19T02:56:56+00:00",
+      "summary": "submitted by /u/Extra-Interaction500 [link] [comments]",
+      "author": "Extra-Interaction500"
+    },
+    {
+      "title": "Mmmmm",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9jdr9/mmmmm/",
+      "published": "2026-10-19T00:57:10+00:00",
+      "summary": "submitted by /u/Seif-Sayed [link] [comments]",
+      "author": "Seif-Sayed"
+    },
+    {
+      "title": "Y’all need to learn it",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x9kyrg/yall_need_to_learn_it/",
+      "published": "2026-10-19T02:17:06+00:00",
+      "summary": "submitted by /u/Amaldevhari [link] [comments]",
+      "author": "Amaldevhari"
+    },
+    {
+      "title": "My mate tried this prompt, what reply would it give you?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x8zbue/my_mate_tried_this_prompt_what_reply_would_it/",
+      "published": "2026-10-18T09:53:14+00:00",
+      "summary": "submitted by /u/lagrangedanny [link] [comments]",
+      "author": "lagrangedanny"
+    },
+    {
+      "title": "Do you ever use ChatGPT as a thinking partner when you feel unheard by the people in your life?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1x979qn/do_you_ever_use_chatgpt_as_a_thinking_partner/",
+      "published": "2026-10-18T16:19:52+00:00",
+      "summary": "Genuine question: Do any of you ever use ChatGPT as someone to talk to when you feel like the people around you aren't really interested in what you have to say? I'm not talking about believing AI is a literal human being or replacing every relationship in your life with a chatbot. I'm talking about having somewhere to vent, process your thoughts, talk about your interests, or work through something that's bothering you without immediately feeling judged. For example, I'm a creative person. I've written books and developed different creative projects over the years. Today is actually the third anniversary of my first book's release, and I was excited about revisiting it. I mentioned the anniversary to someone in my family, but the conversation quickly shifted to something else. I know that not everyone is going to be equally interested in my projects. I understand that other people have their own lives, interests, and things going on. I'm not expecting everyone to celebrate every littl",
+      "author": "therealsssp"
+    }
+  ]
+}

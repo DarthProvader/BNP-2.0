@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-19T04:06:01.408405+00:00",
+  "items": [
+    {
+      "title": "Is anyone else feeling severe burnout from the current pace of AI releases?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x98bit/is_anyone_else_feeling_severe_burnout_from_the/",
+      "published": "2026-10-18T17:02:46+00:00",
+      "summary": "Maybe it's just me, but trying to keep up with the state of the art right now feels less like following an industry and more like running on a treadmill that keeps speeding up for no apparent reason. Every single week there's a new model, a new benchmark claim, or a new \"paradigm-shifting\" agent framework that’s supposed to completely rewrite how we work. But when you actually look at day-to-day implementation, half the time it feels like we're just recycling the same core workflows with slightly better wrappers, while chasing marginal gains at massive infrastructure costs. I spend a good chunk of my day dealing with these tools, and lately I've found myself actively tuning out the hype. I care way more about boring things like stable local inference, deterministic outputs, and actually finishing a project without a dependency breaking, rather than whether Model X scored two points higher on a benchmark I'll never use. Are developers and enthusiasts actually exhausted by this relentles",
+      "author": "irish_burke"
+    },
+    {
+      "title": "Is AI helping speeding up the medical research?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x955ia/is_ai_helping_speeding_up_the_medical_research/",
+      "published": "2026-10-18T14:53:28+00:00",
+      "summary": "Are we seeing any results here, is AI helping the process? So many people are suffering from chronic illnesses. Conditions that are not curable today but could be in the future. How much is AI helping humanity reaching a state where more chronic conditions could be cured once and for all? It would be a disappointment if AI was only used to level up technology, I hope it could help the medical research today. We're living in 2026 and there shouldn't be so much suffering from chronic disorders. I hope AI could help the research and in the future give these people their lives back. What do you think, are you optimistic when it comes to AI's chances of helping medical research? submitted by /u/jorgenalm [link] [comments]",
+      "author": "jorgenalm"
+    },
+    {
+      "title": "No scripts: a virtual fly driven by its real brain wiring diagram (70k simulated neurons), live 24/7",
+      "url": "https://www.reddit.com/r/artificial/comments/1x9mxzl/no_scripts_a_virtual_fly_driven_by_its_real_brain/",
+      "published": "2026-10-19T04:03:23+00:00",
+      "summary": "Body: > Not an RL agent and not a behaviour tree — the \"policy\" is a spiking simulation of a real fly connectome, and the body > is a MuJoCo fly whose legs are moved by an imitation-learned network. It sees, smells wind-borne odor, gets scared by > spiders, grooms, lands, eats. Everything that isn't the brain is labelled on screen. Live: twitch.tv/dodo_gun submitted by /u/WatchInternational89 [link] [comments]",
+      "author": "WatchInternational89"
+    },
+    {
+      "title": "US Artificial Intelligence Expansion Faces Major Hurdles",
+      "url": "https://www.reddit.com/r/artificial/comments/1x9g6ec/us_artificial_intelligence_expansion_faces_major/",
+      "published": "2026-10-18T22:22:13+00:00",
+      "summary": "submitted by /u/rawsynergy [link] [comments]",
+      "author": "rawsynergy"
+    },
+    {
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ux7x/ai_lab_offers_free_plumbing_and_hvac_repairs/",
+      "published": "2026-10-18T05:20:19+00:00",
+      "summary": "An AI company called HUMXN is trying something interesting: it's offering free plumbing, electrical, HVAC, and other home services to qualifying homeowners in exchange for collecting real-world training data. The program is launching in Minneapolis, Chicago, and Miami. During the jobs, technicians use wearable recording technology to capture how they inspect problems, choose tools, and complete repairs. The goal is to help AI systems learn how skilled workers interact with the physical world, rather than relying entirely on text and images from the internet. This makes sense when you think about it. A robot can't learn to fix a complicated plumbing issue just by reading about plumbing. It needs data about the actual steps, decisions, tools, and unexpected situations involved. I'm curious about one thing, though: Could collecting real-world work data like this be the missing piece in making physical AI and robots genuinely useful in everyday life? And would you let a technician record t",
+      "author": "IndependentCoast3974"
+    },
+    {
+      "title": "Which AI limitations have you stopped waiting on and just learned to work around?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x97l6n/which_ai_limitations_have_you_stopped_waiting_on/",
+      "published": "2026-10-18T16:32:45+00:00",
+      "summary": "not looking for rants, just curious what people have accepted and how they deal with it. things like wrong dates, long documents, or drifting from instructions. what do you do about it in practice? submitted by /u/NormalWrangler937 [link] [comments]",
+      "author": "NormalWrangler937"
+    },
+    {
+      "title": "Distillation attack on OpenCode drains users' API keys for Anthropic, OpenAI, Google models",
+      "url": "https://www.reddit.com/r/artificial/comments/1x91a46/distillation_attack_on_opencode_drains_users_api/",
+      "published": "2026-10-18T11:49:21+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "Has anyone found a way to reverse engineer Alexa yet? I'd like to customize it my own way",
+      "url": "https://www.reddit.com/r/artificial/comments/1x93tdo/has_anyone_found_a_way_to_reverse_engineer_alexa/",
+      "published": "2026-10-18T13:54:57+00:00",
+      "summary": "Title submitted by /u/xMoonknightx [link] [comments]",
+      "author": "xMoonknightx"
+    },
+    {
+      "title": "In the AI era and Windows 11 times, can you troubleshoot old school ms-dos PC?",
+      "url": "https://www.reddit.com/r/artificial/comments/1x9gcdz/in_the_ai_era_and_windows_11_times_can_you/",
+      "published": "2026-10-18T22:29:47+00:00",
+      "summary": "try your own retro pc here https://retro.bioneural.de/ you can even add own retro pc parts, setup bios (not everything is set), you can install own msdos software, delete, damage, like with real old pc ;) for some it admins, challenges awaits, old school msdos scenarios , from simple ones to tough ones. submitted by /u/No_Twist_678 [link] [comments]",
+      "author": "No_Twist_678"
+    },
+    {
+      "title": "Even LinkedIn is getting tired of your AI-written posts",
+      "url": "https://www.reddit.com/r/artificial/comments/1x90hey/even_linkedin_is_getting_tired_of_your_aiwritten/",
+      "published": "2026-10-18T11:03:34+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    }
+  ]
+}
