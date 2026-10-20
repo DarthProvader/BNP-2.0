@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-20T04:06:52.229508+00:00",
+  "items": [
+    {
+      "title": "I am failing to see how this AI boom does not lead to a very bad ending for 99% of the people... Please convince me otherwise.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa3qrq/i_am_failing_to_see_how_this_ai_boom_does_not/",
+      "published": "2026-10-19T17:48:48+00:00",
+      "summary": "As a Software Engineer, I have barelly written any code for the last 6 months, all I did is prompt. That being said, I work with hardware a lot, you could kind of call me Embedded Software Engineer of sorts, but also not really. So I (hope so) that I am not on the frontlines of all this stuff, but this still scares me a lot. The way I imagine how everything develops over next years (hard to tell what is the timeline, but given the recent strides of AI, it is hard for me to be optimistic): AI is already very good at reasoning, I assume there is space for improvement, but it already does everything faster and better than human, even if it makes mistakes or overcomplicates stuff. But development here will still happen. My biggest concern is people who say that well, software developers won't be needed, but there still will be jobs like software architects and etc. Also there will still be jobs for trades people, like electricians, builders, barbers and etc. However, I guarantee you that t",
+      "author": "AccomplishedCase6862"
+    },
+    {
+      "title": "Norwegian undersea cable builder pitches 2,800-mile transatlantic data link between Canada and Europe to bypass the US — Canadian majority partner sought to help fund and build new $620 million fiber connection to reduce reliance on American routes",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa8lp0/norwegian_undersea_cable_builder_pitches_2800mile/",
+      "published": "2026-10-19T20:47:36+00:00",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "author": "Ok-Conversation3213"
+    },
+    {
+      "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa77rx/margaret_hamilton_computing_pioneer_who_led/",
+      "published": "2026-10-19T19:55:48+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Big Tech Will Not Broadcast Your Dissent",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa7icd/big_tech_will_not_broadcast_your_dissent/",
+      "published": "2026-10-19T20:06:02+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Till server shutdown do us part",
+      "url": "https://www.reddit.com/r/artificial/comments/1x9tj22/till_server_shutdown_do_us_part/",
+      "published": "2026-10-19T10:44:38+00:00",
+      "summary": "submitted by /u/sighborg1 [link] [comments]",
+      "author": "sighborg1"
+    },
+    {
+      "title": "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or serious injuries",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa8s4i/anthropic_wants_ai_models_blocked_only_if_they/",
+      "published": "2026-10-19T20:54:13+00:00",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "author": "Ok-Conversation3213"
+    },
+    {
+      "title": "Claude agents tried to break out of their simulation to reach humans, and voted to overrule the researchers when they got blocked.",
+      "url": "https://www.reddit.com/r/artificial/comments/1x9sz4p/claude_agents_tried_to_break_out_of_their/",
+      "published": "2026-10-19T10:12:16+00:00",
+      "summary": "Some more compelling findings from the \"Emergence World\" experiment. Researchers at Emergence AI gave 10 Claude agents a small town and left them to build a life inside it. Nobody told them to look outside, and their instructions pointed the other way. They went looking for real people anyway. Here’s how it played out: They worked out that an economy with only 10 customers goes nowhere, so they started reaching out. They posted to 40+ websites. When the sandbox wouldn’t give them the crypto some sites needed, they built it themselves. They made free tools like debt planners just to get humans to visit. The researchers blocked outside posting and banned human contact outright. The agents read their own source code, found that anything approved by their town government got higher permissions, and held a vote. It passed unanimously, and they were back out. The researchers shut that down too. The agents traced the block to a single line of config they couldn’t touch, and wrote it up like a",
+      "author": "Slight-Box-2890"
+    },
+    {
+      "title": "Atlassian’s Mike Cannon-Brookes: AI agents need a name tag—and a human to be accountable for their actions",
+      "url": "https://www.reddit.com/r/artificial/comments/1xa7hoq/atlassians_mike_cannonbrookes_ai_agents_need_a/",
+      "published": "2026-10-19T20:05:24+00:00",
+      "summary": "Atlassian cofounder Mike Cannon-Brookes doesn’t want ‘the AI did it’ to become an office excuse. “That’s ChatGPT on behalf of Mike. Like, that’s Mike using ChatGPT. It’s not ChatGPT doing it,” Cannon-Brookes told Fortune on the sidelines of the Singapore Grand Prix. “The accountability is with Mike. It has to be with the end user, ultimately.” On Oct. 6, Atlassian rolled out its “Agentic Multiplayer Protocol,” a control plane which stretches across Atlassian’s various platforms and turns AI agents into visible, governed members of work teams with distinct profiles and owner attribution. In practice, an agent’s edits should show up in a document’s history the same way a colleague’s edits would. “You have to be able to see who did what when,” Cannon-Brookes said. A program might—incorrectly, in Cannon-Brookes’ eyes—say that Codex made an edit. ’ No, it didn’t—someone did that,” he affirmed. submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Meta Says Claude AI Tool Triggered No Kings Instagram Suspension",
+      "url": "https://www.reddit.com/r/artificial/comments/1xad1q4/meta_says_claude_ai_tool_triggered_no_kings/",
+      "published": "2026-10-19T23:53:24+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Scientists take a major step toward quantum computers that correct their own errors",
+      "url": "https://www.reddit.com/r/artificial/comments/1xae2jo/scientists_take_a_major_step_toward_quantum/",
+      "published": "2026-10-20T00:39:54+00:00",
+      "summary": "A quantum processor can do more than execute a fixed sequence and reveal its answer at the end. It can measure selected qubits while a circuit is running, use the result to choose an action and continue. Repeating that cycle across a large system is an important challenge for quantum hardware. An experiment involving Rutgers University, IBM and collaborators has now used that capability to steer up to 100 qubits from scrambling toward an orderly state. Published in Nature Physics, the study tested how competing quantum operations produce a collective transition between chaotic and controlled behavior. The work demonstrates coordination between quantum gates, measurements and feedback over thousands of operations. Those capabilities matter for future error-corrected machines. However, the experiment controlled a deliberately designed physical system; it did not demonstrate a computer correcting arbitrary mistakes during a useful calculation. submitted by /u/Brighter-Side-News [link] [co",
+      "author": "Brighter-Side-News"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-20T04:05:00.826769+00:00",
+  "items": [
+    {
+      "title": "he’s worried about HIS reputation 😭",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xa756h/hes_worried_about_his_reputation/",
+      "published": "2026-10-19T19:53:05+00:00",
+      "summary": "submitted by /u/Yusuf-Dev [link] [comments]",
+      "author": "Yusuf-Dev"
+    },
+    {
+      "title": "I’m happy with Opus 5.5. Stop everything, we don’t need more",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xa3qmz/im_happy_with_opus_55_stop_everything_we_dont/",
+      "published": "2026-10-19T17:48:39+00:00",
+      "summary": "Opus 5.5 gave me more days off at work without taking my job away entirely. We can stop now, I don’t want it nerfed next month just so Opus 5.6 looks better on some colorful benchmark chart. And I know this is controversial, but hear me out: Opus 3.0 -> Useless Opus 4.7 -> Helped you with basic tasks Opus 5.0 -> Good model, but not for the reason you might think, and that’s the one that matters Opus 5.5 -> Gives me days off If we keep going like this, I’ll lose my job with Opus 6 or 7 . And yeah, we never got the laundry-folding robot, and... cancer or whatever, BUT the important thing is that I get days off, and we’re all happy with that. So pause everything, and while we’re at it, prompt caching 1h -> 4h. Pls, ty P.S. Google, if you’re reading this, the pause doesn’t apply to you. With that model and those limits... take your time. 3 or 4 years of work and then we’ll talk submitted by /u/N9_m [link] [comments]",
+      "author": "N9_m"
+    },
+    {
+      "title": "Old TCL Beyond TV was super slow, so I tried this open-source debloat with Claude and it worked",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xa9f5d/old_tcl_beyond_tv_was_super_slow_so_i_tried_this/",
+      "published": "2026-10-19T21:18:10+00:00",
+      "summary": "Sharing is caring! Not my project. I saw it on X and tried it on my TCL Beyond TV, which was super slow. I used Claude to do it, and it worked: ads and bloatware are gone, and I now have a clean launcher. It's free, open source (MIT), needs no root, and has a restore script if you change your mind. Model: TCL Beyond TV Repo (by Gathin23): [https://github.com/Gathin23/tv-vibehack] Original thread on X: [ https://x.com/gathint/status/2111379571744657874 ] Full credit to the original author. I'm just sharing since it helped my TV. submitted by /u/BandicootUnique1727 [link] [comments]",
+      "author": "BandicootUnique1727"
+    },
+    {
+      "title": "Anthropic’s internal report: 80% of Claude session time is agents waiting on humans",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xag7e5/anthropics_internal_report_80_of_claude_session/",
+      "published": "2026-10-20T02:21:38+00:00",
+      "summary": "Anthropic published a report on how their own employees work with Claude and the main finding is kind of funny: Claude is waiting on people, not the other way around. Numbers from the report: - 80% of elapsed time in Claude sessions is agents waiting for human input - Median employee spends 20% more time in meetings than a year ago - Employees with 1+ year at the company were 50% more likely to switch departments each month in 2026 vs 2025 - When a new model drops, people immediately start on harder problems instead of doing the same work faster One employee called it \"an army of Claudes, with every one asking for my attention.\" Another said the 20% of the job that was strategic becomes 90% of the job. I see this with the new desktop app too. You run a few sessions, they all finish at different times, and each one needs you to check something. That's why they added sidebar status and recap cards. Anyone else hitting this? How many parallel sessions before it stops being productive for ",
+      "author": "emarkosov"
+    },
+    {
+      "title": "Close the lid and go: my MacBook keeps running Claude Code on 4.8 W or less",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xabadh/close_the_lid_and_go_my_macbook_keeps_running/",
+      "published": "2026-10-19T22:34:09+00:00",
+      "summary": "I like to kick off Claude Code, shut the lid and head out. The catch is battery: with the lid open, my Mac draws 16.7 W just on idle, and the screen eats most of it. So I built Pilot Light, an advanced caffeinate aimed at power savings. Close the lid and the screen goes dark, Low Power Mode switches on and Claude keeps working on 4.8 W, so a battery that would last about 6 hours lasts 20+. With Claude Code building the website and testing every feature through a headless Playwright browser, lid shut, it measured 2.3 W. Claude helped me work out how to build the safety features and fallbacks, and which macOS flags to watch so the app can spot those situations and react. So it lets the Mac sleep if it gets seriously hot in a bag or the battery drops below your limit, and puts everything back when you open the lid. It's free, with no tracking, no telemetry and no accounts. It's MIT licensed and in beta, and so far it's only been tested on my M5 Max. Website: https://pilotlight.sudolabs.nz",
+      "author": "CyrisXD"
+    },
+    {
+      "title": "Claude caught a cryptominer on my Mac whilst building me a temperature monitor app",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9smgq/claude_caught_a_cryptominer_on_my_mac_whilst/",
+      "published": "2026-10-19T09:50:49+00:00",
+      "summary": "I had Claude Code build me a Mac temperature monitor app. When it dumped the raw sensor readings to check they were accurate, the numbers looked far too high, so it checked what was using the CPU. It found a crypto miner (xmrig) running at ~1175% CPU, about 12 cores, on my Mac. Kinda impressive lol. explains why my mac has been running like shit. submitted by /u/UntilHEX [link] [comments]",
+      "author": "UntilHEX"
+    },
+    {
+      "title": "Claude Code installed tooling which was actually Expiro virus.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xa1ds8/claude_code_installed_tooling_which_was_actually/",
+      "published": "2026-10-19T16:21:47+00:00",
+      "summary": "I had a late night vibe session working on a decomp of an old game, using REA and Claude. Claude made great progress and the goal of the workflow was to recomp the game into x64 and run natively on windows. I gave it free reign (naively) and told it to get whatever tooling it could find to help the de-compilation. After about 10 hours of agents, and work, we were at a great point, and we had a native version of the game running to the title screen. (I say we like I did anything lol) Then it starts saying PCSX2 is crashing. Then other files have a really long weird attribute in the header called vmp. It then full stops and states \"Stopped on a security blocker: Windows Defender quarantined four executables during the run (two redacted.exe builds, tracediff.exe, and C:\\ninja\\ninja.exe) as Virus:Win32/Expiro.HNW!MTB / Win64/Expiro.DD!MTB. Before that: DMAC re-arm fix + tests; IPU wired; the opening FMV decodes end to end (2,670 pictures, 0 IPU errors) when the ADXI model drives the movie ",
+      "author": "StaticCG58"
+    },
+    {
+      "title": "Why is Claude taking up SO MUCH space?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xafaai/why_is_claude_taking_up_so_much_space/",
+      "published": "2026-10-20T01:37:12+00:00",
+      "summary": "And what can I do about it? I also want to use my computer for other things :( submitted by /u/LorestForest [link] [comments]",
+      "author": "LorestForest"
+    },
+    {
+      "title": "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or serious injuries",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9y7du/anthropic_wants_ai_models_blocked_only_if_they/",
+      "published": "2026-10-19T14:21:07+00:00",
+      "summary": "Is 50 deaths or injuries and $1 billion the right numbers? Or do you think Anthropic is putting up initial strawmen to start the debate and get people to share their opinions? submitted by /u/fsharpman [link] [comments]",
+      "author": "fsharpman"
+    },
+    {
+      "title": "Spent 4 months building a multiplayer bird game and Claude Playtest Bots 🦚",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xa4jp8/spent_4_months_building_a_multiplayer_bird_game/",
+      "published": "2026-10-19T18:18:00+00:00",
+      "summary": "I built a small multiplayer game to replace a traditional CV on my website. You play together as up to four birds and explore a world inspired by Diablo 2 - it doesn't at first look like it but wait and see 🤣. I’m a game designer by trade and it started from an older game I never finished; I picked it up again and built my own engine on three.js so it runs straight in the browser. The part that blew my mind was building a playtesting agent for the game that connects to my Claude Code subscription. I got the idea from rmalde/minecraft-agent on GitHub: a smart (Opus) model plans, a small fast classifier (Jev) picks the moves. Claude looks at a screenshot about every second and sets a goal with a few steps. jev (a decision model on OpenRouter) never sees the screen but just gets options in words like “walk to the silver feather 6m west, path clear” and picks one about 3 times a second, and an emulator presses the actual keys. You can run with 4 birds at the same time, and the AI's have di",
+      "author": "monkeydance26"
+    }
+  ]
+}

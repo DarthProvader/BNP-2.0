@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-20T04:03:18.560690+00:00",
+  "items": [
+    {
+      "title": "Rumours are floating",
+      "url": "https://www.reddit.com/r/singularity/comments/1xa73il/rumours_are_floating/",
+      "published": "2026-10-19T19:51:19+00:00",
+      "summary": "submitted by /u/Tricky_Rule_4565 [link] [comments]",
+      "author": "Tricky_Rule_4565"
+    },
+    {
+      "title": "2026 Fields Medalist John Pardon says AI now understands even his messiest mathematical proofs, catches subtle errors, and proves nontrivial results. “The AI understands. 100%.” Just a year ago, he would have said the opposite. He calls the progress world-changing for mathematics.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xaernx/2026_fields_medalist_john_pardon_says_ai_now/",
+      "published": "2026-10-20T01:12:46+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Fields Medalist Richard Borcherds on OpenAI proofs: \"I think what people are getting upset about is they’re slowly realizing that they are dumb and somehow blaming this on AI, even though it’s not really AI’s fault\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xa0dgj/fields_medalist_richard_borcherds_on_openai/",
+      "published": "2026-10-19T15:44:02+00:00",
+      "summary": "Full article: https://www.dailycal.org/news/campus/academics/uc-berkeley-math-community-left-at-crossroads-in-wake-of-openai-navier-stokes-proof/article_2253ca6c-39c0-45be-947a-f0fd5b48bd6c.html submitted by /u/asdfologist42 [link] [comments]",
+      "author": "asdfologist42"
+    },
+    {
+      "title": "There was no major mathematical breakthrough by AI announced in the last 24 hours.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xa7zm4/there_was_no_major_mathematical_breakthrough_by/",
+      "published": "2026-10-19T20:24:03+00:00",
+      "summary": "Is the exponential phase over? Has AI plateaued? submitted by /u/AnozerFreakInTheMall [link] [comments]",
+      "author": "AnozerFreakInTheMall"
+    },
+    {
+      "title": "Anthropic co-founders pledged to donate 80% of their equity.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9vvzh/anthropic_cofounders_pledged_to_donate_80_of/",
+      "published": "2026-10-19T12:43:44+00:00",
+      "summary": "It is HUGE if it is true. But their pledge is not legal binding. However, I praise their good will and intention. As such, there is relatively little motivation for them to jack up the IPO price because they seem decent. submitted by /u/kknd1991 [link] [comments]",
+      "author": "kknd1991"
+    },
+    {
+      "title": "Skyfall says their new fronteir engineering model Sky-001 outperforms Astra by delivering 100x greater speed, 150x cheaper",
+      "url": "https://www.reddit.com/r/singularity/comments/1xaf76a/skyfall_says_their_new_fronteir_engineering_model/",
+      "published": "2026-10-20T01:33:07+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "A physicist spent a year of his life and ~500 pages of hand calculations for quantum gravity in his PhD thesis, but Opus 5.5 did it in 10 hours, including the article and GitHub repo. And it even found the errors. What will \"labor\" mean in academia from now on?",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9rgzl/a_physicist_spent_a_year_of_his_life_and_500/",
+      "published": "2026-10-19T08:38:33+00:00",
+      "summary": "submitted by /u/saln1 [link] [comments]",
+      "author": "saln1"
+    },
+    {
+      "title": "Viggle unveils JST-2, an AI that generates entire 3D worlds in seconds, expands them in real time, and creates animated characters. Unlike traditional AI video generators, it builds environments directly in 3D with physics built in.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xa50s1/viggle_unveils_jst2_an_ai_that_generates_entire/",
+      "published": "2026-10-19T18:35:14+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "CERN joins forces with French LLM company Mistral to \"develop a single pretrained Large Physics Model – the first foundation model for collider physics\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xa9oaz/cern_joins_forces_with_french_llm_company_mistral/",
+      "published": "2026-10-19T21:28:16+00:00",
+      "summary": "submitted by /u/Upset-Jellyfish-235 [link] [comments]",
+      "author": "Upset-Jellyfish-235"
+    },
+    {
+      "title": "October's AI model wars are heating up. The Information reports Anthropic is preparing a new model, Google has Gemini 4 Carbon on deck, and OpenAI may launch a new Terra model. Three frontier AI labs could unleash their next models before the month is over.",
+      "url": "https://www.reddit.com/r/singularity/comments/1x9ywfa/octobers_ai_model_wars_are_heating_up_the/",
+      "published": "2026-10-19T14:48:21+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}
