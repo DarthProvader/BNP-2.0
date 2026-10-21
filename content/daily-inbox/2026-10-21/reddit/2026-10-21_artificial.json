@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-21T04:06:21.528193+00:00",
+  "items": [
+    {
+      "title": "New York City wants to fine companies that trap you in AI chatbot ‘doom loops’",
+      "url": "https://www.reddit.com/r/artificial/comments/1xb7a1x/new_york_city_wants_to_fine_companies_that_trap/",
+      "published": "2026-10-20T23:17:40+00:00",
+      "summary": "Seems like a good idea. Didn’t know it was called a ‘doom loop’ but hate calling customer services and being stuck with an AI agent. submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+      "url": "https://www.reddit.com/r/artificial/comments/1xat8qq/afd_leak_what_421179_hacked_emails_show_about_the/",
+      "published": "2026-10-20T14:12:57+00:00",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "author": "IndependentCoast3974"
+    },
+    {
+      "title": "Google DeepMind says four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own — AI team died 605 times on Easy difficulty and ran up an estimated $520 in tokens",
+      "url": "https://www.reddit.com/r/artificial/comments/1xaqlya/google_deepmind_says_four_ai_agents_beat/",
+      "published": "2026-10-20T12:18:10+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "\"I have to stop this\": Retired professor arrested for blocking delivery robots she says are taking human jobs",
+      "url": "https://www.reddit.com/r/artificial/comments/1xata1o/i_have_to_stop_this_retired_professor_arrested/",
+      "published": "2026-10-20T14:14:25+00:00",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "author": "IndependentCoast3974"
+    },
+    {
+      "title": "Spotify is cracking down on Family plans again, and the penalty can lock you out for a year",
+      "url": "https://www.reddit.com/r/artificial/comments/1xb5ts6/spotify_is_cracking_down_on_family_plans_again/",
+      "published": "2026-10-20T22:12:50+00:00",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "author": "Ok-Conversation3213"
+    },
+    {
+      "title": "Hugging Face CEO calls Netflix hacking doc 'sci-fi'",
+      "url": "https://www.reddit.com/r/artificial/comments/1xb3orm/hugging_face_ceo_calls_netflix_hacking_doc_scifi/",
+      "published": "2026-10-20T20:45:50+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "LLM Memory: 5 Approaches to Handling New Information",
+      "url": "https://www.reddit.com/r/artificial/comments/1xavo5m/llm_memory_5_approaches_to_handling_new/",
+      "published": "2026-10-20T15:47:01+00:00",
+      "summary": "Came across this article on HuggingFace around LLM memory. It goes beyond the conventional approach of “memory layer” which is limited only to what LLMs can do today. It also asks how much history LLMs can retain across various approaches, and what happens when new info conflicts with old state. The table groups approaches into five categories: Store more: keep explicit history, as with KV caches and retrieval/RAG. Old and new information can coexist, leaving the system to resolve which applies at read/retrieval time. Compress: fold history into a fixed-size state, as with linear attention, RetNet, and Mamba. This saves space, but stored associations can interfere, limiting recall abilities as context grows. Correct: control what changes through gates or prediction-error updates, as with gated linear attention, mLSTM, and DeltaNet. Typically more efficient than simple “compress”, but also has a hard time scaling with larger contexts. Learn at inference: update mutable parameters using ",
+      "author": "LimeOptimal539"
+    },
+    {
+      "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+      "url": "https://www.reddit.com/r/artificial/comments/1xal2xh/outrage_after_meta_suspends_no_kings_instagram/",
+      "published": "2026-10-20T06:51:44+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "One Hacker Used AI Agents to Breach 100+ Company Websites for About $5,000",
+      "url": "https://www.reddit.com/r/artificial/comments/1xaw48m/one_hacker_used_ai_agents_to_breach_100_company/",
+      "published": "2026-10-20T16:03:11+00:00",
+      "summary": "submitted by /u/Much-Television-9449 [link] [comments]",
+      "author": "Much-Television-9449"
+    },
+    {
+      "title": "Discover AI - A Teaching & Learning Guide - 51 hands-on labs for learning how AI actually works.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xba832/discover_ai_a_teaching_learning_guide_51_handson/",
+      "published": "2026-10-21T01:36:12+00:00",
+      "summary": "This is a learning resource about how artificial intelligence works, broken down into its component parts. Understand each one, then put them together to create your own. You learn by trying, not just by reading, from the required math to training a model and the text comes in three reading levels. A bit of insight - 51 labs in 6 groups, from the basics (what a neuron is, gradient descent) through attention, RAG, agents, fine-tuning, quantization, serving, and more - Each lab has a short lesson beside it, readable in Plain or Standard mode - Every lesson in Discover AI now comes in three reading levels, Simple (short sentences and everyday comparisons), Plain (everyday words) and Standard (the proper technical terms) - Some of it actually runs rather than just animating: - The attention lab runs a small trained transformer (1.37M params) inside the app - The training labs train a tiny character-level model live as you move the sliders - Works offline: no account, no telemetry The topic",
+      "author": "Zipidyzip"
+    }
+  ]
+}

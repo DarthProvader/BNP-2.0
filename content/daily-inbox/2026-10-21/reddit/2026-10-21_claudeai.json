@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-21T04:06:00.647772+00:00",
+  "items": [
+    {
+      "title": "You thought that Anthropic was the only frontier profitable AI company? Think again",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xb4uak/you_thought_that_anthropic_was_the_only_frontier/",
+      "published": "2026-10-20T21:32:01+00:00",
+      "summary": "submitted by /u/KeyGlove47 [link] [comments]",
+      "author": "KeyGlove47"
+    },
+    {
+      "title": "based alert",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xb2cf6/based_alert/",
+      "published": "2026-10-20T19:53:48+00:00",
+      "summary": "submitted by /u/thebookman10 [link] [comments]",
+      "author": "thebookman10"
+    },
+    {
+      "title": "Opus 5.5 refused to draft/write an example of a paragraph in my thesis",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xavfzc/opus_55_refused_to_draftwrite_an_example_of_a/",
+      "published": "2026-10-20T15:38:26+00:00",
+      "summary": "I was working on my thesis with Opus 5.5, and what struck me was that it refused to draft an example paragraph for me to build on, because my university’s constraints on AI usage were clear, and the model was aware of them. The issue was raised, the risk was explained, and the decision was left to me. That’s the kind of guardrail we all want. submitted by /u/StatisticianSorry924 [link] [comments]",
+      "author": "StatisticianSorry924"
+    },
+    {
+      "title": "That was the best $48.62 spent on Fable. Thank you Anthropic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xarugt/that_was_the_best_4862_spent_on_fable_thank_you/",
+      "published": "2026-10-20T13:14:51+00:00",
+      "summary": "Since many months we were struggling to fix a critical bug in our App. That was discovered in a native vertex library. The impact was that AI was not able understand properly when the user has stopped talking. Because the mics that we have today are sensitive enough to pick Fan noise or any other distraction. We were struggling on this issue since May. Tired of changing models after models, We switched from Cursor to Claude.ai. For Cursor was imposing Grok on us. You know why Claude is better than Cursor. Because it is very transparent. Team subscription will cost you this much. Fable extra on usage. So we paid extra for Fable, gave it a simple prompt, and freedom, and let it rip through the codebase. 48.62 dollars later, the app was finally able to understand... and have a proper Teacher student conversation. Still not very smooth but much much better. Thank you for creating Fable. Our dream of making a zero-bias and accessible teacher is on the right track now. submitted by /u/david-",
+      "author": "david-labs-ca"
+    },
+    {
+      "title": "Claude code has massively increased revenue but the growth flatlined since june - they need something big",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xb58g9/claude_code_has_massively_increased_revenue_but/",
+      "published": "2026-10-20T21:48:07+00:00",
+      "summary": "submitted by /u/KeyGlove47 [link] [comments]",
+      "author": "KeyGlove47"
+    },
+    {
+      "title": "I think I’ve started writing like Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xb9391/i_think_ive_started_writing_like_claude/",
+      "published": "2026-10-21T00:41:41+00:00",
+      "summary": "You know that fascinating phenomenon where spending enough time around certain people starts to genuinely shape the way you speak? It's not just about vocabulary — it's something deeper. You might find yourself: Adopting their phrases , sometimes without even noticing Mirroring their intonation , picking up the subtle rhythms of how they emphasize certain words Absorbing their conversational habits , which is perhaps the most interesting part I'll be honest: I think this has started happening to me, but with Claude's writing style. Take, for example, the way it often closes with a question to keep the conversation going. It's a small thing, but once you notice it, it's hard to unsee. That said, I'm genuinely curious whether this resonates with others. Have you noticed something similar in your own writing? I'd be happy to elaborate further on any of these points, or we could explore what this says about how language spreads more broadly. Which direction would be most helpful for you? s",
+      "author": "cteno4"
+    },
+    {
+      "title": "Fable 5.5: what is actually confirmed vs the \"tomorrow\" rumor",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xaqcgn/fable_55_what_is_actually_confirmed_vs_the/",
+      "published": "2026-10-20T12:05:38+00:00",
+      "summary": "Saw a bunch of \"fable 5.5 tomorrow\" posts today so I went and checked where it all comes from. The Information (Oct 19) reported Anthropic is preparing a model with better reasoning and intuition, one that can work out what you mean without you spelling it out. No name and no date in the report. A \"Fable 5.5\" entry showed up in Azure's model catalog for a bit and then got pulled, and leakers say partners already have access (Testing catalog has the details). The \"tomorrow\" part seems to come from a random post on X. The reporter who wrote the story says coming weeks. So it's probably close, but nothing official from Anthropic yet. Anyone here actually have access? submitted by /u/Upset-Branch-3252 [link] [comments]",
+      "author": "Upset-Branch-3252"
+    },
+    {
+      "title": "Matt Pocock's Claude Code habits: 5 takeaways about the human, not the AI agent",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xat7xn/matt_pococks_claude_code_habits_5_takeaways_about/",
+      "published": "2026-10-20T14:11:58+00:00",
+      "summary": "Watched Matt on Nate Herk's podcast talking about his Claude Code setup. Most of it is about making agents better. The bits that stuck with me were about the human: Get grilled before you build. /grill-me only works if you actually answer. His own warning: saying \"agreed, agreed, agreed\" to forty questions and walking out with the agent's plan. I felt seen. Learn the brake before the accelerator. He runs four agents and 200+ commits a day, but he started in an empty folder, watching every file. He tried specs-only for months while the code got worse. If Matt Pocock needs months to call his own bad idea, I'm not catching mine on day two. Let the AI explain, then go read the source. His /teach skill warns that fluency gives \"an illusory sense of mastery\". A polite description of most of my year. Give it the work you hate. He hands off writing because he hates it. I'm keeping mine, because it's the thing I'm trying to get better at. Best line: \"the clarity of their thinking ends up in the",
+      "author": "Alternative_Square53"
+    },
+    {
+      "title": "Attended my first Claude hackathon and learned that building a good product and winning a hackathon are two very different things",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xal7sc/attended_my_first_claude_hackathon_and_learned/",
+      "published": "2026-10-20T06:59:55+00:00",
+      "summary": "I recently attended the Claude OC Impact Lab hackathon, and it completely changed how I see hackathons as a software engineer. I thought hackathons were like science fairs, where solutions are judged on practicality, correctness, and how well they solve the problem. Turns out, not really. Around 29 of 31 teams chose the same challenge: building a referral intake system to help coordinators review 15–35 pages of medical documents and quickly determine whether patients qualify for recovery care. The rubric emphasized day-one impact, usability, and demo clarity. But from what I observed, organizers used Claude to analyze the submitted codebases, with less than two hours to judge roughly 35 teams. I'm skeptical how thoroughly they could evaluate actual functionality and correctness. What surprised me most was that two winning team's apparent differentiating feature was adding Spanish language support to their website . Don't get me wrong, multilingual accessibility is great, and I do not t",
+      "author": "yvgh233"
+    },
+    {
+      "title": "What is Haiku 5.5 best suited for?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xaur97/what_is_haiku_55_best_suited_for/",
+      "published": "2026-10-20T15:12:25+00:00",
+      "summary": "Have been aggressively using Sonnet and Opus 5.5. But have NEVER used Haiku. Can someone tell me what is the best use case scenario for Haiku 5.5? I hope to save some tokens with it! submitted by /u/av1987 [link] [comments]",
+      "author": "av1987"
+    }
+  ]
+}

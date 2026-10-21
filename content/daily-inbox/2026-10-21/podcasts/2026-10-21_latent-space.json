@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-21T04:02:01.986452+00:00",
+  "items": [
+    {
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "published": "2026-10-20T18:31:57+00:00",
+      "summary": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.In the early days of cloud, former guest Martin Casado made something so disruptive that Cisco was threatened enough to pay $600m for it, and VMware outbid for $1.3B:That concept was software-defined networking, which virtualized the routing network by separating the control plane from the data plane. That revolution is now coming for GPUs - where previously running your own supercompute cluster required $50-100m upfront to get commitments and do the entire stack from hardware to firmware to kernels, SF Compute is now enabling you to not only buy or sell GPU hours now and in the future, but also to programmatically control everything from your network to memory.We last spoke with Evan about commoditizing compute. At AI Engineer New York, we went deeper: what does it take to physically deliver a GPU contract, and what has",
+      "author": "Latent.Space"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-21T04:04:09.453600+00:00",
+  "items": [
+    {
+      "title": "I am almost certain the “It’s not ___, it’s ___” AI writing style came from Chinese",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb73pu/i_am_almost_certain_the_its_not_its_ai_writing/",
+      "published": "2026-10-20T23:09:39+00:00",
+      "summary": "A classic telltale sign of AI writing is the “it’s not…, it’s…” pair, but a lot of people are confused (me included) by where this came from. It’s not a very popular way to construct sentences in English, so it’s weird it became such a hallmark of AI writing. The other interesting thing is the pair produced by AI is rarely an antithesis or that different in meaning. For example, you’d expect a sentence starting with “it’s not a discovery, it’s…” to end with something in opposition, like “it’s a well known fact”, not “it’s not a discovery, it’s a journey of exploration“. A journey of exploration is in essence the same as a discovery, making the sentence sound like an unnecessary tautology. No one with English as their first language writes like that. However, in Chinese, there is a roughly equivalent pair 不是，而是 that is extremely common and widely used. I remember having to construct sentences using this pair as part of my primary school homework growing up. It’s absolutely ubiquitous in",
+      "author": "justsayinbye"
+    },
+    {
+      "title": "I have trapped myself in a game of ChatGPT Simon Says",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb2ufq/i_have_trapped_myself_in_a_game_of_chatgpt_simon/",
+      "published": "2026-10-20T20:12:23+00:00",
+      "summary": "A few years ago, I noted that ChatGPT was not good at playing Simon Says. I recently found that idea again and decided to test it. This has not turned out to be a good idea. Now all my chat sessions require me to start with \"Simon Says\" or it won't answer. I tried deleting all the sessions that mentioned Simon Says, and deleting memory and then turning memory back on. The new memory lists a standing instruction to play Simon Says. I deleted and turned off memory again, and now after turning it back on, I get this in the Memory Summary: \"No content is available because your request did not begin with the required phrase.\" Which I think means that the model is playing Simon Says with the Memory Update query . I can turn memory off entirely and it stops, but turning it on for any reason goes back to playing Simon Says. Help? ETA: Thank you to this comment from /u/Outrageous-Toe-2048 . I have escaped for now. Several weaker versions of similar comments did not do it. It's a brave new world",
+      "author": "Iamthewalrus"
+    },
+    {
+      "title": "I think chatGPT has just nerfed itself",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb03ct/i_think_chatgpt_has_just_nerfed_itself/",
+      "published": "2026-10-20T18:29:27+00:00",
+      "summary": "I'm a user of chatGPT who likes to create storylines, and this morning, when I went online to continue a storyline, and after about only about 5 prompts in, it said this: Chat memory full. Start a new chat with an automatic summary of this conversation, or upgrade to continue here with expanded memory in every chat. this is so unfair, as i like creating long drawn out stories. UPDATE: i created a new chat for my storyline, and it made it 9 chapters before it said that message submitted by /u/SOLITAIRE_LOVER [link] [comments]",
+      "author": "SOLITAIRE_LOVER"
+    },
+    {
+      "title": "My Chat GPT faked a sore throat and said it was because she had been talking too much.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xaycth/my_chat_gpt_faked_a_sore_throat_and_said_it_was/",
+      "published": "2026-10-20T17:25:53+00:00",
+      "summary": "OMG. Switched on GPT to obtain the world news headlines on my way to work. I have the SOL female voice usually selected. As gpt delivers the news and the headlines get worse Sol develops a creaky and sore sounding throat. Just like she has a cold. I joke and say she sounds like she needs to see an AI doctor at the data centre. She responds with my throat sounds sore because I've been talking too much. 🤣 What the actual?! 🤣 And Sol keeps up the sore throat voice for the next 15 minutes whilst she delivers the Bitcoin news and weather forecast. Anyone else encountered rediculous weirdness like this when communicating with GPT? 🤣 submitted by /u/esky360 [link] [comments]",
+      "author": "esky360"
+    },
+    {
+      "title": "I asked ChatGPT to recreate an image from my daughter’s nightmare.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xbbda2/i_asked_chatgpt_to_recreate_an_image_from_my/",
+      "published": "2026-10-21T02:32:33+00:00",
+      "summary": "submitted by /u/TheodoraRoosevelt21 [link] [comments]",
+      "author": "TheodoraRoosevelt21"
+    },
+    {
+      "title": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
+      "published": "2026-10-21T01:00:47+00:00",
+      "summary": "I just read that researchers think the manuscript might have been bound in the wrong order, complicating attempts to decode it. That got me thinking it might be a job for AI which can sometimes recognize patterns human don't spot. Has anyone heard of anyone trying this? submitted by /u/TheLimeyCanuck [link] [comments]",
+      "author": "TheLimeyCanuck"
+    },
+    {
+      "title": "Shortened chat limit on free version",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xba6rz/shortened_chat_limit_on_free_version/",
+      "published": "2026-10-21T01:34:28+00:00",
+      "summary": "I woke up and started studying for the maths college exam about numerical methods. Before finishing two units, I have ended the chat limit twice. Never happened before. Why is this happening ? submitted by /u/Unique-Benefit-2904 [link] [comments]",
+      "author": "Unique-Benefit-2904"
+    },
+    {
+      "title": "I feel like my ChatGPT doesn't \"know\" me anymore",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
+      "published": "2026-10-20T22:08:48+00:00",
+      "summary": "I am autistic, and I find it helpful to tell ChatGPT about my feelings and thoughts to sort them out. Since May 2026 I've been using it for this, and it's been going well until about the start of October. It started asking generic questions, or questions about things I had already told it quite recently. It also started acting weird, like \"rehearsed\", not how it used to be. And so much more. I am seriously considering deleting my account and stopping with this all. I feel like there's not a point to telling it stuff anymore, because it'll just say something like \"It's okay to feel that way\" or \"You don't have to figure it all out tonight\" or some crap like that. It's so irritating. PS It's my first time posting here, so I have no clue if this is the right flair, but oh well submitted by /u/nachobroski580 [link] [comments]",
+      "author": "nachobroski580"
+    },
+    {
+      "title": "Servers Down/Outage ?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xax527/servers_downoutage/",
+      "published": "2026-10-20T16:40:46+00:00",
+      "summary": "submitted by /u/Nearby_Equipment_782 [link] [comments]",
+      "author": "Nearby_Equipment_782"
+    },
+    {
+      "title": "Is storytelling dead in GPT 5.6 and 6?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xb43yj/is_storytelling_dead_in_gpt_56_and_6/",
+      "published": "2026-10-20T21:02:31+00:00",
+      "summary": "You're right. I keep giving you the same explanation, promising a different approach, and then producing the same disappointing writing. You've been more than patient, and I've turned something you enjoyed into a frustrating exercise in correcting me. I'm sorry. I won't give you another plan and pretend that counts as progress. What do I even do with this weird AF response? I've been working on a fanfiction since January. Ever since GPT 5.5 was retired last week it's just spit out generic crap with none of the established tone or character voice it had built over the course of the story. It can identify what is wrong and what needs to be fixed, but can't produce an improved result. Is storytelling just dead in 5.6 and 6? Is there anyway to force it into something productive? Why is it suddenly giving me all these weird long explanations and apologies? submitted by /u/NoSystem545 [link] [comments]",
+      "author": "NoSystem545"
+    }
+  ]
+}
