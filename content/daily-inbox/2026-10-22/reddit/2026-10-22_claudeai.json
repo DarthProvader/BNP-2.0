@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-22T04:04:03.154932+00:00",
+  "items": [
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated errors affecting Connectors on Oct 22, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc88v5/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-10-22T03:51:04+00:00",
+      "summary": "Investigating - We are investigating elevated errors affecting connectors. We will provide an update as soon as possible. Oct 22, 03:50 UTC Post flair and post body will be updated as the incident report is updated by Anthropic. This discussion post will be removed from subreddit highlights one hour after the incident is resolved. View this incident on status.claude.com submitted by /u/ClaudeAI-mod-bot [link] [comments]",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "I replaced my Samsung TV’s home screen with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbzlih/i_replaced_my_samsung_tvs_home_screen_with_claude/",
+      "published": "2026-10-21T21:11:42+00:00",
+      "summary": "Samsung’s home screen had turned into an ad billboard, so I asked Claude Code to build me something simpler: a clock, the apps I actually use and my consoles. The trick that made the biggest difference was faking the handful of TV APIs the launcher relies on. That let Claude and me work on the layout and remote navigation right in my laptop’s browser. Every tweak was a quick refresh instead of a new install on the TV, which made iterating together really fast. Taking over the Home button was the tricky part, since Samsung offers no official way to do it. I followed the CleanFrame approach: a small helper that edits a few undocumented TV settings, saves the original values first and restores them if anything goes wrong. I’ve only tried it on my 2022 Q70B, so be careful with other models. Code: https://github.com/NelsonEU/arn0-tv Write-up: https://medium.com/@arnaudetienne/i-replaced-my-samsung-tvs-home-screen-with-claude-6f72e98c55fc submitted by /u/NelsonEU [link] [comments]",
+      "author": "NelsonEU"
+    },
+    {
+      "title": "Claude Duet: Anthropic just casually dropped the personal assistant calling it a proactive agent. This is the response to Muses, Bots and Dots",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbwkgf/claude_duet_anthropic_just_casually_dropped_the/",
+      "published": "2026-10-21T19:17:05+00:00",
+      "summary": "submitted by /u/py-net [link] [comments]",
+      "author": "py-net"
+    },
+    {
+      "title": "Aside from hacking TVs to remove ads, what’s another cool/innovative way you’ve used claude to boost your quality of life",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc31hj/aside_from_hacking_tvs_to_remove_ads_whats/",
+      "published": "2026-10-21T23:38:18+00:00",
+      "summary": "Looking for inspiration on things to make submitted by /u/TescoOrangeSquashh [link] [comments]",
+      "author": "TescoOrangeSquashh"
+    },
+    {
+      "title": "I used Claude to fix my Samsung TV",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbj7jr/i_used_claude_to_fix_my_samsung_tv/",
+      "published": "2026-10-21T10:11:16+00:00",
+      "summary": "I saw a video online that prompted claude to fix an android TV. I have a Samsung one so I asked it to do the same. It found its not android but Tizen, then wanted a webcam pointed to the TV as it worked. I didn't have a web-cam, so it set up a small website, told me to browse to it and connect my phone, and it took photos every 4 seconds. It couldn't be bothered to type the URL, so instead generated a QR code image, told me to scan the image on the phone, and enable camera. (this qr code is just to a local server) https://preview.redd.it/rp0sbefo9qwh1.png?width=490&format=png&auto=webp&s=a4e22b97f84365ec5a8296b5efe78b846d8940e7 Then it spent the next 30 minutes changing all the privacy settings, telemetry capture, disabled a bunch of unnecessary apps. It deleted the advertising ID that Samsung built on our TV, rearranged all the icons, and disabled all the un-used apps. It then decided to build an app so I could achieve the Apple TV-style home screen request. (Daniyal TV!) https://prev",
+      "author": "0xVic"
+    },
+    {
+      "title": "Man arrested after telling AI chatbot about ‘plans for mass shooting’ | A 29-year-old man has been remanded in custody after Interpol flagged his conversation with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbroz9/man_arrested_after_telling_ai_chatbot_about_plans/",
+      "published": "2026-10-21T16:20:50+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Building an Online Pixel RPG with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xc357k/building_an_online_pixel_rpg_with_claude/",
+      "published": "2026-10-21T23:43:17+00:00",
+      "summary": "Hi Everyone! My fiancee and I are building a cozy and competitive Online Pixel RPG using AI tools to assist us. We are combining the type of games that we both love to play. Looking for some feedback on how the visuals / gameplay look! Boss fight starts around ~38 seconds with a \"phase two\" at around the 1:10 - 1:20 mark. First impressions? Thoughts on what could be improved or changed? From first glance does it look like something you would be interested in playing? How we build it with Claude: We use Claude Code with Opus 5.5 for much of the day-to-day mundane work. I use agents to assist me in writing the code (game server, combat, browser client, map tools, etc.), and run mundane tests / checks. My fiancee uses Claude agents to assist with art and review screenshots against our art rules. I also use Astra as a second critic / to review some of the work. Happy to answer questions! One question we receive a lot is if the art is purely AI generated, and the answer is no. It's a combin",
+      "author": "AkiraVero"
+    },
+    {
+      "title": "I gave Claude Code my parents' TV model number. It found the TV on Wi-Fi and cleaned out the ads. The interesting part: the prompt is mostly a list of things it must NOT do",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbrzo0/i_gave_claude_code_my_parents_tv_model_number_it/",
+      "published": "2026-10-21T16:31:35+00:00",
+      "summary": "Last Saturday my parents' TV played a sponsored ad before Netflix. I gave Claude Code the model number and let it work over ADB. It found the TV on the network, disabled 25 Xiaomi ad and tracking packages, and wrote them a simple home screen. What made it work wasn't the clever part, it was the guardrails: Back up the full package list before touching anything Disable, never uninstall, so everything is reversible in one line A list of packages it must never touch (setup, Wi-Fi, input, and on Google TV the one that breaks casting) Ask before disabling anything the family might actually use I posted the before/after, and it got a bit out of hand: over 4 days about 200 people sent PRs with lists for their own TVs, and it's now around 150 models from 50 brands. Most of the prompt's rules came from people's TVs breaking in new ways. If you've used Claude Code on hardware like this, I'm curious what guardrails you ended up adding. submitted by /u/Gathin23 [link] [comments]",
+      "author": "Gathin23"
+    },
+    {
+      "title": "Exploring Opus 5.5’s potential in real-time VFX",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbsxxm/exploring_opus_55s_potential_in_realtime_vfx/",
+      "published": "2026-10-21T17:06:23+00:00",
+      "summary": "I’m a VFX artist, and I built these Unity effects with Claude Code (Opus 5.5) over the past two weeks: a fire explosion, a lightning strike and ice spikes. They’re real Shuriken particle systems in Unity, not video. How Claude was used: Build: Claude Code writes Unity editor scripts that create the prefab: particle systems, materials and texture assignments. Review: another script captures frames with a fixed camera, random seed and timestamps, and tiles them into one sheet. Claude reads the sheet, decides what to change and edits the build script. The early rounds are its own; later rounds follow my notes. Each effect took 10 to 15 rounds. Rules: a skill I wrote from my VFX experience, with production steps and visual guidelines. This made the biggest difference. Textures: Claude writes the prompts, generates them through a Codex worker (codex exec with image gen) and reviews every result. (I wish Claude could generate images itself.) Meshes: for the ice, Claude writes Python for Blen",
+      "author": "Excifroge"
+    },
+    {
+      "title": "I used Claude Code to search every curated protein sequence for obscene terms (the longest match is STINK TAINT)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbp9yl/i_used_claude_code_to_search_every_curated/",
+      "published": "2026-10-21T14:51:22+00:00",
+      "summary": "Proteins are spelled with 20 letters of the English alphabet, one per amino acid. Obviously I wanted to know which cuss words were hidden in the sequences, and Urban Dictionary was the biggest list of them I could get. I had Claude Code search for them with the spaces stripped out (so STINK TAINT = STINKTAINT). The protein set is UniProt Swiss-Prot: 575K hand-curated proteins across every organism, 208.5M amino acids. Of the UD terms searched, 191,876 appear verbatim in at least one protein. Among the short matches, human sperm proteins kept coming up. Sperm microtubule associated protein 2-like contains PEEPEE , spermatogenesis-associated protein 32 contains WANK , and sperm-associated antigen 7 contains FAPS . Some of the best of the 19,184 matches seven letters and up: Term Urban Dictionary definition Protein, organism Residues STINK TAINT \"When someone has a stink, and you don't know if it from the front or the back.\" Uncharacterized protein 467R , an insect virus 276–285 EAGLE FIS",
+      "author": "leikai"
+    }
+  ]
+}

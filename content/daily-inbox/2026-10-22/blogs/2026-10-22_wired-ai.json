@@ -1,0 +1,76 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-10-22T04:01:47.256442+00:00",
+  "items": [
+    {
+      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+      "published": "2026-10-22T01:24:17+00:00",
+      "summary": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+      "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+      "published": "2026-10-21T21:39:50+00:00",
+      "summary": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.",
+      "author": "Paresh Dave"
+    },
+    {
+      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+      "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+      "published": "2026-10-21T15:00:00+00:00",
+      "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
+      "author": "Will Knight"
+    },
+    {
+      "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
+      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
+      "published": "2026-10-21T14:02:15+00:00",
+      "summary": "At Nvidia’s GTC in Berlin, Huang unveiled the company’s new plug-in data center—the DSX Pod—as the key to unlocking Europe’s AI infrastructure lag. Oh, and autonomous humanoid robotics.",
+      "author": "Tom Bristow"
+    },
+    {
+      "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+      "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+      "published": "2026-10-21T13:26:19+00:00",
+      "summary": "The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites. Security experts warn that failure to quickly patch the flaws could have dire consequences.",
+      "author": "Matt Burgess, Lily Hay Newman"
+    },
+    {
+      "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+      "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+      "published": "2026-10-21T13:00:00+00:00",
+      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+      "author": "Lily Hay Newman"
+    },
+    {
+      "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+      "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+      "published": "2026-10-21T11:35:00+00:00",
+      "summary": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant.",
+      "author": "Dan Goodin, Ars Technica"
+    },
+    {
+      "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+      "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+      "published": "2026-10-21T09:30:00+00:00",
+      "summary": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
+      "author": "Emily Mullin"
+    },
+    {
+      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
+      "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
+      "published": "2026-10-21T07:30:00+00:00",
+      "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
+      "author": "Joel Khalili"
+    }
+  ]
+}

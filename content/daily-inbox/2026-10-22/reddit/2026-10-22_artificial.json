@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-22T04:05:54.540159+00:00",
+  "items": [
+    {
+      "title": "How many \"unexploitable\" bugs are about to become exploitable?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbrt5f/how_many_unexploitable_bugs_are_about_to_become/",
+      "published": "2026-10-21T16:25:00+00:00",
+      "summary": "Wiz just disclosed PHP2Shell , two critical vulnerabilities in the PHP engine that allow unauthenticated remote code execution and memory disclosure. The bugs have been sitting in PHP's codebase for over a decade. Finding them was hard enough. Turning them into reliable exploits, especially across different environments, was considerably harder. With the help of Gemini and GPT models, Wiz researchers managed to discover the vulnerabilities and develop working exploits in about a week. Something that previously might have taken a team of world-class researchers months. And this is already having real-world consequences. Four large organizations I work with have taken all their PHP websites offline for emergency patching. What interests me isn't PHP itself. It's what this means for the millions of lines of old code running pretty much everything around us. We've spent decades relying, at least partly, on the assumption that some vulnerabilities are just too difficult or expensive to find",
+      "author": "Haunting_Ganache_850"
+    },
+    {
+      "title": "Tesla and SpaceX form board committees to explore $3.5T merger around AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbpxnv/tesla_and_spacex_form_board_committees_to_explore/",
+      "published": "2026-10-21T15:16:03+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "For the first time, artificial intelligence is a top 10 fear in the U.S. Many Americans are more scared of AI than a loved one getting sick.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xc70jr/for_the_first_time_artificial_intelligence_is_a/",
+      "published": "2026-10-22T02:47:11+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Anthropic's Claude autonomously designs protein binders targeting scorpion neurotoxins",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbks11/anthropics_claude_autonomously_designs_protein/",
+      "published": "2026-10-21T11:38:23+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "The age of AI is forcing humanity to rethink what it means to be creative",
+      "url": "https://www.reddit.com/r/artificial/comments/1xc4o7a/the_age_of_ai_is_forcing_humanity_to_rethink_what/",
+      "published": "2026-10-22T00:54:38+00:00",
+      "summary": "A polished image can now appear without the years of drawing practice once needed to produce something comparable. That changes a familiar assumption about art: an impressive result no longer necessarily signals the personal development behind it. A philosophical paper argues that this separation makes the experiences surrounding creativity more important to examine. Amit Raphael Zoran of the Hebrew University of Jerusalem develops that argument in AI & Society. The paper distinguishes finished artworks from the changes that making or encountering art can bring about. It offers a framework and practical examples, rather than an experiment demonstrating how AI changes creativity. Zoran calls his central argument the “decoupling thesis.” Generative systems can produce sophisticated images, compositions, and designs without requiring users to follow the specific training traditionally needed for comparable work. Someone can generate an illustration without mastering drawing or explore mus",
+      "author": "Brighter-Side-News"
+    },
+    {
+      "title": "Daily Driver Use As a Professor",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbzs4y/daily_driver_use_as_a_professor/",
+      "published": "2026-10-21T21:19:02+00:00",
+      "summary": "I have been using OpenAI/ChatGPT for the past 3 years and I have quite enjoyed it. With Gemini's Argon being released, I have decided to try it and honestly I have been impressed. The only thing that is really bugging me is the usage rate of Argon. I feel like I use 6 prompts and I have used all 5 hours. I use ChatGPT/Codex for my vibe coding \"needs\" and it is exceptional. I want to save my usage for those tasks. Is using Gemini Flash 3.8 going to give me similar results for creating test questions, making PowerPoint slides, etc. I go through all of them, ensure that I agree with the outputs but I want a model that is wrong less of the time. Is Flash 3.8 good enough, or should I stick to something like GPT 6? submitted by /u/Leading-Air-7120 [link] [comments]",
+      "author": "Leading-Air-7120"
+    },
+    {
+      "title": "Anthropic enters proactive-agent race with Claude Duet",
+      "url": "https://www.reddit.com/r/artificial/comments/1xc7syo/anthropic_enters_proactiveagent_race_with_claude/",
+      "published": "2026-10-22T03:27:26+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "I heavily used ChatGPT to prepare myself for a specific social sector job - should I (not) mention this in the interview?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xc2rsf/i_heavily_used_chatgpt_to_prepare_myself_for_a/",
+      "published": "2026-10-21T23:25:52+00:00",
+      "summary": "Hey all! I have a background in IT, but I grew out of it and decided to go back to the sector that I originally studied in, namely social work. The job process was uploading your CV/diploma, then a written exam, and if you pass an interview. I made ChatGPT find everything it could about the function and the employer, and then it prepared me for the written exam. Borderline miraculously, because I have zero experience with the people I'll be assisting if I get the job, I passed the exam and am now invited for the interview. I am using ChatGPT heavily to prepare me for that as well, and you know, I actually feel ready. It's insane how much I've learned in such a small timespan. Now on to my question: would you tell that you've used AI to prepare when asked how you prepared yourself? Reading Reddit, it feels like I should be stoned to death for just touching AI. Since it's the social sector, so not tech-based whatsoever, I am seriously doubting on whether me being able to use it to learn ",
+      "author": "Rezzekes"
+    },
+    {
+      "title": "AI-assisted php2shell exploit chain hits PHP runtime, forces coordinated defense across 70% of web",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbr8uj/aiassisted_php2shell_exploit_chain_hits_php/",
+      "published": "2026-10-21T16:04:53+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "3 things you should do with your AI to save $$$ before booking a hotel",
+      "url": "https://www.reddit.com/r/artificial/comments/1xbu3ox/3_things_you_should_do_with_your_ai_to_save/",
+      "published": "2026-10-21T17:47:55+00:00",
+      "summary": "Hotel pages are built to make the choice feel simple, but the data behind them isn't. I pulled a lot of live hotel rates and these are the 3 checks that mattered most. It is incredibly frustrating to do them by hand, so have the AI do them. Have it put the free cancellation dates side by side. At the ILUNION in Barcelona the same twin room was 135 with free cancellation until the 8th, and 185 with free cancellation only until the 6th. So the later date wasn't more expensive, it was 50 less. You only see that when the offers sit next to each other, and having 6 different tabs makes it seem complicated. So have AI list every offer for the same room with its cancel date. Have it tell you how many REAL rooms there are, not how many listings. At one hotel in Warsaw (Nobu) I got 48 rates, and they were really 7 rooms with different names and deals. Comparing by hand you think you have 48 choices. But there actually aren't 48, but a lot less. So have it group the offers by bed, size and view,",
+      "author": "Calm_Cartographer324"
+    }
+  ]
+}

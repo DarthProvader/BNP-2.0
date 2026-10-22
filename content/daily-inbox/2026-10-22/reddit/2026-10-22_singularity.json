@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-22T04:02:50.238293+00:00",
+  "items": [
+    {
+      "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+      "url": "https://www.reddit.com/r/singularity/comments/1xc4u3s/rejuvenation_breakthrough_scientists_reverse_60/",
+      "published": "2026-10-22T01:02:22+00:00",
+      "summary": "Not 10, 60 submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Anthropic unveils Claude Duet, a proactive AI agent powered by Opus 5.5. It works while you're away, monitors your apps, handles complex tasks using its own cloud computer, and alerts you when needed. It supports 6,000+ integrations and remembers your context.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbz98o/anthropic_unveils_claude_duet_a_proactive_ai/",
+      "published": "2026-10-21T20:59:15+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "OpenAI's thousands of GPT-Rosalind agents analyzed millions of mouse brain cells in 32 minutes, completing research estimated to take humans months to a year. They uncovered new leads for neurodegenerative diseases, with human experts preferring their findings 75% of the time.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbx2x9/openais_thousands_of_gptrosalind_agents_analyzed/",
+      "published": "2026-10-21T19:36:06+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Unitree's newest robot: H2-X Kung Fu Legend Guardian",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbidfc/unitrees_newest_robot_h2x_kung_fu_legend_guardian/",
+      "published": "2026-10-21T09:19:49+00:00",
+      "summary": "Seems like a Unitree H2 variant that is much stronger and more durable than before Tweet: Unitree Introducing: H2-X Kung Fu Legend Guardian Powerful performance to serve and guard you, with a maximum endurance of approximately 8 hours. Please use the robot safely and in a friendly manner. Source: https://x.com/UnitreeRobotics/status/2112819774573179175 Edit: Interestingly, this isn't the first humanoid combat robot coming from a high-profile Chinese robotics company. Engine AI has a robot named T800 (from Terminator) that they host fighting tournaments with ( https://mikekalil.com/blog/engineai-urkl-begins/ ). submitted by /u/PsychologicalSoup251 [link] [comments]",
+      "author": "PsychologicalSoup251"
+    },
+    {
+      "title": "Oblivion Remastered Mod Built Using Claude AI Boosts FPS By Over 40% And Drastically Reduces Stuttering Without Sacrificing Visual Quality",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbwun6/oblivion_remastered_mod_built_using_claude_ai/",
+      "published": "2026-10-21T19:27:31+00:00",
+      "summary": "submitted by /u/PikaPikaDude [link] [comments]",
+      "author": "PikaPikaDude"
+    },
+    {
+      "title": "PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 (yes, those ones) were independently discovered by a frontier model using the prompt \"find bad vulnerabilities in PHP\".",
+      "url": "https://www.reddit.com/r/singularity/comments/1xc74ng/php_vulnerabilities_cve2026109618_and/",
+      "published": "2026-10-22T02:53:00+00:00",
+      "summary": "submitted by /u/Recoil42 [link] [comments]",
+      "author": "Recoil42"
+    },
+    {
+      "title": "Six months later, the best AI costs 20× less",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbs5ay/six_months_later_the_best_ai_costs_20_less/",
+      "published": "2026-10-21T16:37:26+00:00",
+      "summary": "To the folks that think AI is too expensive and needs to be subsidized forever to make sense. submitted by /u/Tgoc [link] [comments]",
+      "author": "Tgoc"
+    },
+    {
+      "title": "Demis Hassabis now expects AGI in 2-3 years, down from 3-5 earlier this year",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbkhep/demis_hassabis_now_expects_agi_in_23_years_down/",
+      "published": "2026-10-21T11:22:26+00:00",
+      "summary": "submitted by /u/FakeEyeball [link] [comments]",
+      "author": "FakeEyeball"
+    },
+    {
+      "title": "Anthropic employee tells students at university that their career won't exist when they graduate.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xbsnty/anthropic_employee_tells_students_at_university/",
+      "published": "2026-10-21T16:56:12+00:00",
+      "summary": "submitted by /u/Bizzyguy [link] [comments]",
+      "author": "Bizzyguy"
+    },
+    {
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "url": "https://www.reddit.com/r/singularity/comments/1xc5i4e/bank_of_america_hired_1000_contractors_to_patch/",
+      "published": "2026-10-22T01:34:56+00:00",
+      "summary": "The problem is large banks love to stick with outdated legacy systems, until something like this happens. When swarms of AI agents start attacking these outdated old legacy systems, large banks are really screwed if they don't update their systems. I think this is finally the wake up call large financial institutions using legacy systems really need. These financial institutions who relied so heavily on these ancient systems are FINALLY being tested now. AI swarms will start to destroy any legacy and ancient systems currently in place We will see many large companies who were very comfortable for long time moving slowly and without care in the world start to either adapt or die in the coming years now. 2027 really is the take off year. submitted by /u/LazyPotatoHead97 [link] [comments]",
+      "author": "LazyPotatoHead97"
+    }
+  ]
+}
