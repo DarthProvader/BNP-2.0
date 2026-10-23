@@ -34,7 +34,7 @@ from social.drafts_parser import parse
 
 API = "https://api.linkedin.com/rest"
 USERINFO_URL = "https://api.linkedin.com/v2/userinfo"
-HEADERS_VERSION = "202510"  # LinkedIn deprecates versions ~12mo — update periodically
+HEADERS_VERSION = "202601"  # LinkedIn deprecates versions ~12mo — update periodically
 
 
 def _headers(token: str) -> dict[str, str]:
