@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-23T04:02:03.547489+00:00",
+  "items": [
+    {
+      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+      "published": "2026-10-22T19:17:52+00:00",
+      "summary": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
+      "author": "Dan Goodin"
+    },
+    {
+      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "url": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "published": "2026-10-22T10:30:33+00:00",
+      "summary": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

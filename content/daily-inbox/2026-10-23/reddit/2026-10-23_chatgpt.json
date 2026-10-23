@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-23T04:04:01.043511+00:00",
+  "items": [
+    {
+      "title": "Making your own game is getting easier — my mobile driving game after 3 days with GPT-6 Astra and no 3D experience",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcmyru/making_your_own_game_is_getting_easier_my_mobile/",
+      "published": "2026-10-22T16:15:01+00:00",
+      "summary": "Been working on this after work for about three days now. It’s a little top-down driving game for mobile, mostly a hobby project to see how far I can get. I have no 3D background and don’t know how to make models, so AI-generated assets are a big part of why I can even try this. I connected GPT-6 Astra to Godot, and within the first day I had a rough map and started getting the desert atmosphere I wanted. That was already way more progress than I expected. For the car, I generated four views of the same vehicle in ChatGPT, then uploaded them to Hyper3D, using their Rodin Gen-2.5 model. The car came out pretty nice. Used Smart Low Poly mode to get it down to around 2–3K triangles, then started making environment props and putting everything together. I separated the wheels from the car body, brought everything into Godot and asked ChatGPT to help get it driving and animate the wheels. After about three hours of going back and forth, I had a working driving demo. Had to make adjustments,",
+      "author": "Delicious-Shower8401"
+    },
+    {
+      "title": "Navigate the Economics of AI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcycsk/navigate_the_economics_of_ai/",
+      "published": "2026-10-22T23:36:31+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "You think that's air you're breathing?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xciw6c/you_think_thats_air_youre_breathing/",
+      "published": "2026-10-22T13:40:56+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "For the love of God ease up the adult content moderation.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcv64d/for_the_love_of_god_ease_up_the_adult_content/",
+      "published": "2026-10-22T21:19:50+00:00",
+      "summary": "What it says. I am so tired of trying to make safe for work content but because it features an adult woman in a bikini needing to kiss a guy or a girl I may as well be suggesting to Clockwork Orange every child in the world to endless porn. I get that there has to be a limit to what it can do. I get that. But we've reached a level of pearl-clutching Pollyannism that it's stupid. I guess the whole 'ChatGPT is getting more adult modes' was, like the AI itself, just a big lie, then. submitted by /u/Stingra87 [link] [comments]",
+      "author": "Stingra87"
+    },
+    {
+      "title": "Cybersecurity people are losing their minds today. Some are calling it Black October and expect internet lockdowns soon",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xchxj8/cybersecurity_people_are_losing_their_minds_today/",
+      "published": "2026-10-22T13:01:04+00:00",
+      "summary": "List of incidents: PHP2Shell: a hole in the software behind ~70% of websites. Governments took sites offline. eMudhra: the master keys that prove websites are real were cracked. One was the number 4. California: data on every public school student since 2023 stolen, including disability status Railway: hackers stole customers' secret keys from a hosting platform used by millions of developers Zeabur: 321,810 accounts breached. The company is shutting down. LiteLLM: an AI tool downloaded 3.4 million times a day was poisoned with a password stealer GitLab: a 10-out-of-10 severity hole in every version since 2014 Cairn: criminals used an AI hacking tool to break into 100+ companies Ahold Delhaize: hackers knocked the owner of Food Lion and Stop & Shop offline Onamae: malware planted on up to 26,739 customer servers in Japan Signal: a bug could leave your mic and camera on after you hang up NGINX: 3 critical holes in software running ~1/3 of websites HTTP/3: a single connection can crash 7",
+      "author": "Confident_Salt_8108"
+    },
+    {
+      "title": "Has anyone else noticed that \"adult mode\" basically exists by default now for accounts not flagged as belonging to minors? ChatGPT doesn't seem to refuse anything anymore unless it's actually illegal",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcr5gg/has_anyone_else_noticed_that_adult_mode_basically/",
+      "published": "2026-10-22T18:48:02+00:00",
+      "summary": "I'm not sure when this came about but the overall behavior is way way different than older ChatGPT versions I've noticed recently. submitted by /u/ZootAllures9111 [link] [comments]",
+      "author": "ZootAllures9111"
+    },
+    {
+      "title": "ChatGPT taught me to make this",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcnxdh/chatgpt_taught_me_to_make_this/",
+      "published": "2026-10-22T16:50:10+00:00",
+      "summary": "It taught me 3D scanning & modeling & printing, ebike engineering, circuitry & soldering, welding, materials engineering, bike repair. Only 10% of me screaming at it and VERY few explosions. See https://www.reddit.com/r/ebikes/s/B5FezJGFKC for full details. ALTMAN BE PRAISED MAKE US WHOLE AGAIN submitted by /u/NovatarTheViolator [link] [comments]",
+      "author": "NovatarTheViolator"
+    },
+    {
+      "title": "You can now use your ChatGPT subscriptions directly in Blender. No need for the Blender-MCP.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcvhwc/you_can_now_use_your_chatgpt_subscriptions/",
+      "published": "2026-10-22T21:33:10+00:00",
+      "summary": "submitted by /u/Spuice [link] [comments]",
+      "author": "Spuice"
+    },
+    {
+      "title": "Real Story! The infamous Blue Milk in New York (1858) It was even worse than this.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xcl6tr/real_story_the_infamous_blue_milk_in_new_york/",
+      "published": "2026-10-22T15:09:41+00:00",
+      "summary": "submitted by /u/hellomyoldfrien [link] [comments]",
+      "author": "hellomyoldfrien"
+    },
+    {
+      "title": "I’m using ChatGPT to help organize my bathroom, one drawer and photo at a time",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xd1xtr/im_using_chatgpt_to_help_organize_my_bathroom_one/",
+      "published": "2026-10-23T02:27:26+00:00",
+      "summary": "Our bathroom counter had gotten to the point where almost every available spot was covered with a bottle, jar, brush, or something else. The drawers were full too, so putting things away wasn’t exactly straightforward. I decided to try using ChatGPT as an organizing partner. I sent pictures, explained what we actually use, and worked through one small section at a time. I gave it the drawer dimensions and bought a $10 set of organizers. Then I emptied all three drawers onto a towel and started sorting. Just cleaning out the drawers filled a four-gallon trash bag with things we no longer needed. I also discovered why we had so many clippers and trimmers: some had gotten lost in the clutter, so I bought replacements. Now the ones I use, their two guards, my straight razor, and the charging cable have designated spots in the top drawer. I keep the extras together in a separate bag. The next drawer holds brushes and hair accessories. The bottom drawer has a dental-care section. We’re now o",
+      "author": "East-Tailor-883"
+    }
+  ]
+}

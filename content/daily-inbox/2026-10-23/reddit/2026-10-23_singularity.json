@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-23T04:03:09.946294+00:00",
+  "items": [
+    {
+      "title": "Introducing NPCTalk: Make the NPCs of any game talk in realtime, in character, in their own cloned voice, in under 1s, and they act on what you say.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xczh14/introducing_npctalk_make_the_npcs_of_any_game/",
+      "published": "2026-10-23T00:27:31+00:00",
+      "summary": "From Universal Modder on X: \"Introducing NPCTalk: make the NPCs of any game talk in realtime. I made every NPC in GTA V answer to me in character, in their own cloned voice, in under 1s, and they act on what you say.” “Packaged all the skills Claude learned into a single repo, built on open models: NVIDIA Nemotron ASR for transcription, Qwen 3.8 27B for realtime dialogue, and Fish Audio Drama 3 for the cloned voices, self-hosted on a serverless GPU. \" submitted by /u/Prime-Paradox [link] [comments]",
+      "author": "Prime-Paradox"
+    },
+    {
+      "title": "Safety Research = Capabilities Research",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcv9zi/safety_research_capabilities_research/",
+      "published": "2026-10-22T21:24:07+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Cybersecurity people are losing their minds today. Some are calling it Black October and expect internet lockdowns soon. --- AGI must be here for hackers.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcxezj/cybersecurity_people_are_losing_their_minds_today/",
+      "published": "2026-10-22T22:55:18+00:00",
+      "summary": "PHP2Shell: a hole in the software behind ~70% of websites. Governments took sites offline. eMudhra: the master keys that prove websites are real were cracked. One was the number 4. California: data on every public school student since 2023 stolen, including disability status. Railway: hackers stole customers’ secret keys from a hosting platform used by millions of developers. Zeabur: 321,810 accounts breached. The company is shutting down. LiteLLM: an AI tool downloaded 3.4 million times a day was poisoned with a password stealer. GitLab: a 10-out-of-10 severity hole in every version since 2014. Carn: criminals used an AI hacking tool to break into 100+ companies. Ahold Delhaize: hackers knocked the owner of Food Lion and Stop & Shop offline. Onamae: malware planted on up to 26,739 customer servers in Japan. Signal: a bug could leave your mic and camera on after you hang up. NGINX: 3 critical holes in software running ~1/3 of websites. HTTP/3: a single connection can crash 7 of the 10 ",
+      "author": "Anen-o-me"
+    },
+    {
+      "title": "Guy shows how nothing is real now",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcvctk/guy_shows_how_nothing_is_real_now/",
+      "published": "2026-10-22T21:27:20+00:00",
+      "summary": "submitted by /u/RealSlyck [link] [comments]",
+      "author": "RealSlyck"
+    },
+    {
+      "title": "Every AI model has the same “controversial” take on humans",
+      "url": "https://www.reddit.com/r/singularity/comments/1xckfuy/every_ai_model_has_the_same_controversial_take_on/",
+      "published": "2026-10-22T14:41:06+00:00",
+      "summary": "submitted by /u/Tgoc [link] [comments]",
+      "author": "Tgoc"
+    },
+    {
+      "title": "Anthropic Donates Agent Skills Standard to the Linux Foundation’s Agentic AI Foundation, Following a Similar Donation of the MCP Standard Last Year",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcq5ts/anthropic_donates_agent_skills_standard_to_the/",
+      "published": "2026-10-22T18:11:15+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Tesla Optimus production starts, targets 20,000 robots weekly",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcjgeh/tesla_optimus_production_starts_targets_20000/",
+      "published": "2026-10-22T14:02:58+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Sam Harris reveals Elon Musk was paranoid about Demis Hassabis so much that he recorded their conversations with his iPhone",
+      "url": "https://www.reddit.com/r/singularity/comments/1xclutx/sam_harris_reveals_elon_musk_was_paranoid_about/",
+      "published": "2026-10-22T15:33:46+00:00",
+      "summary": "submitted by /u/Recent_Fox4339 [link] [comments]",
+      "author": "Recent_Fox4339"
+    },
+    {
+      "title": "Neura Robotics introduced their Gen4 humanoid robot during the Robotgym inauguration in Munich",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcrus3/neura_robotics_introduced_their_gen4_humanoid/",
+      "published": "2026-10-22T19:13:58+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Canva has released their own image generation model.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xcwx96/canva_has_released_their_own_image_generation/",
+      "published": "2026-10-22T22:33:04+00:00",
+      "summary": "https://x.com/canva/status/2113348707223753165 submitted by /u/anonusr_llII [link] [comments]",
+      "author": "anonusr_llII"
+    }
+  ]
+}

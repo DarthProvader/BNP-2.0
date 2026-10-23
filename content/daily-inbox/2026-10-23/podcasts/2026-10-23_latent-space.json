@@ -1,0 +1,27 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-23T04:01:53.787332+00:00",
+  "items": [
+    {
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/p/modal-d",
+      "published": "2026-10-22T16:40:57+00:00",
+      "summary": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D!Two years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to talk about Modal’s infra primitives and stack to offer those primitives and agent experience.A lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed $1 billion in annualized run rate, raised a $750 million Series D at a $16B valuation, and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth—and why demand for compute rarely looks like the contracts used to buy it.Watch ",
+      "author": "Basil Chatha"
+    },
+    {
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/p/moshi",
+      "published": "2026-10-22T13:00:00+00:00",
+      "summary": "Anekha Sokhal, CEO of Moshi, joins swyx to discuss building a recommendation engine for commodity traders, turning market data into useful signals, and designing AI that fits users’ workflows.Watch: YouTube · Moshi · Anekha0:00 AI Engineer New York and “you are the team”0:54 Meet Anekha2:09 From mathematics to energy derivatives3:46 Fulbright and becoming a founder5:45 What Moshi does6:10 Market data9:03 Bloomberg and market workflows10:03 Bloomberg, Claude and Netflix12:03 From dashboards to workflows15:03 Trusted sources and signal17:13 Models and document extraction18:20 AI Engineer New York20:32 Customer meetings23:54 Hiring and customers25:55 swyx’s path into AI This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.latent.space",
+      "author": "Latent.Space"
+    }
+  ]
+}

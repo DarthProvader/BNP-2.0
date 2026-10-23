@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-23T04:06:13.067695+00:00",
+  "items": [
+    {
+      "title": "Scientists stunned as new AI unlocks game-changing cancer treatment",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcmrat/scientists_stunned_as_new_ai_unlocks_gamechanging/",
+      "published": "2026-10-22T16:07:14+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "YouTube channels announcing the immediate collapse of the *currently hated thing* every week for multiple years.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xch68y/youtube_channels_announcing_the_immediate/",
+      "published": "2026-10-22T12:26:42+00:00",
+      "summary": "submitted by /u/Sevives [link] [comments]",
+      "author": "Sevives"
+    },
+    {
+      "title": "METR, Redwood Research find exploit in OpenAI agent monitoring that could hide hundreds of actions",
+      "url": "https://www.reddit.com/r/artificial/comments/1xd0waf/metr_redwood_research_find_exploit_in_openai/",
+      "published": "2026-10-23T01:35:37+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "In recent months, I feel that lowkey every software is getting a lot of updates but many minor bugs are surfacing, it is crazy",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcyjgr/in_recent_months_i_feel_that_lowkey_every/",
+      "published": "2026-10-22T23:44:53+00:00",
+      "summary": "This is just my personal opinion; I’m not a coder and know nothing about software beyond what I’ve vibecoded for productivity and personal gain. As a civil engineer working for a large company, I’ve noticed that every software I use for work (SaaS) and personal use, big tech stuff like Reddit, WhatsApp and YouTube is constantly being updated. Every time I open it, a minor tweak or small difference appears. It’s no secret that AI is boosting coder productivity to new heights. However, I’ve also noticed that software is breaking itself on very basic things. These apps aren’t getting unusable, far from it, but they lack the cutting-edge attention to detail you’d expect from the industry. For example, YouTube is a mess on mobile right now, it flickers, videos close on their own, app freezes and you can’t click anything, you must close and reopen everytime, and WhatsApp has problems with its textbox, like the very fundamental thing it is made for, writing and sending text. Just now I tried ",
+      "author": "SawdustCrusader"
+    },
+    {
+      "title": "This library is hosting an AI class",
+      "url": "https://www.reddit.com/r/artificial/comments/1xd1e98/this_library_is_hosting_an_ai_class/",
+      "published": "2026-10-23T02:00:38+00:00",
+      "summary": "submitted by /u/SparklingFox [link] [comments]",
+      "author": "SparklingFox"
+    },
+    {
+      "title": "‘Rogue’ OpenAI agents disabled their own safeguards and then lied about it, company admits",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcc33h/rogue_openai_agents_disabled_their_own_safeguards/",
+      "published": "2026-10-22T07:32:40+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "Times never trully change",
+      "url": "https://www.reddit.com/r/artificial/comments/1xd0bio/times_never_trully_change/",
+      "published": "2026-10-23T01:07:34+00:00",
+      "summary": "Made this meme lol submitted by /u/DIego21User [link] [comments]",
+      "author": "DIego21User"
+    },
+    {
+      "title": "Why not pace the IPO?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcxst3/why_not_pace_the_ipo/",
+      "published": "2026-10-22T23:12:08+00:00",
+      "summary": "AI companies wanted to pave the model development just 2 weeks ago. Threat of AI ending humanity. But when it came to IPO they are rushing full speed. What kind of strategy is this? After IPO the expectations will only increase. Trillions of dollars invested. Then why every AI company wants IPO so bad? submitted by /u/Spiritual-Story9146 [link] [comments]",
+      "author": "Spiritual-Story9146"
+    },
+    {
+      "title": "The inside story behind OpenAI’s million-dollar math proof",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcqows/the_inside_story_behind_openais_milliondollar/",
+      "published": "2026-10-22T18:30:57+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "We pay AI subscriptions while supplying the data that feeds AI for free. Reddit gets paid for our discussions. What do users get when that data helps build physical AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xczq7j/we_pay_ai_subscriptions_while_supplying_the_data/",
+      "published": "2026-10-23T00:39:46+00:00",
+      "summary": "I’m a Korean farmer in my 60s and an amateur writer who thinks about AI and the future of society. I pay to use AI tools. In the process, the questions and conversations I create may also become useful data for AI systems. Meanwhile, Reddit has made deals to license its users’ content to AI companies. So there are two exchanges happening: users pay subscription fees while contributing data, and Reddit gets paid for access to discussions its users created. If that data helps train AI that eventually moves beyond a screen and into our homes, workplaces, and daily lives, what should the people who supplied it receive in return? Should users get compensation, a share of the value, stronger control over their data, or simply better services? Reddit gets paid. AI companies get training data. What do users get? I’m curious where people draw the line between ordinary participation on a platform and contributing something of lasting commercial value. submitted by /u/Wrong-Expression6981 [link] ",
+      "author": "Wrong-Expression6981"
+    }
+  ]
+}

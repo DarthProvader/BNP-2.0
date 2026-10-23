@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-23T04:05:52.381318+00:00",
+  "items": [
+    {
+      "title": "a preview of AGI..😭",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcsmzs/a_preview_of_agi/",
+      "published": "2026-10-22T19:43:08+00:00",
+      "summary": "submitted by /u/Yusuf-Dev [link] [comments]",
+      "author": "Yusuf-Dev"
+    },
+    {
+      "title": "Did they nerf Opus 5.5? Doesn’t look like it. LiveNerf day 29 update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcraz9/did_they_nerf_opus_55_doesnt_look_like_it/",
+      "published": "2026-10-22T18:53:37+00:00",
+      "summary": "About a month ago we started LiveNerf as a way to track model capabilities over time. Since then it’s gotten bigger than I’d expected. We’ve accumulated around 1.5k stars on Github and now we’ve collected 29 consecutive days worth of data on the model capabilities of Opus 5.5. If anyone is interested in tracking model performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf As you can see from the 29 collected days of data, no nerf was detected. This weakens the idea that Anthropic nerfs models, or at least that they did not nerf Opus 5.5 within a range that LiveNerf can detect which would be by 6.6 points or more. We set out to produce unbiased data and determine if Anthropic nerfs their models, I believe we’ve done that. But the job is not finished. While Anthropic may not decrease the capabilities of their models over time, other companies might. I plan to expand LiveNerf to independently track models and APIs through this same scientific approach in the futur",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Claude is Like a Senior Now",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xce2vu/claude_is_like_a_senior_now/",
+      "published": "2026-10-22T09:40:55+00:00",
+      "summary": "submitted by /u/chaotic_pk [link] [comments]",
+      "author": "chaotic_pk"
+    },
+    {
+      "title": "Choose your projects well…the gravy train will end.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xd1g18/choose_your_projects_wellthe_gravy_train_will_end/",
+      "published": "2026-10-23T02:03:00+00:00",
+      "summary": "Just a quick reminder…this part of the curve is where the user makes out like a bandit. Your $20 is buying a breathtaking amount of compute. Use it wisely. It can’t and won’t stay this way. Don’t remake Mario so you can say ‘I made…’. What have you REALLY wanted to make that doesn’t exist. Get on that shit. submitted by /u/TanguayX [link] [comments]",
+      "author": "TanguayX"
+    },
+    {
+      "title": "I used Claude Code to build a pizzeria its own ordering app so regulars stop paying DoorDash 30%. First paying customer is live.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/",
+      "published": "2026-10-22T15:46:42+00:00",
+      "summary": "I run a tiny thing called Nomback. Restaurants in my area were losing 25 to 30% on every delivery app order and the owners I talked to had no idea how to get off it. So I built them their own app. Customer orders direct, restaurant keeps the money, and the dashers still get paid through DoorDash Drive on the back end. What Claude Code did: the whole Expo app, the Supabase edge functions, Stripe Connect so each restaurant gets paid straight to their own account, and the Clover hookup so orders land on the register they already use. It also wrote the Playwright suite that catches my dumb mistakes before I deploy. I'm not a trained dev. I would not have shipped this without it. What it could not do: get the first restaurant to say yes. That took walking in with a phone and showing the owner his own menu in the app. He's live now and his regulars order through it. Happy to answer anything about the build or the business side. Demo is here if you want to poke at it: nomback.com/?utm_source=",
+      "author": "PolarisXvi"
+    },
+    {
+      "title": "Claude told me to go to sleep. I thought they stopped doing this?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcxueg/claude_told_me_to_go_to_sleep_i_thought_they/",
+      "published": "2026-10-22T23:14:11+00:00",
+      "summary": "https://preview.redd.it/lbj0ilfmp3xh1.png?width=488&format=png&auto=webp&s=5dcd1c0b5fcac013684de5c8b627edf8597e97c1 \" Then sleep. It’s past one, and nothing here gets better at 2 a.m.\" submitted by /u/m1mic435 [link] [comments]",
+      "author": "m1mic435"
+    },
+    {
+      "title": "I got tired of checking whether Claude Code needs me. So I gave it a physical status light.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/",
+      "published": "2026-10-22T09:29:24+00:00",
+      "summary": "I have Claude Code running on a separate laptop, usually working on stuff that takes a while. Right now, Claude is building new 3D models for my 3D Batleship Game, you can play it here: Bearing Unknown · Schiffe versenken im Kalten Krieg What kept annoying me was having to check whether it was still doing its thing or just sitting there waiting for me to answer some question. Had an old Kuando Busylight lying around, so I hooked it up to Claude Code using hooks. Now it blinks red while Claude is working, stays solid red when it needs input, and turns green when it's idle. That's it. No more constantly glancing at the other screen. Probably one of the more useful things I've done with a USB light. submitted by /u/Fincut [link] [comments]",
+      "author": "Fincut"
+    },
+    {
+      "title": "Better than s*x",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcjta0/better_than_sx/",
+      "published": "2026-10-22T14:16:44+00:00",
+      "summary": "submitted by /u/stoilms [link] [comments]",
+      "author": "stoilms"
+    },
+    {
+      "title": "Claude seriously needs a $50/month plan between Pro and Max",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcle8t/claude_seriously_needs_a_50month_plan_between_pro/",
+      "published": "2026-10-22T15:17:16+00:00",
+      "summary": "Am I the only one who feels like there's a massive gap between Claude Pro at $20/month and Max at $100/month? The $20 plan is great, but if you're using Claude daily for coding, building SaaS products, and working on larger projects, you can burn through the usage limits pretty quickly. On the other hand, jumping straight to $100/month feels excessive for solo developers and indie hackers who need more usage but don't necessarily need that much. I feel like a $50/month plan with around 2.5x the usage of Pro would be the sweet spot for a lot of us. I'd happily pay that instead of constantly hitting limits or debating whether upgrading to Max is worth it. How many of you would actually subscribe to a $50 middle tier if Anthropic introduced one? submitted by /u/DexterTalks101 [link] [comments]",
+      "author": "DexterTalks101"
+    },
+    {
+      "title": "Do y'all non-dev vibecoders implement any kind of \"teach-me-on-the-go\" rule, memory or skill? I've instructed mine to preface its answers to my clumsy descriptions with \"The industry standard term for what you're describing is...\" and its wildly levelled up my ability to prompt effectively.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcx3td/do_yall_nondev_vibecoders_implement_any_kind_of/",
+      "published": "2026-10-22T22:41:07+00:00",
+      "summary": "Buona side effect: it feels like getting Claude to start out in an industry standard frame of mind is amazing at constraining its more inventive tendencies. submitted by /u/Scrybal [link] [comments]",
+      "author": "Scrybal"
+    }
+  ]
+}
