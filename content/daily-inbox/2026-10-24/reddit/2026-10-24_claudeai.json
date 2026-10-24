@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-24T04:05:57.764486+00:00",
+  "items": [
+    {
+      "title": "Claude Fable 5.1 can hide secret messages in benign images",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdgtas/claude_fable_51_can_hide_secret_messages_in/",
+      "published": "2026-10-23T15:14:20+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "No coding or gamedev background, 6 weeks with Opus 5.5 + Godot — from drawings to a playable game",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdhkzb/no_coding_or_gamedev_background_6_weeks_with_opus/",
+      "published": "2026-10-23T15:43:39+00:00",
+      "summary": "I spoke with the solo dev behind a really impressive indie project built in Godot. They started with no coding or gamedev background and have spent about six weeks turning their own drawings and ideas into a playable game. Here are a few useful details and tricks they shared. The game mixes Ragnarok Online with Monster Hunter. Most of the development happens through Claude Code with Opus 5.5 , using a Claude Max 20× subscription . There’s no fixed scope so far. Each feature starts with an idea and research, gets implemented, then gets tested and adjusted in the actual game. The focus is on one small feature at a time and how it looks and feels before moving on. The custom Claude skills are probably the most useful part of the setup for people here: “route” assesses the task and delegates suitable work to Sonnet or Haiku, with Opus reviewing the results. This helps save tokens. “handoff” starts a fresh session with the same setup and the context needed to continue, keeping the workflow ",
+      "author": "Delicious-Shower8401"
+    },
+    {
+      "title": "Anthropic’s new guide (Oct 22) argues most agents should have fewer subagents: one main loop, skills and tool search instead. Includes “we cut Claude Code’s system prompt by over 80%”",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdwquj/anthropics_new_guide_oct_22_argues_most_agents/",
+      "published": "2026-10-24T02:15:23+00:00",
+      "summary": "Anthropic published an 18-minute guide on Oct 22 called \"When to fold subagents into your main agent loop.\" It is aimed at enterprise agent builders, but the lessons apply to anyone who set up a pile of subagents in Claude Code. Main points: - Default to one model, one context window, one open-ended tool loop. Put domain procedures into skills and hard limits and lookups into tools. Let the model write and revise its own plan. - Keep subagents only when you measure degradation from context bloat, need parallel work with disposable context, or the agent struggles with too many tools or conflicting instructions. - One customer's single loop ran roughly 2x faster than its multi-agent harness. Several deployments saw better quality, lower cost and lower latency. - Tool choice tends to degrade past 30-50 tool definitions in the system prompt. Group tools by user intent and use tool search with deferred loading. - Anthropic cut Claude Code's own system prompt for newer models by over 80%. - ",
+      "author": "emarkosov"
+    },
+    {
+      "title": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdcmm4/swedens_government_is_blocking_chatgpt_and_claude/",
+      "published": "2026-10-23T12:27:03+00:00",
+      "summary": "Original Swedish article: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "The “Tv hack” to change UI got me thinking… do you think that claude could replace a ring doorbell subscription?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdq96i/the_tv_hack_to_change_ui_got_me_thinking_do_you/",
+      "published": "2026-10-23T21:13:12+00:00",
+      "summary": "Wouldnt even know how to start so putting it here to see if someone with a bigger claude brain could figure it out submitted by /u/TescoOrangeSquashh [link] [comments]",
+      "author": "TescoOrangeSquashh"
+    },
+    {
+      "title": "Screenshots of the custom TV launchers I mentioned: built with Claude Code for our guests and backyard",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdw1gd/screenshots_of_the_custom_tv_launchers_i/",
+      "published": "2026-10-24T01:38:52+00:00",
+      "summary": "I don't post here much, but a few of you asked for screenshots after my comment a couple of days ago, and the replies were really kind, so here goes. I've been running these for about six months. They're very much a hobby project, built around our house, so take it as inspiration rather than a how-to. The thing that got me started: on Android TV / Google TV, the home screen is just an app. Claude Code can build you a new one, and it can talk to Home Assistant, Plex, or anything else on your network. I ended up with three, and each image caption says which one you're looking at. 1. Guest room \"hotel mode\" (images 1–8) Before a visit, guests fill out a short intake form: drinks, snacks, wake-up time, how they take their coffee, favorite movie genres, and whether they'd like the cats to keep them company 🐈. The TV then: greets them by name (\"Good evening… a glass of champagne, perhaps?\") shows their coffee order in the morning greeting builds the Plex rows from their genres goes dim and q",
+      "author": "rephlektiv"
+    },
+    {
+      "title": "I couldn't understand my own jaw problems, so I had Claude Code turn my CBCT and MRI scans into a 3D x-ray film",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdliv3/i_couldnt_understand_my_own_jaw_problems_so_i_had/",
+      "published": "2026-10-23T18:10:37+00:00",
+      "summary": "I've got a jaw that catches when I open, a slight underbite and a chin that sits 4 mm to the left. I had the reports and the scans but couldn't picture any of it, so I built this to understand it myself: https://youtu.be/gLL_vvU0lFs How it was made: My own CBCT scan turned into a 3D skull, with open anatomy models (Z-Anatomy / BodyParts3D) fitted to it for the muscles, ear tube and neck Every scene built in three.js and rendered with HyperFrames, all written by Claude Code I directed and reviewed it scene by scene in short clips, and Claude Code made each fix in about a minute Rendered in 1080p, 4K, vertical, and a Spanish version for my doctor I sent it to my jaw specialist and she said she nearly cried, and asked to share it with her patients. Not medical advice, just my own case. submitted by /u/Pearcey1409 [link] [comments]",
+      "author": "Pearcey1409"
+    },
+    {
+      "title": "I am getting more and more tired. Is it just me?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdmb4s/i_am_getting_more_and_more_tired_is_it_just_me/",
+      "published": "2026-10-23T18:40:13+00:00",
+      "summary": "I've been working on an application/system for several weeks. It was chill, on and off. Recently I picked up the pace since I'm nearing the start of a pilot. But that's not the point. For the past few weeks I'm getting more and more physically tired. I am used to running several times a week, but this is different kind of fatigue -- I feel like I am switching context too fast, ingesting too much info. I almost have a sort of a brain fog. It is also not helping that I fill some pauses when Claude is working with browsing, reading the news or watching media. Do you have a similar feeling when you're working with claude more intensively? Is it just me? Or did I just get covid? submitted by /u/very_moist_raccoon [link] [comments]",
+      "author": "very_moist_raccoon"
+    },
+    {
+      "title": "Claude Code taught my Roborock to escape from under the stairs",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdnn8e/claude_code_taught_my_roborock_to_escape_from/",
+      "published": "2026-10-23T19:30:20+00:00",
+      "summary": "We've had our Roborock for a while. When we moved into a new apartment, under the stairs seemed like the perfect spot for it: out of everyone's way, and space that's otherwise wasted. Then we realised it can't get out of there on its own. The way out is only a few cm wider than the robot, so before every clean I steered it out by hand in the app. Over about one evening of actual work, I fixed that with Claude Code. I was mostly the eyes (\"it bumped on the left\"), and Claude wrote the code, read the robot's logs and ran the tests. **Things we figured out:** - The robot has hidden remote-control commands (what the app's joystick uses), undocumented, so it was trial and error. - Moves in the first ~5 seconds of remote control are silently ignored. - After backing off the dock, the robot does a 180° turn **by itself**. For a while every turn looked like a huge overshoot. - Its map position updates live, so the script can measure after each move instead of driving blind. **Setup:** a Raspbe",
+      "author": "fillyourcoffee"
+    },
+    {
+      "title": "This Proves That Claude Is The Best Ai.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdj05q/this_proves_that_claude_is_the_best_ai/",
+      "published": "2026-10-23T16:35:36+00:00",
+      "summary": "one of the reasons Claude is so much better than all the others (ChatGPT, Gemini, etc) is not just because it’s way more powerful, but because it is smart enough to know how to actually help you. I was trying to get the super smash bros crash fan game to run on an iPhone emulator, and Claude made incredible tutorials that got it running, but then it turns out it can’t run well on emulators without crashing and other reported the same issue. instead of trying to get me to do more and more random options to solve it, to get it’s reward points, it actually just told me straight up that’s it, give up. Don’t waste your time chatgpt would have kept on trying and trying until I would have to choose myself to stop. “Maybe this maybe that”. a real man knows when to quit or something submitted by /u/Stunning_Ocelot7820 [link] [comments]",
+      "author": "Stunning_Ocelot7820"
+    }
+  ]
+}
