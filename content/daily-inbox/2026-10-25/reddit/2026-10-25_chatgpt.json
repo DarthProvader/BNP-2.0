@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-25T04:04:06.071262+00:00",
+  "items": [
+    {
+      "title": "holy fucking shit.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xedx50/holy_fucking_shit/",
+      "published": "2026-10-24T17:03:30+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "What are we doing now, OpenAI? The guardrails are getting more and more ridiculous...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xe3tev/what_are_we_doing_now_openai_the_guardrails_are/",
+      "published": "2026-10-24T09:02:37+00:00",
+      "summary": "Trying to combine two motivational images into one, and somehow ChatGPT just refused to do so after many attempts... submitted by /u/Gnub_Neyung [link] [comments]",
+      "author": "Gnub_Neyung"
+    },
+    {
+      "title": "Let me in!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xeoicu/let_me_in/",
+      "published": "2026-10-25T00:40:24+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "Those of you who use ChatGPT every single day, what are you actually doing with it?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xehxkq/those_of_you_who_use_chatgpt_every_single_day/",
+      "published": "2026-10-24T19:44:35+00:00",
+      "summary": "Besides coding and emails, what keeps bringing you back every day? The boring everyday stuff counts submitted by /u/singing_coach_ai [link] [comments]",
+      "author": "singing_coach_ai"
+    },
+    {
+      "title": "What’s the most helpful thing you’ve gotten ChatGPT to do for you?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xen0by/whats_the_most_helpful_thing_youve_gotten_chatgpt/",
+      "published": "2026-10-24T23:28:29+00:00",
+      "summary": "I’m very interested to hear people‘s answers to this question, as I have been able to get it to send out emails for me, but sometimes it doesn’t listen too well, maybe you can provide a prompt that I can use to get it to send out emails for me. Thanks. 🙏 submitted by /u/AiGeneratedLife [link] [comments]",
+      "author": "AiGeneratedLife"
+    },
+    {
+      "title": "Well That Was Unexpected",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xeixjj/well_that_was_unexpected/",
+      "published": "2026-10-24T20:25:56+00:00",
+      "summary": "submitted by /u/Present-Contest3205 [link] [comments]",
+      "author": "Present-Contest3205"
+    },
+    {
+      "title": "How many of you knew you could use ChatGPT to create original mods and trainers for your games?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xenmn9/how_many_of_you_knew_you_could_use_chatgpt_to/",
+      "published": "2026-10-24T23:58:46+00:00",
+      "summary": "I've been playing Gears of War since the original game, and for years I've wanted the ability to play as all the different enemies and creatures instead of being restricted to the usual playable characters. Well, I finally decided to do something about it. Over the past several weeks, I've been working with ChatGPT (specifically GPT-6 Astra) to reverse-engineer and modify three different Gears games: Gears of War 3 (Jacinto), Gears 5, and Gears of War: E-Day. What started as a simple shapeshifter trainer that let me take control of enemy characters eventually turned into something much bigger. We now have custom offline bot matches, playable enemy creatures with their original attacks, custom character skins and weapon loadouts, Horde mode customization, and a ridiculous number of options that aren't normally available to players. Gears 5 alone has 365 character appearances to mess around with. And just recently, we combined all three trainers into one application I'm calling Gears Toy",
+      "author": "Informal_Fisherman60"
+    },
+    {
+      "title": "I fact-checked \"the em dash giveaway is gone\" against 163M Reddit posts and comments. It was half right",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xe8ink/i_factchecked_the_em_dash_giveaway_is_gone/",
+      "published": "2026-10-24T13:21:08+00:00",
+      "summary": "Last December a post here with 23K upvotes said the em dash giveaway is gone and listed the new ones, and two more like it followed in January and March. I checked both halves on 10.9M long posts and 152M long comments from 100 big subreddits, 2021 to 2026. The em dash isn't gone. It peaked at 6.8% of long posts in mid 2025, fell 30% after GPT-5 and the \"no em dash\" fix, then crept back. In 2026 it's still 7x the 2021 level. Comments never went above 1.5%, so it's not autocorrect. The new ones are real though. \"And honestly?\" is up 6x and \"quietly\" 3.7x, up in 56 of 58 subs. Meanwhile \"delve\" peaked in 2024 and is back to its 2021 level. Drop the ones you've noticed and I'll check a few. Em dash write-up with the monthly numbers and CSVs: https://kissmypost.com/research/em-dash-chatgpt-reddit Made with KissMyPost, the Reddit analytics tool I'm building: kissmypost.com submitted by /u/krutitsky [link] [comments]",
+      "author": "krutitsky"
+    },
+    {
+      "title": "how're they not bankrupt already!?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xe5yjs/howre_they_not_bankrupt_already/",
+      "published": "2026-10-24T11:12:43+00:00",
+      "summary": "submitted by /u/_404_LogicNotFound_ [link] [comments]",
+      "author": "_404_LogicNotFound_"
+    },
+    {
+      "title": "Terence Tao: AI turns beautiful mathematics into ‘toxic waste’",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xe9nwp/terence_tao_ai_turns_beautiful_mathematics_into/",
+      "published": "2026-10-24T14:10:25+00:00",
+      "summary": "The top mathematician says Silicon Valley’s rush to solve long-investigated conundrums excludes ‘elegant solutions’ and reduces maths to raw training material submitted by /u/TheObserverUK [link] [comments]",
+      "author": "TheObserverUK"
+    }
+  ]
+}

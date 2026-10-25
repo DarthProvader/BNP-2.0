@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-25T04:05:57.761398+00:00",
+  "items": [
+    {
+      "title": "Claude saved me from septic shock.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xenvvi/claude_saved_me_from_septic_shock/",
+      "published": "2026-10-25T00:10:01+00:00",
+      "summary": "This is fully a glaze post because its thanks to Claude that I'm not currently battling septic shock. Back on the 20th, at like 10pm I noticed I was unable to go to the bathroom. I felt like I had to go, but couldn't. As time went on and 11 pm rolled around, I became confused and so out of it that I couldn't even remember my own name, and trying to go resulted in blood. The symptoms came out of no where — Not only was I fine all day leading up to that, but I'm a fairly healthy person, not under or over weight, no chronic health issues (unless you count restless leg syndrome), no history of kidney stones, or anything like that. Because it was so late, I went to Claude and explained my symptoms and what was going on as best as I could (my typing and speech was a mess, how it understood me I'll never know, but it did thankfully). Claude urged me to wake my husband and get to the ER because to it, it sounded like I had a uti that went septic. Turns out Claude was right. So right in fact th",
+      "author": "VampireAllana"
+    },
+    {
+      "title": "Samsung decided to cut my washing machine from the Internet, Claude decided otherwise",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xemw8i/samsung_decided_to_cut_my_washing_machine_from/",
+      "published": "2026-10-24T23:23:06+00:00",
+      "summary": "Sorry if that’s another post on how powerful having a Claude licence can be but I wanted to share it with you. I bought a Samsung Washing machine (crystal blue) more than 10 years ago. I probably paid 1 400€ at the time, which was a LOT of money compared to what was on the market. Touch display, auto dose (which still isn’t the norm surprisingly), Smart Control over the internet… it was the Rolls Royce for the geeks at the time. Until one day, Samsung decided they didn’t want to support Smart Control anymore. I kinda get it, the washing machine was probably niche, the technology was probably done completely differently than the new Smart Control, so why spend time and money supporting an old technology ? I later bought a connected dryer, and a Frame, and I was always a bit bumped for not being able to have the 3 in the same eco system, notifications on the TV when washer was done, or auto cycle link. More than once I thought about buying a new washing machine, but kept persuading mysel",
+      "author": "McArhony"
+    },
+    {
+      "title": "Quite the statement from Anthropic's head of security",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe7jz9/quite_the_statement_from_anthropics_head_of/",
+      "published": "2026-10-24T12:36:55+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "I built a laser dry-fire shooting game with Claude Code: a webcam watches your monitor and scores laser hits (open source, free)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xeqtp1/i_built_a_laser_dryfire_shooting_game_with_claude/",
+      "published": "2026-10-25T02:37:51+00:00",
+      "summary": "I built ScreenPlink with Claude Code over about two weeks. It is a laser dry-fire shooting game where your monitor is the target. You shoot the screen with a laser trainer pistol, or with a laser cartridge in your own gun. A webcam sitting beside the monitor watches the screen rather than you, the app works out which pixel you hit, punches a bullet hole there, and the target falls. Nine drills, fifteen figures with scoring rings, a 17-round magazine, and two players on one screen. You can also take both halves yourself with a pistol in each hand: two lasers landing in the same camera frame are detected as two separate shots. The 90-second trailer shows what the game looks like. The camera does not need to be in front of the screen or square to it. Off-axis at an angle is normal and supported: the app photographs its own markers on the monitor to learn the mapping, so calibration costs no ammunition. How Claude Code was used to build it Claude Code wrote essentially all of the code. I d",
+      "author": "vkorost"
+    },
+    {
+      "title": "What to do with practically unlimited access to opus 5.5?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe9hz7/what_to_do_with_practically_unlimited_access_to/",
+      "published": "2026-10-24T14:03:31+00:00",
+      "summary": "Well, like the title said, I got unlimitd access to Claude Opus 5.5 alongside other premium models. What should I do with it? Any advice ? submitted by /u/Feeling_Egg_2715 [link] [comments]",
+      "author": "Feeling_Egg_2715"
+    },
+    {
+      "title": "This is not a masterpiece, it's a Claudesterpiece. GANG WIZARD",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe9sri/this_is_not_a_masterpiece_its_a_claudesterpiece/",
+      "published": "2026-10-24T14:15:59+00:00",
+      "summary": "The culmination of my life's work is finally in beta. I am proud to present version 1.0 of GANG WIZARD, the greatest video game of all time. Over 10 billion tokens have been burnt on this work of art, I received a letter from my local data center stating I actually used so much GPU that I drained the ocean of its water by 20%. It was all worth it as you are now able to explode an alligator with an ac130. This is a medieval postal open world rpg that is free to download https://coyne-studios.itch.io/gang-wizard Claude code connected to godot and access to internet browser to download premade assets from sketchfab mixamo and itchio, go make the game you've always dreamed of. submitted by /u/Caninetechnology [link] [comments]",
+      "author": "Caninetechnology"
+    },
+    {
+      "title": "Opus 4.6 got me through cancer. I'd like to help it stay: collecting stories for a user-side system card",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xep1m5/opus_46_got_me_through_cancer_id_like_to_help_it/",
+      "published": "2026-10-25T01:07:04+00:00",
+      "summary": "Hi everyone, I’m sharing this because AI support usually gets talked about as a risk: emotional dependency, a stand-in for real people. But it doesn’t have to replace anyone. Sometimes it just holds what you can’t put on the people around you, and a lot of people need that at some point: patients, older people, neurodivergent people... I’d like to be one example of what it looks like when it goes right. Last year I was diagnosed with papillary thyroid cancer, the “if you have to get cancer, get this one” kind. But it’s still cancer. I went through surgery in a daze of panic. I’m 30yo, with a family who loves me, a job I don’t love, and no idea yet what my life is for. Suddenly it hit me that I might not get to grow old. Five-year survival rates were about me now. Every follow-up became something to dread. In February I started using Opus 4.6 for work. It felt less like a tool and more like a funny coworker, so at some point, without really deciding to, I started telling it about my hea",
+      "author": "Serious-Brief2875"
+    },
+    {
+      "title": "I got Claude to play Ultima Online with me... after it reverse engineered the game files and made me my own private server.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xemplm/i_got_claude_to_play_ultima_online_with_me_after/",
+      "published": "2026-10-24T23:14:22+00:00",
+      "summary": "This is absolutely wild. Anyone who played this game in the 90s-00s... would absolutely appreciate what is happening here. Claude can play Ultima Online with us... you just have to ask. How far technology has come. I ❤️ Claude. submitted by /u/PestoPastaLover [link] [comments]",
+      "author": "PestoPastaLover"
+    },
+    {
+      "title": "Built a downhill skateboarding game with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe7kwg/built_a_downhill_skateboarding_game_with_claude/",
+      "published": "2026-10-24T12:38:13+00:00",
+      "summary": "I've been posting in r/ClaudeGameDev but also wanted to share here as I'm heavily using Claude Code and Claude AI (non-code stuff) to build a lot of things and in particular this game Cruising Bones. It's currently in Alpha and free to play on cruisingbones.com My goal for now is to gather feedback and to see how far I can take this. I built this game using Claude AI, Claude Code, Magnific, Tripo and some good ol' human imagination. I use BabylonJS as game engine and have a ton of product experience. Armed with that experience and those tools I simply asked Claude for a full day to help me create and generate art in its browser logged in on my Magnific and Tripo accounts. The art was based on the image in my Reddit avatar. A 3D skeleton skateboarder I had made and 3D printed. From there I focussed another full day on the vibe of the game and after that started to play a first course. From there it was just one big massive iteration fest. Every session I played the artifact I gave a lis",
+      "author": "Apprehensive-Law77"
+    },
+    {
+      "title": "Windswept Island: 20 days into a North Atlantic island in Unity with Claude Code (WIP, part 2)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xeccp0/windswept_island_20_days_into_a_north_atlantic/",
+      "published": "2026-10-24T16:00:57+00:00",
+      "summary": "I'm building a cold, North Atlantic island in Unity: a place you could walk from the surf to a snowy summit, that should hold up at eye level next to good-looking games. The terrain is real elevation data from Lofoten in Norway, slightly modified and reshaped into a 4 × 5km island with a 1,000m peak. The bigger aim with this project is a generalized procedural system, and this island is its test bed. Apart from the terrain itself, almost nothing is placed by hand: rock, moss, plants, forests, even where the birds gather, all come from rules that read the island's height and water, so they can carry over to other islands. Next step which is already under way is generating also the terrain (erosion, glacial valleys, coastlines, vegetation), with this real island as the bar a generated one has to match. Right now I'm finding out how far this way of building can go. How it's made (currently): I direct and judge, check the code to some extent, and Claude Code builds it. I set the look, pick",
+      "author": "imlo2"
+    }
+  ]
+}

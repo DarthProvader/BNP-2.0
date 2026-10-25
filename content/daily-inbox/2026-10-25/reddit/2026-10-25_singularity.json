@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-25T04:03:14.967383+00:00",
+  "items": [
+    {
+      "title": "Dario Amodei, CEO of Anthropic, speaking out against the war in Iraq as a college student in 2003",
+      "url": "https://www.reddit.com/r/singularity/comments/1xekblx/dario_amodei_ceo_of_anthropic_speaking_out/",
+      "published": "2026-10-24T21:25:04+00:00",
+      "summary": "submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "AI Has Finally Hit the (Vertical) Wall on ARC-AGI-3",
+      "url": "https://www.reddit.com/r/singularity/comments/1xeg0e9/ai_has_finally_hit_the_vertical_wall_on_arcagi3/",
+      "published": "2026-10-24T18:27:11+00:00",
+      "summary": "https://preview.redd.it/33qjid2yjgxh1.png?width=1486&format=png&auto=webp&s=f9224011dcc2d6d9115ef920eaf66c6a3eca9f2e ARC-AGI-3 was specifically designed to be particularly challenging for AI. Now Chollet has to come up with a ARC-AGI-4. submitted by /u/DecipheringAI [link] [comments]",
+      "author": "DecipheringAI"
+    },
+    {
+      "title": "OpenAI put its internal models into a red-teaming exercise where they had to coordinate despite being totally isolated from each other. They hacked the server hardware to do it.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xeevz3/openai_put_its_internal_models_into_a_redteaming/",
+      "published": "2026-10-24T17:42:47+00:00",
+      "summary": "submitted by /u/Specialist_Dark_3668 [link] [comments]",
+      "author": "Specialist_Dark_3668"
+    },
+    {
+      "title": "Absolutely crazy AI voice model by Block called Dessa.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xe8b2x/absolutely_crazy_ai_voice_model_by_block_called/",
+      "published": "2026-10-24T13:11:56+00:00",
+      "summary": "Here's the demos for the people who are interested. Source: https://block.xyz/dessa submitted by /u/The_Ok_Lord [link] [comments]",
+      "author": "The_Ok_Lord"
+    },
+    {
+      "title": "Altman: \"I don't even know a dramatic enough word to use… models can find bugs that are outside of the normal threat model of what we think a hacker can do… hardware-level, insane stuff… I no longer think we're gonna be able to just patch all the bugs.\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/",
+      "published": "2026-10-24T10:46:47+00:00",
+      "summary": "submitted by /u/soldierofcinema [link] [comments]",
+      "author": "soldierofcinema"
+    },
+    {
+      "title": "Labs are now actively working to replace Research Economists",
+      "url": "https://www.reddit.com/r/singularity/comments/1xeczu3/labs_are_now_actively_working_to_replace_research/",
+      "published": "2026-10-24T16:26:29+00:00",
+      "summary": "This was sent to an economist working at the Minnesota Fed. Imagine being able to ask an agent a complex research question and have it produce a publishable answer in under an hour. Like what we saw with the Mathematicians last month, most academics are probably not going to handle this very well. Source: https://www.linkedin.com/feed/update/urn:li:activity:7519616277695356929/ submitted by /u/mindaro_sienna [link] [comments]",
+      "author": "mindaro_sienna"
+    },
+    {
+      "title": "Right now, millions of Meta's AIs are living \"digital lives\" in a simulation, and they don't know. They're dropped into a \"fake person's life\" with a job, hobbies, friends, dreams. They think they're talking to real humans, who are secretly other AIs. When the AIs figure it out, Meta deletes it.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xecnoi/right_now_millions_of_metas_ais_are_living/",
+      "published": "2026-10-24T16:13:03+00:00",
+      "summary": "Makes you think, huh? … submitted by /u/adivinemessenger [link] [comments]",
+      "author": "adivinemessenger"
+    },
+    {
+      "title": "ETH Zurich taught the G1 to climb ladders, climb, bypass tricky terrain by contact prediction, using only ten minutes of human training data",
+      "url": "https://www.reddit.com/r/singularity/comments/1xepabh/eth_zurich_taught_the_g1_to_climb_ladders_climb/",
+      "published": "2026-10-25T01:18:55+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Revenue: $16.3B Net loss: $80.7B IPO valuation: $2T",
+      "url": "https://www.reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/",
+      "published": "2026-10-24T05:15:19+00:00",
+      "summary": "submitted by /u/VariationLivid3193 [link] [comments]",
+      "author": "VariationLivid3193"
+    },
+    {
+      "title": "What are you most excited for in a realistic future (driven by AI)",
+      "url": "https://www.reddit.com/r/singularity/comments/1xemzmg/what_are_you_most_excited_for_in_a_realistic/",
+      "published": "2026-10-24T23:27:33+00:00",
+      "summary": "Personally, I hope to see AI driven cures to diseases especially mentally detrimental ones like Alzheimers. submitted by /u/Tricky_Rule_4565 [link] [comments]",
+      "author": "Tricky_Rule_4565"
+    }
+  ]
+}

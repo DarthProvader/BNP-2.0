@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-10-25T04:07:09.638105+00:00",
+  "items": [
+    {
+      "title": "Elon Musk Admits SpaceX Purposely Restricted Ukraine’s Starlink Access in War With Russia: ‘That Loophole Was Closed’",
+      "url": "https://www.reddit.com/r/technology/comments/1xeoqd6/elon_musk_admits_spacex_purposely_restricted/",
+      "published": "2026-10-25T00:51:26+00:00",
+      "summary": "submitted by /u/abrownn [link] [comments]",
+      "author": "abrownn"
+    },
+    {
+      "title": "AI bubble update: 79% of companies say their GPUs sit idle at least half the time, yet most plan new AI platforms",
+      "url": "https://www.reddit.com/r/technology/comments/1xecuyj/ai_bubble_update_79_of_companies_say_their_gpus/",
+      "published": "2026-10-24T16:21:08+00:00",
+      "summary": "submitted by /u/joe4942 [link] [comments]",
+      "author": "joe4942"
+    },
+    {
+      "title": "Iran Has ‘Detailed Plans’ to Attack Undersea internet Cables in Persian Gulf, in the event of future attacks by Israel or the US.",
+      "url": "https://www.reddit.com/r/technology/comments/1xej9s1/iran_has_detailed_plans_to_attack_undersea/",
+      "published": "2026-10-24T20:40:13+00:00",
+      "summary": "submitted by /u/OrokAkinfenwa [link] [comments]",
+      "author": "OrokAkinfenwa"
+    },
+    {
+      "title": "iPhone Duo Fails JerryRigEverything's Dusty Durability Test",
+      "url": "https://www.reddit.com/r/technology/comments/1xeg5wb/iphone_duo_fails_jerryrigeverythings_dusty/",
+      "published": "2026-10-24T18:33:19+00:00",
+      "summary": "submitted by /u/N2929 [link] [comments]",
+      "author": "N2929"
+    },
+    {
+      "title": "Apple’s iPhone Duo fails JerryRigEverything’s durability test",
+      "url": "https://www.reddit.com/r/technology/comments/1xe95m4/apples_iphone_duo_fails_jerryrigeverythings/",
+      "published": "2026-10-24T13:49:08+00:00",
+      "summary": "submitted by /u/Away_Theme1330 [link] [comments]",
+      "author": "Away_Theme1330"
+    },
+    {
+      "title": "Proton hosts Flock map revealing over 300,000 cameras, defying cease-and-desist threats against creator — privacy-focused company hosts site on Swiss servers, says users have the right to know who’s recording them",
+      "url": "https://www.reddit.com/r/technology/comments/1xebubm/proton_hosts_flock_map_revealing_over_300000/",
+      "published": "2026-10-24T15:40:11+00:00",
+      "summary": "submitted by /u/Add55xx [link] [comments]",
+      "author": "Add55xx"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://www.reddit.com/r/technology/comments/1xenv2n/forced_to_pick_groks_ai_model_chooses_republicans/",
+      "published": "2026-10-25T00:09:00+00:00",
+      "summary": "submitted by /u/Logical_Welder3467 [link] [comments]",
+      "author": "Logical_Welder3467"
+    },
+    {
+      "title": "Their police jobs ended. They kept using Flock’s vast surveillance network.",
+      "url": "https://www.reddit.com/r/technology/comments/1xejzvz/their_police_jobs_ended_they_kept_using_flocks/",
+      "published": "2026-10-24T21:10:57+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    },
+    {
+      "title": "OpenAI Frontier Red Team: Isolated AI Agents Figured Out How To Communicate Through Side-Channels In CPU Cache Timing",
+      "url": "https://www.reddit.com/r/technology/comments/1xefo9e/openai_frontier_red_team_isolated_ai_agents/",
+      "published": "2026-10-24T18:14:00+00:00",
+      "summary": "submitted by /u/CircumspectCapybara [link] [comments]",
+      "author": "CircumspectCapybara"
+    },
+    {
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "url": "https://www.reddit.com/r/technology/comments/1xeid9n/no_signs_of_ai_payoff_outside_the_tech_sector/",
+      "published": "2026-10-24T20:02:10+00:00",
+      "summary": "submitted by /u/LogicalDirect [link] [comments]",
+      "author": "LogicalDirect"
+    }
+  ]
+}

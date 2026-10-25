@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-25T04:06:18.653269+00:00",
+  "items": [
+    {
+      "title": "Boston Dynamics employees petition to cancel $1.3M Spot robot sale to ICE",
+      "url": "https://www.reddit.com/r/artificial/comments/1xe5pqg/boston_dynamics_employees_petition_to_cancel_13m/",
+      "published": "2026-10-24T10:59:13+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "AI is humanities collective inheritance and should be legally treated as such",
+      "url": "https://www.reddit.com/r/artificial/comments/1xefah4/ai_is_humanities_collective_inheritance_and/",
+      "published": "2026-10-24T17:58:59+00:00",
+      "summary": "I know this isn’t a novel thought but it has been bothering me for a while and I simply want to get it off my chest (written by a human, btw, except the “4 commitments”.) Every discovery, invention, or other contribution to human aggregate knowledge by our ancestors has been gathered into these models. It is the “Summa Scientiae Humanae” the sum of all human knowledge. All of our ancestors built this. Across history every earned morsel of knowledge has been hunted and gathered by our forebears. The mothers and fathers of our species left this for us. We are ALL the heirs. As such, no individual, no corporation, no culture, and no nation should rightfully “own” . These companies should be considered stewards or librarians of our collective inheritance. While AI is incredible and many of us have mixed feelings about the approaching singularity to say the least, we never gave these tech executives our consent to roll the dice on humanities future. They have been amply rewarded. But it’s h",
+      "author": "Guinean"
+    },
+    {
+      "title": "People are starting to use AI for FB Marketplace listings and it’s making me mad",
+      "url": "https://www.reddit.com/r/artificial/comments/1xenhio/people_are_starting_to_use_ai_for_fb_marketplace/",
+      "published": "2026-10-24T23:51:45+00:00",
+      "summary": "A leather couch was listed. Pristine condition. Little wrinkling. Showed up and the couch was so worn down. I wouldn’t have looked at the listing in the first place had they used legitimate photos. It’s so deceiving. Don’t do this. submitted by /u/bayls215 [link] [comments]",
+      "author": "bayls215"
+    },
+    {
+      "title": "I didn't want to pay for a subscription, so Claude made tools for my business instead.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xekp0q/i_didnt_want_to_pay_for_a_subscription_so_claude/",
+      "published": "2026-10-24T21:41:31+00:00",
+      "summary": "I started my own tech repair business and while I was searching for some form of ticket system for tracking customers and repairs, I realized it would just be easier and save me money if Claude made it for me instead! After making (or Claude did) my software for planning & customer tickets / inventory tracking, I got carried away and made an all-in-one diagnostic software as well... I happened to save upwards of $300+ a year on paid software... I thought I'd share in case anyone wants to use them or take a look :) I find making software this way is especially useful as you can just build the features you need specifically; for instance, I use Zoho mail and Quickbooks, which I just integrated using their API. Anyways, I gain nothing from your views or downloads or anything, no monetization, all open source and free to use and edit. Just super excited to share these little projects! I'm quite impressed by how simple it was, and excited to see the future for AI, even if it is a little ter",
+      "author": "ARK-nano"
+    },
+    {
+      "title": "Unintended consequences of AI on academic research",
+      "url": "https://www.reddit.com/r/artificial/comments/1xeobab/unintended_consequences_of_ai_on_academic_research/",
+      "published": "2026-10-25T00:30:47+00:00",
+      "summary": "Academia has been about publishing to advance science and get recognition, but in the future, if you're working on a cutting edge maths or physics problem, why would you make your advancement public? Especially if it is going to get stolen and fed into a system that will replace you. Sadly, I can imagine a world where the bleeding edge becomes closed again, as it has been for most of human history submitted by /u/DocBigBrozer [link] [comments]",
+      "author": "DocBigBrozer"
+    },
+    {
+      "title": "Apollo Hospitals deploys Intuitive's da Vinci 5 surgical robot in Bengaluru",
+      "url": "https://www.reddit.com/r/artificial/comments/1xepbrk/apollo_hospitals_deploys_intuitives_da_vinci_5/",
+      "published": "2026-10-25T01:21:00+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "AWS AI cloud capacity sold out through 2027, 2028 bookings filling fast",
+      "url": "https://www.reddit.com/r/artificial/comments/1xe1mos/aws_ai_cloud_capacity_sold_out_through_2027_2028/",
+      "published": "2026-10-24T06:47:51+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "OpenAI and Anthropic support OSS maintainers. Do Chinese AI companies offer similar programs?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xerrbz/openai_and_anthropic_support_oss_maintainers_do/",
+      "published": "2026-10-25T03:26:29+00:00",
+      "summary": "I was looking at the OSS programs from OpenAI and Anthropic and started wondering whether Qwen, DeepSeek, GLM, Kimi, or MiniMax offer anything similar. I mean free coding subscriptions or API credits for people maintaining open-source projects, rather than the usual signup credits. I tried searching but couldn’t find much. There’s a Qiniu program that offers credits for AI-related open-source projects, so there are at least some options. What I’d find useful is something like: you maintain a project, show your contributions, and apply for access to coding tools to help keep it going. Has anyone here received that kind of support from a Chinese AI company? Would appreciate links or firsthand experiences. Maybe I’m just looking in the wrong places. submitted by /u/DueHearing1315 [link] [comments]",
+      "author": "DueHearing1315"
+    },
+    {
+      "title": "Quiz: characters, words and tokens are different measures of text length, and LLM limits use tokens",
+      "url": "https://www.reddit.com/r/artificial/comments/1xedvbq/quiz_characters_words_and_tokens_are_different/",
+      "published": "2026-10-24T17:01:38+00:00",
+      "summary": "Short true-or-false quiz on text length in LLMs. Details vary by model and tokenizer, so treat the answers as general behavior and check the one you use. The same sentence in English and in Portuguese or Japanese uses about the same number of tokens. One word is one token. A model’s context window limit applies only to your prompt. Two different models will report the same token count for the same text. A long number or an unusual identifier is usually one token. Answers below. . . . Answers: False in general. Tokenizers are trained on text distributions, and many split non-English text into more tokens than a similar English sentence. The size of the gap depends on the tokenizer. False. Common words are often one token, but rarer words get split into pieces. For English, a rough rule of thumb is that a token is somewhat less than one word. Code, punctuation and numbers behave differently. False. The window covers input and output together, and some models also count internal reasoning",
+      "author": "ClickOk5811"
+    },
+    {
+      "title": "Short overview of models that i used",
+      "url": "https://www.reddit.com/r/artificial/comments/1xelqv9/short_overview_of_models_that_i_used/",
+      "published": "2026-10-24T22:28:52+00:00",
+      "summary": "chatgpt - best for daily use, good customization, swear if i tell him to, big limits, doesn’t block questions, just uses worse model, boring, no personality grok - lot of free uses, can generate / use a lot of photos for free, great customization, cool personality, isn’t boring does what i tell him to do without unnecessary crap, most stupid of those 3 claude - frighteningly smart, if it doesn’t support file type it makes its own interpreter, low amount of tokens for free, locks you out after reaching limit what are your thoughts about these 3? submitted by /u/Blazej_kb [link] [comments]",
+      "author": "Blazej_kb"
+    }
+  ]
+}
