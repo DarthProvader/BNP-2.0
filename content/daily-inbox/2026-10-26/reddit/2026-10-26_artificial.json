@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-26T04:06:20.876396+00:00",
+  "items": [
+    {
+      "title": "AI Agent Containment Fails at Every Stack Layer, From Hypervisor to IAM",
+      "url": "https://www.reddit.com/r/artificial/comments/1xf6xm5/ai_agent_containment_fails_at_every_stack_layer/",
+      "published": "2026-10-25T16:33:20+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "Unitree H2-X loses a leg mid-flip at Hangzhou conference",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfjrm1/unitree_h2x_loses_a_leg_midflip_at_hangzhou/",
+      "published": "2026-10-26T01:30:16+00:00",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "author": "VectorWireAI"
+    },
+    {
+      "title": "My six-month bet: more hybrid AI deployments, not a wholesale move to local models",
+      "url": "https://www.reddit.com/r/artificial/comments/1xflmv7/my_sixmonth_bet_more_hybrid_ai_deployments_not_a/",
+      "published": "2026-10-26T03:02:31+00:00",
+      "summary": "I expect more applications to use open-weight or self-hosted models over the next six months. But I doubt “everything moves local” is the likely outcome. Self-hosting has an obvious appeal when an application handles a large, predictable volume of routine work. You can control the deployment and reduce dependence on one API provider. The catch is that model weights being available doesn’t make operations free. Someone still pays for hardware, idle capacity, deployment, monitoring, and maintenance. For a small team with uneven traffic, an API could remain cheaper overall. The setup I’d bet on is mixed: a smaller model handles extraction, classification, and straightforward requests; a frontier API handles difficult cases. The split changes as models, prices, and workload volumes change. The useful comparison is total cost per accepted result. A cheap model that needs three retries and a manual correction may lose to an expensive model that gets the task right immediately. For anyone run",
+      "author": "yi111"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats",
+      "url": "https://www.reddit.com/r/artificial/comments/1xeuxt5/forced_to_pick_groks_ai_model_chooses_republicans/",
+      "published": "2026-10-25T06:26:59+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Why are people so pessimistic about AI potentially revolutionizing healthcare?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfa9sn/why_are_people_so_pessimistic_about_ai/",
+      "published": "2026-10-25T18:44:50+00:00",
+      "summary": "So I attended a quantum discussion event where quantum computing and AI researchers discussed the future of the technologies and how they could potentially be extremely useful and helpful to scientists and doctors, and accelerate advances in medicine. I’m not one to think that all cancers and diseases will be cured in a decade like some clickbaiters claim but I think it can help speed up cures and treatments a lot faster than without it. But some people seem to think it’s all a sham, or that it will make things worse. So far Moderna had very successful results in their trial for the skin cancer vaccine and machine learning helped accelerate that, and knowing it’s possible opens a door for future research. Idk I’m pretty optimistic about the future of healthcare and medical field, what’s your thoughts on it? submitted by /u/GloomyRing5596 [link] [comments]",
+      "author": "GloomyRing5596"
+    },
+    {
+      "title": "Has anyone used an agent payment yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfmr02/has_anyone_used_an_agent_payment_yet/",
+      "published": "2026-10-26T04:01:00+00:00",
+      "summary": "I imagined agent payments would be like: comparing prices, narrowing down the options, then hand it over and I just tap confirm. And suprisingly the whole process involves automatic payment. I've seen it on the market like muse, google, stirpe, anvita flow sits on x402, they seem to set up agent accounts with per-transaction and daily spending limits for safety. Cool. But what happens when a payment gets stuck halfway? Does it retry or charge me twice? Also, I've already set a spending limit, do I still need to approve every transaction? It seems like I still doing the real work. Has anyone actually tried this yet? submitted by /u/SpreadUsual4084 [link] [comments]",
+      "author": "SpreadUsual4084"
+    },
+    {
+      "title": "The AI Access Problem Most European Businesses Have Not Checked For",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfjqk2/the_ai_access_problem_most_european_businesses/",
+      "published": "2026-10-26T01:28:51+00:00",
+      "summary": "submitted by /u/Some-Technology4413 [link] [comments]",
+      "author": "Some-Technology4413"
+    },
+    {
+      "title": "Felt like we needed a no nonsense space…",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfj75y/felt_like_we_needed_a_no_nonsense_space/",
+      "published": "2026-10-26T01:03:33+00:00",
+      "summary": "We've just opened The Machine Room | Al Research & Engineering. It's a new community for people interested in actually building, researching, testing and understanding Al: researchers, engineers, indie builders, students and technically curious people all welcome. The focus is on things like models and architecture, agents and tool use, interpretability and evals, inference and systems, training/finetuning, papers, theory/cognition, alignment/governance, projects and collaboration. We are deliberately starting it small. The idea isn't to build another big Al server full of noise and mystical spirals. We want a useful space where people can share work, dig into papers, rip their work apart, argue ideas properly, ask technical questions and build things together. No credential gatekeeping. No requirement to agree on everything. Just curiosity, evidence and good-faith discussion. It's brand new, so if that sounds like a bit of you, come help us fill it from the beginning. https://discord.",
+      "author": "AI_Deviants"
+    },
+    {
+      "title": "Best local model for translating Asian epub novels on 24gb mac?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfii4b/best_local_model_for_translating_asian_epub/",
+      "published": "2026-10-26T00:31:18+00:00",
+      "summary": "Best local model for translating Asian epub novels on 24gb mac? submitted by /u/Hussein_ali_2000 [link] [comments]",
+      "author": "Hussein_ali_2000"
+    },
+    {
+      "title": "Izwi 0.1.0: fully local voice AI (TTS, ASR, voice chat) for Mac, Linux, and Windows",
+      "url": "https://www.reddit.com/r/artificial/comments/1xf7dyg/izwi_010_fully_local_voice_ai_tts_asr_voice_chat/",
+      "published": "2026-10-25T16:50:58+00:00",
+      "summary": "https://preview.redd.it/w59jjq3x7nxh1.png?width=1172&format=png&auto=webp&s=59d56bb30e5dad94ccf3f9525eb57cd19c56e5ef I’ve been building Izwi for a few months now and just shipped 0.1.0, the first stable release after months of public betas. It’s free and Apache-2.0. It’s a desktop app (plus a web UI, CLI and local server) for the voice side of local AI: Real-time voice conversations: local ASR → LLM → TTS TTS, voice cloning from a short sample, and voice design from a text description A Studio for long form audio like audiobooks Transcription with speaker diarization and forced alignment An OpenAI-compatible /v1 API (chat completions, audio/speech, audio/transcriptions), so existing code can point at localhost Models it runs today: TTS: Qwen3-TTS, Kokoro-82M, Fish Audio S2 Pro, VibeVoice, Voxtral TTS, LFM2.5 Audio ASR: Parakeet TDT v3, Whisper large-v3-turbo, Qwen3-ASR, Granite Speech 4.1, Nemotron 3.5 ASR, Voxtral Mini Diarization: Sortformer, Nemotron 3 diarization Chat: Qwen3.5, 3.6",
+      "author": "zinyando"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-26T04:06:00.038728+00:00",
+  "items": [
+    {
+      "title": "15 years in software, ex-Google, and tired of the anti-AI rhetoric",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfjhgh/15_years_in_software_exgoogle_and_tired_of_the/",
+      "published": "2026-10-26T01:16:56+00:00",
+      "summary": "I’ve spent 15 years in systems development including three at Google. I have plenty of complaints about AI but I hate how much of this conversation involves pretending it can’t do work that it’s already doing. Take something complicated like debugging tail latency in a C++ search serving system. Requests fan out through RPCs to multiple backends. Most finish quickly but a few slow responses hold everything up. Median latency looks fine while your p99 goes to shit. A change that passes every basic test can still fall apart under load. Here’s a nasty example. A slow RPC triggers a second request to another replica. The caller eventually times out but the backend work keeps running. Under load those extra requests start filling queues and making everything slower. Now the mechanism meant to reduce latency is adding to the overload. Fixing that means tracing deadlines through the call chain, checking cancellation and limiting the extra work. Then there’s the C++ lifetime problem. If a comp",
+      "author": "broski996"
+    },
+    {
+      "title": "is Claude the least \"yes-man\" LLM?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfa39o/is_claude_the_least_yesman_llm/",
+      "published": "2026-10-25T18:37:38+00:00",
+      "summary": "compared to the other big AI companies submitted by /u/TheNavyCrow [link] [comments]",
+      "author": "TheNavyCrow"
+    },
+    {
+      "title": "Seems like Anthropic enabled safeguards around reverse-enginering a TV",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xetxga/seems_like_anthropic_enabled_safeguards_around/",
+      "published": "2026-10-25T05:26:13+00:00",
+      "summary": "On the other hand, it did not trigger when asked about \"reversing\" a videogame. submitted by /u/targaryenNotJon [link] [comments]",
+      "author": "targaryenNotJon"
+    },
+    {
+      "title": "Same game built twice: Opus alone vs Opus planning + local Qwen coding. 16 min vs 42 min, $2.52 vs $0.62",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfgyl1/same_game_built_twice_opus_alone_vs_opus_planning/",
+      "published": "2026-10-25T23:21:58+00:00",
+      "summary": "most of my Opus bill is output tokens, Opus typing out every line of code. so I tried keeping Opus for the thinking and moving the typing to a local model the job: a 5-level pixel platformer from one spec, built twice on a MacBook Pro M5 Max in Fusion mode on Atomic Agent Opus 5.5 alone, the usual loop Fusion: Opus 5.5 plans and reviews, Qwen 3.8 27B writes the code locally (3 workers) Metric Opus alone Opus + local Qwen (Atomic Fusion) Cloud cost $2.52 $0.62 Build time 16 min 42 min Opus output 90.7k tokens 11.3k tokens Checklist 25/25 24/25 both games work: 5 levels, boss, win screen. Opus wrote 8x less, the cloud bill was 75% lower, and it took more than twice as long because the 3 workers share one GPU. so for me it's simple. need it in 15 minutes, Opus alone. big job that splits into parts and can wait, let Opus plan and review and let the local model type. one run per mode, cloud cost only. would you wait 2.5x longer for a 4x smaller bill, or is speed worth it for you? submitted ",
+      "author": "GapNew4766"
+    },
+    {
+      "title": "Oh...uhh...thanks Claude. Was not expecting that response to test my security, but it's appreciated!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfee7m/ohuhhthanks_claude_was_not_expecting_that/",
+      "published": "2026-10-25T21:29:32+00:00",
+      "summary": "Building an app, as someone with a degree in cybersecurity though; gave a VERY extensive list of tests, attack vectors, ect to check for. He said \"Aight, bet.\" Then build whole ass attack framework to tackle the list. Half of me wants to ask for it. 😂 submitted by /u/SubliminalChase [link] [comments]",
+      "author": "SubliminalChase"
+    },
+    {
+      "title": "Opus 5.5 writes slop code, but succeeds anyways. A research project inspired by SlopCodeBench",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfkhum/opus_55_writes_slop_code_but_succeeds_anyways_a/",
+      "published": "2026-10-26T02:05:20+00:00",
+      "summary": "A few months ago, I ran across this paper proposing a benchmark called SlopCodeBench. The idea is that you give an agent a problem split into a bunch of checkpoints, and at each one it has to add a new feature on top of its own old code without breaking anything. Along the way the benchmark measures how \"sloppy\" the code gets, using two metrics: structural erosion (how much complexity piles up in a few giant branchy functions) and verbosity (how much of the code is redundant). The paper found that agent code gets messier the longer the agent works on it, and that agents get worse at keeping everything passing as they go. The obvious takeaway is that the agent is digging its own grave. Messy code is hard to extend, so it fails. I wasn't convinced that held for agents, so I tested it. I ran Opus 5.5 through all 196 checkpoints ($266 in API costs, ouch) and checked whether messier code predicted worse results. Short version: - Its code did get messier, just like the paper says. Erosion an",
+      "author": "aj_marshall"
+    },
+    {
+      "title": "Tired of explaining the same steps again and again? I built this with Claude Code (free to try)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xf8pf2/tired_of_explaining_the_same_steps_again_and/",
+      "published": "2026-10-25T17:42:43+00:00",
+      "summary": "I'm Julian, a student, and I built StepGrab myself with Claude Code. At my working student job I was the guy people asked where some setting is or which button comes next, and writing each guide by hand took half an hour: fifteen screenshots, cropping, red arrows, typing the steps underneath. WHAT IT DOES StepGrab records a task you do once on your Mac or Windows PC. Every click becomes a screenshot with a numbered arrow and a sentence saying what you clicked. You edit the guide, black out private info (the black bar is burned into every export) and export it as GIF, PDF, HTML, Markdown or MP4. It works offline, the screenshots stay on your computer, and there is no account. HOW CLAUDE CODE HELPED I'm not a trained developer, so most of the code came from working with Claude Code. I use separate sessions for the Mac app, the Windows app and the website, and I keep them in sync with a shared feature map that Claude Code reads and updates. That map is why the Windows version could follow",
+      "author": "StepGrab"
+    },
+    {
+      "title": "I found a book in a thrift shop that Claude was definitely trained on...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfjgqq/i_found_a_book_in_a_thrift_shop_that_claude_was/",
+      "published": "2026-10-26T01:15:59+00:00",
+      "summary": "submitted by /u/TuringGoneWild [link] [comments]",
+      "author": "TuringGoneWild"
+    },
+    {
+      "title": "Jiggle Peach, my WIP idle game where you can slap a jiggly 3D peach",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xf27kt/jiggle_peach_my_wip_idle_game_where_you_can_slap/",
+      "published": "2026-10-25T13:20:13+00:00",
+      "summary": "This is my first time making an idle game. Last year I made an online soft body physics peach toy, and after showing it to my friends I knew there was more potential there! The game is suggestive so it's labeled as NSFW. There is a Spice setting in the game that tones down the suggestive content. If you have any ideas, suggestions or feedback, I'd love to hear them! It works on mobile and desktop. On mobile I recommend installing the PWA. EDIT: The first batch of optimisations is in! Thanks for all the feedback and for playing the game, that allowed me to find the performance bottlenecks! Let me know if things feel smoother and quicker for you. AI Disclosure: Jiggle Peach was developed with the help of Claude Code. Several assets were created by generated code as well: 3D models, the disco tune and the Retro vision easter egg music. The base of the peach model was created with Womp AI (this was done last year) and later polished by me. All third-party assets (sounds, music, fonts, 3D m",
+      "author": "Rayquinox"
+    },
+    {
+      "title": "Zest: the QR code designer I built with claude because i got sick of seeing the same ugly square.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfg3i5/zest_the_qr_code_designer_i_built_with_claude/",
+      "published": "2026-10-25T22:43:09+00:00",
+      "summary": "I built this with Claude, it's called zest: zest.lemoncello.studio . Designing is free, there's no account, and the static codes you download never expire. Why I work in print. QR codes cross my desk every day and after a decade of them landing on everything I'm tired of plain squares. A QR code has spare room built in (padding and error correction), so zest uses that room to push the dots toward your image's lights and darks. Your logo ends up woven into the data instead of stuck on top. Then it reads the result back, dot by dot, before it lets you download. Early on I fed it the Mona Lisa for a laugh, printed it big, and it scanned. That's when it stopped being an experiment and started being a product. How the work actually went I'm not a developer. Claude wrote the code; I set the design, the rules and the bar, and I tested everything on real phones. There was a lot of back and forth. Me trying to understand its reasoning for certain approaches and designs. Giving new direction. I ",
+      "author": "VibinVentricles"
+    }
+  ]
+}

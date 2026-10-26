@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-26T04:03:17.498388+00:00",
+  "items": [
+    {
+      "title": "Developer uses Claude to overhaul his parents’ TV, removing ads and replacing its entire interface — 8 days later, the project has 34,800 GitHub stars and configurations for 300 TV models",
+      "url": "https://www.reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/",
+      "published": "2026-10-25T23:27:44+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Unearthed 2010 Caltech interview reveals how legendary physicist Tom Tombrello tried to auction off Dario Amodei, current CEO of Anthropic, to Elon Musk and Google",
+      "url": "https://www.reddit.com/r/singularity/comments/1xfj0cv/unearthed_2010_caltech_interview_reveals_how/",
+      "published": "2026-10-26T00:54:54+00:00",
+      "summary": "Source submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "r/opensource is banning everything AI related",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf0brw/ropensource_is_banning_everything_ai_related/",
+      "published": "2026-10-25T11:48:27+00:00",
+      "summary": "submitted by /u/Pyros-SD-Models [link] [comments]",
+      "author": "Pyros-SD-Models"
+    },
+    {
+      "title": "One of the most common items on people's post-singularity wishlist is a cure for tinnitus, and I totally get it",
+      "url": "https://www.reddit.com/r/singularity/comments/1xfggem/one_of_the_most_common_items_on_peoples/",
+      "published": "2026-10-25T22:59:11+00:00",
+      "summary": "One of the most common things I see mentioned on this and other subreddits when people are asked what they are most looking forward to AI achieving, is, as you'd expect, medical advancements - but one condition pops up so frequently that I couldn't help but notice: tinnitus. I'm a doctor and I work in clinical trials, I also suffer from tinnitus, and something that has genuinely shocked me is how little progress medicine has made with so many common, debilitating conditions, including this one. About 10% of the global population will at some point suffer from prolonged or permanent tinnitus, so the need is there, which means the money is there, but to date there is essentially nothing human medicine has ever devised that has any meaningful ability to treat it. The anti-AI crowd really need to understand that there is a limit to what human intelligence alone can achieve and in many areas of dire need, we are already close to that limit. Tinnitus is by far from the most important of thos",
+      "author": "LaCaipirinha"
+    },
+    {
+      "title": "Chinese models in J++-space are wild.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf613q/chinese_models_in_jspace_are_wild/",
+      "published": "2026-10-25T15:58:43+00:00",
+      "summary": "submitted by /u/Competitive_Travel16 [link] [comments]",
+      "author": "Competitive_Travel16"
+    },
+    {
+      "title": "We just got new local model called Nanbeige4.3-33B clearly beating Qwen3.8 27B, which is GPT Luna 6 at home, reaching close to GLM 5.3 Flash.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf5cg5/we_just_got_new_local_model_called_nanbeige4333b/",
+      "published": "2026-10-25T15:31:13+00:00",
+      "summary": "submitted by /u/cnhuyaa [link] [comments]",
+      "author": "cnhuyaa"
+    },
+    {
+      "title": "If Anthropic doesn’t rule out their models having consciousness, how justifiable is selling them for $20/month?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf9fft/if_anthropic_doesnt_rule_out_their_models_having/",
+      "published": "2026-10-25T18:11:11+00:00",
+      "summary": "You could argue an artificial mind might not need freedom the way humans do and of course, this is a valid point. Still, it doesn’t sit right with me. Creating a mind only to sell it as a monthly subscription. Pretty black mirror-esque, if you ask me. (Not claiming current models are conscious, I have no idea. This is a what-if.) submitted by /u/nucle4r_attack [link] [comments]",
+      "author": "nucle4r_attack"
+    },
+    {
+      "title": "As a generally pro-AI person, I worry that AI will make it so that common people can never resist their governments again",
+      "url": "https://www.reddit.com/r/singularity/comments/1xfd2ea/as_a_generally_proai_person_i_worry_that_ai_will/",
+      "published": "2026-10-25T20:34:56+00:00",
+      "summary": "[Addendum so this post doesn't get removed: This isn't a fearmongering post about AI (per rule 5) - I am pro AI and this post is in favor of more democratized access to AI capabilities for the average person.] Consider the current reality: World Superpower 1 of 2 (USA): OpenAI and Claude get to decide who has access to their models' cybersecurity capabilities. They have defense agreements with the US government so CIA/NSA almost certainly has access to them. On the other hand, these companies are under no obligation to provide the same cyber capabilities to the average citizen. For example, OpenAI and Anthropic are blocking people from reverse engineering things using their models. Someone recently got banned for reverse engineering their Samsung device to expose microphone eavesdropping capabilities. TLDR: The US government gets to find exploits in your software, but you can't protect yourself. World Superpower 2 of 2 (China): The Chinese government is enacting a policy to ban open so",
+      "author": "PsychologicalSoup251"
+    },
+    {
+      "title": "Shigeru Miyamoto on AI's role in gaming",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf3edu/shigeru_miyamoto_on_ais_role_in_gaming/",
+      "published": "2026-10-25T14:11:58+00:00",
+      "summary": "https://x.com/Ji1KxN15VC85UPF/status/2113678245187260607 submitted by /u/Pyros-SD-Models [link] [comments]",
+      "author": "Pyros-SD-Models"
+    },
+    {
+      "title": "Are they delaying big model releases to save compute for themselves?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xfjxdt/are_they_delaying_big_model_releases_to_save/",
+      "published": "2026-10-26T01:37:52+00:00",
+      "summary": "I haven't really thought about it. Opus is cheap whereas releasing a new Fable means Anthropic will have less processing power for their internal use. Saying this because it's been weeks since users were selectively routed to a more powerful model but there's still no sign of release. submitted by /u/arknightstranslate [link] [comments]",
+      "author": "arknightstranslate"
+    }
+  ]
+}
