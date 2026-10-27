@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-27T04:05:57.354505+00:00",
+  "items": [
+    {
+      "title": "Claude throwing punches out here",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
+      "published": "2026-10-26T22:02:56+00:00",
+      "summary": "Damn claude. I thought we were tight Claude just woke up and chose violence submitted by /u/tradelydev [link] [comments]",
+      "author": "tradelydev"
+    },
+    {
+      "title": "Hmm yes this is a very dangerous cybersecurity prompt",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg18vv/hmm_yes_this_is_a_very_dangerous_cybersecurity/",
+      "published": "2026-10-26T16:12:38+00:00",
+      "summary": "submitted by /u/gnuonyx [link] [comments]",
+      "author": "gnuonyx"
+    },
+    {
+      "title": "Is this the moment when AI bubble bursts?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfxww4/is_this_the_moment_when_ai_bubble_bursts/",
+      "published": "2026-10-26T14:10:46+00:00",
+      "summary": "Opus 5.5 is already a gold mine for programming, and it’s good enough for my 3D work too. I could happily stay at that level. I want that same quality running locally. Without hitting a usage limit halfway through something I’m trying to finish. I’m tired of paying for a tool and constantly wondering how much work I’m allowed to do with it. And now they reduced the usage again. I hate it. How long do you think it will take local models to catch up to that opus level? Every newer model will be cool, fable yeah whatever. But i don't really care anymore about that. I'm good with opus 5.5. I hope local models are the fear they all fear. I hope that possibility puts some pressure on them. I would gladly cancel every AI subscription I have. I pray for a good local model that will seriously damage the subscription business, or even help burst the AI bubble. I hope that future is not that far away. How close are we? submitted by /u/anonthatisopen [link] [comments]",
+      "author": "anonthatisopen"
+    },
+    {
+      "title": "Anthropic Reveals It Will Pay SpaceX Up to $120.5B for AI Compute",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1q97/anthropic_reveals_it_will_pay_spacex_up_to_1205b/",
+      "published": "2026-10-26T16:29:48+00:00",
+      "summary": "submitted by /u/Unusual-State1827 [link] [comments]",
+      "author": "Unusual-State1827"
+    },
+    {
+      "title": "I built a mod with Claude that turns Valheim into a city builder. It hit #1 on r/valheim",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1mov/i_built_a_mod_with_claude_that_turns_valheim_into/",
+      "published": "2026-10-26T16:26:12+00:00",
+      "summary": "press F7 and valheim turns into a city builder. vikings move in, pay taxes, want food and mead and leave if they dont get it. bosses live in camps and you storm them with your own army, every boss starts a new age with its own building style how claude helped: - wrote most of the c# code (bepinex + harmony patches into valheims own systems, settler AI, economy, houses that build themselves piece by piece out of real valheim building parts) - it could control the game through a little remote command file, so it built a town, took screenshots, checked if stuff looked right and fixed it itself - debugging: when a tester reported bosses chasing players into town and scouts getting stuck, claude found the causes and fixed both in one go - performance: it wrote an in-game benchmark, measured fps with 10 to 150 houses and found that merging finished houses for rendering gave the biggest boost (36 to 56 fps) - i did the design, testing and kept pushing it its completely free: nexus: https://ww",
+      "author": "Any-Explanation3814"
+    },
+    {
+      "title": "I feel like such an idiot for not using Claude sooner",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgdi6i/i_feel_like_such_an_idiot_for_not_using_claude/",
+      "published": "2026-10-27T00:03:18+00:00",
+      "summary": "I'm probably from one of the first generations that wrote code using AI. not pure vibe coding, but telling it what functions to write using what design systems etc.... worked with ChatGPT first and then moved to using Gemini 1.5 pro and continued with Gemini models up until now. What i do is, think about how to do the task, tell Gemini specifically how to do the task and how to output the code, test the code performance and then logical tests manually. now after using Claude i feel like someone from stone agel. it literally does everything i said, better than me. i literally read everything it does and open all thinking texts. every time i think i have a gotcha moment and confront Claude it did some test wrong, it actually turns out i was the wrong one. for the first time it actually feels like the AI is smarter and knows better than me. I'm not even mad. just amazing submitted by /u/Substantial_End7861 [link] [comments]",
+      "author": "Substantial_End7861"
+    },
+    {
+      "title": "Hi Claude, can you remove a virus from my PC? No, that’s illegal, my friend.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg986x/hi_claude_can_you_remove_a_virus_from_my_pc_no/",
+      "published": "2026-10-26T21:06:32+00:00",
+      "summary": "I asked if he could clean up the bin dump from my camera, since someone had already taken advantage of this: https://github.com/netsecfish/xiongmai_incorrect_access_control I noticed the DVR was making thousands of connections to an IP address in Germany—that’s how I found out it had been hacked. I asked him to clean it up and configure it so that cameras 1 through 4 were left open/accessible. But the safeguard wouldn't allow it... submitted by /u/dadnothere [link] [comments]",
+      "author": "dadnothere"
+    },
+    {
+      "title": "Yesterday it hit me, my deadline stress is gone",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg5nsz/yesterday_it_hit_me_my_deadline_stress_is_gone/",
+      "published": "2026-10-26T18:53:18+00:00",
+      "summary": "I was on my PC finishing a report for a project with a tight schedule, and my 3,5yo son asked me to repair his tank with him. I didn’t hesitate, I didn’t ask for 5mn or until I finished, I just went with him peacefully, instantly, abandoning the task at hand, knowing it will be managed with Claude. Is this our life now ? Did you have a similar moment ? Realizing that a big part of your deadline stress is definitely gone ? Edit : My first award ! Thank you submitted by /u/Nidhal_S [link] [comments]",
+      "author": "Nidhal_S"
+    },
+    {
+      "title": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+      "published": "2026-10-26T07:38:28+00:00",
+      "summary": "https://docs.openskycam.org/ Finding meteors on a sky camera used to mean scrubbing hours of night video, pulling frames by hand, labeling them, retraining a model, and starting over when it flagged every star. I built openskycam so Claude could do that part instead. It records a 4K camera pointed at the sky 24/7 and keeps the footage on your own disk. Workflows sample frames, run detection models, link detections into tracks (moving vs. stationary), and sort the hits into buckets: meteors, planes, fixed lights. Everything the website does is also an API call, and there's an MCP server, so Claude Code can drive all of it. What Claude does - Built the night workflow, which now runs every night as footage arrives - Reviews what comes in, looking at each detection and accepting or rejecting it - When the model kept calling stars flying objects, it built a dataset from the detections I had approved and retrained it. On nights it never trained on, star false alarms went from about half to 7",
+      "author": "Terrible_Award_2124"
+    },
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfwogl/anthropic_files_s1_with_the_sec_for_proposed/",
+      "published": "2026-10-26T13:22:38+00:00",
+      "summary": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined. submitted by /u/WhyLifeIs4 [link] [comments]",
+      "author": "WhyLifeIs4"
+    }
+  ]
+}

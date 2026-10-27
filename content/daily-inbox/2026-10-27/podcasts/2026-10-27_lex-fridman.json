@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Lex Fridman Podcast",
+  "source_slug": "lex-fridman",
+  "feed_url": "https://lexfridman.com/feed/podcast/",
+  "tags": [
+    "interview",
+    "ai-research"
+  ],
+  "fetched_at": "2026-10-27T04:01:56.202668+00:00",
+  "items": [
+    {
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "url": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis",
+      "published": "2026-10-26T21:52:28+00:00",
+      "summary": "Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games conjecture and hundreds of other problems. Ankur Moitra is a mathematician at MIT (visiting the Institute for Advanced Study in Princeton) working in theoretical computer science, who can speak to the unique games conjecture, complexity theory and the mathematics of how AI learns. Steven Brunton is a mathematician and fluid dynamics expert at UW, who can speak to Navier-Stokes, turbulence and machine learning for fluid dynamics. Alex Kontorovich is a mathematician at Rutgers specializing in number theory, who can speak to the Riemann hypothesis, Lean and machine-checked proofs.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep503-sc\nSee below for timestamps, transcript, and to give feedback, submit ques",
+      "author": ""
+    }
+  ]
+}

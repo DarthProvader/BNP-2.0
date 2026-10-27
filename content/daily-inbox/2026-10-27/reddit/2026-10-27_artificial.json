@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-27T04:06:18.242659+00:00",
+  "items": [
+    {
+      "title": "An LLM is basically just a massive and extremely sophisticated mathematical function?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfw15p/an_llm_is_basically_just_a_massive_and_extremely/",
+      "published": "2026-10-26T12:55:46+00:00",
+      "summary": "An LLM is basically just a massive and extremely sophisticated input/output mathematical function? submitted by /u/DoublePassRadiator [link] [comments]",
+      "author": "DoublePassRadiator"
+    },
+    {
+      "title": "Johns Hopkins alerts 3,000+ patients after data sent to AI tool",
+      "url": "https://www.reddit.com/r/artificial/comments/1xg34zr/johns_hopkins_alerts_3000_patients_after_data/",
+      "published": "2026-10-26T17:20:57+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "OpenAi claims to have proved that the Exponential Time Hypothesis is false, invalidating many past results that relied on it being true.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgbnyg/openai_claims_to_have_proved_that_the_exponential/",
+      "published": "2026-10-26T22:44:48+00:00",
+      "summary": "submitted by /u/Environmental_Mix22 [link] [comments]",
+      "author": "Environmental_Mix22"
+    },
+    {
+      "title": "Dutch Government Plans to Cut 25,000 Jobs (16%) in AI-Led Overhaul",
+      "url": "https://www.reddit.com/r/artificial/comments/1xg12na/dutch_government_plans_to_cut_25000_jobs_16_in/",
+      "published": "2026-10-26T16:06:33+00:00",
+      "summary": "submitted by /u/fuchsiarush [link] [comments]",
+      "author": "fuchsiarush"
+    },
+    {
+      "title": "What’s the actual end game?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgi9io/whats_the_actual_end_game/",
+      "published": "2026-10-27T03:44:46+00:00",
+      "summary": "What is the actual end game with AI? At this current point and time, its a tool. It’s by no means a replacement for all human work/jobs. Also you dont need tens of thousands of massive data centers for people to use a LLM to help debug a few code snippets or make a cat picture. Which in turn begs the question of whats actually going into these centers at the current point? A majority of these companies are over leveraged like a 2008 junk bond portfolio, and they come up short on profit every quarter. And that is usually short in the billions. A lot of consumers/businesses cannot afford the climbing rates anyway with the processing power cost. All that to say, so what is the idea here - everyone becomes jobless and then what? An AI messes up a security issue and a major issue occurs with a mass extinction (yes, like the Anthropic S-1 IPO said)? Im struggling to see what’s the actual betterment here. The shareholder value cant continuously go up when the employment rate equally goes down",
+      "author": "Cafe_con_leche-1"
+    },
+    {
+      "title": "What's the most underrated use of AI that has nothing to do with writing or making images?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xghbet/whats_the_most_underrated_use_of_ai_that_has/",
+      "published": "2026-10-27T02:57:51+00:00",
+      "summary": "What's your example? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "author": "OfficalYOUSUMMIT"
+    },
+    {
+      "title": "OpenAI starts training its most powerful systems again – but keeps them off the internet out of fear they would go rogue",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfybgm/openai_starts_training_its_most_powerful_systems/",
+      "published": "2026-10-26T14:26:25+00:00",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "author": "theindependentonline"
+    },
+    {
+      "title": "Do you feel more anxiety the more you AI tools?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgblfx/do_you_feel_more_anxiety_the_more_you_ai_tools/",
+      "published": "2026-10-26T22:41:47+00:00",
+      "summary": "The title - Do you feel more anxiety the more you AI tools? My observation is that, I'm heaps more productive with the help of AI (Claude) - both work (coding) and personal life. While it's been great for personal tasks, I have some constant worry at the back of my brain that if I'm not working and pushing forward - someone else is. And, within the context that I know how fast a person can progress with the help of AI, I have the constant feeling that I will be outpaced. Any others with similar observations/feelings :)? submitted by /u/stanbright [link] [comments]",
+      "author": "stanbright"
+    },
+    {
+      "title": "AI assistant traffic to retail sites doubled this year. Those visitors convert at half the rate of organic search.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xg72di/ai_assistant_traffic_to_retail_sites_doubled_this/",
+      "published": "2026-10-26T19:45:01+00:00",
+      "summary": "An analytics firm tracked 2,000 retail sites and found both things are true at once: visits originating from AI assistants roughly doubled, and those visitors buy at about half the rate organic search visitors do. I keep seeing people celebrate the first number without mentioning the second. My read on why, though I’m not certain: when someone arrives from organic search they’ve already done the comparison work themselves. They clicked your link because they decided it was worth clicking. When someone arrives from an AI assistant, the assistant did the filtering and the person is often still in the browsing phase. Different intent at the moment of arrival. If that’s right, treating AI referral traffic as equivalent to organic in your reporting is going to give you a distorted picture of what’s working. Anyone running ecommerce and actually seeing this split in their own numbers? Curious whether the gap holds outside the aggregate. submitted by /u/Dapper-Tale-4021 [link] [comments]",
+      "author": "Dapper-Tale-4021"
+    },
+    {
+      "title": "Elvis rights holders sue Anthropic over 274 compositions",
+      "url": "https://www.reddit.com/r/artificial/comments/1xfreib/elvis_rights_holders_sue_anthropic_over_274/",
+      "published": "2026-10-26T08:47:11+00:00",
+      "summary": "Rights holders for 274 musical compositions recorded by Elvis Presley filed a federal complaint against Anthropic on October 23, 2026. The complaint identifies ABG EPE IP LLC and other companies, trusts and individuals as plaintiffs in case 5:26-cv-12473. The plaintiffs allege that Anthropic copied lyrics without a license, kept them in a permanent internal repository and used them in Claude model training. They also allege that Claude generated derivative or infringing outputs after guardrails were added. The complaint seeks up to $150,000 per work, or $41.1 million for 274 works, plus separate statutory amounts under two other claims. The allegations have not been tested in court. Source: https://chatgptiseatingtheworld.com/wp-content/uploads/2026/10/ABG_EPE_IP_LLC_et_al-v-Anthropic-Oct-23-2026.pdf submitted by /u/andrewaltair [link] [comments]",
+      "author": "andrewaltair"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-10-27T04:01:58.402937+00:00",
+  "items": [
+    {
+      "title": "⚡ An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
+      "url": "https://www.youtube.com/watch?v=vhPCo-8K78U",
+      "published": "2026-10-26T14:00:07+00:00",
+      "summary": "Watch the full show on YouTube: https://www.youtube.com/watch?v=vhPCo-8K78U",
+      "author": "Latent.Space"
+    }
+  ]
+}
