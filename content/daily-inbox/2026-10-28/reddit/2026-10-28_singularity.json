@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-28T04:03:14.787059+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — October 27, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xgwid7/rsingularity_daily_discussion_thread_october_27/",
+      "published": "2026-10-27T16:01:38+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "Claude Opus 5.5 helps developer bring the entire Super Mario 64 into mixed reality, running natively in full 3D at 90 FPS, with the game world appearing right inside his room.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xgw6sk/claude_opus_55_helps_developer_bring_the_entire/",
+      "published": "2026-10-27T15:50:04+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.reddit.com/r/singularity/comments/1xh4yqn/early_progress_on_accelerating_drug_development/",
+      "published": "2026-10-27T21:12:33+00:00",
+      "summary": "submitted by /u/Gab1024 [link] [comments]",
+      "author": "Gab1024"
+    },
+    {
+      "title": "Artificial Analysis Intelligence Index v5 released",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhc5kv/artificial_analysis_intelligence_index_v5_released/",
+      "published": "2026-10-28T02:22:32+00:00",
+      "summary": "Link to tweet: https://x.com/ArtificialAnlys/status/2115265133467635877?a=MdxXvvV3KDsac8gnZBc&s=20 Link to bench: https://artificialanalysis.ai/ submitted by /u/socoolandawesome [link] [comments]",
+      "author": "socoolandawesome"
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://www.reddit.com/r/singularity/comments/1xgwsjx/genie_4_a_new_generation_of_world_simulation/",
+      "published": "2026-10-27T16:11:58+00:00",
+      "summary": "submitted by /u/kvothe5688 [link] [comments]",
+      "author": "kvothe5688"
+    },
+    {
+      "title": "How to stay motivated at work when it may be in 9 -12 months all white collar work is toasted? Countdown to Aug 2027",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhcq3f/how_to_stay_motivated_at_work_when_it_may_be_in_9/",
+      "published": "2026-10-28T02:50:24+00:00",
+      "summary": "submitted by /u/Traditional-Chip8339 [link] [comments]",
+      "author": "Traditional-Chip8339"
+    },
+    {
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhb416/codeexecution_flaw_in_uefi_firmware_affects_most/",
+      "published": "2026-10-28T01:33:18+00:00",
+      "summary": "The vulnerability, with a severity rating of 9.5 out of 10, resides in the TianoCore EDK II , an open source codebase that hardware makers and cloud providers use to create the UEFI firmware that runs during the boot-up sequence. The PHP vulnerability was rated 9.3 submitted by /u/AgUnityDD [link] [comments]",
+      "author": "AgUnityDD"
+    },
+    {
+      "title": "The best AI passes 37% of real engineering tasks. Most people would pass none",
+      "url": "https://www.reddit.com/r/singularity/comments/1xh93pq/the_best_ai_passes_37_of_real_engineering_tasks/",
+      "published": "2026-10-28T00:01:42+00:00",
+      "summary": "Xplore released RWE-bench today, 20 mechanical, electrical and aerospace tasks written by engineers who do this for a living. One is a diesel crankshaft that has to survive 2,400 rpm, one is routing a DDR3 memory bus on a real FPGA board, and one is CFD on a turbine vane. No model grades the results. A program checks every design against every requirement and runs physics solvers where it has to. GPT-6 Astra leads at 37%, Opus 5.5 is at about 29% and GPT-6.1 Sol at about 25%, for $10 a run. Astra and Opus cost about six times that per run for 12 and 4 more points. 37% sounds low until you ask how a person would do. Give someone off the street the same tasks and tools and they pass none, because they won’t get past drawing the part in CAD and running the simulation. An engineering graduate might get one or two in their own field after a month of work. A specialist would pass the ones in their own field, about a third, at roughly a week each. The model does some of all three fields in a ",
+      "author": "ZeroCool86"
+    },
+    {
+      "title": "Internal Claude research model also independently refuted the Exponential Time Hypothesis on October 16, with 14M output tokens and no human input.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xgmlas/internal_claude_research_model_also_independently/",
+      "published": "2026-10-27T08:05:24+00:00",
+      "summary": "https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth submitted by /u/likeastar20 [link] [comments]",
+      "author": "likeastar20"
+    },
+    {
+      "title": "What Will Happen First: AI Discovers A Cure For Baldness, or Humanoid Robots Autonomously Performing Complex Haircuts?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xh2nvw/what_will_happen_first_ai_discovers_a_cure_for/",
+      "published": "2026-10-27T19:46:01+00:00",
+      "summary": "We already know that software is easy (hence, all the rapid explosive progress in generating text/math/code/images/video). Unfortunately, the digital space is the area that has the least immediate benefits to the lives of the average person. Biology and Hardware are different beasts entirely. They're much more difficult, but solving them would be immensely more beneficial to the human experience. By what year do you guys think general-purpose humanoid robots will be capable of autonomously performing professional-quality haircuts: fades, tapers, and complex hairstyles, with the precision, safety, consistency, and speed of an experienced human barber, without any human assistance? And will you trust a robot with a straight razor next to your neck/head? submitted by /u/Neurogence [link] [comments]",
+      "author": "Neurogence"
+    }
+  ]
+}

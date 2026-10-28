@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-28T04:04:05.920531+00:00",
+  "items": [
+    {
+      "title": "OpenAI named it “ChatGPT” specifically to make French speakers say “I farted” every time they use it",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xh1hut/openai_named_it_chatgpt_specifically_to_make/",
+      "published": "2026-10-27T19:02:21+00:00",
+      "summary": "Think about it. The French have spent centuries treating their language like a sacred artifact. The Académie Française exists specifically to protect French from “pollution.” They invent official replacements for every English tech word (courriel, logiciel, etc.). They’re extremely proud of how elegant and precise French is supposed to be. Then along comes the most culturally dominant AI product of the decade and they call it… **ChatGPT**. In French, “ j’ai pété ” literally means “I farted .” So every single time a French person says the name of the tool out loud, they are forced to announce that they just farted. This cannot be a coincidence. Sam Altman is not that careless with branding. They could have called it ChatAI, OpenChat, Athena, Hermes, literally anything else. Instead they chose the one combination of syllables that forces the most linguistically proud nation on Earth to repeatedly say “I farted” in polite company. Still think it's just a coincidence? That one language was",
+      "author": "altswa"
+    },
+    {
+      "title": "I spent hours trying to make AI-generated artwork look less like AI art. Here are the 43 design principles I came up with.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhbtzv/i_spent_hours_trying_to_make_aigenerated_artwork/",
+      "published": "2026-10-28T02:07:12+00:00",
+      "summary": "I’ve been experimenting with AI image generation, trying to figure out why so much of the artwork has that instantly recognizable AI look . You know what I mean. The excessive glowing edges, bizarrely detailed textures, unnecessarily dramatic lighting, overcrowded compositions, and typography that seems designed to be impressive rather than readable. I have a background in art and design, so I started treating ChatGPT like a junior designer. Instead of just generating new images when something looked wrong, I critiqued specific problems and developed a set of principles to address them. One of the biggest discoveries was that reducing clutter isn’t the same as changing styles . When I criticized a neon-heavy poster, AI would often replace it with an equally cluttered vintage poster. Different aesthetic, same underlying problems. Eventually, we developed 43 principles across composition, typography, texture, lighting, and artistic direction. I’m sharing them because I think they could b",
+      "author": "Kaihzu"
+    },
+    {
+      "title": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\" And the clarification is",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xh9q92/has_anybody_noticed_that_chatgpt_sometimes_says/",
+      "published": "2026-10-28T00:29:11+00:00",
+      "summary": "BULLSHITE?! UTTER bullshite. I don't feel like fully going into what I was talking to it about, but let's pick something similar. Neither the Hiroshima bomb nor the Nagasaki bomb were very efficient fissioning only an extremely small portion of the fissionables aboard each. \"yes, but with an important clarification\" No there is no \"clarification\" to what I said UNLESS you are going to introduce, for instance, actual percentages. It did something similar to saying \"There is no way to determine exactly how efficient either device was\". Uhmm yeah...yeah there is. It's called E=MC2. Now as I said that isnt' what we were talking about but I said something equally obvious and it argued with me. Repeatedly. Despite the fact the logic was as simple as if A=B and B=C then C=A. \"yes, but with an important clarification\". Grrrrrrrr!!!! submitted by /u/Crixusgannicus [link] [comments]",
+      "author": "Crixusgannicus"
+    },
+    {
+      "title": "Has anybody noticed that ChatGPT sometimes says \"yes, but with an important clarification\"... And then the \"clarification\" turns out to be completely and fully in line with the question? Why does it do it?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xgz5zq/has_anybody_noticed_that_chatgpt_sometimes_says/",
+      "published": "2026-10-27T17:37:46+00:00",
+      "summary": "submitted by /u/Various_Maize_3957 [link] [comments]",
+      "author": "Various_Maize_3957"
+    },
+    {
+      "title": "GPT has lost is memory",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xh4l05/gpt_has_lost_is_memory/",
+      "published": "2026-10-27T20:57:42+00:00",
+      "summary": "Since this morning, I’ve been experiencing several issues with ChatGPT (Plus €24/month). Chats have become incredibly slow, it has suddenly started addressing me by name (wtf ?!) and using weird emojis (which it had never done before), and overall, it feels like its personality has completely changed. The way it responds is noticeably different from usual. I’ve also tried generating a render several times. Each time, it appeared to be ready and available, but I was never actually able to view or download it. Most importantly, it seems to have lost access to my memory. Is anyone else experiencing these issues? submitted by /u/International-Top951 [link] [comments]",
+      "author": "International-Top951"
+    },
+    {
+      "title": "Been getting a lot of really annoying and pointless follow-up questions lately",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhd3hh/been_getting_a_lot_of_really_annoying_and/",
+      "published": "2026-10-28T03:09:08+00:00",
+      "summary": "Frequently: The answer is obvious from the conversation. It offers a choice of two answers that mean the exact same thing. It claims the answer is somehow relevant to the advice when it's not. And of course I keep falling for it and polluting the context with details that have nothing to do with my question. Really frustrating. submitted by /u/Impacatus [link] [comments]",
+      "author": "Impacatus"
+    },
+    {
+      "title": "iCloud Mail & Calendar Plugins Are Now Available in ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xh0h5k/icloud_mail_calendar_plugins_are_now_available_in/",
+      "published": "2026-10-27T18:25:26+00:00",
+      "summary": "submitted by /u/i-shekhar [link] [comments]",
+      "author": "i-shekhar"
+    },
+    {
+      "title": "Has anyone used ChatGPT to help make a bit of extra money?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xgzhyd/has_anyone_used_chatgpt_to_help_make_a_bit_of/",
+      "published": "2026-10-27T17:50:06+00:00",
+      "summary": "I've been experimenting with using ChatGPT to help make a bit of extra pocket money and wondered whether anyone else has done something similar. One thing I've been using it for recently is matched betting. I started with very little knowledge of how it worked, but ChatGPT has been surprisingly useful in guiding me through the process. It's helped me: Understand bookmaker welcome offers and their terms and conditions. Work out back and lay bets, including stakes, liabilities and potential profits. Identify suitable betting markets and compare odds. Keep track of deposits, withdrawals, free bets and overall profit or loss. Understand the risks and avoid making expensive mistakes. Obviously, it isn't infallible, so I double-check the figures and offers before placing anything. But it's been a useful tool for learning something I probably wouldn't have attempted otherwise. I'm not talking about making a fortune or replacing my income, just using AI to help generate a little extra spending",
+      "author": "Cbh1525"
+    },
+    {
+      "title": "Agents trying to fix the bug introduced by themselves be like:",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhd1yj/agents_trying_to_fix_the_bug_introduced_by/",
+      "published": "2026-10-28T03:07:06+00:00",
+      "summary": "submitted by /u/Amaldevhari [link] [comments]",
+      "author": "Amaldevhari"
+    },
+    {
+      "title": "Dots available in EU on normal Pro Plan",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xh7tl3/dots_available_in_eu_on_normal_pro_plan/",
+      "published": "2026-10-27T23:07:40+00:00",
+      "summary": "https://preview.redd.it/y4lzgxnwc3yh1.png?width=441&format=png&auto=webp&s=10ed0f0f53715c12919a65498b2307d011770dcb I just saw when upgrading to the Plus plan that Dots are available in the Pro plan for normal users, so non business. And also in the EU. Can someone confirm this is true? submitted by /u/DaWheelz [link] [comments]",
+      "author": "DaWheelz"
+    }
+  ]
+}

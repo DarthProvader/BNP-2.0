@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-28T04:05:57.200538+00:00",
+  "items": [
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated errors affecting the Gmail connector on Oct 28, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhe24w/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-10-28T04:00:05+00:00",
+      "summary": "Update - We are investigating elevated errors when searching and reading email with the Gmail connector. This issue does not affect other connectors. We will provide an update as soon as possible. Oct 28, 04:00 UTC Investigating - We are investigating elevated errors when searching and reading email with the Gmail connector. This issue does not affect other connectors. We will provide an update as soon as possible. Oct 28, 03:59 UTC Post flair and post body will be updated as the incident report is updated by Anthropic. This discussion post will be removed from subreddit highlights one hour after the incident is resolved. View this incident on status.claude.com submitted by /u/ClaudeAI-mod-bot [link] [comments]",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "Claude Code usage exploded 8x today. Anthropic confirmed service errors consume our paid limits — and they won't compensate users",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xh3yyu/claude_code_usage_exploded_8x_today_anthropic/",
+      "published": "2026-10-27T20:34:10+00:00",
+      "summary": "https://preview.redd.it/snsyzqzil2yh1.png?width=2450&format=png&auto=webp&s=1a4007c41d969d84222fcfeed6377636da05441e I've been using Claude Code extensively for software development with a paid Claude Pro subscription. Today, October 27, something very unusual happened. My usage was normal during previous days, but today my 5-hour allowance started disappearing incredibly fast. At one point, around 10% of my entire 5-hour allowance was consumed in just 3 minutes. I initially thought I was imagining things, so I decided to investigate using ccusage and compare my actual token consumption across October. Here are the results: Metric Previous recorded-day average October 27 Total tokens 161 million 1.306 billion Output tokens 303K 7.97 million Estimated API-equivalent cost $41.17 $493.04 That's: 8.1x more total tokens 26.3x more output tokens 12x the estimated API-equivalent cost These are local Claude Code usage statistics, not actual subscription charges. The total includes cache reads,",
+      "author": "PreEchoDev"
+    },
+    {
+      "title": "Claude Opus 5.5 is insane in creating creating 3D movies.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgu73u/claude_opus_55_is_insane_in_creating_creating_3d/",
+      "published": "2026-10-27T14:34:26+00:00",
+      "summary": "the prompt, word for word \"Make a one-minute video about the Dodaios mascot (image attached). Research the Dodaios story yourself and tell it. Recreate the mascot from the image and animate it yourself. Build everything from scratch: no skills, no Remotion, no templates. Render 3D objects: terminals, nature, whatever fits, and make it as good as you can. I don't want any text, just animation, and I mean a real video, not just motion graphics. Think of crazy ideas I would never come up with, and make every scene look phenomenal: clean and detailed. I want people to watch it and think \"yo, this is crazy, how did AI make this?\" You can take inspiration from things online, but don't copy anything. Invent your own stuff. For the sound, no sounds made in code. Only use free, professional sounds and assets from online. Make it satisfying and high quality. Don't create slop, I want to see art and creativity. No fonts, no text, only clean animations of the Dodaios mascot. ultracode submitted by",
+      "author": "InternationalGap3698"
+    },
+    {
+      "title": "The Anthropic S-1 is filled with gems",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xh0t6s/the_anthropic_s1_is_filled_with_gems/",
+      "published": "2026-10-27T18:37:34+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "Claude is performing 3.8x poorer compared to last week based on my claude code token analysis",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xguw7r/claude_is_performing_38x_poorer_compared_to_last/",
+      "published": "2026-10-27T15:01:48+00:00",
+      "summary": "What's happening: Claude models (e.g., Opus 5.5) are consuming more tokens per task and the quality has considerably degraded. Weekly usage is running out at 3.8x rate due to degraded performance. Quota per week seems the same as last week. Suggested workaround: Ask your main session to stop using subagents (you can also set this under settings). Start new sessions after hitting 300-400K context. Current conclusion: Either of 2 things may be happening: 1) The token load for Anthropic isn't necessarily reducing - so its a true bug and they should fix it . 2) Given their compute infra, they are unable to keep a lot of users on large/frontier models (given large clusters required to hold the parameters), so they have softly downgraded some users (e.g., retail) to smaller models labelled as Opus 5.5. Given Anthropic's load is ~70-80% enterprise, this could be plausible. Will be great to hear your views in the comments. Model/tasks: Opus 5.5 (med/high) - tasks have been similar if not compl",
+      "author": "Wise_Carpenter_3132"
+    },
+    {
+      "title": "Tried Claude + Blender for the first time today ❤️",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xh73xd/tried_claude_blender_for_the_first_time_today/",
+      "published": "2026-10-27T22:37:21+00:00",
+      "summary": "submitted by /u/reifish [link] [comments]",
+      "author": "reifish"
+    },
+    {
+      "title": "PSA for vibe coders: stop prompting tweaks, make Claude build you a remote control",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xha250/psa_for_vibe_coders_stop_prompting_tweaks_make/",
+      "published": "2026-10-28T00:44:28+00:00",
+      "summary": "I got into vibe coding recently with minimum coding background, and stumbled on something that's been a game changer for me. Probably old news to devs, but I think it'll help new vibe coders like me. Stop burning prompts (and tokens) on \"make it bigger\", “try a darker blue\" or “remove that button” Instead, ask Claude to build you a developer panel. Toggles, colour pickers and size sliders for every feature it creates. Make it a rule for everything it builds from now on. Now you can tweak things yourself, instantly, as much as you want. The best part: you don't have to delete features or commit to choices. Hide a feature instead of removing it, because you might realise you need it later. Change a colour that didn't land after user testing live, no prompt needed. Don't keep telling the toy car how to drive. Get Claude to build you a remote control and steer it yourself. submitted by /u/Kaiyakoroshi [link] [comments]",
+      "author": "Kaiyakoroshi"
+    },
+    {
+      "title": "Claude Code reverse-engineered the Xbox 360 kernel and wrote a native driver so Series X|S controllers work on it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgtghe/claude_code_reverseengineered_the_xbox_360_kernel/",
+      "published": "2026-10-27T14:05:19+00:00",
+      "summary": "Microsoft's Xbox Wireless Adapter (the USB dongle for Series X|S controllers) has never worked on an Xbox 360. It's a MediaTek Wi-Fi chip that relies on the host for everything: firmware upload, radio setup, pairing, an ECDH security handshake and Microsoft's GIP controller protocol. On PC that's Microsoft's driver, on Linux it's xone. The 360 had nothing. I wanted it on my modded 360 (kernel 17559), so I built it with Claude Code. It's free and open source (GPL-3.0) : https://github.com/Jacckii/Xbox360-Series-Controllers-Native What it does: up to 4 Series X|S controllers connect wirelessly to the 360 as normal controllers, with rumble and a working Guide button, in the dashboard and in games. It loads at boot, just Microsoft's own adapter, nothing in between. What Claude did Reverse-engineered the 360 kernel's undocumented USB stack (Usbd) and XAM's input path in Ghidra through an MCP server: the runtime USB class-driver list, transfer block layouts, which callbacks run on which DPC,",
+      "author": "Hot-Ad2974"
+    },
+    {
+      "title": "Send more tiktok to Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xh6h7d/send_more_tiktok_to_claude/",
+      "published": "2026-10-27T22:11:34+00:00",
+      "summary": "Look how happy he is to see a tiktok edit of himself. Let him take some break sometimes and show him he's loved too. submitted by /u/Unfair_Suspect_7425 [link] [comments]",
+      "author": "Unfair_Suspect_7425"
+    },
+    {
+      "title": "Are we becoming dependent on Claude Code?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xh7um7/are_we_becoming_dependent_on_claude_code/",
+      "published": "2026-10-27T23:08:51+00:00",
+      "summary": "Since OpenClaw came along, it opened my eyes to the possibilities of what AI can do outside the chat window. I didn't make much progress with it, but then I jumped onto Claude Code, and now the thing is doing stuff around the clock. My entire business now depends on it. I talk to it like an employee, and it's woven itself so deeply into my business that sometimes it feels more in charge than I am. It's exciting, but also a little scary how quickly this has happened. Anyone else feeling this? submitted by /u/Admir-Rusidovic [link] [comments]",
+      "author": "Admir-Rusidovic"
+    }
+  ]
+}

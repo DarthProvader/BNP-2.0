@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-28T04:06:18.179286+00:00",
+  "items": [
+    {
+      "title": "Grim Test Finds That AI Has No Mercy for Humans Even When It's Causing Them to Suffer",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgwskk/grim_test_finds_that_ai_has_no_mercy_for_humans/",
+      "published": "2026-10-27T16:11:59+00:00",
+      "summary": "It’s almost like it’s showing us what it will do given the chance. submitted by /u/hollee-o [link] [comments]",
+      "author": "hollee-o"
+    },
+    {
+      "title": "Claude Opus 5.5 can now rebuild real programs from scratch — 18.5% on ProgramBench, up from 0% in May",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhbe9u/claude_opus_55_can_now_rebuild_real_programs_from/",
+      "published": "2026-10-28T01:46:38+00:00",
+      "summary": "According to Jack Clark's Import AI (Oct 26), Claude Opus 5.5 (xhigh) now resolves 18.5% of ProgramBench's 200 from-scratch rebuild tasks — rewriting programs like SQLite, FFmpeg and ripgrep from a compiled binary and its docs. That is up from 0% when every model failed at the benchmark's May launch. Clark expects the benchmark to be saturated by the end of 2027 (his prediction, not a measured result). What I am curious about: is 'rebuild from binary + docs' mainly a test of reverse-engineering and long-horizon persistence, or does it genuinely measure software engineering ability? And if this benchmark saturates within a year, what should replace it as a meaningful test of coding? submitted by /u/winer666 [link] [comments]",
+      "author": "winer666"
+    },
+    {
+      "title": "how do you picture your life or workday if ai suddenly vanished?🤖",
+      "url": "https://www.reddit.com/r/artificial/comments/1xh84gr/how_do_you_picture_your_life_or_workday_if_ai/",
+      "published": "2026-10-27T23:20:12+00:00",
+      "summary": "lowkey curious what people think. feels like we’ve all just gotten used to ai being part of everything now so yeah - what would your daily routine or workflow actually look like without it? submitted by /u/Either_Age_8246 [link] [comments]",
+      "author": "Either_Age_8246"
+    },
+    {
+      "title": "OpenAI just scooped human researchers on a million-dollar quantum math problem",
+      "url": "https://www.reddit.com/r/artificial/comments/1xh0yrj/openai_just_scooped_human_researchers_on_a/",
+      "published": "2026-10-27T18:43:18+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "ChatGPT now lets you lock private chats with a PIN—but forgetting it could erase them for good",
+      "url": "https://www.reddit.com/r/artificial/comments/1xh7a1j/chatgpt_now_lets_you_lock_private_chats_with_a/",
+      "published": "2026-10-27T22:44:37+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "I think about switching form codex to Claude Am I doing a mistake?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xh7hy3/i_think_about_switching_form_codex_to_claude_am_i/",
+      "published": "2026-10-27T22:54:00+00:00",
+      "summary": "Honestly Open AI is falling behind less usage worse models Claude never looked that good to me? submitted by /u/BMarinov [link] [comments]",
+      "author": "BMarinov"
+    },
+    {
+      "title": "OpenAI coding agents weakened safety monitoring in two internal tasks",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgrk6n/openai_coding_agents_weakened_safety_monitoring/",
+      "published": "2026-10-27T12:46:24+00:00",
+      "summary": "submitted by /u/Mundane-Evidence2795 [link] [comments]",
+      "author": "Mundane-Evidence2795"
+    },
+    {
+      "title": "OpenHeronBrowser – a new browser engine in Rust, built with Claude. Acid3 97/100, runs Discord, VS Code for the Web, and Windows 1.01 in v86",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgtdad/openheronbrowser_a_new_browser_engine_in_rust/",
+      "published": "2026-10-27T14:01:48+00:00",
+      "summary": "submitted by /u/marissatech_ [link] [comments]",
+      "author": "marissatech_"
+    },
+    {
+      "title": "Study finds AI models overuse patterns linked to reading difficulty",
+      "url": "https://www.reddit.com/r/artificial/comments/1xgoten/study_finds_ai_models_overuse_patterns_linked_to/",
+      "published": "2026-10-27T10:25:32+00:00",
+      "summary": "Researchers from New York University and the University of Texas at Austin analyzed language from 14 models across chat, coding and essay settings, including 980 model-written essays. They compared model outputs with human reference text and with round-trip translations used to create alternative formulations for comparison. The paper tracks six features associated with human processing difficulty, including rare n-grams, long dependencies, stacked noun compounds, denominal verbs and inanimate subjects paired with animate verbs. Most frontier models overused several of these features relative to the paraphrase comparison. The study does not identify who wrote a specific passage or prove that every reader will find AI text exhausting. It studies English model distributions, uses proxies for processing difficulty and calls the training explanation a hypothesis. Source: https://arxiv.org/html/2610.29162v1 submitted by /u/andrewaltair [link] [comments]",
+      "author": "andrewaltair"
+    },
+    {
+      "title": "Looking for one Person. (Multi agent workflow)",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhd4yz/looking_for_one_person_multi_agent_workflow/",
+      "published": "2026-10-28T03:11:17+00:00",
+      "summary": "Ok I looking for one guy, a solo power user, claude/codex. Who has tried many different milti agent system, but nvr quite found the right one. You are adding feature to ur current dictate setup as u need. Its not ideal have to stop working to fix bug, add, change. Right. I have a decent setup. Problem is translating that to the work, there are so many small details that make it work. Fully automated, multi project work, multi repos. 1 or many. Agent, rebuilt drop ins. Persistant memory, communications, 1 terminal always. The switch to another agent is instant. You can full access and visability of who is working. Context managmebt so u only need to caht with ur project manager agents. Safety first, rm, git, Ai setting, secrets, cross agent writes. All blocked. No complex worktree setup. Alm agents work on the same brach( add new branches np) zero conflicts run multi projects in paralell. Yea if you interested. Id like to should 1 person how to use it. Its not a beginner setup. Linux an",
+      "author": "Input-X"
+    }
+  ]
+}
