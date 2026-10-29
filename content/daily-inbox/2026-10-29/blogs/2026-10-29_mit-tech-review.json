@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-10-29T04:01:50.610955+00:00",
+  "items": [
+    {
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "published": "2026-10-28T19:32:02+00:00",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;",
+      "author": "MIT Technology Review Insights"
+    },
+    {
+      "title": "Pairing industrial AI autonomy and human control",
+      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "published": "2026-10-28T11:00:00+00:00",
+      "summary": "",
+      "author": "MIT Technology Review Insights"
+    }
+  ]
+}

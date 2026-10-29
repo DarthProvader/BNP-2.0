@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-29T04:05:58.529847+00:00",
+  "items": [
+    {
+      "title": "LLMs are significantly better at finding mistakes in papers than trained human reviewers",
+      "url": "https://www.reddit.com/r/artificial/comments/1xi1fg7/llms_are_significantly_better_at_finding_mistakes/",
+      "published": "2026-10-28T21:40:09+00:00",
+      "summary": "https://fixupx.com/rust_ruslan/status/2115493697001513053?a=rVJZ_8g4TDjREuYi4jc&s=20 submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "GitHub just announced a major overhaul of Copilot, 'evolving' to focus on an agentic future",
+      "url": "https://www.reddit.com/r/artificial/comments/1xi0dcg/github_just_announced_a_major_overhaul_of_copilot/",
+      "published": "2026-10-28T20:58:58+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "UK Uses AI to Summarise Asylum Interviews: One in Five Checked Summaries Failed",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhnkxt/uk_uses_ai_to_summarise_asylum_interviews_one_in/",
+      "published": "2026-10-28T13:07:21+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Gemini 4 Carbon Ranks #1 on Artificial Analysis V5",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhuemz/gemini_4_carbon_ranks_1_on_artificial_analysis_v5/",
+      "published": "2026-10-28T17:22:05+00:00",
+      "summary": "submitted by /u/kairosdev [link] [comments]",
+      "author": "kairosdev"
+    },
+    {
+      "title": "OpenAI reportedly plans to buy Google's AI chips (TPUs) — rivals becoming each other's suppliers",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhzycw/openai_reportedly_plans_to_buy_googles_ai_chips/",
+      "published": "2026-10-28T20:42:44+00:00",
+      "summary": "Reuters reported on Tuesday (Oct 28), citing The Information and a person familiar with the matter, that OpenAI plans to buy Google's AI chips (TPUs). No financial terms were disclosed, and both companies declined to comment or did not immediately respond. The report follows last week's news that OpenAI will make its frontier models available through Google Cloud, and a June 2025 Reuters report that OpenAI had begun renting Google's TPUs. The context: Google's TPUs have gained traction as an alternative to Nvidia's GPUs as companies look for cheaper AI compute, and Reuters notes Amazon, Microsoft and Alphabet together plan as much as $600 billion in AI infrastructure spending this year. Source: https://bworldonline.com/technology/2026/10/28/789847/openai-plans-to-buy-googles-ai-chips-the-information-reports/ What I am curious about: is this mainly about diversifying away from dependence on a single chip supplier, or is it also bargaining leverage in price negotiations with Nvidia? And ",
+      "author": "winer666"
+    },
+    {
+      "title": "Open Source Project to help Secure LLM powered Applications",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhzatd/open_source_project_to_help_secure_llm_powered/",
+      "published": "2026-10-28T20:18:25+00:00",
+      "summary": "We built extensible-mcp to help folks build LLM powered applications securely. From a technical perspective it is an MCP proxy capable of loading new MCP Servers dynamically without polluting the LLM’s context while providing Zero Trust policy controls to manage all tool calls. Policies and sensitive credentials are maintained and applied outside the LLMs purview. Policies can be written in any of Rego, CEL, and, with the latest release, Cedar. Tool definitions from the various MCP Servers are maintained in a queryable vector store, so the LLM only needs to be aware of those it uses. A particular distinction of extensible-mcp is distinguishing between rights and intents. If an LLM is acting on your behalf, its actions should follow your intent, and not just do any random thing you could do, just because some hallucination told it to! I hope other folks find this useful. We have been using it for our other projects such as Open Executive and wanted to share it. You can check out extensi",
+      "author": "Fearless-Might-5439"
+    },
+    {
+      "title": "Hochul signs AI chatbot and baby monitor regulations",
+      "url": "https://www.reddit.com/r/artificial/comments/1xi04ex/hochul_signs_ai_chatbot_and_baby_monitor/",
+      "published": "2026-10-28T20:49:19+00:00",
+      "summary": "submitted by /u/news-10 [link] [comments]",
+      "author": "news-10"
+    },
+    {
+      "title": "Abliterate Your Safetensors",
+      "url": "https://www.reddit.com/r/artificial/comments/1xi1zzx/abliterate_your_safetensors/",
+      "published": "2026-10-28T22:02:51+00:00",
+      "summary": "This is how Heretic works and why. Using Joshua's voice from War Games. Do you wsnt to play? submitted by /u/Terrible_Aerie_9737 [link] [comments]",
+      "author": "Terrible_Aerie_9737"
+    },
+    {
+      "title": "The Clayton’s Name Change For AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhukol/the_claytons_name_change_for_ai/",
+      "published": "2026-10-28T17:27:49+00:00",
+      "summary": "There is something profoundly odd about a political leader deciding that one of the most consequential technologies humanity has ever developed should be renamed because he dislikes the word used to describe it. First, Lake Ontario becomes “Lake America” and now there is a signed an executive order replacing Artificial Intelligence with Super Intelligence across the executive branch. OK! That makes sense - not! But what is equally tragic is that it was subsequently declared on Truth Social that anyone continuing to use the established term was considered “THE ENEMY!” But here’s the thing AI isn't exactly a brand of shampoo. It's one of the most consequential technologies humanity has possibly ever developed. Superintelligence already has a distinct meaning in scientific discussions I believe and confusing the two risks undermining public understanding, research and responsible governance. You can rename a lake, but you cannot move its waters. You can rename artificial intelligence, but",
+      "author": "SuzannahB1001"
+    },
+    {
+      "title": "I made an interactive AI city that shows how life changes from 1956 to 2050",
+      "url": "https://www.reddit.com/r/artificial/comments/1xhzg1v/i_made_an_interactive_ai_city_that_shows_how_life/",
+      "published": "2026-10-28T20:23:40+00:00",
+      "summary": "I built an interactive city that shows how AI could change daily life, from 1956 to 2050 👉 https://ai-world-2050.pages.dev It covers one room and one city across the eras, and the 2030s split into three possible futures. Every forecast cites its source, and the news updates every day. Try it and check the numbers. If something looks off, tell me. submitted by /u/WindyConfidant [link] [comments]",
+      "author": "WindyConfidant"
+    }
+  ]
+}

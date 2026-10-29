@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-29T04:04:07.347702+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xi1yek/show_us_what_youve_created_with_claude/",
+      "published": "2026-10-28T22:01:10+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "Google introduced Gemini 4 Carbon, allegedly the most frontier model.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhu9ez/google_introduced_gemini_4_carbon_allegedly_the/",
+      "published": "2026-10-28T17:17:02+00:00",
+      "summary": "Is the table capping by simply putting Astra better than Opus 5.5? submitted by /u/Ok-Patient116 [link] [comments]",
+      "author": "Ok-Patient116"
+    },
+    {
+      "title": "PSA: REA taught Claude how to read binaries. Now let it touch the live process",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xi0lyr/psa_rea_taught_claude_how_to_read_binaries_now/",
+      "published": "2026-10-28T21:08:09+00:00",
+      "summary": "REA proved how good Claude is at reading decompilations, but static analysis only tells you what code might do offline. Stop burning prompts asking Claude to simulate execution in its head. Let it touch live memory. I built Exoproc, an open-source MCP server over stdio that connects Claude Code directly into active Windows x64 processes. Instead of noisy DLL injection that triggers EDRs, it uses thread hijacking (suspends thread, moves RIP to sleep stubs) to execute within the existing context. It handles 5-byte JMP trampolines with 14-byte far relay gates, and compiles C straight into shellcode in memory via TinyCC. Tell Claude: \"Hook SetWindowTextW on PID 4120 with a 5-byte trampoline to log string buffers, then restore original bytes when done.\" Claude hooks the prologue, logs the UTF-16 strings from live memory, and unhooks cleanly. No DLLs dropped, no open network ports. Static decompilation gave Claude eyes. Dynamic hooking gives it hands. GitHub: https://github.com/w0ldan/exopro",
+      "author": "woldann"
+    },
+    {
+      "title": "Casual AI Use Is Exactly Where You Need the Best Models",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xi8549/casual_ai_use_is_exactly_where_you_need_the_best/",
+      "published": "2026-10-29T02:33:14+00:00",
+      "summary": "We often hear claims like these about AI use: “In most situations, frontier models (Astra, Opus 5.5) are unnecessary.” “For everyday purposes, cheap models, lightweight models, or open-weight models are good enough.” “Frontier models only need to be used for specialized, high-difficulty tasks.” At first glance, these sound reasonable. But look at how people actually use AI, and the reality is almost the exact opposite. Frontier models are (obviously) smarter. But being smarter isn’t about solving Millennium Problems. It’s about taking an unclear instruction, pulling in the relevant context, figuring out what was actually meant, and coming up with the best answer. And most instructions people give AI are unclear. The steps and methods aren’t defined. The scope is fuzzy. Above all, the person giving the instruction doesn’t really know what they want in the end. Here’s the kind of instruction I mean: “Go to the storeroom and bring back whatever tools and materials might help with this job",
+      "author": "minaminonoeru"
+    },
+    {
+      "title": "Is Claude Pro actually worth it, or is the free plan enough? (As a student on a tight budget)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhp4o7/is_claude_pro_actually_worth_it_or_is_the_free/",
+      "published": "2026-10-28T14:10:11+00:00",
+      "summary": "I'm a student studying to become a Spanish teacher, and I mainly use Claude to help me create teaching materials for my classes, write essays, and work on other academic assignments. However, I'm not sure whether upgrading from the free plan to Claude Pro is actually worth it. I've read comments saying that the weekly usage limits can make the free plan a better deal in some cases, even compared to Pro. However, those comments were from around four months ago, so I'm wondering if things have changed since then. Is that still true? For some of you, $20 might not seem like much, but I live in a developing country (Chile 🇨🇱), and as a university student, I don't have much money to spare. That's why I really want to make an informed decision before spending that kind of money. I'd really appreciate hearing from people who have used both plans, especially students or anyone who uses Claude for academic work. Thanks a lot for your help! submitted by /u/Pokxa [link] [comments]",
+      "author": "Pokxa"
+    },
+    {
+      "title": "What's something you're genuinely proud of creating with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xi5fwh/whats_something_youre_genuinely_proud_of_creating/",
+      "published": "2026-10-29T00:27:03+00:00",
+      "summary": "It could be smth small, big, weird, useful, pointless, creative, non-sensical, well anything really but the caveat is you must be proud of it. Not \"yeh that was good\", I'm talking tell your grandkids stories about it or swag into work the night after you hooked up with the office hottie level of proud It could be recent or maybe the first time you used Claude... Just share a moment submitted by /u/BuffaloConscious7919 [link] [comments]",
+      "author": "BuffaloConscious7919"
+    },
+    {
+      "title": "Is Claude Desktop being redesigned by Claude without human supervision?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xi08ho/is_claude_desktop_being_redesigned_by_claude/",
+      "published": "2026-10-28T20:53:46+00:00",
+      "summary": "I'm starting to suspect Anthropic has built the ultimate AI development pipeline: Ask Claude to improve the Desktop UI. Claude removes a useful feature. Users complain on Reddit and GitHub. Ask Claude to fix it. Claude restores the feature but breaks something else. Ship to production. Repeat. First, we lost convenient project grouping. Then branch and worktree controls became harder to find. Context usage disappeared from its familiar location. After enough complaints, some of those things finally got fixed. Great! Except now the indicator showing which sessions are actively working has apparently been replaced with a barely noticeable gray shimmer on the session title. I regularly run multiple coding agents in parallel. Knowing which ones are working, finished, or waiting for input is not a decorative feature. It's one of the main reasons I use a desktop GUI in the first place. And somehow, every UI improvement feels like a trade: one regression fixed, another one introduced. I'm gen",
+      "author": "uisaful"
+    },
+    {
+      "title": "Ex-OpenAI researcher: \"anthropic is massively underplaying the recent security breach. i'm hearing cathedral achieved full administrator access of the slack (see every message) where literally every single research secret is contained\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhsy44/exopenai_researcher_anthropic_is_massively/",
+      "published": "2026-10-28T16:30:35+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "It happened, my project manager just made a PR with Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhl5cb/it_happened_my_project_manager_just_made_a_pr/",
+      "published": "2026-10-28T11:10:58+00:00",
+      "summary": "Yeah, she has absolutely no idea about what's going on, she just said \"Claude do this\" and then Claude made a pull request and Claude reviewed and it said it was OK and now there's a bunch of us who have to do a human review on top (standard procedure for all AI created PR's btw). That's SWE work in 2026 fellas. edit: I see so many comments taking this a blasting on her or complaining, I'm just describing the exact situation that happened, that's it. Whatever connotations you add to that is on you. edit2: This post blew up too much, I can't follow all the replies anymore. submitted by /u/IntelligentLeading11 [link] [comments]",
+      "author": "IntelligentLeading11"
+    },
+    {
+      "title": "The lack of transparency from Anthropic is Borderline concerning",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhvgyp/the_lack_of_transparency_from_anthropic_is/",
+      "published": "2026-10-28T18:00:04+00:00",
+      "summary": "It's not that hard to be transparent. ...right? What is it with Anthropic refusing to give straight answers?! Oh, btw, since my complaint, my limits seem to be back to normal? Idk if there's a change or it's just a placebo effect. submitted by /u/wholly-unholy [link] [comments]",
+      "author": "wholly-unholy"
+    }
+  ]
+}

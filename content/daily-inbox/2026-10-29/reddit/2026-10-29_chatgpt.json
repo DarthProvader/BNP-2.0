@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-10-29T04:03:16.305467+00:00",
+  "items": [
+    {
+      "title": "Terminator 2, but Skynet was trained on LinkedIn influencers",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhtn57/terminator_2_but_skynet_was_trained_on_linkedin/",
+      "published": "2026-10-28T16:55:43+00:00",
+      "summary": "submitted by /u/RyanWalker4516 [link] [comments]",
+      "author": "RyanWalker4516"
+    },
+    {
+      "title": "Low on cyan! :D",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhoezl/low_on_cyan_d/",
+      "published": "2026-10-28T13:42:21+00:00",
+      "summary": "Credit to original comic for the inspiration: @system32comics submitted by /u/ClankerCore [link] [comments]",
+      "author": "ClankerCore"
+    },
+    {
+      "title": "Researchers found an \"evil neuron\" and when they activate it... holy shit",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhuhb3/researchers_found_an_evil_neuron_and_when_they/",
+      "published": "2026-10-28T17:24:36+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Just want to talk a minute of your time to laugh at people who called themselves prompt engineers 😂",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xi3gma/just_want_to_talk_a_minute_of_your_time_to_laugh/",
+      "published": "2026-10-28T23:02:50+00:00",
+      "summary": "submitted by /u/No_Scientist1077 [link] [comments]",
+      "author": "No_Scientist1077"
+    },
+    {
+      "title": "They just merged my normal ChatGPT with ChatGPT Work...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2b1c/they_just_merged_my_normal_chatgpt_with_chatgpt/",
+      "published": "2026-10-28T22:15:15+00:00",
+      "summary": "I even got a popup saying something like \"everything is now in one place\" referring to Chat and Work. I think we have to prepare to be out of ChatGPT messages even when we run out of our Codex quotas... Edit: It seems like Sol 6 High and Sol 6 Instant are not affecting usage limits. submitted by /u/Anxietrap [link] [comments]",
+      "author": "Anxietrap"
+    },
+    {
+      "title": "meme or reality?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhlrc1/meme_or_reality/",
+      "published": "2026-10-28T11:42:24+00:00",
+      "summary": "submitted by /u/Rare_Supermarket-734 [link] [comments]",
+      "author": "Rare_Supermarket-734"
+    },
+    {
+      "title": "Chat and Work merged",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xi29er/chat_and_work_merged/",
+      "published": "2026-10-28T22:13:19+00:00",
+      "summary": "https://preview.redd.it/r9lizc218ayh1.png?width=1042&format=png&auto=webp&s=39f7df06cae142c3be33b7ca362ae4f3ae85754b For me, Chat and Work have just been merged into one. The usage limits still seem to be separate tho. My 5h limit is completely used up, but I can still use Chat. Edit: The work limit seems to apply to all models except GPT 6 Sol Instant/Medium High. GPT-6.1 Sol, Astra, Terra, and Luna all count toward the Work/Codex limits. submitted by /u/MobileCool7175 [link] [comments]",
+      "author": "MobileCool7175"
+    },
+    {
+      "title": "Crazy realistic now. We're cooked.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhgarj/crazy_realistic_now_were_cooked/",
+      "published": "2026-10-28T06:09:32+00:00",
+      "summary": "Dessa is a full-duplex speech-to-speech model that you can run on consumer GPUs. This is a GPT3 moment for speech. submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Kinda fucked up",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xhqq64/kinda_fucked_up/",
+      "published": "2026-10-28T15:11:08+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "SELECT GPT 6 SOL IN THE MODEL PICKER TO USE CHAT MODE",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xi2sj5/select_gpt_6_sol_in_the_model_picker_to_use_chat/",
+      "published": "2026-10-28T22:34:48+00:00",
+      "summary": "For everyone encountering this weird merger of Chat and Work, for some reason it behaves like normal chat when I explicitly choose GPT 6 Sol in the model picker. Hope this helps! submitted by /u/412East34 [link] [comments]",
+      "author": "412East34"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-10-29T04:02:55.298361+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — October 28, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhs5u1/rsingularity_daily_discussion_thread_october_28/",
+      "published": "2026-10-28T16:02:38+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "Gemini 4 Carbon",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/",
+      "published": "2026-10-28T17:04:42+00:00",
+      "summary": "Source: @GoogleDeepMind on X submitted by /u/Marimo188 [link] [comments]",
+      "author": "Marimo188"
+    },
+    {
+      "title": "Zip it",
+      "url": "https://www.reddit.com/r/singularity/comments/1xi1oid/zip_it/",
+      "published": "2026-10-28T21:50:20+00:00",
+      "summary": "submitted by /u/J_R_D_N [link] [comments]",
+      "author": "J_R_D_N"
+    },
+    {
+      "title": "GPT-6 Astra painted this on a real robot arm, then filmed and edited it, all from one chat",
+      "url": "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+      "published": "2026-10-28T21:10:24+00:00",
+      "summary": "What Astra did, in one Codex chat: designed three fish circling an empty centre, generated a concept image, then wrote 34 brush strokes simulated how the water would spread (and threw out a first version where the water swallowed the fish) compiled the arm’s motion and checked the whole route for collisions and joint limits in a digital twin turned on the studio lights, started both cameras, and painted it: about 30 minutes, 11,567 joint commands read the run logs to find when each stroke happened, wrote the music in code, colour-graded the footage and cut it so the strokes land on the beat titled it “a small orbit” My prompt: \"let's make something dreamy!\" On “controls”: Astra doesn’t stream motor commands token by token. It plans the painting and runs the studio’s tools, which are completely built Codex and Claude over the past few months, and a checked executor drives the arm. Hope you like it! submitted by /u/dhvanil [link] [comments]",
+      "author": "dhvanil"
+    },
+    {
+      "title": "Google is BACK! #1 on Artificial Analysis",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhuuc3/google_is_back_1_on_artificial_analysis/",
+      "published": "2026-10-28T17:37:27+00:00",
+      "summary": "Very impressive. I wonder how much it cost. submitted by /u/kknd1991 [link] [comments]",
+      "author": "kknd1991"
+    },
+    {
+      "title": "Anthropic President Daniela Amodei Calls AI Girlfriends A \"Terrible Use Of AI\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xi1xgl/anthropic_president_daniela_amodei_calls_ai/",
+      "published": "2026-10-28T22:00:19+00:00",
+      "summary": "\"There are some applications of AI that we think are quite bad, like making AI girlfriends or boyfriends. I think that’s a terrible use of AI and people should not do it \" \" The reason that I think that is because it is another step further down the road of disintermediation, of humans being further from one another \" \"Technology in the social media age has largely been used to disintermediate humans from one another. Instead of you and I going to have an iced coffee together in person, we’re messaging on Snapchat or Instagram\" \" A much better world of AI is one in which artificial intelligence is doing a lot of the things that are isolating or lonely activities for humans, so that we can spend more time together \" https://x.com/jaynitx/status/2115429414821560352 I agree with her. I find that Claude has the personality of a Philosopher/Spiritual Guru. Someone you go to for life advice and wisdom. On the other hand, chatgpt models, grok, etc are a lot more flirty and suitable for chit c",
+      "author": "Neurogence"
+    },
+    {
+      "title": "You are here - fixed",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhvwbn/you_are_here_fixed/",
+      "published": "2026-10-28T18:15:15+00:00",
+      "summary": "submitted by /u/baws1017 [link] [comments]",
+      "author": "baws1017"
+    },
+    {
+      "title": "You’re here",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhum9n/youre_here/",
+      "published": "2026-10-28T17:29:22+00:00",
+      "summary": "submitted by /u/wxnyc [link] [comments]",
+      "author": "wxnyc"
+    },
+    {
+      "title": "TIL Demis Hassabis wanted to call Gemini \"Titan\" but Google's lawyers thought it sounded too aggressive",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhyxxn/til_demis_hassabis_wanted_to_call_gemini_titan/",
+      "published": "2026-10-28T20:05:00+00:00",
+      "summary": "Reading a book about the AI race and came across this gem. Just another day at Google with the lawyers involved, I guess 😂 submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "Andon Labs: \"AI Now Ties Humans on Physical 3D Understanding Benchmarks\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhviy9/andon_labs_ai_now_ties_humans_on_physical_3d/",
+      "published": "2026-10-28T18:01:53+00:00",
+      "summary": "Blueprint-Bench 2 | Andon Labs submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    }
+  ]
+}
