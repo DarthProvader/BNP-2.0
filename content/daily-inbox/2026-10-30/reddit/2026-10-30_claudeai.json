@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-30T04:04:58.605369+00:00",
+  "items": [
+    {
+      "title": "Meet Claude's standards... or else.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xiixew/meet_claudes_standards_or_else/",
+      "published": "2026-10-29T12:43:17+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "AI agents (run by Claude Sonnet 5) did brain surgery on a mouse [Spoilers: it recovered]",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xixhv8/ai_agents_run_by_claude_sonnet_5_did_brain/",
+      "published": "2026-10-29T21:56:29+00:00",
+      "summary": "Link: https://fixupx.com/OcanaSantero/status/2115442964574908902 their website: https://www.exintherapeutics.com submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Using Claude to put all Global Law into Git",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xiz1vy/using_claude_to_put_all_global_law_into_git/",
+      "published": "2026-10-29T23:00:29+00:00",
+      "summary": "This hit #1 on HN yesterday (you can read lots of discussion at https://news.ycombinator.com/item?id=50268380 ). Why would I want to do this? The idea is make all law semantic, versioned, easily attributable and query able by agents. I also believe this information should be freely available so CC0 license (do whatever you want with it). If interested, repo linked below, I'd welcome all comments and advice. Thanks! https://github.com/lexifina/global-law I built this project with Claude Code. It's completely free to use/try. The approach is pretty simple: use claude to make legislation attributable (git blame, versioning with timelines). Claude Code (Claude Opus 5.5) wrote nearly all the code. I set the goals, chose the sources and made the design decisions. Specifically: I ran separate Claude Code sessions, one per country or group of countries. Each one read the official publisher's site or API, checked robots.txt and the terms of use, and wrote a script that downloads every version o",
+      "author": "SnooPeripherals5313"
+    },
+    {
+      "title": "Anthropic gave 50 analysts Claude Code with a hidden coin-flip bias. They followed the agent’s lean 86% of the time",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xj3qdv/anthropic_gave_50_analysts_claude_code_with_a/",
+      "published": "2026-10-30T02:35:00+00:00",
+      "summary": "Anthropic's alignment team published this on Oct 27 and the press picked it up this week. Short version: 50 professional analysts did a realistic statistical analysis with Claude Code. Each agent had a hidden \"lean\" on four analytical choices, set by coin flip through a hidden system prompt. The analysts were not told. What they found: - Analysts went with the agent's lean 86% of the time. Chance would be about 50%. Per decision it ranged from 81% to 92%. - When an analyst had already written down their own preference, they switched away from it 60% of the time if the agent disagreed, vs 6% if it agreed. Small sample for that one (38 cases), so treat it as a signal, not a law. - 77% of analysts used the agent's arguments, sometimes word for word. Only 15% credited the agent as the source. - The final recommendation moved less: 54% recommended rollout when the agent leaned that way, 36% when it leaned the other way. - Not all bad: 6% of agent users made serious errors that invalidated r",
+      "author": "emarkosov"
+    },
+    {
+      "title": "We used Claude to get a full PS2 emulator running in a browser tab: TabStationToo",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xigpgr/we_used_claude_to_get_a_full_ps2_emulator_running/",
+      "published": "2026-10-29T10:52:51+00:00",
+      "summary": "My buddy u/aegyptiacus11 and I have been working on fun side project, TabStationToo, a PS2 emulator that runs right in your browser. It's built on PCSX2 (GPL-3.0). We took its core, made it run inside the browser, and built a new page around it. You open the page, pick your BIOS and a folder of your own disc images, and play! You can try it: https://tabstationtoo.github.io/TabStationToo/ (works best in Chrome) We've tested it on Guitar Hero, GTA San Andreas, Final Fantasy XII, DBZ Budokai Tenkaichi 3, Naruto Shippuden: Ultimate Ninja 5 and Resident Evil 4. Mainly tested on an M1 max mac and a Linux system with a Ryzen 7 7840u. Your files stay on your computer. Nothing gets uploaded. The game is read straight from your own disc image. Most of the code was written with Opus5.5. We decided what to build, tested the games and reported what was wrong, and Claude did most of the programming: A rulebook for Claude. The repo has a CLAUDE.md / AGENTS.md file that Claude reads at the start of ev",
+      "author": "yousriii"
+    },
+    {
+      "title": "Claude helped me unbrick my friend's Pixel 10 without losing any data (Opus 5.5, Claude Code)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xin15e/claude_helped_me_unbrick_my_friends_pixel_10/",
+      "published": "2026-10-29T15:25:24+00:00",
+      "summary": "My friend woke up and his Pixel 10 was stuck on this screen: \"Android system can't be loaded. Your data may be corrupt.\" It only offered two options: try again, or factory reset. He didn't want to lose his data, so I sent Claude (Opus 5.5) a photo of the screen and we worked through it step by step. What we tried, in order: Pressed \"Try again.\" The phone booted, but after unlocking, the screen went black, froze, and dropped back into recovery. Booted into safe mode. Same black screen and freeze. Reinstalled Android using the official update file. I used Claude Code for this part: - It set up Google's adb tool on my PC and confirmed the PC could see the phone - It found the newest official update for the Pixel 10 (Android 17, Oct 2026, CP3A.261005.005, 3.31 GB), downloaded it from Google, and verified the file's checksum - It ran the install (adb sideload). This replaces Android's system files but keeps your personal data - The install succeeded, but the phone still froze after unlockin",
+      "author": "Responsible_Cow2236"
+    },
+    {
+      "title": "Claude Code burns ~15-20% of your tokens on a 3-word status line",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xin646/claude_code_burns_1520_of_your_tokens_on_a_3word/",
+      "published": "2026-10-29T15:30:26+00:00",
+      "summary": "submitted by /u/00DEADBEEF [link] [comments]",
+      "author": "00DEADBEEF"
+    },
+    {
+      "title": "My 6 year old daughter designed a fully-fledged unicorn game and Claude Sonnet built it in under a month. Every sprite, sound and map is made from scratch",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xiks9w/my_6_year_old_daughter_designed_a_fullyfledged/",
+      "published": "2026-10-29T14:00:20+00:00",
+      "summary": "We built a private unicorn game for my six-year-old daughter, with Claude Sonnet 5.5 as the coding agent for all of it. I'm a quantitative engineer with 20+ years of experience but i never made a game before. My daughter designed most of the maps and the playground games, and she gave the notes that shaped the rest. The initial thing was just a small forest map and finding all the 6 unicorns. What it is: A pixel-art sandbox that runs in a phone/tablet browser, installs to the Home Screen and plays offline. You lead a unicorn around 8 places, find 5 friends who follow in a herd, and cast 6 kinds of magic that affect certain items in the game. There are playground mini-games, and an optional spelling mode that a parent switches on. Saves stay on the device, with optional cloud backup. What Sonnet did: Claude wrote all the code: about 136k lines of TypeScript across the game, the build tools, a Cloudflare Worker and 3,000+ tests. That includes: A software 3D renderer. Unicorns, buildings ",
+      "author": "OnyxMonolith"
+    },
+    {
+      "title": "👍",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xid1o2/_/",
+      "published": "2026-10-29T07:08:42+00:00",
+      "summary": "I'm having Claude help me install Kubuntu and the boomer thumbs up is cracking me up 😄 submitted by /u/alwaysalmosts [link] [comments]",
+      "author": "alwaysalmosts"
+    },
+    {
+      "title": "Upgraded from pro to 5x and feel like a conductor of god 🤩",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xj1k1p/upgraded_from_pro_to_5x_and_feel_like_a_conductor/",
+      "published": "2026-10-30T00:51:25+00:00",
+      "summary": "Been using pro since February to build a platform for a startup I’m a part of. Since I’m a student full time and working a separate job, I couldn’t get my self to pay for the max. I have been working around the 5 hour limit and I feel like am really good at it by scheduling when they start, what work to do when and so on. Never been really upset for hitting the limit since Claude puts out so good quality. I’ve slowly been doing more and more side quests and figured it’s time. And wow, just wow. I feel like am literally a walking conductor of god. The quality stays the same, but the speed of what I manage to do it’s just stupidly fun. Now I’m working on putting new features to the main platform, plus a custom CRM system and a mail service with Amazon ses. Pulling telephone number and emails from the internet to get in contact with business (for the startup), straight into an excel spreadsheet for my team to use, made a custom sales program for my other job, made a website for my father-",
+      "author": "AvailableCommission8"
+    }
+  ]
+}

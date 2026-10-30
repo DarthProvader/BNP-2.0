@@ -1,0 +1,93 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-10-30T04:01:25.921341+00:00",
+  "items": [
+    {
+      "title": "Qwen Audio Agent + Claude Code: This Basically makes Claude Code a HUMAN!",
+      "url": "https://www.youtube.com/watch?v=T2sogF_YacI",
+      "published": "2026-10-29T08:15:07+00:00",
+      "summary": "In this video, I'll connect Qwen Audio Agent to Claude Code so I can keep a voice conversation going while the coding work runs in the background. First I'll explain how the voice front end, the local gateway and the Claude Code backend fit together, then install it with npm, set up the DashScope voice key, the Claude backend and the workspace, and start the gateway and the browser interface. Then I'll build a small issue tracker called VoiceDesk by voice, ask questions while it builds, interrupt the spoken answer, change a requirement mid-build and report a whitespace-title bug. Finally, I'll test cancelling a backend task, go over where this setup is useful and what it costs, and share the checks I'd judge it by.\n\n--\nKey Takeaways:\n\n🎙️ Qwen Audio Agent is an open-source app that connects a voice conversation to agents like Claude Code, with browser, terminal and desktop clients.\n🔀 The voice front end handles the conversation, Claude Code does the coding, and a local gateway connects ",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Claude Code is getting rid of SUB-AGENTS?",
+      "url": "https://www.youtube.com/watch?v=fdtkh30oFA8",
+      "published": "2026-10-28T08:15:07+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll walk you through Claude's new article, \"Building agents: When to fold subagents into your main agent loop\", in plain words: why copying your org chart into subagents hurts quality, adds cost and latency, and what progressive disclosure, skills and tools do instead. Then I'll cover how to fold one subagent at a time, how to measure it with a small set of golden examples, and the three reasons the article gives for keeping a subagent separate. In the second half, I'll show you how the same choice looks in PandaCode, with its single chat and its team mode: the architect and workers, per-worker harness, model and effort, team profiles, read-only and writing workers, file scopes and follow-ups. Finally, I'll go through where a team genuinely wins, where one chat is better, the real costs, and my own rule for picking between them.\n\n--\nKey Takeaways:\n\n🧠 Claude's article argues many ",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "OpenBot + Deepseek is the best Grok Bot & Muse Alternative!",
+      "url": "https://www.youtube.com/watch?v=iuBuavIinH8",
+      "published": "2026-10-27T08:27:41+00:00",
+      "summary": "Visit SwitchAI: https://devtoolsacademy.link/AICK\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll look at OpenBot, a free desktop app that takes the Grok Bot idea of persistent AI teammates and runs it on your own computer instead of someone else's cloud. First I'll explain what Grok Bot gets right and the trade-offs baked into it: a cloud computer in the United States, managed model selection and bundled Cursor and SuperGrok plans. Then I'll go through what OpenBot is, how you connect Codex, Claude Code, Gemini, Grok, local models and more per agent, and how an agent keeps its role and workspace when you swap its provider or it falls back to a backup model. After that I'll cover channels, handoffs, the built-in browser, the queue, routines, chat apps, voice and the Vault, the honest local-first trade-off with the hosted EU servers, and a demo with a research agent and a coding agent. Finally, I'll go over the development",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Cheapest REA Setup YET! (Deepseek V4.1+LeanREA)",
+      "url": "https://www.youtube.com/watch?v=ixfUhAmESo0",
+      "published": "2026-10-26T08:15:01+00:00",
+      "summary": "Star PandaCode on GitHub: https://github.com/aicodeking/pandacode\nStar LeanREA: https://github.com/aicodeking/leanrea\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll show you a setup that still works now that Claude Code and Codex have started blocking REA style prompts, and it's way cheaper too. First I'll go over the three pieces: LeanREA, my 8 KB skill file that replaces REA's 207 tool MCP server, DeepSeek V4.1 Flash, which got 81.25 percent on KingBench 3 and doesn't get scared by normal reverse engineering work, and PandaCode, which runs DeepSeek directly through its own harness, dsh. Then I'll compare the prices against Sonnet 5.5 and Opus 5.5 and estimate what my $2.17 LeanREA benchmark run would cost on DeepSeek. After that I'll set the whole thing up step by step and give it a real LeanREA task in PandaCode. Finally, I'll be honest about the downsides and tell you whether I think it's worth it.\n\n--\nKey Takeaways:",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "CLI-Anything: Turn ANY App into a CLI for Claude Code & Codex (GIMP, Blender, LibreOffice & More!)",
+      "url": "https://www.youtube.com/watch?v=0XQele28q0w",
+      "published": "2026-10-25T08:15:02+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll show you CLI-Anything, an open-source project from HKUDS at the University of Hong Kong that gives any piece of software a command line interface your AI agent can use. I explain why a CLI with JSON output beats screenshot-based GUI automation, APIs and rewrites, and how it calls the real app instead of a toy copy. Then I show CLI-Hub, the package manager for ready-made CLIs, and the meta-skill that lets your agent find and install the right tool by itself. After that, I go through the CLI generator plugin in Claude Code and its seven phases, and we try the generated CLIs for GIMP, LibreOffice and Blender, plus the refine, test and validate commands. Finally, I cover HARNESS.md, the tests, the demos and the limitations.\n\n--\nKey Takeaways:\n\n🚀 CLI-Anything takes the source code of an app like GIMP or Blender and has your coding agent build a full CLI for it, with tests, docs an",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Kimi K3.1 Pro is REALLY BAD!",
+      "url": "https://www.youtube.com/watch?v=EP-yA-1PVmw",
+      "published": "2026-10-24T08:15:19+00:00",
+      "summary": "Star PandaCode on GitHub: https://github.com/aicodeking/pandacode\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll be testing Moonshot's new Kimi K3.1 Pro on all six KingBench 4 tasks, and I'll compare it with Opus 5.5, GPT-6 Astra, Haiku 5.5, DeepSeek V4.1 Flash and the rest of my chart. I ran the whole benchmark through PandaCode, my fully open-source app for coding agents, which is tuned for Kimi Code, with six K3.1 workers running in parallel and a separate evaluator testing every project. We'll go through the emulator, the Docker alternative, the room designer, the keyboard app, Pokémon Red and the Fitbit app one by one, and then look at the final score, what the run actually cost and what the open weights mean. At the end, I'll tell you whether K3.1 Pro is worth using, because the launch blog's \"almost Opus\" story does not hold up in real projects.\n\n--\nKey Takeaways:\n\n🚀 Kimi K3.1 Pro is Moonshot's post-trained K3 with",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Here's how I do Real Engineering with Opus 5.5 (Workflow w/ Tools)",
+      "url": "https://www.youtube.com/watch?v=Xm_Sf2qxRW4",
+      "published": "2026-10-23T09:00:33+00:00",
+      "summary": "Star PandaCode on GitHub: https://github.com/aicodeking/pandacode\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\n\nIn this video, I'll show you how I engineer with Claude Opus 5.5 on long-running tasks, using real examples from PandaCode, the app I built with it. First, I'll explain why simple prompts work better than step-by-step workflows, and why you should ask your agent to write a benchmark before you ask it to make things faster. Then I'll talk about getting Opus to write thoughtful tests so that nothing reaches you before it passes them, and about giving it reference designs from sites like recent.design and Dribbble. Finally, I'll show you how I use orchestration with Agent Teams in PandaCode, with Opus as the architect, Sonnet as the workers and Codex as the reviewer, plus a few small tips for long tasks.\n\n--\nKey Takeaways:\n\n🧠 Keep your prompts simple: say what you want, how you'll know it's done and what the agent must not touch, t",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Recursive Flint: This OPEN Local Coding Model is CRAZY! (Tested with Pi, OpenCode & PandaCode)",
+      "url": "https://www.youtube.com/watch?v=oJ0gSua-fE0",
+      "published": "2026-10-22T08:31:03+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll test Recursive Flint, a new open mixture-of-experts coding model with 40 billion parameters in total and only 2.5 billion active per token, built to run agentic coding on your own computer. I'll go over Recursive's claims, set it up on my M4 Max with llama.cpp after their own rec engine refused my Mac, and measure how fast it really is at short and long context. Then I'll show you how to use it in PandaCode with Pi and OpenCode, and put it through four real tasks: a landing page, a bug fix, a backend API and a Breakout game. I'm not testing it on KingBench, because it's a small local model and that wouldn't be fair, so I checked every result myself instead.\n\n--\nKey Takeaways:\n\n🚀 Recursive Flint is an Apache 2.0 mixture-of-experts model with 40B total parameters and about 2.5B active per token, made for local agentic coding.\n📊 Recursive claims it beats every MoE model under 50",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

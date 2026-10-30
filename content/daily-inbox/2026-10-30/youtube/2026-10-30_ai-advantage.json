@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-10-30T04:00:56.261830+00:00",
+  "items": [
+    {
+      "title": "How to Build a Free Version of any Paid App",
+      "url": "https://www.youtube.com/watch?v=dc3pgMqhRzI",
+      "published": "2026-10-29T19:28:21+00:00",
+      "summary": "Join The AI Advantage Club\nhttps://joinaiaclub.com/igor\n\nI used AI to recreate an app I used to pay for, then customized it to work exactly how I wanted. Here’s how to use Reverse Engineer Anything with ChatGPT, including my screen-drawing app, AIA Ink, and a second example inspired by Slido.\n\nI’ll explain reverse engineering in plain English, show the request and setup, and share why this changes what we can build with AI.\n\nReverse Engineer Anything (REA) — GitHub\nhttps://github.com/morluto/rea\n\nScreenBrush — Original Screen-Drawing App\nhttps://apps.apple.com/us/app/screenbrush/id1233965871?mt=12\n\nSlido — Original Q&amp;A and Polling Tool\nhttps://www.slido.com/\n\nArtCraft — Open-Source Creative Apps\nhttps://getartcraft.com/\n\nChapters:\n0:00 Recreating an App With AI\n0:22 AIA Ink: My ScreenBrush Alternative\n0:53 What You Need to Get Started\n1:13 Reverse Engineering Explained Simply\n2:03 Getting the Free REA GitHub Link\n2:31 Creating a Project With Folder Access\n3:04 Giving AI the Prompt ",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

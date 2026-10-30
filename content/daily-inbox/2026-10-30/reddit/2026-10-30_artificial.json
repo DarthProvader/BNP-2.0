@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-30T04:05:19.495924+00:00",
+  "items": [
+    {
+      "title": "Modders unlock hidden AI power on Nvidia RTX 20, 30, and 40 series GPUs, nearly doubling some benchmarks",
+      "url": "https://www.reddit.com/r/artificial/comments/1xingp7/modders_unlock_hidden_ai_power_on_nvidia_rtx_20/",
+      "published": "2026-10-29T15:41:37+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Reddit will force everyone to log in",
+      "url": "https://www.reddit.com/r/artificial/comments/1xj2qw1/reddit_will_force_everyone_to_log_in/",
+      "published": "2026-10-30T01:47:30+00:00",
+      "summary": "Recently, CEO Steve Huffman disclosed that Reddit will transition to a \"logged-in-only\" experience. This means that Reddit posts will no longer be searchable via internet browsers, significantly impacting AIs that search the internet via tool calling. submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "31-Year-Old Woman Reduced Epilepsy Medication After ChatGPT Advice: Report Links Case to Her Death",
+      "url": "https://www.reddit.com/r/artificial/comments/1xiwxih/31yearold_woman_reduced_epilepsy_medication_after/",
+      "published": "2026-10-29T21:33:48+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand — $63 million injection is the largest investment in tape for 20 years",
+      "url": "https://www.reddit.com/r/artificial/comments/1xivhhm/fujifilm_plans_5x_production_boost_of_100tb/",
+      "published": "2026-10-29T20:37:16+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "GLM 5.3 can autonomously compromise recent versions of Mozilla Firefox",
+      "url": "https://www.reddit.com/r/artificial/comments/1xiyu6e/glm_53_can_autonomously_compromise_recent/",
+      "published": "2026-10-29T22:51:25+00:00",
+      "summary": "https://epoch.ai/publications/open-weight-models-patch-gap submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "I want your thoughts on the future of AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xj47js/i_want_your_thoughts_on_the_future_of_ai/",
+      "published": "2026-10-30T02:59:08+00:00",
+      "summary": "Before I begin, I want to say I am not an expert, I am just trying to get your thoughts. For some reason people on here are incredibly rude know-it-alls, even when I literally stress that I am not even close to an expert 😂 I have 4 ways I think the future of AI can go: AI is currently so heavily incentivized that it is much cheaper than it actually is. Once the true cost of AI arrives, companies will have a board of 5-10 AI users instead of letting every employee use AI. AI really turns out to take everyone's jobs, at which point people riot and don't allow AI to take over. As we saw this October, people use AI to hack into almost all software, making the internet a really unsecured place and leading to a different form of internet. (I don't know about this one, but maybe?) Companies force the AI companies into huge regulations because they can replicate their exact product for free. Do you agree? submitted by /u/Select-Pass1019 [link] [comments]",
+      "author": "Select-Pass1019"
+    },
+    {
+      "title": "Microsoft just shared Azure's actual revenue in dollars: $33.2 billion | TechCrunch",
+      "url": "https://www.reddit.com/r/artificial/comments/1xinf2c/microsoft_just_shared_azures_actual_revenue_in/",
+      "published": "2026-10-29T15:39:54+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Working on a Jarvis invoice inspired Voice Agent.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xivelj/working_on_a_jarvis_invoice_inspired_voice_agent/",
+      "published": "2026-10-29T20:34:15+00:00",
+      "summary": "Only a couple hours at this, taking shape. Hardest thing is the layout what to include. Back-end is complete, just need a face, Ive been running my voice agent in the background for a while with no interface. What you think. Cool fun project. will probs be so over engineered lol. will MIT opensource when done. submitted by /u/Input-X [link] [comments]",
+      "author": "Input-X"
+    },
+    {
+      "title": "A one-person studio shipped a Steam demo of a 12-chapter FPS coded by AI agents in 20 working days. Here is what the agents could and could not do.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xikfco/a_oneperson_studio_shipped_a_steam_demo_of_a/",
+      "published": "2026-10-29T13:46:22+00:00",
+      "summary": "I am Ekin, a one-person game studio in Turkey. On 28 October the free demo of Iron Curtain Call went live on Steam: a fast cartoon-noir FPS set in an alternate 1965 where a customer-service AI runs World War III. The code is written by Claude Code agents working from my design documents: 3,929 commits over 20 working days by 25 October, in Godot 4.7. The full game, 12 chapters, releases on 11 March 2027. What the agents did well: the game's systems (a Doom-style resource loop, nine weapons planned, about 49 robot types planned, bosses), the HUD, the tooling, and a headless test suite that gates every merge (zero script errors, a bot that plays the level, navigation and geometry checks). They work in parallel: one lead session, feature sessions in the cloud, one per workstream, each on its own branch. What they could not do: know what is fun. Level design that surprises took the most time of anything; the demo's level went through four versions, and a human playtest added a whole sectio",
+      "author": "Aware_Bell1295"
+    },
+    {
+      "title": "A real citation can still be the wrong evidence for an AI answer",
+      "url": "https://www.reddit.com/r/artificial/comments/1xj360n/a_real_citation_can_still_be_the_wrong_evidence/",
+      "published": "2026-10-30T02:07:50+00:00",
+      "summary": "An AI answer says a treatment “improves long-term outcomes” and links to a real study. But suppose that study only measured a short-term indicator. The link works, the paper exists, and the claim still goes beyond the evidence. Checking whether a citation is fabricated only catches one kind of error. I’d like research assistants to show the specific passage supporting a claim, along with the study population and what was actually measured. That would make it easier to spot a conclusion that quietly changed scope. When checking an AI-assisted literature summary, which mismatch do you look for first: population, outcome, time period, or strength of the conclusion? submitted by /u/yi111 [link] [comments]",
+      "author": "yi111"
+    }
+  ]
+}
