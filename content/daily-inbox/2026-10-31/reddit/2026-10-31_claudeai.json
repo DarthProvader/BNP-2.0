@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-10-31T04:05:57.459025+00:00",
+  "items": [
+    {
+      "title": "Claude now watermarks everything it writes, and you're the one who can't check",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjqyv2/claude_now_watermarks_everything_it_writes_and/",
+      "published": "2026-10-30T20:48:43+00:00",
+      "summary": "Starting November 3, Anthropic extends its invisible text watermark to Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6. Every model released since August already has it. It applies worldwide, not just in the EU, and paying users can't opt out. Here's what that means in practice: Use Claude to proofread or translate, and your text gets marked. Anthropic's own help page admits a detected mark doesn't mean Claude wrote the content, only that it touched it. Non-native speakers and people with dyslexia get the same flag as someone who generated an entire essay. You can't check your own text. Detection is a private preview for regulators, media, researchers, educational organizations and \"enterprises with compliance obligations\". The people being judged are the only ones without access. \"Only we have the key\" won't last. Research on watermark stealing has already shown that these statistical patterns can be learned from enough samples. Expect third-party \"AI detectors\" to pick it up, with all th",
+      "author": "Mainfurr"
+    },
+    {
+      "title": "Anthropic renames Max5 and Max20 and removes 5h limits for Max20",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjlvlc/anthropic_renames_max5_and_max20_and_removes_5h/",
+      "published": "2026-10-30T17:34:41+00:00",
+      "summary": "yay submitted by /u/Pyros-SD-Models [link] [comments]",
+      "author": "Pyros-SD-Models"
+    },
+    {
+      "title": "I'm close to cancelling my max subscription due to the safety classifier",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjmtad/im_close_to_cancelling_my_max_subscription_due_to/",
+      "published": "2026-10-30T18:09:38+00:00",
+      "summary": "Just wanted to vent a bit. I do a lot of RE work, and claude has been very useful for that. I got used to the \"safety\" classifier misfiring on things that were vaguely security-adjacent. Adjusting my prompt or approaching from another direction usually got past it. This has been getting steadily worse over time, and my patience is almost at an end. Today I was trying to port OpenWRT to my Unifi U6 Pro. Extending the life of my own equipment. And claude just isn't having it. It keeps flagging my sessions cyber and refusing, and none of the usual workarounds are helping. This is a completely legitimate use case, so much so that it's actually explicitly granted by the right-to-repair law in the EU/EEA. I'm so pissed off after wasting hours not making progress on my project. A tool that refuses to work 50% of the time is not useful. Let alone for $200/month. Fix this shit, claude, or you'll end up hemmorraghing customers. submitted by /u/Melodic-Network4374 [link] [comments]",
+      "author": "Melodic-Network4374"
+    },
+    {
+      "title": "Weekend project: Mario 64 in Mixed Reality!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjko2l/weekend_project_mario_64_in_mixed_reality/",
+      "published": "2026-10-30T16:51:01+00:00",
+      "summary": "I built a native MR version of Mario 64 that runs in real 3D (not a flat stereoscopic screen) at 90 FPS. The whole level sits on your desk and you play it like a diorama. I built this with Claude Code (Opus 5.5), using the Unity CLI and PICO CLI so Claude could build, deploy and iterate on the headset directly from the terminal. Claude code: - wrote the bridge between the SM64 decomp and Unity's renderer - handled converting the N64 geometry and input mapping to MR controllers - debugged frame pacing to hit a stable 90 FPS It's based on https://github.com/n64decomp/sm64 , which made the native 3D rendering possible. Disclaimer: I own an original physical copy of Mario 64. This project is not affiliated with Nintendo or PICO. Happy to answer questions about the Claude Code + Unity CLI + PICO CLI workflow. submitted by /u/lucas-martinic [link] [comments]",
+      "author": "lucas-martinic"
+    },
+    {
+      "title": "The era of vibe coding actually made me appreciate old school software engineers 10x more",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjk9x0/the_era_of_vibe_coding_actually_made_me/",
+      "published": "2026-10-30T16:36:30+00:00",
+      "summary": "Lately, I’ve been going down a rabbit hole: using reverse engineering anything (REA) to tear down some of my favorite legacy software and vibe-coding my own versions from scratch with Claude. To be honest, I have a bit of OCD when it comes to code bloat. My original goal was to learn how these tools tick and strip them down to their bare essentials using first principles thinking. I figured I could cut the fat and build something cleaner and lighter. Well, reality hit hard. First off, it takes an absurd amount of time and burns through an ungodly amount of tokens. Financially and mentally, it makes zero sense you're way better off just buying those software outright. More importantly, looking under the hood completely humbled me. Because older software was built under brutal hardware constraints, those engineers optimized everything . Memory allocation, cache locality, compute overhead, even the binary size itself every single byte had a reason to be there. I went in wanting to \"optimi",
+      "author": "Charredwee"
+    },
+    {
+      "title": "I love dogs, and now Claude Code does too.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjr0ht/i_love_dogs_and_now_claude_code_does_too/",
+      "published": "2026-10-30T20:50:34+00:00",
+      "summary": "I made a thing that logs every dog that walks by my house, counts how many times (and when and what direction) they walk by. A security camera streams video to a Mac mini. Local YOLO model detects dogs and saves photos. Claude Vision picks the best photo and identifies each dog against regulars. Claude comes up with the names, draws their portraits, and gives them an entirely imaginary backstory. It's mostly autonomous, every week or so I double-check it. doggosonmystreet.com submitted by /u/username_____here [link] [comments]",
+      "author": "username_____here"
+    },
+    {
+      "title": "5h limit is gone!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjtdo0/5h_limit_is_gone/",
+      "published": "2026-10-30T22:28:25+00:00",
+      "summary": "Well, that's one hell of a news! Thank you! 😊 submitted by /u/smith2008 [link] [comments]",
+      "author": "smith2008"
+    },
+    {
+      "title": "AI Security Restrictions Have Gone Too Far",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjocer/ai_security_restrictions_have_gone_too_far/",
+      "published": "2026-10-30T19:07:28+00:00",
+      "summary": "Am I the only one frustrated by the restrictions surrounding security-related topics? I`m working on my own game (it is not a copy or a knockoff of anything), and I asked Opus 5.5 to help me implement security measures and hide the PCK encryption key in Godot, but it simply can`t do it... I would understand these restrictions if I were asking it to explain how to break into something or where to find vulnerabilities. But I`m asking it to help me secure my own project, not compromise someone else`s. submitted by /u/PanQu1 [link] [comments]",
+      "author": "PanQu1"
+    },
+    {
+      "title": "Ultra (previously 20x) is officially confirmed as 2x the weekly limit of Max (previously 5x).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjoff4/ultra_previously_20x_is_officially_confirmed_as/",
+      "published": "2026-10-30T19:10:46+00:00",
+      "summary": "Finally confirmed by Anthropic themselves. Max: “5x Pro usage every 5 hours and every week” Ultra: “10x Pro usage every week” https://claude.com/pricing submitted by /u/speechless-Karen [link] [comments]",
+      "author": "speechless-Karen"
+    },
+    {
+      "title": "Working on a real-time 3D Pokémon battle game. The demo is free and open source",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xja4vw/working_on_a_realtime_3d_pokémon_battle_game_the/",
+      "published": "2026-10-30T08:51:37+00:00",
+      "summary": "For the last week I've been making PokeBrawl with the help of Claude Code: Pokémon battles in real time, where you control the Pokémon directly, dodge attacks and fight with its four moves while each one recharges. Against the AI or 1 vs 1 online with a friend. A few things that made it work: - Every mechanic has its own built-in test (around 25 of them, plus AI vs AI battles), so a change that breaks something shows up right away. - Stats, learnsets and how moves and abilities behave come from Pokémon Showdown's and Cobblemon's data, so Claude implements real rules instead of making them up. 79 moves and 22 abilities so far. - Online 1 vs 1 over ENet, and Godot 4.7 for everything. Download (Windows): https://github.com/xjoje6/PokeBrawl/releases/tag/demo Code: https://github.com/xjoje6/PokeBrawl Happy to answer anything about how it was made. And if you try it, tell me what you think. Credits: - Pokémon models, animations, effects, sounds and battle UI: the Cobblemon team (CC BY-NC 3.0",
+      "author": "ApprehensiveFocus287"
+    }
+  ]
+}

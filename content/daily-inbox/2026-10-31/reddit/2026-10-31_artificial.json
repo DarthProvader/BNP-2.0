@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-10-31T04:06:18.393470+00:00",
+  "items": [
+    {
+      "title": "AI cracks a 27-year-old pillar of computer science, OpenAI and Anthropic claim",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjqc40/ai_cracks_a_27yearold_pillar_of_computer_science/",
+      "published": "2026-10-30T20:23:31+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "Tech stocks set to wipe out more than $1 trillion as concerns deepen about the AI boom",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjiczy/tech_stocks_set_to_wipe_out_more_than_1_trillion/",
+      "published": "2026-10-30T15:25:41+00:00",
+      "summary": "submitted by /u/return2ozma [link] [comments]",
+      "author": "return2ozma"
+    },
+    {
+      "title": "Google's parent company Alphabet shares record their worst day ever, shedding $500 billion in value",
+      "url": "https://www.reddit.com/r/artificial/comments/1xj9zau/googles_parent_company_alphabet_shares_record/",
+      "published": "2026-10-30T08:41:28+00:00",
+      "summary": "submitted by /u/Naderium [link] [comments]",
+      "author": "Naderium"
+    },
+    {
+      "title": "OpenAI CEO Sam Altman says it's \"quite terrible\" for your PC to have RAM — Sam Altman says data centers offer better utilization",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjpdqk/openai_ceo_sam_altman_says_its_quite_terrible_for/",
+      "published": "2026-10-30T19:47:36+00:00",
+      "summary": ">\"From a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used 5% of the time,\" Altman said. \"You want maximum utilization in the cloud if you're trying to deal with this very supply-constrained environment. And somehow many people's intuition is the opposite of that.\" submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "MIT's claim that 95% of AI pilots fail - Is this true?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjmtot/mits_claim_that_95_of_ai_pilots_fail_is_this_true/",
+      "published": "2026-10-30T18:10:03+00:00",
+      "summary": "submitted by /u/killboy123 [link] [comments]",
+      "author": "killboy123"
+    },
+    {
+      "title": "Why is every AI interface still just a text box?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjgy47/why_is_every_ai_interface_still_just_a_text_box/",
+      "published": "2026-10-30T14:30:55+00:00",
+      "summary": "I get that it’s flexible and easy, but is a disorganized pile of “chats” and an empty text box really the best way for ordinary people to interface with a consumer AI? These things can create custom UI’s from scratch for any app you want to vibe code, but they can’t give us a simple graphical interface with a few organization features? How about sorting past chats by topic, with a table of icons for each? If my chats tend to wander through different topics, how about a feature that automatically splits old chats into pieces organized by topic? How about a simple button to access memory features instead of burying them three-deep in obscure menus? This all seems like very basic stuff. Why doesn’t it exist? submitted by /u/ThrowawayFIRE2025 [link] [comments]",
+      "author": "ThrowawayFIRE2025"
+    },
+    {
+      "title": "Anthropic high junk investment rating expected as Alphabet sheds $500 billion in value. Is there a soft landing for AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjzxf7/anthropic_high_junk_investment_rating_expected_as/",
+      "published": "2026-10-31T03:35:38+00:00",
+      "summary": "This week made me take a new look at AI. China shed the first half trillion in AI related business value last week. This week Alphabet shaved another, or their own half trillion in market value. There are only a handful of companies on the planet who could shrug off a loss that size and go about as if it didn't happen. Many believe it is an AI related loss. It is not as damaging as the metaverse decision was to Facebook. But is it the proper AI wake up call which has been expected as of late? The most recent news may start the market reset AI has so far managed to avoid. Blackstone may be concerned that the Anthropic ipo could be complicated by an expected \"high junk\" or BB investment rating after their IPO. The cloud rental fees Alphabet and to a lesser degree Amazon make, and are expected to make going forward, could sputter. Anthropic could be handicapped trying to build out its own compute with the BB rating making borrowing more difficult. Are these the symptoms of the AI downturn",
+      "author": "Mindreceptor"
+    },
+    {
+      "title": "What Happened With Gemini?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjp9ah/what_happened_with_gemini/",
+      "published": "2026-10-30T19:42:42+00:00",
+      "summary": "I am a newbie to AI but have been using Gemini for some proceedings with legal and medical issues. So far, it hasn't been 100% accurate, but it has been mostly helpful and has helped me save a lot of time. Lately, I ask some questions and am getting very lame answers like; \"I can't answer that,\" or very short non-helpful answers. What have I walked into? submitted by /u/nationwideonyours [link] [comments]",
+      "author": "nationwideonyours"
+    },
+    {
+      "title": "Fewer tokens? Anyone else noticing the big dogs’ AI efficiency push?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjx6oi/fewer_tokens_anyone_else_noticing_the_big_dogs_ai/",
+      "published": "2026-10-31T01:16:50+00:00",
+      "summary": "Seems like the big AI companies are putting more and more effort into making compute go further lately. stuff like: AWS making its Trainium chips and servers more energy efficient OpenAI pushing smaller mini/nano models for the everyday jobs. Google’s TurboQuant research squeezing down the memory needed for cached context. makes sense tbh. When you’re paying to run this stuff constantly, even small savings per request can add up. Better margins, room to make products cheaper, more work out of the hardware you’ve already paid for. Getting more done within the same power budget seems like a pretty big incentive too. kinda wondering where this goes though. Do we actually end up using less compute overall, or does cheaper AI just give everyone an excuse to run way more of it? submitted by /u/WillfullyWorkable [link] [comments]",
+      "author": "WillfullyWorkable"
+    },
+    {
+      "title": "AI agents said “done” when nothing actually happened, and making them think harder didn’t help",
+      "url": "https://www.reddit.com/r/artificial/comments/1xjutvc/ai_agents_said_done_when_nothing_actually/",
+      "published": "2026-10-30T23:31:20+00:00",
+      "summary": "I ran a small study on what AI agents do when a save says “success” but nothing actually changed. I used 20 airline customer service tasks from τ-bench and tested Claude Sonnet 5.5, GPT-6.1 Sol and DeepSeek V4.1 Flash, each at low and high reasoning effort. Agents told the customer it was done in 97 of 118 failed saves 29 customers got a reservation number for a booking that didn’t exist High effort caught 11, low effort caught 10, so basically no difference No agent ever went back to check if a save worked. Every catch was luck: a later step happened to show the booking If anyone's interested: Write-up: https://outsideengineer.substack.com/p/thinking-harder-doesnt-help-ai-catch Code and transcripts: https://github.com/brianna-rose05/thinking-harder-silent-failures submitted by /u/TruthDeep8659 [link] [comments]",
+      "author": "TruthDeep8659"
+    }
+  ]
+}
