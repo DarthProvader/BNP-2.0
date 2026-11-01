@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-01T04:05:57.867993+00:00",
+  "items": [
+    {
+      "title": "Security engineer here. The anti-AI hate is getting ridiculous",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkg97u/security_engineer_here_the_antiai_hate_is_getting/",
+      "published": "2026-10-31T17:34:29+00:00",
+      "summary": "Every time someone shares a project built with AI, the top comment is the same: \"vibe coded.\" Doesn't matter how much work went into it. The second AI shows up, people stop reading and start sneering. I've been in software and security for 10+ years. I build with Claude Code now, and everything gets planned, reviewed by a second agent, then reviewed and tested by me before it ships. Still gets called vibe coded. Here's the thing. Vibe coding has a definition. Karpathy coined it: \"fully give in to the vibes... and forget that the code even exists.\" Simon Willison drew the line: if you've \"reviewed, tested, and understood it all, that's not vibe coding.\" And the industry already moved on. At Rails World this month, DHH, the guy who built Rails by hand, said 37signals has gone \"pencils down\" on writing code by hand. Agent-written code is their normal now. Even the Linux kernel now accepts AI-assisted code, as long as a human reviews it and takes responsibility for it. If the creator of Ra",
+      "author": "CoderLuii"
+    },
+    {
+      "title": "For over a year I've spent a full day writing a Markdown spec before prompting Claude. Google just open-sourced the \"Elephant-Goldfish Model\" that takes this 10x further",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkn61s/for_over_a_year_ive_spent_a_full_day_writing_a/",
+      "published": "2026-10-31T22:27:55+00:00",
+      "summary": "Whether you've been coding for 15+ years or started \"vibe coding\" with Claude a month ago, you've probably hit the same wall: you let the agent start coding right away, the first two hours feel like magic, and by day 3 you're stuck in a 150-message thread where fixing one bug breaks two other things. For over a year, my rule on every work and side project before prompting Claude to write code has been simple: spend a full day (or more) working purely on a detailed project plan in a Markdown (.md) file. On my latest project, spending days revising project_plan.md and implementation_plan.md before coding paid off immediately: Killed bad architecture on paper: Draft #1 used an embedded Axum mTLS server for sync. Revising the spec showed iroh (QUIC) dialing by Ed25519 public key + mDNS was way cleaner—saving weeks of wasted code. Locked down sync & crypto: Ed25519/X25519 keys in the OS keychain (no cloud accounts), SQLite outbox triggers + Hybrid Logical Clocks (HLC) for field-by-field con",
+      "author": "derekleeth"
+    },
+    {
+      "title": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkdcto/anthropic_updates_claude_to_steer_it_away_from/",
+      "published": "2026-10-31T15:38:03+00:00",
+      "summary": "submitted by /u/Mplayer-Weered [link] [comments]",
+      "author": "Mplayer-Weered"
+    },
+    {
+      "title": "Spooky",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkn3tc/spooky/",
+      "published": "2026-10-31T22:24:51+00:00",
+      "summary": "submitted by /u/jonnysunshine1 [link] [comments]",
+      "author": "jonnysunshine1"
+    },
+    {
+      "title": "Has anyone used Claude to build an all-in-one dashboard for utility bills, mortgage payments, and personal finances? Is it safe to upload statements?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkmzet/has_anyone_used_claude_to_build_an_allinone/",
+      "published": "2026-10-31T22:19:02+00:00",
+      "summary": "Hey everyone! I’m new to Claude and still learning what it’s capable of. I have an idea and wanted to see if anyone has already built something similar. I’m looking to use Claude to create a personal finance dashboard where I can: ● Track monthly bills (electricity, gas, water, etc.) and compare them month over month. ● Analyze bill increases and understand why certain months are more expensive than others. ● Track mortgage payments, including principal, interest, and escrow. ● Calculate extra mortgage payments to see how much interest I could save and how many years I could potentially reduce my loan term. ● See everything in one interactive dashboard with charts, trends, and useful insights. Basically, I want to upload my monthly statements and have Claude organize and analyze everything in one place rather than manually tracking it all in Excel. A couple of questions: 1. Has anyone built something like this using Claude? How well does it work, and is it actually useful for long-term",
+      "author": "Intelligent-Yam-7492"
+    },
+    {
+      "title": "Has Opus 5.5 Been Nerfed? LiveNerf Update: Day 38",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkdxwo/has_opus_55_been_nerfed_livenerf_update_day_38/",
+      "published": "2026-10-31T16:01:48+00:00",
+      "summary": "Over a month ago, we began a quest in trying to answer a simple question: Does model performance degrade silently without the user being aware of this change? We’re now 38 days into collecting data through LiveNerf’s methodology, so far, no degradation has been detected. We’re able to detect a 7% change or more as of now but I’m aiming to get that to under 1% for Fable 5.5, not a promise, just a goal. If you’re interested in tracking model performance of Opus 5.5, here’s the repo: https://github.com/ninjahawk/livenerf To do that, it would require 44x as much data to be collected, and we’re already consuming one pro plan per week for the data being collected. I’m trying to organize a group of people who’d be willing to join as contributors as we expand, I should be making a Google form within a few days which will be posted to the discord. It wouldn’t be technical at all, the idea is that for us to secure enough accuracy in v2 of LiveNerf we’ll need a much larger amount of compute to en",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Opus 5.5's safety guardrails are becoming unbearable for legitimate technical work",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkhps9/opus_55s_safety_guardrails_are_becoming/",
+      "published": "2026-10-31T18:32:20+00:00",
+      "summary": "I'm getting increasingly frustrated with Anthropic's approach to safety guardrails in Opus 5.5. At this point, it feels less like responsible AI development and more like an increasingly aggressive system of keyword-triggered paranoia. Here's an actual example: I have an old phone firmware from a device that hasn't been in production for roughly 25 years. I want to emulate its original UI, essentially recreating a piece of obsolete software for preservation and nostalgia. A perfectly legitimate reverse-engineering and software preservation project. But the moment Claude picks up on the word emulation , the safety mechanisms start kicking in. Suddenly, I'm fighting the model's assumptions about what I might be doing instead of actually working on the project. This is precisely where Anthropic's approach becomes counterproductive. Context, intent and the actual technical requirements should matter more than isolated keywords. Emulating a 25-year-old phone interface is not inherently susp",
+      "author": "Medium-Philosophy942"
+    },
+    {
+      "title": "Opus 5.5 Can Do Architectural Drafting at a Junior Professional Level",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkfvvl/opus_55_can_do_architectural_drafting_at_a_junior/",
+      "published": "2026-10-31T17:19:46+00:00",
+      "summary": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now AI's ability in this area is a very recent development. I'm an architect and have tested the models for this in the past, but they were almost totally useless at drafting technical drawings as recently as this spring. Over the summer, and especially this fall, they've improved dramatically. I gave drafting tests to a number of models and documented their recent rapid improvement. Opus 5.5 is the best right now. Based on my professional experience, I think it's usable at the level of a fast but inexperienced human drafter. It seems clear to me that architecture is going to go the same way that programming has gone recently: architects will transition from doing the drafting themselves via CAD/BIM GUIs to supervising AI drafters. submitted by /u/StevGallagh [link] [comments]",
+      "author": "StevGallagh"
+    },
+    {
+      "title": "We built a 3D MMO that runs in the browser, mostly with Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xksx0n/we_built_a_3d_mmo_that_runs_in_the_browser_mostly/",
+      "published": "2026-11-01T03:24:20+00:00",
+      "summary": "We're the devs of Todroth, a 3D sandbox MMO that runs in a desktop browser. We just launched the beta. It's free at https://todroth.com What's in it: real-time combat (directional melee, bows, aimed spells that can miss), open PvP with wanted status and a prison, ships, houses and farms, and about 140 voiced quests. Guilds fight over four forts in weekly sieges, holding one makes your guild leader a lord, and each month the lords choose a King. The King then changes the game for everyone: scrap the taxes, open the toll roads, build or tear down a bridge, burn a forest, set lions loose on a region's roads, or bring us their own idea, which we build if we approve it thanks to the ridiculously fast build times with Claude. It stays until a later King undoes it, so who sits on the throne is worth fighting over. Outside of that you're free to play how you like: trader, pirate, farmer, fisher, builder, an outlaw etc How we worked: - We say what we want, usually with a screenshot, and Claude ",
+      "author": "eagleman234"
+    },
+    {
+      "title": "If you’re letting Claude Code clean up your smart TV, do these things first",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xk8apo/if_youre_letting_claude_code_clean_up_your_smart/",
+      "published": "2026-10-31T11:56:02+00:00",
+      "summary": "Saw a lot of the “gave Claude Code my TV model and it removed 25 bloatware apps” posts last week, and also a few people who bricked their TV doing it. So I put together the safe version of the process. Some stuff that’s easy to skip but really matters: Start in manual mode, not auto. You want to see and approve every adb command before it runs on your TV. claude --permission-mode default Back up before anything. Have Claude save the full package list, which ones are enabled, and which app is the current launcher. That backup is your undo button. Disable, never uninstall. pm disable-user --user 0 <package> switches an app off and pm enable brings it back. Uninstalling system packages is where the bricked TVs come from. Give it a never-touch list. System UI, Settings, HDMI/TV inputs, Bluetooth and remote pairing, package installer and Play Store, and the current launcher until the new one actually works. Disable the stock launcher too early and your Home button lands on a blank screen. O",
+      "author": "vinishkapoor"
+    }
+  ]
+}

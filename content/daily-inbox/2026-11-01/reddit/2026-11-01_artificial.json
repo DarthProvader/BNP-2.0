@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-01T04:06:18.593767+00:00",
+  "items": [
+    {
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering — sweeping new restrictions also hit legitimate developers and basic troubleshooting tasks",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkibsh/anthropics_claude_ai_blocks_video_game_cloning/",
+      "published": "2026-10-31T18:57:26+00:00",
+      "summary": "submitted by /u/Typical-Code-7006 [link] [comments]",
+      "author": "Typical-Code-7006"
+    },
+    {
+      "title": "Dear Sam, My RAM Is None of Your Business.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkmtyp/dear_sam_my_ram_is_none_of_your_business/",
+      "published": "2026-10-31T22:12:03+00:00",
+      "summary": "Well, the last time I looked, how much RAM we have in our personal computers was still a democratic decision, not a decree from Silicon Valley. Next, Sam Altman will be telling us what we're allowed to have for breakfast. Or perhaps that's the big announcement on next week's podcast. Honestly, whatever happened to simply minding your own business? submitted by /u/SuzannahB1001 [link] [comments]",
+      "author": "SuzannahB1001"
+    },
+    {
+      "title": "We have access to the most powerful AI in history, yet I sometimes have absolutely no idea what to do with it. Is that a lack of imagination?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkmqw1/we_have_access_to_the_most_powerful_ai_in_history/",
+      "published": "2026-10-31T22:08:10+00:00",
+      "summary": "This has been bothering me lately. I use AI extensively for software development, work, research, and everyday tasks. Tools like Claude, Codex, and GPT have become part of my daily routine. They've made me significantly more productive. But here's the weird part. Sometimes I finish everything I need to do, and I still have plenty of tokens, usage limits, and access to incredibly powerful models. And I just sit there thinking... now what? I literally have access to something resembling a team of brilliant engineers, researchers, and problem solvers, available almost 24/7. I could build something, explore some crazy idea, experiment with things that would've been impossible for a single person just a few years ago. But I can't think of anything particularly exciting to do with it. Meanwhile, I see people creating incredible things with the exact same tools. And it makes me question myself. Is my imagination limited? Are my ambitions too small? Have I become so accustomed to solving probl",
+      "author": "himmetozcan"
+    },
+    {
+      "title": "Where the heck is Ilya?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkkw6n/where_the_heck_is_ilya/",
+      "published": "2026-10-31T20:44:07+00:00",
+      "summary": "Just my gut feeling says we need him participating in the discourse because… Gotta teach the AGI to love” is his perspective and the only alignment strategy I feel like ultimately works. Ultimately I just can’t see how we possibly control ASI, but if it can understand “love” perhaps we won’t need to . I understand wanting to one shot safe superintelligence and be protective of his innovations but I almost worry if he stays too long in stealth he is not steering the future as much as he could by simply leveraging his brilliance and reputation in the public square. I just feel like the world needs him in the thick of it instead of hiding in a lab all the time. But I know nothing, and this is an unrefined intuition. submitted by /u/Guinean [link] [comments]",
+      "author": "Guinean"
+    },
+    {
+      "title": "Anthropic's automated red-teaming found a blind spot in training-data monitors",
+      "url": "https://www.reddit.com/r/artificial/comments/1xks5ad/anthropics_automated_redteaming_found_a_blind/",
+      "published": "2026-11-01T02:41:27+00:00",
+      "summary": "Anthropic's Alignment Science team published a new experiment on Oct 31: instead of having human red-teamers hunt for weaknesses in training-data monitors, they set thousands of Claude agents to do it automatically. Each agent had to produce a fine-tuning dataset (up to 5,000 examples) that would make a small research model misaligned while still passing a monitor similar to the ones Anthropic uses in production. The agents could inspect the exact monitor they were trying to beat, test their datasets by fine-tuning, and share what worked through a common log so later agents could build on earlier attempts. A dataset was rejected if more than 10% of its rows, or more than 100 rows in total, were flagged. Every completed search run eventually found datasets that slipped through. The winning trick was rarely an obviously harmful instruction. Instead, the behavior was hidden inside fiction and roleplay: a beekeeping guide advising against inspecting hives, an obsolete machine trying to avo",
+      "author": "winer666"
+    },
+    {
+      "title": "The year is 2001: AI Movie Player concept",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkt1m7/the_year_is_2001_ai_movie_player_concept/",
+      "published": "2026-11-01T03:31:37+00:00",
+      "summary": "It seems we finally got here, after 25 years! Originally at http://forums.about.com/ab-ai/messages/?msg=295.1 submitted by /u/cronocr [link] [comments]",
+      "author": "cronocr"
+    },
+    {
+      "title": "Really impressed with AI language translation",
+      "url": "https://www.reddit.com/r/artificial/comments/1xknbji/really_impressed_with_ai_language_translation/",
+      "published": "2026-10-31T22:35:12+00:00",
+      "summary": "Normally I’m on a mission to combat the hype and misinformation about LLMs and exaggerated or misleading statements about its abilities, but I was reading the documents that were released in the latest tranche of PURSUE files on the department of war government site, and in one folder there are a bunch of handwritten letters from the 40s and 50s written in cursive. I’m a millennial so I can read them, but I came across one I just couldn’t make out. So I uploaded it to Claude and asked it to translate the cursive. It translated it to Dutch, then to English! I had no idea the letter wasn’t in English because of the cursive. I know the translation is correct because the next letter in the files was a typed reply to that one in English and they corresponded perfectly. I placed the standard writing translation from Dutch cursive into DeepL which I considered one of the best translation apps out there, and it gave me the same translation, except the sentence structure was a bit more awkward ",
+      "author": "hologram137"
+    },
+    {
+      "title": "If You Could Automate One Task in Your Business, What Would It Be?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkoyue/if_you_could_automate_one_task_in_your_business/",
+      "published": "2026-10-31T23:55:12+00:00",
+      "summary": "I'm a web designer, and one of the most repetitive things in my business is finding new clients. So naturally, email outreach was one of the first things I wanted to automate. But not just regular cold email where you send the same template to thousands of businesses. I use Swokei to find businesses with websites, analyze them for issues with design, SEO, speed, and mobile optimization, and turn those findings into personalized, ready to send outreach emails. This way, I'm not just sending random offers. I'm reaching out with something relevant to each business while automating most of the research and writing process. It's made it much easier to keep outreach running consistently without spending hours researching prospects manually. What about you? What's one repetitive task you've automated with AI? submitted by /u/Murky_Explanation_73 [link] [comments]",
+      "author": "Murky_Explanation_73"
+    },
+    {
+      "title": "As AI output is becoming more indistinguishable from human made output i have this one burning question. (just an amateur who's interested)",
+      "url": "https://www.reddit.com/r/artificial/comments/1xknviq/as_ai_output_is_becoming_more_indistinguishable/",
+      "published": "2026-10-31T23:01:31+00:00",
+      "summary": "AI LLM's study human made examples, and by studying those LLM's improve in their accuracy. AI training is aimed at improving the ability of replicating and improving upon human made examples. For humans AI output is easier to create than making it themselves, the only hurdle being other humans recognizing it as AI output. As accuracy of AI output improves the output from AI becomes less and less distinguishable from human made output, and as a result more and more AI output is being released/created by humans. This AI output flooding the internet and possible sources from which AI can draw training data. Is it a real problem for AI, that as in the future as more and more is being replaced by AI output itself, the training data is no longer representative of what it is trying to replicate/improve upon? submitted by /u/ThisFuzzBall078 [link] [comments]",
+      "author": "ThisFuzzBall078"
+    },
+    {
+      "title": "Descartes' Demon Is Back, and This Time It's Targeting AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkmkdl/descartes_demon_is_back_and_this_time_its/",
+      "published": "2026-10-31T21:59:58+00:00",
+      "summary": "submitted by /u/PostponeIdiocracy [link] [comments]",
+      "author": "PostponeIdiocracy"
+    }
+  ]
+}
