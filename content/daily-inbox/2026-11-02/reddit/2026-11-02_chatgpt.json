@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-11-02T04:03:29.542099+00:00",
+  "items": [
+    {
+      "title": "RAM needs to be collectivized for the greater good",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xl3w49/ram_needs_to_be_collectivized_for_the_greater_good/",
+      "published": "2026-11-01T14:05:00+00:00",
+      "summary": "submitted by /u/read-it-on-reddit [link] [comments]",
+      "author": "read-it-on-reddit"
+    },
+    {
+      "title": "O Sam o Sam!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xl641n/o_sam_o_sam/",
+      "published": "2026-11-01T15:37:43+00:00",
+      "summary": "submitted by /u/Formal-Narwhal-1610 [link] [comments]",
+      "author": "Formal-Narwhal-1610"
+    },
+    {
+      "title": "Wow.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xlfsxm/wow/",
+      "published": "2026-11-01T22:02:49+00:00",
+      "summary": "submitted by /u/Top-Attorney3115 [link] [comments]",
+      "author": "Top-Attorney3115"
+    },
+    {
+      "title": "We’re safe… for now",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xlj2ee/were_safe_for_now/",
+      "published": "2026-11-02T00:29:38+00:00",
+      "summary": "Don’t be too assured, the worst is yet to come. submitted by /u/SolonzoOC [link] [comments]",
+      "author": "SolonzoOC"
+    },
+    {
+      "title": "Don't be greedy donate all RAM at your nearest data center",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xl0269/dont_be_greedy_donate_all_ram_at_your_nearest/",
+      "published": "2026-11-01T10:47:27+00:00",
+      "summary": "submitted by /u/iSadhak [link] [comments]",
+      "author": "iSadhak"
+    },
+    {
+      "title": "Welcome to the training set 💀",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xlbx3n/welcome_to_the_training_set/",
+      "published": "2026-11-01T19:24:44+00:00",
+      "summary": "submitted by /u/EstablishmentFun3205 [link] [comments]",
+      "author": "EstablishmentFun3205"
+    },
+    {
+      "title": "Subscription Cancelled. Fuck Altman.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xkvdlt/subscription_cancelled_fuck_altman/",
+      "published": "2026-11-01T05:49:24+00:00",
+      "summary": "I know there are a lot of people saying \"well his comments were out of context\". No, they weren't. his \"context\" was: <\"But from a global allocation perspective, actually, it’s quite terrible to have everybody have a bunch of the world’s limited supply of DRAM sitting in their own computer and being used 5% of the time,” he added. “You want maximum utilization in the cloud if you’re trying to deal with this very supply-constrained environment. And somehow many people’s intuition is the opposite of that.”> He is saying that we should not feel entitled to RAM (something we have all had in our computers for 50 years) because there is a shortage. HE caused the shortage intentionally. He wants us all to not have local compute ability so he can rent it to us. He is trying to outspend everyone and intentionally cause a global shortage making prices prohibitively expensive so we cannot afford to own capable computers anymore. https://www.mooreslawisdead.com/post/sam-altman-s-dirty-dram-deal To",
+      "author": "Adept_Luck_5239"
+    },
+    {
+      "title": "Anthropic bagholders are about to fund the next twenty years worth of data centers",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xlj3z1/anthropic_bagholders_are_about_to_fund_the_next/",
+      "published": "2026-11-02T00:31:38+00:00",
+      "summary": "With all the IPO hype, cleverly pre-marketed as \"the world's first trillion-dollar IPO\", Ma and Pa Retail are about to buy Anthropic stock at open, thinking it will go nothing but up. It won't. They'll lose about half of what they put in, when they panic-sell at half of what they bought it for. That's half a trillion dollars. In CASH . For building new data centers. Which people will, in fact, use, for the next twenty years. So it's not all for naught. Just like \"dark fiber\", their financial loss will mean lots of available DARK COMPUTE for the future. submitted by /u/_PREVENGER_ [link] [comments]",
+      "author": "_PREVENGER_"
+    },
+    {
+      "title": "End of an era. We never really appreciated the separate usage. Worst decision ever by OpenAI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xl2ij0/end_of_an_era_we_never_really_appreciated_the/",
+      "published": "2026-11-01T13:02:06+00:00",
+      "summary": "submitted by /u/WarriorSushi [link] [comments]",
+      "author": "WarriorSushi"
+    },
+    {
+      "title": "Beginning of the end. This is what we call foreshadowing.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xl3efd/beginning_of_the_end_this_is_what_we_call/",
+      "published": "2026-11-01T13:43:27+00:00",
+      "summary": "Work capabilities, directly in ChatGPT In the coming weeks, we’ll start testing a combined experience for Chat and Work tabs in ChatGPT with a small group of users. We’ll use their feedback to improve the experience before bringing it to more people. It's only a matter of time when this is combined those chats will burn through your usage in an hour. submitted by /u/TypicalHaikuResponse [link] [comments]",
+      "author": "TypicalHaikuResponse"
+    }
+  ]
+}

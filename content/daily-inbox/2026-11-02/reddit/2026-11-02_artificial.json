@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-02T04:05:12.067717+00:00",
+  "items": [
+    {
+      "title": "Grok Bot users ran out of a week’s usage overnight, and Elon Musk says the agent was costing too much",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlfd9v/grok_bot_users_ran_out_of_a_weeks_usage_overnight/",
+      "published": "2026-11-01T21:44:18+00:00",
+      "summary": "975845th reason why I'd never use Grok... submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Trump’s achilles heel is turning his own voters against him",
+      "url": "https://www.reddit.com/r/artificial/comments/1xl4wds/trumps_achilles_heel_is_turning_his_own_voters/",
+      "published": "2026-11-01T14:48:18+00:00",
+      "summary": "submitted by /u/theipaper [link] [comments]",
+      "author": "theipaper"
+    },
+    {
+      "title": "OpenAI is now capping how many paid ChatGPT accounts you can have per device and payment card",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlfdof/openai_is_now_capping_how_many_paid_chatgpt/",
+      "published": "2026-11-01T21:44:45+00:00",
+      "summary": "submitted by /u/Alone-Dragonfruit602 [link] [comments]",
+      "author": "Alone-Dragonfruit602"
+    },
+    {
+      "title": "Like AI, we have had access to great computing power, all types of open and closed source softwares for decades. Still most people aren't even using Excel fully. AI is capable but most people won't use it as well for most use cases",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlah5b/like_ai_we_have_had_access_to_great_computing/",
+      "published": "2026-11-01T18:27:56+00:00",
+      "summary": "In this way AI is very overrated. 99% of even office users are basic excel users. We have had open source databases, rbdms, Hadoop and what not. Frankly most people don't even need AI submitted by /u/Inner-Schedule8998 [link] [comments]",
+      "author": "Inner-Schedule8998"
+    },
+    {
+      "title": "DeepSeek open-sources a super-agent coding prototype: one Router, many Workers, minimal human attention",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlc9ye/deepseek_opensources_a_superagent_coding/",
+      "published": "2026-11-01T19:38:51+00:00",
+      "summary": "On October 31, the DeepSeek Harness team published a design essay, Exploring Super-agent Design: Towards a More Autonomous Agent System, alongside an MIT-licensed research prototype called dsh-superagent-prototype. The idea is not a new foundation model. It is orchestration around existing model-powered tools, built for one GitHub repository. A persistent Router session handles incoming conversations and dispatch decisions, but does not do the work itself. Each accepted work item gets its own Worker session and directory, so tasks run in parallel without sharing context. The prototype listens to GitHub events, and optionally to Feishu messages, and returns results in the original conversation, often as a pull request. A local web panel lists only the decisions that need a human. The stated philosophy is blunt: take as little human attention as possible, and give as much value as possible. The agent is supposed to confirm once, stay quiet while working, and speak again only with a resul",
+      "author": "winer666"
+    },
+    {
+      "title": "‘If it wasn’t for ChatGPT my brother would still be alive’: inside OpenAI’s safety unit",
+      "url": "https://www.reddit.com/r/artificial/comments/1xkzv9y/if_it_wasnt_for_chatgpt_my_brother_would_still_be/",
+      "published": "2026-11-01T10:35:40+00:00",
+      "summary": "An Observer investigation reveals how OpenAI’s race for dominance has compromised user safety, with conversational AI linked to psychiatric crises and violence submitted by /u/TheObserverUK [link] [comments]",
+      "author": "TheObserverUK"
+    },
+    {
+      "title": "Feds find small businesses that use AI are more likely to hire",
+      "url": "https://www.reddit.com/r/artificial/comments/1xli21l/feds_find_small_businesses_that_use_ai_are_more/",
+      "published": "2026-11-01T23:43:03+00:00",
+      "summary": "submitted by /u/killboy123 [link] [comments]",
+      "author": "killboy123"
+    },
+    {
+      "title": "X/Twitter makes AI dev look effortless, but I keep burning tokens on unfinished projects. How are you actually shipping full apps?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xl815r/xtwitter_makes_ai_dev_look_effortless_but_i_keep/",
+      "published": "2026-11-01T16:53:42+00:00",
+      "summary": "Hey everyone, I need a real sanity-check on my workflow, because I feel like I'm being scammed. 😅 To get some contacts every single day on X, Insta, and TikTok, I see people posting demo videos of insanely cool, bespoke software, sleek data visualizations, and full-stack side projects they supposedly \"built in 2 hours completely with AI.\" It makes me hyped and really optimistic for the future, and for tech as a whole. Howevr when I actually sit down to build anything beyond a MVP or lightweight component, I hit an invisible wall or something…. Ok if I had to break it down, I’ll first get honey potted, or stuck in the honeymoon phase. I’ll start building with Claude and/or Codex (depending on the project but at this point they’re pretty much the same). I’ll go through the steps of setting up the scaffold, initial architecture, and base feature set goes insanely fast. Then boom at some point I’ll hit a wall; or like a 80/20 trap, I’ll try pushing the project into a complete, polished, en",
+      "author": "NoPower5561"
+    },
+    {
+      "title": "Working on a research framework for intelligence beyond infrastructure and looking for honest feedback",
+      "url": "https://www.reddit.com/r/artificial/comments/1xl59a7/working_on_a_research_framework_for_intelligence/",
+      "published": "2026-11-01T15:03:07+00:00",
+      "summary": "I have been working on a research project called Organic Intelligence Protocol, or OIP. The idea started with a question I kept coming back to. Are we evaluating intelligence fairly when access to infrastructure and resources can influence how capable a system appears to be? OIP is my attempt to explore that question through concepts such as infrastructure independence, grounded feedback, and adaptive moral logic. Over the past few months, I have been documenting the framework, reviewing its mathematical definitions, and auditing its use with four datasets from Bangladesh, Malawi, Uganda, and Ethiopia. The results have been more useful for identifying limitations than for making big claims. The audits did not establish enough evidence to authorize the constructs for further empirical evaluation. Some definitions still need clearer measurement rules, and a variable that looks relevant on paper cannot automatically be treated as a valid measurement. That has changed how I approach the pr",
+      "author": "zerovariance36"
+    },
+    {
+      "title": "How's your grammar while prompting?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xl28yd/hows_your_grammar_while_prompting/",
+      "published": "2026-11-01T12:49:28+00:00",
+      "summary": "I feel like my grammar is awful whenever I write a prompt. It's as if I’ve forgotten everything I learned in school and just type away with terrible grammar, mixing up singular and plural, using the wrong articles, and so on. Am I the only one? Mind you, I'm trilingual, so that might be a factor. submitted by /u/AngryPCLobby [link] [comments]",
+      "author": "AngryPCLobby"
+    }
+  ]
+}
