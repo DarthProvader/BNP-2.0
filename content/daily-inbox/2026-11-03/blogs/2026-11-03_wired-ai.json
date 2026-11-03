@@ -1,0 +1,27 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-11-03T04:01:13.972556+00:00",
+  "items": [
+    {
+      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
+      "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+      "published": "2026-11-02T11:00:00+00:00",
+      "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
+      "author": "David Nield"
+    },
+    {
+      "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "published": "2026-11-02T09:00:00+00:00",
+      "summary": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video.",
+      "author": "Matt Burgess"
+    }
+  ]
+}

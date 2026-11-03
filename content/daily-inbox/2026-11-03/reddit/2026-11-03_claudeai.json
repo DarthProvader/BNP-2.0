@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-03T04:04:59.601385+00:00",
+  "items": [
+    {
+      "title": "Anthropic confirms new Claude Code limits to prevent game cloning",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm5vdp/anthropic_confirms_new_claude_code_limits_to/",
+      "published": "2026-11-02T18:51:30+00:00",
+      "summary": "> As far as we can ascertain, it appears the game-related blocking is limited to the combination of using Claude Code and the Opus 5.5 model. Should that prove true, then users should be able to sidestep the limitation by calling upon Opus using another harness like Ollama or forwarding specific requests through a wrapper of some sort. Is anyone using another harness, forwarding specific requests through a rapper, or using a different model to build their games? Anyone blocked from making games even though they aren't direct clones? submitted by /u/fsharpman [link] [comments]",
+      "author": "fsharpman"
+    },
+    {
+      "title": "Opus 5.5 medium with blender mcp is insane with the right prompting",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmcwbt/opus_55_medium_with_blender_mcp_is_insane_with/",
+      "published": "2026-11-02T23:21:35+00:00",
+      "summary": "I've been experimenting with Opus 5.5 Medium and Blender for a medieval game dev project I'm working on, and the results have been fantastic. I tried using Blender with Claude in the past and wasn't super impressed, but I found the secret is breaking everything down into bite sized tasks with a solid list instead of giving it the whole project at once and having it 70% do things to where I have to have the agent tweak everything constantly. Keeping the agent focused on one task at a time has made a massive difference in output quality for me. submitted by /u/Training_Job_4693 [link] [comments]",
+      "author": "Training_Job_4693"
+    },
+    {
+      "title": "Anthropic's internal AI use, valued at retail prices, now exceeds its employee pay",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm2sej/anthropics_internal_ai_use_valued_at_retail/",
+      "published": "2026-11-02T17:02:44+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "A Solo Developer Built This in 4 Days With Opus 5.5 + Godot. This Is Getting Ridiculous",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmdih0/a_solo_developer_built_this_in_4_days_with_opus/",
+      "published": "2026-11-02T23:47:43+00:00",
+      "summary": "This is a playable horror level inspired by Silent Hill and Fatal Frame, built solo in four days using Opus 5.5, Godot, and AI-generated 3D assets. Team: One solo developer. Background: Experience with 3D and game engines, limited programming knowledge. Time: Four days. Coding: Claude Opus 5.5 through Claude Desktop, using Code mode with Auto enabled. 3D assets: Meshy T2.5 + Blender. Images and textures: Nano Banana. Engine: Godot 4.5.1. Manual code edits: None. Honestly, the process itself was so much fun. I could describe what I wanted in plain text, let Opus work on it, then jump into the scene myself to place and rearrange finished assets. I’d get another idea while exploring the level and start building on it straight away. Seeing something from your imagination become a place you can actually walk around in and play is incredibly satisfying. I started with Pinterest references inspired by Silent Hill and Fatal Frame. Those gave Opus a visual direction, and the environment grew th",
+      "author": "Delicious-Shower8401"
+    },
+    {
+      "title": "Started a hobby project about the Mongol Invasions of Vietnam. Claude helped turn it into a real game",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm7kw7/started_a_hobby_project_about_the_mongol/",
+      "published": "2026-11-02T19:53:45+00:00",
+      "summary": "Vietnamese representation in video games has historically been limited to meme-able farmers that you get to blow up in a tank while blasting CCR (shoutout BF:Vietnam! Also Shoutout AOE2 for being the one exception I can think of) So, even with very little prior experience, I used Claude to change that! For the last few months, I've been working on 100 Bodies in the Grass , a 4 player co-op game where you play as the Vietnamese, defending your village from the Yuan army during the 3rd Mongol Invasion in 1287. Claude was heavily involved in the coding of this game (to the point that I wouldn't have even attempted it without these tools), and today, I've released a free demo on Steam. If you're interested in checking it out: https://store.steampowered.com/app/5357660/100_Bodies_in_the_Grass/ I found Claude to be particularly useful when paired with Godot, given that it's mostly plain text. The ability for Claude Code to test, iterate, and learn/implement Godot's extensive open documentati",
+      "author": "Ok-Pirate5732"
+    },
+    {
+      "title": "Anthropic is now spending more money on its \"AI employees\" than its human employees",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm1rhy/anthropic_is_now_spending_more_money_on_its_ai/",
+      "published": "2026-11-02T16:25:22+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Anthropic Residency: applications open for established technical leaders",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmepls/anthropic_residency_applications_open_for/",
+      "published": "2026-11-03T00:40:26+00:00",
+      "summary": "submitted by /u/mahamara [link] [comments]",
+      "author": "mahamara"
+    },
+    {
+      "title": "Opus 5.5 for code, Opus 4.6 for ideas and brainstorming",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmcdri/opus_55_for_code_opus_46_for_ideas_and/",
+      "published": "2026-11-02T23:00:04+00:00",
+      "summary": "Opus 5.5 is the coding GOAT. No contest. I’m a pure vibe coder and the amount of vibes I have coded with that beast is insane. I love Claude Code. BUT I do a lot of deep knowledge work alongside coding. I’m self employed and use Claude heavily for research, Brainstorming, and working through ideas before I know what they are yet. In conversation, Opus 5.5 has this tendency to lead. Like it already knows where the conversation should go and it’s taking me there efficiently. Which is great when I have a clear task... but no so great when I’m still figuring out the shape of an idea. When I work with Opus 4.6 I feel like it is working alongside me instead of ahead of me. Like a really smart friend who’s interested in what you’re saying and riffing with you rather than optimizing towards a destination. You can think out loud and it stays with the mess instead instead of cleaning it up immediately. I really really hate that this type of collaboration and nuance is getting optimized out and h",
+      "author": "freehippygal"
+    },
+    {
+      "title": "Official Claude Code Extension Compromise: Security Advisory",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmdwop/official_claude_code_extension_compromise/",
+      "published": "2026-11-03T00:03:57+00:00",
+      "summary": "I haven't seen any threads regarding this VSCode extension versions affected: - 2.1.312 or 2.1.313 submitted by /u/dalepo [link] [comments]",
+      "author": "dalepo"
+    },
+    {
+      "title": "Claude's refusal is getting stricter and annoying each day",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlz6m8/claudes_refusal_is_getting_stricter_and_annoying/",
+      "published": "2026-11-02T14:49:18+00:00",
+      "summary": "Is anyone else getting tired of this? My requests worked fine from my Mac. I moved the same thing to a cloud machine and got refused instantly, on the very first request. So I asked the assistant for the obvious workaround: a proxy. It flat out refused. See the screenshot: “I wouldn’t use a proxy, and I won’t build one.” It admits it can’t even confirm there’s a restriction, because the provider doesn’t publish how the limit works. It also admits it hasn’t read the terms. So it’s refusing over a limit it can’t confirm and terms it hasn’t read, and then it warns me I could lose my access. I’m paying for this tool, it’s my account, and I’m the one taking the risk. If I want to make that call, I should be able to. Tell me the risk once and then do the work. Instead I lost time arguing with my own tool and I’m still stuck. The best part is “we go around nothing and find a proper route instead.” Great, except it didn’t give me one. Just a refusal and a nice paragraph about principles. Has a",
+      "author": "proomptengineer"
+    }
+  ]
+}

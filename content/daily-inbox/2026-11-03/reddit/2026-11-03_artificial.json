@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-03T04:05:20.510899+00:00",
+  "items": [
+    {
+      "title": "Almost half of all new Steam games use AI now",
+      "url": "https://www.reddit.com/r/artificial/comments/1xm0tga/almost_half_of_all_new_steam_games_use_ai_now/",
+      "published": "2026-11-02T15:50:53+00:00",
+      "summary": "submitted by /u/ImCalcium [link] [comments]",
+      "author": "ImCalcium"
+    },
+    {
+      "title": "OpenAI lowers funding goals as investors cool on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xm7eyb/openai_lowers_funding_goals_as_investors_cool_on/",
+      "published": "2026-11-02T19:47:27+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    },
+    {
+      "title": "OpenAI says its AI is getting better at doing things humans do, like shopping and meal planning",
+      "url": "https://www.reddit.com/r/artificial/comments/1xm3vf1/openai_says_its_ai_is_getting_better_at_doing/",
+      "published": "2026-11-02T17:41:16+00:00",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "author": "cnn"
+    },
+    {
+      "title": "OpenAI’s quarterly commit growth has exploded this year, rising to 2442% by Q4 2026 relative to Q1 2024",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmfx3a/openais_quarterly_commit_growth_has_exploded_this/",
+      "published": "2026-11-03T01:36:30+00:00",
+      "summary": "https://openai.com/index/scaling-git-at-openai/ submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "How to stop Meta, OpenAI, and Apple from training AI on your data in the UK",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlu9ui/how_to_stop_meta_openai_and_apple_from_training/",
+      "published": "2026-11-02T11:03:37+00:00",
+      "summary": "submitted by /u/HotMinuteUK [link] [comments]",
+      "author": "HotMinuteUK"
+    },
+    {
+      "title": "Apple Intelligence in China will run on Alibaba's Qwen, testing starts Nov 4",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmhyjf/apple_intelligence_in_china_will_run_on_alibabas/",
+      "published": "2026-11-03T03:12:26+00:00",
+      "summary": "Apple's China Newsroom said on Oct 31 that Apple Intelligence will begin testing on November 4 via the iOS developer Beta and ship to Chinese users in December with iOS 27.3. The China rollout integrates Alibaba's Qwen model. Apple Intelligence was first unveiled at WWDC in June 2024, so Chinese iPhone users have waited about two and a half years. submitted by /u/bestvicam [link] [comments]",
+      "author": "bestvicam"
+    },
+    {
+      "title": "Designers, how do you... work?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmf7dx/designers_how_do_you_work/",
+      "published": "2026-11-03T01:03:13+00:00",
+      "summary": "I'm asking because, as a software engineer, I never thought about how things looked. I just wanted them to work. Now with AI, it seems like the most important thing actually is how things look, because the \"making it work\" part is increasingly handled by AI. (I know, not 100%, you still need to understand systems, yada yada.) But I've noticed that everything I'm searching for lately is design skills and prompts to make AI output look less like AI. Granted, people outside the AI bubble are still amazed by the most basic AI slop design, which makes me want to 🔫 myself. But still, it made me wonder. Okay, so it's taste. But how do you guarantee taste? What makes someone a good designer or artist? I've never really done art, but I think I have a creative side. I love music and pay close attention to lyrics: what feeling they give me, what scenarios and visuals I imagine that fit that feeling. But that's just me narrating my thoughts. I don't feel like I can turn it into anything artistic. ",
+      "author": "MoudieQaha"
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China in December, powered by Alibaba's Qwen instead of ChatGPT",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmf3on/apple_intelligence_is_finally_coming_to_china_in/",
+      "published": "2026-11-03T00:58:43+00:00",
+      "summary": "Apple confirmed on October 31 that Apple Intelligence will come to iPhones in mainland China in December with iOS 27.3, with testing starting in the iOS developer beta on November 4. The notable part is the model swap: instead of ChatGPT, Siri, Writing Tools and Visual Intelligence in China will be able to call on Alibaba's Qwen for text and image understanding and content generation. Alibaba says user requests and generated responses will not be used for model training, and participation is opt-in. Eligibility covers iPhone 15 Pro and later models (plus iPhone Air and iPhone Duo) for users whose device was bought in China or whose device location and Apple Account region are both set to China. It is also a partial launch: Apple says it does not include the new Siri AI or the other next-generation features announced at WWDC 2026. Discussion: Apple waited about two years to bring its AI features to China, and the way in was a local model partner rather than its global one. Do you think ",
+      "author": "winer666"
+    },
+    {
+      "title": "I made ChatGPT, Claude, Gemini, etc. into FREE text-to-speech sites.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmim57/i_made_chatgpt_claude_gemini_etc_into_free/",
+      "published": "2026-11-03T03:44:47+00:00",
+      "summary": "Nowadays, all popular ai chatting websites like qwen, chatgpt, gemini, claude, etc. come with a read aloud functionality that allows users to read aloud the AI's responses. I used that feature to instead make the AI repeat back the text that i gave it -- effectively turning the platforms into text to speech tools. It's simple but it's worked for over 30k users, and the voices sound really nice and it's free to use! You can get all of these extensions by visiting ai-readers.com submitted by /u/Cool-Hornet-8191 [link] [comments]",
+      "author": "Cool-Hornet-8191"
+    },
+    {
+      "title": "Are We Measuring AI Intelligence, or Just the Infrastructure Behind It?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmhgs4/are_we_measuring_ai_intelligence_or_just_the/",
+      "published": "2026-11-03T02:49:29+00:00",
+      "summary": "We often measure AI intelligence through speed, computing power, data, and overall performance. But are these measures telling us how intelligent a system really is? How much of an AI system's performance comes from its own capabilities, and how much depends on the infrastructure supporting it? Consider an AI system operating with stable electricity, cloud access, and continuous internet connectivity. It performs well under these conditions. But what happens when some of that infrastructure becomes unavailable? Can it still adapt, learn from real-world feedback, and make useful decisions? This question led me to develop a research-stage framework called the Organic Intelligence Protocol (OIP). OIP explores three key concepts: Infrastructure Independence: How dependent is a system on external infrastructure? Grounded Feedback Loop: Can a system improve its decisions through real-world outcomes? Adaptive Moral Logic: Can a system prioritize life-preserving and system-stabilizing outcomes",
+      "author": "zerovariance36"
+    }
+  ]
+}

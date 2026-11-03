@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-11-03T04:01:02.877996+00:00",
+  "items": [
+    {
+      "title": "Největší kryptokrádež historie💰 Neuralink míří k telepatii a Apple představil dotykový MacBook",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/Nejvt-kryptokrde-historie-Neuralink-m-k-telepatii-a-Apple-pedstavil-dotykov-MacBook-e3rjgm8",
+      "published": "2026-11-02T13:00:01+00:00",
+      "summary": "V novém díle řešíme obří kryptokrádež za miliardy dolarů a to, proč se svět cybersecurity s nástupem AI začíná měnit brutální rychlostí. Zero-day chyby, social engineering, agenti s přístupem k účtům a otázka, jestli bychom měli počítat s tím, že prakticky cokoliv online může jednou uniknout.K tomu debata o tom, co se stane s prací a příjmy ve světě AI, Anthropic a jeho public benefit fund, AI ve vzdělávání a agenti, kteří postupně přebírají další části našeho digitálního života.Apple mezitím představil MacBook s dotykovým displejem, větší integraci AI přes MCP a další krok směrem k propojení zařízení. A na závěr Neuralink, telepatie a technologie, která by podle Elona Muska mohla jednou umožnit vidět i lidem, kteří se narodili slepí 🤯00:00 Úvod1:00 iPhone Duo6:54 Jarmil na FF Summitu?9:00 Binance hack13:29 PHP zero-day zranitelnost15:45 Cybersecurity v době AI agentů28:04 Bobův telefonát s Lubem32:54 Universal Basic Income - peníze pro všechny?49:02 AI manifesto CTO Protonu52:15 AI ve",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

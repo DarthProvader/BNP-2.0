@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-11-03T04:06:11.518548+00:00",
+  "items": [
+    {
+      "title": "The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading",
+      "url": "https://www.reddit.com/r/technology/comments/1xm9jey/the_intel_stock_collapse_is_getting_worse_and_the/",
+      "published": "2026-11-02T21:07:07+00:00",
+      "summary": "submitted by /u/Broadband- [link] [comments]",
+      "author": "Broadband-"
+    },
+    {
+      "title": "Anthropic's colossal pay packages cost the company more than $100,000 a month per employee",
+      "url": "https://www.reddit.com/r/technology/comments/1xmcpr7/anthropics_colossal_pay_packages_cost_the_company/",
+      "published": "2026-11-02T23:13:59+00:00",
+      "summary": "submitted by /u/Logical_Welder3467 [link] [comments]",
+      "author": "Logical_Welder3467"
+    },
+    {
+      "title": "The Number Of Innocent People Being Accused of Shoplifting by Faulty AI-Facial Recognition Systems Is Alarming",
+      "url": "https://www.reddit.com/r/technology/comments/1xmbuoh/the_number_of_innocent_people_being_accused_of/",
+      "published": "2026-11-02T22:37:45+00:00",
+      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "author": "IKeepItLayingAround"
+    },
+    {
+      "title": "Disney Plans Thousands of Layoffs, Targeting 20% Cost Savings",
+      "url": "https://www.reddit.com/r/technology/comments/1xmfwop/disney_plans_thousands_of_layoffs_targeting_20/",
+      "published": "2026-11-03T01:35:59+00:00",
+      "summary": "submitted by /u/joe4942 [link] [comments]",
+      "author": "joe4942"
+    },
+    {
+      "title": "Proton Mail goes full AI slop, Tuta starts going AI slop",
+      "url": "https://www.reddit.com/r/technology/comments/1xm6tf2/proton_mail_goes_full_ai_slop_tuta_starts_going/",
+      "published": "2026-11-02T19:25:39+00:00",
+      "summary": "submitted by /u/SkankHuntThreeFiddy [link] [comments]",
+      "author": "SkankHuntThreeFiddy"
+    },
+    {
+      "title": "Anthropic confirms new Claude Code limits to prevent game cloning — users report Opus 5.5 is also actively blocking reverse engineering tasks",
+      "url": "https://www.reddit.com/r/technology/comments/1xlwaqx/anthropic_confirms_new_claude_code_limits_to/",
+      "published": "2026-11-02T12:49:42+00:00",
+      "summary": "submitted by /u/Hi_all_hwru [link] [comments]",
+      "author": "Hi_all_hwru"
+    },
+    {
+      "title": "Supermarket freezers across Europe struck in second crippling cyberattack — hackers raise temperatures to 50 degrees Celsius in Belgium and Sweden, destroying food stocks",
+      "url": "https://www.reddit.com/r/technology/comments/1xlu8t2/supermarket_freezers_across_europe_struck_in/",
+      "published": "2026-11-02T11:01:58+00:00",
+      "summary": "submitted by /u/Hi_all_hwru [link] [comments]",
+      "author": "Hi_all_hwru"
+    },
+    {
+      "title": "Anthropic's internal AI use, valued at retail prices, now exceeds its employee pay",
+      "url": "https://www.reddit.com/r/technology/comments/1xm178q/anthropics_internal_ai_use_valued_at_retail/",
+      "published": "2026-11-02T16:04:45+00:00",
+      "summary": "submitted by /u/Malor777 [link] [comments]",
+      "author": "Malor777"
+    },
+    {
+      "title": "No Bailouts, Just Confiscations: Nationalize The Artificial Intelligence Companies",
+      "url": "https://www.reddit.com/r/technology/comments/1xm8ro9/no_bailouts_just_confiscations_nationalize_the/",
+      "published": "2026-11-02T20:37:25+00:00",
+      "summary": "submitted by /u/Gari_305 [link] [comments]",
+      "author": "Gari_305"
+    },
+    {
+      "title": "'America hates data centers,' new database reveals more than 90% of 10,000 public comments are negative, only 21% mention AI — 73% of meetings had no data center supporters, water is the number one concern",
+      "url": "https://www.reddit.com/r/technology/comments/1xm04g7/america_hates_data_centers_new_database_reveals/",
+      "published": "2026-11-02T15:24:44+00:00",
+      "summary": "submitted by /u/MarvelsGrantMan136 [link] [comments]",
+      "author": "MarvelsGrantMan136"
+    }
+  ]
+}

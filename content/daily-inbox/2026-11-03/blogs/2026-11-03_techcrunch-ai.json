@@ -1,0 +1,97 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-11-03T04:01:07.404723+00:00",
+  "items": [
+    {
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "published": "2026-11-03T02:30:00+00:00",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "author": "Jagmeet Singh"
+    },
+    {
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "published": "2026-11-03T00:49:52+00:00",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+      "author": "Lucas Ropek"
+    },
+    {
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "published": "2026-11-02T23:35:52+00:00",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "published": "2026-11-02T22:13:53+00:00",
+      "summary": "The one-year-old startup is now valued at $300 million.",
+      "author": "Marina Temkin"
+    },
+    {
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "published": "2026-11-02T21:14:50+00:00",
+      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "published": "2026-11-02T18:25:59+00:00",
+      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+      "author": "Lucas Ropek"
+    },
+    {
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "published": "2026-11-02T18:19:17+00:00",
+      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "published": "2026-11-02T15:30:00+00:00",
+      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "author": "Ram Iyer"
+    },
+    {
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "published": "2026-11-02T15:23:21+00:00",
+      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "author": "Amanda Silberling"
+    },
+    {
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "published": "2026-11-02T14:00:00+00:00",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "author": "Tim Fernholz"
+    },
+    {
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "published": "2026-11-02T13:00:00+00:00",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "author": "TechCrunch Events"
+    },
+    {
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "published": "2026-11-02T12:57:53+00:00",
+      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "author": "Ivan Mehta"
+    }
+  ]
+}

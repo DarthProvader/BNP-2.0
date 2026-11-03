@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-03T04:02:17.092559+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 02, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm14j5/rsingularity_daily_discussion_thread_november_02/",
+      "published": "2026-11-02T16:02:01+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "MIT researchers say GPT-6 Astra improved a small Qwen model’s math score from 7.9% to 48.1% by directly editing just 0.016% of its weights, without gradient-based training.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm89o3/mit_researchers_say_gpt6_astra_improved_a_small/",
+      "published": "2026-11-02T20:18:42+00:00",
+      "summary": "submitted by /u/troll_khan [link] [comments]",
+      "author": "troll_khan"
+    },
+    {
+      "title": "Sam Altman: \"At the start of this year, AI was mostly not as smart as our smartest scientists, and now it's mostly smarter than them.\" He also says AI can now perform large parts of white-collar jobs that were beyond its capabilities earlier this year.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm44jm/sam_altman_at_the_start_of_this_year_ai_was/",
+      "published": "2026-11-02T17:50:33+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Seems weight space programming is an emergent capability on new fronteir models",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmesfd/seems_weight_space_programming_is_an_emergent/",
+      "published": "2026-11-03T00:44:10+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "\"When we proved the first Millenium Prize problem, it was 10000 agents of the model that is gonna be released soon, the next GPT, working for about 4 days\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1xlyml4/when_we_proved_the_first_millenium_prize_problem/",
+      "published": "2026-11-02T14:27:10+00:00",
+      "summary": "https://www.youtube.com/watch?v=2YWfVGpVtvc&t=332s submitted by /u/ilkamoi [link] [comments]",
+      "author": "ilkamoi"
+    },
+    {
+      "title": "If AI replaces nearly all jobs and we’re all living off UBI, how is anyone supposed to improve their financial situation?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm89fn/if_ai_replaces_nearly_all_jobs_and_were_all/",
+      "published": "2026-11-02T20:18:28+00:00",
+      "summary": "Something I’ve been thinking about with all the talk about AI replacing jobs and eventually creating some kind of post-work society. Let’s say AI and robotics eventually automate 90-99% of jobs. Most people are no longer employed, the government provides everyone with UBI, and the massive efficiency gains make everyday goods and services incredibly cheap. Sounds great on paper, but what happens to everything that AI can’t make abundant? I’m talking about beachfront property, desirable real estate, rare cars, fine art, luxury goods, and anything else that has a finite supply. There are only so many houses overlooking the ocean, so many rare Ferraris, and so many desirable places to live. If everyone suddenly has more disposable income to spend and free time, wouldn’t demand for these things explode? What stops people from hoarding them or driving prices through the roof? And here’s my bigger issue with the whole concept. At least in today’s economy, there are opportunities to improve yo",
+      "author": "miquiztli8"
+    },
+    {
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm5oy9/sparks_of_weightspace_programming_llms_can/",
+      "published": "2026-11-02T18:45:06+00:00",
+      "summary": "You read it right: Astra was asked to edit Qwen3.5-0.8B weights to improve math. It directly changed only 0.016% of weights, fixing 0.8B's reasoning loops & improving math up to 6x and even instruction following 3x, without gradients or training. Next step: Models that can edit themselves. submitted by /u/Pyros-SD-Models [link] [comments]",
+      "author": "Pyros-SD-Models"
+    },
+    {
+      "title": "Monthly Construction Spending on Data Centers Now More Than Twice as High as General Offices",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmbqfd/monthly_construction_spending_on_data_centers_now/",
+      "published": "2026-11-02T22:32:45+00:00",
+      "summary": "Late last year, many of you may recall that the total monthly construction spending on data centers was higher than that of regular offices for the first time. In the Federal Construction Spending Report released today, it has been revealed that data center spending is now at $96.462B, vs office's $45.964B, which is 2.09 times higher. A fun fact: I have been following this every month since data centers first passed offices, and almost every time, they revise the data center spending of the previous month to be a little higher (not unexpected, construction projects ALWAYS run overbudget). It is also important to note that, in my experience, construction activity usually peaks in the summer. The first graph is for the past 5 years and the second is for the past 15 years. Data is provided by the US Census . Graphs were developed by GPT 5.6 (I forgot to change the model). Just in case you wanted one more exponential! submitted by /u/BigBourgeoisie [link] [comments]",
+      "author": "BigBourgeoisie"
+    },
+    {
+      "title": "Anthropic warns in new SEC filing that its future models may \"imminently\" reach the threshold for AI-driven research doubling the pace of AI progress—and admits it may not detect the acceleration until after it happens.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm2ilx/anthropic_warns_in_new_sec_filing_that_its_future/",
+      "published": "2026-11-02T16:53:01+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "How october ended!",
+      "url": "https://www.reddit.com/r/singularity/comments/1xm444u/how_october_ended/",
+      "published": "2026-11-02T17:50:08+00:00",
+      "summary": "submitted by /u/Immediate_Simple_217 [link] [comments]",
+      "author": "Immediate_Simple_217"
+    }
+  ]
+}
