@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-04T04:05:59.489601+00:00",
+  "items": [
+    {
+      "title": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
+      "published": "2026-11-03T21:54:03+00:00",
+      "summary": "Prompt : \"Make me a 3D website that's a kind of video game, with an infinite procedural terrain and a camera that keeps moving forward through it forever. The terrain should be full of stuff and objects, look beautiful with shaders and all, be stylish and scroll on forever.\" Fresh conversation every time, no manual edits, only oneshots, each version captured in real time in Chrome. Fun fact: Sonnet 5.5's version actually ships with a shader bug (trees don't render), I left it as-is. Also the graph below is just the model number not anything else ▎ Music: \"Raving Energy\" by Kevin MacLeod, CC BY 4.0. submitted by /u/Reasonable_Day_9300 [link] [comments]",
+      "author": "Reasonable_Day_9300"
+    },
+    {
+      "title": "Nobody else seems to have as hard of a time with Claude as I do. I just want to understand why Claude hates me.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmzcjz/nobody_else_seems_to_have_as_hard_of_a_time_with/",
+      "published": "2026-11-03T17:32:58+00:00",
+      "summary": "submitted by /u/takenorinvalid [link] [comments]",
+      "author": "takenorinvalid"
+    },
+    {
+      "title": "From a notebook sketch to an animated Godot boss — 3D AI + Opus 5.5",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn7jti/from_a_notebook_sketch_to_an_animated_godot_boss/",
+      "published": "2026-11-03T22:40:11+00:00",
+      "summary": "After my first post about After the Wind , I stayed in touch with the developer and asked how he makes his characters. He shared the process behind this penguin boss, from two notebook sketches to a rigged character with 22 animations . The stack Claude Opus 5.5 + Blender — rigging, weight painting and animation. Tripo P2 — 3D model generation and texturing. Godot — gameplay integration and the jiggle shader. 1. Sketches and references The character started as two pencil doodles. He explored body shapes and tested the wings folded against the belly and extended during an attack, then prepared front and side references for 3D. 2. Model and textures He generated four options at a time in Tripo P2. The first 5k quad mesh didn’t work well for this creature, so he switched to 25k triangles and textured that mesh directly in Tripo. 3. Rigging with Opus 5.5 Working with Claude in Blender, he built a rig with 58 bones , including one for each flight feather, 12 per wing . The feathers can fan ",
+      "author": "Delicious-Shower8401"
+    },
+    {
+      "title": "Anthropic Blocking Reverse Engineer Anything",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn2iq3/anthropic_blocking_reverse_engineer_anything/",
+      "published": "2026-11-03T19:26:57+00:00",
+      "summary": "Anthropic quietly injected specific instructions into its system prompt bundle. The updated rule explicitly commands the AI: \"Do build original games, games in a genre, and games from the user's own designs and assets. Don't build a recreation of a specific existing game, even if it is renamed or called original.\" Its time. Devs should not be scared of demoing apps in fear people will just feed them into AI to create a free copy. submitted by /u/tradelydev [link] [comments]",
+      "author": "tradelydev"
+    },
+    {
+      "title": "I gave Claude ~700 ransomware encrypted files. It told me upfront it couldn't decrypt them, then got two thirds of them usable again",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn6tu3/i_gave_claude_700_ransomware_encrypted_files_it/",
+      "published": "2026-11-03T22:10:39+00:00",
+      "summary": "The most interesting thing I've done with Claude, so sharing how it went. Background: ransomware encrypted my files back in 2019. I kept them for seven years, hoping something would eventually be able to open them. What stood out about how it worked: - It was honest from the start. The first answer was: no decryption, per-file AES keys under RSA, forget it. Then it looked for another way in. - Found the weak spot itself. It compared the encrypted files with a few unencrypted copies I had and saw that only the first 16 KB of each file is encrypted. - Built a real tool, not a one-off script. A module per format (JPEG, PNG, PSD, Excel, PDF, MP4...), re-run over all the files after each improvement. The last round alone brought back about 100 more files. - Decided on its own to train a model. The web pictures came back without light and color, and it concluded better formulas wouldn't fix that. So it trained a U-Net on my RTX 4070, using intact photos damaged the same way. Color errors dro",
+      "author": "Rare-Protection4270"
+    },
+    {
+      "title": "The Binance theft started as a coding assignment. I’ve been sent the same kind of repo all year. All were exploits.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn3cr5/the_binance_theft_started_as_a_coding_assignment/",
+      "published": "2026-11-03T19:57:15+00:00",
+      "summary": "Binance said this week that the October 29 theft, about $6.3 billion, began months earlier with a fake job. In June a wallet engineer installed a tampered coding tool. Binance caught it, replaced the machine, and rotated credentials. The attacker already knew the rest of the wallet team. In September a second engineer was recruited on a real job site. A video with someone playing HR, then one with the supposed CEO of a company that does not exist. He was told to download a coding assignment onto his work computer. It ran during setup, swapped in a poisoned developer tool, and endpoint security missed it. On October 20 that machine, plus an internal AI tool, reached two other wallet engineers. On October 29 stolen credentials deployed a container and a script, and the wallets moved. The FBI has blamed a North Korean group. Pyongyang has denied it. Binance says customer funds are covered. That step is the interview-repo lure. Since January I have published the ones sent to me, caught bef",
+      "author": "UBUNTU-Buddha"
+    },
+    {
+      "title": "I tried to make Opus 5.5 cheaper with a cheap coding subagent, but It got worse and more expensive",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn0e12/i_tried_to_make_opus_55_cheaper_with_a_cheap/",
+      "published": "2026-11-03T18:10:04+00:00",
+      "summary": "TL;DR: On 12 hard coding tasks, Opus alone solved 81% at $1.20/task. Opus + DeepSeek V4.1 Flash solved 67% at $1.29. I tried 7 team designs (41 setups, ~1,200 runs). None beat Opus alone, and most cost more. Why I did this. Opus is great but expensive. I was looking for one of two things: a team that beats a single model without a big jump in price, or a setup that's much cheaper than Opus and almost as good. So I had Opus plan and review while cheaper models wrote the code. The tasks. I used to build small benchmarks from my own agent sessions, but those tasks turned out too easy. This time I picked 12 hard tasks that look like my daily work, from TB4, DeepSWE, SWE-rebench, SWE-bench Pro V2 and Longtail-SWE. Hidden tests decide pass or fail, and every setup ran each task 3 times. I also went through the runs by hand: fixed broken tests or prompts in 9 tasks, and gave zero to \"solutions\" that just downloaded the real fix from upstream. The chart shows the main setups. The best Opus-led",
+      "author": "Fabulous_Pollution10"
+    },
+    {
+      "title": "Saying the safeguard reason will trigger the safeguard",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn53eb/saying_the_safeguard_reason_will_trigger_the/",
+      "published": "2026-11-03T21:02:40+00:00",
+      "summary": "submitted by /u/julausrie [link] [comments]",
+      "author": "julausrie"
+    },
+    {
+      "title": "What level are you on ?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn7kpk/what_level_are_you_on/",
+      "published": "2026-11-03T22:41:13+00:00",
+      "summary": "I was 2~3 at the beginning of the year but since Fable and Opus 5.5 I'm dangerously approaching level 5 I wrote the text by hand for this meme, Claude did the illustration submitted by /u/Acclynn [link] [comments]",
+      "author": "Acclynn"
+    },
+    {
+      "title": "Got my scanner working",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn4s7b/got_my_scanner_working/",
+      "published": "2026-11-03T20:51:02+00:00",
+      "summary": "I've got an old canoscan lide 30, I think the last driver was for winxp. Claude got it working on windows 11 64 bit in an hour or so. Amazing really that something that I consider really difficult is now becoming trivial. I used to have to virtualbox into an xp install just to scan. This is great, I hope we don't lose this quality of ai in the future. submitted by /u/Wizzard_2025 [link] [comments]",
+      "author": "Wizzard_2025"
+    }
+  ]
+}

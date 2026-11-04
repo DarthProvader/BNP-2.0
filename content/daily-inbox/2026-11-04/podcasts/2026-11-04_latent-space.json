@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-04T04:02:00.158788+00:00",
+  "items": [
+    {
+      "title": "⚡️ The 2026 Software Factory Standard — Zach Lloyd, Warp.dev",
+      "url": "https://www.youtube.com/watch?v=LL0YmIyBKSU",
+      "published": "2026-11-03T19:16:25+00:00",
+      "summary": "Watch the full show on YouTube: https://www.youtube.com/watch?v=LL0YmIyBKSU",
+      "author": "Latent.Space"
+    }
+  ]
+}

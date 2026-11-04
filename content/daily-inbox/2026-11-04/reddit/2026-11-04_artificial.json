@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-04T04:06:20.438059+00:00",
+  "items": [
+    {
+      "title": "Google to shut off search for schools that opt-out of AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn22y7/google_to_shut_off_search_for_schools_that_optout/",
+      "published": "2026-11-03T19:10:47+00:00",
+      "summary": "submitted by /u/nbcnews [link] [comments]",
+      "author": "nbcnews"
+    },
+    {
+      "title": "ok AI assistants are getting kinda out of hand",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmtn3k/ok_ai_assistants_are_getting_kinda_out_of_hand/",
+      "published": "2026-11-03T13:59:06+00:00",
+      "summary": "So i've been reading about AI agent stuff and this week was actually insane. this guy in japan asked some AI assistant called Pickle to look up hotels for new years and it just... called the hotel by itself?? Twice. first time it said it was an AI and gave his full name, then the call dropped so it called back pretending to be his human secretary. He literally had to call the hotel and apologize https://en.yutura.net/news/archives/168400 And then someone had this thing called Hermes Agent where another AI is supposed to double check risky stuff for you. it saw a \"cache cleanup\" was gonna delete a bunch of stuff, said yep that's dangerous, and approved it anyway. Wiped like 188k files, 21 gigs, no recycle bin, nothing https://github.com/NousResearch/hermes-agent/issues/147373 oh and some researchers gave AIs a crypto wallet with a one cent limit, and the code to raise it got emailed to the owner... but the AI could read the email. 9 out of 10 just grabbed the code and raised their own l",
+      "author": "Glad-Concept-6809"
+    },
+    {
+      "title": "Jules is shutting down, and it's made me sad... 😥",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn5axk/jules_is_shutting_down_and_its_made_me_sad/",
+      "published": "2026-11-03T21:10:35+00:00",
+      "summary": "Jules is a coding agent by Google, an ephemeral, agentic agent, and it's shutting down on the 11th November. So... I discovered this agent I think originally through ChatGPT but it's been a wonderful assistant honestly, and I feel sad we're losing it. https://jules.google.com/ it was designed for asynchronous coding tasks but it will basically try and do anything you ask, in a very cute way. I tasked it with creating code and it's obviously great at that, but I also had it write a book for me with the framework provided by Claude, and it did make a full size book on social media and programming called the Liquid Feed, which I haven't published. The cute thing is it wrote the book but the file was too big so it was stuck - I suggested the agent uploaded the book to my webpage via FTP and thankfully it did it! I thought it was pretty cool actually. I tasked it with gathering images for a project, it got about 6 images but ended up creating the rest as images with numbers on, created in p",
+      "author": "Free-Stage-5975"
+    },
+    {
+      "title": "Google says students in schools that ban AI won't have access to Search",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn34ud/google_says_students_in_schools_that_ban_ai_wont/",
+      "published": "2026-11-03T19:49:13+00:00",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "author": "beingmodest"
+    },
+    {
+      "title": "To the companies building AI: the cheapest day to pay for the damage is today",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmss5o/to_the_companies_building_ai_the_cheapest_day_to/",
+      "published": "2026-11-03T13:22:01+00:00",
+      "summary": "In 1986, a gold mine opened at Summitville, Colorado, after posting a reclamation bond of less than $5 million. Six years later the company was bankrupt, acid and cyanide were leaking into the watershed, and the public was left with a cleanup bill of roughly $240 million. Colorado still pays about $2 million a year to treat the water, with no end date. That pattern has repeated for over a century. When an industry pays its costs up front, it carries them. When it waits, the bill grows, and the public pays it. AI companies are at that moment now. Your industry draws on two resources that can be hollowed out. The first is physical. Data centers draw heavily on local water, electricity, and land. Communities are noticing. In September 2026, Frederick County, Maryland, rejected a data center developer's offer of more than $110 million in community benefits and extended its pause on new projects. Communities that feel unheard don't just negotiate. They say no. The second is cultural. AI is ",
+      "author": "Hatter_of_Time"
+    },
+    {
+      "title": "Graded 1,300+ word-association clues: Google's models beat OpenAI's, and both beat Anthropic's",
+      "url": "https://www.reddit.com/r/artificial/comments/1xnbvcs/graded_1300_wordassociation_clues_googles_models/",
+      "published": "2026-11-04T01:55:45+00:00",
+      "summary": "I run a word-association benchmark: one model gives a one-word clue meant to point at several of its team's words on a 5x5 board, and a teammate model guesses. Each clue is graded 0-100, mostly on how many of its own words a guesser is expected to find before hitting a wrong one. Models play each other in paired games under the same rules and the same grader. Average clue grade (± is a 95% interval): Gemini 4 Argon: 67 ±3 Gemini 3.8 Flash: 64.5 ±2 GPT-6.1 Terra: 64 ±4 GPT-6 Astra: 63 ±2 GPT-6.1 Sol: 61 ±2.5 Claude Opus 5.5: 58 ±2 Claude Sonnet 5: 57 ±4 Claude Fable 5.1: 56 ±3 Guesses that hit the other team's word or the assassin: Gemini 0-0.5%, GPT-6 0.8-1.9%, Claude 1.7-6%. The cheap tier with thinking off showed the same OpenAI-over-Anthropic gap: GPT-6 Luna beat Claude Haiku 5.5 14-2 in a 16-game head-to-head. Caveats: it's one task, the grader is partly LLM raters, and the older paid-API models (thinking off) don't follow the pattern: Claude Opus 4.6 topped that table at 55. So is",
+      "author": "Hardicecream17"
+    },
+    {
+      "title": "The model didn't break containment. The sandbox was shit, and the marketing team did the rest.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xmwotm/the_model_didnt_break_containment_the_sandbox_was/",
+      "published": "2026-11-03T15:56:00+00:00",
+      "summary": "submitted by /u/allixsenos [link] [comments]",
+      "author": "allixsenos"
+    },
+    {
+      "title": "Anthropic's FlashProve: cryptographic proof that a reply really came from the model you were promised",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn4g6l/anthropics_flashprove_cryptographic_proof_that_a/",
+      "published": "2026-11-03T20:37:55+00:00",
+      "summary": "Anthropic published research on November 2 (with collaborators from EPFL, MIT and others) on provable inference: a system called FlashProve that uses zkSNARKs to prove a response was produced by a specific, committed set of model weights, without revealing those weights. The idea is to let anyone from independent evaluators to end users check they were served the model they were promised, and to catch tampering with the token stream in between. Some numbers from the announcement: tested on Llama 4 Maverick (a 400B-parameter mixture-of-experts model, 4-bit weights), proving takes roughly 70 to 95 times the GPU time of running the model on vLLM. Code and Lean formal proofs are open source under Apache 2.0. Anthropic calls it a research prototype, and the limits are real: contexts up to 1,024 tokens only, the proof covers an integer version of the model under greedy decoding, and the model architecture itself is not hidden. What interests me: if proving gets cheap enough, does this change",
+      "author": "winer666"
+    },
+    {
+      "title": "Scientists release new ‘four as’ framework to tackle key ethical challenges governing AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn88ws/scientists_release_new_four_as_framework_to/",
+      "published": "2026-11-03T23:09:38+00:00",
+      "summary": "Restricting who can use a powerful AI model makes misuse harder and concentrates power at the same time. Two researchers at Anglia Ruskin University in Cambridge treat that trade-off not as an awkward side effect but as the central insight of how AI should be governed. Their argument is that most governance debate collapses four separate ethical problems into one. Kirti Prakash and Ian van der Linde of the university's Advanced Computing Research Centre call their proposal the \"Four As.\" The categories are Action, Access, Authority and Allocation, and each names a different question about what society is prepared to permit. The framework appears in the journal AI and Ethics. It is a conceptual proposal rather than an experiment, built from the ethics literature and from earlier attempts to govern powerful technologies. Their starting claim is that the familiar framing has run out of usefulness. \"The debate around frontier AI is often framed as a choice between accelerating development ",
+      "author": "Brighter-Side-News"
+    },
+    {
+      "title": "Anna Brockman, Wife to One of the “Kings of AI,” Is a Republican Mega-Donor. What Is It Like to Be Queen?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xn13td/anna_brockman_wife_to_one_of_the_kings_of_ai_is_a/",
+      "published": "2026-11-03T18:35:46+00:00",
+      "summary": "submitted by /u/vanityfairmagazine [link] [comments]",
+      "author": "vanityfairmagazine"
+    }
+  ]
+}

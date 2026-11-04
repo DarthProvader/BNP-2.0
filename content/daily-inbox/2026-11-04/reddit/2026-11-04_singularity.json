@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-04T04:03:16.302248+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 03, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmwur0/rsingularity_daily_discussion_thread_november_03/",
+      "published": "2026-11-03T16:01:57+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "Xiaomi's humanoid robots spotted doing their first 8-hour shift sorting EV parts at a rate of ~ 1 per minute",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn5g1f/xiaomis_humanoid_robots_spotted_doing_their_first/",
+      "published": "2026-11-03T21:16:07+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Im calling this the Altman Trap",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmw7io/im_calling_this_the_altman_trap/",
+      "published": "2026-11-03T15:37:31+00:00",
+      "summary": "submitted by /u/kubika7 [link] [comments]",
+      "author": "kubika7"
+    },
+    {
+      "title": "This guy figured out how to leak your exact location from any video with sound using the Doppler curves of nearby airplanes",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn26ml/this_guy_figured_out_how_to_leak_your_exact/",
+      "published": "2026-11-03T19:14:29+00:00",
+      "summary": "submitted by /u/Specialist_Dark_3668 [link] [comments]",
+      "author": "Specialist_Dark_3668"
+    },
+    {
+      "title": "Google Will Turn Off Search for Schools That Reject A.I.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmxcxl/google_will_turn_off_search_for_schools_that/",
+      "published": "2026-11-03T16:20:33+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "OpenAI's New Internal Models' Performance on Real-World Hardware Engineering Tasks",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn3cwl/openais_new_internal_models_performance_on/",
+      "published": "2026-11-03T19:57:23+00:00",
+      "summary": "submitted by /u/troll_khan [link] [comments]",
+      "author": "troll_khan"
+    },
+    {
+      "title": "First in a human: gene therapy fixed a one-letter DNA typo inside one patient's liver to treat alpha-1 antitrypsin deficiency, an inherited disease that damages the liver and lungs. The patient now makes the working protein, and no unwanted edits were found. New hope for avoiding a liver transplant.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn3roz/first_in_a_human_gene_therapy_fixed_a_oneletter/",
+      "published": "2026-11-03T20:12:15+00:00",
+      "summary": "submitted by /u/theimposingshadow [link] [comments]",
+      "author": "theimposingshadow"
+    },
+    {
+      "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn5piy/british_fintech_revolut_slashes_ai_coding_costs/",
+      "published": "2026-11-03T21:26:33+00:00",
+      "summary": "Revolut is a fintech giant and they seem to prioritize open source and it makes their AI expenses more stable. They switched to GLM. before that, they were experimenting with Gemini and Claude. Apparently, they realized the bottleneck wasn't the code, but letting AI models deal with debugging and Jira/Confluence. They didn't eliminate GPT/Claude entirely, only using those for vision work as GLM is text only. I can see more companies doing similar in the future, if they are already not doing it. submitted by /u/Recent_Fox4339 [link] [comments]",
+      "author": "Recent_Fox4339"
+    },
+    {
+      "title": "Are we in the first stages of RSI?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn8oa7/are_we_in_the_first_stages_of_rsi/",
+      "published": "2026-11-03T23:28:29+00:00",
+      "summary": "In my opinion we are. Yes humans are still in the loop, but models are good enough now to create synthetic data to train better models, and many aspects of curation can be automated now too. Yes it’s not fully automated, but I think the general principle of a previous model making a new model better is holding true. I also found it interesting that Astra recently was able to successfully edit the raw weights of Qwen 3.8. Though the exact criteria of RSI seems to be murky similar to AGI. So I’m curious what other people’s thoughts are. submitted by /u/Citadel_Employee [link] [comments]",
+      "author": "Citadel_Employee"
+    },
+    {
+      "title": "Ai 2027 authors mentioning we’ll hit ASI sooner than Ai 2027 predicted",
+      "url": "https://www.reddit.com/r/singularity/comments/1xn7qoo/ai_2027_authors_mentioning_well_hit_asi_sooner/",
+      "published": "2026-11-03T22:48:08+00:00",
+      "summary": "submitted by /u/shadowt1tan [link] [comments]",
+      "author": "shadowt1tan"
+    }
+  ]
+}
