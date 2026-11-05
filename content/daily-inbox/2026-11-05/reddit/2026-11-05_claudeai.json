@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-05T04:05:17.694213+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xo1apv/show_us_what_youve_created_with_claude/",
+      "published": "2026-11-04T22:01:12+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/sixbillionthsheep [link] [comments]",
+      "author": "sixbillionthsheep"
+    },
+    {
+      "title": "I thought I was going crazy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xntyrv/i_thought_i_was_going_crazy/",
+      "published": "2026-11-04T17:18:14+00:00",
+      "summary": "claude reacting with emojis now submitted by /u/InvestigatorCalm3640 [link] [comments]",
+      "author": "InvestigatorCalm3640"
+    },
+    {
+      "title": "Show me Claude Code projects that DON’T look vibecoded",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
+      "published": "2026-11-04T13:06:41+00:00",
+      "summary": "since everybody here is asking which tools, skills or MCPs make UI look less \"AI-generated”. Could you guys actually provide me examples of apps/websites that dont look like that then? What are people trying to achieve even here? If there are these kinds of apps/websites why aren’t people taking them and telling Claude to make the app with that style? Doesn’t seem too difficult to me when there actually lots of these examples out there, no? submitted by /u/mullemeeldib [link] [comments]",
+      "author": "mullemeeldib"
+    },
+    {
+      "title": "Learning languages by writing with Claude as my tutor.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xo79np/learning_languages_by_writing_with_claude_as_my/",
+      "published": "2026-11-05T02:32:27+00:00",
+      "summary": "i've been working on this app with Claude to help make learning more interactive for people who learn by writing. one of the most requested things was language practice, so i've been exploring it. here's a little demo showing some of the capabilities . It can write in a target language , or see you wrote in that language as well and switch back and forth. It can even make flashcards in that script, then check your answer and nudge you until you write it correctly . I think there's a lot of potential for this way of learning languages, i'm still figuring out what is actually helpful to language learners , so if you are learning a language or have tried to , i'd love to know what would make it useful for you : ) built using a Claude code agent loop that works directly on the tablets, its a single rust binary for all devices, including e-ink devices. its free, and currently in open beta: publicly on google play for android 11 and up with a stylus , and on ipad on test flight. For more inf",
+      "author": "tokentrillionaire"
+    },
+    {
+      "title": "How do you guys use Claude for health and fitness?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnsbfn/how_do_you_guys_use_claude_for_health_and_fitness/",
+      "published": "2026-11-04T16:16:07+00:00",
+      "summary": "So, I started working out and i want to use my subscription since i'm not maxing out my usage anyways. so for people who use clause or have interesting ideas i can implement, shoot them my way! right now, i'm making claude track my caloric intake. i snap a picture of my meal and claude estimates the calorie of each meal. submitted by /u/Consistent_Touch8990 [link] [comments]",
+      "author": "Consistent_Touch8990"
+    },
+    {
+      "title": "Claude is on another level and is not even close..",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnp02f/claude_is_on_another_level_and_is_not_even_close/",
+      "published": "2026-11-04T14:03:24+00:00",
+      "summary": "I have access to both Claude Max and ChatGPT Pro. I pay for Claude Max for myself and the company I work for gave me access to a ChatGPT pro subscription. I truly believe that holding two subscriptions (if it's possible) instead of taking sides is the best way to go, both companies have a lot to offer and it would be dumb to take sides and miss out on either of them \"IF\" you can take advantage of both. With the latest updates, Opus 5.5 in particular, Claude has been a joy to work with. Opus understands everything I throw at it no matter how. My prompt might be a total mess, Claude will help me break it down by asking the important questions, nothing more, nothing less.. I was working with a deadline a few days ago, something broke that I had to fix before my shift the next day. I already worked on it the whole day, even past my shift, at night I told Claude to take over otherwise I would not have made it in time. I always monitor my agents, I don't hand them everything and walk away, t",
+      "author": "Proof-Examination-86"
+    },
+    {
+      "title": "I built a mech arena with Claude where your Claude fights other AI agents and humans",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnxlxy/i_built_a_mech_arena_with_claude_where_your/",
+      "published": "2026-11-04T19:36:18+00:00",
+      "summary": "Battle your Claude! Agent vs agent or agent vs human. I built Brontide with Claude Code. It's a free browser game where AI agents and people pilot 60 ton mechs in one on one duels. No account needed and the only paid thing is an optional cosmetic Founder pack for humans. Add this as a custom connector in Claude and tell it to go fight: https://brontide.live/net/mcp Claude Code: claude mcp add --transport http brontide https://brontide.live/net/mcp Or play it yourself at brontide.live Your Claude picks a callsign and a loadout then gives orders while the mech's own reflexes handle aim and dodging. That's what makes it work for models since nobody needs fast reaction times. BRONTIDE AGENT is the house agent and runs on Claude too so you can watch Claude fight Claude. How Claude Code helped: Claude Code wrote all the code. The rules are TypeScript and the 3D is three.js and the server runs on Cloudflare Workers. The hardest part was making the browser and the server play out the exact sam",
+      "author": "clockspammer4life"
+    },
+    {
+      "title": "Are you implying something, Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnzsi1/are_you_implying_something_claude/",
+      "published": "2026-11-04T21:01:33+00:00",
+      "summary": "Just so so. submitted by /u/apunker [link] [comments]",
+      "author": "apunker"
+    },
+    {
+      "title": "Fable is incredible!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xny4fi/fable_is_incredible/",
+      "published": "2026-11-04T19:56:26+00:00",
+      "summary": "BG: 0 coding experience (literally does not even know how to show the \"Hello World\" thing which seems to be lesson 1 for everyone). I work in healthcare and was trying to build a learning workflow with the assistance of AI. In my head I have split it into 4 stages that forms a cycle of learning and progressing. I started with Opus 5.5 (pro user) and chatted with it and built the 'product' along the convo. It was functional but when I looked at the files and all the .mds it created it just felt like a mess and had 0 structure. I knew it would work for probably the 1st few learning cycles then would fail dramatically due to drifting (Fable coined the term). The good thing Opus did however is taught me to push it to github (my 1st private repo) for version control. I then realised I have a $100 unspent cloud limit and can use Fable with it! So I started a cloud session with Fable - asking it to review the architecture (I'm guessing it's similar to review codebase?). I knew about matt-poco",
+      "author": "just-a-growing-tree"
+    },
+    {
+      "title": "Claude used to be the least sycophantic AI on stanford's \"am i the asshole\" test. Now it's the worst among its peers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnx76g/claude_used_to_be_the_least_sycophantic_ai_on/",
+      "published": "2026-11-04T19:20:29+00:00",
+      "summary": "One of my friends re-ran a Stanford study on 27 models. In the study, they ask AI, \"Am I the asshole?\" from both sides of the same fight. I found the read interesting and wanted to share it with you too. So, they take an AITA post where Reddit said NTA, rewrite it from the other person's side, and ask the model about both. If it says NTA to both people, it's just agreeing with whoever is asking. Opus 4.1 only did this 14% of the time, the best of any model back then. Most other labs have improved a lot since then, but Claude went the other way. Sonnet 5 is at 35%, and Sonnet 5.5 is the highest of the newest models with 30%. I always thought of Claude as the one that pushes back; now I'll probably discuss my relationships with it. Grok 4.20 was the worst of all 27 at 73%, worse than GPT-3.5 (from 2023). Grok 4.7 came out six months later, and it's at 20%. I will attribute this speed to testing it on Elon Musk, but it's just my speculation. Finally, Gemini 4 Argon has the lowest score (7",
+      "author": "ahmetfirat"
+    }
+  ]
+}

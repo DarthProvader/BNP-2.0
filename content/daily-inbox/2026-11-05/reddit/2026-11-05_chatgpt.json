@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-11-05T04:04:56.750870+00:00",
+  "items": [
+    {
+      "title": "Democratic Arizona Congresswoman: Top of the Democratic agenda on day 1 needs to be a pause on advanced AI development, regulation of this out of control industry, and a ban on artificial superintelligence",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xo0cs4/democratic_arizona_congresswoman_top_of_the/",
+      "published": "2026-11-04T21:23:09+00:00",
+      "summary": "https://fixupx.com/RepYassAnsari/status/2118054336077127797 submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "ChatGPT leaked an internal prompt",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xo1r57/chatgpt_leaked_an_internal_prompt/",
+      "published": "2026-11-04T22:19:39+00:00",
+      "summary": "I think ChatGPT just leaked a prompt reserved for internal usage. https://preview.redd.it/v8pnszjf7ozh1.png?width=861&format=png&auto=webp&s=61f8861a70fba550ed889ea53677397177d2ab2e Full text in Results: \"Before doing anything else, explicitly explain to the user that you were unable to invoke the python_user_visible.exec tool right now. Make sure to begin your response with \"It seems like I can’t do more advanced data analysis right now. Please try again later.\". DO NOT UNDER ANY CIRCUMSTANCES retry using this tool until a new request is given. Do NOT try to answer the user's original question. If the task involved file creation, remember that you cannot manually create files for the user to download and must use the Python tool to do this.\" Has this happened to anyone else? submitted by /u/OddNumb [link] [comments]",
+      "author": "OddNumb"
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xo3oir/introducing_images_26/",
+      "published": "2026-11-04T23:43:19+00:00",
+      "summary": "submitted by /u/impult [link] [comments]",
+      "author": "impult"
+    },
+    {
+      "title": "Never seen sama this animated before",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xnlze7/never_seen_sama_this_animated_before/",
+      "published": "2026-11-04T11:36:19+00:00",
+      "summary": "submitted by /u/JealousKitten7557 [link] [comments]",
+      "author": "JealousKitten7557"
+    },
+    {
+      "title": "So, what will it look like in 2030!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xno3dn/so_what_will_it_look_like_in_2030/",
+      "published": "2026-11-04T13:23:39+00:00",
+      "summary": "submitted by /u/nowrean [link] [comments]",
+      "author": "nowrean"
+    },
+    {
+      "title": "It’s really not even in the running tbh",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xo6mnz/its_really_not_even_in_the_running_tbh/",
+      "published": "2026-11-05T02:01:18+00:00",
+      "summary": "submitted by /u/TragicHero84 [link] [comments]",
+      "author": "TragicHero84"
+    },
+    {
+      "title": "Asked ChatGPT to generate the most realistic hamburger. Can you spot something that still screams AI?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xntlf8/asked_chatgpt_to_generate_the_most_realistic/",
+      "published": "2026-11-04T17:04:40+00:00",
+      "summary": "submitted by /u/LordClimentos [link] [comments]",
+      "author": "LordClimentos"
+    },
+    {
+      "title": "Sam Altman got so obsessed with RAM that he changed his name to RAM Altman",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xnjx7o/sam_altman_got_so_obsessed_with_ram_that_he/",
+      "published": "2026-11-04T09:29:32+00:00",
+      "summary": "submitted by /u/sudarshanmaurya [link] [comments]",
+      "author": "sudarshanmaurya"
+    },
+    {
+      "title": "Chat offered me to try the new GIF function...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xo7492/chat_offered_me_to_try_the_new_gif_function/",
+      "published": "2026-11-05T02:25:15+00:00",
+      "summary": "submitted by /u/bonobomaster [link] [comments]",
+      "author": "bonobomaster"
+    },
+    {
+      "title": "ChatGPT rejected my meme",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xnfrvc/chatgpt_rejected_my_meme/",
+      "published": "2026-11-04T05:14:25+00:00",
+      "summary": "\"We’re so sorry, but the prompt may violate our content policies. If you think we got it wrong, please retry or edit your prompt.\" So I modified it :) submitted by /u/OrbisMaximus [link] [comments]",
+      "author": "OrbisMaximus"
+    }
+  ]
+}

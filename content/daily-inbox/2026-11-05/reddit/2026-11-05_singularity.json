@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-05T04:03:05.309788+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 04, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xnrz2b/rsingularity_daily_discussion_thread_november_04/",
+      "published": "2026-11-04T16:02:41+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "OpenAI claims their new security model patched 948 Linux privilege escalation vulnerabilities",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo3a2k/openai_claims_their_new_security_model_patched/",
+      "published": "2026-11-04T23:25:07+00:00",
+      "summary": "https://x.com/OpenAI/status/2118119451401048497?a=2krpajdL4J5ILX71s10&s=19 submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Claude writes a neural network's weights by hand, without training, to detect fake legal citations—achieving 97.8% test accuracy and outperforming a conventionally trained model that scored 94.6%.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xnplmi/claude_writes_a_neural_networks_weights_by_hand/",
+      "published": "2026-11-04T14:28:11+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "63% of planned/under construction data centers in the US are in states with governors who have promised to ban or pause new data centers.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo49pg/63_of_plannedunder_construction_data_centers_in/",
+      "published": "2026-11-05T00:09:11+00:00",
+      "summary": "The incoming governors of Texas, Virginia, Georgia, Ohio, New Mexico, New York, Oregon, Washington, Michigan, Kansas, and Colorado have all pledged to issue bans/moratoriums of new data centers. That represents 63% of all data center in the United States that are planned or under construction. Much of the rest have made campaign promises to be extremely hostile to data centers, such as Pennsylvania, Illinois, Iowa, Wisconsin, North Carolina, Hawaii, Maine, Maryland, New Jersey, Massachusetts, and Delaware. They represent a further 14% of planned data centers. They're popping Champagne in Beijing as we speak. I calculated the percentages using this website and based off of power consumption: https://dcmap.us/states/ submitted by /u/Catholic_Indian10 [link] [comments]",
+      "author": "Catholic_Indian10"
+    },
+    {
+      "title": "Try out GPT image 2.6 and report back",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo4rah/try_out_gpt_image_26_and_report_back/",
+      "published": "2026-11-05T00:31:26+00:00",
+      "summary": "submitted by /u/arknightstranslate [link] [comments]",
+      "author": "arknightstranslate"
+    },
+    {
+      "title": "Google DeepMind unveils agentic cheminformatics on Antigravity: compresses multi-day drug design workflows into 1 hour",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo7urk/google_deepmind_unveils_agentic_cheminformatics/",
+      "published": "2026-11-05T03:01:19+00:00",
+      "summary": "submitted by /u/Gaiden206 [link] [comments]",
+      "author": "Gaiden206"
+    },
+    {
+      "title": "A.I. Data Centers and Labs Face a Setback After Democrats' Win",
+      "url": "https://www.reddit.com/r/singularity/comments/1xnykbx/ai_data_centers_and_labs_face_a_setback_after/",
+      "published": "2026-11-04T20:12:59+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Things that might seem random but would make me truly believe we have entered the AGI-ASI Spectrum",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo1cqx/things_that_might_seem_random_but_would_make_me/",
+      "published": "2026-11-04T22:03:30+00:00",
+      "summary": "Solve hair loss. It's often said as a joke, but it's perfectly fair to expect this. Solve new tooth generation, or at least reverse tooth decay. Solve plastic. Make it genuinely biodegradable or find a way to eliminate its environmental impact. Solve trees. Enable rapid afforestation or dramatically speed up tree growth. Solve menstruation. Solve diplomacy. Become a genuinely rightful BDFL for humanity, capable of helping us resolve conflicts we seemingly cannot. Find new forms of food that can move us beyond an agricultural age that requires enormous amounts of land. I just noticed something while writing these down: none of these are software problems. But that's the promise, right? That was the promise of technology all along - to help us with our real, physical problems. Not to become a thing of its own, endlessly making more software to optimize other software. Solve something real. Bring a positive change to the world. There's a climate crisis waiting for you to set your eyes upo",
+      "author": "Enceladusx17"
+    },
+    {
+      "title": "Does anybody else feel like, given the Democrats’ landslide victory last night, the AI companies should get busy demonstrating the benefits of AI to the average person… or risk more data center moratoriums?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xnnvgd/does_anybody_else_feel_like_given_the_democrats/",
+      "published": "2026-11-04T13:13:10+00:00",
+      "summary": ". submitted by /u/BrennusSokol [link] [comments]",
+      "author": "BrennusSokol"
+    },
+    {
+      "title": "We're headed to UBI or even UHI post-scarcity economics or hell on earth. No inbetween.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xo2t2u/were_headed_to_ubi_or_even_uhi_postscarcity/",
+      "published": "2026-11-04T23:04:17+00:00",
+      "summary": "The real question is: how many years away are we from the first meaningful UBI implementation or hell on earth? submitted by /u/ZealousidealTale1324 [link] [comments]",
+      "author": "ZealousidealTale1324"
+    }
+  ]
+}
