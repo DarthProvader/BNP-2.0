@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-06T04:05:56.355345+00:00",
+  "items": [
+    {
+      "title": "Open question to Anthropic: If you're making 30,000 merges a day, why are more than 98% of open GitHub issues unassigned, including serious security bugs?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xozfcv/open_question_to_anthropic_if_youre_making_30000/",
+      "published": "2026-11-06T00:48:50+00:00",
+      "summary": "According to Anthropic's own engineering blog , the company was merging more than 30,000 code changes per day as of last month. Yet, of the 16,060 currently open issues in Anthropic's public Claude Code GitHub repository, 15,766 (over 98%) have no assignee. Many have remained open for months or years, including serious security, privacy, and functionality bugs. Just one current example is the Privacy violation in User-Agent header issue, involving Claude Code disclosing users' email addresses to third-party websites without their consent. The underlying problem has been reported in earlier issues dating back months, yet reports remain open and unassigned. Meanwhile, Anthropic apparently has the resources to introduce features like a pixelated heart in the Windows desktop app that appears after clicking the screen multiple times. I'm a senior developer, and I understand that 30,000 internal merges per day aren't equivalent to resolving public GitHub issues. But what I can't understand i",
+      "author": "nseavia71501"
+    },
+    {
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp0qxj/claude_can_now_analyze_your_spending_with_its_new/",
+      "published": "2026-11-06T01:53:28+00:00",
+      "summary": "submitted by /u/crimonist [link] [comments]",
+      "author": "crimonist"
+    },
+    {
+      "title": "I built a 3D globe for my two boys with Claude Code. It got way more love than I expected, so here's how it's grown.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xou90f/i_built_a_3d_globe_for_my_two_boys_with_claude/",
+      "published": "2026-11-05T21:04:38+00:00",
+      "summary": "A little while ago, I shared a small interactive globe I'd been building for my two boys, aged 9 and 6. I'm just a dad with no coding background, and I built the whole thing with Claude Code (Opus 5.5). It got way more attention than I ever expected. And the feedback from parents and kids has been so lovely that I'd really love for more kids to get to explore it. So I wanted to share it here too, since none of this would exist without Claude Code. Quick recap: I wanted my kids' screen time to be a bit more meaningful, so I started vibe coding a 3D globe where they could explore the world. They quickly became my entire dev team. \"Dad, why isn't this in the game?\" \"Can you make it do this?\" That hasn't stopped. Since my first post, We've shipped a lot of updates, most of them straight from their wish list and from people's feedback, and it has gotten so much better: - 🌍 830+ landmarks and sights, each one made in 3D - 🦒 470+ animals that walk, swim and fly, plus an animal dex to fill in ",
+      "author": "monoloni"
+    },
+    {
+      "title": "Vibe-coders, I beg you: when posting your app or tool on Github, please edit the README to remove Claude's fluff",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xoj99r/vibecoders_i_beg_you_when_posting_your_app_or/",
+      "published": "2026-11-05T13:56:18+00:00",
+      "summary": "TL;DR: looking up repos for scripts for my vr headset. claude wrote every readme, they're all super dense and hard to read compared to if a human wrote them. those repos aren't even made for ai models, they're instructions for humans, and yet they're full of info irrelevant for the end user. I was browsing Github earlier trying to find scripts and tools for my Steam Frame VR headset. 99% of what I found there was vibe-coded. and y'know what? That's fine. I'm not going to complain about people sharing their fixes for my issues and other cool stuff that they made with Claude if it helps me along the way. BUT. Every single one of those projects had their README.md entirely written by Claude, and the issue is that Claude's writing as of late is very dense and uses so many words to say things that are absolutely NOT relevant for the end user. It reads more like Claude is taking notes for itself rather than being concise and clear. Like, okay, here's an actual exemple. In a features list for",
+      "author": "thatfreakingmonster"
+    },
+    {
+      "title": "3 interesting things Claude can do for you but you didn't know",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xou0q2/3_interesting_things_claude_can_do_for_you_but/",
+      "published": "2026-11-05T20:55:23+00:00",
+      "summary": "1) Walk into any appointment already knowing what to ask/say: Let it be a doctor, mechanic, lawyer, accountant, the guy quoting your roof, ANYONE. Think about how those meetings go. They talk fast, they use words you half know, you nod, and after that, on the way home, you remember a very important question you forgot to ask. What you can do is simple: before you go, open Claude, start your mic and just yap about the situation like you'd tell a friend. \"My car makes a grinding noise when I brake, I'm seeing a mechanic tomorrow, I don't know ANYTHING about cars.\" Then ask: \"Give me the 3 most important questions I should ask, and for each one tell me what answer would be a red flag.\" It will come back with things you'd never think of, like asking which parts they would replace and which they only inspect, or asking to keep the old part. Put the list in your phone and read it out in the room. And suddenly you'll start talking confidently, and your work might get done better than it would",
+      "author": "Efistoffeles"
+    },
+    {
+      "title": "Built a little touchscreen dashboard for my desk with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xoxnhp/built_a_little_touchscreen_dashboard_for_my_desk/",
+      "published": "2026-11-05T23:28:02+00:00",
+      "summary": "I got a Corsair XENEON Edge (a 2560x720 touchscreen strip) and spent an afternoon building a dashboard for it with Claude Code instead of using the widgets it came with. The part I use the most: every Linear ticket has a copy button that builds a full prompt for Claude with the title, status, description, and a line asking it to read the comments and give me a plan before it changes anything. Picking up a ticket is one tap now. Also on it: A todo list Claude can add to when I ask How many tickets I closed this week My calendar, with duplicate events merged by Apple's on-device model A 7 hour workday countdown Weather and what's playing A few things I didn't expect going in: On a Mac, touching the Edge clicks your main monitor. The app had to take over the touch panel itself. My calendars live in BusyCal, not Apple Calendar, so it reads BusyCal's data directly, repeating meetings and all. Every rebuild kept resetting macOS permissions until I signed the app properly. Claude did most of ",
+      "author": "jsreally"
+    },
+    {
+      "title": "I've used the Big Three of the AI industry and here's what I think as an average human",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xotkqg/ive_used_the_big_three_of_the_ai_industry_and/",
+      "published": "2026-11-05T20:37:21+00:00",
+      "summary": "As a normal consumer with no big tech background. Claude: Imagine knowing absolutely nothing about building things. No coding, no technical knowledge, nothing. But you've got an idea you want to bring to life. With Opus 5.5 and Fabel, you could probably build an entire civilization without understanding how the hell it happened. I'm not even kidding. Opus is in a league of its own. It makes the common man feel like he could rule the world. You bring the vision, Claude figures out the rest. No babysitting or explaining every little thing. I've typed absolute gibberish, and somehow it understood what I wanted and delivered something better than I imagined. That's what makes it so damn good and reliable. Gemini: Argon is a different beast. It's great at answering questions, troubleshooting and architectural design. You know when someone gives you a comprehensive answer and casually points out three things you hadn't even considered? And you're like, \"Damn, I didn't think of that. Good poi",
+      "author": "Lanky_Transition_249"
+    },
+    {
+      "title": "Mom?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp1zq3/mom/",
+      "published": "2026-11-06T02:55:03+00:00",
+      "summary": "Even if I post this with praise flair, honestly I'm not exactly sure what I feel about this. I know how good opus 5.5 is. I use it daily for web and mobile development, personal researches/questions and keep praising how good it is already but this is another level. How can an LLM decides to check time, sees it's late where I am and tries to calm me down? This is humanly thoughtful. submitted by /u/wwisthedanger [link] [comments]",
+      "author": "wwisthedanger"
+    },
+    {
+      "title": "I built a hyper realistic fighter jet simulator for the browser with opus 5.5 and it went viral on Twitter!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xobggp/i_built_a_hyper_realistic_fighter_jet_simulator/",
+      "published": "2026-11-05T06:17:55+00:00",
+      "summary": "try it for for free at viperoneone.com Hi hi solo dev here folks! It's been super fun building this in public. It went viral about 2 weeks ago with 25,000 players playing this over that time period with 1 thousand daily flyers! I also got a huge shoutout from threejs.org themselves and is featured at the top of their website! I built this entirely with Claude Opus 5.5, fal models, and a whole ot attention to details!! Here's some of the things that I paid extra attention to: fitted the GoPro fisheye to real cockpit footage, so the cockpit view looks like a real camera wrote the canopy shader: scratches that catch the sun, and rain beading and streaking across the glass when you fly through cloud built the multiplayer rooms server and the ranked ladder ran several agents at once (missions, sound fixes, load-speed work, trailers), each on its own branch, with me reviewing before anything merged profiled slow loading and iPhone crashes, and fixed them I've particularly found it super usef",
+      "author": "aCakeShip"
+    },
+    {
+      "title": "used claude code to figure out how airpods 3 send head tracking data, turns out nobody had done it before",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xodizg/used_claude_code_to_figure_out_how_airpods_3_send/",
+      "published": "2026-11-05T08:31:17+00:00",
+      "summary": "first time posting on reddit so hi i wanted to control my mouse with my airpods on linux (they have a gyro for spatial audio). every open source project i found said airpods 3 weren't supported, so i spent an afternoon on it with claude code. took a lot of failed tries. at some point i just told it to send agents to dig through other projects in the background, and one of them found the actual answer in some ios framework code. airpods 3 use a different protocol than the pro models, and linux was hiding the sensors because of a bluetooth packet size setting. once that was fixed they started streaming at like 200hz it wrote most of the code, i did the testing with the actual airpods and made the calls. pretty wild how fast it went honestly repo if anyone's curious: https://github.com/starman-tech/mousepods submitted by /u/Matteocean [link] [comments]",
+      "author": "Matteocean"
+    }
+  ]
+}

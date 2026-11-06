@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-06T04:06:17.267565+00:00",
+  "items": [
+    {
+      "title": "Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting” - AUTOMATON WEST",
+      "url": "https://www.reddit.com/r/artificial/comments/1xor677/hideo_kojima_says_ai_lacks_what_makes_the/",
+      "published": "2026-11-05T19:02:25+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xocwcy/apple_is_cutting_employee_ai_spending_budgets/",
+      "published": "2026-11-05T07:50:01+00:00",
+      "summary": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Data Center Siting and Community Opposition",
+      "url": "https://www.reddit.com/r/artificial/comments/1xoybc8/data_center_siting_and_community_opposition/",
+      "published": "2026-11-05T23:58:29+00:00",
+      "summary": "submitted by /u/HooverInstitution [link] [comments]",
+      "author": "HooverInstitution"
+    },
+    {
+      "title": "Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar",
+      "url": "https://www.reddit.com/r/artificial/comments/1xozbic/palantir_made_23_billion_last_quarter_and_calls/",
+      "published": "2026-11-06T00:43:33+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Investigating vault particles with Claude",
+      "url": "https://www.reddit.com/r/artificial/comments/1xor7bc/investigating_vault_particles_with_claude/",
+      "published": "2026-11-05T19:03:32+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Blind listening test: 62 people compared 8-bar piano loops written by 8 LLMs (Gemini, Claude, Qwen, Kimi, Grok, GPT-6.1, DeepSeek, Llama). Interim results",
+      "url": "https://www.reddit.com/r/artificial/comments/1xoz9sv/blind_listening_test_62_people_compared_8bar/",
+      "published": "2026-11-06T00:41:21+00:00",
+      "summary": "I ran this study. Short version: Gemini 4 Argon's loops were preferred most often (66% of pairings) and it was the only model that held up across all four styles. Claude Opus 5.5 was second (61%). Llama 4 Maverick was a distant last (27%). The five in between can't be separated yet. 62 listeners, 514 blind pairwise judgments so far. Listen first. The best-scoring loop across all 20 prompts from each of the four strongest models (Claude's is tied with one other), and the worst loop from the last-place model. Exactly as the raters heard them: same piano, same settings, ~20 s each, direct audio files. Hand-picked, so not a representative sample: Grok 4.7 — brief \"Gospel-tinged and warm, with full, voiced chords\". Chosen in 9 of its 10 pairings on this brief, the strongest single loop in the published set, from a model that is 48% overall. Gemini 4 Argon — \"Hypnotic and repetitive, built on one insistent figure\". 8 of 9. Kimi K3 — \"Warm and optimistic, the kind of loop that makes you nod\".",
+      "author": "antiochIst"
+    },
+    {
+      "title": "Is anyone using LLMs daily to build expertise in a specific field ?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xowfk2/is_anyone_using_llms_daily_to_build_expertise_in/",
+      "published": "2026-11-05T22:33:33+00:00",
+      "summary": "I feel like LLMs have made it much easier to learn about almost any subject. That got me wondering: is anyone here using them every day to study a specific topic in depth, with the goal of becoming an expert in that field? If so, what are you learning, and what does your daily learning routine look like? submitted by /u/himmetozcan [link] [comments]",
+      "author": "himmetozcan"
+    },
+    {
+      "title": "The missing AI number",
+      "url": "https://www.reddit.com/r/artificial/comments/1xonjvm/the_missing_ai_number/",
+      "published": "2026-11-05T16:46:26+00:00",
+      "summary": "submitted by /u/Limp-Park7849 [link] [comments]",
+      "author": "Limp-Park7849"
+    },
+    {
+      "title": "What’s the difference between a traditional PKMS and an AI-powered second brain?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xp0ael/whats_the_difference_between_a_traditional_pkms/",
+      "published": "2026-11-06T01:30:34+00:00",
+      "summary": "A traditional Personal Knowledge Management System (PKMS) helps you organize, store and retrieve what you know. A second brain takes that further by helping you connect ideas, rediscover forgotten knowledge and put it to work. Andrej Karpathy explored this direction with his LLM Wiki concept, where AI organizes information into interconnected knowledge that compounds over time. I think the next evolution is making that knowledge useful to both humans and AI agents. I built Cohestry around this idea because I was drowning in notes, documents, PRDs and AI-generated research scattered across my workflow. Cohestry automatically discovers relationships between notes using deterministic connections and on-device Apple Intelligence, then resurfaces relevant information when you least expect it. While writing a PRD for a new EchoVault feature, it connected my work to the original, nameless concept I’d written months earlier. I hadn’t even remembered that document existed. Now I explore these r",
+      "author": "Mindless_Might_9759"
+    },
+    {
+      "title": "What is the best way to do what I'm trying to do? I'm trying to recreate Autodesk Maya as close as possible but a free version",
+      "url": "https://www.reddit.com/r/artificial/comments/1xp082g/what_is_the_best_way_to_do_what_im_trying_to_do/",
+      "published": "2026-11-06T01:27:32+00:00",
+      "summary": "It's very basic so far but looks pretty good considering I started like 3 hours ago. Right now I'm simply asking ChatGPT to replicate certain features and functions I like in Maya (I've only focused on tools for 3D modeling and shaders and nothing else so far) and then downloading the development build and testing it. Also got it to read some documentation about the tools and navigation from the website. Thing is, I found out today that you can use AI to build your own programs and software, so I'm wondering if they way I'm going about this is slow and outdated? If there is a better way to construct what I am attempting to do then I'm all ears! My goal isn't to make a perfect replica, just something close, a little watered down while only keeping the features i need and use on a daily basis, and something that a Maya user can quickly understand. submitted by /u/Kiiaro [link] [comments]",
+      "author": "Kiiaro"
+    }
+  ]
+}

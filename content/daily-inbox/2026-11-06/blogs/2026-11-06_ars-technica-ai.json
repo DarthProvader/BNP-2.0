@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-06T04:02:07.476130+00:00",
+  "items": [
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "published": "2026-11-05T22:09:36+00:00",
+      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

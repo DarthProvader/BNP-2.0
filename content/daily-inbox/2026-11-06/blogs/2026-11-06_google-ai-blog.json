@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-11-06T04:02:02.598299+00:00",
+  "items": [
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "published": "2026-11-05T16:00:00+00:00",
+      "summary": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "author": "Anish Nangia"
+    }
+  ]
+}
