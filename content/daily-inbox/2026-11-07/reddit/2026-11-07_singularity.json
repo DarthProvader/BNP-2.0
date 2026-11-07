@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-07T04:03:13.680677+00:00",
+  "items": [
+    {
+      "title": "An unreleased Anthropic AI model reportedly solves an 18-year-old quantum computing conjecture in just 3 days. Researchers at Physical Superintelligence say the proof establishes a fundamental limit on quantum speedups and has been formally verified using Lean.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpgl2k/an_unreleased_anthropic_ai_model_reportedly/",
+      "published": "2026-11-06T16:07:17+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "No GPT-6.2, no Fable 5.5, no Qwen 4",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpo0j3/no_gpt62_no_fable_55_no_qwen_4/",
+      "published": "2026-11-06T20:59:44+00:00",
+      "summary": "The leakers said gpt-6.2 astra and sol would be released, but we got that GPT-Cyber crap. One of the presenters from Alibaba said Qwen 4 would be released this week. Fable 5.5 was speculated. All we got was GPT-6.1-Terra submitted by /u/Bitter-College8786 [link] [comments]",
+      "author": "Bitter-College8786"
+    },
+    {
+      "title": "Claude paints a watercolor tree with a robotic arm in 4.5 hours, and mixes its own custom colors along the way",
+      "url": "https://www.reddit.com/r/singularity/comments/1xppyfh/claude_paints_a_watercolor_tree_with_a_robotic/",
+      "published": "2026-11-06T22:20:45+00:00",
+      "summary": "Source: nil on X i went to bed and asked claude to paint an autumn tree overnight. at around 4am, it realised that it didn't have some shades -- so it stopped and titrated its own paint: diluting red, sienna and madder step by step on a second palette, then measuring each pocket from a photo. woke up to this beautiful watercolor painting. 303 brush marks, took about 4.5 hours (still working on the speed) submitted by /u/Successful-Earth678 [link] [comments]",
+      "author": "Successful-Earth678"
+    },
+    {
+      "title": "Figure.AI more humanoid robots than humans",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpu6bv/figureai_more_humanoid_robots_than_humans/",
+      "published": "2026-11-07T01:37:53+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Stanford researchers develop a new AI memory system that recalls information from entire conversation histories using just 16 memory tokens. It reduces document-token usage by up to 4,212×, runs 27× faster in a 512-document test, and outperforms existing approaches on 5 of 8 benchmarks.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpabzx/stanford_researchers_develop_a_new_ai_memory/",
+      "published": "2026-11-06T11:17:23+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Silicon Valley was so ahead of its time",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpv91b/silicon_valley_was_so_ahead_of_its_time/",
+      "published": "2026-11-07T02:32:06+00:00",
+      "summary": "submitted by /u/itsallfake01 [link] [comments]",
+      "author": "itsallfake01"
+    },
+    {
+      "title": "Looks like the future is just around the corner... What do you think about this?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xph3ur/looks_like_the_future_is_just_around_the_corner/",
+      "published": "2026-11-06T16:27:32+00:00",
+      "summary": "The company Somnia Lab is making robots for intimacy and sex. Honestly, I didn't think we'd see something like this so soon. submitted by /u/5SecondsNaVzdoX [link] [comments]",
+      "author": "5SecondsNaVzdoX"
+    },
+    {
+      "title": "AI is dramatically accelerating AI research right now",
+      "url": "https://www.reddit.com/r/singularity/comments/1xppmik/ai_is_dramatically_accelerating_ai_research_right/",
+      "published": "2026-11-06T22:06:51+00:00",
+      "summary": "submitted by /u/blankblank [link] [comments]",
+      "author": "blankblank"
+    },
+    {
+      "title": "100M context window coming?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpp0fb/100m_context_window_coming/",
+      "published": "2026-11-06T21:40:56+00:00",
+      "summary": "submitted by /u/emdeka87 [link] [comments]",
+      "author": "emdeka87"
+    },
+    {
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://www.reddit.com/r/singularity/comments/1xpt8zl/memorilla_latent_semantic_memory_for_llms/",
+      "published": "2026-11-07T00:53:03+00:00",
+      "summary": "submitted by /u/yogthos [link] [comments]",
+      "author": "yogthos"
+    }
+  ]
+}

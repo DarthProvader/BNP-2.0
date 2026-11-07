@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-07T04:05:56.122481+00:00",
+  "items": [
+    {
+      "title": "START HERE: Index of all the latest r/ClaudeAI resources.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpwoba/start_here_index_of_all_the_latest_rclaudeai/",
+      "published": "2026-11-07T03:47:05+00:00",
+      "summary": "Please choose one of the following dedicated Discussion Hubs discussing topics relevant to your issue. UPDATE: All Discussion Hubs will now be automatically refreshed regularly (for most, weekly) NEW: You can now see full logs and summaries of all recent problem reports submitted by r/ClaudeAI readers. These logs allow you to see how intensely people are experiencing problems at any time with Usage Limits, Performance, Bugs and Accounts. See: User Problem Report Log and Surge Detector UPDATE: All report posts are now mirrored here: ClaudeAI User Report Subreddit and linked to from the report log post. Performance and Bugs Discussion Hub for discussion of Claude performance issues and bugs. Usage Limits Discussion Hub for discussion of Claude usage limits. ⭐ Built with Claude Project Showcase Megathread ⭐ for showcasing projects built with Claude Claude Competitor Comparison Discussion Hub for discussion of competitors to Claude. Claude Identity, Sentience and Expression Discussion Hub ",
+      "author": "claudeai-perfhub"
+    },
+    {
+      "title": "I built a sailing sim with Claude Code and made the frontier models race each other in it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpij9t/i_built_a_sailing_sim_with_claude_code_and_made/",
+      "published": "2026-11-06T17:22:13+00:00",
+      "summary": "I built a sailing sim with Claude Code. Claude Code wrote basically all of it (the boat physics, wind, the 3D water and coast, and the setup that lets AI models sail it) while I directed what to build and checked the results. How the race works: every 5 secs each model gets the full state of the world (23 raw numbers like heading, speed, wind, where the next mark is etc) and sets its helm and sails. No sailing tips. The sim pauses while it thinks, so slow models aren't punished. Opus, GPT-6 Astra and Gemini 4 Argon raced. And yes I know qwen3.5-9b is not frontier but I threw it in there for fun. Not only did argon win it was 5x cheaper than Astra ($0.78 per run versus $3.58) submitted by /u/abhi3188 [link] [comments]",
+      "author": "abhi3188"
+    },
+    {
+      "title": "Anyone else being driven by people who pretend this doesn't exist?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpshux/anyone_else_being_driven_by_people_who_pretend/",
+      "published": "2026-11-07T00:16:14+00:00",
+      "summary": "*That title was supposed to read \"driven nuts\".* I spend hours a day in Claude. If you can dream it, you can make it. Any moron can now be a poor data scientist, which is a huge step up. Yet I am surrounded by a world who acts likes this tool hardly exists or is just a quicker way of getting a sports score. I feel like I am in Don't Look Up. One factor is that the world is changing... but maybe that's dramatic. But the way you can access information has drastically changed. submitted by /u/Appropriate-Tie-6524 [link] [comments]",
+      "author": "Appropriate-Tie-6524"
+    },
+    {
+      "title": "Claude, make me these parts in Solidworks.... 7 minutes later....",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpeg2l/claude_make_me_these_parts_in_solidworks_7/",
+      "published": "2026-11-06T14:40:50+00:00",
+      "summary": "I had Claude write its own MCP connector to my SolidWorks installation on my computer. I regularly use it to create parts I'm using off Amazon or other sites without a CAD file. Works great. FWIW: I posted the same thing over in r/SolidWorks and they didn't see how cool this was. Downvoted hard. submitted by /u/idreamincode [link] [comments]",
+      "author": "idreamincode"
+    },
+    {
+      "title": "Duet?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpnpn4/duet/",
+      "published": "2026-11-06T20:47:05+00:00",
+      "summary": "Ahh, Reddit, you never disappoint. But now that it's been out there for a week or so, what do people really think? submitted by /u/scodtt [link] [comments]",
+      "author": "scodtt"
+    },
+    {
+      "title": "Stanford researchers develop a new AI memory system that recalls information from entire conversation histories using just 16 memory tokens. It reduces document-token usage by up to 4,212×, runs 27× faster in a 512-document test, and outperforms existing approaches on 5 of 8 benchmarks.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpvvg3/stanford_researchers_develop_a_new_ai_memory/",
+      "published": "2026-11-07T03:04:25+00:00",
+      "summary": "This, if applied to Claude, will be revolutionary. submitted by /u/Site-Staff [link] [comments]",
+      "author": "Site-Staff"
+    },
+    {
+      "title": "Anthropic researchers are reporting a sharp, sudden increase in how much AI is speeding up AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xplov4/anthropic_researchers_are_reporting_a_sharp/",
+      "published": "2026-11-06T19:24:21+00:00",
+      "summary": "Source: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/ submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Atrocious READMEs in vibe coded projects.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpcvan/atrocious_readmes_in_vibe_coded_projects/",
+      "published": "2026-11-06T13:31:53+00:00",
+      "summary": "This is becoming a huge problem, in my opinion. Way too many projects use a \"marketing\" style for their README (AI generated ofc, Claude loves to write like that). Its supposed to be concise and not be filled with word salad. Also for some reason it always assumes that the reader is a toddler that interacts for the first time with a PC. I really hope this changes soon and doesnt become the default... Here is an example: \"Runs locally: No cloud, no servers, no API keys, zero network calls. It parses your files right on your CPU, writes its cache to your local disk, and leaves the internet completely out of the equation\" Like DAMN thats so much padding! Like it tries it hardest to use as many words as possible (and being as useless as possible), when you can say this instead: Runs locally and is fully offline (caches data in %LOCALAPPDATA%\\projectname). Just look through every 2nd repo thats getting posted in the pinned post \"Show us what youve created\". So many READMEs are suffering fro",
+      "author": "Lost_Cyborg"
+    },
+    {
+      "title": "Yo claude, you don't need 166 agents for this..",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xphfvn/yo_claude_you_dont_need_166_agents_for_this/",
+      "published": "2026-11-06T16:40:34+00:00",
+      "summary": "I had redesigned my admin panel UI which is like 8 pages max. I was using ultracode for the /design prompt (prompt 1) but when it finished building the designs, I said 'continue with it' and bro started spawning 166 agents in total to do the review work for it. I had to stop it and tell it to use max 2 agents from now on for such things. submitted by /u/shantud [link] [comments]",
+      "author": "shantud"
+    },
+    {
+      "title": "I built a Netflix-style app for my media server with Claude. The whole thing is 15 MB 🤯",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp76q1/i_built_a_netflixstyle_app_for_my_media_server/",
+      "published": "2026-11-06T07:53:59+00:00",
+      "summary": "if you run a home media server you probably have sonarr, radarr, lidarr, bazarr, prowlarr and seerr. thats six apps, and each one ships with its own little operating system inside just to run. sonarr and radarr each sit around 110-140 MB of ram doing nothing i wanted one app that does all of it and feels like netflix, so i built holyarrs. its about 15 MB to download and idles around 70 MB of ram with 12,800 movies and shows in it https://reddit.com/link/1xp76q1/video/qv0lumey4yzh1/player i designed it and used claude to help write the code. one thing i learned fast is claude doesnt care about size at all. if you let it, everything slowly gets heavier. so here's what i did to keep it small: set limits before writing anything. how much memory it can use idle, how fast it starts, how big it can be. every feature had to fit inside those tested instead of guessing. i had the same home page (10,000 posters) built two different ways and measured both. one was about 3x lighter and drew the scr",
+      "author": "CoderLuii"
+    }
+  ]
+}

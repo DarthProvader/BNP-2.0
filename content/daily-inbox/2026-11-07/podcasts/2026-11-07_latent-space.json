@@ -1,0 +1,27 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-07T04:01:57.585197+00:00",
+  "items": [
+    {
+      "title": "Deep Dive: Anthropic S-1 Myths and Mythos — Jamin Ball, Altimeter",
+      "url": "https://www.youtube.com/watch?v=P735f1xlpL0",
+      "published": "2026-11-07T01:49:28+00:00",
+      "summary": "Watch the full show on YouTube: https://www.youtube.com/watch?v=P735f1xlpL0",
+      "author": "Latent.Space"
+    },
+    {
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/controlling_biology_-_fabian_theis_helmholtz_munich_1",
+      "published": "2026-11-06T13:48:24+00:00",
+      "summary": "Fabian Theis has been one of the key players in the various iterations of the Virtual Cell concept and initiatives. It is not hyperbole at all to say that his lab has been pushing the frontier of algorithms to understand multi-scale, multi-modal (”mult...",
+      "author": "Latent.Space"
+    }
+  ]
+}

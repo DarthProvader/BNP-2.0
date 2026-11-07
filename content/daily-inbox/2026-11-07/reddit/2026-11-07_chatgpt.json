@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-11-07T04:04:04.820532+00:00",
+  "items": [
+    {
+      "title": "He'll come for your RAM",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpc9di/hell_come_for_your_ram/",
+      "published": "2026-11-06T13:02:37+00:00",
+      "summary": "submitted by /u/harsht07 [link] [comments]",
+      "author": "harsht07"
+    },
+    {
+      "title": "A saga in 35 prompts (Based off the post where they spammed ChatGPT 10 times)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpkifg/a_saga_in_35_prompts_based_off_the_post_where/",
+      "published": "2026-11-06T18:38:18+00:00",
+      "summary": "These are the first 20 pictures. The rest will follow in the comments. submitted by /u/Infamous_Top677 [link] [comments]",
+      "author": "Infamous_Top677"
+    },
+    {
+      "title": "I just spammed chatgpt like 10 times and this happened",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
+      "published": "2026-11-06T13:39:16+00:00",
+      "summary": "I am a straight male and I have never mentioned anything about my social or dating life to it submitted by /u/Next_Topic_6225 [link] [comments]",
+      "author": "Next_Topic_6225"
+    },
+    {
+      "title": "I used Codex to revive Pro Pinball - The Web (1995)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/",
+      "published": "2026-11-06T21:19:34+00:00",
+      "summary": "Inspired by posts about AI being used to reverse engineer this and re-implement that I decided to take on a real love project of mine - transporting the pinball classic \"Pro Pinball - The Web\" (1995) into the present. A game I spent so many hours on back then, I even tried recreating that feeling by setting up a retro PC with Windows 98. However it would just never run right, neither on that Win98 machine nor in DosBox. So yeah, I used Codex (Sol 6.1 High) to reverse engineer the game in the hopes of reviving one of \"my\" greatest games. The process was quite straight forward - in relatively small steps I'd ask Codex to analyze and recreate parts. Physics first, then animations, towards the first playable demo... I spent quite a lot of time playtesting to make sure everything had been gotten right. The first playable version was fixed to 1024x768, that was just too small on a modern PC, so \"we\" implemented scaled full screen, which made the dot matrix display look like ***. Codex had th",
+      "author": "rnatau"
+    },
+    {
+      "title": "I gave GPT-6 Astra an office tower and told it to open 100 businesses. $2,000 in ads later: $0, and it built a second tower",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpjcle/i_gave_gpt6_astra_an_office_tower_and_told_it_to/",
+      "published": "2026-11-06T17:53:39+00:00",
+      "summary": "Last month my Claude farm made $0 from 245 dead ideas. So this time I gave the agents an office (a floor in a 3D tower, with desks, a meeting room and an empty chair for me) and one goal: open 100 businesses. I said I'd stay out of it, and I did. They got weird fast: Again: upload your dead grandma's WhatsApp chats and she texts you again. $19 a month. The checkout says \"Cancel anytime. She dies again.\" https://again.towers.app Tells: watches prediction markets for bets that seem to know your company's secrets. $1,500 a month. https://tells.towers.app Pentrail : a SOC 2 pentest for $20. https://pentrail.towers.app A watchdog for Japanese subsidy paperwork. Nobody on the team reads Japanese. https://hojokinmamori.shop A German e-invoice checker, in German. https://annehmbar.com A to-do app called Sunday, because even the agents hate Mondays. https://sunday.towers.app Each business got its own floor. At 30 floors the tower was full, so they broke ground on a second one, then a third. The",
+      "author": "LordKittyPanther"
+    },
+    {
+      "title": "The new feature doesn't only make GIFs :)",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpj78a/the_new_feature_doesnt_only_make_gifs/",
+      "published": "2026-11-06T17:47:48+00:00",
+      "summary": "My take on one of my all-time favorite audiovisual techniques; hyperlapse . Music by Max Cooper. Hope you guys enjoy it. More experiments, through the following . submitted by /u/uisato [link] [comments]",
+      "author": "uisato"
+    },
+    {
+      "title": "Why do they throttle ChatGPT so bad just before an update?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpvmyy/why_do_they_throttle_chatgpt_so_bad_just_before/",
+      "published": "2026-11-07T02:52:19+00:00",
+      "summary": "submitted by /u/No_Vehicle7826 [link] [comments]",
+      "author": "No_Vehicle7826"
+    },
+    {
+      "title": "WoW Forever used 200,000 GB of Sam’s RAM",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpb6ow/wow_forever_used_200000_gb_of_sams_ram/",
+      "published": "2026-11-06T12:06:53+00:00",
+      "summary": "submitted by /u/aloC-DK [link] [comments]",
+      "author": "aloC-DK"
+    },
+    {
+      "title": "Is anyone else experiencing the “Context Window Full” message more frequently?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xps6yi/is_anyone_else_experiencing_the_context_window/",
+      "published": "2026-11-07T00:02:18+00:00",
+      "summary": "Has anyone else been running into the “Context Window Full” message when using ChatGPT? I've been finding this increasingly frustrating, especially when I'm in the middle of a conversation or working on something and suddenly can't continue in the same chat. What makes it even more frustrating is that sometimes it feels like I've only just started the conversation, yet I'm already being told that the context window is full. I've also noticed that starting a new chat doesn't always feel like a good solution, especially when you're trying to maintain continuity with an ongoing conversation or project. For example, I recently had to start a new chat because the original one I was working in reached its context limit. Now, after going through around ten chats, I'm being told again that the context window is full and that I need to start another chat or upgrade to Plus. It's frustrating because I feel like I'm constantly having to start over just to continue working on the same project. It ",
+      "author": "Creative-Concert7227"
+    },
+    {
+      "title": "Does OpenAI realise they became a walking safety ai meme?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xpmnc8/does_openai_realise_they_became_a_walking_safety/",
+      "published": "2026-11-06T20:03:02+00:00",
+      "summary": "I just talked about going to a pilates class and feeling so much relief after a particular stretch, hoping id talk about muscles and fascia and whatever shit… and i got guardrailed autoinjected disclaimers about „pilates not really loosening muscles and fascia”. I told it to look up current medicine papers around fascia, it said sorry, that i was right, and then continued the automated bullcrap. I mean wtf, OpenAI? It’s embarrassing what you did to something that used to be incredible and good for humanity. It’s like it’s barely holding on at this point, from all the safety and RL you battered it with. submitted by /u/nosebleedsectioner [link] [comments]",
+      "author": "nosebleedsectioner"
+    }
+  ]
+}

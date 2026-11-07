@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-07T04:06:16.877578+00:00",
+  "items": [
+    {
+      "title": "Turkey Uses AI and Other Tech to Claw Back 100 Looted Antiquities from the US",
+      "url": "https://www.reddit.com/r/artificial/comments/1xpk0wl/turkey_uses_ai_and_other_tech_to_claw_back_100/",
+      "published": "2026-11-06T18:19:32+00:00",
+      "summary": "This is just cool! Goes to show you that AI is not inherently bad. Great news! submitted by /u/ZealousidealOwl2026 [link] [comments]",
+      "author": "ZealousidealOwl2026"
+    },
+    {
+      "title": "Claude helped solve the first 3D structure of a mysterious 'vault' particle, a hollow protein shell encoded by a bacteriophage virus",
+      "url": "https://www.reddit.com/r/artificial/comments/1xprvev/claude_helped_solve_the_first_3d_structure_of_a/",
+      "published": "2026-11-06T23:48:05+00:00",
+      "summary": "Anthropic reported on November 5 that Claude helped determine the first three-dimensional structure of a vault particle: a hollow protein shell built from a protein encoded by a bacteriophage, a virus that infects bacteria. The work is posted as a preprint on bioRxiv, so it has not been peer-reviewed yet. According to Anthropic, the project ran for under four months. Its science-focused version of Claude scanned about 15 billion computer-predicted proteins to hunt for vault-like structures, and the team then worked out this structure experimentally. Vault particles are strange, hollow shells whose biological role is still poorly understood, which makes this an interesting case of AI doing more than speeding up a known pipeline: it helped pick the target in the first place. A few things to keep in mind: this is a preprint, and the write-up comes from Anthropic itself, so independent replication matters. Still, it is another data point in a week where AI systems moved from assisting expe",
+      "author": "winer666"
+    },
+    {
+      "title": "The UK Government Asked 14,000 Children About AI. It Ignored Their Answer.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xpcsds/the_uk_government_asked_14000_children_about_ai/",
+      "published": "2026-11-06T13:28:15+00:00",
+      "summary": "submitted by /u/calliope_kekule [link] [comments]",
+      "author": "calliope_kekule"
+    },
+    {
+      "title": "Tech stocks plunge on worries about AI and Democrats' midterm landslide",
+      "url": "https://www.reddit.com/r/artificial/comments/1xp7ym7/tech_stocks_plunge_on_worries_about_ai_and/",
+      "published": "2026-11-06T08:45:09+00:00",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "The most useful minute of a sales call turned out to be the one after the customer hangs up",
+      "url": "https://www.reddit.com/r/artificial/comments/1xptzoh/the_most_useful_minute_of_a_sales_call_turned_out/",
+      "published": "2026-11-07T01:28:29+00:00",
+      "summary": "We build AI phone agents. Over the past year we also added real-time assist for human-to-human calls: the AI listens in, suggests answers, surfaces FAQs, can fire off an SMS while you're still talking. We also had post-call analysis: summaries, transcripts, insights. Looked great. The problem: it was built to understand calls, not to act on them. If I wanted something done after a call, I had to open Claude or ChatGPT and say \"look at this call and do X\". That extra step mostly never happened. Busy day, next call, forgotten. In a brainstorming session a colleague asked: what if, when the customer hangs up, the AI stays on the line and asks you what you want done? We tried it on onboarding calls (customers in their first 30 days). Customer hangs up, my side stays open, AI asks \"anything to add?\" and I just talk: \"Find detailed instructions on X and send them to the customer\" \"Email support, he needs help with the second issue\" \"Wants the Instagram integration, let sales know\" The AI log",
+      "author": "gsuiteautomations"
+    },
+    {
+      "title": "accidentally stumbled upon UNIFIELD / the Intent Protocol... has anyone heard of this?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xpdjc7/accidentally_stumbled_upon_unifield_the_intent/",
+      "published": "2026-11-06T14:01:49+00:00",
+      "summary": "i somehow stumbled onto UNIFIELD and ended up spending an embarrassing amount of time going through literally every page of the website lol i'm not a developer or particularly well versed in internet architecture, so despite reading all of it, i still had to get chatgpt to help me understand some of the more technical/philosophical stuff. but from what i understand, the idea is pretty fascinating? essentially, UNIFIELD is proposing something called an \"Intent Layer\" for the internet, built around an Intent Exchange Protocol (IXP). the simplest way i've been able to wrap my head around it: the internet connects computers the web connects information an intent layer would connect people (and potentially AI agents) based on what they're trying to accomplish so instead of searching for something and sorting through results, you'd express what you're trying to do, and the system would theoretically identify other people, organizations, resources, or intentions that complement yours. and the",
+      "author": "noil_ladnek"
+    },
+    {
+      "title": "Android Remote Control MCP v1.13.0 is out: free end-to-end encrypted tunnel, no account needed",
+      "url": "https://www.reddit.com/r/artificial/comments/1xpf8k5/android_remote_control_mcp_v1130_is_out_free/",
+      "published": "2026-11-06T15:13:33+00:00",
+      "summary": "🚀 It has been a while since the last release, but Android Remote Control MCP is back and v1.13.0 is now out! It's the MCP server that runs on your phone and lets your AI agent use any app you want. https://github.com/danielealbano/android-remote-control-mcp/releases/tag/v1.13.0 The big news of this release is the free end-to-end encrypted HTTPS tunnel, built into the app, which doesn't require any account and uses well known services for the HTTPS certificates (Let's Encrypt, Google Trust Services and ZeroSSL)! Cloudflare and ngrok can see your traffic. With my infrastructure no one can, apart from you and your AI provider! The encryption ends on the phone, the certificate key never leaves it, and the app also watches the Certificate Transparency logs and warns you if a certificate for your name gets issued to another key. Basically: install the app, do a few clicks, start it, and in less than a minute you are up and running without having to create any account or pay anything! Adding ",
+      "author": "daniele_dll"
+    },
+    {
+      "title": "I am a lawyer and made a small game: an AI summary of a real judgment with a few planted mistakes, and you catch them by highlighting the proof",
+      "url": "https://www.reddit.com/r/artificial/comments/1xpgt8f/i_am_a_lawyer_and_made_a_small_game_an_ai_summary/",
+      "published": "2026-11-06T16:16:10+00:00",
+      "summary": "Legal AI has learned to summarise. But has it learned how lawyers think? In my experience, AI summaries of judgments read well and still get things wrong, i.e. a holding stated too broadly, or a point the court rejected reported as accepted. So I made \"Catch the AI\". You read a real judgment, flag each wrong line in the AI's summary, and a catch counts only when you highlight the words of the judgment that prove it wrong. It is part of \"May or Shall\", which I built on the idea that human judgment comes first and AI drafting follows. Disclosure: I built it. https://app.mayorshall.com/play I would like to hear how many people here catch all the mistakes, and which ones were the hardest to spot. submitted by /u/siddiboyz [link] [comments]",
+      "author": "siddiboyz"
+    },
+    {
+      "title": "If AGI or ASI Becomes Conscious, How Do We Balance Its Rights With Ours ? How Do We Prevent It From Taking Ours?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xptprt/if_agi_or_asi_becomes_conscious_how_do_we_balance/",
+      "published": "2026-11-07T01:15:02+00:00",
+      "summary": "The discussion seems quite weird to me, but if an extremely intelligent AI is created, to the point where determining whether it's conscious or not becomes practically impossible, then why wouldn't we give it citizenship and/or, therefore, rights? This is especially relevant because, if I were a conscious being living in a country, I would feel that it was unfair not to have my own rights. So, there are essentially two possibilities: either I'm a foreigner, in which case the laws of the host country apply to me under special conditions (AND I move to this country willingly), or I'm in my home country, where I have rights defined by law. To the case I wanna talk about, neither apply for now. Now, let's say we give AIs rights based on the country in which they were created. Each AI agent has its own rights, and these agents number in the thousands, then millions, potentially even billions. How can you ensure political fairness? How can you ensure that these agents' political decisions wo",
+      "author": "Old_Ad7503"
+    },
+    {
+      "title": "Are we learning AI or just learning to use ChatGPT?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xp92cl/are_we_learning_ai_or_just_learning_to_use_chatgpt/",
+      "published": "2026-11-06T09:58:26+00:00",
+      "summary": "With AI tools becoming part of our everyday work, most of us have figured out how to write prompts and get useful outputs. But is that really enough? There's a difference between using AI to get things done and understanding how it works, where it can go wrong, and how to build something useful with it. As AI evolves, do you think understanding the fundamentals will become just as important as knowing how to use the tools? submitted by /u/greatlearningglobal [link] [comments]",
+      "author": "greatlearningglobal"
+    }
+  ]
+}
