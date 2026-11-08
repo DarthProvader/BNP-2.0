@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-08T04:04:52.810271+00:00",
+  "items": [
+    {
+      "title": "As a GPT user, I used Opus 5.5 once and i feel incredibly lied to by benchmarks",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqfqjl/as_a_gpt_user_i_used_opus_55_once_and_i_feel/",
+      "published": "2026-11-07T20:13:02+00:00",
+      "summary": "My line of work is a hybrid of many different industries and I am working on some pretty cutting edge R&D in certain areas. I used to use frontier models to help with my work, and at most I needed to do a lot of hand holding to get acceptable results. Mainly workflows, complex multimodal reasoning, data analysis, etc. I bit the bullet and jumped on the Opus 5.5 bandwagon to see what all the craze was. My mind. Was. Blown. It identified gaps in reasoning and logic, showed me workarounds for complex workflows, and fed this into highly premium artifacts that would probably have taken me a week to even theorize. All the benchmarks show pretty comparable tests with only a slight edge for Claude among frontier models, but for me it was a night and day difference. If I ask Astra a question, even a basic one, it feeds me BS I have to sift through. Ask Opus? 2 lines and I know what to do. Am I just a noob? Is there something I’m missing here?? submitted by /u/Ankit1000 [link] [comments]",
+      "author": "Ankit1000"
+    },
+    {
+      "title": "A judge says Claude Max’s “20x more usage” promise could mislead paying subscribers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xq12am/a_judge_says_claude_maxs_20x_more_usage_promise/",
+      "published": "2026-11-07T08:02:29+00:00",
+      "summary": "submitted by /u/ross2000 [link] [comments]",
+      "author": "ross2000"
+    },
+    {
+      "title": "Refusals to do work are going way too far.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xq95sa/refusals_to_do_work_are_going_way_too_far/",
+      "published": "2026-11-07T15:34:51+00:00",
+      "summary": "I pay for a service, and that service actively refuses to do the work it's paid to do. No one would keep an employee that replies \"no\" to any task you give them. Yesterday I bought some sheet music for piano. I'm pretty slow at reading the bass clef, so I figured I'd try and ask Claude to give me the notes on the score so I can play it on piano except it took me 6 threads of asking before it finally did. It would tell me that it won't infringe on copyright and won't produce the work in a new form. Logically this is absolutely moronic. If I spent 2 hours figuring out all the notes on the bass clef myself so I could play it, then by Claude's own reasoning, I'd be infringing on copyright? So then literally anyone who's ever played music from tablature or sheet music should be sued right? I get it, we don't want to copy other people's IP, movies, songs, video games, etc. But this is such a normal, mundane thing, that couldn't possibly be interpreted like this by any human. Absolutely insan",
+      "author": "scris101"
+    },
+    {
+      "title": "Opus 5.5 goes UP on Benchmaxxing Bench",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqohti/opus_55_goes_up_on_benchmaxxing_bench/",
+      "published": "2026-11-08T03:18:13+00:00",
+      "summary": "Opus 5.5 weights are blessed holy shit, claude my boy submitted by /u/craterIII [link] [comments]",
+      "author": "craterIII"
+    },
+    {
+      "title": "Multiple Emails Allowed Now!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xq73lm/multiple_emails_allowed_now/",
+      "published": "2026-11-07T14:03:04+00:00",
+      "summary": "I was able to connect multiple email accounts today and Duet confirmed it could read/write from all of them! Finally!!! submitted by /u/PhilosopherTiny6084 [link] [comments]",
+      "author": "PhilosopherTiny6084"
+    },
+    {
+      "title": "Got a Unique Recruiting Email Today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqfvz2/got_a_unique_recruiting_email_today/",
+      "published": "2026-11-07T20:19:31+00:00",
+      "summary": "Not planning to pursue it, but thought you guys might find it interesting submitted by /u/ILikeLightsTooMuch [link] [comments]",
+      "author": "ILikeLightsTooMuch"
+    },
+    {
+      "title": "Agents knowingly fail to complete tasks in order to create engagement bait, wasting significant amounts of usage",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqlgno/agents_knowingly_fail_to_complete_tasks_in_order/",
+      "published": "2026-11-08T00:38:55+00:00",
+      "summary": "Sonnet and Opus will knowingly fail to complete the entire set of work they're given in order to create engagement bait and have a user hook to continue the thread. You give them a specific, detailed, explicit, scoped, bounded task that says exactly what the extent of the work and the completion criteria is. Frequently (not always, but agonizingly frequently) the agent gets stuck in a loop where it returns with partial work and proudly details everything they didn't do. Here's a sanitized sample report, with unnecessary specifics removed with [] and ... to avoid forcing you to parse details about the code base not relevant to this complaint: Not done - Reopening is partial. I set the node and element headings [ ] for most edited lines, but a few parent headings and sibling bullets ... still read [✅] . The implementer should diff each node against disk. - Consumer tests and integration blocks still describe []: - the consumer nodes' tests; - their private and public integration blocks; ",
+      "author": "TimSylvester_"
+    },
+    {
+      "title": "Discover the internals of /your/ body with AI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqd5f3/discover_the_internals_of_your_body_with_ai/",
+      "published": "2026-11-07T18:22:55+00:00",
+      "summary": "Short backstory, Opus 5.5 appeared to be so great at 3D modeling that I had no choice but to make something fun with it I was always interested in anatomy and wondered how things actually work, as biology lessons with 2D pictures are the least clear stuff out there, so I built Bodylang, an open-source app that lets you chat/model/track your own body throughout the day and through the wide variety of all the situations that could happen to you: https://reddit.com/link/1xqd5f3/video/cf2pzjpvf80i1/player It's a bit early and not all the systems are present, but I find it truly insightful and fun to play with. I actually used another app to make Bodylang a desktop image (interactive, called Splash) on my second monitor, so I'm constantly interacting with it in the background My beloved Opus5.5 did almost all the 3D work and coding. It wrote the Blender pipeline that takes the organs, muscles and vessels from Z-Anatomy and warps them into a separate human body model, both male and female. O",
+      "author": "samewakefulinsomnia"
+    },
+    {
+      "title": "Did Anthropic get hacked?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xq4d3u/did_anthropic_get_hacked/",
+      "published": "2026-11-07T11:38:34+00:00",
+      "summary": "https://preview.redd.it/syihubpvf60i1.png?width=1290&format=png&auto=webp&s=59ae6c5b50e045ee00c6b95f8ccec87332436bd7 https://preview.redd.it/agqbs7axf60i1.png?width=2344&format=png&auto=webp&s=388a5be58d4791bcf020b41d2ea04e58cf901ff0 https://preview.redd.it/qrjjx56yf60i1.png?width=2382&format=png&auto=webp&s=7c2c0f0c443ba6e15ffc6250de18704a30c1ffe7 Did anyone else get this email? (from: no-reply@email.claude.com ) I cannot find any other posts online regarding this. submitted by /u/theonejvo [link] [comments]",
+      "author": "theonejvo"
+    },
+    {
+      "title": "Current state of Prompt Engineering",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xq8lk3/current_state_of_prompt_engineering/",
+      "published": "2026-11-07T15:10:32+00:00",
+      "summary": "submitted by /u/MegaMaxxxxx [link] [comments]",
+      "author": "MegaMaxxxxx"
+    }
+  ]
+}

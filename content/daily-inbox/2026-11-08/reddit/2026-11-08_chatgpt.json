@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-11-08T04:03:01.514488+00:00",
+  "items": [
+    {
+      "title": "I think Sam Altman stole my RAM. ChatGPT knows too much 💀",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9hwa/i_think_sam_altman_stole_my_ram_chatgpt_knows_too/",
+      "published": "2026-11-07T15:49:23+00:00",
+      "summary": "submitted by /u/RyzovaTech [link] [comments]",
+      "author": "RyzovaTech"
+    },
+    {
+      "title": "What benefits does the paid version of ChatGPT offer that the free version doesn't?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xql4gc/what_benefits_does_the_paid_version_of_chatgpt/",
+      "published": "2026-11-08T00:22:11+00:00",
+      "summary": "submitted by /u/PepperCat1019 [link] [comments]",
+      "author": "PepperCat1019"
+    },
+    {
+      "title": "You know it's my destiny!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq7uya/you_know_its_my_destiny/",
+      "published": "2026-11-07T14:37:41+00:00",
+      "summary": "\"To train them is my cause.\" submitted by /u/Cyborgized [link] [comments]",
+      "author": "Cyborgized"
+    },
+    {
+      "title": "dear god its happening again",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqnkc3/dear_god_its_happening_again/",
+      "published": "2026-11-08T02:27:32+00:00",
+      "summary": "is this going to be permanent? its been like 3+ days, i was waiting for it to be fixed but theres no sign of that happening yet. i saw paid users are also experiencing this so it seems like a bug, but why hasnt it been fixed yet? submitted by /u/Ordinary-weirdo6359 [link] [comments]",
+      "author": "Ordinary-weirdo6359"
+    },
+    {
+      "title": "In case you're wondering how much value ChatGPT has delivered to you, try this simple prompt...",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq9auk/in_case_youre_wondering_how_much_value_chatgpt/",
+      "published": "2026-11-07T15:41:03+00:00",
+      "summary": "Prompt: \"Compile a comprehensive and complete list of all the things you helped me successfully accomplish since I've started using ChatGPT\". My result was a staggering list of hundreds of items with a great overall assessment summary at the end. For me it really highlighted just how valuable this tool has become in my everyday life. submitted by /u/derek985 [link] [comments]",
+      "author": "derek985"
+    },
+    {
+      "title": "I notice a lot of people have \"NO\" idea about this. How the image generators Restrictions work.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqdus9/i_notice_a_lot_of_people_have_no_idea_about_this/",
+      "published": "2026-11-07T18:52:32+00:00",
+      "summary": "A lot of people seem to not know this, and blame the assistant constantly, so i figured id share and see how many are helped by this If this helped you let me know in the comments. [Edit: this is posted and made simple for those who dont know much about the generator. A simple model to separate simple broad restrictions] There's three gates, its never just the assistant, here's a mental model of what it looks like Gate 1, the assistant (can your assistant align with you) Gate 2, the prompt (can the image generator interpret your prompt correctly) Gate 3, the output (cant the final result be given to you) Fail at Gate 1 and your assistant will simply say \"i wont/cant do that\"; Fail at Gate 2 and you get a \"your prompt may violate...\" response; Fail at Gate 3 and you get a \"the image we created may violate...\" response. Gate 3, is very sensitive, 1 & 2, very easy, gate 3 tho, its like a man standing at the end of the conveyor belt, watching, and sees it and says \"absolutely the feck not\"",
+      "author": "FoundationXYZ"
+    },
+    {
+      "title": "Estranged wife ‘manipulated and encouraged’ by ChatGPT to poison husband",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq4g2m/estranged_wife_manipulated_and_encouraged_by/",
+      "published": "2026-11-07T11:43:38+00:00",
+      "summary": "submitted by /u/TheExpressUS [link] [comments]",
+      "author": "TheExpressUS"
+    },
+    {
+      "title": "E-mail from OneLogin about access token being granted to my ChatGPT app",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqcd5d/email_from_onelogin_about_access_token_being/",
+      "published": "2026-11-07T17:50:06+00:00",
+      "summary": "It looks technical. I'm very tech savvy and even I'm uncertain about this. The sender is from onelogin.com , which seems like a legitimate service, thus I don't know if it is something ChatGPT uses or not. Has anyone else received a similar email? Is this phishing or does OpenAI send emails about account security from the domain \\@onelogin.com? submitted by /u/Connect-Teaching7629 [link] [comments]",
+      "author": "Connect-Teaching7629"
+    },
+    {
+      "title": "Chat only Plus user, how I will be impacted with the upcoming changes?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq6hj4/chat_only_plus_user_how_i_will_be_impacted_with/",
+      "published": "2026-11-07T13:33:47+00:00",
+      "summary": "I see Open AI is combining usage across products, and removing unlimited Chat, as an only Chat user, no Codex, no Work, will I start hitting the 5 hour limit? Thanks submitted by /u/br_web [link] [comments]",
+      "author": "br_web"
+    },
+    {
+      "title": "Share an uncommon way to use ChatGPT that works for you!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xq920i/share_an_uncommon_way_to_use_chatgpt_that_works/",
+      "published": "2026-11-07T15:30:21+00:00",
+      "summary": "I'll start: I use my ChatGPT to prepare my month in advance, relate then to goals and objectives in my life and I keep a weekly tracker that effectively measures if I'm following the correct path to achieve them. These include healthy food, exercise, even money. And at the same time, he's also my recipes planner. At this point I feel it manages 50% of my life. What about yours? submitted by /u/Developing_Stoic [link] [comments]",
+      "author": "Developing_Stoic"
+    }
+  ]
+}
