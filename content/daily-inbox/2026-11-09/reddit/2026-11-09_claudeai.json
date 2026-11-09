@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-09T04:05:17.473347+00:00",
+  "items": [
+    {
+      "title": "Claude saved my old iPhone from becoming ewaste",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xrevbv/claude_saved_my_old_iphone_from_becoming_ewaste/",
+      "published": "2026-11-09T01:30:10+00:00",
+      "summary": "Semi - new Claude user here. I had my old iPhone se that would not boot into anything, restore, ramdisk, nothing. Got to a point where I thought the nand had failed as it'd kernel panic or just die instantly. After longer than I want to admit of trying fixes I sent Claude the logs from a kernel panic it kept encountering when booting a ramdisk. It diagnosed the problem first try, the light sensor broke. But after opening the device, I saw it was the board connector, it was water damaged so a new screen wouldn't do anything. So as a test, it patched the sensor out of the boot process in sshrd_script, where the panic kept happening. Booted first try without a panic and the rest of the script worked as usual, I rooted right in and backed up some files. It pushed the fix into a new tool it made to patch the check out of regular Ipsw files, I restored one of the patched files to the phone and it worked first try!! Only boots tethered right now, however everything else is flawless. Ik it's o",
+      "author": "Intelligent_Equal688"
+    },
+    {
+      "title": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
+      "published": "2026-11-08T17:11:53+00:00",
+      "summary": "I wanted AI agents to create, test, and improve my game mods autonomously by actually playing the games, without taking over my PC while they do it. So I built an MCP server with Claude Code. It gives Claude its own keyboard, mouse, gamepad and screen capture inside a single game. The game runs in the background so I can keep using my PC uninterrupted, and several games can run at once with one agent each. In the video Claude is driving to a map waypoint in GTA IV, flying a helicopter to a waypoint and landing it in GTA V, and walking to a marker in GTA IV. All of it is real time and unedited. After that it makes the choices in a Detroit: Become Human scene, and plays TABS, Halo Wars 2, Phantom Rose and Cities: Skylines. How Claude helped, since that's the interesting part: Claude Code set up the project, planned it and wrote most of the code: a DLL that runs inside the game for input and capture, and a TypeScript MCP server on top of it with about 100 tools. The development itself is ",
+      "author": "Wonderful-Ad-8579"
+    },
+    {
+      "title": "Holy guardrails",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr45rt/holy_guardrails/",
+      "published": "2026-11-08T17:41:08+00:00",
+      "summary": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when trying to troubleshoot a problem. Or am I using it wrong? submitted by /u/Hot-Income [link] [comments]",
+      "author": "Hot-Income"
+    },
+    {
+      "title": "Are we not allowed to ask any sh*t about biology to Opus 5.5?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr2pir/are_we_not_allowed_to_ask_any_sht_about_biology/",
+      "published": "2026-11-08T16:41:42+00:00",
+      "summary": "https://preview.redd.it/6ggcndgm2f0i1.png?width=1032&format=png&auto=webp&s=31cd3d832d7901e692102f8ac4ff901b763aa02f I wanted to ask Opus 5.5 if there are any molecules that can bind to androgen receptors more strongly than DHT. But even for such a simple question, my message is being flagged by the safeguards because of a biological question for no good reason. It’s really frustrating that I can’t use the service I paid for. submitted by /u/Deezwend [link] [comments]",
+      "author": "Deezwend"
+    },
+    {
+      "title": "What's the one prompt you keep coming back to?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr0drc/whats_the_one_prompt_you_keep_coming_back_to/",
+      "published": "2026-11-08T15:01:02+00:00",
+      "summary": "Mine is Break this project into as many small steps as you can, in order. Each step should take under 30 min and have a clear done-check. Put them in one artifact with checkboxes I can come back to for weeks. If a step stalls, I'll paste it back and you split it into 23a, 23b and so on. It's helped me finish bigger tasks at my job and a big school project, and I'm using it right now for language learning and a 100-step calisthenics plan. Opening the same tracker after 4 days off tells me exactly where I am, so I don't have to re-explain the whole project to a fresh chat. What's yours? Any kind counts: coding, work, studying, writing, life admin. The one you've reused the most. submitted by /u/GhaisD [link] [comments]",
+      "author": "GhaisD"
+    },
+    {
+      "title": "claudism",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqtwu0/claudism/",
+      "published": "2026-11-08T08:48:23+00:00",
+      "summary": "submitted by /u/Pulku [link] [comments]",
+      "author": "Pulku"
+    },
+    {
+      "title": "I built a free browser tycoon game with Claude: secretly live in the ceiling of a dying 2004 mall",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr4cd7/i_built_a_free_browser_tycoon_game_with_claude/",
+      "published": "2026-11-08T17:48:48+00:00",
+      "summary": "I built Mall Bats with Claude Opus 5.5 after watching the fun documentary Secret Mall Apartment . My first attempt was in March, but LLMs weren't there yet. Tried again last week, and I'm amazed by the result. What it is: an isometric tycoon/stealth game. You build a hidden home in a mall's drop ceiling, steal power from the stores below, and send your crew out after closing to fish the fountain while the night guard patrols. Buy the mall at auction on New Year's Eve to win. How Claude helped: it wrote nearly all the code: the simulation, crew AI, isometric renderer, a balance bot, and the PixelLab art pipeline. I handled design, playtesting, and feedback. Claude also made the trailer by staging shots inside the running game and synthesizing the music. 100% free, in your browser: https://mall-bats.vercel.app submitted by /u/jacobjr23 [link] [comments]",
+      "author": "jacobjr23"
+    },
+    {
+      "title": "I used Claude Code to rebuild IDM as a free, open-source download manager, the ArtCraft way. Mister Download Manager, in Rust, 0.5 just shipped",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqy0s6/i_used_claude_code_to_rebuild_idm_as_a_free/",
+      "published": "2026-11-08T13:07:25+00:00",
+      "summary": "When the guys at ArtCraft rebuilt Adobe's apps in Rust with Claude, I wanted the same for the download manager everyone knows, heh, IDM. I honestly never liked the licence nags. So ten days ago I started Mister Download Manager with Claude Code, and today's 0.5 is the first version I'd call complete. What it is: a free, open-source (GPL-3.0) download manager in Rust for Windows and Linux, with Mac builds still experimental. It has the classic IDM layout, downloads over many connections, takes files from your browser, does video, torrents, debrid, themes, and you can control it from your phone. It's free to try and will stay free: no paid tier, no ads, no account. How Claude helped, in detail: Claude Code with Opus wrote most of the code: the download engine, every window, the browser extension, the installers, the website. I decide what it does and how it looks, I review, and I test every release myself. The clean-room part was mine to enforce. The project rules Claude reads say no IDM",
+      "author": "Nefzaoui"
+    },
+    {
+      "title": "If you had one month and unlimited opus 5.5 tokens, what would you build?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xr5yps/if_you_had_one_month_and_unlimited_opus_55_tokens/",
+      "published": "2026-11-08T18:55:01+00:00",
+      "summary": "see title submitted by /u/Remote-Dragonfruit78 [link] [comments]",
+      "author": "Remote-Dragonfruit78"
+    },
+    {
+      "title": "I built my restaurant’s whole ops platform with Claude Code instead of paying for five different apps",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqquzu/i_built_my_restaurants_whole_ops_platform_with/",
+      "published": "2026-11-08T05:32:24+00:00",
+      "summary": "I own a smash burger restaurant. I’m not a developer, but since late last year I’ve been using Claude Code to build the software we run the business on. It’s called Pulse, and my staff use it every day. Here’s what’s in it: Tasks: a task manager, like Asana, for the team’s work, marketing campaigns and day-to-day operations Finance: expenses, sales and accounting Inventory: stock and supplier deliveries Central kitchen: where our recipes are processed WhatsApp: marketing messages and a customer inbox, connected through Meta’s developer program HR: salaries, attendance, leave and bonuses People keep asking (in another subreddit) why I didn’t just buy something that already exists. There are three reasons. First, I didn’t want five different apps running one restaurant. I wanted everything in one place, and I wanted it to grow as we open more branches. Second, our recipes. I didn’t want them stored on someone else’s system. Third, and this is the big one, my staff. In a business like our",
+      "author": "PumpkinCrafty7909"
+    }
+  ]
+}

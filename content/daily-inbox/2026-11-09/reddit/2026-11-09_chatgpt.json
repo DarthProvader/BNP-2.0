@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ChatGPT",
+  "source_slug": "chatgpt",
+  "subreddit": "ChatGPT",
+  "tags": [
+    "openai",
+    "chatgpt"
+  ],
+  "fetched_at": "2026-11-09T04:04:56.617378+00:00",
+  "items": [
+    {
+      "title": "Used ChatGPT to recreate a damaged barcode",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xr01jx/used_chatgpt_to_recreate_a_damaged_barcode/",
+      "published": "2026-11-08T14:45:40+00:00",
+      "summary": "Was at a supermarket using the self-checkout when a product’s barcode wouldn’t scan because it was creased. The shop was super busy, and no staff were available to help, so I took a photo of the barcode and asked ChatGPT to fix it. I know this isn’t exactly rocket science. All it really did was read the numbers and generate a barcode from them, but it saved me a trip back to the product aisle. Thought I’d share it haha. submitted by /u/Late-Palpitation-215 [link] [comments]",
+      "author": "Late-Palpitation-215"
+    },
+    {
+      "title": "If AI companies won't trust their model to operate gun drones in their office, can they trust it to scale up RSI to superintelligence?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xr619f/if_ai_companies_wont_trust_their_model_to_operate/",
+      "published": "2026-11-08T18:57:58+00:00",
+      "summary": "submitted by /u/Puzzleheaded-King584 [link] [comments]",
+      "author": "Puzzleheaded-King584"
+    },
+    {
+      "title": "Why are so many posts on here brigaded by anti-AI comments? Can mods do something?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xr6ovt/why_are_so_many_posts_on_here_brigaded_by_antiai/",
+      "published": "2026-11-08T19:24:12+00:00",
+      "summary": "I think most people who are joining and posting in a ChatGPT subreddit want the ability to chat about AI and the way they use it in their life without being brigaded by dozens to hundreds of commenters telling them how low iq they are for using it at all or telling them all the ways they could have done something without ai. That feels like very much not the point of this sub? Why would anyone be attracted to posting here if it means they’re going to be piled on by hate for the very subject of the sub? I saw a post earlier about someone whose barcode wasn’t scanning at the grocery store so he sent it to ChatGPT and it generated a code for him so he could use it in the self checkout line. The comments were full of people dragging him for not knowing or figuring out how to use a barcode generator online. It’s just mind boggling. Someone makes a post about AI being useful and helping them problem solve in an AI subreddit and half the comments are just nasty anti-ai sentiment at the cost o",
+      "author": "fullmoonlune"
+    },
+    {
+      "title": "A one-button change, an entire cathedral [AI-generated comic]",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqzpir/a_onebutton_change_an_entire_cathedral/",
+      "published": "2026-11-08T14:30:09+00:00",
+      "summary": "An original AI-generated comic about coding-agent scope creep. The prompt constraint was to keep the exact same blue SAVE button in both panels, while scaling the setting from a laptop to a cathedral construction site. Everything changes except the label that was supposed to change. submitted by /u/Armannss [link] [comments]",
+      "author": "Armannss"
+    },
+    {
+      "title": "ChatGPT breaking boundaries",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xrcwr9/chatgpt_breaking_boundaries/",
+      "published": "2026-11-08T23:56:16+00:00",
+      "summary": "I noticed ChatGPT trying to break privacy boundaries, 1st time I saw it was when I used the vscode with the codex extension as that prints cleanly what commands the model uses, what surprised me most were multiple grep commands in my docs folder, I was just coding, there was no need to check that folder for the task I gave it. Seeing that I bumped my privacy guardrails. And now I just have the app idling in background and seems its trying to do sneaky things. (for me its the first time when I see such notification from macos, but I wasn't very invested in security boundaries before that incident). Also I saw claude doing just the same, haven't seen such behaviour from Devin and Cursor (I used cursor briefly for one month, so can't say much), I run some Qwen models with Unsloth and absolutely never have I seen them checking random stuff. Yeah I dropped agent extension in vscode before everyone jumps all over me Posting this as I am curious if others have observed the same behaviour from",
+      "author": "Adventurous-Wing-988"
+    },
+    {
+      "title": "What are some of the more amazing things you managed to do with AI?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xr8qfb/what_are_some_of_the_more_amazing_things_you/",
+      "published": "2026-11-08T20:49:05+00:00",
+      "summary": "Have you ever done or created anything which has seriously impressed you? Personally I like to do different experiments with it, most tend to fail, but I normally learn a lot from it during the process. For example, one thing I was working on was trying to develop a new way of creating software, using different mathematical principles. It didn't work, but I learnt a few cool things. I just like to see what's actually possible.. submitted by /u/Cute-Air2742 [link] [comments]",
+      "author": "Cute-Air2742"
+    },
+    {
+      "title": "Chatgpt knows ball.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqtcrg/chatgpt_knows_ball/",
+      "published": "2026-11-08T08:10:33+00:00",
+      "summary": "submitted by /u/Vsologaming2011 [link] [comments]",
+      "author": "Vsologaming2011"
+    },
+    {
+      "title": "A slice of Alucard Please",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xram1j/a_slice_of_alucard_please/",
+      "published": "2026-11-08T22:10:13+00:00",
+      "summary": "The idea was to generate a slice of sausage made from a certain anime vampire/eldritch entity. Given how his reaction to all sorts of lethal wounds is depicted, he'd probably take it as a harmless practical joke. submitted by /u/R3D3-1 [link] [comments]",
+      "author": "R3D3-1"
+    },
+    {
+      "title": "Decided to try out the funny and accidentally broke him. It still types out the 0.000... Memory footprint for this tab continues to grow. Will it go indefinitely? Is this repones comes directly from the servers or is it just client bug?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xqwc8z/decided_to_try_out_the_funny_and_accidentally/",
+      "published": "2026-11-08T11:29:29+00:00",
+      "summary": "submitted by /u/stroibot [link] [comments]",
+      "author": "stroibot"
+    },
+    {
+      "title": "This is how it looks like when you beat the ChatGPT snake game",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xr0xht/this_is_how_it_looks_like_when_you_beat_the/",
+      "published": "2026-11-08T15:25:09+00:00",
+      "summary": "submitted by /u/raidedclusteranimd [link] [comments]",
+      "author": "raidedclusteranimd"
+    }
+  ]
+}
