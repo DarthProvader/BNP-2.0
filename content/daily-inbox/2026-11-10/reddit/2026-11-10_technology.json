@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-11-10T04:06:57.426879+00:00",
+  "items": [
+    {
+      "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
+      "url": "https://www.reddit.com/r/technology/comments/1xs7kyl/man_who_lost_308000_on_sports_bets_sues_kalshi/",
+      "published": "2026-11-09T23:39:21+00:00",
+      "summary": "submitted by /u/Logical_Welder3467 [link] [comments]",
+      "author": "Logical_Welder3467"
+    },
+    {
+      "title": "America's school buses are becoming AI-powered ticket machines, generating millions from drivers who fail to stop",
+      "url": "https://www.reddit.com/r/technology/comments/1xrsyal/americas_school_buses_are_becoming_aipowered/",
+      "published": "2026-11-09T14:23:48+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    },
+    {
+      "title": "Nvidia has no obvious successor to Jensen Huang",
+      "url": "https://www.reddit.com/r/technology/comments/1xs4bvx/nvidia_has_no_obvious_successor_to_jensen_huang/",
+      "published": "2026-11-09T21:28:19+00:00",
+      "summary": "submitted by /u/usefsaeed [link] [comments]",
+      "author": "usefsaeed"
+    },
+    {
+      "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+      "url": "https://www.reddit.com/r/technology/comments/1xrvhql/jensen_huang_hired_a_pr_firm_known_for_handling/",
+      "published": "2026-11-09T16:01:32+00:00",
+      "summary": "submitted by /u/bryan-healey [link] [comments]",
+      "author": "bryan-healey"
+    },
+    {
+      "title": "AI Cameras on School Buses Now Trigger Hundreds of Thousands of Fines for Passing Drivers",
+      "url": "https://www.reddit.com/r/technology/comments/1xs8ctt/ai_cameras_on_school_buses_now_trigger_hundreds/",
+      "published": "2026-11-10T00:12:05+00:00",
+      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "author": "IKeepItLayingAround"
+    },
+    {
+      "title": "Wearable sleep trackers are using your brainwaves to train AI models without explicit user consent — tens of millions of hours of EEG data harvested",
+      "url": "https://www.reddit.com/r/technology/comments/1xs34x1/wearable_sleep_trackers_are_using_your_brainwaves/",
+      "published": "2026-11-09T20:42:33+00:00",
+      "summary": "submitted by /u/shallah [link] [comments]",
+      "author": "shallah"
+    },
+    {
+      "title": "New Democratic Congress will likely strip the gilding from U.S President's Golden Dome: “There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.”",
+      "url": "https://www.reddit.com/r/technology/comments/1xs59ue/new_democratic_congress_will_likely_strip_the/",
+      "published": "2026-11-09T22:05:12+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "House Republicans demand answers from Nvidia CEO over reported Chinese spy ties",
+      "url": "https://www.reddit.com/r/technology/comments/1xrpqpq/house_republicans_demand_answers_from_nvidia_ceo/",
+      "published": "2026-11-09T11:54:21+00:00",
+      "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    },
+    {
+      "title": "The Unknown Hero Who Helped Stall a $5 Billion Data Center Plan",
+      "url": "https://www.reddit.com/r/technology/comments/1xs8ev9/the_unknown_hero_who_helped_stall_a_5_billion/",
+      "published": "2026-11-10T00:14:36+00:00",
+      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "author": "IKeepItLayingAround"
+    },
+    {
+      "title": "AMD admits GPU driver bug is writing data continuously, wearing out SSDs — Radeon owner claims External Events Utility used up 1% of SSD health every month for over a year, company promises a fix soon",
+      "url": "https://www.reddit.com/r/technology/comments/1xrrhg7/amd_admits_gpu_driver_bug_is_writing_data/",
+      "published": "2026-11-09T13:20:40+00:00",
+      "summary": "submitted by /u/reflibman [link] [comments]",
+      "author": "reflibman"
+    }
+  ]
+}

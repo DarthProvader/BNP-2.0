@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-10T04:02:32.762066+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 09, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xrvhp9/rsingularity_daily_discussion_thread_november_09/",
+      "published": "2026-11-09T16:01:30+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "Claude Fable 5.2 built a playable Gears of War clone in Unreal Engine from a 3-line prompt, complete with enemy AI, cover mechanics and active reloading. After testing it with over 100 billion tokens, Matthew Berman calls it “by far the best model” he’s ever used.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs1y29/claude_fable_52_built_a_playable_gears_of_war/",
+      "published": "2026-11-09T19:57:29+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "This completely reshapes the economy",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs9fqh/this_completely_reshapes_the_economy/",
+      "published": "2026-11-10T01:01:21+00:00",
+      "summary": "submitted by /u/Charuru [link] [comments]",
+      "author": "Charuru"
+    },
+    {
+      "title": "Jensen does not run his personal life in single thread",
+      "url": "https://www.reddit.com/r/singularity/comments/1xrr40n/jensen_does_not_run_his_personal_life_in_single/",
+      "published": "2026-11-09T13:03:13+00:00",
+      "summary": "submitted by /u/aprx4 [link] [comments]",
+      "author": "aprx4"
+    },
+    {
+      "title": "Introducing Fable 5.2 and Mythos 5.2",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs0d1i/introducing_fable_52_and_mythos_52/",
+      "published": "2026-11-09T18:59:35+00:00",
+      "summary": "submitted by /u/No_Pomegranates7496 [link] [comments]",
+      "author": "No_Pomegranates7496"
+    },
+    {
+      "title": "Skyrim modder uses AI to help reverse-engineer the game's 15-year-old engine, adding real-time terrain editing, modular construction, and NPC navigation to player-built structures.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xrvqoo/skyrim_modder_uses_ai_to_help_reverseengineer_the/",
+      "published": "2026-11-09T16:10:46+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step. With the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs0tk3/a_team_of_1000_fable_52_agents_fully_formalized/",
+      "published": "2026-11-09T19:16:14+00:00",
+      "summary": "submitted by /u/likeastar20 [link] [comments]",
+      "author": "likeastar20"
+    },
+    {
+      "title": "Nobel laureate-led committee validates OpenAI's AI-generated proof establishing the existence of quantum Yang–Mills theory, a foundation of the strong nuclear force and major part of a $1 million Millennium Prize problem. The full proof will be released publicly for the first time on November 10.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs6z4e/nobel_laureateled_committee_validates_openais/",
+      "published": "2026-11-09T23:13:02+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Boston Dynamics demos Atlas over wheels",
+      "url": "https://www.reddit.com/r/singularity/comments/1xrxbul/boston_dynamics_demos_atlas_over_wheels/",
+      "published": "2026-11-09T17:08:25+00:00",
+      "summary": "submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Claude solved two unsolved problems in black-hole physics: settling a 23-year-old question about whether black holes form suddenly in models of tiny universes, and discovering the exact limits of a 15-year-old method physicists use to rule out theories of quantum gravity.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xs33s1/claude_solved_two_unsolved_problems_in_blackhole/",
+      "published": "2026-11-09T20:41:18+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-10T04:05:06.190560+00:00",
+  "items": [
+    {
+      "title": "Google is coming for Nvidia, it's a double bad day for Jensen. A deep look at Google's new TPUs (8tx/8i Max)",
+      "url": "https://www.reddit.com/r/artificial/comments/1xs17j1/google_is_coming_for_nvidia_its_a_double_bad_day/",
+      "published": "2026-11-09T19:29:55+00:00",
+      "summary": "Google just added two new TPU systems to its lineup, the TPU 8tx and the TPU 8i Max, and the coverage is mostly about one thing: whether Google can take a real bite out of Nvidia. If you've seen the name and wondered what a TPU actually is, the short answer is a chip Google designed for AI math and nothing else, and it's a big part of why Google doesn't have to buy all of its AI hardware from Nvidia like most of the industry does. submitted by /u/GrahamPhisher [link] [comments]",
+      "author": "GrahamPhisher"
+    },
+    {
+      "title": "Anthropic shows it has a model stronger than Fable 5.2 already",
+      "url": "https://www.reddit.com/r/artificial/comments/1xs7vim/anthropic_shows_it_has_a_model_stronger_than/",
+      "published": "2026-11-09T23:52:11+00:00",
+      "summary": "https://fixupx.com/AndrewCurran_/status/2119930955888746627 submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Nvidia stock falls after company opens probe into CEO’s relationship with Chinese spy",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrw6dl/nvidia_stock_falls_after_company_opens_probe_into/",
+      "published": "2026-11-09T16:26:52+00:00",
+      "summary": "submitted by /u/nbcnews [link] [comments]",
+      "author": "nbcnews"
+    },
+    {
+      "title": "MIT's WorldParticle: one AI model simulates sand, cloth, fluids, granular materials and folding proteins - about 100x faster than numerical simulators on protein motion",
+      "url": "https://www.reddit.com/r/artificial/comments/1xs1ggg/mits_worldparticle_one_ai_model_simulates_sand/",
+      "published": "2026-11-09T19:39:06+00:00",
+      "summary": "Researchers at MIT, the University of British Columbia and partner institutions have built WorldParticle, a single transformer-based model that simulates six kinds of physical behaviour - cloth, elastic solids, fluids, granular materials, molecular dynamics and more - where each used to need its own dedicated solver. Instead of being programmed with each governing equation, it treats everything as particles and learns the dynamics from data, predicting how they move one step at a time. The same architecture beat existing neural simulators on accuracy across all six categories, and modelled protein motion about 100x faster than numerical simulators. The paper is published in ACM Transactions on Graphics and will be presented at SIGGRAPH Asia. MIT News covered it today: https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109 One honest caveat from the coverage: the model trades some per-phenomenon accuracy against specialist solvers, and one parameter set is tra",
+      "author": "winer666"
+    },
+    {
+      "title": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO",
+      "url": "https://www.reddit.com/r/artificial/comments/1xs84k6/anthropic_unveils_new_fable_mythos_models_as/",
+      "published": "2026-11-10T00:02:15+00:00",
+      "summary": "Nov 9 (Reuters) - Anthropic on Monday unveiled two new AI models, Claude Fable 5.2 and Claude Mythos ​5.2, as the OpenAI rival looks to ‌strengthen its position in the fast-growing AI market ahead of its planned IPO. Here are more details: Claude Fable 5.2 ​targets coding, reasoning and AI agent ​tasks, while Claude Mythos 5.2 targets approved ⁠cybersecurity and life-sciences research applications Anthropic said access to ​Claude Mythos 5.2 is restricted to organizations approved ​through its verification programs for cybersecurity and life-sciences research, while Claude Fable 5.2 is available more broadly Anthropic said ​the new models generate outputs up to ​30% faster than their Claude 5.1 predecessors and communicate ‌more ⁠clearly with users The company said the models are priced at $8 per million input tokens and $40 per million output tokens, lower than the pricing ​for previous ​Fable and ⁠Mythos releases The launch follows Anthropic's rollout of Claude Haiku 5.5 in October as",
+      "author": "jldew"
+    },
+    {
+      "title": "An AI shrinking the font to pass a slide test feels a little too human.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xruing/an_ai_shrinking_the_font_to_pass_a_slide_test/",
+      "published": "2026-11-09T15:25:09+00:00",
+      "summary": "Apparently “technically done” has made it into AI training too. I recently read about Genspark’s Gen-1 Slides training and that one detail really stuck with me. Its model learned to shrink fonts to get around text-overflow checks. The team described catching these during training and updating the grader. Still, the font thing is such a good example of the problem. No overflowing text? Great. Nobody in the back row can read it? Different department, apparently. It makes me wonder how many impressive agent scores are measuring how well the model satisfies a check that only roughly describes the job. So yeah, what would convince you an agent was actually getting better at the work, rather than getting better at pleasing whatever grades it? Especially for something like slides, where “good” is already pretty subjective. submitted by /u/_ChuckBorris [link] [comments]",
+      "author": "_ChuckBorris"
+    },
+    {
+      "title": "The suspected Chinese spy whose affair with Nvidia boss let her hide in plain sight",
+      "url": "https://www.reddit.com/r/artificial/comments/1xryi2l/the_suspected_chinese_spy_whose_affair_with/",
+      "published": "2026-11-09T17:51:32+00:00",
+      "summary": "submitted by /u/theipaper [link] [comments]",
+      "author": "theipaper"
+    },
+    {
+      "title": "I tried the AI slop detector you can add to your web browser",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrvosf/i_tried_the_ai_slop_detector_you_can_add_to_your/",
+      "published": "2026-11-09T16:08:51+00:00",
+      "summary": "submitted by /u/HotMinuteUK [link] [comments]",
+      "author": "HotMinuteUK"
+    },
+    {
+      "title": "AI in Universities?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xs7hq0/ai_in_universities/",
+      "published": "2026-11-09T23:35:25+00:00",
+      "summary": "Do university professors typically run essays through AI checkers? I’m a first year college student and I’m worried about my essays being flagged for AI. I’m particularly paranoid about my essays being flagged for AI after a fully human written essay I wrote was flagged for AI in high school and I almost got into deep trouble for it. The essay I’m currently working on is worth a good chunk of my grade in the class and every AI checker I’ve run it through flags it for AI even though I haven’t even went as far as to use Grammarly. I haven’t even gotten any of my information off the essay off of the AI overview that pops up when you Google anything. I feel like I’m being punished for using academic vocabulary and grammar. I write like a college student and get flagged for AI, but if I write like a 4th grader, I get a bad grade. submitted by /u/sharksrcxxl [link] [comments]",
+      "author": "sharksrcxxl"
+    },
+    {
+      "title": "As an ML/CV engineer of 7+ years, the current generative AI hype train makes me pessimistic. Where are the non-LLM, real-world hard problems still waiting to be solved?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrqpq1/as_an_mlcv_engineer_of_7_years_the_current/",
+      "published": "2026-11-09T12:43:52+00:00",
+      "summary": "I love machine learning. I spent years training custom vision models, working with time-series data, and architecting multimodal pipelines from scratch. But the current shift toward treating AI exclusively as \"prompt engineering\" and massive LLM wrappers feels reductive and disappointing. I want to build software that creates genuine, positive real-world impact. Specifically in fields like environmental science, specialized B2B workflows, or complex physical monitoring, where off-the-shelf generative APIs simply don't cut it. For engineers and researchers still working on core ML/CV: What are the high-impact, non-LLM problems that still desperately need custom models and deep domain expertise? How are you maintaining enthusiasm for foundational data science and ML craftsmanship in an industry currently obsessed with generative text and image tools? submitted by /u/SchwingBesen [link] [comments]",
+      "author": "SchwingBesen"
+    }
+  ]
+}

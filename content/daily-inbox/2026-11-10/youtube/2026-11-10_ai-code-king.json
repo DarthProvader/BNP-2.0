@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-10T04:01:12.096351+00:00",
+  "items": [
+    {
+      "title": "You missed these CRAZY Claude Code Upgrades",
+      "url": "https://www.youtube.com/watch?v=o4A03TVuadg",
+      "published": "2026-11-09T09:04:31+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll go through the Claude Code updates from the last month, 23 releases from version 2.1.293 to 2.1.319, and show you what each one actually does. I'll start with the new Claude Haiku 5.5 model, then the ultrathink and subagent effort fixes, idle compaction and the new limit warnings, and the big upgrades to background work. After that, I'll cover the new permission and auto mode settings, a set of smaller terminal improvements, and everything that changed in the desktop app's Code tab, including Claude Duet and the Claude Design closing notice. For each update, I'll also show you how PandaCode handles the same thing, and I'll finish with the limitations of both before giving you my verdict.\n\n--\nKey Takeaways:\n\n🚀 Claude Code shipped 23 releases this month, going from version 2.1.293 to 2.1.319, plus a lot of changes to the desktop app's Code tab.\n💸 Claude Haiku 5.5 came out on Oc",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "I Tried the new Herdr Updates... IS IT ANY GOOD?",
+      "url": "https://www.youtube.com/watch?v=LDxan-w2LVw",
+      "published": "2026-11-08T08:15:29+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nPandaCode: https://github.com/aicodeking/pandacode\n\nIn this video, I'll go through the Herdr 0.9.5 updates one by one, starting with machines, which put your local machine and saved SSH machines in one window with one agent list, and the --machine flag, which runs Herdr API commands like agent list against a saved machine from your local terminal. Then I'll show how the terminal UI now runs in each client so two screens can watch different workspaces on the same server, and how a client update can now leave a compatible server and its running agents alone. After that, I'll cover persistence across a Mac restart or Windows shutdown, agents reporting their own state and resume command to Herdr, and a batch of quality-of-life fixes like Go To rows, multiple prefix keys and plugin update. Finally, I'll compare Herdr with PandaCode on machines, status, persistence and updates, go through the limitati",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

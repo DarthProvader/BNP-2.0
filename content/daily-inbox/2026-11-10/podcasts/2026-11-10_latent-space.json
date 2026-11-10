@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-10T04:01:16.713695+00:00",
+  "items": [
+    {
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team",
+      "published": "2026-11-09T15:41:48+00:00",
+      "summary": "Our first deep dive with an AI data company. In roughly a year, Handshake built an AI training business doing nearly $1 billion in gross annualized revenue. What are frontier labs buying? Garrett Lord joins us with the people building reinforcement lea...",
+      "author": "Latent.Space"
+    }
+  ]
+}

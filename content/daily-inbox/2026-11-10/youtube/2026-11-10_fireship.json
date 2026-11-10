@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fireship",
+  "source_slug": "fireship",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+  "tags": [
+    "dev",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-10T04:01:06.347124+00:00",
+  "items": [
+    {
+      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
+      "url": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
+      "published": "2026-11-09T20:04:16+00:00",
+      "summary": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: https://greptile.com/go/fireship\n\nA model you're not allowed to use just tore through the Linux kernel and came back with 948 root exploits... let's break it down.\n\nWant more Fireship?\n\n🗞️ Newsletter: https://bytes.dev\n🧠 Courses: https://fireship.dev",
+      "author": "Fireship",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

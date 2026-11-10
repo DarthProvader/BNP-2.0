@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-10T04:04:14.867342+00:00",
+  "items": [
+    {
+      "title": "Fable 5.2 just landed.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+      "published": "2026-11-09T18:59:57+00:00",
+      "summary": "Still no newsroom post from Anthropic though. Edit: Just kidding, it finally popped up: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, I got *three* resets. Apparently just for the Fable meter. submitted by /u/Strange-Pin-2998 [link] [comments]",
+      "author": "Strange-Pin-2998"
+    },
+    {
+      "title": "GUYS I DID IT",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs3e2p/guys_i_did_it/",
+      "published": "2026-11-09T20:52:14+00:00",
+      "summary": "I was granted cyber defense access and now have mythos 5.1, this is not a drill! This will be crucial in the defense software I’m building, so excited! Edit: I also received mythos 5.2 + fable 5.2 submitted by /u/starfoxhound [link] [comments]",
+      "author": "starfoxhound"
+    },
+    {
+      "title": "WTF Fable 5.2 Cost per task is Insane It's not cheaper than Fable 5.1 as they are claiming.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs292a/wtf_fable_52_cost_per_task_is_insane_its_not/",
+      "published": "2026-11-09T20:08:31+00:00",
+      "summary": "submitted by /u/InternationalGap3698 [link] [comments]",
+      "author": "InternationalGap3698"
+    },
+    {
+      "title": "Fable 5.2",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs25gb/fable_52/",
+      "published": "2026-11-09T20:04:53+00:00",
+      "summary": "What's your experience so far? submitted by /u/Emperor0069 [link] [comments]",
+      "author": "Emperor0069"
+    },
+    {
+      "title": "Pro users assemble: we got one week to max Fable 5.2",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs29of/pro_users_assemble_we_got_one_week_to_max_fable_52/",
+      "published": "2026-11-09T20:09:09+00:00",
+      "summary": "submitted by /u/py-net [link] [comments]",
+      "author": "py-net"
+    },
+    {
+      "title": "you-should-know Fable 5.2 may be sandbagging you?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsbmk1/youshouldknow_fable_52_may_be_sandbagging_you/",
+      "published": "2026-11-10T02:47:13+00:00",
+      "summary": "https://preview.redd.it/2u6jkv0s6p0i1.png?width=782&format=png&auto=webp&s=f6c9e14bce295c442c0718d0dc1d2e9b6ac71fc9 This was a surprising note I got from the you-should-know agent built-in to Claude Code. When I saw Fable 5.2 dropped, after updating to get out of 200k-context purgatory 🤨, I had it try to hill-climb a project I'm working on optimizing CPU inference of Parakeet on AVX CPUs. It's a fun little private benchmark on my (Claude's) own code, \"I wonder if the new model can find something juicy an older version didn't?\" Kind of surprised that as it was getting started, it basically admitted \"You should know, Fable 5.2 was trained with deliberate limits...\" which I get, they can do what they want to try to dig a deeper competitive moat, but man, it sure feels yucky. It reads like \"your work probably isn't frontier-enough to trip the safeguards, but in case you get bad results, that's probably why.\" submitted by /u/talavander [link] [comments]",
+      "author": "talavander"
+    },
+    {
+      "title": "Fable 5.2 REVIEW Here is what's actually different and what to try first (cheaper, faster, way fewer blocks)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs2wdl/fable_52_review_here_is_whats_actually_different/",
+      "published": "2026-11-09T20:33:23+00:00",
+      "summary": "I got early accees so and ran the same things I run on every new model. Skipping the benchmarks. This is what I noticed and what's worth your time. What's different Speed. First thing I noticed. Anthropic say output is up to 30% faster than 5.1 and that matches how it felt. There's also a fast mode in Claude Code and the API that goes up to 2.5x. Check what it costs before you leave it on. Usage. I stayed on medium effort all evening and never felt I needed high. Anthropic say it uses fewer tokens than 5.1 on hard tasks at medium, so start there. Blocks. Around 55% fewer than 5.1. I don't do bio or security work so I can't test this one. If you kept getting bumped to Opus, rerun the exact prompt that got blocked and tell us. Price. API is $8 in / $40 out per million tokens, down from $10 / $50. Model string is claude-fable-5-2. Free resets. Paid plans that include Fable get one to three usage resets this week, depending on how long you've subscribed. Check your usage page and save your",
+      "author": "FragrantProgress8376"
+    },
+    {
+      "title": "HUGE Fable 5.2 Issue",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/",
+      "published": "2026-11-10T03:43:50+00:00",
+      "summary": "It’s not telling me to go to sleep every few hours like Opus used to. submitted by /u/Kakakee [link] [comments]",
+      "author": "Kakakee"
+    },
+    {
+      "title": "Claude Fable 5.2 builds an operating system from scratch",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0y8h/claude_fable_52_builds_an_operating_system_from/",
+      "published": "2026-11-09T19:20:48+00:00",
+      "summary": "submitted by /u/ReAndro [link] [comments]",
+      "author": "ReAndro"
+    },
+    {
+      "title": "If you're buying Claude Pro in India, subscribe through Apple instead of the website!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xrop4r/if_youre_buying_claude_pro_in_india_subscribe/",
+      "published": "2026-11-09T10:53:53+00:00",
+      "summary": "Just found out that Claude subscriptions are cheaper if you purchase them through the Apple App Store. For example: Claude Pro (Website): ₹2,400/month Claude Pro (Apple App Store): ₹2,000/month That's a saving of ₹400 every month! This might apply to other subscription plans as well, so it's worth checking the pricing on your iPhone or MacBook before paying directly on the website. Just sharing this in case anyone is planning to subscribe. Save some money! :) submitted by /u/Agitated-Long-71 [link] [comments]",
+      "author": "Agitated-Long-71"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-11-10T04:00:43.150109+00:00",
+  "items": [
+    {
+      "title": "Neuralink vrátí zrak nevidomým🧠",
+      "url": "https://www.youtube.com/shorts/C_tf7R6ETuo",
+      "published": "2026-11-09T18:35:05+00:00",
+      "summary": "Neuralink pracuje na technologii, která by mohla umožnit vidět i lidem, kteří byli slepí od narození. Podle firmy je technologie připravená, stále ale čeká na potřebná schválení a klinické ověření 🧠",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Jak bude vypadat krypto v roce 2030?🤔",
+      "url": "https://www.youtube.com/shorts/JvNMGdClt_s",
+      "published": "2026-11-09T07:46:27+00:00",
+      "summary": "Jak bude vypadat krypto v roce 2030? Zeptali jsme se Larryho Čermáka. Jednu odpověď si ale šetří na 16. 12.\n\nVstupenky na Fantastic Future Summit najdete v fantasticfuture.cz/summit",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
