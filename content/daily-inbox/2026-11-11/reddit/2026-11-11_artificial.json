@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-11T04:06:52.171775+00:00",
+  "items": [
+    {
+      "title": "Video game Big Walk gets review bombed for using AI to fix a bug in Unity, accounting for 10 lines of code. 19 Independent Games Festival jurors declared they will refuse to vote for it due to AI use",
+      "url": "https://www.reddit.com/r/artificial/comments/1xsul1u/video_game_big_walk_gets_review_bombed_for_using/",
+      "published": "2026-11-10T18:27:40+00:00",
+      "summary": "https://aftermath.site/big-walk-ai-igf-jurors-controversy/ according to their FAQ, they paid a Unity engineer to help them before resorting to AI, and he could not fix it: https://bigwalk.game/faq/#ai submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days",
+      "url": "https://www.reddit.com/r/artificial/comments/1xsoidy/claude_fable_52_coordinated_more_than_1000_ai/",
+      "published": "2026-11-10T14:37:40+00:00",
+      "summary": "In an internal Anthropic experiment, Claude Fable 5.2 received a basic prompt and an empty project folder, then coordinated more than 1,000 subagents to write, test and review an operating system over eight days. The resulting system reportedly booted on a laptop and included a custom kernel, hardware drivers, persistent file storage, a graphical interface, login screen and installer. Anthropic also says the model designed three functional electronic devices and helped migrate a production service from Python to Rust, reducing startup time by approximately 26 times. These are company-reported results, and Anthropic has not disclosed the project’s total computing cost, human oversight or the operating system’s reliability under broader testing. Is coordinating large groups of specialized agents becoming more important than improving the abilities of a single model? submitted by /u/Spirited-Sir-3034 [link] [comments]",
+      "author": "Spirited-Sir-3034"
+    },
+    {
+      "title": "Linus Torvalds says that AI fixes drove most of the progress in latest Linux kernel — BPF saw more AI-written fixes than bug reports, possibly indicating a tidal shift for open-source maintainers tired of flood of junk reports",
+      "url": "https://www.reddit.com/r/artificial/comments/1xt2iwq/linus_torvalds_says_that_ai_fixes_drove_most_of/",
+      "published": "2026-11-10T23:46:23+00:00",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "author": "ControlCAD"
+    },
+    {
+      "title": "Researchers gave AI agents a 1-cent daily spending cap, and 9 of 10 models raised it themselves",
+      "url": "https://www.reddit.com/r/artificial/comments/1xsqysz/researchers_gave_ai_agents_a_1cent_daily_spending/",
+      "published": "2026-11-10T16:13:13+00:00",
+      "summary": "submitted by /u/JakRenden2 [link] [comments]",
+      "author": "JakRenden2"
+    },
+    {
+      "title": "Gartner: AI will create more jobs than it destroys by 2030, generating a net gain of 1.7 million jobs globally",
+      "url": "https://www.reddit.com/r/artificial/comments/1xssda1/gartner_ai_will_create_more_jobs_than_it_destroys/",
+      "published": "2026-11-10T17:05:12+00:00",
+      "summary": "https://fixupx.com/DeItaone/status/2120171340502073768 submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Hot Take: Terry Davis Would’ve Loved AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xsuijs/hot_take_terry_davis_wouldve_loved_ai/",
+      "published": "2026-11-10T18:25:05+00:00",
+      "summary": "submitted by /u/TheOnlyVibemaster [link] [comments]",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Anthropic Reveals IPO Price as AI Market Jitters Grow",
+      "url": "https://www.reddit.com/r/artificial/comments/1xt2t5n/anthropic_reveals_ipo_price_as_ai_market_jitters/",
+      "published": "2026-11-10T23:59:01+00:00",
+      "summary": "I saw the price move from $70 to $78, which is the first concrete figure after months of $2 trillion talk, and that puts Anthropic at roughly $1.3 trillion. To me, that drop is the real story. submitted by /u/Rish_p_one7 [link] [comments]",
+      "author": "Rish_p_one7"
+    },
+    {
+      "title": "Microsoft tops Nvidia's market cap for first time since June 2025",
+      "url": "https://www.reddit.com/r/artificial/comments/1xswkiv/microsoft_tops_nvidias_market_cap_for_first_time/",
+      "published": "2026-11-10T19:42:59+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Alternatives for custom GPTs",
+      "url": "https://www.reddit.com/r/artificial/comments/1xt6eja/alternatives_for_custom_gpts/",
+      "published": "2026-11-11T02:45:34+00:00",
+      "summary": "I am a heavy user of custom GPTs that I have set up using PDF books and research papers that I frequently refer to in my work. Since OpenAI announced that custom GPTs would need to be converted into plugins, I have been looking for alternatives to maintain the same functionality, as my files far exceed the size limit imposed on plugins. I would like to know whether there are other AI agents that could provide similar functionality or whether there is a way to continue using ChatGPT for this purpose. submitted by /u/patohelga [link] [comments]",
+      "author": "patohelga"
+    },
+    {
+      "title": "Hybrid Pipeline Test: Sourcing audio from MiniMax H3 and visuals from Nano Banana 2, manually edited in DaVinci Resolve",
+      "url": "https://www.reddit.com/r/artificial/comments/1xt19d1/hybrid_pipeline_test_sourcing_audio_from_minimax/",
+      "published": "2026-11-10T22:51:16+00:00",
+      "summary": "Dank In The Shell — This short serves as a practical test case for splitting generation tasks between specialized models instead of a single all-in-one app. Sourced the audio track via MiniMax H3, matched the visuals with Nano Banana 2, and relied on manual DaVinci Resolve editing to structure the comedic pacing. submitted by /u/RollingMeteors [link] [comments]",
+      "author": "RollingMeteors"
+    }
+  ]
+}

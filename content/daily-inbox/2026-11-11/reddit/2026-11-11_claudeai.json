@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-11T04:05:00.888008+00:00",
+  "items": [
+    {
+      "title": "it’s getting smarter frfr",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsrfcl/its_getting_smarter_frfr/",
+      "published": "2026-11-10T16:30:15+00:00",
+      "summary": "submitted by /u/Worldly_Chemistry_81 [link] [comments]",
+      "author": "Worldly_Chemistry_81"
+    },
+    {
+      "title": "Guys Fable 5.2 is INSANE",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt4fap/guys_fable_52_is_insane/",
+      "published": "2026-11-11T01:10:42+00:00",
+      "summary": "This is the first Anthropic model that can generate no response. Haiku, Sonnet, and even Opus FAIL this completely legitimate task. They really meant it when they said Fable 5.2 uses fewer tokens than Opus 5.5 for the same task submitted by /u/prophet-dot-exe [link] [comments]",
+      "author": "prophet-dot-exe"
+    },
+    {
+      "title": "I built a webcam X-ray mirror with Claude Fable 5.2",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xstews/i_built_a_webcam_xray_mirror_with_claude_fable_52/",
+      "published": "2026-11-10T17:44:48+00:00",
+      "summary": "I built a web page that works like an X-ray mirror. You point a webcam at your face and see a skull, brain and facial muscles pinned to your head and following it as you move. The jaw opens when you open your mouth, and if you hold up a hand you see its bones follow your fingers. What it does Skull, brain, muscles and eyes as separate layers, in an X-ray look or a solid look Mixed reality views: half real face and half interior, or an X-ray “lens” that follows your fingertip Optional labels for bones, brain regions and muscles Sliders to fit the skull to your own head, and to soften the edges Why I built it I wanted to test two things: whether a webcam and a browser are enough to make anatomy something you can explore on your own body, for educational use, and how far the Fable 5.2 model’s capabilities go on a project with real 3D data and live tracking. How Claude helped I built it with Claude Fable 5.2 in one chat. I described what I wanted and Claude wrote all the code. It also foun",
+      "author": "Sourcecode12"
+    },
+    {
+      "title": "another reset? fyyyyeah!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt02m7/another_reset_fyyyyeah/",
+      "published": "2026-11-10T22:01:20+00:00",
+      "summary": "submitted by /u/Prize_Thought6091 [link] [comments]",
+      "author": "Prize_Thought6091"
+    },
+    {
+      "title": "Fable 5.2 is a competent Electrical Engineer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt1dfp/fable_52_is_a_competent_electrical_engineer/",
+      "published": "2026-11-10T22:56:15+00:00",
+      "summary": "I felt this feeling when I saw Opus 4.6 coding for the first time. Fable 5.2 can take on some real engineering tasks. https://preview.redd.it/m29v5rto7v0i1.png?width=1326&format=png&auto=webp&s=b6847ed7e94c044b340b1ef1c57975baa07e6be6 https://preview.redd.it/02sd1vsp7v0i1.png?width=964&format=png&auto=webp&s=50c491b5101eb9353c2159736ab99b1b8ea6b23c It routed HDMI 4k, DDR3, USB hi-speed, FPGA. Optimized BOM cost reducing 44 dollars of each board made. Validated the board with electrical simulation, found erros in the footprints, voltage drops, fixed all of them. 6 layer board. Anthropic cooked with this one. Going to send to send this to the fab and tell you the results soon. submitted by /u/ScarionnS [link] [comments]",
+      "author": "ScarionnS"
+    },
+    {
+      "title": "Instead of collecting dust, Claude makes your old Kindle useful again",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsk5k9/instead_of_collecting_dust_claude_makes_your_old/",
+      "published": "2026-11-10T11:06:35+00:00",
+      "summary": "Hi, probably not the first one to do this but i wanted to share my experience doing it. I had to jailbreak my kindle manually first for claude (with new guard rails🔒) to be able to edit anything on it. My kindle is 7th generation and the jailbreak was straight forward following this guide. After the jailbreak, claude takes over to design and build whatever application you want. For me i just gave it a concept image of what i want and how i wanted it to behave and it did the rest. Make sure to have KUAL (application launcher in kindle) or whatever equivalent thing for your model. Data is fetched using wifi connection, but i had to tweak the loop for better battery saving. Updates every hour, screen sleeps between updates, wifi turn on only when fetching, no fetches or updates during the night. This got me 10% drain per week. submitted by /u/abdenourgnx1 [link] [comments]",
+      "author": "abdenourgnx1"
+    },
+    {
+      "title": "I made a Claude Code mod that draws a live map of what the agent is doing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xst2qe/i_made_a_claude_code_mod_that_draws_a_live_map_of/",
+      "published": "2026-11-10T17:31:57+00:00",
+      "summary": "I got tired of reading a scrolling list of tool calls, so I had Claude Code build a mod that shows the work as a map in a pane beside the chat. The agent sits in the centre, with ten stations around it: you, the model, memory, files, shell, network, browser, subagents, skills and hooks. Every model request, tool call and hook sends a pulse from the centre to its station and back, and errors turn red. Spokes get thicker with use, a ring around the centre fills with the context window, and subagents circle their station while they run. It makes no network requests and shows names only, never content. Opus 5.5 wrote the first version, and Fable 5.2 reworked it the next day. Free, MIT: https://github.com/alexeyw/lot-map /plugin install lot-map --marketplace alexeyw/lot-map Tested on macOS only, so reports from Windows and Linux are welcome. submitted by /u/alexeyw [link] [comments]",
+      "author": "alexeyw"
+    },
+    {
+      "title": "Claude helped me organize my legal database into a public archive with 300,000 searchable military board decisions, and this morning that work became evidence in a federal lawsuit.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt44ar/claude_helped_me_organize_my_legal_database_into/",
+      "published": "2026-11-11T00:56:48+00:00",
+      "summary": "Today the nonprofit I founded, Institute for Constitutional Military Law, sued the President and the Pentagon, ICML v. Trump, et al. , to make the military’s discharge and records-correction board decisions public and searchable, as the law requires. The pile I'm a Marine Corps infantry veteran of the Iraq War . A few weeks after returning home from combat I was administratively separated with an Other Than Honorable discharge. I was 21. Today I'm a lawyer who represents veterans before the military review boards free of charge. From personal library to public archive Over the years I compiled a massive library of legal research, tracked in one long Google Sheet. Claude first helped me turn it into a usable archive of about 2,500 sources, many forgotten historical records from Congress and the courts. My original Google Sheet The government's mess When a veteran asks for a discharge upgrade, a military review board decides, and that decision can control VA health care and the GI Bill. ",
+      "author": "GruntMarine"
+    },
+    {
+      "title": "Fable 51.8 is UNUSABLE on Pro. Hit my limit after ONE (1) prompt. Cancelled.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsjwqc/fable_518_is_unusable_on_pro_hit_my_limit_after/",
+      "published": "2026-11-10T10:52:08+00:00",
+      "summary": "Been a loyal paying customer since 3.5 Sonnet, so I think I’ve earned the right to say this. Anthropic has completely lost the plot. Yesterday I typed a single prompt. One. “Build me a universe.” Not even a complicated one, just the standard stuff: physics, a few hundred billion galaxies, working thermodynamics, intelligent life in at least one of them. I had it on UltraGigaMegaCode 50x like always, because anything lower is dumb. It ran for 17 minutes and 21 seconds and then I get hit with “You’ve reached your usage limit. Resets in 4 days.” FOUR DAYS. For ONE prompt. I’m not even a power user. I pay $20 a month, which last I checked is real money, and for that I can’t even finish a single cosmos? The universe is stuck at 94% heat death and there are civilizations in there waiting on me. Yes, it asked at the start whether I wanted to try a smaller test universe first. I said no. I know what I want. And yes, there were popups at 50%, 75% and 90%, but I was busy and closed them. And bef",
+      "author": "Andraimeide"
+    },
+    {
+      "title": "Fable 5.2 maxed its usage to make this video",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt3m47/fable_52_maxed_its_usage_to_make_this_video/",
+      "published": "2026-11-11T00:33:18+00:00",
+      "summary": "submitted by /u/neondragony [link] [comments]",
+      "author": "neondragony"
+    }
+  ]
+}
