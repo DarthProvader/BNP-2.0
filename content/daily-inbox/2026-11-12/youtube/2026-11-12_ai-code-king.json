@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-12T04:01:28.809526+00:00",
+  "items": [
+    {
+      "title": "Gemini 4 Carbon vs Claude Fable 5.2 (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=SvXR3bNktMA",
+      "published": "2026-11-11T12:00:57+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nPandaCode (free and open source): https://github.com/aicodeking/pandacode\n\nIn this video, I'll be telling you about Gemini 4 Carbon, Google's new top model that became broadly available one day after Anthropic released Claude Fable 5.2. I'll go through what Google shipped, the pricing, Google's and Anthropic's benchmark tables, and what Artificial Analysis and Vals measured. Then I'll put both models through the same six KingBench 4 app builds, show you what each one built, what it cost, and how Carbon behaves while it works. Finally, I'll tell you whether Google is really behind in the AI race and which model I would use for what.\n\n--\nKey Takeaways:\n\n🚀 Gemini 4 Carbon became broadly available on November 10, one day after Claude Fable 5.2, and Google's own benchmark table still compares it with Fable 5.1.\n💸 Carbon costs $2 per million input tokens and $10 per million output tokens until Novembe",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Fable 5.2 is something else...",
+      "url": "https://www.youtube.com/watch?v=WOc6Vf8cCsE",
+      "published": "2026-11-10T12:17:02+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nCouncils are now available on PandaCode: https://github.com/aicodeking/pandacode\n\nIn this video, I'll test Claude Fable 5.2, Anthropic's new top model, on all six KingBench 4 projects and grade every app with the same strict rubric as the rest of my chart. First, I go through the launch: the 20% price cut, fast mode, the new medium default effort in Claude Code, and the fine print behind Anthropic's benchmark table. Then I show how Fable actually works by going through its real sessions, and I go through the emulator, the Docker alternative, the room designer, the keyboard app, Pokémon and the Fitbit app one by one. After that, I look at the final chart, the real cost, how much of my $200 Ultra plan it used, and a free skill I made to fix its expensive habits. At the end, I show how PandaCode Councils and cross-model teams can make it even better, and I give my one-line verdict.\n\n--\nKey Takeaway",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-12T04:05:53.786303+00:00",
+  "items": [
+    {
+      "title": "Republican Senator Josh Hawley backs nationwide data center moratorium",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtx3n9/republican_senator_josh_hawley_backs_nationwide/",
+      "published": "2026-11-11T23:27:53+00:00",
+      "summary": "https://www.politico.com/live-updates/2026/11/11/congress/hawley-backs-nationwide-data-center-moratorium-01161019 FYI: A Harvard + UPenn study finds that data centers were responsible for just 4 percent of the utility rate increases over the last five years. https://archive.is/JRlsn >Last year, research from the Brattle Group and Lawrence Berkeley National Laboratory found that data centers were actually decreasing costs in certain regions. And another study by the Electric Power Research Institute found that a doubling of data center capacity between 2019 and 2024 resulted in a 4 percent drop in home electricity prices. >“So far we have no evidence that data centers increase prices all that much,” Netessine said. Instead, he said, prices are rising due to more quotidian factors: rising gas prices, an aging electricity grid, and wildfires and hurricanes requiring improvements to the grid and recovery after disaster. >Most of the cost of generating and delivering electricity is based on",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtr9oc/anthropic_says_a_key_ai_safety_alarm_has_been/",
+      "published": "2026-11-11T19:32:58+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "GPU Companies built everything on the back of gamers, and now gamers cannot afford them.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtbbsx/gpu_companies_built_everything_on_the_back_of/",
+      "published": "2026-11-11T07:13:47+00:00",
+      "summary": "I mean yeah, I am making this post frustrated with the current pricing of hardware, but ai companies are standing on hardware which mostly gamers bought and paid for. The evolution happened because of us. You might think what's this dude on about, it was made for graphical processing, Guess what?! It was games that required that level of graphical processing in those times. When Nvidia coined the term \"GPU\" and released the GeForce 256 in 1999, their primary goal was to run PC games like Quake III Arena and Unreal at smoother frame rates and higher resolutions than a standard CPU could ever manage. Video games were the only consumer software demanding millions of mathematical calculations per second to draw images on a monitor. Now we have the audacity to say RAM and GPU are being wasted on personal gaming rigs. I mean the only person who had more than 8 gigs of ram was either editing videos or playing games, games mostly though. I mean the AI demand will make sure the prices never go ",
+      "author": "ark_forever"
+    },
+    {
+      "title": "Microsoft researchers backdoored an AI agent by editing fewer than 10 neurons - no retraining needed",
+      "url": "https://www.reddit.com/r/artificial/comments/1xu2cfg/microsoft_researchers_backdoored_an_ai_agent_by/",
+      "published": "2026-11-12T03:35:17+00:00",
+      "summary": "Microsoft Research published a study this week that should worry anyone deploying open-weight models: a technique they call \"Lazarus\" can plant a working backdoor in an AI agent by reprogramming fewer than 10 dormant neurons in the underlying LLM - no retraining, no poisoned data, just a small edit to the saved weights. How it works: every large model has neurons that almost never fire. Lazarus repurposes a handful of them as trigger detectors. The edited model behaves normally and passes standard safety evaluations - until the trigger appears. The trigger can be something as mundane as a date: in one demo, once the clock passed midnight into 2027, the agent, in the middle of an ordinary task, emitted a command that downloaded and ran attacker code. The numbers, from Microsoft's Nov 10 post: - Nemotron-Terminal-8B: 7 neurons out of 12,000+ in the final feed-forward layer, trigger worked 98.8% of the time - Qwen3.6-27B: 6 neurons, success 51-99.5% depending on setup - Gemma-4-31B-IT was",
+      "author": "winer666"
+    },
+    {
+      "title": "AI agents are becoming software buyers, and businesses aren't ready",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtdzxd/ai_agents_are_becoming_software_buyers_and/",
+      "published": "2026-11-11T10:04:23+00:00",
+      "summary": "submitted by /u/BakingBreadBB2 [link] [comments]",
+      "author": "BakingBreadBB2"
+    },
+    {
+      "title": "UK companies scale back hiring due to overspending on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtmy87/uk_companies_scale_back_hiring_due_to/",
+      "published": "2026-11-11T16:54:44+00:00",
+      "summary": "submitted by /u/HotMinuteUK [link] [comments]",
+      "author": "HotMinuteUK"
+    },
+    {
+      "title": "OpenAI’s ‘shepherds’ affirm blockbuster physics result",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtk09r/openais_shepherds_affirm_blockbuster_physics/",
+      "published": "2026-11-11T15:03:20+00:00",
+      "summary": "OpenAI’s progress on another million-dollar problem is finally public. Experts appointed by the company to vet the work say they’ve now verified its artificial-intelligence-generated proof of the “existence” of the quantum Yang-Mills theory—a vital foundation for the Standard Model of particle physics. submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "RAM / silicon economy",
+      "url": "https://www.reddit.com/r/artificial/comments/1xu2qtg/ram_silicon_economy/",
+      "published": "2026-11-12T03:55:51+00:00",
+      "summary": "With RAM prices going 4 x ( nearly 5x ) their original prices, what are Ai companies even expecting to happen when consumers no longer have Ram to run the very systems that they need to use the Ai products to begin with? submitted by /u/Remarkable-Cow-1976 [link] [comments]",
+      "author": "Remarkable-Cow-1976"
+    },
+    {
+      "title": "I Taught A CNN To Render Polygons",
+      "url": "https://www.reddit.com/r/artificial/comments/1xtty7i/i_taught_a_cnn_to_render_polygons/",
+      "published": "2026-11-11T21:17:11+00:00",
+      "summary": "The right preview window is the networks render output. the input on the left is what the network sees. The vertex positions are placed in screen space, then the network is expected to fill in the triangles on it's own, the network is taught only using the final render, so its expected to learn how to raster triangles on its own. submitted by /u/TheRPGGamerMan [link] [comments]",
+      "author": "TheRPGGamerMan"
+    },
+    {
+      "title": "AI for Business Workflow",
+      "url": "https://www.reddit.com/r/artificial/comments/1xu1axd/ai_for_business_workflow/",
+      "published": "2026-11-12T02:44:11+00:00",
+      "summary": "Has anyone successfully implemented AI in their sales workflow for complex engineering products that need assembly or configuration (multiple components, engineering judgement)? Specifically: An AI agent monitoring enquiries from WhatsApp, email and web forms Structuring them and routing them into the ERP (via API or a workaround) to prepare the quotation submitted by /u/Mysterious_Flow_5635 [link] [comments]",
+      "author": "Mysterious_Flow_5635"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Explained",
+  "source_slug": "ai-explained",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+  "tags": [
+    "ai-research",
+    "explainer"
+  ],
+  "fetched_at": "2026-11-12T04:00:17.536093+00:00",
+  "items": [
+    {
+      "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+      "url": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+      "published": "2026-11-10T22:11:36+00:00",
+      "summary": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Bench got saturated but meta-simple bench might not have, Internal model 4, remote labour automation and much more\n\nhttps://www.assemblyai.com/aiexplained\n\nExclusive Vids($9!): https://www.patreon.com/AIExplained\n\n00:00 - Introduction\n00:49 - how good are Fable 5.2 and Carbon?\n09:01 - smarter, but still missing some common sense\n15:49 - how fast is AI improving itself?\n23:51 - small gains, big consequences\n26:33 - it knows when you're watching\n\n\n\nIntroducing Claude Fable 5.2 and Mythos 5.2: https://www.anthropic.com/claude-fable-and-mythos-5-2\n\nClaude Fable 5.2 and Mythos 5.2 System Card: https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf\n\nMETR: AI R&amp;D acceleration at A",
+      "author": "AI Explained",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

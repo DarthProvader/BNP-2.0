@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-12T04:02:49.916437+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 11, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtlimf/rsingularity_daily_discussion_thread_november_11/",
+      "published": "2026-11-11T16:01:41+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "A second affair has hit the Jensen",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtvbqj/a_second_affair_has_hit_the_jensen/",
+      "published": "2026-11-11T22:12:40+00:00",
+      "summary": "submitted by /u/CheezyWookiee [link] [comments]",
+      "author": "CheezyWookiee"
+    },
+    {
+      "title": "Ts is too funny",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtjj5g/ts_is_too_funny/",
+      "published": "2026-11-11T14:44:23+00:00",
+      "summary": "submitted by /u/Formal-Narwhal-1610 [link] [comments]",
+      "author": "Formal-Narwhal-1610"
+    },
+    {
+      "title": "Google Launches Gemini Decision-1 Model for Fast Structured Outputs",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtpfrg/google_launches_gemini_decision1_model_for_fast/",
+      "published": "2026-11-11T18:24:44+00:00",
+      "summary": "It is $0.10 per 1M input tokens with no additional cost. With support for image, audio, video, and PDF natively, 256K context window, & 1K questions. submitted by /u/Recent_Fox4339 [link] [comments]",
+      "author": "Recent_Fox4339"
+    },
+    {
+      "title": "PSA: There are active bot campaigns on reddit now and you can't tell",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtoar9/psa_there_are_active_bot_campaigns_on_reddit_now/",
+      "published": "2026-11-11T17:42:43+00:00",
+      "summary": "Sorry, I'm not sure where else to post this. This and accelerate are two of my main subreddits. I've heard claims of bots on reddit for a long time, but now I know for sure there really are campaigns happening on reddit to impact opinion. Here are two images of comments from two different users on two different subreddits with discussions about how bad the job markets are that were both made in the last few days: https://preview.redd.it/r13iden9s01i1.png?width=863&format=png&auto=webp&s=bfe5ce1ccffebce664b2103423aeb42dfa4a2588 https://preview.redd.it/z8r71q9cs01i1.png?width=1067&format=png&auto=webp&s=0cb318b6940c5902327e75e0d9152628d2424d26 I'm not wanting to make this political. I don't really care in this post about the actual state of the job market. But apparently someone out there really wants to make posts and comments (and likely spam upvotes) to encourage people to think the job market is really bad. I'm guessing there are many bad actors out there with various agendas doing t",
+      "author": "Glass_Performer1174"
+    },
+    {
+      "title": "CNN reported that data center “heat islands” were warming areas home to 340 million people. New peer-reviewed study finds the claimed warming would require 6–43× more waste heat than the facilities can produce.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xu0yyy/cnn_reported_that_data_center_heat_islands_were/",
+      "published": "2026-11-12T02:27:46+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Every single model release these days",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtp5dr/every_single_model_release_these_days/",
+      "published": "2026-11-11T18:14:12+00:00",
+      "summary": "submitted by /u/Numerous-Life-1939 [link] [comments]",
+      "author": "Numerous-Life-1939"
+    },
+    {
+      "title": "A developer asked claude to design a humanoid robot - it took a night - 698 parts, 33 actuators; it tested balance and iterated until stable",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtzr17/a_developer_asked_claude_to_design_a_humanoid/",
+      "published": "2026-11-12T01:28:16+00:00",
+      "summary": "From clankr submitted by /u/Distinct-Question-16 [link] [comments]",
+      "author": "Distinct-Question-16"
+    },
+    {
+      "title": "Google DeepMind unveils AlphaGenome 2, an AI model that predicts how DNA changes affect different types of cells",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtkckl/google_deepmind_unveils_alphagenome_2_an_ai_model/",
+      "published": "2026-11-11T15:16:43+00:00",
+      "summary": "Another day, another ship by GDM. Yesterday they unveiled AlphaProof Code and Gemini Robotics 2.5 and Google rolled out Gemini 4 Carbon to developers. Today they announced AlphaGenome 2. The blog post is an interesting read. A few interesting details: -> it was trained on more than 100 million individual cell profiles across 68 tissues -> in a benchmark covering 28 immune cell types, it picked up nearly twice as many variants that affect gene activity as the original AlphaGenome fine-tuned on single-cell data (30% vs 16%) -> it can make predictions for cell states it hasn’t seen before using new cell data, without having to retrain the model GDM first released AlphaGenome in June 2025. submitted by /u/TorturedPoet30 [link] [comments]",
+      "author": "TorturedPoet30"
+    },
+    {
+      "title": "The hall of fame as of november 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtli1c/the_hall_of_fame_as_of_november_2026/",
+      "published": "2026-11-11T16:01:06+00:00",
+      "summary": "no need to talk about the first 3, Opus 5.5 may look like recency bias but it came out september 22 and: 1)crushed every single competitor 2)after this model we had 9 releases from openAI , GOOGLE and Meta and more than one month later it is still the best and every new model is compared with it. ( Fable 5.2 has been live for a few days so I didn't count it) 3)The release of this model was a HUGE turning point in the gaming scene: big steps in recompling the ps5 software, Kernel jailbreak for Ps5, Userland jailbreak for switch 2. a fricking 14 year old used it to port the newly released Zelda Ocarina of time on PC 4) reverse engineering 5) there are some people who genuinely think AI development should stop at opus 5.5 because they think it's \"enough\" GPT 3.5 was 2022, GPT4 in 2023, o1 in 2024. honorable mentions that i remember from 2025: o3 series of models, gemini2.5 pro(my personal favourite, it had huge context window at the time) and claude 3.7/4 . probably i'm missing some(like ",
+      "author": "G0dZylla"
+    }
+  ]
+}

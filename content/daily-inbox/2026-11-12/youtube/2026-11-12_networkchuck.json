@@ -1,0 +1,24 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-12T04:01:00.812252+00:00",
+  "items": [
+    {
+      "title": "i wired my toilet to a Raspberry Pi",
+      "url": "https://www.youtube.com/watch?v=m1NtVno-y7Q",
+      "published": "2026-11-11T16:24:38+00:00",
+      "summary": "Companies still have to ship AI, and their AI agents now have real access to real servers and real data. Wiz gives you the complete context and runtime protection to adopt AI fast and safely. See Wiz AIDR in action with a demo and tell them Chuck sent you: https://ntck.co/WizAIDR\n\n\nMy toilet officially has an IP address. Every time my editors flush, all of our computers drop off the NAS and even the internet kind of hiccups, so I put a float switch in the toilet tank and wired it to an old Raspberry Pi. Now I know exactly when that toilet flushes, down to the millisecond, and my whole team gets a Slack alert. It took a Lego, a few tries, a few zip ties and way too much hand washing. That's just good IT work. In this video you'll learn how a float switch works (two metal strips, a glass tube and a magnet), how to wire one to the GPIO pins on a Raspberry Pi, why the Pi's built-in pull-up resistor keeps stray electrical noise from faking a flush, and how a small Python script checks the p",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

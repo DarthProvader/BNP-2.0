@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-12T04:04:02.154371+00:00",
+  "items": [
+    {
+      "title": "Show us what you've created with Claude!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtv0sh/show_us_what_youve_created_with_claude/",
+      "published": "2026-11-11T22:00:34+00:00",
+      "summary": "Inspired by this popular post, this is a weekly post for everyone to show what they have been working on that helps you or that you're proud of! submitted by /u/claudeai-perfhub [link] [comments]",
+      "author": "claudeai-perfhub"
+    },
+    {
+      "title": "Will They Nerf Fable 5.2? LiveNerf Day 3 Update for Fable 5.2",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xu01lm/will_they_nerf_fable_52_livenerf_day_3_update_for/",
+      "published": "2026-11-12T01:42:34+00:00",
+      "summary": "I’ve been running LiveNerf since Opus 5.5 launched on September 24. The idea is pretty simple: run the same questions every day and see if Claude actually gets worse over time. If you’re interested in tracking performance of Opus 5.5 and Fable 5.2, here’s the repo: https://github.com/ninjahawk/livenerf Every day, Opus answers the same frozen set of 78 questions from GPQA Diamond, MMLU-Pro, competition math, and AIME. Everything runs through headless Claude Code on one Max subscription. The study is pre-registered, results are append-only, and grading is exact. The Opus results so far: Launch baseline (first 10 days): 58.4% Today’s score: 60.3% Nerf detected: Not a statistically meaningful general one within the pre-registered parameters. There’s been plenty of daily variation, but nothing that meets the pre-registered threshold for a sustained decline. I’ve also added Fable 5.2 tracking. Some people in the Discord wanted the new model included, so I started running Fable on its launch ",
+      "author": "TheOnlyVibemaster"
+    },
+    {
+      "title": "Getting 3 free fable rst for anniversary",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtle19/getting_3_free_fable_rst_for_anniversary/",
+      "published": "2026-11-11T15:57:13+00:00",
+      "summary": "Is everyone getting free usage or am I the lucky special snowflake? submitted by /u/Timo-Hauser [link] [comments]",
+      "author": "Timo-Hauser"
+    },
+    {
+      "title": "Heads up: Claude Code's \"don't ask again\" has been leaking secrets into public repos",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtx4ik/heads_up_claude_codes_dont_ask_again_has_been/",
+      "published": "2026-11-11T23:29:02+00:00",
+      "summary": "GitLab wrote about this a few days ago, and the number is worth repeating. Apiiro found 104,185 copies of `.claude/settings.local.json` in public repositories, and 1,122 of them had a secret in them. Here is how a secret ends up in that file. When you approve a shell command with \"Yes, and don't ask again\", Claude Code stores the exact command in that file under `permissions.allow`, so it stops prompting you for it. If you had typed a token or a password into the command, it is now saved there as plain text. The reason it leaks is a bit subtle. Claude Code keeps the file out of git by adding it to your personal global git excludes, and those only exist on your own machine. The project `.gitignore` does not list it by default. So the moment the repo is shared or someone clones it, the file can be committed and pushed by someone whose machine never had that exclude. Two things if you find one in your own repos. Rotate the secret, do not only delete the line. Once it was pushed, the value",
+      "author": "Predictor_2718"
+    },
+    {
+      "title": "I built a tiny Windows taskbar widget with Claude Code that shows your Claude 5h and weekly usage next to the clock",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xte9be/i_built_a_tiny_windows_taskbar_widget_with_claude/",
+      "published": "2026-11-11T10:20:10+00:00",
+      "summary": "I kept checking the usage from the web, so I built a small widget that keeps them visible in the Windows taskbar (~300 KB exe, ~3 MB RAM, no installer). What it does Shows your 5-hour and weekly usage right next to the clock Turns orange at 80% and red at 95% Hover for reset times Update interval from 30 sec to 30 min, plus an option to show what's left instead of what's used Light and dark taskbars Tiny: one ~450 KB exe, ~5 MB RAM, no installer How Claude Code helped I built the whole thing with Claude Code (Opus): Planning: I asked for the most lightweight, native way to put text in the Windows 11 taskbar. Windows 11 removed the old official way to add things to the taskbar (deskbands). Claude Code compared the alternatives and settled on a small see-through window placed inside the taskbar, written in Rust using only built-in Windows APIs. Data: it worked out that the usage numbers come from the same endpoint Claude Code's /usage command uses, and confirmed the response format with ",
+      "author": "abdosarmini92"
+    },
+    {
+      "title": "I just realized Batman was basically running Claude on his Batcomputer since the 60s",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xto5x5/i_just_realized_batman_was_basically_running/",
+      "published": "2026-11-11T17:38:20+00:00",
+      "summary": "Batman never once asked it a follow-up question. He just took the first output and drove the Batmobile into whatever it said, like a typical Claude user. He really said 'Batcomputer, solve all crime. Make no mistakes'. That also means half of his tech was vibe-coded. A bat-ram, a rocket launcher, an onboard Batphone, and a parachute, all bolted onto a 1955 Lincoln Futura concept car. Pure scope creep, never refactored. Yet somehow it just works. He also rich enough to be on the unlimited enterprise plan, running the max mode and burn 200k tokens deciding which bat-gadget matches his cape. Explains why crime in Gotham never actually goes down, too. Wayne Enterprises is the biggest customer, so nobody’s going to tell him the batcomputer’s just agreeing with him. submitted by /u/Muri_Chan [link] [comments]",
+      "author": "Muri_Chan"
+    },
+    {
+      "title": "Claude has been incredible for my ADHD brain. The ability to give it ideas that I’ve been thinking of for year or get data analyzed to give me straightforward answers has been incredible. HOWEVER, I NEVER close a loop! HELP",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtxgqi/claude_has_been_incredible_for_my_adhd_brain_the/",
+      "published": "2026-11-11T23:44:38+00:00",
+      "summary": "I have about 40 different projects with so many different conversations within them. When I’m working on something and a new idea pops up, I open a new chat because I don’t want to forget or I’m waiting on Claude to finish something it’s working on so I think I can work on two things at once… which I can’t. But now I’m at a place where I realize there’s so many times I never closed the loop and I never really finished the project. So I’m looking for something within Claude in or an external thing I could connect to Claude that analyze all of my projects to identify the open loops and organize it all for me submitted by /u/Legitimate_Ice_2270 [link] [comments]",
+      "author": "Legitimate_Ice_2270"
+    },
+    {
+      "title": "I built an animated watch face for my Galaxy Watch with Claude, and it turned into a little farm story with a sneaky wolf",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtne5p/i_built_an_animated_watch_face_for_my_galaxy/",
+      "published": "2026-11-11T17:10:22+00:00",
+      "summary": "So this started as me just cleaning up my Galaxy Watch4 Classic. I asked Claude (Opus, in the Claude app) to help me remove apps I don't use over ADB, and it got rid of 21 of them. Then I thought, why not make my own watch face? I've never made one before. I built it one piece at a time. I'd say what I wanted, send a photo of my watch screen, and Claude would build the next version. It drew all the art with Python, wrote the watch face in Google's Watch Face Format, packaged it into an installable APK, and when the face wouldn't load at first, it read my watch's error logs and fixed the problem. The video is rendered from the same files that run on my watch. What it does (it's a 45-second day/night loop): - During the day, a boy walks out of his cabin, chops a tree, carries the logs in a sack, stacks them on the woodpile and goes back inside. The sun and clouds move across the sky. - At night you get the aurora, twinkling stars and a rocket flying past. A sheep opens the fence gate and",
+      "author": "ArTtemiishanks"
+    },
+    {
+      "title": "Claude Fable 5.2 is the new best architectural drafting model",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xtmhjb/claude_fable_52_is_the_new_best_architectural/",
+      "published": "2026-11-11T16:37:40+00:00",
+      "summary": "This is an update to my earlier post, discussed on r/ClaudeAI here: https://www.reddit.com/r/ClaudeAI/comments/1xkfvvl/opus_55_can_do_architectural_drafting_at_a_junior/) While the drafting process still needs a human in the loop, it seems clear to me that AI drafting is commercially viable for simple projects now, and will become a big deal soon. submitted by /u/StevGallagh [link] [comments]",
+      "author": "StevGallagh"
+    },
+    {
+      "title": "How are you guys coming up with these random DIY projects?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xthqj0/how_are_you_guys_coming_up_with_these_random_diy/",
+      "published": "2026-11-11T13:28:17+00:00",
+      "summary": "Every time I scroll through this sub, I see people building the most random, cool stuff. Someone finds an old Kindle in a drawer and decides to build custom firmware to turn it into a live transit board. Someone else grabs a 10-year-old iPad and turns it into a dedicated dashboard. I even saw someone talking about writing custom software for their TV and honestly, as a non-coder, my brain genuinely wondered for a second HOW?? I’d love to try building a tiny project myself, maybe just a little helper tool for my Mac. But two things are holding me back: First, how do you actually come up with the ideas? Do you just run into a minor annoyance during your day and immediately think, \"Claude can write a script for this\", or do you stare at old gadgets around your desk until inspiration hits? Second and this is the big one, how do you manage the token limits? I’m on the standard $20 Pro plan, and I'm terrified of falling into a debugging rabbit hole, burning through my allowance on some silly",
+      "author": "_necrobite_"
+    }
+  ]
+}
