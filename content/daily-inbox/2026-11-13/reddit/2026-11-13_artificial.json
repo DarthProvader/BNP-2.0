@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-13T04:06:17.561979+00:00",
+  "items": [
+    {
+      "title": "A United Nations survey last year found that as many as 80% of people in [China] support data center construction. At least two-thirds of Chinese people use AI in their day-to-day life, as many embrace the technology and the infrastructure behind it",
+      "url": "https://www.reddit.com/r/artificial/comments/1xuqml7/a_united_nations_survey_last_year_found_that_as/",
+      "published": "2026-11-12T22:22:20+00:00",
+      "summary": ">Experts cited by the Financial Times say data centers in China are built at about one-fifth of the costs incurred in the U.S., not least due to the much higher land and labor costs. Why is there such a big difference between support for data centers in China compared to the US? https://www.cbsnews.com/news/china-ai-data-center-boom-as-us-tech-firms-face-resistance/ submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+      "url": "https://www.reddit.com/r/artificial/comments/1xu453q/after_democrats_midterm_wins_palantir_ceo_alex/",
+      "published": "2026-11-12T05:09:54+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Jensen Huang leaving Nvidia risks a 'brain drain' from the AI chipmaker",
+      "url": "https://www.reddit.com/r/artificial/comments/1xufn7w/jensen_huang_leaving_nvidia_risks_a_brain_drain/",
+      "published": "2026-11-12T15:26:24+00:00",
+      "summary": "submitted by /u/scientificamerican [link] [comments]",
+      "author": "scientificamerican"
+    },
+    {
+      "title": "Anthropic says it has met its own threshold for AI-accelerated AI research — days before its IPO",
+      "url": "https://www.reddit.com/r/artificial/comments/1xuo0rf/anthropic_says_it_has_met_its_own_threshold_for/",
+      "published": "2026-11-12T20:38:27+00:00",
+      "summary": "In its amended IPO filing on Tuesday (Nov 10), Anthropic said it has determined it met the 'research acceleration threshold' in its Responsible Scaling Policy — the point where AI assistance is expected to roughly double the pace of AI capability gains. The company stressed the judgment rests on expectations about future models and the overall pace of progress, not on demonstrated capabilities of current systems, and said it is still assessing the data and will publish further reports. Independent evaluator METR estimated Anthropic's progress on defined capability tests has run at about 1.9x its earlier pace since October 2025, while cautioning its estimates are highly uncertain. What interests me: meeting the threshold is meant to trigger stronger safeguards, not a halt — but Anthropic also warned faster development could outpace its ability to validate safety measures. With the IPO pricing expected next week, do you think a self-reported threshold like this is a meaningful safety sig",
+      "author": "winer666"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang resigns after tech giant rocked by second affair allegation",
+      "url": "https://www.reddit.com/r/artificial/comments/1xudjup/nvidia_ceo_jensen_huang_resigns_after_tech_giant/",
+      "published": "2026-11-12T14:02:41+00:00",
+      "summary": "submitted by /u/twoloafbread [link] [comments]",
+      "author": "twoloafbread"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.reddit.com/r/artificial/comments/1xu8l1b/united_airlines_bans_ai_agents_from_booking/",
+      "published": "2026-11-12T09:40:58+00:00",
+      "summary": "submitted by /u/unconventionalbook [link] [comments]",
+      "author": "unconventionalbook"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Resigns After Multiple Affairs",
+      "url": "https://www.reddit.com/r/artificial/comments/1xumr55/nvidia_ceo_jensen_huang_resigns_after_multiple/",
+      "published": "2026-11-12T19:49:39+00:00",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "author": "Resident-Fall4351"
+    },
+    {
+      "title": "Google's Gemini Decision 1 returns zero text: it scores up to 1,000 yes/no or choice questions per call at $0.10/M input",
+      "url": "https://www.reddit.com/r/artificial/comments/1xufdsi/googles_gemini_decision_1_returns_zero_text_it/",
+      "published": "2026-11-12T15:16:10+00:00",
+      "summary": "Google launched the Gemini Decisions API yesterday, and the model behind it doesn't generate answers at all. You send one input (text, images, audio, video or PDFs, up to 256K tokens) plus up to 1,000 yes/no, multiple-choice or rubric questions, and it returns probabilities with a 0-1 confidence score in a single forward pass. Google quotes 150-250 ms end-to-end and bills zero output tokens. The catch is that questions are isolated and can't see each other, and you only get the options you defined upfront, so any reasoning has to live in your own code. As someone building small agent flows, this is exactly the spot where I currently burn a full LLM call and parse JSON just to get a yes or no. Would you trust a confidence score like this for routing or moderation, or keep a generative model as the judge? https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ submitted by /u/javimbuilds [link] [comments]",
+      "author": "javimbuilds"
+    },
+    {
+      "title": "United Airlines restricts AI agents from booking flights",
+      "url": "https://www.reddit.com/r/artificial/comments/1xugf9u/united_airlines_restricts_ai_agents_from_booking/",
+      "published": "2026-11-12T15:56:22+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "China trying slowdown US dominance in AI..nvidia is beginning.",
+      "url": "https://www.reddit.com/r/artificial/comments/1xuha5n/china_trying_slowdown_us_dominance_in_ainvidia_is/",
+      "published": "2026-11-12T16:28:20+00:00",
+      "summary": "Current Nvidia CFO became CEO. But this CFO must know about their chip sales to China all these years. Unless Jensen ran some dark account and allegedly shipped restricted chips to China. Unlikely for billions of dollars. Now, if such allegations are true, it now seems someone who knew about the Nvidia shipments to China and didn't raise a red flag is now Nvidia CEO? So can we say China has taken over Nvidia? I'm thinking about this conspiracy.... If so, we should except this new CEO (former CFO) to come out with bombshell reports soon that causes huge losses to Nvidia and wider market crisis as China would want. China linked short selling companies in the US must be loaded and ready to make a killing then. Interesting conspiracy theories can be put forward.... But that's what it is. A conspiracy theory. Only time will tell. Why? China launched Ops major purpose is slowdown of US dominance in AI particularly. There will be more hit jobs to US companies in future by China much likely...",
+      "author": "base64-encode"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-13T04:05:56.786343+00:00",
+  "items": [
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated errors affecting the Microsoft 365 connector on Nov 12, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xujm6h/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-11-12T17:54:16+00:00",
+      "summary": "Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook remains affected. You can follow Microsoft's progress at https://status.cloud.microsoft . We will update this post when service is restored. Nov 12, 22:23 UTC Update - We are continuing to work with our upstream provider, who is restarting affected servers. Mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests, and Claude for Outlook remains affected. We will provide another update as soon as we have more information. Nov 12, 21:18 UTC Update - We are continuing to work with our upstream provider on this issue. Mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook is also affected: mail and calendar actions may fail, and some users may not be able to open the add-in. We will provide another ",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "My game got removed from gamedev subs for using AI, so here’s exactly how I made it with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xul18m/my_game_got_removed_from_gamedev_subs_for_using/",
+      "published": "2026-11-12T18:46:30+00:00",
+      "summary": "I’ve been making games for 19 years. Over the last few years it had turned into a job, and I stopped enjoying it. A few weeks ago I set myself a challenge, take one small game through the entire pipeline on my own with AI. That meant development, art, marketing, the Steam page, and getting it onto the platform. It took about 5 weeks. For the first time in years I was actually having fun making a game again. In the game, you drive a machine into a dense field, clear it, and use what you earned to buy the next field. It's a chill, unrealistic farming game. A couple of gamedev subs removed my posts as I disclosed AI use, so I’m sharing the process here instead, for anyone curious how it actually works. The stack Claude (Opus 5.5) in Claude Code wrote basically all of the C#. I worked with it like a small team of agents. Funplay MCP + Unity 6 let Claude drive the Unity editor directly. It can inspect scenes, change values, take screenshots and play the game, so it can see what it built ins",
+      "author": "SirKnighty"
+    },
+    {
+      "title": "I disclosed every AI-made part of my solo game on Steam. The disclaimer is one of the main things people comment on.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xus0wz/i_disclosed_every_aimade_part_of_my_solo_game_on/",
+      "published": "2026-11-12T23:22:49+00:00",
+      "summary": "I'm a software dev of 20 years and I built Mend, a fly-fishing game on real Alberta and BC rivers , on my own with Claude. It comes out on Steam next week and I am getting mixed reviews. I filled in Steam's AI disclosure honestly as seen below Mend's narrator and the characters' voices are made with AI text-to-speech. The narrator is a synthetic voice and does not imitate any real person, and the characters speak an invented gibberish language. Much of the game's text (the dialogue, the in-game fly-fishing guide and the store description) was written with the help of an AI assistant, then reviewed and edited by the developer. No AI image generators were used: the 3D world, the characters and the store art are made procedurally by the game's own code from real elevation and river data. The bird calls and river sounds are real field recordings. Mend's menu music was composed with an AI music tool. The disclaimer is about voices, one song, and text. I posted the game to about a number of ",
+      "author": "civerooni"
+    },
+    {
+      "title": "Introducing Claude Meetings",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xunrsl/introducing_claude_meetings/",
+      "published": "2026-11-12T20:28:33+00:00",
+      "summary": "submitted by /u/AwesomeArcade712 [link] [comments]",
+      "author": "AwesomeArcade712"
+    },
+    {
+      "title": "Are we not allowed to even ask basic biology questions?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xuhanm/are_we_not_allowed_to_even_ask_basic_biology/",
+      "published": "2026-11-12T16:28:51+00:00",
+      "summary": "submitted by /u/EndLineTech03 [link] [comments]",
+      "author": "EndLineTech03"
+    },
+    {
+      "title": "Anthropic are discouraging using Fable as a coordinator for Projects",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xuuabz/anthropic_are_discouraging_using_fable_as_a/",
+      "published": "2026-11-13T01:04:53+00:00",
+      "summary": "Seems to go against the \"use Fable for orchestration\" advice that I've been seeing a lot submitted by /u/galusteee [link] [comments]",
+      "author": "galusteee"
+    },
+    {
+      "title": "Claude refuses to touch copywritten works",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xuho9b/claude_refuses_to_touch_copywritten_works/",
+      "published": "2026-11-12T16:43:01+00:00",
+      "summary": "Really Anthropic? After feeding every human work in existence to your models, rights holders be damned, you block fair use of copywritten works? It's not like I'm asking it to search out the quote and pin it down, I've provided the text to use directly. When Opus 4.8 launched this wasn't an issue, but now when I select it manually it displays the same behavior as 5.5 does here in its usual verbose style. Disclaimer: I came across this limitation in actual work conversation, where I was quoting a technical paper and the content was a very small part of a much larger document. It refused to write the line, and when I added it manually, it refused to edit the line. Rather than screenshot that conversation, I reproduced the behavior with a better known work. submitted by /u/adrian-crimsonazure [link] [comments]",
+      "author": "adrian-crimsonazure"
+    },
+    {
+      "title": "I built \"Lump,\" a quirky desk creature who shows me what Claude is doing, so I don't miss anything",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xumt47/i_built_lump_a_quirky_desk_creature_who_shows_me/",
+      "published": "2026-11-12T19:51:40+00:00",
+      "summary": "This is Lump. He lives in a tiny glass cube on top of my monitor and keeps an eye on my Claude sessions, so I don't have to. I kept leaving Claude Code to work and then either staring at it waiting, or wandering off and coming back to find it had been sat on a permission prompt for 20 minutes. Now I just glance at Lump! What he does Works when Claude works. He opens his little laptop and types while any session is busy. Raises the alarm when Claude needs you: a permission prompt, a question, a plan to approve. Leave him long enough and he gets grumpy and holds up a sign. Celebrates when it's done. Changes colour with your usage. He's tangerine normally and flushes red as you get close to your 5-hour or weekly limits. Keeps time. Optional: give him your calendar and he fades to blue in the 10 minutes before a meeting, then sets off an alarm clock when it starts. Sleeps at night (midnight to 8am), with a blanket and a snore. Tap the glass and he does a bit. There's a motion sensor in the",
+      "author": "joxy1999"
+    },
+    {
+      "title": "Anthropic’s IPO is reportedly 6x oversubscribed... the biggest AI market test yet",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xutknf/anthropics_ipo_is_reportedly_6x_oversubscribed/",
+      "published": "2026-11-13T00:31:26+00:00",
+      "summary": "Just saw Anthropic’s IPO has 6× more IPO demand than available shares at up to 1.4T valuation. (Bloomberg) I believe that is a big signal as the company is aiming to raise up to $64.4B at a valuation of roughly $1.4T, and apparently there are already far more buyers than shares even though it seems existing backers may get priority... many new investors could receive smaller allocations than they asked for. Claude has become genuinely important to a lot of people and businesses this year, so the demand makes sense. Still wild to see that level of appetite for an AI company before it has even started trading. I also subscribed for the rANT for the IPO so fingers crossed... What do you guys make of all this though? especially the 1.4T valuation? submitted by /u/MegaMaak [link] [comments]",
+      "author": "MegaMaak"
+    },
+    {
+      "title": "I hate how Claude formulates responses, they are very hard to read",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xusj0t/i_hate_how_claude_formulates_responses_they_are/",
+      "published": "2026-11-12T23:45:26+00:00",
+      "summary": "Comparing to chatgpt the way Claude talks is just giving me headache, using the default output style. For a long time I didn't understand why I find claude so frustrating sometimes, until I realized that I can never properly understand what it tries to say. I don't think there was a single time I used claude code for a complex problem and didn't have to ask for about 5 clarifications for it response. This literally never happens to me with chatgpt/codex. The sentences are structured in away a person can actually understand. Any idea if an output style can change it? submitted by /u/wild_deer_man [link] [comments]",
+      "author": "wild_deer_man"
+    }
+  ]
+}
