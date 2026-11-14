@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-14T04:01:54.856910+00:00",
+  "items": [
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "published": "2026-11-13T15:26:32+00:00",
+      "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+      "author": "Dan Goodin"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-14T04:05:13.773761+00:00",
+  "items": [
+    {
+      "title": "Discussion Hub for new Claude incident: Elevated purchasing errors on claude.ai on Nov 14, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvrfy9/discussion_hub_for_new_claude_incident_elevated/",
+      "published": "2026-11-14T02:55:13+00:00",
+      "summary": "Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an hour for their plan to update. There is no need to pay again. We are monitoring for recovery. Nov 14, 03:09 UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an update as soon as possible. Nov 14, 02:54 UTC Post flair and post body will be updated as the incident report is updated by Anthropic. This discussion post will be removed from subreddit highlights one hour after the incident is resolved. View this incident on status.claude.com submitted by /u/ClaudeAI-mod-bot [link] [comments]",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "Fable 5.2 painting in MS Paint",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/",
+      "published": "2026-11-13T19:00:14+00:00",
+      "summary": "I saw a post on Reddit where the new GPT Astra painted in MS Paint, so I let Fable 5.2 try the same thing. It did the whole painting with the mouse in about 2.5 hours. Edit: I saw some repeating questions in the comments, so to clarify: It controls MS Paint through computer use in the Claude desktop app. Rough cost at API prices: about $45 submitted by /u/wollymonjac [link] [comments]",
+      "author": "wollymonjac"
+    },
+    {
+      "title": "PSA: Using Fable as an advisor doesn’t touch your Fable weekly limit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvnq0t/psa_using_fable_as_an_advisor_doesnt_touch_your/",
+      "published": "2026-11-13T23:54:29+00:00",
+      "summary": "I use Opus 5.5 with Fable 5.2 as the advisor. It should work automatically but I tend to actually tell Claude to use the advisor when I want something researched. Works a treat and does not draw anything from my weekly Fable quota. Happy weekend! submitted by /u/KarmaEmperor [link] [comments]",
+      "author": "KarmaEmperor"
+    },
+    {
+      "title": "hopital",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xv3qfi/hopital/",
+      "published": "2026-11-13T09:46:30+00:00",
+      "summary": "submitted by /u/neondragony [link] [comments]",
+      "author": "neondragony"
+    },
+    {
+      "title": "are hallucinations still a thing?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvqwd1/are_hallucinations_still_a_thing/",
+      "published": "2026-11-14T02:27:30+00:00",
+      "summary": "I've just been realizing that Opus 5.5 kinda just nails it every time with my research and some small code projects. It certainly doesnt always make sense and sometimes it gets a bit confused or reached conclusions i dont agree with, but i no longer worry about it making shit up or getting mixed up between two details in a long research paper and coming to wrong conclusions. Am i getting too comfortable or is it really that good? have folks had recent hallucinations with Opus 5.5? submitted by /u/deliciousdemocracy [link] [comments]",
+      "author": "deliciousdemocracy"
+    },
+    {
+      "title": "Fable 5.2 / Opus 5.5: asked Claude to make my screen look as deep as a fish tank. It wrote this in one HTML file.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvo1su/fable_52_opus_55_asked_claude_to_make_my_screen/",
+      "published": "2026-11-14T00:08:10+00:00",
+      "summary": "This is a 65 second film made from one HTML file. Claude wrote every line of it. What it is - One HTML file, 186 KB, about 3,000 lines. Raw WebGL. No libraries, no image files, no 3D engine. - Everything you see is built from maths at load time: the fish, the reef, the whale shark, the jellyfish, the glass. - No glasses needed. The depth is a trick of projection. The picture is drawn as if your screen were a window, and the picture frame gives your eye a fixed edge. When a fish crosses that frame, your brain puts it in front of the screen. How it was created - I gave Claude Code a challenge in plain words: make a web page that makes my screen look as deep as a fish tank. Then I kept saying \"push it further\". - Claude (Fable 5.2) wrote the engine and directed the film. It handed four set pieces to Opus subagents, each working to a written brief: the whale shark, the shattering glass, the coral reef and the glowing night. - I wrote no code. I watched a live preview in the browser and sai",
+      "author": "Greedy-Giraffe-4269"
+    },
+    {
+      "title": "Is it just me or is Claude really bad at researching online?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvnjsb/is_it_just_me_or_is_claude_really_bad_at/",
+      "published": "2026-11-13T23:46:34+00:00",
+      "summary": "I usually use Claude Code (and it's great at that), but I recently started using it for researching purposes and every time I ask about some ongoing event, it reports that it cannot access the relevant sites. Meanwhile, ChatGPT reports back right away with all the information from various sources. It feels like Claude is super restricted in this regard and I don't know a way around it. submitted by /u/CooLittleFonzies [link] [comments]",
+      "author": "CooLittleFonzies"
+    },
+    {
+      "title": "Claude Code limits in a desktop pet",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xveugv/claude_code_limits_in_a_desktop_pet/",
+      "published": "2026-11-13T17:59:12+00:00",
+      "summary": "I built Clauddy, a small pixel pet that sits in a corner of your screen and keeps your Claude Code session and weekly limits in view, along with when each one resets. The Fable weekly limit shows on its own too. It types at its desk while Claude is working, catches fire past 90%, and naps when you step away. If you use Codex or Cursor as well, they show up next to Claude, each with its own limits. How Claude Code helped All of it was built with Claude Code, mostly in long sessions where I described the behavior and it wrote the code, the tests and the docs. The rewrite: Claude Code moved it to a native Rust app (egui), screen by screen, porting each piece's tests along the way. CPU went from ~7% to ~1%. Knowing when Claude is working: it read through Claude Code's own session logs to find what marks a turn as open or done, so the pet keeps working through a long command instead of dozing off mid-task. Reviewing the UI without running it: it set up a snapshot gallery that renders every ",
+      "author": "SuccessfulCress7441"
+    },
+    {
+      "title": "Dumbest way to burn credits",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xv0vte/dumbest_way_to_burn_credits/",
+      "published": "2026-11-13T06:47:33+00:00",
+      "summary": "Thought I was going to test Claude's limits to the fullest...😔 Now I am questioning my own existence submitted by /u/the-indoorboy [link] [comments]",
+      "author": "the-indoorboy"
+    },
+    {
+      "title": "When to use Ternimal Claude vs Chat or Code Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvpwgc/when_to_use_ternimal_claude_vs_chat_or_code_claude/",
+      "published": "2026-11-14T01:36:56+00:00",
+      "summary": "I'm trying to understand and find when is the best time to use terminal claude rather then chat or code? How do you all do it ? When do you use ether one ? submitted by /u/UsmarineOO7 [link] [comments]",
+      "author": "UsmarineOO7"
+    }
+  ]
+}

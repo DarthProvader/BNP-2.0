@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-14T04:06:04.726645+00:00",
+  "items": [
+    {
+      "title": "OpenAI is so convinced that LLMs will become brains for robots that it has disbanded its robotics team",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvivdy/openai_is_so_convinced_that_llms_will_become/",
+      "published": "2026-11-13T20:32:27+00:00",
+      "summary": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/ submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "\"We are deeply sorry\" Microsoft apologizes for major outage that knocked Outlook, Teams, and Microsoft 365 offline for 24 hours – insists it wasn't AI that caused it",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvinch/we_are_deeply_sorry_microsoft_apologizes_for/",
+      "published": "2026-11-13T20:23:20+00:00",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "author": "esporx"
+    },
+    {
+      "title": "Did AI ground US flights? DHS is looking at the FAA's new AI tool",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvnyzp/did_ai_ground_us_flights_dhs_is_looking_at_the/",
+      "published": "2026-11-14T00:04:43+00:00",
+      "summary": "The FAA halted flights nationwide on Friday, its first full ground stop since January 2023, days after expanding its SMART AI air traffic tool across the country. Transportation Secretary Sean Duffy blamed a communication issue at all Air Route Traffic Control Centers, and Homeland Security's Markwayne Mullin said of SMART: \"We're looking at that.\" The tool's maker, Air Space Intelligence, says the stop \"is not based on or a result of the SMART system.\" Full alert: https://aiweekly.co/alerts/faa-grounds-all-us-flights-days-after-its-ai-air-traffic-tool-went-nationwide submitted by /u/Justgototheeffinmoon [link] [comments]",
+      "author": "Justgototheeffinmoon"
+    },
+    {
+      "title": "This AI finds patterns in visual brain activity and turns them into pictures",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvissf/this_ai_finds_patterns_in_visual_brain_activity/",
+      "published": "2026-11-13T20:29:33+00:00",
+      "summary": "\"An artificial intelligence (AI) tool can use brain scans to recreate the images people looked at with eerie accuracy. The system, called Brain-IT, uses data from functional magnetic resonance imaging (fMRI) to measure activity in the visual cortex, the part of the brain that processes visual input. A computer model then predicts both the broad layout of an image and high-level information about its content. It then passes those predictions to an AI image generator, researchers explained in a study uploaded to the preprint database arXiv. The research was presented at the ICLR 2026 conference, held April 23-25, and publicized by its authors in September.\" - Live Science submitted by /u/Fcking_Chuck [link] [comments]",
+      "author": "Fcking_Chuck"
+    },
+    {
+      "title": "What's the most boring task you'd hand to an agent if it actually worked?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvqnst/whats_the_most_boring_task_youd_hand_to_an_agent/",
+      "published": "2026-11-14T02:15:47+00:00",
+      "summary": "I'm building AIPass, an open-source multi-agent system that runs on your own Linux machine — 18 agents, they wake up in the evening, check email, fix bugs, optimise stuff, all from your phone with no cloud account. But I'm curious what you'd actually use it for. Not the sexy demo stuff. The boring, repetitive, \"I hate doing this every week\" stuff. For me it was: triaging email, keeping docs honest when the code changes, and running the same checks over and over without me having to remember. What would you hand off first if you trusted it to just work? submitted by /u/Input-X [link] [comments]",
+      "author": "Input-X"
+    },
+    {
+      "title": "Mark Zuckerberg wants AI walking around your home, do you? | BBC News",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvq2xe/mark_zuckerberg_wants_ai_walking_around_your_home/",
+      "published": "2026-11-14T01:46:12+00:00",
+      "summary": "So basically the TLDW Version of the video mentions the interview in which John Hanke was in, and here's what's weird about it. He mentions that \"humanoids will be inevitable\", and that \"the workplace is a very good training ground in which there's no human intervention\". He also gives those evil eyes when Ed Zitron mentioned that robotics takes a lot of time to develop programming and mapping wise. That's just creepy and evil on so many accounts. submitted by /u/ExtensionEcho3 [link] [comments]",
+      "author": "ExtensionEcho3"
+    },
+    {
+      "title": "so are robots just chatbots with arms now?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xve0b0/so_are_robots_just_chatbots_with_arms_now/",
+      "published": "2026-11-13T17:28:17+00:00",
+      "summary": "every robot demo lately is an AI company saying their chatbot model can control a robot now. is that really all a robot is at this point, a chatbot with arms? or is there other stuff inside doing the hard part and the chatbot just gets the credit. i saw LingBot-Touch is a whole separate model just so the fingers can feel things, so it can't be that simple. genuinely confused how these things are put together submitted by /u/ironAtlasuy7 [link] [comments]",
+      "author": "ironAtlasuy7"
+    },
+    {
+      "title": "Thinking Machines Lab releases Inkling 2 Small weights under Apache 2.0 — 594B MoE, top open-weights model on DesignArena",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvhgst/thinking_machines_lab_releases_inkling_2_small/",
+      "published": "2026-11-13T19:37:10+00:00",
+      "summary": "Thinking Machines Lab updated its Inkling 2 Small announcement yesterday (Nov 12): the model's weights are now downloadable on Hugging Face under an Apache 2.0 license, about a week after launch. The model initially shipped with closed weights on Tinker while external safety testing and red-teaming finished. The details: a 594B-parameter Mixture-of-Experts model with 17B active parameters, image inputs and variable effort. TML reports an Artificial Analysis Intelligence Index score of 31, with particular strength in agentic coding, vision and 3D design — it tops the open-weights ranking on DesignArena. It is also integrated with SGLang, vLLM and Unsloth, and available via API at NVIDIA, Fireworks, Together, Baseten, Nebius, Modal and Cloudflare. What interests me: TML explicitly followed a 'safe path to open weights' — closed launch first, open release after outside safety review. Do you think that staged approach should become the norm for frontier open-weights releases, or does a wee",
+      "author": "winer666"
+    },
+    {
+      "title": "Why hasn’t the unemployment rate gone up at all yet?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xv1tkh/why_hasnt_the_unemployment_rate_gone_up_at_all_yet/",
+      "published": "2026-11-13T07:45:39+00:00",
+      "summary": "The unemployment rate is still at 4.1%. If AI is smart enough to solve millennium problem, why hasn’t the unemployment rate gone up at all? submitted by /u/Eliv_nurotic [link] [comments]",
+      "author": "Eliv_nurotic"
+    },
+    {
+      "title": "Hugging Face just announced a new engine to run AI models locally",
+      "url": "https://www.reddit.com/r/artificial/comments/1xvfls3/hugging_face_just_announced_a_new_engine_to_run/",
+      "published": "2026-11-13T18:27:09+00:00",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "author": "LinkedInNews"
+    }
+  ]
+}
