@@ -41,17 +41,27 @@ def drafts_path_for(target_date: str) -> Path:
     return SOCIAL_DRAFTS_DIR / target_date / "drafts.md"
 
 
-def drafts_slug(target_date: str) -> str:
-    """Read article_slug out of the drafts frontmatter."""
+def _drafts_field(target_date: str, key: str) -> str:
+    """Read one value out of the drafts frontmatter."""
     path = drafts_path_for(target_date)
     if not path.exists():
         return ""
     for line in path.read_text(encoding="utf-8").splitlines():
-        if line.startswith("article_slug:"):
+        if line.startswith(f"{key}:"):
             return line.split(":", 1)[1].strip().strip("'\"")
         if line.startswith("## "):
             break
     return ""
+
+
+def drafts_slug(target_date: str) -> str:
+    """Read article_slug out of the drafts frontmatter."""
+    return _drafts_field(target_date, "article_slug")
+
+
+def drafts_article_url(target_date: str) -> str:
+    """Read article_url (the link the posts point at) out of the drafts frontmatter."""
+    return _drafts_field(target_date, "article_url")
 
 
 def drafts_ready(target_date: str) -> bool:

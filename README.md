@@ -46,7 +46,7 @@ The project has two separate parts: a **Python pipeline** (runs locally / in CI,
 │                    │                                                    │
 │                    ▼                                                    │
 │  3. PUBLISHING                                                         │
-│     ├── git commit + push  → site rebuilds                            │
+│     ├── one git push a day → site rebuilds                            │
 │     └── social autopilot   → X + LinkedIn                             │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
