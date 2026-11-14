@@ -2,14 +2,17 @@
 """Daily orchestrator: local collectors + Cursor SDK agents + social publish.
 
 Flow (default, SDK mode):
-  1. Collectors (local) + package and push content/daily-inbox/{date}/
+  1. Collectors (local) + package and commit content/daily-inbox/{date}/
   2. Cursor SDK local agents, one per step, in strict order:
        article (Claude Sonnet 5)
        → opus (Claude Opus 4.8) → gpt (GPT-5.6 Terra) → grok (Grok 4.5)
        → social drafts (Claude Sonnet 5)
-     Each step is verified on disk, then committed and pushed by this script.
+     Each step is verified on disk, then committed by this script.
      Agents never run git themselves.
-  3. Publish X + LinkedIn from content/social-drafts/{date}/drafts.md
+  3. One push for the whole day, then wait until the article is live.
+     Every push to main is a Vercel deployment that keeps a full copy of the
+     site for the retention period, so the day is pushed once, not per step.
+  4. Publish X + LinkedIn from content/social-drafts/{date}/drafts.md
 
 Requires CURSOR_API_KEY in scripts/.env.
 
@@ -52,6 +55,11 @@ DEFAULT_POLL_INTERVAL = 45
 DEFAULT_ARTICLE_TIMEOUT = 90 * 60
 DEFAULT_COMMENT_TIMEOUT = 45 * 60
 DEFAULT_SOCIAL_TIMEOUT = 45 * 60
+
+# After the daily push: how long to wait for Vercel to serve the new article
+# before the social posts link to it.
+LIVE_TIMEOUT = 10 * 60
+LIVE_INTERVAL = 20
 
 # What each verified step commits, and under which message.
 STEP_COMMITS = {
@@ -105,22 +113,70 @@ def _step_verifier(target_date: str):
     return verify
 
 
-def _step_publisher(target_date: str, use_git: bool = True):
+def _step_committer(target_date: str, use_git: bool = True):
+    """Commit each verified step locally. The push happens once, afterwards."""
+
     def after_step(step: str) -> None:
         if not use_git:
-            logger.info("Step %s verified (git disabled, nothing published)", step)
+            logger.info("Step %s verified (git disabled, nothing committed)", step)
             return
         path, message = STEP_COMMITS[step]
         try:
-            if gitops.commit_paths([path], message.format(date=target_date)):
-                gitops.pull()
-                gitops.push()
+            gitops.commit_paths([path], message.format(date=target_date))
         except Exception as exc:
-            # A failed publish must not abort the remaining steps; the next
+            # A failed commit must not abort the remaining steps; the next
             # step's commit picks the files up again.
-            logger.warning("Publishing %s failed: %s", step, exc)
+            logger.warning("Committing %s failed: %s", step, exc)
 
     return after_step
+
+
+def _push_day(target_date: str) -> None:
+    """Push everything committed today in a single push (one deployment)."""
+    try:
+        gitops.pull()
+        gitops.commit_articles_if_any(target_date)
+        gitops.push()
+    except Exception as exc:
+        logger.warning("Daily push failed: %s", exc)
+
+
+def _wait_for_article_live(
+    target_date: str,
+    timeout: int = LIVE_TIMEOUT,
+    interval: int = LIVE_INTERVAL,
+) -> bool:
+    """Wait until the site serves today's article, so social links resolve.
+
+    Returns False when it never came up. The caller still publishes: a late
+    deployment is better than a day without posts.
+    """
+    from run_social import drafts_article_url
+
+    url = drafts_article_url(target_date)
+    if not url:
+        logger.warning("No article_url in the drafts, not waiting for the site")
+        return False
+
+    import requests
+
+    deadline = time.time() + timeout
+    attempt = 0
+    while True:
+        attempt += 1
+        try:
+            status = requests.get(url, timeout=15).status_code
+        except requests.RequestException as exc:
+            status = None
+            logger.info("%s not reachable yet: %s", url, exc)
+        if status == 200:
+            logger.info("%s is live after %d check(s)", url, attempt)
+            return True
+        if time.time() + interval > deadline:
+            logger.warning("%s still not live after %ds (last status %s)", url, timeout, status)
+            return False
+        logger.info("%s not live yet (status %s), sleeping %ds…", url, status, interval)
+        time.sleep(interval)
 
 
 def _wait_until(label: str, predicate, timeout: int, interval: int) -> None:
@@ -163,7 +219,13 @@ def _run_social(target_date: str) -> None:
         raise RuntimeError(f"run_social exited {code}")
 
 
-def _sync_inbox(target_date: str, use_git: bool = True) -> None:
+def _sync_inbox(target_date: str, use_git: bool = True, push: bool = True) -> None:
+    """Package and commit the inbox, and pull what is new on origin.
+
+    `push=False` leaves the inbox commit local for the single daily push. It
+    is pushed straight away only when nothing else will push it (collect-only)
+    or when cloud Automations have to read it from origin.
+    """
     try:
         inbox.package_inbox(target_date)
     except FileNotFoundError as exc:
@@ -173,11 +235,9 @@ def _sync_inbox(target_date: str, use_git: bool = True) -> None:
     if not use_git:
         return
     try:
-        if gitops.commit_inbox(target_date):
-            gitops.pull()
-            gitops.push()
-        else:
-            gitops.pull()
+        gitops.commit_inbox(target_date)
+        gitops.pull()
+        if push:
             gitops.push()
     except Exception as exc:
         logger.warning("Inbox git sync: %s", exc)
@@ -195,7 +255,7 @@ def _run_sdk_steps(
         target_date,
         steps,
         verify=_step_verifier(target_date),
-        after_step=_step_publisher(target_date, use_git),
+        after_step=_step_committer(target_date, use_git),
         attempts=attempts,
     )
     if unfinished:
@@ -295,7 +355,7 @@ def run(
     else:
         logger.info("Skipping collectors")
 
-    _sync_inbox(target_date, use_git)
+    _sync_inbox(target_date, use_git, push=collect_only or use_automations)
 
     if collect_only:
         logger.info("Collect-only — stopping before the writing steps")
@@ -314,13 +374,18 @@ def run(
         if dry_run_webhooks:
             return 0
     else:
-        unfinished = _run_sdk_steps(
-            target_date,
-            steps or list(agent_backend.STEPS),
-            attempts,
-            use_git,
-            agent_backend,
-        )
+        try:
+            unfinished = _run_sdk_steps(
+                target_date,
+                steps or list(agent_backend.STEPS),
+                attempts,
+                use_git,
+                agent_backend,
+            )
+        finally:
+            # Push whatever got committed, even when a step blew up.
+            if use_git:
+                _push_day(target_date)
 
     exit_code = 1 if unfinished else 0
 
@@ -329,6 +394,8 @@ def run(
     elif "social" in unfinished:
         logger.error("No drafts for %s — skipping social publish", target_date)
     else:
+        if use_git and not use_automations:
+            _wait_for_article_live(target_date)
         _run_social(target_date)
 
     if use_git:

@@ -26,8 +26,13 @@ control:
 - Ordering depended on cron timing rather than actual completion.
 
 Local agents run against one working copy and never touch git. The
-orchestrator verifies every step on disk, then commits and pushes it. A step
-either produces its expected output or the run is reported as failed.
+orchestrator verifies every step on disk and commits it. A step either produces
+its expected output or the run is reported as failed.
+
+The whole day goes to `main` in one push after the last step, and the social
+posts wait until the site serves the new article. Every push to `main` is a
+Vercel deployment that stores a full copy of the site for the retention period,
+so pushing each step separately filled the plan's Deployment Storage.
 
 ## Steps
 
