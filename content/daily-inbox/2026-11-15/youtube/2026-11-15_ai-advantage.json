@@ -1,0 +1,33 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-11-15T04:01:03.075676+00:00",
+  "items": [
+    {
+      "title": "Claude’s New Whiteboards, Sheets & Data: What You Can Do Now.",
+      "url": "https://www.youtube.com/watch?v=SDipcfxxa8s",
+      "published": "2026-11-13T22:57:34+00:00",
+      "summary": "Get the FREE Dots PDF\nhttps://learn.aiadvantage.com/free-ai-assistant-pdf\n\nJoin The AI Advantage Club\nhttps://joinaiaclub.com/igor\n\nClaude’s new Whiteboards, Sheets and Data features give you more ways to work with AI. But which ones are actually useful—and is there a reason to switch from Google Sheets?\n\nTry Claude:\nhttps://claude.ai/\n\nChatGPT Spaces — getting started:\nhttps://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt\n\nSet up your business on ChatGPT:\nhttps://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt\n\nDots custom instructions:\nhttps://learn.chatgpt.com/docs/dots/controls\n\nChapters:\n0:00 This Week’s AI Updates\n0:47 What’s New in Claude Artifacts\n1:36 Claude Sheets: Features and Limitations\n2:43 Testing Sheets With a Fictional Gym\n3:31 Claude Sheets vs Google Sheets\n4:14 Claude Whiteboards Explained\n5:09 Planning an Event With Whiteboards\n6:52 More Whiteboard Examples and Edits\n7:32 Claude Data: Dashboards and Visual Storie",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "New Claude Fable 5.2 Is Insane (Yes, Again!)",
+      "url": "https://www.youtube.com/watch?v=6RAjpFNnST8",
+      "published": "2026-11-12T22:21:54+00:00",
+      "summary": "Join The AI Advantage Club\nhttps://joinaiaclub.com/igor\n\nIf you use AI to make presentations, teach something or explain an idea, these examples are worth seeing. I show you a slide deck I made with Claude Fable 5.2, try an AI-built first-person shooter, and explore interactive experiences that teach winemaking and the history of Central Park.\n\nTry Claude\nhttps://claude.ai/\n\nOfficial Fable 5.2 announcement and benchmarks\nhttps://www.anthropic.com/claude-fable-and-mythos-5-2\n\nSaltline FPS game — Felix Rieseberg\nhttps://x.com/felixrieseberg/status/2119925633564463609\n\nSnow globe comparison — Mr Tactical\nhttps://x.com/MrTacticalX/status/2119949557664735583\n\nFirst Crush winemaking game — Kieran Klaassen\nhttps://x.com/kieranklaassen/status/2119871673294037280\n\nCentral Park visual history — Pat Simmons\nhttps://www.aiformortals.co/blog/fable-5-2\n\nCathedral of Ice comparison — Tony\nhttps://x.com/EnvolDev/status/2119907318729245180\n\nFable music video and how it was made — anabology\nhttps://clau",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
