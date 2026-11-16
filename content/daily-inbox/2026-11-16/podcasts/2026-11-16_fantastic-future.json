@@ -1,0 +1,21 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future",
+  "feed_url": "https://feeds.simplecast.com/6Jw_LIsB",
+  "tags": [
+    "ai",
+    "czech",
+    "podcast"
+  ],
+  "fetched_at": "2026-11-16T04:01:34.560676+00:00",
+  "items": [
+    {
+      "title": "Jensen Huang končí v Nvidii 🫢 GTA 6 může být poslední klasická hra 🎮",
+      "url": "https://podcasters.spotify.com/pod/show/fantasticfuture/episodes/Jensen-Huang-kon-v-Nvidii--GTA-6-me-bt-posledn-klasick-hra-e3seapm",
+      "published": "2026-11-15T17:53:07+00:00",
+      "summary": "Summit se blíží a máme další novinky! 🚀 Díky Scuderii Praha přivezeme do Fora Karlín Ferrari Luce – vůbec první čistě elektrické Ferrari, které otevírá novou kapitolu legendární automobilky. A představujeme dva nové speakery. Tom Krcha, spolutvůrce Adobe XD a zakladatel Pen.dev, dorazí ze světa AI a agentního designu. Ondřej Lehečka z Tesly zase nabídne pohled do světa autonomního řízení a AI v autech. V novém díle řešíme obří aféru kolem Jensena Huanga, jeho nečekaný odchod z čela Nvidie a vyšetřování spojené s podezřením na čínskou špionáž. Co může odchod spoluzakladatele znamenat pro jednu z nejdůležitějších firem celého AI race?K tomu globální výpadek Microsoftu a den nato, bez souvislosti s ním, uzemnění všech letadel v USA. Boj USA a Číny o AI čipy, čínské automobilky a další let Starship. Velkým tématem je taky gaming - GTA 6 může být jednou z posledních AAA her vyvíjených tradičním způsobem. AI už dnes pomáhá převádět staré hry na nové platformy, vznikají celé hry pomocí vibeco",
+      "author": "Petr Mara, Jaroslav Beck, Lubo Smid"
+    }
+  ]
+}

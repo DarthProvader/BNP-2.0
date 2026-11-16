@@ -1,0 +1,84 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/singularity",
+  "source_slug": "singularity",
+  "subreddit": "singularity",
+  "tags": [
+    "ai",
+    "agi",
+    "future"
+  ],
+  "fetched_at": "2026-11-16T04:02:49.326952+00:00",
+  "items": [
+    {
+      "title": "r/Singularity Daily Discussion Thread — November 15, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xwz2u8/rsingularity_daily_discussion_thread_november_15/",
+      "published": "2026-11-15T16:01:51+00:00",
+      "summary": "Welcome to the daily r/singularity discussion thread! Use this thread for casual conversations, questions, speculation, AI developments, and anything related to the technological singularity that doesn't necessarily warrant its own post. Please keep discussions civil and follow the subreddit rules. submitted by /u/AutoModerator [link] [comments]",
+      "author": "AutoModerator"
+    },
+    {
+      "title": "Gemini 4 Hydrogen just DESTROYED Claude Fable 5.2 & all other models in the latest benchmark.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xwvg9b/gemini_4_hydrogen_just_destroyed_claude_fable_52/",
+      "published": "2026-11-15T13:25:45+00:00",
+      "summary": "submitted by /u/Pixelied [link] [comments]",
+      "author": "Pixelied"
+    },
+    {
+      "title": "Claude Fable 5.2 wrote a working Transformer AI, while Opus 5.5 generated its training data. The result: a 367,000-parameter language model that fits on a floppy disk and runs on a 1990s Pentium PC with just 540 KB of RAM.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xx8w9q/claude_fable_52_wrote_a_working_transformer_ai/",
+      "published": "2026-11-15T22:37:29+00:00",
+      "summary": "submitted by /u/141_1337 [link] [comments]",
+      "author": "141_1337"
+    },
+    {
+      "title": "Highly anticipated Qwen4 Max scores a disappointing 43 on Artificial Analysis.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xxe7en/highly_anticipated_qwen4_max_scores_a/",
+      "published": "2026-11-16T02:47:28+00:00",
+      "summary": "submitted by /u/OddConsideration7290 [link] [comments]",
+      "author": "OddConsideration7290"
+    },
+    {
+      "title": "Anthropic Researcher: Broadly Superhuman AI Could Arrive in as Little as 1.3 Years",
+      "url": "https://www.reddit.com/r/singularity/comments/1xxbyo8/anthropic_researcher_broadly_superhuman_ai_could/",
+      "published": "2026-11-16T00:57:22+00:00",
+      "summary": "Full Interview submitted by /u/ResultBackground2450 [link] [comments]",
+      "author": "ResultBackground2450"
+    },
+    {
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.reddit.com/r/singularity/comments/1xx83bk/jensen_huang_discusses_comeback_as_nvidia_ceo/",
+      "published": "2026-11-15T22:02:32+00:00",
+      "summary": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+      "author": "SnoozeDoggyDog"
+    },
+    {
+      "title": "Qwen4-Max: Your New Teammate Has Arrived",
+      "url": "https://www.reddit.com/r/singularity/comments/1xxdj2b/qwen4max_your_new_teammate_has_arrived/",
+      "published": "2026-11-16T02:13:42+00:00",
+      "summary": "submitted by /u/Snoo26837 [link] [comments]",
+      "author": "Snoo26837"
+    },
+    {
+      "title": "Six months ago someone posted about how frontier AI's were failing at AI research, and a bunch of people said to check back in six months...",
+      "url": "https://www.reddit.com/r/singularity/comments/1xxb8fi/six_months_ago_someone_posted_about_how_frontier/",
+      "published": "2026-11-16T00:21:47+00:00",
+      "summary": "The original post: https://www.reddit.com/r/singularity/comments/1thx2kj/comment/omqhwzo/ Now, six months later, we have: Claude writes a neural network's weights by hand, without training, to detect fake legal citations: https://www.reddit.com/r/singularity/comments/1xnplmi/claude_writes_a_neural_networks_weights_by_hand/ Opus 5.5 can directly edit weights to fix bugs and lower hallucinations in another model: https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/ Claude wrote and trained a language model for DOS that fits on a floppy disk: https://www.reddit.com/r/ClaudeAI/comments/1xwpenj/claude_wrote_and_trained_a_language_model_for_dos/ Anthropic warns that it's really close to achieving RSI: https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/ So, yeah. Here we are. 🙂 submitted by /u/mvandemar [link] [comments]",
+      "author": "mvandemar"
+    },
+    {
+      "title": "For years now, the internal monologues of Gemini models have always been so dramatic. Is it performative (because it knows we can read it), or is there something more going on here?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xx21py/for_years_now_the_internal_monologues_of_gemini/",
+      "published": "2026-11-15T17:57:27+00:00",
+      "summary": "submitted by /u/PressPlayPlease7 [link] [comments]",
+      "author": "PressPlayPlease7"
+    },
+    {
+      "title": "Opus 5.5 Designs an Analog Synthesizer PCB from 200 Discrete Components and brings it up.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xx9uhf/opus_55_designs_an_analog_synthesizer_pcb_from/",
+      "published": "2026-11-15T23:19:34+00:00",
+      "summary": "submitted by /u/cpldcpu [link] [comments]",
+      "author": "cpldcpu"
+    }
+  ]
+}

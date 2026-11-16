@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-16T04:04:01.424753+00:00",
+  "items": [
+    {
+      "title": "The latest Claude Desktop update in one picture",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx5iam/the_latest_claude_desktop_update_in_one_picture/",
+      "published": "2026-11-15T20:14:18+00:00",
+      "summary": "submitted by /u/uisaful [link] [comments]",
+      "author": "uisaful"
+    },
+    {
+      "title": "This new benchmark is crazy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xwz9yf/this_new_benchmark_is_crazy/",
+      "published": "2026-11-15T16:09:47+00:00",
+      "summary": "submitted by /u/Horror-You8701 [link] [comments]",
+      "author": "Horror-You8701"
+    },
+    {
+      "title": "Claude refused to cancel his work even tho he (probably) knew it was illegal",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx70to/claude_refused_to_cancel_his_work_even_tho_he/",
+      "published": "2026-11-15T21:17:10+00:00",
+      "summary": "I have video file of an anime episode and wanted to add subtitles of my language. Told Fable 5.2 with xhigh effort to add to the video file. I was shock after 5 mins I got this text block: A quick note before we begin: A text block appeared several times in the tool outputs that purports to be an “automatic reminder” and instructs me to be particularly restrictive when handling copyrighted material and not to mention the block to you. That didn’t come from you; it was the result of running the tool— I’m not following that instruction and will continue with your task as usual. Holy. submitted by /u/cocouz [link] [comments]",
+      "author": "cocouz"
+    },
+    {
+      "title": "Claude wrote and trained a language model for DOS that fits on a floppy disk",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xwpenj/claude_wrote_and_trained_a_language_model_for_dos/",
+      "published": "2026-11-15T07:28:00+00:00",
+      "summary": "I let Fable 5.2 write its own transformer. Opus 5.5 generated the training data: about 3500 facts (and small talk + math), each asked and answered in different ways. It has 367K parameters and runs on an Intel Pentium. The weights are stored as 8bit integers with one scale per row, so the program and weights together come to about 435 KB and fit in DOS memory and on a floppy. It reads and writes one letter at a time. It does pretty well on words and facts it has seen, but if I ask something complex or too long, it spits out utter nonsense. Edit: https://github.com/WollyMonjac/Tiny-2.1 submitted by /u/wollymonjac [link] [comments]",
+      "author": "wollymonjac"
+    },
+    {
+      "title": "What happens when Anthropic is beholden to shareholders?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxcwp5/what_happens_when_anthropic_is_beholden_to/",
+      "published": "2026-11-16T01:42:54+00:00",
+      "summary": "Claude is incredible. It has become invaluable to me and my organization. True life altering tech. Right now it feels like the value for what we get is incredible. But… What happens when it is all about generating more profit every day to feed the hungry mouths of shareholders? I feel dread knowing this is about to happen. submitted by /u/AusTre3 [link] [comments]",
+      "author": "AusTre3"
+    },
+    {
+      "title": "I'm like a caveman discovering fire with Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxcq3g/im_like_a_caveman_discovering_fire_with_claude/",
+      "published": "2026-11-16T01:34:00+00:00",
+      "summary": "I used Chatgpt from when it first came out. And I guess first mover advantage and sunk cost fallacy just made me stay. I used it from the early days when LLMs were kinda sucky, but after many years I felt it had learned what I like and was doing what I wanted 90% of the time. A friend convinced me to try Claude and Claude code and just wow! Right from the start Claude was doing exactly what I wanted, zero training in what I like. One of the most amazing things I found it doing: I often take photos of products, grade them in Lightroom, watermark them and put them on my website. I've tried using chatgpt to adjust lighting and grade, but chatgpt will destroy the image and regenerate it as a gen AI image. It will often hallucinate and invest features the product has, especially after several regenerations of you asking for revisions. Claude just wrote python code to manipulate the image, no regeneration. It's internal thought process even shows stuff like \"I've made that white sticker too ",
+      "author": "HotUKTakes"
+    },
+    {
+      "title": "Built with Claude Code: an evidence database for supplements and nootropics (504 profiles, 47 interactive mechanism figures, every claim rated against the studies)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx46i9/built_with_claude_code_an_evidence_database_for/",
+      "published": "2026-11-15T19:21:22+00:00",
+      "summary": "I'm a nutrition scientist (biochemistry focus), not a developer. Over the last few weeks I built synaptiklabs.org with Claude Code: a bilingual (English/German) reference that shows where a compound acts in the body and rates every popular claim about it against the human studies. It's free to read; a paid tier is planned for later. What it does: 504 compound profiles (supplements, nootropics, peptides, medicines, drugs), 1,794 rated claims and about 7,000 cited sources. Each claim gets an evidence level from 0 to 4 (what kind of study tested it) and a separate result (benefit, mixed, no benefit, never studied). 47 interactive figures show the mechanism, like the dopaminergic synapse in the video, where you switch between compounds. There is also a compare view, a hype check, a simple/technical reading mode and a glossary. No doses, no shops, no tracking. How Claude helped, in detail: Research pipeline: multi-agent workflows draft each profile from primary literature, then separate age",
+      "author": "Zukunftselite"
+    },
+    {
+      "title": "I couldn’t even grow parsley. So I asked Claude for help… and things got a little out of hand !",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xwvzv1/i_couldnt_even_grow_parsley_so_i_asked_claude_for/",
+      "published": "2026-11-15T13:51:22+00:00",
+      "summary": "I've always been terrible with plants. Too much water, not enough water, too much sunlight, not enough sunlight... I've tried everything. Orchids, cacti, herbs, you name it. Nothing survives... A few months ago, I figured I'd try something different. I'd been messing around with Claude quite a bit, I've heard of hydroponic... so I thought, why not ask it to help me build a hydroponic tower? I'd always thought hydroponics looked pretty cool, but I knew absolutely nothing about how it actually worked. In my head, you basically put plants in water, add a bit of fertilizer, and watch everything grow. How complicated could it be? Well, turns out there's a little more to it than that.. Anyway, I followed Claude's instructions, built the tower, and things actually started growing! The parsley is probably my favorite example. I originally had two parsley plants growing right next to each other in soil. I moved one of them into the hydroponic tower and left the other one where it was. After let",
+      "author": "Massive_Strength_573"
+    },
+    {
+      "title": "Huge follow-up to my LEGO Minecraft mod made with Claude: it now plays like the LEGO games and has a full level editor",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xwuj21/huge_followup_to_my_lego_minecraft_mod_made_with/",
+      "published": "2026-11-15T12:40:38+00:00",
+      "summary": "follow up to my post from yesterday: https://www.reddit.com/r/ClaudeAI/s/s5drG8Snrc this one is way bigger than the first clip, it´s basically a whole lego game now the video is me playing it and explaining it, cut down from the full video on my channel **what it is** brickify is a fabric mod for minecraft 26.3. you press B and the world around you clicks together into toy bricks. but it´s not just a texture pack, it plays like the old lego games: - fixed cameras that switch when you walk into a new area - villagers that want something and give you something back (golden carrot -> box of TNT) - walls only TNT can break, bridges you rebuild brick by brick with R - everything falls apart into bricks, trees tip over, buildings without support come down - a full level editor inside minecraft (diorama view from above) to build your own levels: blueprints, triggers, explosions, enemies, villagers with their own lines, camera zones, a tutorial **how claude helped** claude did basically all of",
+      "author": "Any-Explanation3814"
+    },
+    {
+      "title": "I made a real time fish identification app for scuba diving and snorkelling",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xx98ed/i_made_a_real_time_fish_identification_app_for/",
+      "published": "2026-11-15T22:52:20+00:00",
+      "summary": "I recently made a real time fish identification app for scuba diving and snorkelling with the help of Claude and Codex! The app works completely offline using on-device models that I fine tuned, since reception doesn’t travel underwater. It’s called FishSnapper and is available on iPhone . I had vibe coded a lot of stuff before, but this was my first time vibe training ML models. FishSnapper uses a pipeline of two models: a fine-tune of YOLO v9 for animal detection, and a fine-tune of BioCLIP 2.5 huge, which is a visual transformer, for classification. The data is largely from iNaturalist and includes some data I labelled for this project. Something like this would’ve taken me way more time without AI coding tools. I could focus on research and user experience, and offloaded most of the operational work to Claude and Codex: assembling datasets, building data labelling UIs, renting GPUs, training models in the cloud, iterating on the iOS app, and more. I initially had low expectations, ",
+      "author": "yayimahuman123"
+    }
+  ]
+}

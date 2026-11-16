@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/artificial",
+  "source_slug": "artificial",
+  "subreddit": "artificial",
+  "tags": [
+    "ai",
+    "news"
+  ],
+  "fetched_at": "2026-11-16T04:05:52.595129+00:00",
+  "items": [
+    {
+      "title": "Export-banned Nvidia chips are behind China's most powerful AI models — uh-oh, Jensen! | TechCrunch",
+      "url": "https://www.reddit.com/r/artificial/comments/1xx4t46/exportbanned_nvidia_chips_are_behind_chinas_most/",
+      "published": "2026-11-15T19:46:39+00:00",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "author": "IndependentCoast3974"
+    },
+    {
+      "title": "OpenAI Foundation Board Member: \"AI Accidents Will Soon Become the Leading Cause of Death for Humanity\" — BigGo Finance",
+      "url": "https://www.reddit.com/r/artificial/comments/1xxc7ah/openai_foundation_board_member_ai_accidents_will/",
+      "published": "2026-11-16T01:08:43+00:00",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "author": "ThereWas"
+    },
+    {
+      "title": "Are AI leaderboards even worth taking seriously anymore?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xwwdhv/are_ai_leaderboards_even_worth_taking_seriously/",
+      "published": "2026-11-15T14:07:58+00:00",
+      "summary": "Every time a new AI leaderboard drops theres suddenly a different model being called the best in the world and then you check another benchmark and the rankings are completely different. Gemini has been doing well in general chat rankings while Claude has been strong in coding, so apparently the best AI depends on which website you happen to open that morning. Kalshi even has a market on which AI model finishes November at number one and it got me thinking about how much these rankings actually reflect what people use every day. I mean a model can score high on some benchmark and still give you a garbage answer to a basic question. At this point I’d rather hear from people who use these tools for actual work instead of another company announcing it beat everyone by three points on some test. Has anyone here switched their main AI because of these rankings or are we just watching companies fight over numbers that barely change the experience? submitted by /u/Snappy-Domino4017 [link] [co",
+      "author": "Snappy-Domino4017"
+    },
+    {
+      "title": "Weight-space programming: an LLM edited another model's weights directly and lifted its math score from 7.9% to 48.1%",
+      "url": "https://www.reddit.com/r/artificial/comments/1xx4kit/weightspace_programming_an_llm_edited_another/",
+      "published": "2026-11-15T19:37:03+00:00",
+      "summary": "MIT researchers (Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab) had OpenAI's GPT-6 Astra edit the weights of a small Qwen model directly -- no gradient descent, no training data. Astra found the pattern behind the model's habit of repeating itself until it ran out of context, and removed it. The edit touched about 0.016% of the weights; the model's math score went from 7.9% to 48.1%. Three papers on the method landed on arXiv on November 6 (e.g. arXiv:2611.09382). Other demonstrations from the same batch: editing only 1,023 parameters improved an LLM by 29.45 points on MATH-500; Astra debugged robot policies by editing 65 token-embedding rows; and a Breakout-playing network built from the game's rules, with no training at all, outscored one trained for 500 million steps (517.4 vs 25.3). Some important caveats: the gain came mostly from fixing a bad habit, not from adding math knowledge -- before the edit 93% of the model's math answers hit the length limit, after it 33.1%. On a ",
+      "author": "winer666"
+    },
+    {
+      "title": "Could there be some hidden context behind this emphasis and nervous laugh?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xxf0tn/could_there_be_some_hidden_context_behind_this/",
+      "published": "2026-11-16T03:28:57+00:00",
+      "summary": "submitted by /u/Agitated_Size_1116 [link] [comments]",
+      "author": "Agitated_Size_1116"
+    },
+    {
+      "title": "An AI's notes for its next attempt told it to repeat the move that lost the game",
+      "url": "https://www.reddit.com/r/artificial/comments/1xxe7ie/an_ais_notes_for_its_next_attempt_told_it_to/",
+      "published": "2026-11-16T02:47:37+00:00",
+      "summary": "One developer let LLMs play The Money Spider, a 1988 detective gamebook, and watched what happened when they could retry. One route involves a hot-air balloon. Landing sounds sensible, but it means missing a clue needed about ten decisions later. By the time the game tells you you've lost, the balloon is long gone. The developer tried replacing the full history of previous attempts with notes the model wrote for itself. One model identified the missing clue, then wrote \"take the balloon trip and land when weather worsens\" as advice for next time. Its later attempts followed that advice. None of the runs using self-written notes won. Would you rather give an agent its full failure history or its own summary of what went wrong? I've put more of the experiment's results on my profile. submitted by /u/shoumikgoswami [link] [comments]",
+      "author": "shoumikgoswami"
+    },
+    {
+      "title": "made up 9 software brands and asked chatgpt and google ai mode for each one's price and founder, to see if they'd invent answers. 18 answers, none invented",
+      "url": "https://www.reddit.com/r/artificial/comments/1xwzvr9/made_up_9_software_brands_and_asked_chatgpt_and/",
+      "published": "2026-11-15T16:33:31+00:00",
+      "summary": "Everyone's complaining ai just makes stuff up (commonly: \"hallucinates\") and in public scoreboards they range from 1.8% to 77% based on what they're testing, etc. so we wondered if either one of them would invent something in a simple, verifiable question. We made up 9 names of software companies (zero product found with a google search for any of them) and Oct 19th queried both chatgpt and google ai mode (ie: google's chat answers) for the price and founder of each 18 answers, 0 made up Chatgpt couldn't verify it existed and asked for a website every time google ai mode said it didn't exist, and often suggested another product that existed (similar name), including one cosplay-design company, thimble forge. so we started with 10 names. cut 1 out. chatgpt found an hr document product called corvanta and ai mode found a brand of ambulance software. so, the name existed. taken by someone. and then with the real companies (26 of them). asked for founding year and HQ. checked on wikipedia.",
+      "author": "raja314"
+    },
+    {
+      "title": "The jagged edge of the AI boom — Stanford HAI on why AI's gains are so uneven",
+      "url": "https://www.reddit.com/r/artificial/comments/1xxbzrh/the_jagged_edge_of_the_ai_boom_stanford_hai_on/",
+      "published": "2026-11-16T00:58:49+00:00",
+      "summary": "Stanford HAI has a new piece on the 'jagged edge' of the AI boom: the gains are real, but they are wildly uneven. Some people and industries are transformed overnight; others see little change, or get the downsides first. The boom is not a rising tide — it is a jagged edge, and where you stand on it matters more than the average. That framing feels right. We keep arguing about whether AI is 'good' or 'bad' in the aggregate, when the honest answer is that it is great for some tasks and people, and rough for others — and the dividing line is not always skill or effort. Questions: - Where have you felt the 'jagged edge' most — a task AI made trivial, and one it made harder? - Is the unevenness temporary (the edge smooths out as tools improve) or structural (some work just fits AI better)? - What should we do about the people on the wrong side of the edge? For more AI news and rumors, check out r/AINewsRumors . submitted by /u/Dense_Primary629 [link] [comments]",
+      "author": "Dense_Primary629"
+    },
+    {
+      "title": "Question about governments bailouts",
+      "url": "https://www.reddit.com/r/artificial/comments/1xxaco3/question_about_governments_bailouts/",
+      "published": "2026-11-15T23:42:38+00:00",
+      "summary": "submitted by /u/theepi_pillodu [link] [comments]",
+      "author": "theepi_pillodu"
+    },
+    {
+      "title": "Meituan open-sourced LongCat-2.5, a 1.6T agent model, and the only deploy guide is for Huawei NPUs, not Nvidia",
+      "url": "https://www.reddit.com/r/artificial/comments/1xwx2hc/meituan_opensourced_longcat25_a_16t_agent_model/",
+      "published": "2026-11-15T14:37:57+00:00",
+      "summary": "Meituan just released the LongCat-2.5 weights under MIT: 1.6T total parameters, about 48B active per token, with text, image and video input. On their own table it scores 88.4 on Terminal Bench v2.1, right next to Claude Opus 5 at 89.1. On the harder Terminal Bench v4.0 the gap opens up: 38.5 vs 53.9 for Opus 5. The catch if you want to self-host is that the model card only documents NPU deployment, with no Nvidia path yet. As someone who builds small web projects, what I care about is that the API speaks both OpenAI and Anthropic formats, so testing it inside an existing agent setup is cheap. Has anyone run it in a real coding agent loop yet, and does it hold up outside the benchmarks? Source: https://huggingface.co/meituan-longcat/LongCat-2.5 submitted by /u/javimbuilds [link] [comments]",
+      "author": "javimbuilds"
+    }
+  ]
+}
