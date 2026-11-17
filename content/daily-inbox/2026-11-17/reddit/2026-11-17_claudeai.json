@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/ClaudeAI",
+  "source_slug": "claudeai",
+  "subreddit": "ClaudeAI",
+  "tags": [
+    "anthropic",
+    "claude"
+  ],
+  "fetched_at": "2026-11-17T04:03:17.910932+00:00",
+  "items": [
+    {
+      "title": "Discussion Hub for new Claude incident: Claude unable to join meetings on Nov 16, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxrt7p/discussion_hub_for_new_claude_incident_claude/",
+      "published": "2026-11-16T15:11:13+00:00",
+      "summary": "Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor and improve join reliability. Claude Meetings is now re-enabled for all Enterprise customers, though Claude may take a little longer than usual to join. Adding Claude to new calls and Auto-join remain paused for Team customers. We will share more updates as we expand capacity and begin restoring the feature for Team customers. Nov 17, 02:02 UTC Update - Claude may still be unable to join some calls in Claude Meetings (beta), and Auto-join remains paused. Calls already in progress and other Claude features are not affected. We expect this to take some time to fully resolve and will post an update when the status changes. Nov 16, 18:10 UTC Update - We have temporarily paused Auto-join while we work on this. Adding Claude to a call by hand is also affected. Calls already in progress are not affected. We will pro",
+      "author": "ClaudeAI-mod-bot"
+    },
+    {
+      "title": "How meetings will be in 2027:",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxptvv/how_meetings_will_be_in_2027/",
+      "published": "2026-11-16T13:50:26+00:00",
+      "summary": "Credits to u/Next-Drink for the picture Anthropic is making Claude the everything app imo, what do you guys think? Especially with the recent releases submitted by /u/Poatri_US [link] [comments]",
+      "author": "Poatri_US"
+    },
+    {
+      "title": "Started using Claude Meetings today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy3iuo/started_using_claude_meetings_today/",
+      "published": "2026-11-16T22:36:17+00:00",
+      "summary": "I'm a CTO of an investment fund and we are basically built on top of Anthropic. Over the last 2 years, all I've done is deprecated parts of our code base as Anthropic has rolled out new features. We don't use software at all anymore, everyone works out of Claude. I didn't pay much attention when meetings rolled out but got a chance to look at it today. First, it connects through Google Meet, so it knows who is talking. Secondly, it can call tools. That is a massive deal for us. We had a thirty minute call to discuss a few projects and talk over a few bids we were going to submit. Claude listens in to the meeting, goes into Notion and updates our projects as we talk, calls our MCP to update bids and the sends everyone a report at the end with what was done and any outstanding action items it couldn't do while we were talking. Our total spend is probably like ~$2500/ month? And half of that is me just spamming Fable 5.2 I've gone from working like 50 hours a week down to 25. I know this ",
+      "author": "g1ven2fly"
+    },
+    {
+      "title": "Nice try prompt injector!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy2wpr/nice_try_prompt_injector/",
+      "published": "2026-11-16T22:11:10+00:00",
+      "summary": "Claude caught and ratted out an attempted prompt injection, given this one seemed pretty harmless… submitted by /u/zekusmaximus [link] [comments]",
+      "author": "zekusmaximus"
+    },
+    {
+      "title": "Ask Claude: Any one else doing an AI powered quiet quitting?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy03qy/ask_claude_any_one_else_doing_an_ai_powered_quiet/",
+      "published": "2026-11-16T20:21:29+00:00",
+      "summary": "Just trying to find out if I'm not alone here. I am a senior dev in a mid sized company (Less than 100 people) My company decided a while ago that we'll do the \"AI thing\" (my words) and eventually we all got Claude Max accounts. By the time we got it, I was already on a Max plan for over a year on my own expenses (AI usage policies be damned). I have automated everything there ought to be automated: At this point I am just the pilot in a seriously autopilot machine that I built for myself. Then, any area I was allowed to dip my toe in, I showed the people in there how to actually automate the things that ought to be automated... And nothing happened. I am doing things in a week that mi colleagues do in 2 months (Because, you know, old skool). My manager is seriously out of his depth when it comes to actually managing the project we are in. Before it was not so much of a problem, but now he doesn't even understand the consequences of a task being done in a week rather than the normal 2 ",
+      "author": "Miserable_Region9340"
+    },
+    {
+      "title": "Inspired by the Abyssal Garden post, I gave Fable 5.2 the same kind of prompt and a critic subagent: a drivable Fiat Uno with a ladder on the roof, in one HTML file",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy28dk/inspired_by_the_abyssal_garden_post_i_gave_fable/",
+      "published": "2026-11-16T21:43:47+00:00",
+      "summary": "Drive it in your browser · Source and prompts on GitHub Free to play, nothing to install. It needs Chrome or Edge on a desktop, with WebGPU. Two days ago u/Any-Reputation8118 shared Abyssal Garden , the swimmable ocean in a 97 KB HTML file. What stuck with me was the prompt.txt in their repo: besides describing the scene, it tells Claude how to check its own work. I wanted to see if that structure still holds when the subject is something people know by heart, so I wrote my own prompt on the same skeleton and gave it to Fable 5.2. The car: a 1996 Fiat Uno Mille EP, two doors, light blue, with an aluminium ladder strapped to the roof. In Brazil the \"Uno with a ladder\" is a running joke: the beat-up work car that somehow passes everyone on the highway. So it got its own race track. What the prompt asked for Priorities in a fixed order for when they conflict: visual quality, matching the real car (I attached photos), stable frame rate, file size. No engine and no 3D or physics library. We",
+      "author": "Viktorkav"
+    },
+    {
+      "title": "I gave Claude Fable 5.2 a lazy LiDAR scan of my disaster of a basement and one prompt. It found the actual room under the junk and designed 4 priced shelving plans",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xy30gx/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/",
+      "published": "2026-11-16T22:15:21+00:00",
+      "summary": "Slide 1 is the scan. Yes, that's my basement. No, I didn't clean it first. That was kind of the point. I did one quick LiDAR pass, junk and all, and gave it to Claude Fable 5.2 with one prompt. Everything after that it did on its own: - Pulled the real room out of the mess: about 15.7 × 21.5 ft, with an 85 in ceiling that drops to 81 in at the window end - Rebuilt it in 3D and fit 4 shelving setups modelled on real products (Husky/Gorilla steel racks, Cambro rolling shelving, Seville chrome wire, Sam's Club Member's Mark plastic) - Rendered each one from 3 angles, worked out what goes on which wall, and priced it The results: - Sam's Club plastic: $420–490, 140 ft of shelf - Steel racks: $1,100–1,350, 142 ft - Chrome wire on wheels: $1,330–1,570, 160 ft, the most shelf space - Plastic on wheels: $4,000–5,000, which is apparently for people whose junk is worth more than mine The part that actually saved me: it flagged that a 77 in steel rack on the partition wall would have under 4 in o",
+      "author": "Sufficient-Storage87"
+    },
+    {
+      "title": "I gave Claude my grandfather’s 1945 WWII unit history book. It rebuilt his platoon’s war as an interactive 3D experience, and made all 2,655 men in the book searchable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxtf0m/i_gave_claude_my_grandfathers_1945_wwii_unit/",
+      "published": "2026-11-16T16:13:17+00:00",
+      "summary": "A few days ago someone here posted a tiny procedurally generated world built with Fable, and it motivated me to take action on an idea about a book I’ve had for years. The video is the 2-minute version; links to try it yourself (tap Play, sound on) are below. In 1945, weeks after the war ended, the men of the 106th Cavalry Group printed their own history in Augsburg, Germany. Their road from Normandy to Austria, written by the men who fought it, with rosters of nearly everyone in the unit. My grandfather, a lieutenant in B Troop, is named in it twice, both times in a forest attack in Lorraine on 4 October 1944. I never met him. I have his medals and that book, and the stories my relatives have shared with me about him. I wanted to see a taste of what he experienced in action. What I built with Claude: The short version (2½ min, interactive): that 4 October attack, built entirely in code in the browser: his platoon pinned down in the Forêt de Parroy, the tanks pushing in with hatches op",
+      "author": "Agile_Toe4400"
+    },
+    {
+      "title": "I was about to take a Blender course to learn how to make these videos… then Claude one-shotted this",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxodck/i_was_about_to_take_a_blender_course_to_learn_how/",
+      "published": "2026-11-16T12:41:03+00:00",
+      "summary": "I've been seeing those satisfying bouncing-ball audiovisual animations all over TikTok and YouTube Shorts, and I was actually planning to take a course to learn how to make them in Blender. But I figured, why not see what Claude can do first? So I gave it a shot, and this is what it managed to create in one go. Honestly, I was pretty impressed with the result. A few details: Tool: Claude + Blender Claude plan: The regular $20/month plan Render time: About 2 hours on my computer (my GPU is pretty weak 😅) Cloud rendering: Using something like RunPod could potentially cut the render time significantly, at an estimated cost of around $0.50. The funny thing is, I was genuinely considering spending hours learning how to make these from scratch, and this started as just a random experiment to see how far Claude could get. Obviously, there's still value in learning Blender properly, but it's pretty wild what you can prototype with AI now. Curious if anyone else here has been experimenting with",
+      "author": "Master_Metal_6549"
+    },
+    {
+      "title": "I'm a photogrammetry guy and this Eiffel Tower is not a scan: 3 days directing Fable 5.2 in Blender!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxqbuw/im_a_photogrammetry_guy_and_this_eiffel_tower_is/",
+      "published": "2026-11-16T14:11:36+00:00",
+      "summary": "I'm a 3D artist and I mostly do photogrammetry. I wanted to see how far Fable 5.2 can go on a real monument, so I spent three days directing it (high effort) in Blender 5.3 (with the official MCP). Claude wrote all the Python: the tower, the Paris around it, the film. I didn't model anything by hand. But it was not one prompt at all! (far, far from it) The first versions were not at the level I wanted, so I sent it back many times (\"it's still not a scan, keep improving\" really simple remarks), and I pointed out what was missing (no PBR maps, parts modelled differently from the real Eiffel Tower...). To check it, I compared the model on Fab with the French LiDAR survey (IGN, open data): median gap of 15 cm on 190k points. It's still a reconstruction from Eiffel's drawings of 1900, not a scan, and the rust and dirt are procedural. And it's still not perfect (especially at the top of the tower, but I'm going to work on it). Honestly I was really impressed by what it can do! And now I thi",
+      "author": "NicolasDiolez"
+    }
+  ]
+}

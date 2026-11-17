@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-17T04:00:19.737448+00:00",
+  "items": [
+    {
+      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "url": "https://latent.space/p/bfl",
+      "published": "2026-11-16T20:27:06+00:00",
+      "summary": "What can a model learn about the world by watching video and listening to it? Black Forest Labs trained FLUX 3 on images, video and audio together. Andreas Blattmann and Dustin Podell join swyx to explain why. A moving camera reveals the far side of an...",
+      "author": "Latent.Space"
+    }
+  ]
+}

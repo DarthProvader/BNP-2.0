@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Ars Technica AI",
+  "source_slug": "ars-technica-ai",
+  "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "tags": [
+    "news",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-17T04:00:29.355656+00:00",
+  "items": [
+    {
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "published": "2026-11-16T19:37:47+00:00",
+      "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+      "author": "Scharon Harding"
+    }
+  ]
+}

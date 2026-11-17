@@ -1,0 +1,83 @@
+{
+  "source_type": "reddit",
+  "source_name": "r/technology",
+  "source_slug": "technology",
+  "subreddit": "technology",
+  "tags": [
+    "tech",
+    "news"
+  ],
+  "fetched_at": "2026-11-17T04:06:00.387597+00:00",
+  "items": [
+    {
+      "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+      "url": "https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/",
+      "published": "2026-11-16T22:20:02+00:00",
+      "summary": "submitted by /u/thatfreshjive [link] [comments]",
+      "author": "thatfreshjive"
+    },
+    {
+      "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
+      "url": "https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/",
+      "published": "2026-11-17T01:00:56+00:00",
+      "summary": "submitted by /u/Master-Journalist888 [link] [comments]",
+      "author": "Master-Journalist888"
+    },
+    {
+      "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+      "url": "https://www.reddit.com/r/technology/comments/1xy0zz2/jensen_huang_passed_billions_in_nvidia_stock_to/",
+      "published": "2026-11-16T20:56:03+00:00",
+      "summary": "submitted by /u/Unusual-State1827 [link] [comments]",
+      "author": "Unusual-State1827"
+    },
+    {
+      "title": "Chase and other major banks hit by online outages",
+      "url": "https://www.reddit.com/r/technology/comments/1xxyqfz/chase_and_other_major_banks_hit_by_online_outages/",
+      "published": "2026-11-16T19:31:25+00:00",
+      "summary": "submitted by /u/ArgentineBeauty [link] [comments]",
+      "author": "ArgentineBeauty"
+    },
+    {
+      "title": "Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit",
+      "url": "https://www.reddit.com/r/technology/comments/1xy3aqe/users_admins_report_new_microsoft_365_outage_with/",
+      "published": "2026-11-16T22:26:53+00:00",
+      "summary": "submitted by /u/lurker_bee [link] [comments]",
+      "author": "lurker_bee"
+    },
+    {
+      "title": "I went to a math class at Caltech. The professor no longer grades homework because everyone's using AI.",
+      "url": "https://www.reddit.com/r/technology/comments/1xxr8bg/i_went_to_a_math_class_at_caltech_the_professor/",
+      "published": "2026-11-16T14:48:40+00:00",
+      "summary": "submitted by /u/lurker_bee [link] [comments]",
+      "author": "lurker_bee"
+    },
+    {
+      "title": "Microsoft Reveals How a Hidden Windows Bug Took Down Microsoft 365 Services Worldwide",
+      "url": "https://www.reddit.com/r/technology/comments/1xxnmnr/microsoft_reveals_how_a_hidden_windows_bug_took/",
+      "published": "2026-11-16T12:02:31+00:00",
+      "summary": "submitted by /u/TeamAlphaBOLD [link] [comments]",
+      "author": "TeamAlphaBOLD"
+    },
+    {
+      "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
+      "url": "https://www.reddit.com/r/technology/comments/1xy9znd/us_proposes_blocking_employers_from_sponsoring/",
+      "published": "2026-11-17T03:32:18+00:00",
+      "summary": "submitted by /u/codedude7 [link] [comments]",
+      "author": "codedude7"
+    },
+    {
+      "title": "Nvidia ordered to explain $12bn supply of AI chips to China",
+      "url": "https://www.reddit.com/r/technology/comments/1xy2eyu/nvidia_ordered_to_explain_12bn_supply_of_ai_chips/",
+      "published": "2026-11-16T21:51:00+00:00",
+      "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+      "author": "Just-Grocery-2229"
+    },
+    {
+      "title": "California Sues OpenAI After AI Agents Repeatedly Went Rogue",
+      "url": "https://www.reddit.com/r/technology/comments/1xy214k/california_sues_openai_after_ai_agents_repeatedly/",
+      "published": "2026-11-16T21:35:48+00:00",
+      "summary": "submitted by /u/tylerthe-theatre [link] [comments]",
+      "author": "tylerthe-theatre"
+    }
+  ]
+}

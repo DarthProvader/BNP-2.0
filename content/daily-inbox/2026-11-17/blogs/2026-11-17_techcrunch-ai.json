@@ -1,0 +1,104 @@
+{
+  "source_type": "blogs",
+  "source_name": "TechCrunch AI",
+  "source_slug": "techcrunch-ai",
+  "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "tags": [
+    "news",
+    "startups"
+  ],
+  "fetched_at": "2026-11-17T04:00:26.088573+00:00",
+  "items": [
+    {
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "published": "2026-11-16T22:32:32+00:00",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "published": "2026-11-16T21:03:02+00:00",
+      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+      "author": "Julie Bort"
+    },
+    {
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "published": "2026-11-16T19:07:13+00:00",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "author": "Russell Brandom"
+    },
+    {
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "published": "2026-11-16T18:12:02+00:00",
+      "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+      "author": "Amanda Silberling"
+    },
+    {
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "published": "2026-11-16T17:11:10+00:00",
+      "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "published": "2026-11-16T16:36:43+00:00",
+      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "author": "Zack Whittaker"
+    },
+    {
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "published": "2026-11-16T16:10:00+00:00",
+      "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+      "author": "Connie Loizos"
+    },
+    {
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "published": "2026-11-16T16:02:43+00:00",
+      "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+      "author": "Rebecca Bellan"
+    },
+    {
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "published": "2026-11-16T16:00:00+00:00",
+      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+      "author": "Ivan Mehta"
+    },
+    {
+      "title": "Audible turns to AI to help users discover audiobooks",
+      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+      "published": "2026-11-16T14:52:19+00:00",
+      "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+      "author": "Sarah Perez"
+    },
+    {
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "published": "2026-11-16T14:02:34+00:00",
+      "summary": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+      "author": "Ram Iyer"
+    },
+    {
+      "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+      "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+      "published": "2026-11-16T13:48:13+00:00",
+      "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+      "author": "Aisha Malik"
+    },
+    {
+      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "published": "2026-11-16T11:30:00+00:00",
+      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "author": "Jagmeet Singh"
+    }
+  ]
+}
