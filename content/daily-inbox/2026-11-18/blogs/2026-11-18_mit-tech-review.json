@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-11-18T04:00:31.374774+00:00",
+  "items": [
+    {
+      "title": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "published": "2026-11-17T13:39:46+00:00",
+      "summary": "To access a report, click on the corresponding image below.",
+      "author": "MIT Technology Review"
+    }
+  ]
+}

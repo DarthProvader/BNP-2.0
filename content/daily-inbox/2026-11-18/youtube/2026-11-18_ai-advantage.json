@@ -1,0 +1,31 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-11-18T04:00:09.918105+00:00",
+  "items": [
+    {
+      "title": "Claude Can Now Turn Ideas Into Visual Whiteboards",
+      "url": "https://www.youtube.com/shorts/hJH9TcNfrZY",
+      "published": "2026-11-17T15:27:01+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "claw whiteboards. They put that in here now. It's kind of exciting. So, you go to artifacts, you click whiteboard, and you click Ask Claude and give it an example. And you can see it open up and it starts laying things out. It's like this visual way to look at it. And I like this a lot. I mean, I think still that's the best way to kind of get your ideas out there and collaborate on them. It's a whiteboard.",
+      "transcript_lang": "en"
+    },
+    {
+      "title": "Google Sheets Has a New AI Competitor",
+      "url": "https://www.youtube.com/shorts/GELTqoccK5c",
+      "published": "2026-11-17T15:17:10+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": "Okay, so why is there a Sheets product in here if we already have a Sheets product that everybody knows and loves between, you know, Google Sheets or Excel? So, let's talk about that. When I click this, it gives you a editable spreadsheet as you would expect. It looks exactly like Google Sheets or Excel, and you literally have buttons to import from those down here to get you started. This thing is way more limited. This is kind of the whole thing you get. You get this bar and that's it. Versus Google Sheets, you know, it's kind of deep. Just the data tab has so many functions in here. So why should you be using these identical looking sheets that are now a different product? Well, it's essentially and who would have thought the fact that it's a sheet that is supposed to be used by AI and that's what the interface is designed for and it does a good job. You know, it does everything you would expect, but honestly, working inside of Google Sheets does that too with the Claude extension, which by the way, you can get other extensions, add-ons, get add-ons, and then you get the official Claude one by Anthropic. And then you can get a sidebar",
+      "transcript_lang": "en"
+    }
+  ]
+}
