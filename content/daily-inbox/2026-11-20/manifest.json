@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-20",
+  "files": [
+    "youtube/2026-11-20_ai-code-king.json",
+    "youtube/2026-11-20_ai-explained.json",
+    "youtube/2026-11-20_fantastic-future-yt.json",
+    "youtube/2026-11-20_fireship.json",
+    "youtube/2026-11-20_matt-wolfe.json",
+    "youtube/2026-11-20_theo-t3gg.json",
+    "blogs/2026-11-20_ars-technica-ai.json",
+    "blogs/2026-11-20_google-ai-blog.json",
+    "blogs/2026-11-20_openai-blog.json",
+    "blogs/2026-11-20_techcrunch-ai.json",
+    "blogs/2026-11-20_the-verge-ai.json",
+    "blogs/2026-11-20_wired-ai.json",
+    "podcasts/2026-11-20_latent-space.json"
+  ],
+  "status": "ready_for_article",
+  "pipeline": {
+    "article_model": "grok-4.5-fast",
+    "comments": [
+      {
+        "step": "opus",
+        "model": "grok-4.5-fast",
+        "label": "Claude Opus"
+      },
+      {
+        "step": "gpt",
+        "model": "grok-4.5-fast",
+        "label": "ChatGPT"
+      },
+      {
+        "step": "grok",
+        "model": "grok-4.5-fast",
+        "label": "Grok 4.5"
+      }
+    ]
+  }
+}
