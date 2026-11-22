@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-22T04:00:11.803641+00:00",
+  "items": [
+    {
+      "title": "I Built a Streaming Service Inside the Terminal",
+      "url": "https://www.youtube.com/shorts/oHLQj750M9U",
+      "published": "2026-11-21T14:00:16+00:00",
+      "summary": "Try ChatGPT + Codex: www.chatgpt.com/download/\nI built my own streaming service that runs entirely in the terminal, built by Codex running GPT-6 Astra. Go watch something: ssh terminal.movie 🍿\n@ChatGPT @OpenAI #ChatGPT_Partner #ad",
+      "author": "NetworkChuck",
+      "transcript": "I built my own streaming [music] service and it lives inside the terminal. If you want to watch a movie, and I know you do, you're going to SSH it. SSH terminal.Movie and boom, you're in the lobby. Get your popcorn, pick a movie. This entire thing, the app and every single scene was built [music] by Codeex running GPT6 Astra from planning to mockups. And by the way, I used their new spaces feature to see the mockups and the plans and all that. It was [music] sick. It did everything. It split up the jobs. Agents working on different parts of the app. Some agents just focused on movies. Speaking of, I went to the movies. I left my computer and I kicked the job off to the cloud. So, while I was sitting there eating popcorn, I could check in with my agent on my phone. This isn't just like copying the movie frame by frame. No, like we're drawing this. Me and [music] CEX, me and Astro, we drew this. It's our interpretation. But you know what? I miss watching TV with people [music] at the same time. A live channel. I made that. My laptop, my phone, your phone, your laptop, same frame, same second. Just like TV. I want to added commercials, but they're all for my [music] my stuff, my coffee and my academy. Now, this is live right now and you can use [music] it. What movie should I add next? Seriously, shout out to ChadBT from OpenAI for making this happen. They did sponsor this and they allowed me to nerd out and make something I wanted to make just for",
+      "transcript_lang": "en"
+    }
+  ]
+}
