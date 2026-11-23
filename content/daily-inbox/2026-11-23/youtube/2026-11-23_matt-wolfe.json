@@ -1,0 +1,22 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-11-23T04:00:03.766329+00:00",
+  "items": [
+    {
+      "title": "Google Cooked With This New Model!",
+      "url": "https://www.youtube.com/shorts/8RNSJ6Ud4nY",
+      "published": "2026-11-22T19:58:01+00:00",
+      "summary": "Sharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nResources From Today's Video:\n\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:",
+      "author": "Matt Wolfe",
+      "transcript": "This is probably the most surprising story in AI right now. Google just released a new model called Gemini 4 Neon. And a lot of the people have pretty much written Google off are now calling it one of the best models out there. And if you're paying for Gemini, it's already in your app. Now, Neon is just their midsize model and it's already scoring higher than their big one. on artificial analysis, which is an independent leaderboard. It's in third place overall, right behind the top models from Anthropic and OpenAI, and is number one on their coding agent test at about half the cost of Claude, which I don't think anybody really saw coming. And people are loving it. Matthew Burman called it the best model on the planet right now. And Theo said just a few days ago that OpenAI's new model was the worst one they've ever released. And now he's saying Neon might be his favorite model and that Google should have just called it Gemini 5. He tried to have OpenAI's models spend over a week trying to speed up one of his projects and it actually made it slower. And Neon did it in about 10 hours. I tested it this week also. I gave Neon and both new OpenAI models the exact same prompt. Build me a website that'll truly impress me. And both OpenAI models made pretty much the same deep sea site with jellyfish. And Neon made this watchmaker site where you can inspect the gears through a little magnifying glass, which I actually thought was really cool. Now, this new model's not perfect. Theo and Matthew both said it's a step behind on 3D stuff and things like games. And this is Google's fourth Gemini 4 model in about 7 weeks. They're naming them after elements. So, you know, maybe we've got about another 114 more to go. But for a while there, everybody was saying Google dropped the ball while Anthropic and OpenAI passed them. And I really think they caught up again. I don't think we can ever count out Google. So, share this with a friend who's into AI and click the follow button to see the coolest tech every",
+      "transcript_lang": "en"
+    }
+  ]
+}
