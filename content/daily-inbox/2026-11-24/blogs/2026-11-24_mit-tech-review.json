@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "MIT Technology Review AI",
+  "source_slug": "mit-tech-review",
+  "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "tags": [
+    "research",
+    "analysis"
+  ],
+  "fetched_at": "2026-11-24T04:00:32.541185+00:00",
+  "items": [
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "published": "2026-11-23T16:36:08+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral&#8230;",
+      "author": "James O'Donnell"
+    }
+  ]
+}

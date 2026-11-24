@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "Google AI Blog",
+  "source_slug": "google-ai-blog",
+  "feed_url": "https://blog.google/technology/ai/rss/",
+  "tags": [
+    "google",
+    "ai-research"
+  ],
+  "fetched_at": "2026-11-24T04:00:25.966738+00:00",
+  "items": [
+    {
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "published": "2026-11-23T16:00:00+00:00",
+      "summary": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "author": "Robby Stein"
+    }
+  ]
+}

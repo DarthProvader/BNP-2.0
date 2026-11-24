@@ -1,0 +1,55 @@
+{
+  "source_type": "blogs",
+  "source_name": "Wired AI",
+  "source_slug": "wired-ai",
+  "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tags": [
+    "news",
+    "culture"
+  ],
+  "fetched_at": "2026-11-24T04:00:34.153725+00:00",
+  "items": [
+    {
+      "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+      "published": "2026-11-23T16:52:56+00:00",
+      "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+      "author": "Kate Taylor"
+    },
+    {
+      "title": "Jensen Huang Is Back as Nvidia CEO",
+      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "published": "2026-11-23T13:27:35+00:00",
+      "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+      "author": "Caroline Haskins"
+    },
+    {
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "published": "2026-11-23T12:11:00+00:00",
+      "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
+      "author": "Emily Mullin"
+    },
+    {
+      "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+      "published": "2026-11-23T11:00:00+00:00",
+      "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+      "author": "Sandra Upson, Steven Levy, Lauren Goode"
+    },
+    {
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "published": "2026-11-23T10:00:00+00:00",
+      "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+      "author": "Maddy Varner"
+    },
+    {
+      "title": "Goodbye, World: The End of Programmers",
+      "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+      "published": "2026-11-23T09:00:00+00:00",
+      "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+      "author": "Sheon Han"
+    }
+  ]
+}

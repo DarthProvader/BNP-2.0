@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-11-24T04:00:04.022827+00:00",
+  "items": [
+    {
+      "title": "Believe it or not, this ISN’T AI",
+      "url": "https://www.youtube.com/shorts/u1ozwejEwBo",
+      "published": "2026-11-23T20:09:34+00:00",
+      "summary": "I've never seen a robot look THIS realistic before...\n\n#AI #futuretech",
+      "author": "Matt Wolfe",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-11-24T04:00:10.591325+00:00",
+  "items": [
+    {
+      "title": "Don’t Miss These ChatGPT Updates",
+      "url": "https://www.youtube.com/shorts/9iLQBxa5tXU",
+      "published": "2026-11-23T17:13:01+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Google’s Project Genie Turns Text Into Worlds",
+      "url": "https://www.youtube.com/shorts/-1KPQDIh1Ew",
+      "published": "2026-11-23T17:09:49+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "Is Astra 6.2 Medium Actually Good?",
+      "url": "https://www.youtube.com/shorts/5q3MN0krFWw",
+      "published": "2026-11-23T17:07:41+00:00",
+      "summary": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
