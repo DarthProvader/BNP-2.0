@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Theo - t3.gg",
+  "source_slug": "theo-t3gg",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA",
+  "tags": [
+    "dev",
+    "typescript",
+    "ai"
+  ],
+  "fetched_at": "2026-11-25T04:00:09.038223+00:00",
+  "items": [
+    {
+      "title": "Which One Should You Use: Fable 5.2 or Opus 5.5",
+      "url": "https://www.youtube.com/shorts/7XC1A1TXMok",
+      "published": "2026-11-24T19:00:10+00:00",
+      "summary": "Which Claude Model Should You Use? \n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\n#ai #coding #programming",
+      "author": "Theo - t3․gg",
+      "transcript": "Opus 55 is just a workhorse. It does exactly what it is told to do, whereas Fable tries a little too hard to be clever. It's like the really smart friend that sucks a little bit to work with, but really knows what the hell they're doing. And if you give them the right exciting problem, they'll come in and kill it. Opus is just the burly bodybuilder that's in there to move and it will move the out of things. It'll move things I didn't even think were removable.",
+      "transcript_lang": "en"
+    }
+  ]
+}
