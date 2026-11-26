@@ -1,0 +1,34 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-26T04:00:12.152931+00:00",
+  "items": [
+    {
+      "title": "No Routers. No Cables. Still Networking.",
+      "url": "https://www.youtube.com/shorts/E4787_kbfZw",
+      "published": "2026-11-26T00:32:49+00:00",
+      "summary": "Three routers, zero pings, two lines of EIGRP, all done in Boson NetSim right in the browser. A year of NetSim is 30% off through Nov 29: https://ntck.co/bosonnetsim #ad Thanks to Boson for sponsoring!​",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "you need to self-host Google Photos RIGHT NOW!!",
+      "url": "https://www.youtube.com/watch?v=Z9q4S0Phq_Q",
+      "published": "2026-11-25T13:45:27+00:00",
+      "summary": "Access your photos, your Immich server and your whole home lab from anywhere, for free, with Twingate: https://ntck.co/twingate_immich\n\nGoogle has pretty much every photo and video of my family's life sitting on its servers, and I'm done with that. So I replaced Google Photos with Immich, a free, open source photo app you host yourself, running on a spare laptop and an external hard drive. No cloud. It still gives me everything I wanted from Google Photos: automatic phone backup, memories, face recognition, a map, and AI search that runs locally, plus access from anywhere with Twingate. Then I show you my real family server, 19 terabytes of memories going back to 2006 on an old gaming PC with an RTX 3090, and how I back it all up. In this video you'll learn how to install Ubuntu Server and Docker, mount an external drive (and a NAS) so it survives a reboot, install Immich with Docker Compose, import the photos you already have, back up your phone automatically, reach your photos from a",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

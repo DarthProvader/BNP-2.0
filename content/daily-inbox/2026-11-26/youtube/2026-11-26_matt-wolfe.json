@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Matt Wolfe",
+  "source_slug": "matt-wolfe",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+  "tags": [
+    "ai-tools",
+    "news"
+  ],
+  "fetched_at": "2026-11-26T04:00:04.100873+00:00",
+  "items": [
+    {
+      "title": "I've never seen a drone do this...",
+      "url": "https://www.youtube.com/shorts/BWpsNrkt6Z4",
+      "published": "2026-11-25T15:37:45+00:00",
+      "summary": "This shape-shifting drone can bend, bounce off walls, and squeeze through spaces other drones could never fit through!\n\n#ai #futuretech #artificialintelligence",
+      "author": "Matt Wolfe",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

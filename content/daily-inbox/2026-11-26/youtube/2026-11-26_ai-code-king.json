@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-26T04:00:15.453817+00:00",
+  "items": [
+    {
+      "title": "Here's how to get BEST Results out of Gemini Neon for just $20/m",
+      "url": "https://www.youtube.com/watch?v=b3eUVzWLrOM",
+      "published": "2026-11-25T11:09:37+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll show why Gemini 4 Neon is one of the strongest daily driver coding models right now, failing only 0.82% of tool calls and 0.27% of edits in my PandaCode logs while ranking number 2 on KingBench 4. On Antigravity Ultra, it gives you roughly $330 of API value per 5-hour window, or over $4,800 a month on the $200 plan, yet Google's official Antigravity UI held it back in my testing. Then I'll walk through how free, open-source PandaCode connects through your existing agy CLI login across versions 0.3.89 to 0.3.140, and how 0.3.140 adds native approval modes, real usage-limit notices with live 5-hour, 7-day, and Monthly meters, Resume at reset, and automatic session recovery. Next, I'll cover daily tools like the Low to Extra High Effort picker, steering, queueing, turn diffs, the terminal, Git worktrees, and the built-in browser over HTTP MCP, before taking Neon to the moon with",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

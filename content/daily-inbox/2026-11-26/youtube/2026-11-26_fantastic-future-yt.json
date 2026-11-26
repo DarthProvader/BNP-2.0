@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-11-26T04:00:07.397825+00:00",
+  "items": [
+    {
+      "title": "Pracujeme ještě my, nebo už jen hlídáme AI?",
+      "url": "https://www.youtube.com/shorts/gIw1RkD9Y1Q",
+      "published": "2026-11-25T15:00:17+00:00",
+      "summary": "Celou odpověď uslyšíte 16. 12. na Fantastic Future Summitu ve Foru Karlín. Vstupenky na fantasticfuture.com/summit\n\n#FantasticFuture #AI #podcast",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}
