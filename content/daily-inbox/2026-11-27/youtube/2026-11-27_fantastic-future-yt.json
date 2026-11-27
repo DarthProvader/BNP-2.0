@@ -1,0 +1,31 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-11-27T04:00:06.850333+00:00",
+  "items": [
+    {
+      "title": "Čína hraje podle vlastních pravidel🇨🇳A Evropa na to doplácí",
+      "url": "https://www.youtube.com/shorts/md2w-UE4OyU",
+      "published": "2026-11-26T16:04:09+00:00",
+      "summary": "Evropské automobilky ztrácejí pozici na čínském trhu a světová ekonomika se postupně přepisuje. Nejde přitom jen o technologie nebo cenu, ale i o zásadně odlišné vnímání inovací, produktů a samotného byznysu.\n\nTo, že čínský přístup nechápeme nebo se nám nelíbí, ještě neznamená, že nebude formovat budoucnost.",
+      "author": "Fantastic Future Podcast",
+      "transcript": "v Číně prostě 10 let zpátky Evropa exportovala prostě 50% aut a teďka je tam možná na pár procentech, což je jako obrovskej dopad samozřejmě, ať už je to Porsche nebo VW nebo dalšího. Tak je to úplně jako přeprogramování toho světa a není to o tom jako fellingu. Když se přesně podíváš, jak ti Apple prezentuje produkt a jak ti ho prezentuje Oppo, tak Apple ti dá, co s tím můžeš dělat a jaký máš pocity a Oppo ti řekne, máme tady Hasselblad jako kameru a máme 100 200 megapixelů. Jo, to je prostě úplně odlišnej svět, úplně odlišný vnímání. A když najednou ty jako do tohohle světa exportuješ, tak je logický to, co pak vidíš u těch evropských automobilek, že najednou jako zavírají továrny a přemýšlejí, co s tím, protože nemají kam ty auta už jako posílat, jo. Pro ně jako něco zkopírovat je vlastně úplně v pořádku, tam jako to není špatně. Hlavně ti jako nabourá úplně to vnímání toho světa, že to, že se ti to nelíbí, neznamená, že ta věc nevznikne a že jako neexistuje. >> [hudba]",
+      "transcript_lang": "cs"
+    },
+    {
+      "title": "Chcete vědět, jak bude vypadat rok 2027? #fantasticfuture #podcast #ai",
+      "url": "https://www.youtube.com/shorts/yPcgputv16w",
+      "published": "2026-11-26T15:00:25+00:00",
+      "summary": "Zeptejte se lidí, kteří tvoří budoucnost. 16. 12. ve Foru Karlín. Vstupenky na fantasticfuture.com/summit",
+      "author": "Fantastic Future Podcast",
+      "transcript": "Ahoj, já jsem Lubo Šmíd a Fantastic Future podcast už děláme skoro dva roky a tak bylo na čase, aby to nebylo jenom o nás třech, ale abychom si pozvali taky zajímavé lidi, které máme okolo sebe. A přesně o tom bude Fantastic Future Summit 16. prosince ve Fóru Karlín, kde pozveme ty nejlepší lidi, kteří nám řeknou, jaká vlastně bude ta fantastická budoucnost. Tak se na vás budu moc těšit.",
+      "transcript_lang": "cs"
+    }
+  ]
+}
