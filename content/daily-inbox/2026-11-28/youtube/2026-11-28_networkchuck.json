@@ -1,0 +1,34 @@
+{
+  "source_type": "youtube",
+  "source_name": "NetworkChuck",
+  "source_slug": "networkchuck",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tags": [
+    "networking",
+    "ai",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-28T04:00:12.026466+00:00",
+  "items": [
+    {
+      "title": "you need to try Nod RIGHT NOW!! (n8n's open-source AI agent)",
+      "url": "https://www.youtube.com/watch?v=_rUMZwo_bY0",
+      "published": "2026-11-27T23:26:16+00:00",
+      "summary": "Deploy Nod on your own cloud server in 2 minutes with Hostinger, and use code NETWORKCHUCK for an extra discount: https://ntck.co/hostinger-nod\n\nn8n Labs just dropped an open-source, self-hosted AI agent called Nod, and its default security architecture is one of the best I have seen. Unlike hosted personal agents like OpenAI Dots, Grok Bot, and Claude Duet, Nod runs on hardware you control, works with any AI model (cloud, local, or the new Hostinger AI Router), and locks down the scariest part of personal AI agents: giving them your passwords and credit cards. In this video you'll learn how to deploy Nod on a Hostinger VPS in two minutes, how its under-the-hood architecture works (Pi inside Docker plus Vercel Labs' Agent Browser), how Nod blindfolds the agent whenever a password, 2FA code, or credit card security code gets entered, how its isolated dark-room security checker verifies your exact quote from the database before taking action, what happens when I try to trick it with a po",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    },
+    {
+      "title": "My 5-Step AI Setup (Steal This)",
+      "url": "https://www.youtube.com/shorts/oeDmO6Z-yns",
+      "published": "2026-11-27T11:00:05+00:00",
+      "summary": "Hostinger's Black Friday deal: the KVM 2 VPS is 67% off, and code NETWORKCHUCK takes another 10% off. Get it here: https://ntck.co/hostingerbf\n\nThe 5 things I use for the best AI setup: AI in your terminal (Claude Code or Codex), LifeOS, herdr, a VPS that's always up, and snapshots so you can roll it back.\nLifeOS: https://ourlifeos.ai/install\nherdr: https://herdr.dev\n\nWhat's in your AI setup? #ai #claudecode #sponsored",
+      "author": "NetworkChuck",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

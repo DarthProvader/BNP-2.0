@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Code King",
+  "source_slug": "ai-code-king",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+  "tags": [
+    "ai-coding",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-28T04:00:15.330516+00:00",
+  "items": [
+    {
+      "title": "Gemini 4 Neon + OpenMausBot is CRAZY!",
+      "url": "https://www.youtube.com/watch?v=HNNm7aw87jE",
+      "published": "2026-11-27T08:08:54+00:00",
+      "summary": "Join this channel to get access to perks:\nhttps://www.youtube.com/channel/@aicodeking/join\n\nIn this video, I'll walk through OpenMausBot, an open-source platform for teams of specialist bots, and show how its two-process, local-first setup keeps chats on your machine. I'll cover how it uses your existing Claude Code, Codex, or Grok account with zero token markup, plus its 31 built-in drivers and four-layer Markdown memory for each bot. Then I'll show how bots get hands through boat.dev cloud desktops, a Linux server you bring in BYO VPS mode, Local VM containers, host Cua control, and a three-tier browser. I'll walk through how Rooms route work with Jev or Clef, how to pause bots or departments, and how the CLI, 19-tool MCP server, 500+ Composio apps, five approval modes, automations, phone pairing, and voice calls fit into that workflow. Finally, I'll compare the $0 apps and CLI with paid MausBot Cloud, weigh OpenMausBot against Grok Bot, Meta Muse, OpenAI dots, Cue by Manus, and Inst",
+      "author": "AICodeKing",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fantastic Future",
+  "source_slug": "fantastic-future-yt",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfOkClRBE5jEgXB_e6GhCKA",
+  "tags": [
+    "ai",
+    "czech"
+  ],
+  "fetched_at": "2026-11-28T04:00:07.158204+00:00",
+  "items": [
+    {
+      "title": "Fantastic Future naživo. 16. 12. 2026 #podcast #fantasticfuture #techsummit #forumkarlin",
+      "url": "https://www.youtube.com/shorts/IIL8dJ4eeuM",
+      "published": "2026-11-27T15:00:37+00:00",
+      "summary": "Nejlepší věci nevznikají o samotě. Vstupenky na fantasticfuture.com/summit",
+      "author": "Fantastic Future Podcast",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

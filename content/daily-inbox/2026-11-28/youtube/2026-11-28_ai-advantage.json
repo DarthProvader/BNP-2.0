@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "AI Advantage",
+  "source_slug": "ai-advantage",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tags": [
+    "ai-tools",
+    "productivity"
+  ],
+  "fetched_at": "2026-11-28T04:00:10.448198+00:00",
+  "items": [
+    {
+      "title": "5 Game-Changing Ways to Use AI in 2026",
+      "url": "https://www.youtube.com/watch?v=ctv66dKRWnU",
+      "published": "2026-11-27T12:50:03+00:00",
+      "summary": "Join The AI Advantage Club\nhttps://joinaiaclub.com/igor\n\nGet the FREE Dots PDF\nhttps://learn.aiadvantage.com/free-ai...\n\n2026 has been a crazy year for AI. Here are the five changes that made the biggest difference in how I use it.\n\nI’ll show you how I use the “context sandwich” to give AI a clearer goal, how we make the animations you see on this channel, and how Nikita built a simple Loom-style screen recorder in 10 minutes.\n\nJoin me at AI Advantage LIVE on December 12 — it’s free\nhttps://live.aiadvantage.com/register-now\n\nHow I make animations with Claude (3-minute tutorial)\nhttps://www.youtube.com/watch?v=fS-88gtHXIg\n\nReverse Engineer Anything on GitHub\nhttps://github.com/morluto/rea\n\nChapters:\n0:00 What changed for everyday AI users in 2026\n0:54 Connect your apps and reuse workflows with skills\n3:19 Let AI use your computer\n5:10 Put a personal AI agent to work\n7:35 How I use the context sandwich\n9:07 Join me at AI Advantage LIVE\n9:35 Make animated explainers with Claude\n10:51 Buil",
+      "author": "The AI Advantage",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

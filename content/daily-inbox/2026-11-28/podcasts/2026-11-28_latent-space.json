@@ -1,0 +1,20 @@
+{
+  "source_type": "podcasts",
+  "source_name": "Latent Space",
+  "source_slug": "latent-space",
+  "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+  "tags": [
+    "ai-engineering",
+    "deep-dive"
+  ],
+  "fetched_at": "2026-11-28T04:00:20.732399+00:00",
+  "items": [
+    {
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+      "published": "2026-11-27T21:19:18+00:00",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+      "author": "Latent.Space"
+    }
+  ]
+}

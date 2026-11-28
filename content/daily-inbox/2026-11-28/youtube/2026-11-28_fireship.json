@@ -1,0 +1,23 @@
+{
+  "source_type": "youtube",
+  "source_name": "Fireship",
+  "source_slug": "fireship",
+  "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+  "tags": [
+    "dev",
+    "tutorials"
+  ],
+  "fetched_at": "2026-11-28T04:00:13.599620+00:00",
+  "items": [
+    {
+      "title": "The wild world of tech in 2027...",
+      "url": "https://www.youtube.com/watch?v=sPGzM3ktJVE",
+      "published": "2026-11-27T15:08:25+00:00",
+      "summary": "Get 67% off VPS hosting with Hostinger's Black Friday sale. Use code FIRESHIP for an extra discount - https://hostinger.com/fireship\n\nThe junior dev job is dead, open source is drowning in slop, and npm install is a gamble. Here are 10 trends every dev needs to watch in 2027 to avoid the permanent underclass.\n\nWant more Fireship?\n\n🗞️ Newsletter: https://bytes.dev\n🧠 Courses: https://fireship.dev",
+      "author": "Fireship",
+      "transcript": null,
+      "transcript_lang": null,
+      "transcript_attempts": 1
+    }
+  ]
+}

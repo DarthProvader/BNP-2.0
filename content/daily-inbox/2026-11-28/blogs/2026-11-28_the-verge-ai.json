@@ -1,0 +1,20 @@
+{
+  "source_type": "blogs",
+  "source_name": "The Verge AI",
+  "source_slug": "the-verge-ai",
+  "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "tags": [
+    "news",
+    "consumer"
+  ],
+  "fetched_at": "2026-11-28T04:00:28.867095+00:00",
+  "items": [
+    {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "published": "2026-11-27T13:00:00+00:00",
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and [&#8230;]",
+      "author": "Allison Johnson"
+    }
+  ]
+}
